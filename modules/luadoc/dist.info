@@ -1,0 +1,16 @@
+--- This dist file is part of LuaDist project
+
+name = "luadoc"
+version = "3.0.1"
+
+desc = "LuaDoc is a documentation tool for Lua source code"
+author = "Danilo Tuler, Tomás Guisasola"
+license = "MIT/X11"
+url = "http://luadoc.luaforge.net/"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1",
+	"lualogging >= 1.1.3",
+	"luafilesystem >= 1.2.1",
+}

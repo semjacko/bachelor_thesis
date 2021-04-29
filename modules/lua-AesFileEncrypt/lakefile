@@ -1,0 +1,37 @@
+PROJECT = 'AesFileEncrypt'
+
+INITLAKEFILE()
+
+DEFINES = L{DEFINES, 'USE_SHA1'}
+
+AesFileEncrypt = c.shared{PROJECT, 
+  base     = 'src',
+  src      = {'fileenc/*.c', '*.c'},
+  needs    = {LUA_NEED},
+  defines  = DEFINES,
+  dynamic  = DYNAMIC,
+  strip    = true,
+}
+
+AesFileEncryptTest = c.program{'test',
+  base     = J('src', 'fileenc');
+  src      = '*.c';
+  defines  = L{DEFINES, 'TEST'};
+  dynamic  = DYNAMIC;
+  strip    = true;
+}
+
+target('build', {AesFileEncrypt, AesFileEncryptTest})
+
+install = target('install', {
+  file.group{odir = LIBDIR;  src = AesFileEncrypt     };
+  file.group{odir = TESTDIR; src = AesFileEncryptTest };
+  file.group{odir = TESTDIR; src = J('test', '*')     };
+})
+
+target('test', install, function()
+  exec_test(AesFileEncryptTest.name)
+  run_test("test.lua")
+end)
+
+default('build')

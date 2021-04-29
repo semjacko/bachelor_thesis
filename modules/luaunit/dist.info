@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "luaunit"
+version = "1.4"
+
+desc = "A xUnit tests module for Lua."
+license = "BSD"
+url = "http://luaforge.net/projects/luaunit"
+author = "Philippe Fremy"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1"
+}

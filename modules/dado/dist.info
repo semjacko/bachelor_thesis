@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "dado"
+version = "1.5.0"
+
+desc = "Dado - Database Facilities for LuaSQL."
+author = "Tomás Guisasola, Eduardo Quintão"
+license = "MIT"
+url = "http://www.ccpa.puc-rio.br/software/dado/"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1"
+}

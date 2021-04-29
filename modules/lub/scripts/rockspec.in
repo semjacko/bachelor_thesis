@@ -1,0 +1,39 @@
+{% local lfs = require 'lfs' %}
+package = "{{lib.type}}"
+version = "{{lib.VERSION}}-1"
+source = {
+  url = "http://lubyk.org/archive/{{lib.type}}-REL-{{lib.VERSION}}.tar.gz",
+  dir = '{{lib.type}}-REL-{{lib.VERSION}}',
+}
+description = {
+  summary = "Lubyk base module.",
+  detailed = [[
+    lub: helper code, class declaration.
+
+    lub.Autoload: autoloading classes in modules.
+
+    lub.Dir: a simple directory traversal class.
+
+    lub.Template: a simple templating class that uses {{moustache}} like syntax.
+  ]],
+  homepage = "http://doc.lubyk.org/{{lib.type}}.html",
+  license = "MIT"
+}
+dependencies = {
+{% for _, v in ipairs(lib.DEPENDS) do %}
+  "{{v}}",
+{% end %}
+}
+build = {
+  type = 'builtin',
+  modules = {
+    -- Plain Lua files
+    {{string.format("[%-17s] = '%s/%s.lua'", "'"..lib.type.."'", lib.type, 'init')}},
+{% for file in lfs.dir(lib.type) do %}
+{% if file ~= 'init.lua' and file:match('.lua$') then file = file:sub(1, -5) %}
+    {{string.format("[%-17s] = '%s/%s.lua'", "'"..lib.type..'.'..file.."'", lib.type, file)}},
+{% end %}
+{% end %}
+  },
+}
+

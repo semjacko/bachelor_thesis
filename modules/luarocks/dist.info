@@ -1,0 +1,21 @@
+--- This file is part of LuaDist project
+
+name = "luarocks"
+version = "2.1.2"
+
+desc = "LuaRocks is a deployment and management system for Lua modules."
+author = "Hisham Muhammad"
+license = "MIT/X11"
+url = "http://www.luarocks.org"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua >= 5.1",
+--	"md5 >= 1.1",
+--	"lzlib >= 0.3",
+--	"luazip >= 1.2.3",
+--	"luasocket >= 2.0.2",
+--	"luasec >= 0.4",
+--	"unzip >= 6.0",
+--	"zip >= 3.0"
+}

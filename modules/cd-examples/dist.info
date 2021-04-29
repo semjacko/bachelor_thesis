@@ -1,0 +1,17 @@
+--- This file is part of LuaDist project
+
+name = "cd-examples"
+version = "5.5"
+
+desc = "Examples for CD (Canvas Draw) - a platform-independent graphics library."
+author = "Antonio Scuri"
+license = "Tecgraf Library License/MIT"
+url = "http://www.tecgraf.puc-rio.br/cd"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1",
+	"im >= 3.8",
+	"cd >= 5.5",
+	"iup >= 3.5",
+}

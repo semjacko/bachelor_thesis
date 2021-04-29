@@ -1,0 +1,13 @@
+--- This file is part of LuaDist project
+
+name = "ninja"
+version = "0.0.20120410"
+
+desc = "Fast minimalistic build system."
+author = "Evan Martin"
+license = "Apache"
+url = "http://martine.github.com/ninja/"
+maintainer = "David Manura"
+
+depends = {
+}

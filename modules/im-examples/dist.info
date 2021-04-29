@@ -1,0 +1,19 @@
+--- This file is part of LuaDist project
+
+name = "im-examples"
+version = "3.8"
+
+desc = "Examples for IM - a toolkit for Digital Imaging."
+author = "Antonio Scuri"
+license = "Tecgraf Library License/MIT"
+url = "http://www.tecgraf.puc-rio.br/im"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1",
+	"im >= 3.8",
+	"cd >= 5.5",
+	"iup >= 3.5",
+	"luafilesystem >= 1.0",
+	"luagl >= 1.0",
+}

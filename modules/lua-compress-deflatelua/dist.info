@@ -1,0 +1,17 @@
+
+name = "lua-compress-deflatelua"
+version = "0.1.0"
+
+desc = "compress.deflatelua - DEFLATE (RFC1951)/gunzip implemented in pure Lua"
+author = "David Manura"
+maintainer = "Peter Kapec"
+url = "https://github.com/davidm/lua-compress-deflatelua"
+license = "MIT"
+
+depends = {
+	"lua ~> 5.1",
+	"lua-digest-crc32lua >=0.1.0",
+	"lua-pythonic-optparse >=0.1.0",
+	"lua-bit-numberlua >=0.1.0",
+}
+

@@ -1,0 +1,16 @@
+--- This file is part of LuaDist projecte
+
+name = "xavante"
+version = "2.2.1"
+
+desc = "Lua Web Server Library"
+author = "Javier Guerra, André Carregal, Fábio Mascarenhas"
+license = "MIT/X11"
+url = "http://www.keplerproject.org/xavante"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"copas >= 1.1.5",
+	"luasocket >= 2.0",
+	"luafilesystem >= 1.5.0",
+}

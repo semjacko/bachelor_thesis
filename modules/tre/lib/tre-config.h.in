@@ -1,0 +1,43 @@
+/* tre-config.h.in.  This file has all definitions that are needed in
+   `tre.h'.  Note that this file must contain only the bare minimum
+   of definitions without the TRE_ prefix to avoid conflicts between
+   definitions here and definitions included from somewhere else. */
+
+/* Define to 1 if you have the <libutf8.h> header file. */
+#cmakedefine HAVE_LIBUTF8_H 1
+
+/* Define to 1 if the system has the type `reg_errcode_t'. */
+#cmakedefine HAVE_REG_ERRCODE_T 1
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#cmakedefine HAVE_SYS_TYPES_H 1
+
+/* Define to 1 if you have the <wchar.h> header file. */
+#cmakedefine HAVE_WCHAR_H 1
+
+/* Define if you want to enable approximate matching functionality. */
+#cmakedefine TRE_APPROX 1
+
+/* Define to enable multibyte character set support. */
+#cmakedefine TRE_MULTIBYTE 1
+
+/* Define to the absolute path to the system tre.h */
+#cmakedefine TRE_SYSTEM_REGEX_H_PATH @TRE_SYSTEM_REGEX_H_PATH@
+
+/* Define to include the system regex.h from tre.h */
+#cmakedefine TRE_USE_SYSTEM_REGEX_H 1
+
+/* Define to enable wide character (wchar_t) support. */
+#cmakedefine TRE_WCHAR 1
+
+/* TRE version string. */
+#cmakedefine TRE_VERSION @TRE_VERSION@
+
+/* TRE version level 1. */
+#cmakedefine TRE_VERSION_1 @TRE_VERSION_1@
+
+/* TRE version level 2. */
+#cmakedefine TRE_VERSION_2 @TRE_VERSION_2@
+
+/* TRE version level 3. */
+#cmakedefine TRE_VERSION_3 @TRE_VERSION_3@

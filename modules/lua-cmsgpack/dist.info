@@ -1,0 +1,13 @@
+-- LuaDist info file
+name = "lua-cmsgpack"
+version = "0.3.1"
+
+desc = "MessagePack C implementation for Lua"
+maintainer = "Matt Stancliff"
+author = "Salvatore Sanfilippo"
+license = "BSD two-clause license"
+url = "https://github.com/antirez/lua-cmsgpack"
+
+depends = {
+  "lua >= 5.1"
+}

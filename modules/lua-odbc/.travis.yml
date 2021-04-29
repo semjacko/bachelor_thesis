@@ -1,0 +1,40 @@
+language: erlang
+
+env:
+  global:
+    - PLATFORM=linux
+    - LUAROCKS_VER=2.1.0
+    - LUAODBC_TEST_DBMS=MySQL
+  matrix:
+    - LUA=lua5.1 LUA_SFX=
+    - LUA=lua5.2 LUA_SFX=
+    - LUA=luajit LUA_SFX=jit
+
+branches:
+  only:
+    - master
+
+before_install:
+  - bash .travis/setup_lua.sh
+  - mysql --version
+  - sudo apt-get install libmyodbc libsqliteodbc unixodbc unixodbc-dev
+
+install:
+  - sudo odbcinst -i -d -f /usr/share/libmyodbc/odbcinst.ini
+  - sudo odbcinst -i -s -l -f ./test/mytest.odbc.ini
+  - sudo luarocks install https://raw.github.com/moteus/lunit/moteus-skip/rockspecs/lunitx-scm.mot.skip-0.rockspec
+  - sudo luarocks make rockspec/odbc-scm-0.rockspec
+  - lua$LUA_SFX -e "odbc=require'odbc';odbc.environment():drivers(print)"
+  - lua$LUA_SFX -e "odbc=require'odbc';odbc.environment():datasources(print)"
+
+script:
+  - cd test/dba
+  - lunit.sh -i lua$LUA_SFX test.lua
+  - cd .. 
+  - lunit.sh -i lua$LUA_SFX test.lua
+  - lua$LUA_SFX luasql/test-luasql.lua
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always

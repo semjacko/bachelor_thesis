@@ -1,0 +1,47 @@
+PROJECT = 'pdh'
+
+INITLAKEFILE()
+
+WINVER = "0x0" .. IF(WINDOWS, WINVER or '502', '')
+
+lake.define_need('pdh', function()
+  return {
+    libs = {'pdh'};
+  }
+end)
+
+lake.define_need('psapi', function()
+  return {
+    libs = {'psapi', 'advapi32'};
+  }
+end)
+
+pdh = c.shared{'core',
+  base     = 'src',
+  src      = {'*.c'},
+  needs    = {LUA_NEED, 'pdh', 'psapi'},
+  def      = 'lpdh.def',
+  defines  = L{
+    DEFINES;
+    IF(WINDOWS,{
+      "WINVER="       .. WINVER;
+      "_WIN32_WINNT=" .. WINVER;
+    });
+  },
+  dynamic  = DYNAMIC,
+  strip    = true,
+}
+
+target('build', pdh)
+
+install = target('install', {
+  file.group{odir = LIBDIR; src = J('lua','*'); recurse=true};
+  file.group{odir = J(LIBDIR, PROJECT);  src = pdh};
+  file.group{odir = J(ROOT, 'examples'); src = J('examples','*'); recurse=true};
+})
+
+target('test', install, function()
+  run_test("test.lua")
+end)
+
+default('build')

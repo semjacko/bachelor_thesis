@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "wsapi_basic_auth"
+version = "0.1"
+
+desc = "HTTP Basic Authentication for WSAPI."
+author = "Hisham Muhammad"
+license = "MIT/X11"
+url = "http://github.com/keplerproject/wsapi_basic_auth"
+maintainer = "Peter Drahos"
+
+depends = {
+	"lua ~> 5.1",
+	"wsapi >= 1.5",
+}

@@ -1,0 +1,16 @@
+--- This file is part of LuaDist project
+
+name = "scite"
+version = "3.2.1"
+
+desc = "SciTE is a SCIntilla based Text Editor."
+author = "Neil Hodgson"
+license = "MIT style"
+url = "http://www.scintilla.org/SciTE.html"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1",
+	"scintilla >= 3.2.1",
+}
+-- WARNING: Minor modifications include default SciTE_HOME path set to ../share/scite/properties and rename of SciLexer.DLL to libscilexer.dll in LuaDist installation

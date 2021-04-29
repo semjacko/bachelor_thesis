@@ -1,0 +1,27 @@
+Revision history for lua-CodeGen
+
+0.3.0  Sat Mar  3 22:30:00 2012
+	work with Lua 5.2.0
+	add LuaDist support
+	INCOMPATIBILITY : now, the use of the following idiom is mandatory
+		local CodeGen = require 'CodeGen'
+
+0.2.3  Mon Nov 14 19:30:00 2011
+	- add an alternate implementation using LPeg
+
+0.2.2  Thu Jun 16 10:30:00 2011
+	- fix interpolate : handles the last line of a template even if no newline
+		(reported by Alejandro Mery)
+
+0.2.1  Fri Nov 26 10:30:00 2010
+	- fix compatibility with Lua 5.2.0 alpha
+
+0.2.0  Thu Sep  9 15:30:00 2010
+	- separator handles decimal escape sequence
+	- graph without ellipse shape
+	- fix render : don't alter the original table
+	- modify the syntax of template application
+		(avoid confusion with the method call in plain Lua)
+
+0.1.0  Mon Aug 30 10:30:00 2010
+	First release

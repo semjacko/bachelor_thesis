@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "winapi"
+version = "1.4.2"
+
+desc = "A useful Windows API subset for Lua"
+author = "Steve Donovan"
+license = "MIT/X11"
+url = "https://www.github.com/stevedonovan/winapi"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1"
+}

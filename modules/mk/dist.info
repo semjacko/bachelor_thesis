@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "mk"
+version = "0.1"
+
+desc = "A simple framework for Kepler applications."
+author = "Kepler Project"
+license = "MIT/X11"
+url = "http://www.lua.org"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"wsapi >= 1.2"
+}

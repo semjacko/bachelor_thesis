@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "orbit"
+version = "2.2"
+
+desc = "Orbit is a library for developing web applications according to the Model-View-Controller paradigm in Lua."
+author = "Kepler Project"
+license = "MIT/X11"
+url = "http://www.keplerproject.org/orbit"
+maintainer = "Peter Kapec, Peter Drahos"
+
+depends = {
+	"luafilesystem >= 1.5.0",
+	"lpeg >= 0.9",
+}

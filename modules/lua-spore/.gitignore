@@ -1,0 +1,14 @@
+
+/MANIFEST
+/*.tar
+/*.tar.gz
+/*.patch
+/*.bak
+/*.html
+/*.txt
+
+/luacov.*
+/*.lua
+/*.json
+/*.png
+

@@ -1,0 +1,13 @@
+
+name = "lua-codegen"
+version = "0.3.0"
+
+desc = "a template engine"
+author = "Francois Perrad"
+license = "MIT/X11"
+url = "http://fperrad.github.com/lua-CodeGen/"
+maintainer = "Francois Perrad"
+
+depends = {
+    "lua ~> 5.1",
+}

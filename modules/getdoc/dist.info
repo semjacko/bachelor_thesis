@@ -1,0 +1,14 @@
+--- This dist file is part of LuaDist project
+
+name = "lua-getdoc"
+version = "0.1"
+
+desc = "lua-getdoc extracts Lua comment and stores them in requirable tables"
+author = "Peter Mendel, Peter Kapec"
+license = "MIT"
+maintainer = "Peter Kapec"
+url = "https://github.com/pietro26/getdoc"
+
+depends = {
+	"lua ~> 5.1",
+}

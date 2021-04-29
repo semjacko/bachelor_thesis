@@ -1,0 +1,16 @@
+--- This file is part of the LuaDist project
+-- note: needs ext lib
+
+name = "alien"
+version = "0.7.0"
+
+desc = "Alien - Pure Lua extensions."
+author = "Fabio Mascarenhas"
+license = "MIT"
+url = "http://alien.luaforge.net"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1",
+	"libffi >=1.0"
+}

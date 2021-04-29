@@ -1,0 +1,9 @@
+#
+# Tests for header files
+#
+INCLUDE (CheckIncludeFiles)
+
+CHECK_INCLUDE_FILES (ifaddrs.h ZMQ_HAVE_IFADDRS)
+CHECK_INCLUDE_FILES (sys/uio.h ZMQ_HAVE_UIO)
+CHECK_INCLUDE_FILES (sys/eventfd.h ZMQ_HAVE_EVENTFD)
+CHECK_INCLUDE_FILES (alloca.h ZMQ_HAVE_ALLOCA)

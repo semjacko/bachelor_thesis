@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "say"
+version = "1.3"
+
+desc = "Lua String Hashing/Indexing Library"
+author = "Olivine Labs"
+license = "MIT/X11"
+url = "http://olivinelabs.com/busted/"
+maintainer = "Peter Drahoš"
+
+depends = {
+  "lua >= 5.1"
+}

@@ -1,0 +1,17 @@
+--- This file is part of LuaDist project
+
+name = "lua-git"
+version = "0.5"
+
+desc = "A library to access Git repositories and its objects (files, commits) in Lua"
+author = "Michal Kottman"
+license = "MIT/X11"
+url = "https://github.com/mkottman/lua-git"
+maintainer = "Michal Kottman"
+
+depends = {
+  "lua >= 5.1, < 5.3",
+  "luasocket >= 2.0.0",
+  "luafilesystem >= 1.6",
+  "zlib >= 1.2",
+}

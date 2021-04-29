@@ -1,0 +1,10 @@
+--- This file is part of LuaDist project
+
+name = "libzmq"
+version = "3.2.4"
+
+desc = "The 0MQ lightweight messaging kernel."
+author = "Zeromq Developers"
+license = "LGPL"
+url = "http://www.zeromq.org"
+maintainer = "Peter Drahoš"

@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "lua-zmq"
+version = "1.1"
+
+desc = "Lua bindings for the 0MQ library."
+author = "Robert G. Jakabosky"
+license = "MIT/X11"
+url = "http://www.lua.org"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1",
+	"libzmq >= 2.0"
+}

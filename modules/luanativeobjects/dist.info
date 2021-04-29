@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "luanativeobjects"
+version = "0.1"
+
+desc = "This is a bindings generator for Lua & LuaJIT2. It can be used to generator both standard Lua C API & LuaJIT2 FFI based bindings for C libraries."
+author = "Robert G. Jakabosky"
+license = "MIT/X11"
+url = "http://www.lua.org"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1",
+}

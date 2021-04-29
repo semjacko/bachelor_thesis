@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "coxpcall"
+version = "1.15.0"
+
+desc = "Coroutine safe xpcall and pcall"
+author = "Roberto Ierusalimschy, André Carregal, Thomas Harning Jr., Ignacio Burgueño, Gary NG, Fábio Mascarenhas"
+license = "MIT/X11"
+url = "http://coxpcall.luaforge.net"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua >= 5.1, < 5.3",
+}

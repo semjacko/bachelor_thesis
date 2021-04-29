@@ -1,0 +1,16 @@
+--- This file is part of LuaDist project
+
+name = "lua-xmlrpc"
+version = "1.2.1"
+
+desc = "LuaXMLRPC is a library of functions to deal with XML-RPC."
+author = "Roberto Ierusalimschy, André Carregal, Tomás Guisasola, Tim Niemueller"
+license = "Kepler"
+url = "http://www.keplerproject.org/luaxmlrpc/"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1",
+	"luaexpat >= 1.1",
+	"luasocket >= 2.0.2"
+}

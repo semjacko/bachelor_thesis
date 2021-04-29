@@ -1,0 +1,15 @@
+--- This file is part of Lubyk project
+
+name = "lub"
+version = "1.0.3"
+
+desc = "Lubyk base module (autoload, template, helpers)"
+author = "Gaspard Bucher"
+license = "MIT"
+url = "http://doc.lubyk.org/lub.html"
+maintainer = "Gaspard Bucher"
+
+depends = {
+  "lua >= 5.1, < 5.3",
+  "luafilesystem >= 1.5.0",
+}

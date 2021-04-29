@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "cgilua"
+version = "5.1.4"
+
+desc = "Tool for creating dynamic Web pages and manipulating data from Web forms."
+author = "Roberto Ierusalimschy, André Carregal, Tomás Guisasola and others"
+license = "Kepler"
+url = "http://www.keplerproject.org/cgilua/"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1",
+	"luafilesystem >= 1.5.0"
+}

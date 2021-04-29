@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "sigar"
+version = "1.6.4"
+
+desc = "System Information Gatherer And Reporter"
+author = "Hyperic"
+license = "Apache License"
+url = "https://github.com/hyperic/sigar"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1"
+}
+

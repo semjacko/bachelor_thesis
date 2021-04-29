@@ -1,0 +1,10 @@
+--- This file is part of LuaDist project
+
+name = "apr"
+version = "1.4.6"
+
+desc = "Consistent API to common platform specific features."
+license = "Apache and others (see LICENSE)"
+url = "http://www.apache.org/"
+maintainer = "David Manura"
+author = "The Apache Software Foundation"

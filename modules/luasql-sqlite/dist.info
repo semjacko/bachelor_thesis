@@ -1,0 +1,16 @@
+--- This file is part of LuaDist project
+
+name = "luasql-sqlite"
+version = "2.3.0"
+
+desc = "Database connectivity for Lua - SQLite driver"
+author = "Roberto Ierusalimschy, André Carregal, Tomás Guisasola"
+license = "Kepler"
+maintainer = "Peter Kapec"
+url = "http://www.keplerproject.org/luasql/"
+
+depends = {
+	"lua ~> 5.1",
+	"luasql-2.3.0",
+	"libsqlite > 2.8",
+}

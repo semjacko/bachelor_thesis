@@ -1,0 +1,18 @@
+--- This file is part of LuaDist project
+
+name = "wsapi"
+version = "1.5"
+
+desc = "WSAPI is an API that abstracts the web server from Lua web applications."
+author = "Fábio Mascarenhas, André Carregal"
+license = "MIT/X11"
+url = "http://wsapi.luaforge.net"
+maintainer = "Peter Kapec, Peter Drahos"
+
+depends = {
+	"luafilesystem >= 1.5.0",
+	"rings >= 1.2.3",
+	"coxpcall >= 1.13",
+	"fcgi >= 2.4",
+	"xavante >= 2.2.0",
+}

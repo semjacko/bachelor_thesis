@@ -1,0 +1,14 @@
+
+name = "lua-bit-numberlua"
+version = "0.1.0"
+
+desc = "bit.numberlua - Bitwise operators in pure Lua using Lua numbers"
+author = "David Manura"
+maintainer = "Peter Kapec"
+url = "https://github.com/davidm/lua-bit-numberlua"
+license = "MIT"
+
+depends = {
+	"lua ~> 5.1"
+}
+

@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# WARNING: This script assumes CMake 2.8.4+ and GCC/MinGW compiler is installed and available in system PATH.
+# Copyright (C) 2013 LuaDist
+# Redistribution and use of this file is allowed according to the terms of the MIT license.
+# For details see the COPYRIGHT file distributed with LuaDist.
+# Please note that the package source code is licensed under its own license.
+
+REPO=`dirname "$(cd ${0%/*} && echo $PWD/${0##*/})"`
+BOOT=$REPO/_bootstrap
+BUILD=$BOOT/tmp
+LUADIST=$BOOT/bin/luadist
+INSTALL=$REPO/_install
+
+echo "## This will build some LuaDist components TWO times!"
+
+mkdir -p "$BUILD" && cd "$BUILD" && cmake "$REPO" -DCMAKE_INSTALL_PREFIX="$BOOT"
+cmake --build "$BUILD" --target install -- -j6
+
+echo "## Bootstrap done, building LuaDist using LuaDist"
+
+$LUADIST "$INSTALL" install luadist-git -binary=false -source $@
+
+echo "## LuaDist is now built and can be found in the $INSTALL"

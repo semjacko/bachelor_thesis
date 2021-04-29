@@ -1,0 +1,15 @@
+
+
+name = "lua-digest-crc32lua"
+version = "0.1.0"
+
+desc = "digest.crc32lua - CRC-32 checksum implemented in pure Lua"
+author = "David Manura"
+maintainer = "Peter Kapec"
+url = "https://github.com/davidm/lua-digest-crc32lua"
+license = "MIT"
+
+depends = {
+	"lua ~>5.1",
+	"lua-bit-numberlua >=0.1.0",
+}

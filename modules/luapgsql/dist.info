@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "luapgsql"
+version = "1.0"
+
+desc = "Lua database connectivity to PostgreSQL"
+author = "Marc Balmer"
+license = "Copyright (C) Micro Systems Marc Balmer"
+maintainer = "Peter Drahos"
+url = "https://github.com/mbalmer/luapgsql"
+
+depends = {
+	"lua ~> 5.1",
+	"libpq > 8.0",
+}

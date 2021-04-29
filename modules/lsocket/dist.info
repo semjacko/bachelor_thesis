@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "lsocket"
+version = "1.0.1"
+
+desc = "Simple and easy socket support for lua."
+author = "Gunnar Zötl"
+license = "MIT/X11"
+url = "http://www.tset.de/lsocket/"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua >= 5.1"
+}

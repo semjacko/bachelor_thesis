@@ -1,0 +1,6 @@
+ChangeLog
+*.pc
+*.lo
+*.o
+*.so*
+*.a

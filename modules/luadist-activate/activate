@@ -1,0 +1,113 @@
+#!/bin/false
+# Script sets a bunch of environment variables for lua interpreter and
+# gcc compiler.
+#
+# To use it, place it into <luadist folder>/bin/activate and source it:
+# > source <luadist folder>/bin/activate
+
+
+# TODO LIST:
+#
+# 1) decorate PS1 with LuaDist folder name.
+
+
+deactivate () {
+
+    if [ -n "$_OLD_PATH" ] ; then
+        export PATH="$_OLD_PATH"
+    fi
+    unset _OLD_PATH
+
+    if [ -n "$_OLD_C_INCLUDE_PATH" ] ; then
+        export C_INCLUDE_PATH="$_OLD_C_INCLUDE_PATH"
+        test "-" = "$C_INCLUDE_PATH" && unset C_INCLUDE_PATH
+    fi
+    unset _OLD_C_INCLUDE_PATH
+
+    if [ -n "$_OLD_LUA_PATH" ] ; then
+        export LUA_PATH="$_OLD_LUA_PATH"
+        test "-" = "$LUA_PATH" && unset LUA_PATH
+    fi
+    unset _OLD_LUA_PATH
+
+    if [ -n "$_OLD_LUA_CPATH" ] ; then
+        export LUA_CPATH="$_OLD_LUA_CPATH"
+        test "-" = "$LUA_CPATH" && unset LUA_CPATH
+    fi
+    unset _OLD_LUA_CPATH
+
+    if [ -n "$_OLD_LD_LIBRARY_PATH" ] ; then
+        export LD_LIBRARY_PATH="$_OLD_LD_LIBRARY_PATH"
+        test "-" = "$LD_LIBRARY_PATH" && unset LD_LIBRARY_PATH
+    fi
+    unset _OLD_LD_LIBRARY_PATH
+
+    if [ -n "$_OLD_LIBRARY_PATH" ] ; then
+        export LIBRARY_PATH="$_OLD_LIBRARY_PATH"
+        test "-" = "$LIBRARY_PATH" && unset LIBRARY_PATH
+    fi
+    unset _OLD_LIBRARY_PATH
+
+    if [ -n "$_OLD_PS1" ] ; then
+        export PS1="$_OLD_PS1"
+    fi
+    unset _OLD_PS1
+
+    unset luadist
+    unset LUA_DIST_VIRTUAL
+
+    if [ ! "$1" = "nondestructive" ] ; then
+        # Self destruct!
+        unset -f deactivate
+    fi
+}
+
+deactivate nondestructive
+
+_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+LUA_VIRTUAL_PATH=`dirname $_SCRIPT_DIR`
+
+# bin path
+export _OLD_PATH="$PATH"
+PATH="$LUA_VIRTUAL_PATH/bin:$PATH"
+export PATH
+
+# path to C include
+test -n "$C_INCLUDE_PATH" \
+    && export _OLD_C_INCLUDE_PATH="$C_INCLUDE_PATH" \
+    || export _OLD_C_INCLUDE_PATH="-"
+C_INCLUDE_PATH="$LUA_VIRTUAL_PATH/include"
+export C_INCLUDE_PATH
+
+# lua path
+test -n "$LUA_PATH" \
+    && export _OLD_LUA_PATH="$LUA_PATH" \
+    || export _OLD_LUA_PATH="-"
+
+LUA_PATH="./?.lua;./?/init.lua;$LUA_VIRTUAL_PATH/lib/lua/?.lua;$LUA_VIRTUAL_PATH/lib/lua/?/init.lua"
+export LUA_PATH
+
+test -n "$LUA_CPATH" \
+    && export _OLD_LUA_CPATH="$LUA_CPATH" \
+    || export _OLD_LUA_CPATH="-"
+LUA_CPATH="$./?.so;$LUA_VIRTUAL_PATH/lib/lua/?.so;$LUA_VIRTUAL_PATH/lib/lua/loadall.so"
+export LUA_CPATH
+
+# lib path for loader and linker
+test -n "$LD_LIBRARY_PATH" \
+    && export _OLD_LD_LIBRARY_PATH="$LD_LIBRARY_PATH" \
+    || export _OLD_LD_LIBRARY_PATH="-"
+LD_LIBRARY_PATH="$LUA_VIRTUAL_PATH/lib:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH
+
+test -n "$LIBRARY_PATH" \
+    && export _OLD_LIBRARY_PATH="$LIBRARY_PATH" \
+    || export _OLD_LIBRARY_PATH="-" \
+LIBRARY_PATH="$LUA_VIRTUAL_PATH/lib"
+export LIBRARY_PATH
+
+# decorates PS1 to signal that this is altered shell
+export _OLD_PS1="$PS1"
+export PS1="(LuaDist)$PS1"
+
+export LUA_DIST_VIRTUAL=1

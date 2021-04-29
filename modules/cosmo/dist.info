@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "cosmo"
+version = "14.03.04"
+
+author = "Fabio Mascarenhas, Yuri Takhteyev"
+desc = "Safe templates for Lua"
+license = "MIT/X11"
+url = "http://cosmo.luaforge.net"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1",
+	"lpeg >= 0.9"
+}

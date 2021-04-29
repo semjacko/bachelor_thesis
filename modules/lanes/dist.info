@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "lanes"
+version = "3.9.6"
+
+desc = "Lanes is a lightweight, native, lazy evaluating multithreading library for Lua 5.1."
+author = "Asko Kauppi, Benoit Germain"
+license = "MIT"
+url = "https://github.com/LuaLanes/lanes"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua >= 5.1"
+}

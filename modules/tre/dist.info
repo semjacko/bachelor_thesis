@@ -1,0 +1,10 @@
+--- This file is part of LuaDist project
+
+name = "tre"
+version = "0.8.0"
+
+desc = "TRE is a lightweight, robust, and efficient POSIX compliant regexp matching library with some exciting features such as approximate (fuzzy) matching."
+author = "Ville Laurikari"
+license = "BSD"
+url = "http://laurikari.net/tre/about/"
+maintainer = "Peter Drahoš"

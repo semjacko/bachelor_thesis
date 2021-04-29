@@ -1,0 +1,16 @@
+--- This file is part of LuaDist project
+
+name = "luazip"
+version = "1.2.3"
+
+desc = "LuaZip is a lightweight Lua extension library used to read files stored inside zip files."
+author = "Danilo Tuler"
+license = "MIT/X11"
+url = "http://www.keplerproject.org/luazip/"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1",
+	"zlib >=1.2.3",
+	"libzzip >=0.13"
+}

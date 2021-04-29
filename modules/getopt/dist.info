@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "getopt"
+version = "0.1.1"
+
+desc = "getopt - Get command line options Lua module."
+author = "Dusan Saljic"
+maintainer = "Peter Kapec"
+url = "http://luaforge.net/projects/getopt/"
+license = "MIT"
+
+depends = {
+	"lua ~> 5.1"
+}

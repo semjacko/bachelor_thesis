@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "luaffi"
+version = "1.0-work1"
+
+desc = "Lua is a powerful, fast, light-weight, embeddable scripting language."
+author = "James R. McKaskill"
+license = "MIT/X11"
+url = "https://github.com/jmckaskill/luaffi"
+maintainer = "Peter Drahoš"
+
+depends = {
+  "lua ~> 5.1",
+}

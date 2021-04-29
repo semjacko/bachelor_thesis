@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "lua_cliargs"
+version = "3.0"
+
+desc = "This module adds support for accepting CLI arguments easily using multiple notations and argument types."
+author = "Ahmad Amireh"
+license = "MIT/X11"
+url = "https://github.com/amireh/lua_cliargs"
+maintainer = "Peter Drahoš"
+
+depends = {
+   "lua >= 5.1"
+}

@@ -1,0 +1,3 @@
+#!/bin/env lua
+-- gunziplua command-line utility
+require 'bin.gunziplua' (...)

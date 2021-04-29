@@ -1,0 +1,10 @@
+
+/MANIFEST
+/README.html
+/*.tar
+/*.bak
+/*.tar.gz
+
+*.db
+*.png
+luacov.*

@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "rings"
+version = "1.2.3"
+
+desc = "Create new Lua states from within Lua"
+author = "Roberto Ierusalimschy, Tomás Guisasola"
+license = "MIT/X11"
+url = "http://www.keplerproject.org/rings/"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1"
+}

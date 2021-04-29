@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "mediator_lua"
+version = "1.1.2"
+
+desc = "Event handling through channels"
+author = "Olivine Labs"
+license = "MIT <http://opensource.org/licenses/MIT>"
+url = "http://olivinelabs.com/mediator_lua/"
+maintainer = "Peter Kapec"
+
+depends = {
+  "lua >= 5.1"
+}
