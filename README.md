@@ -1,7 +1,14 @@
 ## Bakalárska práca
 # Využitie strojového učenie pri získavaní dát zo softvérových repozitárov
 
-Cieľom tejto bakalárskej práce je klasifikovať zdrojové kódy (programovacieho jazyka lua) do určitých tried.
+Cieľom tejto bakalárskej práce bolo klasifikovať zdrojové kódy (programovacieho jazyka lua) do určitých tried.
+
+## Obsah repozitára
+- `modules` adresár obsahuje lua moduly, z ktorých boli extrahované grafy
+- `data` adresár obsahuje už extrahované (a spracované) grafy vo formáte JSON
+- `extraction` adresár obsahuje zdrojové kódy použité k extrakcii grafov (extrahované grafy sa už nachádzajú v adresári `data`)
+- `classification` adresár obsahuje jupyter notebooks k vytvoreniu modelu (klasifikátoru) a jeho následnému použitiu na extrahovaných grafoch
+
 
 ## Extrakcia grafov zo zdrojových kódov.
 Pri tomto kroku som nadviazal na doterajšie práce a použil extraktor z existujúceho projektu https://team05-19.studenti.fiit.stuba.sk/docs/projekt/develop/dokumentacia_k_produktu/dokumentacia_k_zdrojovemu_kodu/.
