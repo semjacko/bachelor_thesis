@@ -1,0 +1,309 @@
+{
+  "_filename": "manyclnt.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasys/test/sock/manyclnt.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "requires",
+    "to": 18
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "requires",
+    "to": 28
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "manyclnt",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function ev_cb(evq, evid, fd, R)\r\n    local s = tostring(fd)\r\n    if not R then\r\n\tassert(fd:write(s))\r\n\tassert(evq:mod_socket(evid, 'r'))\r\n    else\r\n\tlocal line = fd:read()\r\n\tif line ~= s then\r\n\t    error(\"got: \" .. tostring(line)\r\n\t\t.. \" expected: \" .. s)\r\n\tend\r\n\r\n\tiskt = iskt + 1\r\n\tif nclnt - iskt < 1 then\r\n\t    -- close all sockets\r\n\t    for i = 1, nclnt do\r\n\t\tevid = askt[i]\r\n\t\tevq:del(evid)\r\n\t\tfd:close()\r\n\t    end\r\n\tend\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local s = tostring(fd)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "if not R then\r\n\tassert(fd:write(s))\r\n\tassert(evq:mod_socket(evid, 'r'))\r\n    else\r\n\tlocal line = fd:read()\r\n\tif line ~= s then\r\n\t    error(\"got: \" .. tostring(line)\r\n\t\t.. \" expected: \" .. s)\r\n\tend\r\n\r\n\tiskt = iskt + 1\r\n\tif nclnt - iskt < 1 then\r\n\t    -- close all sockets\r\n\t    for i = 1, nclnt do\r\n\t\tevid = askt[i]\r\n\t\tevq:del(evid)\r\n\t\tfd:close()\r\n\t    end\r\n\tend\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "assert(fd:write(s))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "assert(evq:mod_socket(evid, 'r'))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "local line = fd:read()",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "if line ~= s then\r\n\t    error(\"got: \" .. tostring(line)\r\n\t\t.. \" expected: \" .. s)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "error(\"got: \" .. tostring(line)\r\n\t\t.. \" expected: \" .. s)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "iskt = iskt + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "if nclnt - iskt < 1 then\r\n\t    -- close all sockets\r\n\t    for i = 1, nclnt do\r\n\t\tevid = askt[i]\r\n\t\tevq:del(evid)\r\n\t\tfd:close()\r\n\t    end\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "for i = 1, nclnt do\r\n\t\tevid = askt[i]\r\n\t\tevq:del(evid)\r\n\t\tfd:close()\r\n\t    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 13,
+    "text": "evid = askt[i]",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "evq:del(evid)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "fd:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 18,
+    "text": "sys",
+    "type": "module"
+  }, {
+    "id": 19,
+    "text": "inet_pton",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "msec",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "addr",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "event_queue",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "handle",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "sock",
+    "type": "module"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

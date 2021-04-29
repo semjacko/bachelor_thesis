@@ -1,0 +1,1145 @@
+{
+  "_filename": "pop.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/pop.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 96
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 82,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 82,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 82,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 82,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 82,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 82,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 82,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 60
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 64
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 70
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 82
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 105
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 106
+  }, {
+    "from": 105,
+    "label": "initializes",
+    "to": 107
+  }, {
+    "from": 106,
+    "label": "initializes",
+    "to": 108
+  }, {
+    "from": 106,
+    "label": "initializes",
+    "to": 104
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 110
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 111
+  }, {
+    "from": 110,
+    "label": "initializes",
+    "to": 112
+  }, {
+    "from": 112,
+    "label": "assigns",
+    "to": 113
+  }, {
+    "from": 113,
+    "label": "assigns",
+    "to": 114
+  }, {
+    "from": 114,
+    "label": "assigns",
+    "to": 115
+  }, {
+    "from": 110,
+    "label": "initializes",
+    "to": 116
+  }, {
+    "from": 116,
+    "label": "assigns",
+    "to": 117
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 118
+  }, {
+    "from": 118,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 119
+  }, {
+    "from": 119,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 120
+  }, {
+    "from": 109,
+    "label": "represents",
+    "to": 121
+  }, {
+    "from": 120,
+    "label": "provides",
+    "to": 121
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "pop",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "uri",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function testcase:test_pop_parse_1 ()\r\n    local uri = assert(URI:new(\"Pop://rg@MAILSRV.qualcomm.COM\"))\r\n    is(\"pop://rg@mailsrv.qualcomm.com\", tostring(uri))\r\n    is(\"pop\", uri:scheme())\r\n    is(\"rg\", uri:userinfo())\r\n    is(\"mailsrv.qualcomm.com\", uri:host())\r\n    is(110, uri:port())\r\n    is(\"rg\", uri:pop_user())\r\n    is(\"*\", uri:pop_auth())\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function testcase:test_pop_parse_2 ()\r\n    local uri = assert(URI:new(\"pop://rg;AUTH=+APOP@mail.eudora.com:8110\"))\r\n    is(\"pop://rg;auth=+APOP@mail.eudora.com:8110\", tostring(uri))\r\n    is(\"rg;auth=+APOP\", uri:userinfo())\r\n    is(\"mail.eudora.com\", uri:host())\r\n    is(8110, uri:port())\r\n    is(\"rg\", uri:pop_user())\r\n    is(\"+APOP\", uri:pop_auth())\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function testcase:test_pop_parse_3 ()\r\n    local uri = assert(URI:new(\"pop://baz;AUTH=SCRAM-MD5@foo.bar\"))\r\n    is(\"pop://baz;auth=SCRAM-MD5@foo.bar\", tostring(uri))\r\n    is(\"baz;auth=SCRAM-MD5\", uri:userinfo())\r\n    is(\"foo.bar\", uri:host())\r\n    is(110, uri:port())\r\n    is(\"baz\", uri:pop_user())\r\n    is(\"SCRAM-MD5\", uri:pop_auth())\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function testcase:test_pop_normalize ()\r\n    local uri = assert(URI:new(\"Pop://Baz;Auth=*@Foo.Bar:110\"))\r\n    is(\"pop://Baz@foo.bar\", tostring(uri))\r\n    is(\"Baz\", uri:userinfo())\r\n    is(\"foo.bar\", uri:host())\r\n    is(110, uri:port())\r\n    is(\"Baz\", uri:pop_user())\r\n    is(\"*\", uri:pop_auth())\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function testcase:test_pop_set_user ()\r\n    local uri = assert(URI:new(\"pop://host\"))\r\n    is(nil, uri:pop_user(\"foo ;bar\"))\r\n    is(\"pop://foo%20%3Bbar@host\", tostring(uri))\r\n    assert_error(\"empty user not allowed\", function () uri:pop_user(\"\") end)\r\n    is(\"foo ;bar\", uri:pop_user(nil))\r\n    is(nil, uri:pop_user())\r\n    is(\"pop://host\", tostring(uri))\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function testcase:test_pop_set_user_bad ()\r\n    local uri = assert(URI:new(\"pop://foo@host\"))\r\n    assert_error(\"empty user not allowed\", function () uri:pop_user(\"\") end)\r\n    is(\"foo\", uri:pop_user())\r\n    is(\"pop://foo@host\", tostring(uri))\r\n    uri = assert(URI:new(\"pop://foo;auth=+APOP@host\"))\r\n    assert_error(\"user required when auth specified\",\r\n                 function () uri:pop_user(nil) end)\r\n    is(\"foo\", uri:pop_user())\r\n    is(\"+APOP\", uri:pop_auth())\r\n    is(\"pop://foo;auth=+APOP@host\", tostring(uri))\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function testcase:test_pop_set_auth ()\r\n    local uri = assert(URI:new(\"pop://user@host\"))\r\n    is(\"*\", uri:pop_auth(\"foo ;bar\"))\r\n    is(\"pop://user;auth=foo%20%3Bbar@host\", tostring(uri))\r\n    is(\"foo ;bar\", uri:pop_auth(\"*\"))\r\n    is(\"*\", uri:pop_auth())\r\n    is(\"pop://user@host\", tostring(uri))\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function testcase:test_pop_set_auth_bad ()\r\n    local uri = assert(URI:new(\"pop://host\"))\r\n    assert_error(\"auth not allowed without user\",\r\n                 function () uri:pop_auth(\"+APOP\") end)\r\n    uri:pop_user(\"user\")\r\n    assert_error(\"empty auth not allowed\", function () uri:pop_auth(\"\") end)\r\n    assert_error(\"nil auth not allowed\", function () uri:pop_auth(nil) end)\r\n    is(\"pop://user@host\", tostring(uri))\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function testcase:test_pop_bad_syntax ()\r\n    is_bad_uri(\"path not empty\", \"pop://foo@host/\")\r\n    is_bad_uri(\"user empty\", \"pop://@host\")\r\n    is_bad_uri(\"user empty with auth\", \"pop://;auth=+APOP@host\")\r\n    is_bad_uri(\"auth empty\", \"pop://user;auth=@host\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function testcase:test_set_userinfo ()\r\n    local uri = assert(URI:new(\"pop://host\"))\r\n    is(nil, uri:userinfo(\"foo ;bar\"))\r\n    is(\"pop://foo%20%3Bbar@host\", tostring(uri))\r\n    is(\"foo%20%3Bbar\", uri:userinfo(\"foo;auth=+APOP\"))\r\n    is(\"pop://foo;auth=+APOP@host\", tostring(uri))\r\n    is(\"foo;auth=+APOP\", uri:userinfo(\"foo;AUTH=+APOP\"))\r\n    is(\"pop://foo;auth=+APOP@host\", tostring(uri))\r\n    is(\"foo;auth=+APOP\", uri:userinfo(\"bar;auth=*\"))\r\n    is(\"pop://bar@host\", tostring(uri))\r\n    is(\"bar\", uri:userinfo(nil))\r\n    is(\"pop://host\", tostring(uri))\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function testcase:test_set_userinfo_bad ()\r\n    local uri = assert(URI:new(\"pop://host\"))\r\n    assert_error(\"empty userinfo\", function () uri:userinfo(\"\") end)\r\n    assert_error(\"empty user with auth\",\r\n                 function () uri:userinfo(\";auth=*\") end)\r\n    assert_error(\"empty auth on its own\",\r\n                 function () uri:userinfo(\";auth=\") end)\r\n    assert_error(\"empty auth with user\",\r\n                 function () uri:userinfo(\"foo;auth=\") end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function testcase:test_set_path ()\r\n    local uri = assert(URI:new(\"pop://host\"))\r\n    is(\"\", uri:path(\"\"))\r\n    is(\"\", uri:path(nil))\r\n    is(\"\", uri:path())\r\n    assert_error(\"non-empty path\", function () uri:path(\"/\") end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function () uri:pop_user(\"\") end",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function () uri:pop_user(\"\") end",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function () uri:pop_user(nil) end",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "function () uri:pop_auth(\"+APOP\") end",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "function () uri:pop_auth(\"\") end",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "function () uri:pop_auth(nil) end",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "function () uri:userinfo(\"\") end",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "function () uri:userinfo(\";auth=*\") end",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "function () uri:userinfo(\";auth=\") end",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "function () uri:userinfo(\"foo;auth=\") end",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "function () uri:path(\"/\") end",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 28,
+    "text": "function M.default_port () return 110 end",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 30,
+    "text": "local function _update_userinfo (self, old, new)\r\n    if new then\r\n        local _, _, user, auth = new:find(\"^(.*);[Aa][Uu][Tt][Hh]=(.*)$\")\r\n        if not user then user = new end\r\n        if user == \"\" then return \"pop user name must not be empty\" end\r\n        user = Util.uri_encode(user, _POP_USERINFO_ENCODE)\r\n        if auth then\r\n            if auth == \"\" then return \"pop auth type must not be empty\" end\r\n            if auth == \"*\" then auth = nil end\r\n            auth = Util.uri_encode(auth, _POP_USERINFO_ENCODE)\r\n        end\r\n        new = user .. (auth and \";auth=\" .. auth or \"\")\r\n    end\r\n\r\n    if new ~= old then M._SUPER.userinfo(self, new) end\r\n    return nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "if new then\r\n        local _, _, user, auth = new:find(\"^(.*);[Aa][Uu][Tt][Hh]=(.*)$\")\r\n        if not user then user = new end\r\n        if user == \"\" then return \"pop user name must not be empty\" end\r\n        user = Util.uri_encode(user, _POP_USERINFO_ENCODE)\r\n        if auth then\r\n            if auth == \"\" then return \"pop auth type must not be empty\" end\r\n            if auth == \"*\" then auth = nil end\r\n            auth = Util.uri_encode(auth, _POP_USERINFO_ENCODE)\r\n        end\r\n        new = user .. (auth and \";auth=\" .. auth or \"\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "local _, _, user, auth = new:find(\"^(.*);[Aa][Uu][Tt][Hh]=(.*)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "if not user then user = new end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "user = new",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "if user == \"\" then return \"pop user name must not be empty\" end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "user = Util.uri_encode(user, _POP_USERINFO_ENCODE)",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "if auth then\r\n            if auth == \"\" then return \"pop auth type must not be empty\" end\r\n            if auth == \"*\" then auth = nil end\r\n            auth = Util.uri_encode(auth, _POP_USERINFO_ENCODE)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "if auth == \"\" then return \"pop auth type must not be empty\" end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "if auth == \"*\" then auth = nil end",
+    "type": "statement:if"
+  }, {
+    "id": 40,
+    "text": "auth = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "auth = Util.uri_encode(auth, _POP_USERINFO_ENCODE)",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "new = user .. (auth and \";auth=\" .. auth or \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "if new ~= old then M._SUPER.userinfo(self, new) end",
+    "type": "statement:if"
+  }, {
+    "id": 44,
+    "text": "M._SUPER.userinfo(self, new)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 46,
+    "text": "function M.init (self)\r\n    if M._SUPER.path(self) ~= \"\" then\r\n        return nil, \"pop URIs must have an empty path\"\r\n    end\r\n\r\n    local userinfo = M._SUPER.userinfo(self)\r\n    local err = _update_userinfo(self, userinfo, userinfo)\r\n    if err then return nil, err end\r\n\r\n    return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "if M._SUPER.path(self) ~= \"\" then\r\n        return nil, \"pop URIs must have an empty path\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 48,
+    "text": "local userinfo = M._SUPER.userinfo(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 49,
+    "text": "local err = _update_userinfo(self, userinfo, userinfo)",
+    "type": "statement:localassign"
+  }, {
+    "id": 50,
+    "text": "if err then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "function M.userinfo (self, ...)\r\n    local old = M._SUPER.userinfo(self)\r\n\r\n    if select('#', ...) > 0 then\r\n        local new = ...\r\n        local err = _update_userinfo(self, old, new)\r\n        if err then error(err) end\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "local old = M._SUPER.userinfo(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 54,
+    "text": "if select('#', ...) > 0 then\r\n        local new = ...\r\n        local err = _update_userinfo(self, old, new)\r\n        if err then error(err) end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 55,
+    "text": "local new = ...",
+    "type": "statement:localassign"
+  }, {
+    "id": 56,
+    "text": "local err = _update_userinfo(self, old, new)",
+    "type": "statement:localassign"
+  }, {
+    "id": 57,
+    "text": "if err then error(err) end",
+    "type": "statement:if"
+  }, {
+    "id": 58,
+    "text": "error(err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 60,
+    "text": "function M.path (self, new)\r\n    if new and new ~= \"\" then error(\"POP URIs must have an empty path\") end\r\n    return \"\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 61,
+    "text": "if new and new ~= \"\" then error(\"POP URIs must have an empty path\") end",
+    "type": "statement:if"
+  }, {
+    "id": 62,
+    "text": "error(\"POP URIs must have an empty path\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 64,
+    "text": "local function _decode_userinfo (self)\r\n    local old = M._SUPER.userinfo(self)\r\n    if not old then return nil, nil end\r\n    local _, _, old_user, old_auth = old:find(\"^(.*);auth=(.*)$\")\r\n    if not old_user then old_user = old end\r\n    return old_user, old_auth\r\nend",
+    "type": "function"
+  }, {
+    "id": 65,
+    "text": "if not old then return nil, nil end",
+    "type": "statement:if"
+  }, {
+    "id": 66,
+    "text": "local _, _, old_user, old_auth = old:find(\"^(.*);auth=(.*)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 67,
+    "text": "if not old_user then old_user = old end",
+    "type": "statement:if"
+  }, {
+    "id": 68,
+    "text": "old_user = old",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 70,
+    "text": "function M.pop_user (self, ...)\r\n    local old_user, old_auth = _decode_userinfo(self)\r\n\r\n    if select('#', ...) > 0 then\r\n        local new = ...\r\n        if new == \"\" then error(\"pop user name must not be empty\") end\r\n        if not new and old_auth then\r\n            error(\"pop user name required when an auth type is specified\")\r\n        end\r\n        if new then\r\n            new = Util.uri_encode(new, _POP_USERINFO_ENCODE)\r\n            if old_auth then new = new .. \";auth=\" .. old_auth end\r\n        end\r\n        M._SUPER.userinfo(self, new)\r\n    end\r\n\r\n    return Util.uri_decode(old_user)\r\nend",
+    "type": "function"
+  }, {
+    "id": 71,
+    "text": "local old_user, old_auth = _decode_userinfo(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 72,
+    "text": "if select('#', ...) > 0 then\r\n        local new = ...\r\n        if new == \"\" then error(\"pop user name must not be empty\") end\r\n        if not new and old_auth then\r\n            error(\"pop user name required when an auth type is specified\")\r\n        end\r\n        if new then\r\n            new = Util.uri_encode(new, _POP_USERINFO_ENCODE)\r\n            if old_auth then new = new .. \";auth=\" .. old_auth end\r\n        end\r\n        M._SUPER.userinfo(self, new)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 73,
+    "text": "if new == \"\" then error(\"pop user name must not be empty\") end",
+    "type": "statement:if"
+  }, {
+    "id": 74,
+    "text": "error(\"pop user name must not be empty\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 75,
+    "text": "if not new and old_auth then\r\n            error(\"pop user name required when an auth type is specified\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 76,
+    "text": "error(\"pop user name required when an auth type is specified\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 77,
+    "text": "if new then\r\n            new = Util.uri_encode(new, _POP_USERINFO_ENCODE)\r\n            if old_auth then new = new .. \";auth=\" .. old_auth end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 78,
+    "text": "new = Util.uri_encode(new, _POP_USERINFO_ENCODE)",
+    "type": "statement:assign"
+  }, {
+    "id": 79,
+    "text": "if old_auth then new = new .. \";auth=\" .. old_auth end",
+    "type": "statement:if"
+  }, {
+    "id": 80,
+    "text": "new = new .. \";auth=\" .. old_auth",
+    "type": "statement:assign"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 82,
+    "text": "function M.pop_auth (self, ...)\r\n    local old_user, old_auth = _decode_userinfo(self)\r\n\r\n    if select('#', ...) > 0 then\r\n        local new = ...\r\n        if not new or new == \"\"\r\n            then error(\"pop auth type must not be empty\")\r\n        end\r\n        if new == \"*\" then new = nil end\r\n        if new and not old_user then\r\n            error(\"pop auth type can't be specified without user name\")\r\n        end\r\n        if new then\r\n            new = old_user .. \";auth=\" ..\r\n                  Util.uri_encode(new, _POP_USERINFO_ENCODE)\r\n        else\r\n            new = old_user\r\n        end\r\n        M._SUPER.userinfo(self, new)\r\n    end\r\n\r\n    return old_auth and Util.uri_decode(old_auth) or \"*\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 83,
+    "text": "if select('#', ...) > 0 then\r\n        local new = ...\r\n        if not new or new == \"\"\r\n            then error(\"pop auth type must not be empty\")\r\n        end\r\n        if new == \"*\" then new = nil end\r\n        if new and not old_user then\r\n            error(\"pop auth type can't be specified without user name\")\r\n        end\r\n        if new then\r\n            new = old_user .. \";auth=\" ..\r\n                  Util.uri_encode(new, _POP_USERINFO_ENCODE)\r\n        else\r\n            new = old_user\r\n        end\r\n        M._SUPER.userinfo(self, new)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 84,
+    "text": "if not new or new == \"\"\r\n            then error(\"pop auth type must not be empty\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 85,
+    "text": "error(\"pop auth type must not be empty\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 86,
+    "text": "if new == \"*\" then new = nil end",
+    "type": "statement:if"
+  }, {
+    "id": 87,
+    "text": "new = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 88,
+    "text": "if new and not old_user then\r\n            error(\"pop auth type can't be specified without user name\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 89,
+    "text": "error(\"pop auth type can't be specified without user name\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 90,
+    "text": "if new then\r\n            new = old_user .. \";auth=\" ..\r\n                  Util.uri_encode(new, _POP_USERINFO_ENCODE)\r\n        else\r\n            new = old_user\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 91,
+    "text": "new = old_user .. \";auth=\" ..\r\n                  Util.uri_encode(new, _POP_USERINFO_ENCODE)",
+    "type": "statement:assign"
+  }, {
+    "id": 92,
+    "text": "new = old_user",
+    "type": "statement:assign"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 94,
+    "text": "uri_decode",
+    "type": "global function"
+  }, {
+    "id": 95,
+    "text": "uri_encode",
+    "type": "global function"
+  }, {
+    "id": 96,
+    "text": "subclass_of",
+    "type": "global function"
+  }, {
+    "id": 97,
+    "text": "M._SUPER.path",
+    "type": "global function"
+  }, {
+    "id": 98,
+    "text": "M._SUPER.userinfo",
+    "type": "global function"
+  }, {
+    "id": 99,
+    "text": "TestCase",
+    "type": "global function"
+  }, {
+    "id": 100,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 101,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 102,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 103,
+    "text": "run",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "interface"
+  } ]
+}

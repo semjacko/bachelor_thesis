@@ -1,0 +1,401 @@
+{
+  "_filename": "zmq.nobj.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-zmq/zmq.nobj.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 24,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 25,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 26,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 28,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 30,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 31,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 32,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 33,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 34,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 35,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 41
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "zmq",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "zmq_msg_t.init",
+    "type": "global function"
+  }, {
+    "id": 4,
+    "text": "zmq_msg_t.init_size",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "zmq_msg_t",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "sleep",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "ZMQ_Poller",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "zmq_msg_t.init_data",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "stopwatch_start",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "c_call",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "sys_include",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "var_out",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "include",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "set_variable_format",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "c_module",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "ffi_source",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "c_source",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "c_function",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "subfiles",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "export_definitions",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "var_in",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require container"
+  } ]
+}

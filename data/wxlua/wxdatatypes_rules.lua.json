@@ -1,0 +1,333 @@
+{
+  "_filename": "wxdatatypes_rules.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wxlua/bindings/wxwidgets/wxdatatypes_rules.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "assigns",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "assigns",
+    "to": 20
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "assigns",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "assigns",
+    "to": 24
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "assigns",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "assigns",
+    "to": 28
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "assigns",
+    "to": 34
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 36
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "assigns",
+    "to": 38
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 40
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "wxdatatypes_rules",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

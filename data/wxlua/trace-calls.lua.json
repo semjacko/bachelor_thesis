@@ -1,0 +1,281 @@
+{
+  "_filename": "trace-calls.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/wxlua/modules/lua/test/trace-calls.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "assigns",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 30
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "trace-calls",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function hook(event)\r\n local t=debug.getinfo(3)\r\n io.write(level,\" >>> \",string.rep(\" \",level))\r\n if t~=nil and t.currentline>=0 then io.write(t.short_src,\":\",t.currentline,\" \") end\r\n t=debug.getinfo(2)\r\n if event==\"call\" then\r\n  level=level+1\r\n else\r\n  level=level-1 if level<0 then level=0 end\r\n end\r\n if t.what==\"main\" then\r\n  if event==\"call\" then\r\n   io.write(\"begin \",t.short_src)\r\n  else\r\n   io.write(\"end \",t.short_src)\r\n  end\r\n elseif t.what==\"Lua\" then\r\n-- table.foreach(t,print)\r\n  io.write(event,\" \",t.name or \"(Lua)\",\" <\",t.linedefined,\":\",t.short_src,\">\")\r\n else\r\n io.write(event,\" \",t.name or \"(C)\",\" [\",t.what,\"] \")\r\n end\r\n io.write(\"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local t=debug.getinfo(3)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "io.write(level,\" >>> \",string.rep(\" \",level))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "if t~=nil and t.currentline>=0 then io.write(t.short_src,\":\",t.currentline,\" \") end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "io.write(t.short_src,\":\",t.currentline,\" \")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "t=debug.getinfo(2)",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "if event==\"call\" then\r\n  level=level+1\r\n else\r\n  level=level-1 if level<0 then level=0 end\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "level=level+1",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "level=level-1",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "if level<0 then level=0 end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "level=0",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "if t.what==\"main\" then\r\n  if event==\"call\" then\r\n   io.write(\"begin \",t.short_src)\r\n  else\r\n   io.write(\"end \",t.short_src)\r\n  end\r\n elseif t.what==\"Lua\" then\r\n-- table.foreach(t,print)\r\n  io.write(event,\" \",t.name or \"(Lua)\",\" <\",t.linedefined,\":\",t.short_src,\">\")\r\n else\r\n io.write(event,\" \",t.name or \"(C)\",\" [\",t.what,\"] \")\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "if event==\"call\" then\r\n   io.write(\"begin \",t.short_src)\r\n  else\r\n   io.write(\"end \",t.short_src)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "io.write(\"begin \",t.short_src)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "io.write(\"end \",t.short_src)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "io.write(event,\" \",t.name or \"(Lua)\",\" <\",t.linedefined,\":\",t.short_src,\">\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "io.write(event,\" \",t.name or \"(C)\",\" [\",t.what,\"] \")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "io.write(\"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 22,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "getinfo",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "sethook",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "rep",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

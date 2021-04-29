@@ -1,0 +1,793 @@
+{
+  "_filename": "response.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wsapi/src/wsapi/response.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 73
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 74
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 55
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 61
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 78
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 78,
+    "label": "initializes",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "assigns",
+    "to": 81
+  }, {
+    "from": 78,
+    "label": "initializes",
+    "to": 82
+  }, {
+    "from": 82,
+    "label": "assigns",
+    "to": 83
+  }, {
+    "from": 78,
+    "label": "initializes",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "assigns",
+    "to": 85
+  }, {
+    "from": 78,
+    "label": "initializes",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "assigns",
+    "to": 87
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 77,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "response",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "util",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function methods.__index(tab, name)\r\n  local func\r\n  if methods[name] then\r\n    func = methods[name]\r\n  else\r\n    local route_name = name:match(\"link_([%w_]+)\")\r\n    if route_name then\r\n      func = function (self, query, ...)\r\n         return tab:route_link(route_name, query, ...)\r\n       end\r\n    end\r\n  end\r\n  tab[name] = func\r\n  return func\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function methods:write(...)\r\n  for _, s in ipairs{ ... } do\r\n    if type(s) == \"table\" then\r\n      self:write(unpack(s))\r\n    elseif s then\r\n      local s = tostring(s)\r\n      self.body[#self.body+1] = s\r\n      self.length = self.length + #s\r\n    end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "for _, s in ipairs{ ... } do\r\n    if type(s) == \"table\" then\r\n      self:write(unpack(s))\r\n    elseif s then\r\n      local s = tostring(s)\r\n      self.body[#self.body+1] = s\r\n      self.length = self.length + #s\r\n    end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 6,
+    "text": "if type(s) == \"table\" then\r\n      self:write(unpack(s))\r\n    elseif s then\r\n      local s = tostring(s)\r\n      self.body[#self.body+1] = s\r\n      self.length = self.length + #s\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "self:write(unpack(s))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "local s = tostring(s)",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "self.body[#self.body+1] = s",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "self.length = self.length + #s",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function methods:forward(url)\r\n  self.env.PATH_INFO = url or self.env.PATH_INFO\r\n  return \"MK_FORWARD\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "self.env.PATH_INFO = url or self.env.PATH_INFO",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function methods:finish()\r\n  self.headers[\"Content-Length\"] = self.length\r\n  return self.status, self.headers, coroutine.wrap(function ()\r\n    for _, s in ipairs(self.body) do\r\n     coroutine.yield(s)\r\n    end\r\n  end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "self.headers[\"Content-Length\"] = self.length",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "for _, s in ipairs(self.body) do\r\n     coroutine.yield(s)\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 19,
+    "text": "coroutine.yield(s)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "local function optional (what, name)\r\n  if name ~= nil and name ~= \"\" then\r\n    return format(\"; %s=%s\", what, name)\r\n  else\r\n    return \"\"\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "if name ~= nil and name ~= \"\" then\r\n    return format(\"; %s=%s\", what, name)\r\n  else\r\n    return \"\"\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "local function make_cookie(name, value)\r\n  local options = {}\r\n  if type(value) == \"table\" then\r\n    options = value\r\n    value = value.value\r\n  end\r\n  local cookie = name .. \"=\" .. util.url_encode(value)\r\n  if options.expires then\r\n    local t = date(\"!%A, %d-%b-%Y %H:%M:%S GMT\", options.expires)\r\n    cookie = cookie .. optional(\"expires\", t)\r\n  end\r\n  cookie = cookie .. optional(\"path\", options.path)\r\n  cookie = cookie .. optional(\"domain\", options.domain)\r\n  cookie = cookie .. optional(\"secure\", options.secure)\r\n  return cookie\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "local options = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if type(value) == \"table\" then\r\n    options = value\r\n    value = value.value\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "options = value",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "value = value.value",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "local cookie = name .. \"=\" .. util.url_encode(value)",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "if options.expires then\r\n    local t = date(\"!%A, %d-%b-%Y %H:%M:%S GMT\", options.expires)\r\n    cookie = cookie .. optional(\"expires\", t)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "local t = date(\"!%A, %d-%b-%Y %H:%M:%S GMT\", options.expires)",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "cookie = cookie .. optional(\"expires\", t)",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "cookie = cookie .. optional(\"path\", options.path)",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "cookie = cookie .. optional(\"domain\", options.domain)",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "cookie = cookie .. optional(\"secure\", options.secure)",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "function methods:set_cookie(name, value)\r\n  local cookie = self.headers[\"Set-Cookie\"]\r\n  if type(cookie) == \"table\" then\r\n    table.insert(self.headers[\"Set-Cookie\"], make_cookie(name, value))\r\n  elseif type(cookie) == \"string\" then\r\n    self.headers[\"Set-Cookie\"] = { cookie, make_cookie(name, value) }\r\n  else\r\n    self.headers[\"Set-Cookie\"] = make_cookie(name, value)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "local cookie = self.headers[\"Set-Cookie\"]",
+    "type": "statement:localassign"
+  }, {
+    "id": 39,
+    "text": "if type(cookie) == \"table\" then\r\n    table.insert(self.headers[\"Set-Cookie\"], make_cookie(name, value))\r\n  elseif type(cookie) == \"string\" then\r\n    self.headers[\"Set-Cookie\"] = { cookie, make_cookie(name, value) }\r\n  else\r\n    self.headers[\"Set-Cookie\"] = make_cookie(name, value)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 40,
+    "text": "table.insert(self.headers[\"Set-Cookie\"], make_cookie(name, value))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "self.headers[\"Set-Cookie\"] = { cookie, make_cookie(name, value) }",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "self.headers[\"Set-Cookie\"] = make_cookie(name, value)",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "function methods:delete_cookie(name, path)\r\n  self:set_cookie(name, { value =  \"xxx\", expires = 1, path = path })\r\nend",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "self:set_cookie(name, { value =  \"xxx\", expires = 1, path = path })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 47,
+    "text": "function methods:redirect(url)\r\n  self.status = 302\r\n  self.headers[\"Location\"] = url\r\n  self.body = {}\r\n  return self:finish()\r\nend",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "self.status = 302",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "self.headers[\"Location\"] = url",
+    "type": "statement:assign"
+  }, {
+    "id": 50,
+    "text": "self.body = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "function methods:content_type(type)\r\n  self.headers[\"Content-Type\"] = type\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "self.headers[\"Content-Type\"] = type",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 55,
+    "text": "function new(status, headers)\r\n  status = status or 200\r\n  headers = headers or {}\r\n  if not headers[\"Content-Type\"] then\r\n    headers[\"Content-Type\"] = \"text/html\"\r\n  end\r\n  return setmetatable({ status = status, headers = headers, body = {}, length = 0 }, methods)\r\nend",
+    "type": "function"
+  }, {
+    "id": 56,
+    "text": "status = status or 200",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "headers = headers or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "if not headers[\"Content-Type\"] then\r\n    headers[\"Content-Type\"] = \"text/html\"\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 59,
+    "text": "headers[\"Content-Type\"] = \"text/html\"",
+    "type": "statement:assign"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 61,
+    "text": "function ()\r\n    for _, s in ipairs(self.body) do\r\n     coroutine.yield(s)\r\n    end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 64,
+    "text": "function url_encode(str)\r\n  if not str then return nil end\r\n  str = string.gsub (str, \"\\n\", \"\\r\\n\")\r\n  str = string.gsub (str, \"([^%w ])\",\r\n        function (c) return string.format (\"%%%02X\", string.byte(c)) end)\r\n  str = string.gsub (str, \" \", \"+\")\r\n  return str\r\nend",
+    "type": "function"
+  }, {
+    "id": 65,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "date",
+    "type": "global function"
+  }, {
+    "id": 68,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 69,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 70,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 71,
+    "text": "yield",
+    "type": "global function"
+  }, {
+    "id": 72,
+    "text": "wrap",
+    "type": "global function"
+  }, {
+    "id": 73,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 74,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 75,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 76,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

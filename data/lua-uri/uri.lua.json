@@ -1,0 +1,3389 @@
+{
+  "_filename": "uri.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 108,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 108,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 108,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 112,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 108,
+    "label": "has",
+    "to": 114
+  }, {
+    "from": 114,
+    "label": "has",
+    "to": 115
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 117,
+    "label": "has",
+    "to": 118
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 120
+  }, {
+    "from": 120,
+    "label": "has",
+    "to": 121
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 122
+  }, {
+    "from": 122,
+    "label": "has",
+    "to": 123
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 124
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 125
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 127
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 128
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 129
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 130
+  }, {
+    "from": 130,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 132
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 133
+  }, {
+    "from": 133,
+    "label": "has",
+    "to": 134
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 135,
+    "label": "has",
+    "to": 136
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 137
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 139,
+    "label": "has",
+    "to": 140
+  }, {
+    "from": 140,
+    "label": "has",
+    "to": 141
+  }, {
+    "from": 139,
+    "label": "has",
+    "to": 142
+  }, {
+    "from": 142,
+    "label": "has",
+    "to": 143
+  }, {
+    "from": 139,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 139,
+    "label": "has",
+    "to": 144
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 146
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 147
+  }, {
+    "from": 147,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 147,
+    "label": "has",
+    "to": 148
+  }, {
+    "from": 148,
+    "label": "has",
+    "to": 149
+  }, {
+    "from": 147,
+    "label": "has",
+    "to": 150
+  }, {
+    "from": 150,
+    "label": "has",
+    "to": 151
+  }, {
+    "from": 147,
+    "label": "has",
+    "to": 152
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 153
+  }, {
+    "from": 147,
+    "label": "has",
+    "to": 154
+  }, {
+    "from": 154,
+    "label": "has",
+    "to": 155
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 156
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 158
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 159
+  }, {
+    "from": 159,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 159,
+    "label": "has",
+    "to": 160
+  }, {
+    "from": 160,
+    "label": "has",
+    "to": 161
+  }, {
+    "from": 161,
+    "label": "has",
+    "to": 162
+  }, {
+    "from": 160,
+    "label": "has",
+    "to": 163
+  }, {
+    "from": 159,
+    "label": "has",
+    "to": 164
+  }, {
+    "from": 159,
+    "label": "has",
+    "to": 165
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 166
+  }, {
+    "from": 159,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 168
+  }, {
+    "from": 169,
+    "label": "has",
+    "to": 170
+  }, {
+    "from": 169,
+    "label": "has",
+    "to": 171
+  }, {
+    "from": 171,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 171,
+    "label": "has",
+    "to": 172
+  }, {
+    "from": 172,
+    "label": "has",
+    "to": 173
+  }, {
+    "from": 172,
+    "label": "has",
+    "to": 174
+  }, {
+    "from": 172,
+    "label": "has",
+    "to": 175
+  }, {
+    "from": 175,
+    "label": "has",
+    "to": 176
+  }, {
+    "from": 172,
+    "label": "has",
+    "to": 177
+  }, {
+    "from": 177,
+    "label": "has",
+    "to": 178
+  }, {
+    "from": 171,
+    "label": "has",
+    "to": 179
+  }, {
+    "from": 171,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 169,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 169,
+    "label": "has",
+    "to": 180
+  }, {
+    "from": 181,
+    "label": "has",
+    "to": 182
+  }, {
+    "from": 181,
+    "label": "has",
+    "to": 183
+  }, {
+    "from": 183,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 183,
+    "label": "has",
+    "to": 184
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 185
+  }, {
+    "from": 185,
+    "label": "has",
+    "to": 186
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 187
+  }, {
+    "from": 187,
+    "label": "has",
+    "to": 188
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 189
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 190
+  }, {
+    "from": 190,
+    "label": "has",
+    "to": 191
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 192
+  }, {
+    "from": 192,
+    "label": "has",
+    "to": 193
+  }, {
+    "from": 183,
+    "label": "has",
+    "to": 194
+  }, {
+    "from": 183,
+    "label": "has",
+    "to": 165
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 166
+  }, {
+    "from": 183,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 181,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 181,
+    "label": "has",
+    "to": 195
+  }, {
+    "from": 196,
+    "label": "has",
+    "to": 197
+  }, {
+    "from": 196,
+    "label": "has",
+    "to": 198
+  }, {
+    "from": 198,
+    "label": "has",
+    "to": 199
+  }, {
+    "from": 198,
+    "label": "has",
+    "to": 163
+  }, {
+    "from": 198,
+    "label": "has",
+    "to": 200
+  }, {
+    "from": 198,
+    "label": "has",
+    "to": 201
+  }, {
+    "from": 201,
+    "label": "has",
+    "to": 202
+  }, {
+    "from": 202,
+    "label": "has",
+    "to": 203
+  }, {
+    "from": 201,
+    "label": "has",
+    "to": 204
+  }, {
+    "from": 204,
+    "label": "has",
+    "to": 205
+  }, {
+    "from": 198,
+    "label": "has",
+    "to": 206
+  }, {
+    "from": 198,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 196,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 196,
+    "label": "has",
+    "to": 207
+  }, {
+    "from": 208,
+    "label": "has",
+    "to": 209
+  }, {
+    "from": 208,
+    "label": "has",
+    "to": 210
+  }, {
+    "from": 210,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 210,
+    "label": "has",
+    "to": 211
+  }, {
+    "from": 211,
+    "label": "has",
+    "to": 212
+  }, {
+    "from": 210,
+    "label": "has",
+    "to": 213
+  }, {
+    "from": 210,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 208,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 208,
+    "label": "has",
+    "to": 214
+  }, {
+    "from": 215,
+    "label": "has",
+    "to": 216
+  }, {
+    "from": 215,
+    "label": "has",
+    "to": 217
+  }, {
+    "from": 217,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 217,
+    "label": "has",
+    "to": 211
+  }, {
+    "from": 211,
+    "label": "has",
+    "to": 212
+  }, {
+    "from": 217,
+    "label": "has",
+    "to": 218
+  }, {
+    "from": 217,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 215,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 215,
+    "label": "has",
+    "to": 219
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 221
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 222
+  }, {
+    "from": 222,
+    "label": "has",
+    "to": 223
+  }, {
+    "from": 222,
+    "label": "has",
+    "to": 224
+  }, {
+    "from": 224,
+    "label": "has",
+    "to": 225
+  }, {
+    "from": 222,
+    "label": "has",
+    "to": 226
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 227
+  }, {
+    "from": 228,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 229,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 232
+  }, {
+    "from": 232,
+    "label": "has",
+    "to": 233
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 234
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 235
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 236
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 237
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 238
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 239
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 225
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 240
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 241
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 242
+  }, {
+    "from": 242,
+    "label": "has",
+    "to": 243
+  }, {
+    "from": 243,
+    "label": "has",
+    "to": 244
+  }, {
+    "from": 243,
+    "label": "has",
+    "to": 245
+  }, {
+    "from": 243,
+    "label": "has",
+    "to": 246
+  }, {
+    "from": 246,
+    "label": "has",
+    "to": 247
+  }, {
+    "from": 243,
+    "label": "has",
+    "to": 248
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 249
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 250
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 251
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 252
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 253
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 254
+  }, {
+    "from": 254,
+    "label": "has",
+    "to": 255
+  }, {
+    "from": 254,
+    "label": "has",
+    "to": 256
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 257
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 258
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 259
+  }, {
+    "from": 259,
+    "label": "has",
+    "to": 256
+  }, {
+    "from": 259,
+    "label": "has",
+    "to": 260
+  }, {
+    "from": 259,
+    "label": "has",
+    "to": 261
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 262
+  }, {
+    "from": 262,
+    "label": "has",
+    "to": 263
+  }, {
+    "from": 262,
+    "label": "has",
+    "to": 264
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 265
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 266
+  }, {
+    "from": 266,
+    "label": "has",
+    "to": 267
+  }, {
+    "from": 267,
+    "label": "has",
+    "to": 268
+  }, {
+    "from": 267,
+    "label": "has",
+    "to": 269
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 270
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 261
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 255
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 271
+  }, {
+    "from": 271,
+    "label": "has",
+    "to": 272
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 273
+  }, {
+    "from": 231,
+    "label": "has",
+    "to": 274
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 276
+  }, {
+    "from": 277,
+    "label": "has",
+    "to": 155
+  }, {
+    "from": 220,
+    "label": "calls",
+    "to": 284
+  }, {
+    "from": 139,
+    "label": "calls",
+    "to": 285
+  }, {
+    "from": 139,
+    "label": "calls",
+    "to": 285
+  }, {
+    "from": 231,
+    "label": "calls",
+    "to": 285
+  }, {
+    "from": 100,
+    "label": "calls",
+    "to": 291
+  }, {
+    "from": 100,
+    "label": "calls",
+    "to": 291
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 286
+  }, {
+    "from": 145,
+    "label": "calls",
+    "to": 286
+  }, {
+    "from": 169,
+    "label": "calls",
+    "to": 286
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 287
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 287
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 287
+  }, {
+    "from": 181,
+    "label": "calls",
+    "to": 287
+  }, {
+    "from": 145,
+    "label": "calls",
+    "to": 282
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 280
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 169,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 100,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 100,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 145,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 145,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 157,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 169,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 169,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 181,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 181,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 196,
+    "label": "calls",
+    "to": 292
+  }, {
+    "from": 231,
+    "label": "calls",
+    "to": 294
+  }, {
+    "from": 231,
+    "label": "calls",
+    "to": 294
+  }, {
+    "from": 231,
+    "label": "calls",
+    "to": 294
+  }, {
+    "from": 231,
+    "label": "calls",
+    "to": 294
+  }, {
+    "from": 231,
+    "label": "calls",
+    "to": 294
+  }, {
+    "from": 231,
+    "label": "calls",
+    "to": 294
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 289
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 157,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 196,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 288
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 295
+  }, {
+    "from": 100,
+    "label": "calls",
+    "to": 295
+  }, {
+    "from": 220,
+    "label": "calls",
+    "to": 295
+  }, {
+    "from": 231,
+    "label": "calls",
+    "to": 295
+  }, {
+    "from": 100,
+    "label": "calls",
+    "to": 293
+  }, {
+    "from": 145,
+    "label": "calls",
+    "to": 293
+  }, {
+    "from": 157,
+    "label": "calls",
+    "to": 293
+  }, {
+    "from": 169,
+    "label": "calls",
+    "to": 293
+  }, {
+    "from": 181,
+    "label": "calls",
+    "to": 293
+  }, {
+    "from": 196,
+    "label": "calls",
+    "to": 293
+  }, {
+    "from": 208,
+    "label": "calls",
+    "to": 293
+  }, {
+    "from": 215,
+    "label": "calls",
+    "to": 293
+  }, {
+    "from": 278,
+    "label": "calls",
+    "to": 297
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 297
+  }, {
+    "from": 231,
+    "label": "calls",
+    "to": 297
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 296
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 296
+  }, {
+    "from": 139,
+    "label": "calls",
+    "to": 296
+  }, {
+    "from": 139,
+    "label": "calls",
+    "to": 296
+  }, {
+    "from": 145,
+    "label": "calls",
+    "to": 296
+  }, {
+    "from": 181,
+    "label": "calls",
+    "to": 296
+  }, {
+    "from": 231,
+    "label": "calls",
+    "to": 296
+  }, {
+    "from": 196,
+    "label": "calls",
+    "to": 281
+  }, {
+    "from": 208,
+    "label": "calls",
+    "to": 281
+  }, {
+    "from": 215,
+    "label": "calls",
+    "to": 281
+  }, {
+    "from": 100,
+    "label": "calls",
+    "to": 290
+  }, {
+    "from": 231,
+    "label": "calls",
+    "to": 279
+  }, {
+    "from": 231,
+    "label": "calls",
+    "to": 279
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 278
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 100
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 138
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 139
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 145
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 157
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 169
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 181
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 196
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 208
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 215
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 220
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 228
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 229
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 230
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 231
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 275
+  }, {
+    "from": 278,
+    "label": "declares",
+    "to": 277
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 283
+  }, {
+    "from": 298,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 299,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 300,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 301,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 302,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 303,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 304,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 305,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 306,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 307,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 308,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 309,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 310,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 311,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 312,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 314,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 315,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 316,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 317,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 318,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 319,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 320,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 321,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 322,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 323,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 324
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 325
+  }, {
+    "from": 324,
+    "label": "initializes",
+    "to": 326
+  }, {
+    "from": 326,
+    "label": "assigns",
+    "to": 327
+  }, {
+    "from": 327,
+    "label": "assigns",
+    "to": 328
+  }, {
+    "from": 328,
+    "label": "assigns",
+    "to": 329
+  }, {
+    "from": 327,
+    "label": "assigns",
+    "to": 330
+  }, {
+    "from": 330,
+    "label": "assigns",
+    "to": 331
+  }, {
+    "from": 324,
+    "label": "initializes",
+    "to": 332
+  }, {
+    "from": 332,
+    "label": "assigns",
+    "to": 333
+  }, {
+    "from": 324,
+    "label": "initializes",
+    "to": 334
+  }, {
+    "from": 334,
+    "label": "assigns",
+    "to": 335
+  }, {
+    "from": 324,
+    "label": "initializes",
+    "to": 336
+  }, {
+    "from": 336,
+    "label": "assigns",
+    "to": 337
+  }, {
+    "from": 324,
+    "label": "initializes",
+    "to": 338
+  }, {
+    "from": 338,
+    "label": "assigns",
+    "to": 339
+  }, {
+    "from": 324,
+    "label": "initializes",
+    "to": 340
+  }, {
+    "from": 340,
+    "label": "assigns",
+    "to": 341
+  }, {
+    "from": 324,
+    "label": "initializes",
+    "to": 342
+  }, {
+    "from": 342,
+    "label": "assigns",
+    "to": 343
+  }, {
+    "from": 324,
+    "label": "initializes",
+    "to": 344
+  }, {
+    "from": 344,
+    "label": "assigns",
+    "to": 345
+  }, {
+    "from": 324,
+    "label": "initializes",
+    "to": 346
+  }, {
+    "from": 346,
+    "label": "assigns",
+    "to": 347
+  }, {
+    "from": 324,
+    "label": "initializes",
+    "to": 348
+  }, {
+    "from": 348,
+    "label": "assigns",
+    "to": 349
+  }, {
+    "from": 324,
+    "label": "initializes",
+    "to": 350
+  }, {
+    "from": 350,
+    "label": "assigns",
+    "to": 351
+  }, {
+    "from": 325,
+    "label": "initializes",
+    "to": 352
+  }, {
+    "from": 352,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 353
+  }, {
+    "from": 313,
+    "label": "represents",
+    "to": 354
+  }, {
+    "from": 353,
+    "label": "provides",
+    "to": 354
+  }, {
+    "from": 154,
+    "label": "hasArgument",
+    "to": 277
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "uri",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function _normalize_percent_encoding (s)\r\n    if s:find(\"%%$\") or s:find(\"%%.$\") then\r\n        error(\"unfinished percent encoding at end of URI '\" .. s .. \"'\")\r\n    end\r\n\r\n    return s:gsub(\"%%(..)\", function (hex)\r\n        if not hex:find(\"^[0-9A-Fa-f][0-9A-Fa-f]$\") then\r\n            error(\"invalid percent encoding '%\" .. hex ..\r\n                  \"' in URI '\" .. s .. \"'\")\r\n        end\r\n\r\n        -- Never percent-encode unreserved characters, and always use uppercase\r\n        -- hexadecimal for percent encoding.  RFC 3986 section 6.2.2.2.\r\n        local char = string.char(tonumber(\"0x\" .. hex))\r\n        return char:find(\"^[\" .. _UNRESERVED .. \"]\") and char or \"%\" .. hex:upper()\r\n    end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "if s:find(\"%%$\") or s:find(\"%%.$\") then\r\n        error(\"unfinished percent encoding at end of URI '\" .. s .. \"'\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "error(\"unfinished percent encoding at end of URI '\" .. s .. \"'\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "if not hex:find(\"^[0-9A-Fa-f][0-9A-Fa-f]$\") then\r\n            error(\"invalid percent encoding '%\" .. hex ..\r\n                  \"' in URI '\" .. s .. \"'\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "error(\"invalid percent encoding '%\" .. hex ..\r\n                  \"' in URI '\" .. s .. \"'\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "local char = string.char(tonumber(\"0x\" .. hex))",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "local function _is_ip4_literal (s)\r\n    if not s:find(\"^[0-9]+%.[0-9]+%.[0-9]+%.[0-9]+$\") then return false end\r\n\r\n    for dec_octet in s:gmatch(\"[0-9]+\") do\r\n        if dec_octet:len() > 3 or dec_octet:find(\"^0.\") or\r\n           tonumber(dec_octet) > 255 then\r\n            return false\r\n        end\r\n    end\r\n\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "if not s:find(\"^[0-9]+%.[0-9]+%.[0-9]+%.[0-9]+$\") then return false end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "for dec_octet in s:gmatch(\"[0-9]+\") do\r\n        if dec_octet:len() > 3 or dec_octet:find(\"^0.\") or\r\n           tonumber(dec_octet) > 255 then\r\n            return false\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 14,
+    "text": "if dec_octet:len() > 3 or dec_octet:find(\"^0.\") or\r\n           tonumber(dec_octet) > 255 then\r\n            return false\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "local function _is_ip6_literal (s)\r\n    local had_elipsis = false       -- true when '::' found\r\n    local num_chunks = 0\r\n    while s ~= \"\" do\r\n        num_chunks = num_chunks + 1\r\n        local p1, p2 = s:find(\"::?\")\r\n        local chunk\r\n        if p1 then\r\n            chunk = s:sub(1, p1 - 1)\r\n            s = s:sub(p2 + 1)\r\n            if p2 ~= p1 then    -- found '::'\r\n                if had_elipsis then return false end    -- two of '::'\r\n                had_elipsis = true\r\n                if chunk == \"\" then num_chunks = num_chunks - 1 end\r\n            else\r\n                if chunk == \"\" then return false end    -- ':' at start\r\n                if s == \"\" then return false end        -- ':' at end\r\n            end\r\n        else\r\n            chunk = s\r\n            s = \"\"\r\n        end\r\n\r\n        -- Chunk is neither 4-digit hex num, nor IPv4address in last chunk.\r\n        if (not chunk:find(\"^[0-9a-f]+$\") or chunk:len() > 4) and\r\n           (s ~= \"\" or not _is_ip4_literal(chunk)) and\r\n           chunk ~= \"\" then\r\n            return false\r\n        end\r\n\r\n        -- IPv4address in last position counts for two chunks of hex digits.\r\n        if chunk:len() > 4 then num_chunks = num_chunks + 1 end\r\n    end\r\n\r\n    if had_elipsis then\r\n        if num_chunks > 7 then return false end\r\n    else\r\n        if num_chunks ~= 8 then return false end\r\n    end\r\n\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "local had_elipsis = false",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "local num_chunks = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "while s ~= \"\" do\r\n        num_chunks = num_chunks + 1\r\n        local p1, p2 = s:find(\"::?\")\r\n        local chunk\r\n        if p1 then\r\n            chunk = s:sub(1, p1 - 1)\r\n            s = s:sub(p2 + 1)\r\n            if p2 ~= p1 then    -- found '::'\r\n                if had_elipsis then return false end    -- two of '::'\r\n                had_elipsis = true\r\n                if chunk == \"\" then num_chunks = num_chunks - 1 end\r\n            else\r\n                if chunk == \"\" then return false end    -- ':' at start\r\n                if s == \"\" then return false end        -- ':' at end\r\n            end\r\n        else\r\n            chunk = s\r\n            s = \"\"\r\n        end\r\n\r\n        -- Chunk is neither 4-digit hex num, nor IPv4address in last chunk.\r\n        if (not chunk:find(\"^[0-9a-f]+$\") or chunk:len() > 4) and\r\n           (s ~= \"\" or not _is_ip4_literal(chunk)) and\r\n           chunk ~= \"\" then\r\n            return false\r\n        end\r\n\r\n        -- IPv4address in last position counts for two chunks of hex digits.\r\n        if chunk:len() > 4 then num_chunks = num_chunks + 1 end\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 20,
+    "text": "num_chunks = num_chunks + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "local p1, p2 = s:find(\"::?\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "local chunk",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "if p1 then\r\n            chunk = s:sub(1, p1 - 1)\r\n            s = s:sub(p2 + 1)\r\n            if p2 ~= p1 then    -- found '::'\r\n                if had_elipsis then return false end    -- two of '::'\r\n                had_elipsis = true\r\n                if chunk == \"\" then num_chunks = num_chunks - 1 end\r\n            else\r\n                if chunk == \"\" then return false end    -- ':' at start\r\n                if s == \"\" then return false end        -- ':' at end\r\n            end\r\n        else\r\n            chunk = s\r\n            s = \"\"\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "chunk = s:sub(1, p1 - 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "s = s:sub(p2 + 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "if p2 ~= p1 then    -- found '::'\r\n                if had_elipsis then return false end    -- two of '::'\r\n                had_elipsis = true\r\n                if chunk == \"\" then num_chunks = num_chunks - 1 end\r\n            else\r\n                if chunk == \"\" then return false end    -- ':' at start\r\n                if s == \"\" then return false end        -- ':' at end\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "if had_elipsis then return false end",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "had_elipsis = true",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "if chunk == \"\" then num_chunks = num_chunks - 1 end",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "num_chunks = num_chunks - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "if chunk == \"\" then return false end",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "if s == \"\" then return false end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "chunk = s",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "s = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "if (not chunk:find(\"^[0-9a-f]+$\") or chunk:len() > 4) and\r\n           (s ~= \"\" or not _is_ip4_literal(chunk)) and\r\n           chunk ~= \"\" then\r\n            return false\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "if chunk:len() > 4 then num_chunks = num_chunks + 1 end",
+    "type": "statement:if"
+  }, {
+    "id": 37,
+    "text": "if had_elipsis then\r\n        if num_chunks > 7 then return false end\r\n    else\r\n        if num_chunks ~= 8 then return false end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "if num_chunks > 7 then return false end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "if num_chunks ~= 8 then return false end",
+    "type": "statement:if"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 41,
+    "text": "local function _is_valid_host (host)\r\n    if host:find(\"^%[.*%]$\") then\r\n        local ip_literal = host:sub(2, -2)\r\n        if ip_literal:find(\"^v\") then\r\n            if not ip_literal:find(_IP_FUTURE_LITERAL) then\r\n                return \"invalid IPvFuture literal '\" .. ip_literal .. \"'\"\r\n            end\r\n        else\r\n            if not _is_ip6_literal(ip_literal) then\r\n                return \"invalid IPv6 address '\" .. ip_literal .. \"'\"\r\n            end\r\n        end\r\n    elseif not _is_ip4_literal(host) and not host:find(_REG_NAME) then\r\n        return \"invalid host value '\" .. host .. \"'\"\r\n    end\r\n\r\n    return nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "if host:find(\"^%[.*%]$\") then\r\n        local ip_literal = host:sub(2, -2)\r\n        if ip_literal:find(\"^v\") then\r\n            if not ip_literal:find(_IP_FUTURE_LITERAL) then\r\n                return \"invalid IPvFuture literal '\" .. ip_literal .. \"'\"\r\n            end\r\n        else\r\n            if not _is_ip6_literal(ip_literal) then\r\n                return \"invalid IPv6 address '\" .. ip_literal .. \"'\"\r\n            end\r\n        end\r\n    elseif not _is_ip4_literal(host) and not host:find(_REG_NAME) then\r\n        return \"invalid host value '\" .. host .. \"'\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 43,
+    "text": "local ip_literal = host:sub(2, -2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 44,
+    "text": "if ip_literal:find(\"^v\") then\r\n            if not ip_literal:find(_IP_FUTURE_LITERAL) then\r\n                return \"invalid IPvFuture literal '\" .. ip_literal .. \"'\"\r\n            end\r\n        else\r\n            if not _is_ip6_literal(ip_literal) then\r\n                return \"invalid IPv6 address '\" .. ip_literal .. \"'\"\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 45,
+    "text": "if not ip_literal:find(_IP_FUTURE_LITERAL) then\r\n                return \"invalid IPvFuture literal '\" .. ip_literal .. \"'\"\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 46,
+    "text": "if not _is_ip6_literal(ip_literal) then\r\n                return \"invalid IPv6 address '\" .. ip_literal .. \"'\"\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 48,
+    "text": "local function _normalize_and_check_path (s, normalize)\r\n    if not s:find(_PATH_CHARS) then return false end\r\n    if not normalize then return s end\r\n\r\n    -- Remove unnecessary percent encoding for path values.\r\n    -- TODO - I think this should be HTTP-specific (probably file also).\r\n    --s = Util.uri_decode(s, _SUB_DELIMS .. \":@\")\r\n\r\n    return Util.remove_dot_segments(s)\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "if not s:find(_PATH_CHARS) then return false end",
+    "type": "statement:if"
+  }, {
+    "id": 50,
+    "text": "if not normalize then return s end",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "function M.new (class, uri, base)\r\n    if not uri then error(\"usage: URI:new(uristring, [baseuri])\") end\r\n    if type(uri) ~= \"string\" then uri = tostring(uri) end\r\n\r\n    if base then\r\n        local uri, err = M.new(class, uri)\r\n        if not uri then return nil, err end\r\n        if type(base) ~= \"table\" then\r\n            base, err = M.new(class, base)\r\n            if not base then return nil, \"error parsing base URI: \" .. err end\r\n        end\r\n        if base:is_relative() then return nil, \"base URI must be absolute\" end\r\n        local ok, err = pcall(uri.resolve, uri, base)\r\n        if not ok then return nil, err end\r\n        return uri\r\n    end\r\n\r\n    local s = _normalize_percent_encoding(uri)\r\n\r\n    local _, p\r\n    local scheme, authority, userinfo, host, port, path, query, fragment\r\n\r\n    _, p, scheme = s:find(\"^([a-zA-Z][-+.a-zA-Z0-9]*):\")\r\n    if scheme then\r\n        scheme = scheme:lower()\r\n        s = s:sub(p + 1)\r\n    end\r\n\r\n    _, p, authority = s:find(\"^//([^/?#]*)\")\r\n    if authority then\r\n        s = s:sub(p + 1)\r\n\r\n        _, p, userinfo = authority:find(\"^([^@]*)@\")\r\n        if userinfo then\r\n            if not userinfo:find(_USERINFO) then\r\n                return nil, \"invalid userinfo value '\" .. userinfo .. \"'\"\r\n            end\r\n            authority = authority:sub(p + 1)\r\n        end\r\n\r\n        p, _, port = authority:find(\":([0-9]*)$\")\r\n        if port then\r\n            port = (port ~= \"\") and tonumber(port) or nil\r\n            authority = authority:sub(1, p - 1)\r\n        end\r\n\r\n        host = authority:lower()\r\n        local err = _is_valid_host(host)\r\n        if err then return nil, err end\r\n    end\r\n\r\n    _, p, path = s:find(\"^([^?#]*)\")\r\n    if path ~= \"\" then\r\n        local normpath = _normalize_and_check_path(path, scheme)\r\n        if not normpath then return nil, \"invalid path '\" .. path .. \"'\" end\r\n        path = normpath\r\n        s = s:sub(p + 1)\r\n    end\r\n\r\n    _, p, query = s:find(\"^%?([^#]*)\")\r\n    if query then\r\n        s = s:sub(p + 1)\r\n        if not query:find(_QUERY_OR_FRAG) then\r\n            return nil, \"invalid query value '?\" .. query .. \"'\"\r\n        end\r\n    end\r\n\r\n    _, p, fragment = s:find(\"^#(.*)\")\r\n    if fragment then\r\n        if not fragment:find(_QUERY_OR_FRAG) then\r\n            return nil, \"invalid fragment value '#\" .. fragment .. \"'\"\r\n        end\r\n    end\r\n\r\n    local o = {\r\n        _scheme = scheme,\r\n        _userinfo = userinfo,\r\n        _host = host,\r\n        _port = port,\r\n        _path = path,\r\n        _query = query,\r\n        _fragment = fragment,\r\n    }\r\n    setmetatable(o, scheme and class or (require \"uri._relative\"))\r\n\r\n    return o:init()\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "if not uri then error(\"usage: URI:new(uristring, [baseuri])\") end",
+    "type": "statement:if"
+  }, {
+    "id": 54,
+    "text": "error(\"usage: URI:new(uristring, [baseuri])\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 55,
+    "text": "if type(uri) ~= \"string\" then uri = tostring(uri) end",
+    "type": "statement:if"
+  }, {
+    "id": 56,
+    "text": "uri = tostring(uri)",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "if base then\r\n        local uri, err = M.new(class, uri)\r\n        if not uri then return nil, err end\r\n        if type(base) ~= \"table\" then\r\n            base, err = M.new(class, base)\r\n            if not base then return nil, \"error parsing base URI: \" .. err end\r\n        end\r\n        if base:is_relative() then return nil, \"base URI must be absolute\" end\r\n        local ok, err = pcall(uri.resolve, uri, base)\r\n        if not ok then return nil, err end\r\n        return uri\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 58,
+    "text": "local uri, err = M.new(class, uri)",
+    "type": "statement:localassign"
+  }, {
+    "id": 59,
+    "text": "if not uri then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 60,
+    "text": "if type(base) ~= \"table\" then\r\n            base, err = M.new(class, base)\r\n            if not base then return nil, \"error parsing base URI: \" .. err end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 61,
+    "text": "base, err = M.new(class, base)",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "if not base then return nil, \"error parsing base URI: \" .. err end",
+    "type": "statement:if"
+  }, {
+    "id": 63,
+    "text": "if base:is_relative() then return nil, \"base URI must be absolute\" end",
+    "type": "statement:if"
+  }, {
+    "id": 64,
+    "text": "local ok, err = pcall(uri.resolve, uri, base)",
+    "type": "statement:localassign"
+  }, {
+    "id": 65,
+    "text": "if not ok then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 66,
+    "text": "local s = _normalize_percent_encoding(uri)",
+    "type": "statement:localassign"
+  }, {
+    "id": 67,
+    "text": "local _, p",
+    "type": "statement:localassign"
+  }, {
+    "id": 68,
+    "text": "local scheme, authority, userinfo, host, port, path, query, fragment",
+    "type": "statement:localassign"
+  }, {
+    "id": 69,
+    "text": "_, p, scheme = s:find(\"^([a-zA-Z][-+.a-zA-Z0-9]*):\")",
+    "type": "statement:assign"
+  }, {
+    "id": 70,
+    "text": "if scheme then\r\n        scheme = scheme:lower()\r\n        s = s:sub(p + 1)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 71,
+    "text": "scheme = scheme:lower()",
+    "type": "statement:assign"
+  }, {
+    "id": 72,
+    "text": "s = s:sub(p + 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 73,
+    "text": "_, p, authority = s:find(\"^//([^/?#]*)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "if authority then\r\n        s = s:sub(p + 1)\r\n\r\n        _, p, userinfo = authority:find(\"^([^@]*)@\")\r\n        if userinfo then\r\n            if not userinfo:find(_USERINFO) then\r\n                return nil, \"invalid userinfo value '\" .. userinfo .. \"'\"\r\n            end\r\n            authority = authority:sub(p + 1)\r\n        end\r\n\r\n        p, _, port = authority:find(\":([0-9]*)$\")\r\n        if port then\r\n            port = (port ~= \"\") and tonumber(port) or nil\r\n            authority = authority:sub(1, p - 1)\r\n        end\r\n\r\n        host = authority:lower()\r\n        local err = _is_valid_host(host)\r\n        if err then return nil, err end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 75,
+    "text": "_, p, userinfo = authority:find(\"^([^@]*)@\")",
+    "type": "statement:assign"
+  }, {
+    "id": 76,
+    "text": "if userinfo then\r\n            if not userinfo:find(_USERINFO) then\r\n                return nil, \"invalid userinfo value '\" .. userinfo .. \"'\"\r\n            end\r\n            authority = authority:sub(p + 1)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 77,
+    "text": "if not userinfo:find(_USERINFO) then\r\n                return nil, \"invalid userinfo value '\" .. userinfo .. \"'\"\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 78,
+    "text": "authority = authority:sub(p + 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 79,
+    "text": "p, _, port = authority:find(\":([0-9]*)$\")",
+    "type": "statement:assign"
+  }, {
+    "id": 80,
+    "text": "if port then\r\n            port = (port ~= \"\") and tonumber(port) or nil\r\n            authority = authority:sub(1, p - 1)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 81,
+    "text": "port = (port ~= \"\") and tonumber(port) or nil",
+    "type": "statement:assign"
+  }, {
+    "id": 82,
+    "text": "authority = authority:sub(1, p - 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 83,
+    "text": "host = authority:lower()",
+    "type": "statement:assign"
+  }, {
+    "id": 84,
+    "text": "local err = _is_valid_host(host)",
+    "type": "statement:localassign"
+  }, {
+    "id": 85,
+    "text": "if err then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 86,
+    "text": "_, p, path = s:find(\"^([^?#]*)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 87,
+    "text": "if path ~= \"\" then\r\n        local normpath = _normalize_and_check_path(path, scheme)\r\n        if not normpath then return nil, \"invalid path '\" .. path .. \"'\" end\r\n        path = normpath\r\n        s = s:sub(p + 1)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 88,
+    "text": "local normpath = _normalize_and_check_path(path, scheme)",
+    "type": "statement:localassign"
+  }, {
+    "id": 89,
+    "text": "if not normpath then return nil, \"invalid path '\" .. path .. \"'\" end",
+    "type": "statement:if"
+  }, {
+    "id": 90,
+    "text": "path = normpath",
+    "type": "statement:assign"
+  }, {
+    "id": 91,
+    "text": "_, p, query = s:find(\"^%?([^#]*)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 92,
+    "text": "if query then\r\n        s = s:sub(p + 1)\r\n        if not query:find(_QUERY_OR_FRAG) then\r\n            return nil, \"invalid query value '?\" .. query .. \"'\"\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 93,
+    "text": "if not query:find(_QUERY_OR_FRAG) then\r\n            return nil, \"invalid query value '?\" .. query .. \"'\"\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 94,
+    "text": "_, p, fragment = s:find(\"^#(.*)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 95,
+    "text": "if fragment then\r\n        if not fragment:find(_QUERY_OR_FRAG) then\r\n            return nil, \"invalid fragment value '#\" .. fragment .. \"'\"\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 96,
+    "text": "if not fragment:find(_QUERY_OR_FRAG) then\r\n            return nil, \"invalid fragment value '#\" .. fragment .. \"'\"\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 97,
+    "text": "local o = {\r\n        _scheme = scheme,\r\n        _userinfo = userinfo,\r\n        _host = host,\r\n        _port = port,\r\n        _path = path,\r\n        _query = query,\r\n        _fragment = fragment,\r\n    }",
+    "type": "statement:localassign"
+  }, {
+    "id": 98,
+    "text": "setmetatable(o, scheme and class or (require \"uri._relative\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 99,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 100,
+    "text": "function M.uri (self, ...)\r\n    local uri = self._uri\r\n\r\n    if not uri then\r\n        local scheme = self:scheme()\r\n        if scheme then\r\n            uri = scheme .. \":\"\r\n        else\r\n            uri = \"\"\r\n        end\r\n\r\n        local host, port, userinfo = self:host(), self._port, self:userinfo()\r\n        if host or port or userinfo then\r\n            uri = uri .. \"//\"\r\n            if userinfo then uri = uri .. userinfo .. \"@\" end\r\n            if host then uri = uri .. host end\r\n            if port then uri = uri .. \":\" .. port end\r\n        end\r\n\r\n        local path = self:path()\r\n        if uri == \"\" and path:find(\"^[^/]*:\") then\r\n            path = \"./\" .. path\r\n        end\r\n\r\n        uri = uri .. path\r\n        if self:query() then uri = uri .. \"?\" .. self:query() end\r\n        if self:fragment() then uri = uri .. \"#\" .. self:fragment() end\r\n\r\n        self._uri = uri     -- cache\r\n    end\r\n\r\n    if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if not new then error(\"URI can't be set to nil\") end\r\n        local newuri, err = M:new(new)\r\n        if not newuri then\r\n            error(\"new URI string is invalid (\" .. err .. \")\")\r\n        end\r\n        setmetatable(self, getmetatable(newuri))\r\n        for k in pairs(self) do self[k] = nil end\r\n        for k, v in pairs(newuri) do self[k] = v end\r\n    end\r\n\r\n    return uri\r\nend",
+    "type": "function"
+  }, {
+    "id": 101,
+    "text": "local uri = self._uri",
+    "type": "statement:localassign"
+  }, {
+    "id": 102,
+    "text": "if not uri then\r\n        local scheme = self:scheme()\r\n        if scheme then\r\n            uri = scheme .. \":\"\r\n        else\r\n            uri = \"\"\r\n        end\r\n\r\n        local host, port, userinfo = self:host(), self._port, self:userinfo()\r\n        if host or port or userinfo then\r\n            uri = uri .. \"//\"\r\n            if userinfo then uri = uri .. userinfo .. \"@\" end\r\n            if host then uri = uri .. host end\r\n            if port then uri = uri .. \":\" .. port end\r\n        end\r\n\r\n        local path = self:path()\r\n        if uri == \"\" and path:find(\"^[^/]*:\") then\r\n            path = \"./\" .. path\r\n        end\r\n\r\n        uri = uri .. path\r\n        if self:query() then uri = uri .. \"?\" .. self:query() end\r\n        if self:fragment() then uri = uri .. \"#\" .. self:fragment() end\r\n\r\n        self._uri = uri     -- cache\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 103,
+    "text": "local scheme = self:scheme()",
+    "type": "statement:localassign"
+  }, {
+    "id": 104,
+    "text": "if scheme then\r\n            uri = scheme .. \":\"\r\n        else\r\n            uri = \"\"\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 105,
+    "text": "uri = scheme .. \":\"",
+    "type": "statement:assign"
+  }, {
+    "id": 106,
+    "text": "uri = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 107,
+    "text": "local host, port, userinfo = self:host(), self._port, self:userinfo()",
+    "type": "statement:localassign"
+  }, {
+    "id": 108,
+    "text": "if host or port or userinfo then\r\n            uri = uri .. \"//\"\r\n            if userinfo then uri = uri .. userinfo .. \"@\" end\r\n            if host then uri = uri .. host end\r\n            if port then uri = uri .. \":\" .. port end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 109,
+    "text": "uri = uri .. \"//\"",
+    "type": "statement:assign"
+  }, {
+    "id": 110,
+    "text": "if userinfo then uri = uri .. userinfo .. \"@\" end",
+    "type": "statement:if"
+  }, {
+    "id": 111,
+    "text": "uri = uri .. userinfo .. \"@\"",
+    "type": "statement:assign"
+  }, {
+    "id": 112,
+    "text": "if host then uri = uri .. host end",
+    "type": "statement:if"
+  }, {
+    "id": 113,
+    "text": "uri = uri .. host",
+    "type": "statement:assign"
+  }, {
+    "id": 114,
+    "text": "if port then uri = uri .. \":\" .. port end",
+    "type": "statement:if"
+  }, {
+    "id": 115,
+    "text": "uri = uri .. \":\" .. port",
+    "type": "statement:assign"
+  }, {
+    "id": 116,
+    "text": "local path = self:path()",
+    "type": "statement:localassign"
+  }, {
+    "id": 117,
+    "text": "if uri == \"\" and path:find(\"^[^/]*:\") then\r\n            path = \"./\" .. path\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 118,
+    "text": "path = \"./\" .. path",
+    "type": "statement:assign"
+  }, {
+    "id": 119,
+    "text": "uri = uri .. path",
+    "type": "statement:assign"
+  }, {
+    "id": 120,
+    "text": "if self:query() then uri = uri .. \"?\" .. self:query() end",
+    "type": "statement:if"
+  }, {
+    "id": 121,
+    "text": "uri = uri .. \"?\" .. self:query()",
+    "type": "statement:assign"
+  }, {
+    "id": 122,
+    "text": "if self:fragment() then uri = uri .. \"#\" .. self:fragment() end",
+    "type": "statement:if"
+  }, {
+    "id": 123,
+    "text": "uri = uri .. \"#\" .. self:fragment()",
+    "type": "statement:assign"
+  }, {
+    "id": 124,
+    "text": "self._uri = uri",
+    "type": "statement:assign"
+  }, {
+    "id": 125,
+    "text": "if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if not new then error(\"URI can't be set to nil\") end\r\n        local newuri, err = M:new(new)\r\n        if not newuri then\r\n            error(\"new URI string is invalid (\" .. err .. \")\")\r\n        end\r\n        setmetatable(self, getmetatable(newuri))\r\n        for k in pairs(self) do self[k] = nil end\r\n        for k, v in pairs(newuri) do self[k] = v end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 126,
+    "text": "local new = ...",
+    "type": "statement:localassign"
+  }, {
+    "id": 127,
+    "text": "if not new then error(\"URI can't be set to nil\") end",
+    "type": "statement:if"
+  }, {
+    "id": 128,
+    "text": "error(\"URI can't be set to nil\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 129,
+    "text": "local newuri, err = M:new(new)",
+    "type": "statement:localassign"
+  }, {
+    "id": 130,
+    "text": "if not newuri then\r\n            error(\"new URI string is invalid (\" .. err .. \")\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 131,
+    "text": "error(\"new URI string is invalid (\" .. err .. \")\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 132,
+    "text": "setmetatable(self, getmetatable(newuri))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 133,
+    "text": "for k in pairs(self) do self[k] = nil end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 134,
+    "text": "self[k] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 135,
+    "text": "for k, v in pairs(newuri) do self[k] = v end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 136,
+    "text": "self[k] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 138,
+    "text": "function M.__tostring (self) return self:uri() end",
+    "type": "function"
+  }, {
+    "id": 139,
+    "text": "function M.eq (a, b)\r\n    if type(a) == \"string\" then a = assert(M:new(a)) end\r\n    if type(b) == \"string\" then b = assert(M:new(b)) end\r\n    return a:uri() == b:uri()\r\nend",
+    "type": "function"
+  }, {
+    "id": 140,
+    "text": "if type(a) == \"string\" then a = assert(M:new(a)) end",
+    "type": "statement:if"
+  }, {
+    "id": 141,
+    "text": "a = assert(M:new(a))",
+    "type": "statement:assign"
+  }, {
+    "id": 142,
+    "text": "if type(b) == \"string\" then b = assert(M:new(b)) end",
+    "type": "statement:if"
+  }, {
+    "id": 143,
+    "text": "b = assert(M:new(b))",
+    "type": "statement:assign"
+  }, {
+    "id": 144,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 145,
+    "text": "function M.scheme (self, ...)\r\n    local old = self._scheme\r\n\r\n    if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if not new then error(\"can't remove scheme from absolute URI\") end\r\n        if type(new) ~= \"string\" then new = tostring(new) end\r\n        if not new:find(\"^[a-zA-Z][-+.a-zA-Z0-9]*$\") then\r\n            error(\"invalid scheme '\" .. new .. \"'\")\r\n        end\r\n        Util.do_class_changing_change(self, M, \"scheme\", new,\r\n                                      function (uri, new) uri._scheme = new end)\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 146,
+    "text": "local old = self._scheme",
+    "type": "statement:localassign"
+  }, {
+    "id": 147,
+    "text": "if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if not new then error(\"can't remove scheme from absolute URI\") end\r\n        if type(new) ~= \"string\" then new = tostring(new) end\r\n        if not new:find(\"^[a-zA-Z][-+.a-zA-Z0-9]*$\") then\r\n            error(\"invalid scheme '\" .. new .. \"'\")\r\n        end\r\n        Util.do_class_changing_change(self, M, \"scheme\", new,\r\n                                      function (uri, new) uri._scheme = new end)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 148,
+    "text": "if not new then error(\"can't remove scheme from absolute URI\") end",
+    "type": "statement:if"
+  }, {
+    "id": 149,
+    "text": "error(\"can't remove scheme from absolute URI\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 150,
+    "text": "if type(new) ~= \"string\" then new = tostring(new) end",
+    "type": "statement:if"
+  }, {
+    "id": 151,
+    "text": "new = tostring(new)",
+    "type": "statement:assign"
+  }, {
+    "id": 152,
+    "text": "if not new:find(\"^[a-zA-Z][-+.a-zA-Z0-9]*$\") then\r\n            error(\"invalid scheme '\" .. new .. \"'\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 153,
+    "text": "error(\"invalid scheme '\" .. new .. \"'\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 154,
+    "text": "Util.do_class_changing_change(self, M, \"scheme\", new,\r\n                                      function (uri, new) uri._scheme = new end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 155,
+    "text": "uri._scheme = new",
+    "type": "statement:assign"
+  }, {
+    "id": 156,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 157,
+    "text": "function M.userinfo (self, ...)\r\n    local old = self._userinfo\r\n\r\n    if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if new then\r\n            if not new:find(_USERINFO) then\r\n                error(\"invalid userinfo value '\" .. new .. \"'\")\r\n            end\r\n            new = _normalize_percent_encoding(new)\r\n        end\r\n        self._userinfo = new\r\n        if new and not self._host then self._host = \"\" end\r\n        self._uri = nil\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 158,
+    "text": "local old = self._userinfo",
+    "type": "statement:localassign"
+  }, {
+    "id": 159,
+    "text": "if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if new then\r\n            if not new:find(_USERINFO) then\r\n                error(\"invalid userinfo value '\" .. new .. \"'\")\r\n            end\r\n            new = _normalize_percent_encoding(new)\r\n        end\r\n        self._userinfo = new\r\n        if new and not self._host then self._host = \"\" end\r\n        self._uri = nil\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 160,
+    "text": "if new then\r\n            if not new:find(_USERINFO) then\r\n                error(\"invalid userinfo value '\" .. new .. \"'\")\r\n            end\r\n            new = _normalize_percent_encoding(new)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 161,
+    "text": "if not new:find(_USERINFO) then\r\n                error(\"invalid userinfo value '\" .. new .. \"'\")\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 162,
+    "text": "error(\"invalid userinfo value '\" .. new .. \"'\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 163,
+    "text": "new = _normalize_percent_encoding(new)",
+    "type": "statement:assign"
+  }, {
+    "id": 164,
+    "text": "self._userinfo = new",
+    "type": "statement:assign"
+  }, {
+    "id": 165,
+    "text": "if new and not self._host then self._host = \"\" end",
+    "type": "statement:if"
+  }, {
+    "id": 166,
+    "text": "self._host = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 167,
+    "text": "self._uri = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 168,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 169,
+    "text": "function M.host (self, ...)\r\n    local old = self._host\r\n\r\n    if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if new then\r\n            new = tostring(new):lower()\r\n            local err = _is_valid_host(new)\r\n            if err then error(err) end\r\n        else\r\n            if self._userinfo or self._port then\r\n                error(\"there must be a host if there is a userinfo or port,\" ..\r\n                      \" although it can be the empty string\")\r\n            end\r\n        end\r\n        self._host = new\r\n        self._uri = nil\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 170,
+    "text": "local old = self._host",
+    "type": "statement:localassign"
+  }, {
+    "id": 171,
+    "text": "if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if new then\r\n            new = tostring(new):lower()\r\n            local err = _is_valid_host(new)\r\n            if err then error(err) end\r\n        else\r\n            if self._userinfo or self._port then\r\n                error(\"there must be a host if there is a userinfo or port,\" ..\r\n                      \" although it can be the empty string\")\r\n            end\r\n        end\r\n        self._host = new\r\n        self._uri = nil\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 172,
+    "text": "if new then\r\n            new = tostring(new):lower()\r\n            local err = _is_valid_host(new)\r\n            if err then error(err) end\r\n        else\r\n            if self._userinfo or self._port then\r\n                error(\"there must be a host if there is a userinfo or port,\" ..\r\n                      \" although it can be the empty string\")\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 173,
+    "text": "new = tostring(new):lower()",
+    "type": "statement:assign"
+  }, {
+    "id": 174,
+    "text": "local err = _is_valid_host(new)",
+    "type": "statement:localassign"
+  }, {
+    "id": 175,
+    "text": "if err then error(err) end",
+    "type": "statement:if"
+  }, {
+    "id": 176,
+    "text": "error(err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 177,
+    "text": "if self._userinfo or self._port then\r\n                error(\"there must be a host if there is a userinfo or port,\" ..\r\n                      \" although it can be the empty string\")\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 178,
+    "text": "error(\"there must be a host if there is a userinfo or port,\" ..\r\n                      \" although it can be the empty string\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 179,
+    "text": "self._host = new",
+    "type": "statement:assign"
+  }, {
+    "id": 180,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 181,
+    "text": "function M.port (self, ...)\r\n    local old = self._port or self:default_port()\r\n\r\n    if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if new then\r\n            if type(new) == \"string\" then new = tonumber(new) end\r\n            if new < 0 then error(\"port number must not be negative\") end\r\n            local newint = new - new % 1\r\n            if newint ~= new then error(\"port number not integer\") end\r\n            if new == self:default_port() then new = nil end\r\n        end\r\n        self._port = new\r\n        if new and not self._host then self._host = \"\" end\r\n        self._uri = nil\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 182,
+    "text": "local old = self._port or self:default_port()",
+    "type": "statement:localassign"
+  }, {
+    "id": 183,
+    "text": "if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if new then\r\n            if type(new) == \"string\" then new = tonumber(new) end\r\n            if new < 0 then error(\"port number must not be negative\") end\r\n            local newint = new - new % 1\r\n            if newint ~= new then error(\"port number not integer\") end\r\n            if new == self:default_port() then new = nil end\r\n        end\r\n        self._port = new\r\n        if new and not self._host then self._host = \"\" end\r\n        self._uri = nil\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 184,
+    "text": "if new then\r\n            if type(new) == \"string\" then new = tonumber(new) end\r\n            if new < 0 then error(\"port number must not be negative\") end\r\n            local newint = new - new % 1\r\n            if newint ~= new then error(\"port number not integer\") end\r\n            if new == self:default_port() then new = nil end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 185,
+    "text": "if type(new) == \"string\" then new = tonumber(new) end",
+    "type": "statement:if"
+  }, {
+    "id": 186,
+    "text": "new = tonumber(new)",
+    "type": "statement:assign"
+  }, {
+    "id": 187,
+    "text": "if new < 0 then error(\"port number must not be negative\") end",
+    "type": "statement:if"
+  }, {
+    "id": 188,
+    "text": "error(\"port number must not be negative\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 189,
+    "text": "local newint = new - new % 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 190,
+    "text": "if newint ~= new then error(\"port number not integer\") end",
+    "type": "statement:if"
+  }, {
+    "id": 191,
+    "text": "error(\"port number not integer\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 192,
+    "text": "if new == self:default_port() then new = nil end",
+    "type": "statement:if"
+  }, {
+    "id": 193,
+    "text": "new = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 194,
+    "text": "self._port = new",
+    "type": "statement:assign"
+  }, {
+    "id": 195,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 196,
+    "text": "function M.path (self, ...)\r\n    local old = self._path\r\n\r\n    if select(\"#\", ...) > 0 then\r\n        local new = ... or \"\"\r\n        new = _normalize_percent_encoding(new)\r\n        new = Util.uri_encode(new, \"^A-Za-z0-9%-._~%%!$&'()*+,;=:@/\")\r\n        if self._host then\r\n            if new ~= \"\" and not new:find(\"^/\") then\r\n                error(\"path must begin with '/' when there is an authority\")\r\n            end\r\n        else\r\n            if new:find(\"^//\") then new = \"/%2F\" .. new:sub(3) end\r\n        end\r\n        self._path = new\r\n        self._uri = nil\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 197,
+    "text": "local old = self._path",
+    "type": "statement:localassign"
+  }, {
+    "id": 198,
+    "text": "if select(\"#\", ...) > 0 then\r\n        local new = ... or \"\"\r\n        new = _normalize_percent_encoding(new)\r\n        new = Util.uri_encode(new, \"^A-Za-z0-9%-._~%%!$&'()*+,;=:@/\")\r\n        if self._host then\r\n            if new ~= \"\" and not new:find(\"^/\") then\r\n                error(\"path must begin with '/' when there is an authority\")\r\n            end\r\n        else\r\n            if new:find(\"^//\") then new = \"/%2F\" .. new:sub(3) end\r\n        end\r\n        self._path = new\r\n        self._uri = nil\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 199,
+    "text": "local new = ... or \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 200,
+    "text": "new = Util.uri_encode(new, \"^A-Za-z0-9%-._~%%!$&'()*+,;=:@/\")",
+    "type": "statement:assign"
+  }, {
+    "id": 201,
+    "text": "if self._host then\r\n            if new ~= \"\" and not new:find(\"^/\") then\r\n                error(\"path must begin with '/' when there is an authority\")\r\n            end\r\n        else\r\n            if new:find(\"^//\") then new = \"/%2F\" .. new:sub(3) end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 202,
+    "text": "if new ~= \"\" and not new:find(\"^/\") then\r\n                error(\"path must begin with '/' when there is an authority\")\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 203,
+    "text": "error(\"path must begin with '/' when there is an authority\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 204,
+    "text": "if new:find(\"^//\") then new = \"/%2F\" .. new:sub(3) end",
+    "type": "statement:if"
+  }, {
+    "id": 205,
+    "text": "new = \"/%2F\" .. new:sub(3)",
+    "type": "statement:assign"
+  }, {
+    "id": 206,
+    "text": "self._path = new",
+    "type": "statement:assign"
+  }, {
+    "id": 207,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 208,
+    "text": "function M.query (self, ...)\r\n    local old = self._query\r\n\r\n    if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if new then\r\n            new = Util.uri_encode(new, \"^\" .. _UNRESERVED .. \"%%\" .. _SUB_DELIMS .. \":@/?\")\r\n        end\r\n        self._query = new\r\n        self._uri = nil\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 209,
+    "text": "local old = self._query",
+    "type": "statement:localassign"
+  }, {
+    "id": 210,
+    "text": "if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if new then\r\n            new = Util.uri_encode(new, \"^\" .. _UNRESERVED .. \"%%\" .. _SUB_DELIMS .. \":@/?\")\r\n        end\r\n        self._query = new\r\n        self._uri = nil\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 211,
+    "text": "if new then\r\n            new = Util.uri_encode(new, \"^\" .. _UNRESERVED .. \"%%\" .. _SUB_DELIMS .. \":@/?\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 212,
+    "text": "new = Util.uri_encode(new, \"^\" .. _UNRESERVED .. \"%%\" .. _SUB_DELIMS .. \":@/?\")",
+    "type": "statement:assign"
+  }, {
+    "id": 213,
+    "text": "self._query = new",
+    "type": "statement:assign"
+  }, {
+    "id": 214,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 215,
+    "text": "function M.fragment (self, ...)\r\n    local old = self._fragment\r\n\r\n    if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if new then\r\n            new = Util.uri_encode(new, \"^\" .. _UNRESERVED .. \"%%\" .. _SUB_DELIMS .. \":@/?\")\r\n        end\r\n        self._fragment = new\r\n        self._uri = nil\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 216,
+    "text": "local old = self._fragment",
+    "type": "statement:localassign"
+  }, {
+    "id": 217,
+    "text": "if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if new then\r\n            new = Util.uri_encode(new, \"^\" .. _UNRESERVED .. \"%%\" .. _SUB_DELIMS .. \":@/?\")\r\n        end\r\n        self._fragment = new\r\n        self._uri = nil\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 218,
+    "text": "self._fragment = new",
+    "type": "statement:assign"
+  }, {
+    "id": 219,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 220,
+    "text": "function M.init (self)\r\n    local scheme_class\r\n        = Util.attempt_require(\"uri.\" .. self._scheme:gsub(\"[-+.]\", \"_\"))\r\n    if scheme_class then\r\n        setmetatable(self, scheme_class)\r\n        if self._port and self._port == self:default_port() then\r\n            self._port = nil\r\n        end\r\n        -- Call the subclass 'init' method, if it has its own.\r\n        if scheme_class ~= M and self.init ~= M.init then\r\n            return self:init()\r\n        end\r\n    end\r\n    return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 221,
+    "text": "local scheme_class\r\n        = Util.attempt_require(\"uri.\" .. self._scheme:gsub(\"[-+.]\", \"_\"))",
+    "type": "statement:localassign"
+  }, {
+    "id": 222,
+    "text": "if scheme_class then\r\n        setmetatable(self, scheme_class)\r\n        if self._port and self._port == self:default_port() then\r\n            self._port = nil\r\n        end\r\n        -- Call the subclass 'init' method, if it has its own.\r\n        if scheme_class ~= M and self.init ~= M.init then\r\n            return self:init()\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 223,
+    "text": "setmetatable(self, scheme_class)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 224,
+    "text": "if self._port and self._port == self:default_port() then\r\n            self._port = nil\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 225,
+    "text": "self._port = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 226,
+    "text": "if scheme_class ~= M and self.init ~= M.init then\r\n            return self:init()\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 227,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 228,
+    "text": "function M.default_port () return nil end",
+    "type": "function"
+  }, {
+    "id": 229,
+    "text": "function M.is_relative () return false end",
+    "type": "function"
+  }, {
+    "id": 230,
+    "text": "function M.resolve () end",
+    "type": "function"
+  }, {
+    "id": 231,
+    "text": "function M.relativize (self, base)\r\n    if type(base) == \"string\" then base = assert(M:new(base)) end\r\n\r\n    -- Leave it alone if we can't a relative URI, or if it would be a network\r\n    -- path reference.\r\n    if self._scheme ~= base._scheme or self._host ~= base._host or\r\n       self._port ~= base._port or self._userinfo ~= base._userinfo then\r\n        return\r\n    end\r\n\r\n    local basepath = base._path\r\n    local oldpath = self._path\r\n    -- This is to avoid trying to make a URN or something relative, which\r\n    -- is likely to lead to grief.\r\n    if not basepath:find(\"^/\") or not oldpath:find(\"^/\") then return end\r\n\r\n    -- Turn it into a relative reference.\r\n    self._uri = nil\r\n    self._scheme = nil\r\n    self._host = nil\r\n    self._port = nil\r\n    self._userinfo = nil\r\n    setmetatable(self, require \"uri._relative\")\r\n\r\n    -- Use empty path if the path in the base URI is already correct.\r\n    if oldpath == basepath then\r\n        if self._query or not base._query then\r\n            self._path = \"\"\r\n        else\r\n            -- An empty URI reference leaves the query string in the base URI\r\n            -- unchanged, so to get a result with no query part we have to\r\n            -- have something in the relative path.\r\n            local _, _, lastseg = oldpath:find(\"/([^/]+)$\")\r\n            if lastseg and lastseg:find(\":\") then lastseg = \"./\" .. lastseg end\r\n            self._path = lastseg or \".\"\r\n        end\r\n        return\r\n    end\r\n\r\n    if oldpath == \"/\" or basepath == \"/\" then return end\r\n\r\n    local basesegs = Util.split(\"/\", basepath:sub(2))\r\n    local oldsegs = Util.split(\"/\", oldpath:sub(2))\r\n\r\n    if oldsegs[1] ~= basesegs[1] then return end\r\n\r\n    table.remove(basesegs)\r\n\r\n    while #oldsegs > 1 and #basesegs > 0 and oldsegs[1] == basesegs[1] do\r\n        table.remove(oldsegs, 1)\r\n        table.remove(basesegs, 1)\r\n    end\r\n\r\n    local path_naked = true\r\n    local newpath = \"\"\r\n    while #basesegs > 0 do\r\n        table.remove(basesegs, 1)\r\n        newpath = newpath .. \"../\"\r\n        path_naked = false\r\n    end\r\n\r\n    if path_naked and #oldsegs == 1 and oldsegs[1] == \"\" then\r\n        newpath = \"./\"\r\n        table.remove(oldsegs)\r\n    end\r\n\r\n    while #oldsegs > 0 do\r\n        if path_naked then\r\n            if oldsegs[1]:find(\":\") then\r\n                newpath = newpath .. \"./\"\r\n            elseif #oldsegs > 1 and oldsegs[1] == \"\" and oldsegs[2] == \"\" then\r\n                newpath = newpath .. \"/.\"\r\n            end\r\n        end\r\n\r\n        newpath = newpath .. oldsegs[1]\r\n        path_naked = false\r\n        table.remove(oldsegs, 1)\r\n        if #oldsegs > 0 then newpath = newpath .. \"/\" end\r\n    end\r\n\r\n    self._path = newpath\r\nend",
+    "type": "function"
+  }, {
+    "id": 232,
+    "text": "if type(base) == \"string\" then base = assert(M:new(base)) end",
+    "type": "statement:if"
+  }, {
+    "id": 233,
+    "text": "base = assert(M:new(base))",
+    "type": "statement:assign"
+  }, {
+    "id": 234,
+    "text": "if self._scheme ~= base._scheme or self._host ~= base._host or\r\n       self._port ~= base._port or self._userinfo ~= base._userinfo then\r\n        return\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 235,
+    "text": "local basepath = base._path",
+    "type": "statement:localassign"
+  }, {
+    "id": 236,
+    "text": "local oldpath = self._path",
+    "type": "statement:localassign"
+  }, {
+    "id": 237,
+    "text": "if not basepath:find(\"^/\") or not oldpath:find(\"^/\") then return end",
+    "type": "statement:if"
+  }, {
+    "id": 238,
+    "text": "self._scheme = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 239,
+    "text": "self._host = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 240,
+    "text": "self._userinfo = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 241,
+    "text": "setmetatable(self, require \"uri._relative\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 242,
+    "text": "if oldpath == basepath then\r\n        if self._query or not base._query then\r\n            self._path = \"\"\r\n        else\r\n            -- An empty URI reference leaves the query string in the base URI\r\n            -- unchanged, so to get a result with no query part we have to\r\n            -- have something in the relative path.\r\n            local _, _, lastseg = oldpath:find(\"/([^/]+)$\")\r\n            if lastseg and lastseg:find(\":\") then lastseg = \"./\" .. lastseg end\r\n            self._path = lastseg or \".\"\r\n        end\r\n        return\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 243,
+    "text": "if self._query or not base._query then\r\n            self._path = \"\"\r\n        else\r\n            -- An empty URI reference leaves the query string in the base URI\r\n            -- unchanged, so to get a result with no query part we have to\r\n            -- have something in the relative path.\r\n            local _, _, lastseg = oldpath:find(\"/([^/]+)$\")\r\n            if lastseg and lastseg:find(\":\") then lastseg = \"./\" .. lastseg end\r\n            self._path = lastseg or \".\"\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 244,
+    "text": "self._path = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 245,
+    "text": "local _, _, lastseg = oldpath:find(\"/([^/]+)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 246,
+    "text": "if lastseg and lastseg:find(\":\") then lastseg = \"./\" .. lastseg end",
+    "type": "statement:if"
+  }, {
+    "id": 247,
+    "text": "lastseg = \"./\" .. lastseg",
+    "type": "statement:assign"
+  }, {
+    "id": 248,
+    "text": "self._path = lastseg or \".\"",
+    "type": "statement:assign"
+  }, {
+    "id": 249,
+    "text": "if oldpath == \"/\" or basepath == \"/\" then return end",
+    "type": "statement:if"
+  }, {
+    "id": 250,
+    "text": "local basesegs = Util.split(\"/\", basepath:sub(2))",
+    "type": "statement:localassign"
+  }, {
+    "id": 251,
+    "text": "local oldsegs = Util.split(\"/\", oldpath:sub(2))",
+    "type": "statement:localassign"
+  }, {
+    "id": 252,
+    "text": "if oldsegs[1] ~= basesegs[1] then return end",
+    "type": "statement:if"
+  }, {
+    "id": 253,
+    "text": "table.remove(basesegs)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 254,
+    "text": "while #oldsegs > 1 and #basesegs > 0 and oldsegs[1] == basesegs[1] do\r\n        table.remove(oldsegs, 1)\r\n        table.remove(basesegs, 1)\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 255,
+    "text": "table.remove(oldsegs, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 256,
+    "text": "table.remove(basesegs, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 257,
+    "text": "local path_naked = true",
+    "type": "statement:localassign"
+  }, {
+    "id": 258,
+    "text": "local newpath = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 259,
+    "text": "while #basesegs > 0 do\r\n        table.remove(basesegs, 1)\r\n        newpath = newpath .. \"../\"\r\n        path_naked = false\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 260,
+    "text": "newpath = newpath .. \"../\"",
+    "type": "statement:assign"
+  }, {
+    "id": 261,
+    "text": "path_naked = false",
+    "type": "statement:assign"
+  }, {
+    "id": 262,
+    "text": "if path_naked and #oldsegs == 1 and oldsegs[1] == \"\" then\r\n        newpath = \"./\"\r\n        table.remove(oldsegs)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 263,
+    "text": "newpath = \"./\"",
+    "type": "statement:assign"
+  }, {
+    "id": 264,
+    "text": "table.remove(oldsegs)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 265,
+    "text": "while #oldsegs > 0 do\r\n        if path_naked then\r\n            if oldsegs[1]:find(\":\") then\r\n                newpath = newpath .. \"./\"\r\n            elseif #oldsegs > 1 and oldsegs[1] == \"\" and oldsegs[2] == \"\" then\r\n                newpath = newpath .. \"/.\"\r\n            end\r\n        end\r\n\r\n        newpath = newpath .. oldsegs[1]\r\n        path_naked = false\r\n        table.remove(oldsegs, 1)\r\n        if #oldsegs > 0 then newpath = newpath .. \"/\" end\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 266,
+    "text": "if path_naked then\r\n            if oldsegs[1]:find(\":\") then\r\n                newpath = newpath .. \"./\"\r\n            elseif #oldsegs > 1 and oldsegs[1] == \"\" and oldsegs[2] == \"\" then\r\n                newpath = newpath .. \"/.\"\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 267,
+    "text": "if oldsegs[1]:find(\":\") then\r\n                newpath = newpath .. \"./\"\r\n            elseif #oldsegs > 1 and oldsegs[1] == \"\" and oldsegs[2] == \"\" then\r\n                newpath = newpath .. \"/.\"\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 268,
+    "text": "newpath = newpath .. \"./\"",
+    "type": "statement:assign"
+  }, {
+    "id": 269,
+    "text": "newpath = newpath .. \"/.\"",
+    "type": "statement:assign"
+  }, {
+    "id": 270,
+    "text": "newpath = newpath .. oldsegs[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 271,
+    "text": "if #oldsegs > 0 then newpath = newpath .. \"/\" end",
+    "type": "statement:if"
+  }, {
+    "id": 272,
+    "text": "newpath = newpath .. \"/\"",
+    "type": "statement:assign"
+  }, {
+    "id": 273,
+    "text": "self._path = newpath",
+    "type": "statement:assign"
+  }, {
+    "id": 274,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 275,
+    "text": "function (hex)\r\n        if not hex:find(\"^[0-9A-Fa-f][0-9A-Fa-f]$\") then\r\n            error(\"invalid percent encoding '%\" .. hex ..\r\n                  \"' in URI '\" .. s .. \"'\")\r\n        end\r\n\r\n        -- Never percent-encode unreserved characters, and always use uppercase\r\n        -- hexadecimal for percent encoding.  RFC 3986 section 6.2.2.2.\r\n        local char = string.char(tonumber(\"0x\" .. hex))\r\n        return char:find(\"^[\" .. _UNRESERVED .. \"]\") and char or \"%\" .. hex:upper()\r\n    end",
+    "type": "function"
+  }, {
+    "id": 276,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 277,
+    "text": "function (uri, new) uri._scheme = new end",
+    "type": "function"
+  }, {
+    "id": 278,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 279,
+    "text": "split",
+    "type": "global function"
+  }, {
+    "id": 280,
+    "text": "remove_dot_segments",
+    "type": "global function"
+  }, {
+    "id": 281,
+    "text": "uri_encode",
+    "type": "global function"
+  }, {
+    "id": 282,
+    "text": "do_class_changing_change",
+    "type": "global function"
+  }, {
+    "id": 283,
+    "text": "eq",
+    "type": "global function"
+  }, {
+    "id": 284,
+    "text": "attempt_require",
+    "type": "global function"
+  }, {
+    "id": 285,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 286,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 287,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 288,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 289,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 290,
+    "text": "getmetatable",
+    "type": "global function"
+  }, {
+    "id": 291,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 292,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 293,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 294,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 295,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 296,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 297,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 298,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 299,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 300,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 301,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 302,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 303,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 304,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 305,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 306,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 307,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 308,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 309,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 310,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 311,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 312,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 313,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 314,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 315,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 316,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 317,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 318,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 319,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 320,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 321,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 322,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 323,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 324,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 325,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 326,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 327,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 328,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 329,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 330,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 331,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 332,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 333,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 334,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 335,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 336,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 337,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 338,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 339,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 340,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 341,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 342,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 343,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 344,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 345,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 346,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 347,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 348,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 349,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 350,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 351,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 352,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 353,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 354,
+    "text": "",
+    "type": "interface"
+  } ]
+}

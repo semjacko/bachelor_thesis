@@ -1,0 +1,85 @@
+{
+  "_filename": "t_luacom.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luacom/src/library/t_luacom.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "provides",
+    "to": 9
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "t_luacom",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 4,
+    "text": "loadlib",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "interface"
+  } ]
+}

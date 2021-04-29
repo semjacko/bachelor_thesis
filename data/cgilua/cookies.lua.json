@@ -1,0 +1,705 @@
+{
+  "_filename": "cookies.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/cgilua/src/cgilua/cookies.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 59,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 60
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 61
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "assigns",
+    "to": 63
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "assigns",
+    "to": 65
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "assigns",
+    "to": 67
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "assigns",
+    "to": 69
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "assigns",
+    "to": 71
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "assigns",
+    "to": 73
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "assigns",
+    "to": 75
+  }, {
+    "from": 61,
+    "label": "initializes",
+    "to": 59
+  }, {
+    "from": 76,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cookies",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function username()\r\n\tif authenticatedUser == nil then\r\n\t\tlocal authenticatedUserData\r\n        local token\r\n\t\tif configuration.tokenPersistence == \"url\" then\r\n            token = getToken()\r\n\t\telseif configuration.tokenPersistence == \"cookie\" then\r\n\t\t\ttoken = cgilua.cookies.get(configuration.tokenName)\r\n\t\tend\r\n        if token then\r\n            authenticatedUserData = md5.decrypt(decodeURLbase64(token), configuration.criptKey)\r\n            -- check if IP in crypted data match with client IP\r\n            local authenticatedUserIP = authenticatedUserData and string.gsub(authenticatedUserData, \",.*$\",\"\") or nil\r\n            if authenticatedUserIP ~= cgilua.servervariable(\"REMOTE_ADDR\") then\r\n                return nil\r\n            end\r\n            authenticatedUser=authenticatedUserData and string.gsub(authenticatedUserData, \"^.*,\", \"\") or nil\r\n        end\r\n\tend\r\n\treturn authenticatedUser\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local function setUser(username)\r\n\tauthenticatedUser = username\r\n    if username then\r\n        local cryptedUserData = cryptUserData()\r\n        if configuration.tokenPersistence == \"url\" then\r\n            setToken(cryptedUserData)\r\n            cgilua.cookies.delete(configuration.tokenName) -- removes an eventual previous cookie token\r\n        elseif configuration.tokenPersistence == \"cookie\" then\r\n            cgilua.cookies.set(configuration.tokenName, cryptedUserData)\r\n            setToken() -- remove an eventual previous token from the URLs\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function logout()\r\n    setUser()\r\n    cgilua.cookies.delete(configuration.tokenName)\r\n    setToken()\r\n    cgilua.QUERY.logout = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function checkURL(ref, tologout)\r\n    local token\r\n    if configuration.tokenPersistence == \"url\" then\r\n        token = getToken()\r\n    elseif configuration.tokenPersistence == \"cookie\" then\r\n        token = cgilua.cookies.get(configuration.tokenName)\r\n    end\r\n\r\n    -- As HTTP header referer information can violate privacy, \r\n    -- some browsers allow the user to disable the sending of referer information.\r\n    -- Some proxy and firewall software will also filter out referer information,\r\n    -- to avoid leaking the location of non-public websites.\r\n    -- So we send the current URL as an URL parameter to the login URL.     \r\n\tsetToken()\r\n\tlocal args = {ref = ref or currentURL(), logout = tologout}\r\n\tif string.find(configuration.checkURL, \"^https?:\") then\r\n\t\tlocal params = \"?\"..urlcode.encodetable(args)\r\n\t\treturn configuration.checkURL..params\r\n\tend\r\n\treturn cgilua.mkabsoluteurl(cgilua.mkurlpath(configuration.checkURL, args))\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "local function header(...)\r\n   return SAPI.Response.header(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "local function write(...)\r\n   return SAPI.Response.write(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "local function servervariable(...)\r\n   return SAPI.Request.servervariable(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "local function optional (what, name)\r\n  if name ~= nil and name ~= \"\" then\r\n    return format(\"; %s=%s\", what, name)\r\n  else\r\n    return \"\"\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "if name ~= nil and name ~= \"\" then\r\n    return format(\"; %s=%s\", what, name)\r\n  else\r\n    return \"\"\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "local function build (name, value, options)\r\n  if not name or not value then\r\n    error(\"cookie needs a name and a value\")\r\n  end\r\n  local cookie = name .. \"=\" .. escape(value)\r\n  options = options or {}\r\n  if options.expires then\r\n    local t = date(\"!%A, %d-%b-%Y %H:%M:%S GMT\", options.expires)\r\n    cookie = cookie .. optional(\"expires\", t)\r\n  end\r\n  cookie = cookie .. optional(\"path\", options.path)\r\n  cookie = cookie .. optional(\"domain\", options.domain)\r\n  cookie = cookie .. optional(\"secure\", options.secure)\r\n  return cookie\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "if not name or not value then\r\n    error(\"cookie needs a name and a value\")\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "error(\"cookie needs a name and a value\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "local cookie = name .. \"=\" .. escape(value)",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "options = options or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "if options.expires then\r\n    local t = date(\"!%A, %d-%b-%Y %H:%M:%S GMT\", options.expires)\r\n    cookie = cookie .. optional(\"expires\", t)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "local t = date(\"!%A, %d-%b-%Y %H:%M:%S GMT\", options.expires)",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "cookie = cookie .. optional(\"expires\", t)",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "cookie = cookie .. optional(\"path\", options.path)",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "cookie = cookie .. optional(\"domain\", options.domain)",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "cookie = cookie .. optional(\"secure\", options.secure)",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function set (name, value, options)\r\n  header(\"Set-Cookie\", build(name, value, options))\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "header(\"Set-Cookie\", build(name, value, options))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function sethtml (name, value, options)\r\n  write(format('<meta http-equiv=\"Set-Cookie\" content=\"%s\">', \r\n                build(name, value, options)))\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "write(format('<meta http-equiv=\"Set-Cookie\" content=\"%s\">', \r\n                build(name, value, options)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "function get (name)\r\n  local cookies = servervariable\"HTTP_COOKIE\" or \"\"\r\n  cookies = \";\" .. cookies .. \";\"\r\n  cookies = gsub(cookies, \"%s*;%s*\", \";\")   -- remove extra spaces\r\n  local pattern = \";\" .. name .. \"=(.-);\"\r\n  local _, __, value = strfind(cookies, pattern)\r\n  return value and unescape(value)\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "local cookies = servervariable\"HTTP_COOKIE\" or \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "cookies = \";\" .. cookies .. \";\"",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "cookies = gsub(cookies, \"%s*;%s*\", \";\")",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "local pattern = \";\" .. name .. \"=(.-);\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 39,
+    "text": "local _, __, value = strfind(cookies, pattern)",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 41,
+    "text": "function delete (name, options)\r\n  options = options or {}\r\n  options.expires = 1\r\n  set(name, \"xxx\", options)\r\nend",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "options.expires = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "set(name, \"xxx\", options)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 47,
+    "text": "unescape",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "SAPI.Request.servervariable",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "SAPI.Response.header",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "SAPI.Response.write",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "date",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "escape",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "strfind",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

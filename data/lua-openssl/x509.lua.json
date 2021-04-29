@@ -1,0 +1,289 @@
+{
+  "_filename": "x509.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-openssl/test/x509.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "requires",
+    "to": 27
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "x509",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function dump(t,i)\r\n        for k,v in pairs(t) do\r\n                if(type(v)=='table') then\r\n                        print( string.rep('\\t',i),k..'={')\r\n                                dump(v,i+1)\r\n                        print( string.rep('\\t',i),k..'=}')\r\n                else\r\n                        print( string.rep('\\t',i),k..'='..tostring(v))\r\n                end\r\n        end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "for k,v in pairs(t) do\r\n                if(type(v)=='table') then\r\n                        print( string.rep('\\t',i),k..'={')\r\n                                dump(v,i+1)\r\n                        print( string.rep('\\t',i),k..'=}')\r\n                else\r\n                        print( string.rep('\\t',i),k..'='..tostring(v))\r\n                end\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 4,
+    "text": "if(type(v)=='table') then\r\n                        print( string.rep('\\t',i),k..'={')\r\n                                dump(v,i+1)\r\n                        print( string.rep('\\t',i),k..'=}')\r\n                else\r\n                        print( string.rep('\\t',i),k..'='..tostring(v))\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "print( string.rep('\\t',i),k..'={')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "dump(v,i+1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "print( string.rep('\\t',i),k..'=}')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "print( string.rep('\\t',i),k..'='..tostring(v))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function test_x509()\r\n        local x = openssl.x509_read('file://b.cer')\r\n        print(x)\r\n        t = x:parse()\r\n        dump(t,0)\r\n        t = openssl.x509_parse(x)\r\n        print(t)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local x = openssl.x509_read('file://b.cer')",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "print(x)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "t = x:parse()",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "dump(t,0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "t = openssl.x509_parse(x)",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "print(t)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 19,
+    "text": "x509_parse",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "x509_read",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "rep",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "(openssl)",
+    "type": "module"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

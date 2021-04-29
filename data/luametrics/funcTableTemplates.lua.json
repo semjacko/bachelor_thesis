@@ -1,0 +1,1173 @@
+{
+  "_filename": "funcTableTemplates.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luametrics/src/metrics/templates/funcTableTemplates.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 94,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 112
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 112
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 112
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 112
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 112
+  }, {
+    "from": 106,
+    "label": "calls",
+    "to": 114
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 106
+  }, {
+    "from": 106,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 106,
+    "label": "declares",
+    "to": 60
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 115
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 116
+  }, {
+    "from": 116,
+    "label": "initializes",
+    "to": 117
+  }, {
+    "from": 117,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 118
+  }, {
+    "from": 3,
+    "label": "represents",
+    "to": 119
+  }, {
+    "from": 118,
+    "label": "provides",
+    "to": 119
+  }, {
+    "from": 60,
+    "label": "represents",
+    "to": 120
+  }, {
+    "from": 118,
+    "label": "provides",
+    "to": 120
+  }, {
+    "from": 121,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "funcTableTemplates",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "utils",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function createFunctionTableList(metrics, definitions, withLink)\r\n\t\r\n\tlocal sortedTable, letterTable = utils.getSortedTable(metrics[definitions]) --Get letterTable and sortedTable \r\n\tlocal fragmentCount = #sortedTable --Count of tabs (starting letters)\r\n\tlocal result = utils.addTableCSS(\"tabs\") .. utils.getjQuerryJS() --Add JavaScript script to template\r\n\tlocal list = \"\"\r\n\tlocal pages = \"\"\r\n\tlocal funType = \"ttype\" --Default value represents selecting tables\r\n\r\n\tif(definitions == \"functionDefinitions\") then\r\n\t\tfunType = \"fcntype\" --If function list is selected\r\n\tend\r\n\r\n\tfor fragmentNumber, key in ipairs(sortedTable) do --For each letter tab in table \r\n\r\n\t\t--list contains header (tabs) in tables\r\n\t\tlist = list .. \"<li><a href='#fragment-\" .. fragmentNumber .. \"'><span>\" .. key .. \"</span></a></li>\"\r\n\t\t--pages contains containers for each tab of table\r\n\t\tpages = pages .. \"<div id='fragment-\" .. fragmentNumber .. \"'>\"\r\n\r\n\t\tfor _, fun in pairs(letterTable[key]) do --fill container of tab with functions or table\r\n\r\n\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\tpages = pages .. \"<span class='tohide'>\" --If type is anonymous or table-field add span to endble hiding\r\n\t\t\tend\r\n\r\n\t\t\tpages = pages .. fun[funType]\r\n\r\n\t\t\t--Add function name with link to documentation\r\n\t\t\tpages = pages ..    \"<a href='#|type=fileLink|to=\" .. fun.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fun.name .. \"'> \" ..\r\n\t\t\t\tfun.name .. \"</a>\" ..    \" - [.\" .. fun.path .. \"]&emsp;\" .. utils.replaceSpecials(fun.comment or \"\") .. \"<br />\"\r\n\r\n\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\tpages = pages .. \"</span>\" --Close span for table-field or anonymous  \r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\tpages = pages .. \"</div>\"\r\n\r\n\tend\r\n\r\n\tresult = result .. \"<div id='tabs'><ul>\" .. list --Concat header (tabs) to result\r\n\r\n\t--If functions are selected add Local and Global categories to header\r\n\tif(definitions == \"functionDefinitions\") then\r\n\t\tresult = result .. \"<li><a href='#fragment-\" .. fragmentCount + 4 .. \"'><span>Local</span></a></li>\" ..\r\n\t\t\"<li><a href='#fragment-\" .. fragmentCount + 5 .. \"'><span>Global</span></a></li>\"\r\n\tend\r\n\t\t\r\n\t--Add Table-field, Anonymous (can be enabled by checkbox) and All category to header (tabs)\r\n\tresult = result .. \"<li class='tohide'><a href='#fragment-\" .. fragmentCount + 1 .. \"'><span>Table-field</span>\" ..\r\n\t\t\"</a></li>\" ..\r\n\t\t\"<li class='tohide'><a href='#fragment-\" .. fragmentCount + 2 .. \"'><span>Anonymous</span></a></li>\" ..\r\n\t\t\"<li><a href='#fragment-\" .. fragmentCount + 3 .. \"'><span>All</span></a></li>\"\r\n\r\n\t--Add Tree category to header (tabs) only if functions selected\r\n\tif(definitions == \"functionDefinitions\") then\r\n\t\tresult = result .. \"<li><a href='#fragment-\" .. fragmentCount + 6 .. \"'><span>Tree</span></a></li>\"\r\n\tend\r\n\r\n\tresult = result .. \"</ul>\" .. pages --Close header\r\n\r\n\tlocal options = {}\r\n\r\n\tif(definitions == \"functionDefinitions\") then --Set which containers to fill if functions or tables are selected\r\n\t\toptions = {\"table-field\", \"anonymous\", \"local\", \"global\"}\r\n\telse\r\n\t\toptions = {\"table-field\", \"anonymous\"}\r\n\tend\r\n\r\n\tfor i, fcnType in pairs(options) do --Fill containers set in options table\r\n\r\n\t\tif i > 2 then i = i + 1 end --Skip all tab to be last in table\r\n\r\n\t\tresult = result .. \"<div id='fragment-\" .. fragmentCount + i .. \"'>\"\r\n\r\n\t\tfor _, fInfo in ipairs(metrics[definitions]) do\r\n\r\n\t\t\tif fInfo[funType] == fcnType then --Select functions or tables based on type in oprions\r\n\r\n\t\t\t\tresult = result .. fInfo[funType]\r\n\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\" \r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\tresult = result .. \"</div>\"\r\n\r\n\tend\r\n\r\n\tresult = result .. \"<div id='fragment-\" .. fragmentCount + 3 .. \"'>\" --Add All category container\r\n\r\n\tfor _, fInfo in ipairs(metrics[definitions]) do\r\n\r\n\t\tif fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then --Set to be able to hide anonymous or table-field\r\n\t\t\tresult = result .. \"<span class='tohide'>\"\r\n\t\tend\r\n\r\n\t\tresult = result .. fInfo[funType] --Add all other functions or tables\r\n\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\"\r\n\r\n\t\tif fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then\r\n\t\t\tresult = result .. \"</span>\" --Close anonymous or table-field ability to hide\r\n\t\tend\r\n\tend\r\n\r\n\tresult = result .. \"</div>\"\r\n\r\n\tif(definitions == \"functionDefinitions\") then --If functions selected add tree structure\r\n\r\n\t\tresult = result .. \"<div id='fragment-\" .. fragmentCount + 6 .. \"'><div>\"\r\n\t\tresult = result .. \"<ul id='functiontree' class='menulist' style='list-style-type: none;'>\"\r\n\r\n\t\tfor filename, AST in pairs(metrics.file_AST_list) do --Create structure for each file\r\n\r\n\t\t\tresult = result .. \"<li><a href='#' class='toggler' onclick='return menu_toggle(this);'>[+]</a>\" .. \r\n\t\t\t\t\"<a href='#|type=fileLink|to=\" .. filename .. \"|from=functionlist/index.html|#\" .. \"'>\" .. \" .\" ..\r\n\t\t\t\tfilename .. \"</a><ul style='list-style-type: none;'>\" ..\r\n\t\t\t\tutils.drawFunctionTree(AST, filename, fileLink) .. \"</ul></li>\" --Draw functions under file list item\r\n\r\n\t\tend\r\n\t\t\t\t\r\n\t\tresult = result .. \"</ul></div></div>\"\r\n\r\n\tend\r\n\r\n\tresult = result .. \"</div>\"\r\n\r\n\tif(withLink or withLink == nil) then --If needed, checkbox to show hide table-field and anonymous functions added\r\n\t\tresult = result .. \"<form id='myform' style='font-size: 13px;'> <input type='checkbox' class='myCheckbox' />\" ..\r\n\t\t\t\"Show table-field functions and anonymous functions. </form>\"\r\n\tend\r\n\r\n\treturn result\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local sortedTable, letterTable = utils.getSortedTable(metrics[definitions])",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local fragmentCount = #sortedTable",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local result = utils.addTableCSS(\"tabs\") .. utils.getjQuerryJS()",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local list = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local pages = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "local funType = \"ttype\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if(definitions == \"functionDefinitions\") then\r\n\t\tfunType = \"fcntype\" --If function list is selected\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "funType = \"fcntype\"",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "for fragmentNumber, key in ipairs(sortedTable) do --For each letter tab in table \r\n\r\n\t\t--list contains header (tabs) in tables\r\n\t\tlist = list .. \"<li><a href='#fragment-\" .. fragmentNumber .. \"'><span>\" .. key .. \"</span></a></li>\"\r\n\t\t--pages contains containers for each tab of table\r\n\t\tpages = pages .. \"<div id='fragment-\" .. fragmentNumber .. \"'>\"\r\n\r\n\t\tfor _, fun in pairs(letterTable[key]) do --fill container of tab with functions or table\r\n\r\n\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\tpages = pages .. \"<span class='tohide'>\" --If type is anonymous or table-field add span to endble hiding\r\n\t\t\tend\r\n\r\n\t\t\tpages = pages .. fun[funType]\r\n\r\n\t\t\t--Add function name with link to documentation\r\n\t\t\tpages = pages ..    \"<a href='#|type=fileLink|to=\" .. fun.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fun.name .. \"'> \" ..\r\n\t\t\t\tfun.name .. \"</a>\" ..    \" - [.\" .. fun.path .. \"]&emsp;\" .. utils.replaceSpecials(fun.comment or \"\") .. \"<br />\"\r\n\r\n\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\tpages = pages .. \"</span>\" --Close span for table-field or anonymous  \r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\tpages = pages .. \"</div>\"\r\n\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 13,
+    "text": "list = list .. \"<li><a href='#fragment-\" .. fragmentNumber .. \"'><span>\" .. key .. \"</span></a></li>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "pages = pages .. \"<div id='fragment-\" .. fragmentNumber .. \"'>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "for _, fun in pairs(letterTable[key]) do --fill container of tab with functions or table\r\n\r\n\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\tpages = pages .. \"<span class='tohide'>\" --If type is anonymous or table-field add span to endble hiding\r\n\t\t\tend\r\n\r\n\t\t\tpages = pages .. fun[funType]\r\n\r\n\t\t\t--Add function name with link to documentation\r\n\t\t\tpages = pages ..    \"<a href='#|type=fileLink|to=\" .. fun.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fun.name .. \"'> \" ..\r\n\t\t\t\tfun.name .. \"</a>\" ..    \" - [.\" .. fun.path .. \"]&emsp;\" .. utils.replaceSpecials(fun.comment or \"\") .. \"<br />\"\r\n\r\n\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\tpages = pages .. \"</span>\" --Close span for table-field or anonymous  \r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 16,
+    "text": "if(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\tpages = pages .. \"<span class='tohide'>\" --If type is anonymous or table-field add span to endble hiding\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "pages = pages .. \"<span class='tohide'>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "pages = pages .. fun[funType]",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "pages = pages ..    \"<a href='#|type=fileLink|to=\" .. fun.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fun.name .. \"'> \" ..\r\n\t\t\t\tfun.name .. \"</a>\" ..    \" - [.\" .. fun.path .. \"]&emsp;\" .. utils.replaceSpecials(fun.comment or \"\") .. \"<br />\"",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "if(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\tpages = pages .. \"</span>\" --Close span for table-field or anonymous  \r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "pages = pages .. \"</span>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "pages = pages .. \"</div>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "result = result .. \"<div id='tabs'><ul>\" .. list",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "if(definitions == \"functionDefinitions\") then\r\n\t\tresult = result .. \"<li><a href='#fragment-\" .. fragmentCount + 4 .. \"'><span>Local</span></a></li>\" ..\r\n\t\t\"<li><a href='#fragment-\" .. fragmentCount + 5 .. \"'><span>Global</span></a></li>\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "result = result .. \"<li><a href='#fragment-\" .. fragmentCount + 4 .. \"'><span>Local</span></a></li>\" ..\r\n\t\t\"<li><a href='#fragment-\" .. fragmentCount + 5 .. \"'><span>Global</span></a></li>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "result = result .. \"<li class='tohide'><a href='#fragment-\" .. fragmentCount + 1 .. \"'><span>Table-field</span>\" ..\r\n\t\t\"</a></li>\" ..\r\n\t\t\"<li class='tohide'><a href='#fragment-\" .. fragmentCount + 2 .. \"'><span>Anonymous</span></a></li>\" ..\r\n\t\t\"<li><a href='#fragment-\" .. fragmentCount + 3 .. \"'><span>All</span></a></li>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "if(definitions == \"functionDefinitions\") then\r\n\t\tresult = result .. \"<li><a href='#fragment-\" .. fragmentCount + 6 .. \"'><span>Tree</span></a></li>\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "result = result .. \"<li><a href='#fragment-\" .. fragmentCount + 6 .. \"'><span>Tree</span></a></li>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "result = result .. \"</ul>\" .. pages",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "local options = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "if(definitions == \"functionDefinitions\") then --Set which containers to fill if functions or tables are selected\r\n\t\toptions = {\"table-field\", \"anonymous\", \"local\", \"global\"}\r\n\telse\r\n\t\toptions = {\"table-field\", \"anonymous\"}\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "options = {\"table-field\", \"anonymous\", \"local\", \"global\"}",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "options = {\"table-field\", \"anonymous\"}",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "for i, fcnType in pairs(options) do --Fill containers set in options table\r\n\r\n\t\tif i > 2 then i = i + 1 end --Skip all tab to be last in table\r\n\r\n\t\tresult = result .. \"<div id='fragment-\" .. fragmentCount + i .. \"'>\"\r\n\r\n\t\tfor _, fInfo in ipairs(metrics[definitions]) do\r\n\r\n\t\t\tif fInfo[funType] == fcnType then --Select functions or tables based on type in oprions\r\n\r\n\t\t\t\tresult = result .. fInfo[funType]\r\n\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\" \r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\tresult = result .. \"</div>\"\r\n\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 35,
+    "text": "if i > 2 then i = i + 1 end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "i = i + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "result = result .. \"<div id='fragment-\" .. fragmentCount + i .. \"'>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "for _, fInfo in ipairs(metrics[definitions]) do\r\n\r\n\t\t\tif fInfo[funType] == fcnType then --Select functions or tables based on type in oprions\r\n\r\n\t\t\t\tresult = result .. fInfo[funType]\r\n\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\" \r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 39,
+    "text": "if fInfo[funType] == fcnType then --Select functions or tables based on type in oprions\r\n\r\n\t\t\t\tresult = result .. fInfo[funType]\r\n\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\" \r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 40,
+    "text": "result = result .. fInfo[funType]",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "result = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\"",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "result = result .. \"</div>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "result = result .. \"<div id='fragment-\" .. fragmentCount + 3 .. \"'>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "for _, fInfo in ipairs(metrics[definitions]) do\r\n\r\n\t\tif fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then --Set to be able to hide anonymous or table-field\r\n\t\t\tresult = result .. \"<span class='tohide'>\"\r\n\t\tend\r\n\r\n\t\tresult = result .. fInfo[funType] --Add all other functions or tables\r\n\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\"\r\n\r\n\t\tif fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then\r\n\t\t\tresult = result .. \"</span>\" --Close anonymous or table-field ability to hide\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 45,
+    "text": "if fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then --Set to be able to hide anonymous or table-field\r\n\t\t\tresult = result .. \"<span class='tohide'>\"\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 46,
+    "text": "result = result .. \"<span class='tohide'>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 47,
+    "text": "result = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\"",
+    "type": "statement:assign"
+  }, {
+    "id": 48,
+    "text": "if fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then\r\n\t\t\tresult = result .. \"</span>\" --Close anonymous or table-field ability to hide\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 49,
+    "text": "result = result .. \"</span>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 50,
+    "text": "if(definitions == \"functionDefinitions\") then --If functions selected add tree structure\r\n\r\n\t\tresult = result .. \"<div id='fragment-\" .. fragmentCount + 6 .. \"'><div>\"\r\n\t\tresult = result .. \"<ul id='functiontree' class='menulist' style='list-style-type: none;'>\"\r\n\r\n\t\tfor filename, AST in pairs(metrics.file_AST_list) do --Create structure for each file\r\n\r\n\t\t\tresult = result .. \"<li><a href='#' class='toggler' onclick='return menu_toggle(this);'>[+]</a>\" .. \r\n\t\t\t\t\"<a href='#|type=fileLink|to=\" .. filename .. \"|from=functionlist/index.html|#\" .. \"'>\" .. \" .\" ..\r\n\t\t\t\tfilename .. \"</a><ul style='list-style-type: none;'>\" ..\r\n\t\t\t\tutils.drawFunctionTree(AST, filename, fileLink) .. \"</ul></li>\" --Draw functions under file list item\r\n\r\n\t\tend\r\n\t\t\t\t\r\n\t\tresult = result .. \"</ul></div></div>\"\r\n\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "result = result .. \"<div id='fragment-\" .. fragmentCount + 6 .. \"'><div>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "result = result .. \"<ul id='functiontree' class='menulist' style='list-style-type: none;'>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "for filename, AST in pairs(metrics.file_AST_list) do --Create structure for each file\r\n\r\n\t\t\tresult = result .. \"<li><a href='#' class='toggler' onclick='return menu_toggle(this);'>[+]</a>\" .. \r\n\t\t\t\t\"<a href='#|type=fileLink|to=\" .. filename .. \"|from=functionlist/index.html|#\" .. \"'>\" .. \" .\" ..\r\n\t\t\t\tfilename .. \"</a><ul style='list-style-type: none;'>\" ..\r\n\t\t\t\tutils.drawFunctionTree(AST, filename, fileLink) .. \"</ul></li>\" --Draw functions under file list item\r\n\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 54,
+    "text": "result = result .. \"<li><a href='#' class='toggler' onclick='return menu_toggle(this);'>[+]</a>\" .. \r\n\t\t\t\t\"<a href='#|type=fileLink|to=\" .. filename .. \"|from=functionlist/index.html|#\" .. \"'>\" .. \" .\" ..\r\n\t\t\t\tfilename .. \"</a><ul style='list-style-type: none;'>\" ..\r\n\t\t\t\tutils.drawFunctionTree(AST, filename, fileLink) .. \"</ul></li>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "result = result .. \"</ul></div></div>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "if(withLink or withLink == nil) then --If needed, checkbox to show hide table-field and anonymous functions added\r\n\t\tresult = result .. \"<form id='myform' style='font-size: 13px;'> <input type='checkbox' class='myCheckbox' />\" ..\r\n\t\t\t\"Show table-field functions and anonymous functions. </form>\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 57,
+    "text": "result = result .. \"<form id='myform' style='font-size: 13px;'> <input type='checkbox' class='myCheckbox' />\" ..\r\n\t\t\t\"Show table-field functions and anonymous functions. </form>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 60,
+    "text": "local function createDocumentedFunctionTableList(metrics, definitions, documented, withLink)\r\n\t\r\n\tlocal sortedTable, letterTable = utils.getSortedTable(metrics[definitions]) --Get letterTable and sortedTable \r\n\tlocal fragmentCount = #sortedTable --Count of tabs (starting letters)\r\n\tlocal result = \"\"\r\n\tlocal list = \"\"\r\n\tlocal pages = \"\"\r\n\tlocal funType = \"ttype\" --Default value represents selecting tables\r\n\tlocal lastFragNum = -1 --Counter not to add one tab more times\r\n\r\n\tif(documented == 0) then --Set different ID to documented and not documented to not interfere with each other in HTML file\r\n\t\tresult = utils.addTableCSS(\"tabs3\") .. utils.getjQuerryJS()\r\n\telse\r\n\t\tresult = utils.addTableCSS(\"tabs2\") .. utils.getjQuerryJS()\r\n\tend\r\n\r\n\tif(definitions == \"functionDefinitions\") then\r\n\t\tfunType = \"fcntype\" --If function list is selected\r\n\tend\r\n\r\n\tfor fragmentNumber, key in ipairs(sortedTable) do --For each letter tab in table     \r\n\r\n\t\t--pages contains containers for each tab of table\r\n\t\tpages = pages .. \"<div id='fragment-\" .. fragmentNumber .. \"'>\"\r\n\r\n\t\tfor _, fun in pairs(letterTable[key]) do --Loop through functions or tables in letter table\r\n\r\n\t\t\tif fun.documented == documented or (documented == 0 and fun.documented == nil) then --select documented or not documented\r\n\r\n\t\t\t\tif(fragmentNumber ~= lastFragNum) then --If tab wasnt added\r\n\r\n\t\t\t\t\tlastFragNum = fragmentNumber\r\n\t\t\t\t\t--list contains header (tabs) in tables\r\n\t\t\t\t\tlist = list .. \"<li><a href='#fragment-\" .. fragmentNumber .. \"'><span>\" .. key .. \"</span></a></li>\"\r\n\r\n\t\t\t\tend\r\n\r\n\t\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then --If is anonymous or table-field add ability to hide\r\n\t\t\t\t\tpages = pages .. \"<span class='tohide'>\"\r\n\t\t\t\tend\r\n\r\n\t\t\t\tpages = pages .. fun[funType]\r\n\r\n\t\t\t\t--Add functions to container of the tab in table with link to documentation\r\n\t\t\t\tpages = pages .. \"<a href='#|type=fileLink|to=\" .. fun.path .. \"|from=functionlist/index.html|#\" ..\r\n\t\t\t\t\t\"#\" .. fun.name .. \"'> \" ..\r\n\t\t\t\t\tfun.name .. \"</a>\" .. \" - [.\" .. fun.path .. \"]&emsp;\" .. utils.replaceSpecials(fun.comment or \"\") .. \"<br />\"\r\n\r\n\t\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\t\tpages = pages .. \"</span>\" --Close ability to hide for table-field or anonymous  \r\n\t\t\t\tend     \r\n\t\t\tend \r\n\t\tend\r\n\r\n\t\tpages = pages .. \"</div>\"\r\n\r\n\tend\r\n\r\n\t--Move counter to 6 or 12 to not interfere tables with each other in HTML documentation (Needed for luadocer)\r\n\tif(documented == 0) then fragmentCount = fragmentCount + 12 else fragmentCount = fragmentCount + 6 end\r\n\r\n\tif(list ~= \"\") then --If any documented or not documented function exists\r\n\r\n\t\tresult = result .. \"<div id='tabs\" --create container for containers including functions or tables\r\n\r\n\t\tif(documented == 0) then\r\n\t\t\tresult = result .. \"3\" --Again not to interfere with each other in HTML documentation (Needed for luadocer)\r\n\t\telse\r\n\t\t\tresult = result .. \"2\"\r\n\t\tend\r\n\r\n\t\tresult = result .. \"'><ul>\" .. list --Add header to result\r\n\r\n\t\tif(definitions == \"functionDefinitions\") then --If functions are selected add Local and Global categories to header\r\n\t\t\tresult = result .. \"<li><a href='#fragment-\" .. fragmentCount + 4 .. \"'><span>Local</span></a></li>\" ..\r\n\t\t\t\"<li><a href='#fragment-\" .. fragmentCount + 5 .. \"'><span>Global</span></a></li>\"\r\n\t\tend\r\n\t\t\r\n\t\t--Add Table-field, Anonymous (can be enabled by checkbox) and All category to header (tabs)\r\n\t\tresult = result .. \"<li class='tohide'><a href='#fragment-\" .. fragmentCount + 1 ..\r\n\t\t\t\"'><span>Table-field</span>\" .. \"</a></li>\" ..\r\n\t\t\t\"<li class='tohide'><a href='#fragment-\" .. fragmentCount + 2 .. \"'><span>Anonymous</span></a></li>\" ..\r\n\t\t\t\"<li><a href='#fragment-\" .. fragmentCount + 3 .. \"'><span>All</span></a></li>\"\r\n\r\n\t\tresult = result .. \"</ul>\" .. pages --Close header\r\n\r\n\t\tlocal options = {}\r\n\r\n\t\tif(definitions == \"functionDefinitions\") then --Set which containers to fill if functions or tables are selected\r\n\t\t\toptions = {\"table-field\", \"anonymous\", \"local\", \"global\"}\r\n\t\telse\r\n\t\t\toptions = {\"table-field\", \"anonymous\"}\r\n\t\tend\r\n\r\n\t\tfor i, fcnType in pairs(options) do --Fill containers set in options table\r\n\r\n\t\t\tif i > 2 then i = i + 1 end --Skip all tab to be last in table\r\n\r\n\t\t\tresult = result .. \"<div id='fragment-\" .. fragmentCount + i .. \"'>\"\r\n\r\n\t\t\tfor _, fInfo in ipairs(metrics[definitions]) do --Loop functions or tables\r\n\r\n\t\t\t\t--Select functions or tables based on type in options and select only documented or not documented\r\n\t\t\t\tif fInfo[funType] == fcnType and (fInfo.documented == documented or fInfo.documented == nil) then\r\n\r\n\t\t\t\t\tresult = result .. fInfo[funType]\r\n\t\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\" \r\n\t\t\t\tend\r\n\t\t\tend\r\n\r\n\t\t\tresult = result .. \"</div>\"\r\n\r\n\t\tend\r\n\r\n\t\tresult = result .. \"<div id='fragment-\" .. fragmentCount + 3 .. \"'>\" --Add All category container\r\n\r\n\t\tfor _, fInfo in ipairs(metrics[definitions]) do\r\n\r\n\t\t\t--Select only documented or not documented functions\r\n\t\t\tif fInfo.documented == documented or (documented == 0 and fInfo.documented == nil) then\r\n\r\n\t\t\t\tif fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then --Set to be able to hide anonymous or table-field\r\n\t\t\t\t\tresult = result .. \"<span class='tohide'>\"\r\n\t\t\t\tend\r\n\r\n\t\t\t\t--Add all other functions or tables\r\n\t\t\t\tresult = result .. fInfo[funType] \r\n\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\"\r\n\r\n\t\t\t\tif fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then\r\n\t\t\t\t\tresult = result .. \"</span>\" --Close anonymous or table-field ability to hide\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\tresult = result .. \"</div></div>\"\r\n\r\n\t\tif(withLink or withLink == nil) then --If needed, checkbox to show hide table-field and anonymous functions added\r\n\t\t\tresult = result .. \"<form id='myform' style='font-size: 13px;'> <input type='checkbox' class='myCheckbox' />\" ..\r\n\t\t\t\t\"Show table-field functions and anonymous functions. </form>\"\r\n\t\tend\r\n\r\n\telse\r\n\r\n\t\t--If no documented or not documented functions were found add text to table\r\n\t\tresult = result .. \"<ul>There are no \"\r\n\r\n\t\tif(documented == 0) then\r\n\t\t\tresult = result .. \"non-\"\r\n\t\tend\r\n\r\n\t\tresult = result .. \"documented \"\r\n\r\n\t\tif(definitions == \"functionDefinitions\") then\r\n\t\t\tresult = result .. \"functions</ul>\"\r\n\t\telse\r\n\t\t\tresult = result .. \"tables</ul>\"\r\n\t\tend\r\n\r\n\tend\r\n\r\n\treturn result\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 61,
+    "text": "local result = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 62,
+    "text": "local lastFragNum = -1",
+    "type": "statement:localassign"
+  }, {
+    "id": 63,
+    "text": "if(documented == 0) then --Set different ID to documented and not documented to not interfere with each other in HTML file\r\n\t\tresult = utils.addTableCSS(\"tabs3\") .. utils.getjQuerryJS()\r\n\telse\r\n\t\tresult = utils.addTableCSS(\"tabs2\") .. utils.getjQuerryJS()\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 64,
+    "text": "result = utils.addTableCSS(\"tabs3\") .. utils.getjQuerryJS()",
+    "type": "statement:assign"
+  }, {
+    "id": 65,
+    "text": "result = utils.addTableCSS(\"tabs2\") .. utils.getjQuerryJS()",
+    "type": "statement:assign"
+  }, {
+    "id": 66,
+    "text": "for fragmentNumber, key in ipairs(sortedTable) do --For each letter tab in table     \r\n\r\n\t\t--pages contains containers for each tab of table\r\n\t\tpages = pages .. \"<div id='fragment-\" .. fragmentNumber .. \"'>\"\r\n\r\n\t\tfor _, fun in pairs(letterTable[key]) do --Loop through functions or tables in letter table\r\n\r\n\t\t\tif fun.documented == documented or (documented == 0 and fun.documented == nil) then --select documented or not documented\r\n\r\n\t\t\t\tif(fragmentNumber ~= lastFragNum) then --If tab wasnt added\r\n\r\n\t\t\t\t\tlastFragNum = fragmentNumber\r\n\t\t\t\t\t--list contains header (tabs) in tables\r\n\t\t\t\t\tlist = list .. \"<li><a href='#fragment-\" .. fragmentNumber .. \"'><span>\" .. key .. \"</span></a></li>\"\r\n\r\n\t\t\t\tend\r\n\r\n\t\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then --If is anonymous or table-field add ability to hide\r\n\t\t\t\t\tpages = pages .. \"<span class='tohide'>\"\r\n\t\t\t\tend\r\n\r\n\t\t\t\tpages = pages .. fun[funType]\r\n\r\n\t\t\t\t--Add functions to container of the tab in table with link to documentation\r\n\t\t\t\tpages = pages .. \"<a href='#|type=fileLink|to=\" .. fun.path .. \"|from=functionlist/index.html|#\" ..\r\n\t\t\t\t\t\"#\" .. fun.name .. \"'> \" ..\r\n\t\t\t\t\tfun.name .. \"</a>\" .. \" - [.\" .. fun.path .. \"]&emsp;\" .. utils.replaceSpecials(fun.comment or \"\") .. \"<br />\"\r\n\r\n\t\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\t\tpages = pages .. \"</span>\" --Close ability to hide for table-field or anonymous  \r\n\t\t\t\tend     \r\n\t\t\tend \r\n\t\tend\r\n\r\n\t\tpages = pages .. \"</div>\"\r\n\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 67,
+    "text": "for _, fun in pairs(letterTable[key]) do --Loop through functions or tables in letter table\r\n\r\n\t\t\tif fun.documented == documented or (documented == 0 and fun.documented == nil) then --select documented or not documented\r\n\r\n\t\t\t\tif(fragmentNumber ~= lastFragNum) then --If tab wasnt added\r\n\r\n\t\t\t\t\tlastFragNum = fragmentNumber\r\n\t\t\t\t\t--list contains header (tabs) in tables\r\n\t\t\t\t\tlist = list .. \"<li><a href='#fragment-\" .. fragmentNumber .. \"'><span>\" .. key .. \"</span></a></li>\"\r\n\r\n\t\t\t\tend\r\n\r\n\t\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then --If is anonymous or table-field add ability to hide\r\n\t\t\t\t\tpages = pages .. \"<span class='tohide'>\"\r\n\t\t\t\tend\r\n\r\n\t\t\t\tpages = pages .. fun[funType]\r\n\r\n\t\t\t\t--Add functions to container of the tab in table with link to documentation\r\n\t\t\t\tpages = pages .. \"<a href='#|type=fileLink|to=\" .. fun.path .. \"|from=functionlist/index.html|#\" ..\r\n\t\t\t\t\t\"#\" .. fun.name .. \"'> \" ..\r\n\t\t\t\t\tfun.name .. \"</a>\" .. \" - [.\" .. fun.path .. \"]&emsp;\" .. utils.replaceSpecials(fun.comment or \"\") .. \"<br />\"\r\n\r\n\t\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\t\tpages = pages .. \"</span>\" --Close ability to hide for table-field or anonymous  \r\n\t\t\t\tend     \r\n\t\t\tend \r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 68,
+    "text": "if fun.documented == documented or (documented == 0 and fun.documented == nil) then --select documented or not documented\r\n\r\n\t\t\t\tif(fragmentNumber ~= lastFragNum) then --If tab wasnt added\r\n\r\n\t\t\t\t\tlastFragNum = fragmentNumber\r\n\t\t\t\t\t--list contains header (tabs) in tables\r\n\t\t\t\t\tlist = list .. \"<li><a href='#fragment-\" .. fragmentNumber .. \"'><span>\" .. key .. \"</span></a></li>\"\r\n\r\n\t\t\t\tend\r\n\r\n\t\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then --If is anonymous or table-field add ability to hide\r\n\t\t\t\t\tpages = pages .. \"<span class='tohide'>\"\r\n\t\t\t\tend\r\n\r\n\t\t\t\tpages = pages .. fun[funType]\r\n\r\n\t\t\t\t--Add functions to container of the tab in table with link to documentation\r\n\t\t\t\tpages = pages .. \"<a href='#|type=fileLink|to=\" .. fun.path .. \"|from=functionlist/index.html|#\" ..\r\n\t\t\t\t\t\"#\" .. fun.name .. \"'> \" ..\r\n\t\t\t\t\tfun.name .. \"</a>\" .. \" - [.\" .. fun.path .. \"]&emsp;\" .. utils.replaceSpecials(fun.comment or \"\") .. \"<br />\"\r\n\r\n\t\t\t\tif(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\t\tpages = pages .. \"</span>\" --Close ability to hide for table-field or anonymous  \r\n\t\t\t\tend     \r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 69,
+    "text": "if(fragmentNumber ~= lastFragNum) then --If tab wasnt added\r\n\r\n\t\t\t\t\tlastFragNum = fragmentNumber\r\n\t\t\t\t\t--list contains header (tabs) in tables\r\n\t\t\t\t\tlist = list .. \"<li><a href='#fragment-\" .. fragmentNumber .. \"'><span>\" .. key .. \"</span></a></li>\"\r\n\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 70,
+    "text": "lastFragNum = fragmentNumber",
+    "type": "statement:assign"
+  }, {
+    "id": 71,
+    "text": "if(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then --If is anonymous or table-field add ability to hide\r\n\t\t\t\t\tpages = pages .. \"<span class='tohide'>\"\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 72,
+    "text": "pages = pages .. \"<a href='#|type=fileLink|to=\" .. fun.path .. \"|from=functionlist/index.html|#\" ..\r\n\t\t\t\t\t\"#\" .. fun.name .. \"'> \" ..\r\n\t\t\t\t\tfun.name .. \"</a>\" .. \" - [.\" .. fun.path .. \"]&emsp;\" .. utils.replaceSpecials(fun.comment or \"\") .. \"<br />\"",
+    "type": "statement:assign"
+  }, {
+    "id": 73,
+    "text": "if(fun[funType] == \"table-field\" or fun[funType] == \"anonymous\") then\r\n\t\t\t\t\tpages = pages .. \"</span>\" --Close ability to hide for table-field or anonymous  \r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 74,
+    "text": "if(documented == 0) then fragmentCount = fragmentCount + 12 else fragmentCount = fragmentCount + 6 end",
+    "type": "statement:if"
+  }, {
+    "id": 75,
+    "text": "fragmentCount = fragmentCount + 12",
+    "type": "statement:assign"
+  }, {
+    "id": 76,
+    "text": "fragmentCount = fragmentCount + 6",
+    "type": "statement:assign"
+  }, {
+    "id": 77,
+    "text": "if(list ~= \"\") then --If any documented or not documented function exists\r\n\r\n\t\tresult = result .. \"<div id='tabs\" --create container for containers including functions or tables\r\n\r\n\t\tif(documented == 0) then\r\n\t\t\tresult = result .. \"3\" --Again not to interfere with each other in HTML documentation (Needed for luadocer)\r\n\t\telse\r\n\t\t\tresult = result .. \"2\"\r\n\t\tend\r\n\r\n\t\tresult = result .. \"'><ul>\" .. list --Add header to result\r\n\r\n\t\tif(definitions == \"functionDefinitions\") then --If functions are selected add Local and Global categories to header\r\n\t\t\tresult = result .. \"<li><a href='#fragment-\" .. fragmentCount + 4 .. \"'><span>Local</span></a></li>\" ..\r\n\t\t\t\"<li><a href='#fragment-\" .. fragmentCount + 5 .. \"'><span>Global</span></a></li>\"\r\n\t\tend\r\n\t\t\r\n\t\t--Add Table-field, Anonymous (can be enabled by checkbox) and All category to header (tabs)\r\n\t\tresult = result .. \"<li class='tohide'><a href='#fragment-\" .. fragmentCount + 1 ..\r\n\t\t\t\"'><span>Table-field</span>\" .. \"</a></li>\" ..\r\n\t\t\t\"<li class='tohide'><a href='#fragment-\" .. fragmentCount + 2 .. \"'><span>Anonymous</span></a></li>\" ..\r\n\t\t\t\"<li><a href='#fragment-\" .. fragmentCount + 3 .. \"'><span>All</span></a></li>\"\r\n\r\n\t\tresult = result .. \"</ul>\" .. pages --Close header\r\n\r\n\t\tlocal options = {}\r\n\r\n\t\tif(definitions == \"functionDefinitions\") then --Set which containers to fill if functions or tables are selected\r\n\t\t\toptions = {\"table-field\", \"anonymous\", \"local\", \"global\"}\r\n\t\telse\r\n\t\t\toptions = {\"table-field\", \"anonymous\"}\r\n\t\tend\r\n\r\n\t\tfor i, fcnType in pairs(options) do --Fill containers set in options table\r\n\r\n\t\t\tif i > 2 then i = i + 1 end --Skip all tab to be last in table\r\n\r\n\t\t\tresult = result .. \"<div id='fragment-\" .. fragmentCount + i .. \"'>\"\r\n\r\n\t\t\tfor _, fInfo in ipairs(metrics[definitions]) do --Loop functions or tables\r\n\r\n\t\t\t\t--Select functions or tables based on type in options and select only documented or not documented\r\n\t\t\t\tif fInfo[funType] == fcnType and (fInfo.documented == documented or fInfo.documented == nil) then\r\n\r\n\t\t\t\t\tresult = result .. fInfo[funType]\r\n\t\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\" \r\n\t\t\t\tend\r\n\t\t\tend\r\n\r\n\t\t\tresult = result .. \"</div>\"\r\n\r\n\t\tend\r\n\r\n\t\tresult = result .. \"<div id='fragment-\" .. fragmentCount + 3 .. \"'>\" --Add All category container\r\n\r\n\t\tfor _, fInfo in ipairs(metrics[definitions]) do\r\n\r\n\t\t\t--Select only documented or not documented functions\r\n\t\t\tif fInfo.documented == documented or (documented == 0 and fInfo.documented == nil) then\r\n\r\n\t\t\t\tif fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then --Set to be able to hide anonymous or table-field\r\n\t\t\t\t\tresult = result .. \"<span class='tohide'>\"\r\n\t\t\t\tend\r\n\r\n\t\t\t\t--Add all other functions or tables\r\n\t\t\t\tresult = result .. fInfo[funType] \r\n\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\"\r\n\r\n\t\t\t\tif fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then\r\n\t\t\t\t\tresult = result .. \"</span>\" --Close anonymous or table-field ability to hide\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\tresult = result .. \"</div></div>\"\r\n\r\n\t\tif(withLink or withLink == nil) then --If needed, checkbox to show hide table-field and anonymous functions added\r\n\t\t\tresult = result .. \"<form id='myform' style='font-size: 13px;'> <input type='checkbox' class='myCheckbox' />\" ..\r\n\t\t\t\t\"Show table-field functions and anonymous functions. </form>\"\r\n\t\tend\r\n\r\n\telse\r\n\r\n\t\t--If no documented or not documented functions were found add text to table\r\n\t\tresult = result .. \"<ul>There are no \"\r\n\r\n\t\tif(documented == 0) then\r\n\t\t\tresult = result .. \"non-\"\r\n\t\tend\r\n\r\n\t\tresult = result .. \"documented \"\r\n\r\n\t\tif(definitions == \"functionDefinitions\") then\r\n\t\t\tresult = result .. \"functions</ul>\"\r\n\t\telse\r\n\t\t\tresult = result .. \"tables</ul>\"\r\n\t\tend\r\n\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 78,
+    "text": "result = result .. \"<div id='tabs\"",
+    "type": "statement:assign"
+  }, {
+    "id": 79,
+    "text": "if(documented == 0) then\r\n\t\t\tresult = result .. \"3\" --Again not to interfere with each other in HTML documentation (Needed for luadocer)\r\n\t\telse\r\n\t\t\tresult = result .. \"2\"\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 80,
+    "text": "result = result .. \"3\"",
+    "type": "statement:assign"
+  }, {
+    "id": 81,
+    "text": "result = result .. \"2\"",
+    "type": "statement:assign"
+  }, {
+    "id": 82,
+    "text": "result = result .. \"'><ul>\" .. list",
+    "type": "statement:assign"
+  }, {
+    "id": 83,
+    "text": "if(definitions == \"functionDefinitions\") then --If functions are selected add Local and Global categories to header\r\n\t\t\tresult = result .. \"<li><a href='#fragment-\" .. fragmentCount + 4 .. \"'><span>Local</span></a></li>\" ..\r\n\t\t\t\"<li><a href='#fragment-\" .. fragmentCount + 5 .. \"'><span>Global</span></a></li>\"\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 84,
+    "text": "result = result .. \"<li><a href='#fragment-\" .. fragmentCount + 4 .. \"'><span>Local</span></a></li>\" ..\r\n\t\t\t\"<li><a href='#fragment-\" .. fragmentCount + 5 .. \"'><span>Global</span></a></li>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 85,
+    "text": "result = result .. \"<li class='tohide'><a href='#fragment-\" .. fragmentCount + 1 ..\r\n\t\t\t\"'><span>Table-field</span>\" .. \"</a></li>\" ..\r\n\t\t\t\"<li class='tohide'><a href='#fragment-\" .. fragmentCount + 2 .. \"'><span>Anonymous</span></a></li>\" ..\r\n\t\t\t\"<li><a href='#fragment-\" .. fragmentCount + 3 .. \"'><span>All</span></a></li>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 86,
+    "text": "if(definitions == \"functionDefinitions\") then --Set which containers to fill if functions or tables are selected\r\n\t\t\toptions = {\"table-field\", \"anonymous\", \"local\", \"global\"}\r\n\t\telse\r\n\t\t\toptions = {\"table-field\", \"anonymous\"}\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 87,
+    "text": "for i, fcnType in pairs(options) do --Fill containers set in options table\r\n\r\n\t\t\tif i > 2 then i = i + 1 end --Skip all tab to be last in table\r\n\r\n\t\t\tresult = result .. \"<div id='fragment-\" .. fragmentCount + i .. \"'>\"\r\n\r\n\t\t\tfor _, fInfo in ipairs(metrics[definitions]) do --Loop functions or tables\r\n\r\n\t\t\t\t--Select functions or tables based on type in options and select only documented or not documented\r\n\t\t\t\tif fInfo[funType] == fcnType and (fInfo.documented == documented or fInfo.documented == nil) then\r\n\r\n\t\t\t\t\tresult = result .. fInfo[funType]\r\n\t\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\" \r\n\t\t\t\tend\r\n\t\t\tend\r\n\r\n\t\t\tresult = result .. \"</div>\"\r\n\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 88,
+    "text": "for _, fInfo in ipairs(metrics[definitions]) do --Loop functions or tables\r\n\r\n\t\t\t\t--Select functions or tables based on type in options and select only documented or not documented\r\n\t\t\t\tif fInfo[funType] == fcnType and (fInfo.documented == documented or fInfo.documented == nil) then\r\n\r\n\t\t\t\t\tresult = result .. fInfo[funType]\r\n\t\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\" \r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 89,
+    "text": "if fInfo[funType] == fcnType and (fInfo.documented == documented or fInfo.documented == nil) then\r\n\r\n\t\t\t\t\tresult = result .. fInfo[funType]\r\n\t\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\" \r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 90,
+    "text": "result = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\"",
+    "type": "statement:assign"
+  }, {
+    "id": 91,
+    "text": "for _, fInfo in ipairs(metrics[definitions]) do\r\n\r\n\t\t\t--Select only documented or not documented functions\r\n\t\t\tif fInfo.documented == documented or (documented == 0 and fInfo.documented == nil) then\r\n\r\n\t\t\t\tif fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then --Set to be able to hide anonymous or table-field\r\n\t\t\t\t\tresult = result .. \"<span class='tohide'>\"\r\n\t\t\t\tend\r\n\r\n\t\t\t\t--Add all other functions or tables\r\n\t\t\t\tresult = result .. fInfo[funType] \r\n\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\"\r\n\r\n\t\t\t\tif fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then\r\n\t\t\t\t\tresult = result .. \"</span>\" --Close anonymous or table-field ability to hide\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 92,
+    "text": "if fInfo.documented == documented or (documented == 0 and fInfo.documented == nil) then\r\n\r\n\t\t\t\tif fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then --Set to be able to hide anonymous or table-field\r\n\t\t\t\t\tresult = result .. \"<span class='tohide'>\"\r\n\t\t\t\tend\r\n\r\n\t\t\t\t--Add all other functions or tables\r\n\t\t\t\tresult = result .. fInfo[funType] \r\n\t\t\t\tresult = result .. \"<a href='#|type=fileLink|to=\" .. fInfo.path .. \"|from=functionlist/index.html|#\" .. \"#\" .. fInfo.name ..\r\n\t\t\t\t\t\"'> \" .. fInfo.name .. \"</a>\" .. \" - [.\" .. fInfo.path .. \"]&emsp;\" .. (fInfo.comment or \"\") .. \"<br />\"\r\n\r\n\t\t\t\tif fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then\r\n\t\t\t\t\tresult = result .. \"</span>\" --Close anonymous or table-field ability to hide\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 93,
+    "text": "if fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then --Set to be able to hide anonymous or table-field\r\n\t\t\t\t\tresult = result .. \"<span class='tohide'>\"\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 94,
+    "text": "if fInfo[funType] == \"table-field\" or fInfo[funType] == \"anonymous\" then\r\n\t\t\t\t\tresult = result .. \"</span>\" --Close anonymous or table-field ability to hide\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 95,
+    "text": "result = result .. \"</div></div>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 96,
+    "text": "if(withLink or withLink == nil) then --If needed, checkbox to show hide table-field and anonymous functions added\r\n\t\t\tresult = result .. \"<form id='myform' style='font-size: 13px;'> <input type='checkbox' class='myCheckbox' />\" ..\r\n\t\t\t\t\"Show table-field functions and anonymous functions. </form>\"\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 97,
+    "text": "result = result .. \"<form id='myform' style='font-size: 13px;'> <input type='checkbox' class='myCheckbox' />\" ..\r\n\t\t\t\t\"Show table-field functions and anonymous functions. </form>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 98,
+    "text": "result = result .. \"<ul>There are no \"",
+    "type": "statement:assign"
+  }, {
+    "id": 99,
+    "text": "if(documented == 0) then\r\n\t\t\tresult = result .. \"non-\"\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 100,
+    "text": "result = result .. \"non-\"",
+    "type": "statement:assign"
+  }, {
+    "id": 101,
+    "text": "result = result .. \"documented \"",
+    "type": "statement:assign"
+  }, {
+    "id": 102,
+    "text": "if(definitions == \"functionDefinitions\") then\r\n\t\t\tresult = result .. \"functions</ul>\"\r\n\t\telse\r\n\t\t\tresult = result .. \"tables</ul>\"\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 103,
+    "text": "result = result .. \"functions</ul>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 104,
+    "text": "result = result .. \"tables</ul>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 107,
+    "text": "local function replaceSpecials(text)\r\n\r\n\tif text ~= nil then\r\n\t\ttext = text:gsub(lfs.currentdir(), \"\")\r\n\tend\r\n\r\n\tif(text == nil) then\r\n\t\treturn nil;\r\n\tend\r\n\r\n\tif(type(text) ~= \"string\") then\r\n\t\treturn text;\r\n\tend\r\n\r\n\t--replace there characters with their equivalents in HTML\r\n\ttext = text:gsub(\"&\", \"&amp;\");\r\n  \ttext = text:gsub(\"&#\", \"&#38;&#35;\");\r\n\ttext = text:gsub(\"<\", \"&lt;\");\r\n\ttext = text:gsub(\">\", \"&gt;\");\r\n\ttext = text:gsub(\"\\\"\", \"&#34;\");\r\n\ttext = text:gsub(\"'\", \"&#39;\");\r\n\r\n\treturn text;\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 108,
+    "text": "local function getjQuerryJS()\r\n\r\n\tlocal jquery =  readFile('../share/luametrics/jquery.js')\r\n\r\n\tlocal result = \"<script type='text/javascript'>\" .. jquery .. \"</script>\"\r\n\r\n\treturn result\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 109,
+    "text": "local function addTableCSS(tableClass)\r\n\r\n\tlocal result = \"<style>\"\r\n\r\n\tif(tableClass == \"smell_table\") then\r\n\t\tresult = result .. getSmellTable()\r\n\telseif(tableClass == \"metric_index\") then\r\n\t\tresult = result .. getMetricsTable()\r\n\telseif(tableClass == \"tabs\") then\r\n\t\tresult = result .. getjQuerryTable()\r\n\t\tresult = result .. getTabs(\"\", 50)\r\n\telseif(tableClass == \"tabs2\") then\r\n\t\tresult = result .. getjQuerryTable()\r\n\t\tresult = result .. getTabs(\"2\", 10)\r\n\telseif(tableClass == \"tabs3\") then\r\n\t\tresult = result .. getjQuerryTable()\r\n\t\tresult = result .. getTabs(\"3\", 10)\r\n\tend\r\n\r\n\treturn result .. \"</style>\"\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 110,
+    "text": "local function getSortedTable(definitions)\r\n\r\n\tlocal letterTable = {}\r\n\tlocal sortedTable = {}\r\n\r\n\tfor _, fun in ipairs(definitions) do --Loop throung functions\r\n\r\n\t\tlocal firstLetter = string.char(string.byte(fun.name)) --Get first letter\r\n\r\n\t\tif(firstLetter ~= \"#\") then\r\n\r\n\t\t\tif (letterTable[firstLetter] == nil) then letterTable[firstLetter] = {} end --If subtable does not exist create one\r\n\t\t\ttable.insert(letterTable[firstLetter], fun) --Add function name to table under starting letter\r\n\r\n\t\tend\r\n\tend\r\n\t\r\n\tfor key in pairs(letterTable) do table.insert(sortedTable, key) end --Add starting letters to letterTable\r\n\ttable.sort(sortedTable)\r\n\r\n\treturn sortedTable, letterTable\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 111,
+    "text": "local function drawFunctionTree(node, filepath)\r\n\r\n\tlocal result = \"\"\r\n\r\n\tfor _ ,fun in pairs(node.metrics.functiontree) do --Loop throung function trees under project\r\n\r\n\t\tresult = result .. \"<li>\"\r\n\t\t\t\r\n\t\tif (#fun.metrics.functiontree > 0) then --If file contains functions create header with filename\r\n\t\t\tresult = result .. \"<a href='#' class='toggler' onclick='return menu_toggle(this);'>[+]</a>\"\r\n\t\tend\r\n\r\n\t\t--Add functions with links to documentation contained in file\r\n\t\tresult = result .. fun.fcntype .. \"<a href='#|type=fileLink|to=\" .. filepath .. \"|from=functionlist/index.html|#\" .. \"#\" ..\r\n\t\t\t\tfun.name .. \"'>\" .. fun.name .. \"</a><ul style='list-style-type: none;'>\" ..\r\n\t\t\t\tdrawFunctionTree(fun, filepath, fileLink) .. \"</ul></li>\" --Trying to go one level deeper (submodule in module)\r\n\r\n\tend\r\n\r\n\treturn result\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 112,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 113,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 114,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

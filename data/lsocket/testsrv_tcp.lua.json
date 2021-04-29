@@ -1,0 +1,345 @@
+{
+  "_filename": "testsrv_tcp.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lsocket/samples/testsrv_tcp.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "assigns",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "testsrv_tcp",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function add_socket(sock, ip, port)\r\n\tsockets[#sockets+1] = sock\r\n\tsocketinfo[sock] = ip..\":\"..port\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "sockets[#sockets+1] = sock",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "socketinfo[sock] = ip..\":\"..port",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function remove_socket(sock)\r\n\tlocal i, s\r\n\tfor i, s in ipairs(sockets) do\r\n\t\tif s == sock then\r\n\t\t\ttable.remove(sockets, i)\r\n\t\t\tsocketinfo[sock] = nil\r\n\t\t\treturn\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local i, s",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "for i, s in ipairs(sockets) do\r\n\t\tif s == sock then\r\n\t\t\ttable.remove(sockets, i)\r\n\t\t\tsocketinfo[sock] = nil\r\n\t\t\treturn\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 9,
+    "text": "if s == sock then\r\n\t\t\ttable.remove(sockets, i)\r\n\t\t\tsocketinfo[sock] = nil\r\n\t\t\treturn\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "table.remove(sockets, i)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "socketinfo[sock] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "bind",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

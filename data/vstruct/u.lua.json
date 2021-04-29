@@ -1,0 +1,405 @@
+{
+  "_filename": "u.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io/u.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 37
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "assigns",
+    "to": 40
+  }, {
+    "from": 38,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 42
+  }, {
+    "from": 39,
+    "label": "represents",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "provides",
+    "to": 43
+  }, {
+    "from": 39,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 39,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 39,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 39,
+    "label": "contains",
+    "to": 26
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "u",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function u.unpack(_, buf)\r\n    local n = 0\r\n    local e = io(\"endianness\", \"get\")\r\n    \r\n    local sof,eof,step\r\n    if e == \"big\" then\r\n        sof,eof,step = 1,#buf,1\r\n    else\r\n        sof,eof,step = #buf,1,-1\r\n    end\r\n    \r\n    for i=sof,eof,step do\r\n        n = n * 256 + buf:byte(i,i)\r\n    end\r\n    \r\n    return n\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local n = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local e = io(\"endianness\", \"get\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local sof,eof,step",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if e == \"big\" then\r\n        sof,eof,step = 1,#buf,1\r\n    else\r\n        sof,eof,step = #buf,1,-1\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "sof,eof,step = 1,#buf,1",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "sof,eof,step = #buf,1,-1",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "for i=sof,eof,step do\r\n        n = n * 256 + buf:byte(i,i)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 11,
+    "text": "n = n * 256 + buf:byte(i,i)",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function u.unpackbits(bit, width)\r\n    local n = 0\r\n    for i=1,width do\r\n        n = n * 2 + bit()\r\n    end\r\n    return n\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "for i=1,width do\r\n        n = n * 2 + bit()\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 16,
+    "text": "n = n * 2 + bit()",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function u.pack(_, data, width)\r\n    local s = \"\"\r\n    local e = io(\"endianness\", \"get\")\r\n    \r\n    for i=1,width do\r\n        if e == \"big\" then\r\n            s = string.char(data % 256) .. s\r\n        else\r\n            s = s .. string.char(data % 256)\r\n        end\r\n        data = math.trunc(data/256)\r\n    end\r\n    \r\n    return s\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "local s = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "for i=1,width do\r\n        if e == \"big\" then\r\n            s = string.char(data % 256) .. s\r\n        else\r\n            s = s .. string.char(data % 256)\r\n        end\r\n        data = math.trunc(data/256)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 21,
+    "text": "if e == \"big\" then\r\n            s = string.char(data % 256) .. s\r\n        else\r\n            s = s .. string.char(data % 256)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "s = string.char(data % 256) .. s",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "s = s .. string.char(data % 256)",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "data = math.trunc(data/256)",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function u.packbits(bit, data, width)\r\n    for i=width-1,0,-1 do\r\n        bit(math.floor(data/2^i) % 2)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "for i=width-1,0,-1 do\r\n        bit(math.floor(data/2^i) % 2)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 28,
+    "text": "bit(math.floor(data/2^i) % 2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 31,
+    "text": "io",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "floor",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "trunc",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "bit",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "interface"
+  } ]
+}

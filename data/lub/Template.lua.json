@@ -1,0 +1,917 @@
+{
+  "_filename": "Template.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lub/lub/Template.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 82
+  }, {
+    "from": 74,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 84
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 78
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 78
+  }, {
+    "from": 74,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 81
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 79
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 80
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 85
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 90
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 90
+  }, {
+    "from": 74,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 74,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 74,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 74,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 74,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 74,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 74,
+    "label": "declares",
+    "to": 73
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 94
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 95
+  }, {
+    "from": 94,
+    "label": "initializes",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "assigns",
+    "to": 97
+  }, {
+    "from": 94,
+    "label": "initializes",
+    "to": 98
+  }, {
+    "from": 98,
+    "label": "assigns",
+    "to": 99
+  }, {
+    "from": 94,
+    "label": "initializes",
+    "to": 100
+  }, {
+    "from": 100,
+    "label": "assigns",
+    "to": 101
+  }, {
+    "from": 95,
+    "label": "initializes",
+    "to": 102
+  }, {
+    "from": 102,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 103
+  }, {
+    "from": 92,
+    "label": "represents",
+    "to": 104
+  }, {
+    "from": 103,
+    "label": "provides",
+    "to": 104
+  }, {
+    "from": 100,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 100,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 100,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 93,
+    "label": "contains",
+    "to": 6
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Template",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "lub",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function private.__index(table, name)\r\n  if name == '_PROMPT' or name == '_PROMPT2' then\r\n    -- special case for lua interactive\r\n    return nil\r\n  end\r\n  local ok, new_lib_or_error = pcall(function() return require(name); end)\r\n  if ok then\r\n    return new_lib_or_error or rawget(table, name)\r\n  else\r\n    -- nil value\r\n    return nil\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function private.__index_strict(table, name)\r\n  if name == '_PROMPT' or name == '_PROMPT2' then\r\n    -- special case for lua interactive\r\n    return nil\r\n  end\r\n  local ok, new_lib_or_error = pcall(function() return require(name); end)\r\n  if ok then\r\n    return new_lib_or_error or rawget(table, name)\r\n  else\r\n    -- nil value\r\n    error(string.format(\"Trying to access undefined global variable '%s'.\\n%s\", name, debug.traceback()))\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function private.makePathPart(path, fullpath)\r\n  local file_type = lib.fileType(path)\r\n  if file_type == 'file' then\r\n    error(string.format(\"Could not build path '%s' ('%s' is a file).\", fullpath, path))\r\n  elseif file_type == 'directory' then\r\n    return -- done\r\n  else\r\n    local base = lib.dir(path)\r\n    private.makePathPart(base, fullpath)\r\n    -- base should exist or an error has been raised\r\n    lfs.mkdir(path)\r\n    -- done\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function lib.new(source)\r\n  local self\r\n  if type(source) == 'string' then\r\n    self = {source = source}\r\n  else\r\n    self = assert(source)\r\n    -- Grab source from path...\r\n    local file = assert(io.open(self.path, 'r'))\r\n    self.source = file:read('*a')\r\n    file:close()\r\n  end\r\n  setmetatable(self, lib)\r\n  private.makeFunction(self, self.source)\r\n  return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local self",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "if type(source) == 'string' then\r\n    self = {source = source}\r\n  else\r\n    self = assert(source)\r\n    -- Grab source from path...\r\n    local file = assert(io.open(self.path, 'r'))\r\n    self.source = file:read('*a')\r\n    file:close()\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "self = {source = source}",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "self = assert(source)",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "local file = assert(io.open(self.path, 'r'))",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "self.source = file:read('*a')",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "file:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "setmetatable(self, lib)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "private.makeFunction(self, self.source)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function lib:run(env)\r\n  env = env or {}\r\n  local buffer_ = ''\r\n  function env._out_(str)\r\n    buffer_ = buffer_ .. (str or '')\r\n  end\r\n  function env._indout_(str, indent)\r\n    buffer_ = buffer_ .. indent .. string.gsub(str, '\\n', indent)\r\n  end\r\n  setmetatable(env, {__index = _G})\r\n  local ok, err = pcall(function() self.func(env) end)\r\n  if not ok then\r\n    print(self.lua)\r\n    assert(false, err)\r\n  end\r\n  return buffer_\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "env = env or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "local buffer_ = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "function env._out_(str)\r\n    buffer_ = buffer_ .. (str or '')\r\n  end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 22,
+    "text": "buffer_ = buffer_ .. (str or '')",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "function env._indout_(str, indent)\r\n    buffer_ = buffer_ .. indent .. string.gsub(str, '\\n', indent)\r\n  end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 24,
+    "text": "buffer_ = buffer_ .. indent .. string.gsub(str, '\\n', indent)",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "setmetatable(env, {__index = _G})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "local ok, err = pcall(function() self.func(env) end)",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "self.func(env)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "if not ok then\r\n    print(self.lua)\r\n    assert(false, err)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "print(self.lua)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "assert(false, err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function env._out_(str)\r\n    buffer_ = buffer_ .. (str or '')\r\n  end",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "function env._indout_(str, indent)\r\n    buffer_ = buffer_ .. indent .. string.gsub(str, '\\n', indent)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "function private:makeFunction(source)\r\n  local res = 'local function _fun_(env)\\n'\r\n  if NO_FENV then\r\n    res = res..'  local _ENV = env\\n'\r\n  else\r\n    res = res..'  setfenv(1, env)\\n'\r\n  end\r\n  self.lua = res..private.parse(self, source)..'\\nend\\nreturn _fun_'\r\n  self.func, self.err = loadstring(self.lua)\r\n  if self.err then\r\n    print(self.lua)\r\n    assert(false, self.err)\r\n  end\r\n  -- We compile as a function so that we can pass 'env' as parameter.\r\n  self.func = self.func()\r\nend",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "local res = 'local function _fun_(env)\\n'",
+    "type": "statement:localassign"
+  }, {
+    "id": 38,
+    "text": "if NO_FENV then\r\n    res = res..'  local _ENV = env\\n'\r\n  else\r\n    res = res..'  setfenv(1, env)\\n'\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "res = res..'  local _ENV = env\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "res = res..'  setfenv(1, env)\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "self.lua = res..private.parse(self, source)..'\\nend\\nreturn _fun_'",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "self.func, self.err = loadstring(self.lua)",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "if self.err then\r\n    print(self.lua)\r\n    assert(false, self.err)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 44,
+    "text": "assert(false, self.err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "self.func = self.func()",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 47,
+    "text": "function private:parse(source)\r\n  local res = ''\r\n\r\n  local eat_next_newline\r\n  -- Find balanced {\r\n  for text, block in string.gmatch(source .. '{{}}', '([^{]-)(%b{})') do\r\n    if text ~= '' then\r\n      if string.sub(text, 1, 1) == \"\\n\" then\r\n        if not eat_next_newline then\r\n          -- Avoid multiline return removal\r\n          text = \"\\n\" .. text\r\n        end\r\n      end\r\n    end\r\n    -- handle block\r\n    eat_next_newline = false\r\n    local block_type = string.sub(block, 1, 2)\r\n    local content = string.sub(block, 3, -3)\r\n    local block_text = ''\r\n    if block_type == '{{' then\r\n      -- output content\r\n      if content ~= '' then\r\n        block_text = string.format(\"_out_(%s)\\n\", content)\r\n      end\r\n    elseif block_type == '{|' then\r\n      -- output content with indentation\r\n      if content ~= '' then\r\n        block_text = string.format(\"_indout_(%s, [=[%s]=])\\n\", content, text)\r\n        text = nil\r\n      end\r\n    elseif block_type == '{%' then\r\n      block_text = content .. \"\\n\"\r\n      eat_next_newline = true\r\n    else\r\n      text = text .. '{'\r\n      block_text = private.parse(self, string.sub(block, 2, -1))\r\n    end\r\n    if text and text ~= '' then\r\n      res = res .. string.format(\"_out_([=[%s]=])\\n\", text) .. block_text\r\n    else\r\n      res = res .. block_text\r\n    end\r\n  end\r\n  return res\r\nend",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "local res = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 49,
+    "text": "local eat_next_newline",
+    "type": "statement:localassign"
+  }, {
+    "id": 50,
+    "text": "for text, block in string.gmatch(source .. '{{}}', '([^{]-)(%b{})') do\r\n    if text ~= '' then\r\n      if string.sub(text, 1, 1) == \"\\n\" then\r\n        if not eat_next_newline then\r\n          -- Avoid multiline return removal\r\n          text = \"\\n\" .. text\r\n        end\r\n      end\r\n    end\r\n    -- handle block\r\n    eat_next_newline = false\r\n    local block_type = string.sub(block, 1, 2)\r\n    local content = string.sub(block, 3, -3)\r\n    local block_text = ''\r\n    if block_type == '{{' then\r\n      -- output content\r\n      if content ~= '' then\r\n        block_text = string.format(\"_out_(%s)\\n\", content)\r\n      end\r\n    elseif block_type == '{|' then\r\n      -- output content with indentation\r\n      if content ~= '' then\r\n        block_text = string.format(\"_indout_(%s, [=[%s]=])\\n\", content, text)\r\n        text = nil\r\n      end\r\n    elseif block_type == '{%' then\r\n      block_text = content .. \"\\n\"\r\n      eat_next_newline = true\r\n    else\r\n      text = text .. '{'\r\n      block_text = private.parse(self, string.sub(block, 2, -1))\r\n    end\r\n    if text and text ~= '' then\r\n      res = res .. string.format(\"_out_([=[%s]=])\\n\", text) .. block_text\r\n    else\r\n      res = res .. block_text\r\n    end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 51,
+    "text": "if text ~= '' then\r\n      if string.sub(text, 1, 1) == \"\\n\" then\r\n        if not eat_next_newline then\r\n          -- Avoid multiline return removal\r\n          text = \"\\n\" .. text\r\n        end\r\n      end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 52,
+    "text": "if string.sub(text, 1, 1) == \"\\n\" then\r\n        if not eat_next_newline then\r\n          -- Avoid multiline return removal\r\n          text = \"\\n\" .. text\r\n        end\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 53,
+    "text": "if not eat_next_newline then\r\n          -- Avoid multiline return removal\r\n          text = \"\\n\" .. text\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 54,
+    "text": "text = \"\\n\" .. text",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "eat_next_newline = false",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "local block_type = string.sub(block, 1, 2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 57,
+    "text": "local content = string.sub(block, 3, -3)",
+    "type": "statement:localassign"
+  }, {
+    "id": 58,
+    "text": "local block_text = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 59,
+    "text": "if block_type == '{{' then\r\n      -- output content\r\n      if content ~= '' then\r\n        block_text = string.format(\"_out_(%s)\\n\", content)\r\n      end\r\n    elseif block_type == '{|' then\r\n      -- output content with indentation\r\n      if content ~= '' then\r\n        block_text = string.format(\"_indout_(%s, [=[%s]=])\\n\", content, text)\r\n        text = nil\r\n      end\r\n    elseif block_type == '{%' then\r\n      block_text = content .. \"\\n\"\r\n      eat_next_newline = true\r\n    else\r\n      text = text .. '{'\r\n      block_text = private.parse(self, string.sub(block, 2, -1))\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 60,
+    "text": "if content ~= '' then\r\n        block_text = string.format(\"_out_(%s)\\n\", content)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 61,
+    "text": "block_text = string.format(\"_out_(%s)\\n\", content)",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "if content ~= '' then\r\n        block_text = string.format(\"_indout_(%s, [=[%s]=])\\n\", content, text)\r\n        text = nil\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 63,
+    "text": "block_text = string.format(\"_indout_(%s, [=[%s]=])\\n\", content, text)",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "text = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 65,
+    "text": "block_text = content .. \"\\n\"",
+    "type": "statement:assign"
+  }, {
+    "id": 66,
+    "text": "eat_next_newline = true",
+    "type": "statement:assign"
+  }, {
+    "id": 67,
+    "text": "text = text .. '{'",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "block_text = private.parse(self, string.sub(block, 2, -1))",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "if text and text ~= '' then\r\n      res = res .. string.format(\"_out_([=[%s]=])\\n\", text) .. block_text\r\n    else\r\n      res = res .. block_text\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 70,
+    "text": "res = res .. string.format(\"_out_([=[%s]=])\\n\", text) .. block_text",
+    "type": "statement:assign"
+  }, {
+    "id": 71,
+    "text": "res = res .. block_text",
+    "type": "statement:assign"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 73,
+    "text": "function() self.func(env) end",
+    "type": "function"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 75,
+    "text": "class",
+    "type": "global function"
+  }, {
+    "id": 76,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 77,
+    "text": "rawget",
+    "type": "global function"
+  }, {
+    "id": 78,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 79,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 80,
+    "text": "gmatch",
+    "type": "global function"
+  }, {
+    "id": 81,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 82,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 83,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 84,
+    "text": "makeFunction",
+    "type": "global function"
+  }, {
+    "id": 85,
+    "text": "loadstring",
+    "type": "global function"
+  }, {
+    "id": 86,
+    "text": "func",
+    "type": "global function"
+  }, {
+    "id": 87,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 88,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 89,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 90,
+    "text": "parse",
+    "type": "global function"
+  }, {
+    "id": 91,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 97,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 99,
+    "text": "",
+    "type": "unop"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 102,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 103,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 104,
+    "text": "",
+    "type": "interface"
+  } ]
+}

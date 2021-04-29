@@ -1,0 +1,309 @@
+{
+  "_filename": "scope.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/metalua/src/lib/metalua/walk/scope.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "represents",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "provides",
+    "to": 37
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "scope",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "scope",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function scope:new()\r\n   local ret = { current = { } }\r\n   ret.stack = { ret.current }\r\n   setmetatable (ret, self)\r\n   return ret\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local ret = { current = { } }",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "ret.stack = { ret.current }",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "setmetatable (ret, self)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function scope:push(...)\r\n   table.insert (self.stack, table.shallow_copy (self.current))\r\n   if ... then return self:add(...) end\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "table.insert (self.stack, table.shallow_copy (self.current))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "if ... then return self:add(...) end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function scope:pop()\r\n   self.current = table.remove (self.stack)\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "self.current = table.remove (self.stack)",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function scope:add (vars, val)\r\n   val = val or true\r\n   for i, id in ipairs (vars) do\r\n      assert(id.tag=='Id' or id.tag=='Dots' and i==#vars)\r\n      if id.tag=='Id' then self.current[id[1]] = val end\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "val = val or true",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "for i, id in ipairs (vars) do\r\n      assert(id.tag=='Id' or id.tag=='Dots' and i==#vars)\r\n      if id.tag=='Id' then self.current[id[1]] = val end\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 19,
+    "text": "assert(id.tag=='Id' or id.tag=='Dots' and i==#vars)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "if id.tag=='Id' then self.current[id[1]] = val end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "self.current[id[1]] = val",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 24,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "shallow_copy",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "interface"
+  } ]
+}

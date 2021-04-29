@@ -1,0 +1,61 @@
+{
+  "_filename": "luarocks-config.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lrexlib-gnu/luarocks-config.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "assigns",
+    "to": 6
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "luarocks-config",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

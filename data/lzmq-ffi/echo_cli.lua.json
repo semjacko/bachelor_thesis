@@ -1,0 +1,193 @@
+{
+  "_filename": "echo_cli.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lzmq-ffi/examples/echo_cli.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "assigns",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "assigns",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "echo_cli",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "utils",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "lzmq",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "context",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "print_version",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "print_msg",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require container"
+  } ]
+}

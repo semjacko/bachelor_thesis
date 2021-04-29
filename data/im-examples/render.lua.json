@@ -1,0 +1,253 @@
+{
+  "_filename": "render.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/im-examples/examples/Lua/render.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "assigns",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "assigns",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 23
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "render",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function (x, y, d, param)\r\n\treturn math.mod(x + y, 256)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "ProcessRenderRandomNoise",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "ProcessRenderGaussian",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "ImageCreate",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "ProcessRenderWheel",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "ProcessRenderLapOfGaussian",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "mod",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "ProcessRenderChessboard",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "ProcessRenderBox",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "ProcessRenderCone",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "ProcessRenderTent",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "ProcessRenderSinc",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "ProcessRenderCosine",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "ProcessRenderGrid",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "ProcessRenderOp",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "ProcessRenderRamp",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "ProcessRenderConstant",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

@@ -1,0 +1,385 @@
+{
+  "_filename": "Conditional.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/compiler/Conditional.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "assigns",
+    "to": 39
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "assigns",
+    "to": 41
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 44,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Conditional",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function source(self, includes)\r\n\tlocal func = {}\r\n\tfor line, strip in ipairs(self) do\r\n\t\tlocal cond = strip[2]\r\n\t\tif cond then\r\n\t\t\tcond = assert(loadstring(\"return \"..cond,\r\n\t\t\t\t\"compiler condition \"..line..\":\"))\r\n\t\t\tsetfenv(cond, includes)\r\n\t\t\tcond = cond()\r\n\t\telse\r\n\t\t\tcond = true\r\n\t\tend\r\n\t\tif cond then\r\n\t\t\tassert(type(strip[1]) == \"string\",\r\n\t\t\t\t\"code string is not a string\")\r\n\t\t\tfunc[#func+1] = strip[1]\r\n\t\tend\r\n\tend\r\n\treturn table.concat(func, \"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local func = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "for line, strip in ipairs(self) do\r\n\t\tlocal cond = strip[2]\r\n\t\tif cond then\r\n\t\t\tcond = assert(loadstring(\"return \"..cond,\r\n\t\t\t\t\"compiler condition \"..line..\":\"))\r\n\t\t\tsetfenv(cond, includes)\r\n\t\t\tcond = cond()\r\n\t\telse\r\n\t\t\tcond = true\r\n\t\tend\r\n\t\tif cond then\r\n\t\t\tassert(type(strip[1]) == \"string\",\r\n\t\t\t\t\"code string is not a string\")\r\n\t\t\tfunc[#func+1] = strip[1]\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 7,
+    "text": "local cond = strip[2]",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "if cond then\r\n\t\t\tcond = assert(loadstring(\"return \"..cond,\r\n\t\t\t\t\"compiler condition \"..line..\":\"))\r\n\t\t\tsetfenv(cond, includes)\r\n\t\t\tcond = cond()\r\n\t\telse\r\n\t\t\tcond = true\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "cond = assert(loadstring(\"return \"..cond,\r\n\t\t\t\t\"compiler condition \"..line..\":\"))",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "setfenv(cond, includes)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "cond = cond()",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "cond = true",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "if cond then\r\n\t\t\tassert(type(strip[1]) == \"string\",\r\n\t\t\t\t\"code string is not a string\")\r\n\t\t\tfunc[#func+1] = strip[1]\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "assert(type(strip[1]) == \"string\",\r\n\t\t\t\t\"code string is not a string\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "func[#func+1] = strip[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function execute(self, includes, ...)\r\n\treturn assert(loadstring(self:source(includes), self.name))(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 21,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "cond",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "loadstring",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "setfenv",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

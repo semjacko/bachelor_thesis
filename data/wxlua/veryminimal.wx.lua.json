@@ -1,0 +1,145 @@
+{
+  "_filename": "veryminimal.wx.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wxlua/samples/veryminimal.wx.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "assigns",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 11
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "veryminimal",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function main()\r\n\r\n    -- create the frame window\r\n    frame = wx.wxFrame( wx.NULL, wx.wxID_ANY, \"wxLua Very Minimal Demo\",\r\n                        wx.wxDefaultPosition, wx.wxSize(450, 450),\r\n                        wx.wxDEFAULT_FRAME_STYLE )\r\n\r\n    -- show the frame window\r\n    frame:Show(true)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "frame = wx.wxFrame( wx.NULL, wx.wxID_ANY, \"wxLua Very Minimal Demo\",\r\n                        wx.wxDefaultPosition, wx.wxSize(450, 450),\r\n                        wx.wxDEFAULT_FRAME_STYLE )",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "frame:Show(true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 7,
+    "text": "wxSize",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "wxGetApp",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "wxFrame",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

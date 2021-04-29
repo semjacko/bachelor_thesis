@@ -1,0 +1,433 @@
+{
+  "_filename": "squish.gzip.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/squish/gzip/squish.gzip.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 47
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 48
+  }, {
+    "from": 28,
+    "label": "hasArgument",
+    "to": 37
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "squish",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "squish",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "function gzip_file(infile_fn, outfile_fn)\r\n\tlocal infile, err = io.open(infile_fn);\r\n\tif not infile then\r\n\t\tprint_err(\"Can't open input file for reading: \"..tostring(err));\r\n\t\treturn;\r\n\tend\r\n\t\r\n\tlocal outfile, err = io.open(outfile_fn..\".gzipped\", \"wb+\");\r\n\tif not outfile then\r\n\t\tprint_err(\"Can't open output file for writing: \"..tostring(err));\r\n\t\treturn;\r\n\tend\r\n\t\r\n\tlocal data = infile:read(\"*a\");\r\n\tinfile:close();\r\n\t\r\n\tlocal shebang, newdata = data:match(\"^(#.-\\n)(.+)$\");\r\n\tlocal code = newdata or data;\r\n\tif shebang then\r\n\t\toutfile:write(shebang)\r\n\tend\r\n\t\r\n\tlocal file_with_no_shebang, err = io.open(outfile_fn..\".pregzip\", \"wb+\");\r\n\tif not file_with_no_shebang then\r\n\t\tprint_err(\"Can't open temp file for writing: \"..tostring(err));\r\n\t\treturn;\r\n\tend\r\n\t\r\n\tfile_with_no_shebang:write(code);\r\n\tfile_with_no_shebang:close();\r\n\r\n\tlocal compressed = io.popen(\"gzip -c '\"..outfile_fn..\".pregzip'\");\r\n\tcode = compressed:read(\"*a\");\r\n\tcompressed:close();\r\n\tos.remove(outfile_fn..\".pregzip\");\r\n\r\n\tlocal maxequals = 0;\r\n\tcode:gsub(\"(=+)\", function (equals_string) maxequals = math.max(maxequals, #equals_string); end);\r\n\t\r\n\toutfile:write(\"local ungz = (function ()\", require_resource \"gunzip.lua\", \" end)()\\n\");\r\n\t\t\r\n\toutfile:write[[return assert(loadstring((function (i)local o={} ungz{input=i,output=function(b)table.insert(o,string.char(b))end}return table.concat(o)end) ]];\r\n\r\n\t--outfile:write [[return assert(loadstring(_gunzip]]\r\n\toutfile:write((string.format(\"%q\", code):gsub(\"\\026\", \"\\\\026\")));\r\n\t--outfile:write(\"[\", string.rep(\"=\", maxequals+1), \"[\", code, \"]\", string.rep(\"=\", maxequals+1), \"]\");\r\n\toutfile:write(\", '@\", outfile_fn,\"'))()\");\r\n\toutfile:close();\r\n\tos.rename(outfile_fn..\".gzipped\", outfile_fn);\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local infile, err = io.open(infile_fn)",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "if not infile then\r\n\t\tprint_err(\"Can't open input file for reading: \"..tostring(err));\r\n\t\treturn;\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "print_err(\"Can't open input file for reading: \"..tostring(err))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "local outfile, err = io.open(outfile_fn..\".gzipped\", \"wb+\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if not outfile then\r\n\t\tprint_err(\"Can't open output file for writing: \"..tostring(err));\r\n\t\treturn;\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "print_err(\"Can't open output file for writing: \"..tostring(err))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "local data = infile:read(\"*a\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "infile:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "local shebang, newdata = data:match(\"^(#.-\\n)(.+)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "local code = newdata or data",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "if shebang then\r\n\t\toutfile:write(shebang)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "outfile:write(shebang)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "local file_with_no_shebang, err = io.open(outfile_fn..\".pregzip\", \"wb+\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "if not file_with_no_shebang then\r\n\t\tprint_err(\"Can't open temp file for writing: \"..tostring(err));\r\n\t\treturn;\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "print_err(\"Can't open temp file for writing: \"..tostring(err))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "file_with_no_shebang:write(code)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "file_with_no_shebang:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "local compressed = io.popen(\"gzip -c '\"..outfile_fn..\".pregzip'\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "code = compressed:read(\"*a\")",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "compressed:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "os.remove(outfile_fn..\".pregzip\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 27,
+    "text": "local maxequals = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "code:gsub(\"(=+)\", function (equals_string) maxequals = math.max(maxequals, #equals_string); end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "maxequals = math.max(maxequals, #equals_string)",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "outfile:write(\"local ungz = (function ()\", require_resource \"gunzip.lua\", \" end)()\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "outfile:write[[return assert(loadstring((function (i)local o={} ungz{input=i,output=function(b)table.insert(o,string.char(b))end}return table.concat(o)end) ]]",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "outfile:write((string.format(\"%q\", code):gsub(\"\\026\", \"\\\\026\")))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "outfile:write(\", '@\", outfile_fn,\"'))()\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 34,
+    "text": "outfile:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "os.rename(outfile_fn..\".gzipped\", outfile_fn)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "function (equals_string) maxequals = math.max(maxequals, #equals_string); end",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "rename",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "max",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "print_err",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "popen",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "require_resource",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "require container"
+  } ]
+}

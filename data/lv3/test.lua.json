@@ -1,0 +1,157 @@
+{
+  "_filename": "test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lv3/test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "assigns",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "assigns",
+    "to": 12
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 13
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 8,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "v3",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "vector3",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

@@ -1,0 +1,837 @@
+{
+  "_filename": "utils.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luapi/lib/utils.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 74
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 74
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 73
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 70,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 70,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 70,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 70,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 70,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 70,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 70,
+    "label": "declares",
+    "to": 55
+  }, {
+    "from": 70,
+    "label": "declares",
+    "to": 67
+  }, {
+    "from": 77,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 77,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 77,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 77,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 77,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 77,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 77,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 78
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 78,
+    "label": "initializes",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "assigns",
+    "to": 81
+  }, {
+    "from": 78,
+    "label": "initializes",
+    "to": 82
+  }, {
+    "from": 82,
+    "label": "assigns",
+    "to": 83
+  }, {
+    "from": 78,
+    "label": "initializes",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "assigns",
+    "to": 85
+  }, {
+    "from": 78,
+    "label": "initializes",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "assigns",
+    "to": 87
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "utils",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function enableTests()\r\n  TestingEnabled = true\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "TestingEnabled = true",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function disableTests()\r\n  TestingEnabled = false\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "TestingEnabled = false",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function resetTests()\r\n  TestChecked = 0\r\n  TestPositive = 0\r\n  TestNegative = 0\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "TestChecked = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "TestPositive = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "TestNegative = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function check(expr,expect,message) \r\n  if TestingEnabled then\r\n    TestChecked = TestChecked + 1\r\n    if not (expr == expect) then\r\n      TestNegative = TestNegative + 1\r\n      print(\"Check error:\",message,\"test #\",TestChecked)\r\n      print(\" => expected\",expect)\r\n      print(\" => given\",expr)\r\n    else\r\n      TestPositive = TestPositive + 1\r\n    end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "if TestingEnabled then\r\n    TestChecked = TestChecked + 1\r\n    if not (expr == expect) then\r\n      TestNegative = TestNegative + 1\r\n      print(\"Check error:\",message,\"test #\",TestChecked)\r\n      print(\" => expected\",expect)\r\n      print(\" => given\",expr)\r\n    else\r\n      TestPositive = TestPositive + 1\r\n    end\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "TestChecked = TestChecked + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "if not (expr == expect) then\r\n      TestNegative = TestNegative + 1\r\n      print(\"Check error:\",message,\"test #\",TestChecked)\r\n      print(\" => expected\",expect)\r\n      print(\" => given\",expr)\r\n    else\r\n      TestPositive = TestPositive + 1\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "TestNegative = TestNegative + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "print(\"Check error:\",message,\"test #\",TestChecked)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "print(\" => expected\",expect)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "print(\" => given\",expr)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "TestPositive = TestPositive + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function checkSummary() \r\n  print(\"Check Summary:\")\r\n  print(\" => Passed tests:\",TestPositive)\r\n  print(\" => Failed tests:\",TestNegative)\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "print(\"Check Summary:\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "print(\" => Passed tests:\",TestPositive)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "print(\" => Failed tests:\",TestNegative)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function lengthOfTable(table) \r\n  local count = 0\r\n  for k,v in pairs(table) do\r\n    count = count + 1\r\n  end\r\n  return count\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "local count = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "for k,v in pairs(table) do\r\n    count = count + 1\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 31,
+    "text": "count = count + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "local function toStringTable(table,depth,uptables)\r\n  --print(\"toStringTable\",table,\"depth=\"..tostring(depth))\r\n  if depth==0 then return tostring(table) end\r\n  local str = \"{\";\r\n  local count = lengthOfTable(table)\r\n  for k,v in pairs(table) do\r\n    local vstr = \"\"\r\n    if type(v) == \"table\" then\r\n      -- print(uptables[v])\r\n      if uptables[v]~= nil then\r\n        vstr = \"<cycle>\"\r\n      else \r\n        uptables[v] = v\r\n        vstr = toStringTable(v,depth-1,uptables)\r\n      end\r\n    else \r\n      vstr = toString(v)\r\n    end\r\n    -- print(\"vstr = \"..vstr)\r\n    if type(k)==\"number\" then\r\n      str = str .. \" \" .. vstr\r\n    else\r\n      str = str .. \" \" .. tostring(k) .. \" = \" .. vstr\r\n    end\r\n    count = count - 1\r\n    if count>0 then str = str .. \",\" else str = str .. \" \" end\r\n  end\r\n  str = str .. \"}\"\r\n  --print(\"str\",str)\r\n  return str\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "if depth==0 then return tostring(table) end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "local str = \"{\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 37,
+    "text": "local count = lengthOfTable(table)",
+    "type": "statement:localassign"
+  }, {
+    "id": 38,
+    "text": "for k,v in pairs(table) do\r\n    local vstr = \"\"\r\n    if type(v) == \"table\" then\r\n      -- print(uptables[v])\r\n      if uptables[v]~= nil then\r\n        vstr = \"<cycle>\"\r\n      else \r\n        uptables[v] = v\r\n        vstr = toStringTable(v,depth-1,uptables)\r\n      end\r\n    else \r\n      vstr = toString(v)\r\n    end\r\n    -- print(\"vstr = \"..vstr)\r\n    if type(k)==\"number\" then\r\n      str = str .. \" \" .. vstr\r\n    else\r\n      str = str .. \" \" .. tostring(k) .. \" = \" .. vstr\r\n    end\r\n    count = count - 1\r\n    if count>0 then str = str .. \",\" else str = str .. \" \" end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 39,
+    "text": "local vstr = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "if type(v) == \"table\" then\r\n      -- print(uptables[v])\r\n      if uptables[v]~= nil then\r\n        vstr = \"<cycle>\"\r\n      else \r\n        uptables[v] = v\r\n        vstr = toStringTable(v,depth-1,uptables)\r\n      end\r\n    else \r\n      vstr = toString(v)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 41,
+    "text": "if uptables[v]~= nil then\r\n        vstr = \"<cycle>\"\r\n      else \r\n        uptables[v] = v\r\n        vstr = toStringTable(v,depth-1,uptables)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 42,
+    "text": "vstr = \"<cycle>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "uptables[v] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "vstr = toStringTable(v,depth-1,uptables)",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "vstr = toString(v)",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "if type(k)==\"number\" then\r\n      str = str .. \" \" .. vstr\r\n    else\r\n      str = str .. \" \" .. tostring(k) .. \" = \" .. vstr\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "str = str .. \" \" .. vstr",
+    "type": "statement:assign"
+  }, {
+    "id": 48,
+    "text": "str = str .. \" \" .. tostring(k) .. \" = \" .. vstr",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "count = count - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 50,
+    "text": "if count>0 then str = str .. \",\" else str = str .. \" \" end",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "str = str .. \",\"",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "str = str .. \" \"",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "str = str .. \"}\"",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 55,
+    "text": "function toString(v,...)\r\n  --print(\"type of v = \",v,\"is\",type(v))\r\n  local quoted = true\r\n  local depth = 2 -- default depth is 2 we print tables in tables\r\n  if #arg > 0 then\r\n    if arg[1]==\"unquoted\" then\r\n      quoted = false\r\n    elseif type(arg[1])==\"number\" then\r\n      depth = arg[1]\r\n    end\r\n    if arg[2]==\"unquoted\" then\r\n      quoted = false\r\n    elseif type(arg[2])==\"number\" and depth == 1 then\r\n      depth = arg[2]\r\n    end\r\n  end\r\n  if type(v)==\"table\" then\r\n    return toStringTable(v,depth,{})\r\n  elseif (type(v)==\"string\") and quoted then\r\n    return '\"'..tostring(v)..'\"'\r\n  else\r\n    return tostring(v)\r\n  -- return string.format(\"%d\",v) -- Q: how to convert other numbers ?\r\n  -- Q: stack overflow do not pop up ???\r\n  -- Q: silently fails when some bad happens ???\r\n  end\r\n  error(\"SHOULD NOT BE HERE (CONTACT author)\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 56,
+    "text": "local quoted = true",
+    "type": "statement:localassign"
+  }, {
+    "id": 57,
+    "text": "local depth = 2",
+    "type": "statement:localassign"
+  }, {
+    "id": 58,
+    "text": "if #arg > 0 then\r\n    if arg[1]==\"unquoted\" then\r\n      quoted = false\r\n    elseif type(arg[1])==\"number\" then\r\n      depth = arg[1]\r\n    end\r\n    if arg[2]==\"unquoted\" then\r\n      quoted = false\r\n    elseif type(arg[2])==\"number\" and depth == 1 then\r\n      depth = arg[2]\r\n    end\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 59,
+    "text": "if arg[1]==\"unquoted\" then\r\n      quoted = false\r\n    elseif type(arg[1])==\"number\" then\r\n      depth = arg[1]\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 60,
+    "text": "quoted = false",
+    "type": "statement:assign"
+  }, {
+    "id": 61,
+    "text": "depth = arg[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "if arg[2]==\"unquoted\" then\r\n      quoted = false\r\n    elseif type(arg[2])==\"number\" and depth == 1 then\r\n      depth = arg[2]\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 63,
+    "text": "depth = arg[2]",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "if type(v)==\"table\" then\r\n    return toStringTable(v,depth,{})\r\n  elseif (type(v)==\"string\") and quoted then\r\n    return '\"'..tostring(v)..'\"'\r\n  else\r\n    return tostring(v)\r\n  -- return string.format(\"%d\",v) -- Q: how to convert other numbers ?\r\n  -- Q: stack overflow do not pop up ???\r\n  -- Q: silently fails when some bad happens ???\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 65,
+    "text": "error(\"SHOULD NOT BE HERE (CONTACT author)\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 67,
+    "text": "function printTable(t)\r\n  print(toString(t))\r\nend",
+    "type": "function"
+  }, {
+    "id": 68,
+    "text": "print(toString(t))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 71,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 72,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 73,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 74,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 75,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 76,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "boolean"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "number"
+  } ]
+}

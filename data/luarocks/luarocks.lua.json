@@ -1,0 +1,117 @@
+{
+  "_filename": "luarocks.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/lfw/luarocks.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "requires",
+    "to": 5
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "luarocks",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "function run_command(...)\r\n   local args = {...}\r\n   local cmdline_vars = {}\r\n   for i = #args, 1, -1 do\r\n      local arg = args[i]\r\n      if arg:match(\"^[^-][^=]*=\") then\r\n         local var, val = arg:match(\"^([A-Z_][A-Z0-9_]*)=(.*)\")\r\n         if val then\r\n            cmdline_vars[var] = val\r\n            table.remove(args, i)\r\n         else\r\n            die(\"Invalid assignment: \"..arg)\r\n         end\r\n      end\r\n   end\r\n   local nonflags = { util.parse_flags(unpack(args)) }\r\n   local flags = table.remove(nonflags, 1)\r\n   \r\n   if flags[\"from\"] then flags[\"server\"] = flags[\"from\"] end\r\n   if flags[\"only-from\"] then flags[\"only-server\"] = flags[\"only-from\"] end\r\n   if flags[\"only-sources-from\"] then flags[\"only-sources\"] = flags[\"only-sources-from\"] end\r\n   if flags[\"to\"] then flags[\"tree\"] = flags[\"to\"] end\r\n   if flags[\"nodeps\"] then\r\n      flags[\"deps-mode\"] = \"none\"\r\n      table.insert(args, \"--deps-mode=none\")\r\n   end\r\n   \r\n   cfg.flags = flags\r\n\r\n   local command\r\n   \r\n   if flags[\"verbose\"] then   -- setting it in the config file will kick-in earlier in the process\r\n      cfg.verbose = true\r\n      local fs = require(\"luarocks.fs\")\r\n      fs.verbose()\r\n   end\r\n\r\n   if flags[\"version\"] then\r\n      util.printout(program..\" \"..cfg.program_version)\r\n      util.printout(program_description)\r\n      util.printout()\r\n      os.exit(cfg.errorcodes.OK)\r\n   elseif flags[\"help\"] or #nonflags == 0 then\r\n      command = \"help\"\r\n      args = nonflags\r\n   else\r\n      command = nonflags[1]\r\n      for i, arg in ipairs(args) do\r\n         if arg == command then\r\n            table.remove(args, i)\r\n            break\r\n         end\r\n      end\r\n   end\r\n   command = command:gsub(\"-\", \"_\")\r\n\r\n   if flags[\"extensions\"] then\r\n      cfg.use_extensions = true\r\n      local type_check = require(\"luarocks.type_check\")\r\n      type_check.load_extensions()\r\n   end\r\n   \r\n   if cfg.local_by_default then\r\n      flags[\"local\"] = true\r\n   end\r\n\r\n   if flags[\"deps-mode\"] and not deps.check_deps_mode_flag(flags[\"deps-mode\"]) then\r\n      die(\"Invalid entry for --deps-mode.\")\r\n   end\r\n   \r\n   if flags[\"tree\"] then\r\n      if flags[\"tree\"] == true or flags[\"tree\"] == \"\" then\r\n         die(\"Argument error: use --tree=<path>\")\r\n      end\r\n      local named = false\r\n      for _, tree in ipairs(cfg.rocks_trees) do\r\n         if type(tree) == \"table\" and flags[\"tree\"] == tree.name then\r\n            if not tree.root then\r\n               die(\"Configuration error: tree '\"..tree.name..\"' has no 'root' field.\")\r\n            end\r\n            replace_tree(flags, args, tree.root)\r\n            named = true\r\n            break\r\n         end\r\n      end\r\n      if not named then\r\n         local fs = require(\"luarocks.fs\")\r\n         local root_dir = fs.absolute_name(flags[\"tree\"])\r\n         replace_tree(flags, args, root_dir)\r\n      end\r\n   elseif flags[\"local\"] then\r\n      replace_tree(flags, args, cfg.home_tree)\r\n   else\r\n      local trees = cfg.rocks_trees\r\n      path.use_tree(trees[#trees])\r\n   end\r\n\r\n   if type(cfg.root_dir) == \"string\" then\r\n     cfg.root_dir = cfg.root_dir:gsub(\"/+$\", \"\")\r\n   else\r\n     cfg.root_dir.root = cfg.root_dir.root:gsub(\"/+$\", \"\")\r\n   end\r\n   cfg.rocks_dir = cfg.rocks_dir:gsub(\"/+$\", \"\")\r\n   cfg.deploy_bin_dir = cfg.deploy_bin_dir:gsub(\"/+$\", \"\")\r\n   cfg.deploy_lua_dir = cfg.deploy_lua_dir:gsub(\"/+$\", \"\")\r\n   cfg.deploy_lib_dir = cfg.deploy_lib_dir:gsub(\"/+$\", \"\")\r\n   \r\n   cfg.variables.ROCKS_TREE = cfg.rocks_dir\r\n   cfg.variables.SCRIPTS_DIR = cfg.deploy_bin_dir\r\n\r\n   if flags[\"server\"] then\r\n      if flags[\"server\"] == true then\r\n         die(\"Argument error: use --server=<url>\")\r\n      end\r\n      local protocol, path = dir.split_url(flags[\"server\"])\r\n      table.insert(cfg.rocks_servers, 1, protocol..\"://\"..path)\r\n   end\r\n   \r\n   if flags[\"only-server\"] then\r\n      if flags[\"only-server\"] == true then\r\n         die(\"Argument error: use --only-server=<url>\")\r\n      end\r\n      cfg.rocks_servers = { flags[\"only-server\"] }\r\n   end\r\n\r\n   if flags[\"only-sources\"] then\r\n      cfg.only_sources_from = flags[\"only-sources\"]\r\n   end\r\n  \r\n   if command ~= \"help\" then\r\n      for k, v in pairs(cmdline_vars) do\r\n         cfg.variables[k] = v\r\n      end\r\n   end\r\n   \r\n   if commands[command] then\r\n      -- TODO the interface of run should be modified, to receive the\r\n      -- flags table and the (possibly unpacked) nonflags arguments.\r\n      -- This would remove redundant parsing of arguments.\r\n      -- I'm not changing this now to avoid messing with the run()\r\n      -- interface, which I know some people use (even though\r\n      -- I never published it as a public API...)\r\n      local cmd = require(commands[command])\r\n      local xp, ok, err, exitcode = xpcall(function() return cmd.run(unpack(args)) end, function(err)\r\n         die(debug.traceback(\"LuaRocks \"..cfg.program_version\r\n            ..\" bug (please report at luarocks-developers@lists.sourceforge.net).\\n\"\r\n            ..err, 2))\r\n      end)\r\n      if xp and (not ok) then\r\n         die(err, exitcode)\r\n      end\r\n   else\r\n      die(\"Unknown command: \"..command)\r\n   end\r\n   util.run_scheduled_functions()\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "command_line)",
+    "type": "module"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

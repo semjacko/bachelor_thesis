@@ -1,0 +1,1081 @@
+{
+  "_filename": "filehandler.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/xavante/src/xavante/filehandler.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 83,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 93
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 90
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 96
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 96
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 83,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 89,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 89,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 89,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 89,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 89,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 89,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 89,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 89,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 89,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 89,
+    "label": "declares",
+    "to": 83
+  }, {
+    "from": 89,
+    "label": "declares",
+    "to": 87
+  }, {
+    "from": 105,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 107
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 108
+  }, {
+    "from": 107,
+    "label": "initializes",
+    "to": 109
+  }, {
+    "from": 109,
+    "label": "assigns",
+    "to": 110
+  }, {
+    "from": 107,
+    "label": "initializes",
+    "to": 111
+  }, {
+    "from": 111,
+    "label": "assigns",
+    "to": 112
+  }, {
+    "from": 108,
+    "label": "initializes",
+    "to": 113
+  }, {
+    "from": 113,
+    "label": "requires",
+    "to": 91
+  }, {
+    "from": 108,
+    "label": "initializes",
+    "to": 114
+  }, {
+    "from": 114,
+    "label": "requires",
+    "to": 106
+  }, {
+    "from": 108,
+    "label": "initializes",
+    "to": 105
+  }, {
+    "from": 108,
+    "label": "initializes",
+    "to": 105
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "filehandler",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function mimefrompath (path)\r\n\tlocal _,_,exten = string.find (path, \"%.([^.]*)$\")\r\n\tif exten then\r\n\t\treturn xavante.mimetypes [exten]\r\n\telse\r\n\t\treturn nil\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local _,_,exten = string.find (path, \"%.([^.]*)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "if exten then\r\n\t\treturn xavante.mimetypes [exten]\r\n\telse\r\n\t\treturn nil\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "local function encodingfrompath (path)\r\n\tlocal _,_,exten = string.find (path, \"%.([^.]*)$\")\r\n\tif exten then\r\n\t\treturn xavante.encodings [exten]\r\n\telse\r\n\t\treturn nil\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "if exten then\r\n\t\treturn xavante.encodings [exten]\r\n\telse\r\n\t\treturn nil\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "local function getrange (req, f)\r\n\tlocal range = req.headers[\"range\"]\r\n\tif not range then return nil end\r\n\t\r\n\tlocal s,e, r_A, r_B = string.find (range, \"(%d*)%s*-%s*(%d*)\")\r\n\tif s and e then\r\n\t\tr_A = tonumber (r_A)\r\n\t\tr_B = tonumber (r_B)\r\n\t\t\r\n\t\tif r_A then\r\n\t\t\tf:seek (\"set\", r_A)\r\n\t\t\tif r_B then return r_B + 1 - r_A end\r\n\t\telse\r\n\t\t\tif r_B then f:seek (\"end\", - r_B) end\r\n\t\tend\r\n\tend\r\n\t\r\n\treturn nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local range = req.headers[\"range\"]",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "if not range then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "local s,e, r_A, r_B = string.find (range, \"(%d*)%s*-%s*(%d*)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "if s and e then\r\n\t\tr_A = tonumber (r_A)\r\n\t\tr_B = tonumber (r_B)\r\n\t\t\r\n\t\tif r_A then\r\n\t\t\tf:seek (\"set\", r_A)\r\n\t\t\tif r_B then return r_B + 1 - r_A end\r\n\t\telse\r\n\t\t\tif r_B then f:seek (\"end\", - r_B) end\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "r_A = tonumber (r_A)",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "r_B = tonumber (r_B)",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "if r_A then\r\n\t\t\tf:seek (\"set\", r_A)\r\n\t\t\tif r_B then return r_B + 1 - r_A end\r\n\t\telse\r\n\t\t\tif r_B then f:seek (\"end\", - r_B) end\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "f:seek (\"set\", r_A)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "if r_B then return r_B + 1 - r_A end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "if r_B then f:seek (\"end\", - r_B) end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "f:seek (\"end\", - r_B)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "local function sendfile (f, res, numbytes)\r\n\tlocal block\r\n\tlocal whole = not numbytes\r\n\tlocal left = numbytes\r\n\tlocal blocksize = 8192\r\n\t\r\n\tif not whole then blocksize = math.min (blocksize, left) end\r\n\t\r\n\twhile whole or left > 0 do\r\n\t\tblock = f:read (blocksize)\r\n\t\tif not block then return end\r\n\t\tif not whole then\r\n\t\t\tleft = left - string.len (block)\r\n\t\t\tblocksize = math.min (blocksize, left)\r\n\t\tend\r\n\t\tres:send_data (block)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "local block",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "local whole = not numbytes",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "local left = numbytes",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "local blocksize = 8192",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "if not whole then blocksize = math.min (blocksize, left) end",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "blocksize = math.min (blocksize, left)",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "while whole or left > 0 do\r\n\t\tblock = f:read (blocksize)\r\n\t\tif not block then return end\r\n\t\tif not whole then\r\n\t\t\tleft = left - string.len (block)\r\n\t\t\tblocksize = math.min (blocksize, left)\r\n\t\tend\r\n\t\tres:send_data (block)\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 31,
+    "text": "block = f:read (blocksize)",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "if not block then return end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "if not whole then\r\n\t\t\tleft = left - string.len (block)\r\n\t\t\tblocksize = math.min (blocksize, left)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "left = left - string.len (block)",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "res:send_data (block)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "local function in_base(path)\r\n  local l = 0\r\n  if path:sub(1, 1) ~= \"/\" then path = \"/\" .. path end\r\n  for dir in path:gmatch(\"/([^/]+)\") do\r\n    if dir == \"..\" then\r\n      l = l - 1\r\n    elseif dir ~= \".\" then\r\n      l = l + 1\r\n    end\r\n    if l < 0 then return false end\r\n  end\r\n  return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "local l = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 39,
+    "text": "if path:sub(1, 1) ~= \"/\" then path = \"/\" .. path end",
+    "type": "statement:if"
+  }, {
+    "id": 40,
+    "text": "path = \"/\" .. path",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "for dir in path:gmatch(\"/([^/]+)\") do\r\n    if dir == \"..\" then\r\n      l = l - 1\r\n    elseif dir ~= \".\" then\r\n      l = l + 1\r\n    end\r\n    if l < 0 then return false end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 42,
+    "text": "if dir == \"..\" then\r\n      l = l - 1\r\n    elseif dir ~= \".\" then\r\n      l = l + 1\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 43,
+    "text": "l = l - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "l = l + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "if l < 0 then return false end",
+    "type": "statement:if"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 47,
+    "text": "local function filehandler (req, res, baseDir)\r\n\r\n\tif req.cmd_mth ~= \"GET\" and req.cmd_mth ~= \"HEAD\" then\r\n\t\treturn xavante.httpd.err_405 (req, res)\r\n\tend\r\n\r\n\tif not in_base(req.relpath) then\r\n\t\treturn xavante.httpd.err_403 (req, res)\r\n\tend\r\n\r\n\tlocal path = baseDir ..\"/\".. req.relpath\r\n\t\r\n\tres.headers [\"Content-Type\"] = mimefrompath (path)\r\n\tres.headers [\"Content-Encoding\"] = encodingfrompath (path)\r\n    \r\n\tlocal attr = lfs.attributes (path)\r\n\tif not attr then\r\n\t\treturn xavante.httpd.err_404 (req, res)\r\n\tend\r\n\tassert (type(attr) == \"table\")\r\n\t\r\n\tif attr.mode == \"directory\" then\r\n\t\treq.parsed_url.path = req.parsed_url.path .. \"/\"\r\n\t\tres.statusline = \"HTTP/1.1 301 Moved Permanently\"\r\n\t\tres.headers[\"Location\"] = url.build (req.parsed_url)\r\n\t\tres.content = \"redirect\"\r\n\t\treturn res\r\n\tend\r\n\t\r\n\tres.headers[\"Content-Length\"] = attr.size\r\n\t\r\n\tlocal f = io.open (path, \"rb\")\r\n\tif not f then\r\n\t\treturn xavante.httpd.err_404 (req, res)\r\n\tend\r\n\t\r\n\tres.headers[\"last-modified\"] = os.date (\"!%a, %d %b %Y %H:%M:%S GMT\",\r\n\t\t\t\t\tattr.modification)\r\n\r\n\tlocal lms = req.headers[\"if-modified-since\"] or 0\r\n\tlocal lm = res.headers[\"last-modified\"] or 1\r\n\tif lms == lm then\r\n\t\tres.headers[\"Content-Length\"] = 0\r\n\t\tres.statusline = \"HTTP/1.1 304 Not Modified\"\r\n\t\tres.content = \"\"\r\n        res.chunked = false\r\n        res:send_headers()\r\n        f:close()\r\n\t\treturn res\r\n\tend\r\n\r\n\t\r\n\tif req.cmd_mth == \"GET\" then\r\n\t\tlocal range_len = getrange (req, f)\r\n\t\tif range_len then\r\n\t\t\tres.statusline = \"HTTP/1.1 206 Partial Content\"\r\n\t\t\tres.headers[\"Content-Length\"] = range_len\r\n\t\tend\r\n\t\t\r\n\t\tsendfile (f, res, range_len)\r\n\telse\r\n\t\tres.content = \"\"\r\n\t\tres:send_headers ()\r\n    end\r\n    f:close ()\r\n\treturn res\r\nend",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "if req.cmd_mth ~= \"GET\" and req.cmd_mth ~= \"HEAD\" then\r\n\t\treturn xavante.httpd.err_405 (req, res)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 49,
+    "text": "if not in_base(req.relpath) then\r\n\t\treturn xavante.httpd.err_403 (req, res)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 50,
+    "text": "local path = baseDir ..\"/\".. req.relpath",
+    "type": "statement:localassign"
+  }, {
+    "id": 51,
+    "text": "res.headers [\"Content-Type\"] = mimefrompath (path)",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "res.headers [\"Content-Encoding\"] = encodingfrompath (path)",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "local attr = lfs.attributes (path)",
+    "type": "statement:localassign"
+  }, {
+    "id": 54,
+    "text": "if not attr then\r\n\t\treturn xavante.httpd.err_404 (req, res)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 55,
+    "text": "assert (type(attr) == \"table\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 56,
+    "text": "if attr.mode == \"directory\" then\r\n\t\treq.parsed_url.path = req.parsed_url.path .. \"/\"\r\n\t\tres.statusline = \"HTTP/1.1 301 Moved Permanently\"\r\n\t\tres.headers[\"Location\"] = url.build (req.parsed_url)\r\n\t\tres.content = \"redirect\"\r\n\t\treturn res\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 57,
+    "text": "req.parsed_url.path = req.parsed_url.path .. \"/\"",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "res.statusline = \"HTTP/1.1 301 Moved Permanently\"",
+    "type": "statement:assign"
+  }, {
+    "id": 59,
+    "text": "res.headers[\"Location\"] = url.build (req.parsed_url)",
+    "type": "statement:assign"
+  }, {
+    "id": 60,
+    "text": "res.content = \"redirect\"",
+    "type": "statement:assign"
+  }, {
+    "id": 61,
+    "text": "res.headers[\"Content-Length\"] = attr.size",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "local f = io.open (path, \"rb\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 63,
+    "text": "if not f then\r\n\t\treturn xavante.httpd.err_404 (req, res)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 64,
+    "text": "res.headers[\"last-modified\"] = os.date (\"!%a, %d %b %Y %H:%M:%S GMT\",\r\n\t\t\t\t\tattr.modification)",
+    "type": "statement:assign"
+  }, {
+    "id": 65,
+    "text": "local lms = req.headers[\"if-modified-since\"] or 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 66,
+    "text": "local lm = res.headers[\"last-modified\"] or 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 67,
+    "text": "if lms == lm then\r\n\t\tres.headers[\"Content-Length\"] = 0\r\n\t\tres.statusline = \"HTTP/1.1 304 Not Modified\"\r\n\t\tres.content = \"\"\r\n        res.chunked = false\r\n        res:send_headers()\r\n        f:close()\r\n\t\treturn res\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 68,
+    "text": "res.headers[\"Content-Length\"] = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "res.statusline = \"HTTP/1.1 304 Not Modified\"",
+    "type": "statement:assign"
+  }, {
+    "id": 70,
+    "text": "res.content = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 71,
+    "text": "res.chunked = false",
+    "type": "statement:assign"
+  }, {
+    "id": 72,
+    "text": "res:send_headers()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 73,
+    "text": "f:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 74,
+    "text": "if req.cmd_mth == \"GET\" then\r\n\t\tlocal range_len = getrange (req, f)\r\n\t\tif range_len then\r\n\t\t\tres.statusline = \"HTTP/1.1 206 Partial Content\"\r\n\t\t\tres.headers[\"Content-Length\"] = range_len\r\n\t\tend\r\n\t\t\r\n\t\tsendfile (f, res, range_len)\r\n\telse\r\n\t\tres.content = \"\"\r\n\t\tres:send_headers ()\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 75,
+    "text": "local range_len = getrange (req, f)",
+    "type": "statement:localassign"
+  }, {
+    "id": 76,
+    "text": "if range_len then\r\n\t\t\tres.statusline = \"HTTP/1.1 206 Partial Content\"\r\n\t\t\tres.headers[\"Content-Length\"] = range_len\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 77,
+    "text": "res.statusline = \"HTTP/1.1 206 Partial Content\"",
+    "type": "statement:assign"
+  }, {
+    "id": 78,
+    "text": "res.headers[\"Content-Length\"] = range_len",
+    "type": "statement:assign"
+  }, {
+    "id": 79,
+    "text": "sendfile (f, res, range_len)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 80,
+    "text": "res:send_headers ()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 81,
+    "text": "f:close ()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 83,
+    "text": "function xavante.filehandler (baseDir)\r\n\tif type(baseDir) == \"table\" then baseDir = baseDir.baseDir end\r\n\treturn function (req, res)\r\n\t\treturn filehandler (req, res, baseDir)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 84,
+    "text": "if type(baseDir) == \"table\" then baseDir = baseDir.baseDir end",
+    "type": "statement:if"
+  }, {
+    "id": 85,
+    "text": "baseDir = baseDir.baseDir",
+    "type": "statement:assign"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 87,
+    "text": "function (req, res)\r\n\t\treturn filehandler (req, res, baseDir)\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 90,
+    "text": "build",
+    "type": "global function"
+  }, {
+    "id": 91,
+    "text": "lfs",
+    "type": "module"
+  }, {
+    "id": 92,
+    "text": "attributes",
+    "type": "global function"
+  }, {
+    "id": 93,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 94,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 95,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 96,
+    "text": "min",
+    "type": "global function"
+  }, {
+    "id": 97,
+    "text": "date",
+    "type": "global function"
+  }, {
+    "id": 98,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 99,
+    "text": "xavante.httpd.err_405",
+    "type": "global function"
+  }, {
+    "id": 100,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 101,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 102,
+    "text": "xavante.httpd.err_404",
+    "type": "global function"
+  }, {
+    "id": 103,
+    "text": "xavante.httpd.err_403",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 106,
+    "text": "url",
+    "type": "module"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

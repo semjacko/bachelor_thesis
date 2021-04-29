@@ -1,0 +1,1973 @@
+{
+  "_filename": "ldump.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/metalua/src/compiler/ldump.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 114,
+    "label": "has",
+    "to": 115
+  }, {
+    "from": 114,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 114,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 118
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 120
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 121
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 122
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 123
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 124
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 125
+  }, {
+    "from": 114,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 128
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 129
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 130
+  }, {
+    "from": 130,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 132
+  }, {
+    "from": 133,
+    "label": "has",
+    "to": 134
+  }, {
+    "from": 133,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 133,
+    "label": "has",
+    "to": 136
+  }, {
+    "from": 133,
+    "label": "has",
+    "to": 137
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 139
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 140
+  }, {
+    "from": 140,
+    "label": "has",
+    "to": 141
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 142
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 143
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 144
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 145
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 146
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 147
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 148
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 149
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 150
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 151
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 152
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 153
+  }, {
+    "from": 154,
+    "label": "has",
+    "to": 155
+  }, {
+    "from": 154,
+    "label": "has",
+    "to": 156
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 158
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 159
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 160
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 161
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 162
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 163
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 164
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 166
+  }, {
+    "from": 167,
+    "label": "has",
+    "to": 168
+  }, {
+    "from": 167,
+    "label": "has",
+    "to": 169
+  }, {
+    "from": 167,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 167,
+    "label": "has",
+    "to": 170
+  }, {
+    "from": 171,
+    "label": "has",
+    "to": 168
+  }, {
+    "from": 171,
+    "label": "has",
+    "to": 169
+  }, {
+    "from": 171,
+    "label": "has",
+    "to": 172
+  }, {
+    "from": 171,
+    "label": "has",
+    "to": 173
+  }, {
+    "from": 171,
+    "label": "has",
+    "to": 174
+  }, {
+    "from": 171,
+    "label": "has",
+    "to": 175
+  }, {
+    "from": 175,
+    "label": "has",
+    "to": 176
+  }, {
+    "from": 171,
+    "label": "has",
+    "to": 177
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 188
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 188
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 188
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 190
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 190
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 190
+  }, {
+    "from": 69,
+    "label": "calls",
+    "to": 190
+  }, {
+    "from": 179,
+    "label": "calls",
+    "to": 184
+  }, {
+    "from": 179,
+    "label": "calls",
+    "to": 184
+  }, {
+    "from": 114,
+    "label": "calls",
+    "to": 184
+  }, {
+    "from": 114,
+    "label": "calls",
+    "to": 184
+  }, {
+    "from": 127,
+    "label": "calls",
+    "to": 184
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 191
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 180
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 189
+  }, {
+    "from": 171,
+    "label": "calls",
+    "to": 189
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 182
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 192
+  }, {
+    "from": 157,
+    "label": "calls",
+    "to": 192
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 171,
+    "label": "calls",
+    "to": 183
+  }, {
+    "from": 179,
+    "label": "calls",
+    "to": 187
+  }, {
+    "from": 83,
+    "label": "calls",
+    "to": 186
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 181
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 181
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 181
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 181
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 181
+  }, {
+    "from": 179,
+    "label": "calls",
+    "to": 193
+  }, {
+    "from": 171,
+    "label": "calls",
+    "to": 185
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 179
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 49
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 65
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 67
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 69
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 72
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 75
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 78
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 83
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 89
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 95
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 104
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 109
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 114
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 127
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 133
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 138
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 154
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 157
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 165
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 167
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 171
+  }, {
+    "from": 179,
+    "label": "declares",
+    "to": 178
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 194
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 195
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 196
+  }, {
+    "from": 196,
+    "label": "assigns",
+    "to": 197
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 198
+  }, {
+    "from": 198,
+    "label": "assigns",
+    "to": 199
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 200
+  }, {
+    "from": 200,
+    "label": "assigns",
+    "to": 201
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 202
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 203
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 204
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 205
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 206
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 207
+  }, {
+    "from": 207,
+    "label": "assigns",
+    "to": 208
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 209
+  }, {
+    "from": 209,
+    "label": "assigns",
+    "to": 210
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 211
+  }, {
+    "from": 211,
+    "label": "assigns",
+    "to": 212
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 213
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 214
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 215
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 216
+  }, {
+    "from": 194,
+    "label": "initializes",
+    "to": 217
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ldump",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function luaU:ttype(o)\r\n  local tt = type(o.value)\r\n  if     tt == \"number\"  then return self.LUA_TNUMBER\r\n  elseif tt == \"string\"  then return self.LUA_TSTRING\r\n  elseif tt == \"nil\"     then return self.LUA_TNIL\r\n  elseif tt == \"boolean\" then return self.LUA_TBOOLEAN\r\n  else\r\n    return self.LUA_TNONE  -- the rest should not appear\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local tt = type(o.value)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "if     tt == \"number\"  then return self.LUA_TNUMBER\r\n  elseif tt == \"string\"  then return self.LUA_TSTRING\r\n  elseif tt == \"nil\"     then return self.LUA_TNIL\r\n  elseif tt == \"boolean\" then return self.LUA_TBOOLEAN\r\n  else\r\n    return self.LUA_TNONE  -- the rest should not appear\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function luaU:make_setS()\r\n  local buff = {}\r\n        buff.data = \"\"\r\n  local writer =\r\n    function(s, buff)  -- chunk writer\r\n      if not s then return end\r\n      buff.data = buff.data..s\r\n    end\r\n  return writer, buff\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local buff = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "buff.data = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "local writer =\r\n    function(s, buff)  -- chunk writer\r\n      if not s then return end\r\n      buff.data = buff.data..s\r\n    end",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "if not s then return end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "buff.data = buff.data..s",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function(s, buff)  -- chunk writer\r\n      if not s then return end\r\n      buff.data = buff.data..s\r\n    end",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function luaU:make_setF(filename)\r\n  local buff = {}\r\n        buff.h = io.open(filename, \"wb\")\r\n  if not buff.h then return nil end\r\n  local writer =\r\n    function(s, buff)  -- chunk writer\r\n      if not buff.h then return end\r\n      if not s then buff.h:close(); return end\r\n      buff.h:write(s)\r\n    end\r\n  return writer, buff\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "buff.h = io.open(filename, \"wb\")",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "if not buff.h then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "local writer =\r\n    function(s, buff)  -- chunk writer\r\n      if not buff.h then return end\r\n      if not s then buff.h:close(); return end\r\n      buff.h:write(s)\r\n    end",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "if not buff.h then return end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "if not s then buff.h:close(); return end",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "buff.h:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "buff.h:write(s)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function(s, buff)  -- chunk writer\r\n      if not buff.h then return end\r\n      if not s then buff.h:close(); return end\r\n      buff.h:write(s)\r\n    end",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function luaU:from_double(x)\r\n  local function grab_byte(v)\r\n    return math.floor(v / 256),\r\n           string.char(math.mod(math.floor(v), 256))\r\n  end\r\n  local sign = 0\r\n  if x < 0 then sign = 1; x = -x end\r\n  local mantissa, exponent = math.frexp(x)\r\n  if x == 0 then -- zero\r\n    mantissa, exponent = 0, 0\r\n  elseif x == 1/0 then\r\n    mantissa, exponent = 0, 2047\r\n  else\r\n    mantissa = (mantissa * 2 - 1) * math.ldexp(0.5, 53)\r\n    exponent = exponent + 1022\r\n  end\r\n  local v, byte = \"\" -- convert to bytes\r\n  x = mantissa\r\n  for i = 1,6 do\r\n    x, byte = grab_byte(x); v = v..byte -- 47:0\r\n  end\r\n  x, byte = grab_byte(exponent * 16 + x); v = v..byte -- 55:48\r\n  x, byte = grab_byte(sign * 128 + x); v = v..byte -- 63:56\r\n  return v\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "local function grab_byte(v)\r\n    return math.floor(v / 256),\r\n           string.char(math.mod(math.floor(v), 256))\r\n  end",
+    "type": "statement:localfunction"
+  }, {
+    "id": 29,
+    "text": "local sign = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "if x < 0 then sign = 1; x = -x end",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "sign = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "x = -x",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "local mantissa, exponent = math.frexp(x)",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "if x == 0 then -- zero\r\n    mantissa, exponent = 0, 0\r\n  elseif x == 1/0 then\r\n    mantissa, exponent = 0, 2047\r\n  else\r\n    mantissa = (mantissa * 2 - 1) * math.ldexp(0.5, 53)\r\n    exponent = exponent + 1022\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "mantissa, exponent = 0, 0",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "mantissa, exponent = 0, 2047",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "mantissa = (mantissa * 2 - 1) * math.ldexp(0.5, 53)",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "exponent = exponent + 1022",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "local v, byte = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "x = mantissa",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "for i = 1,6 do\r\n    x, byte = grab_byte(x); v = v..byte -- 47:0\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 42,
+    "text": "x, byte = grab_byte(x)",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "v = v..byte",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "x, byte = grab_byte(exponent * 16 + x)",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "x, byte = grab_byte(sign * 128 + x)",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 47,
+    "text": "local function grab_byte(v)\r\n    return math.floor(v / 256),\r\n           string.char(math.mod(math.floor(v), 256))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 49,
+    "text": "function luaU:from_int(x, size)\r\n  local v = \"\"\r\n  x = math.floor(x)\r\n  if x >= 0 then\r\n    for i = 1, size do\r\n      v = v..string.char(math.mod(x, 256)); x = math.floor(x / 256)\r\n    end\r\n  else -- x < 0\r\n    x = -x\r\n    local carry = 1\r\n    for i = 1, size do\r\n      local c = 255 - math.mod(x, 256) + carry\r\n      if c == 256 then c = 0; carry = 1 else carry = 0 end\r\n      v = v..string.char(c); x = math.floor(x / 256)\r\n    end\r\n  end\r\n  return v\r\nend",
+    "type": "function"
+  }, {
+    "id": 50,
+    "text": "local v = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 51,
+    "text": "x = math.floor(x)",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "if x >= 0 then\r\n    for i = 1, size do\r\n      v = v..string.char(math.mod(x, 256)); x = math.floor(x / 256)\r\n    end\r\n  else -- x < 0\r\n    x = -x\r\n    local carry = 1\r\n    for i = 1, size do\r\n      local c = 255 - math.mod(x, 256) + carry\r\n      if c == 256 then c = 0; carry = 1 else carry = 0 end\r\n      v = v..string.char(c); x = math.floor(x / 256)\r\n    end\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 53,
+    "text": "for i = 1, size do\r\n      v = v..string.char(math.mod(x, 256)); x = math.floor(x / 256)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 54,
+    "text": "v = v..string.char(math.mod(x, 256))",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "x = math.floor(x / 256)",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "local carry = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 57,
+    "text": "for i = 1, size do\r\n      local c = 255 - math.mod(x, 256) + carry\r\n      if c == 256 then c = 0; carry = 1 else carry = 0 end\r\n      v = v..string.char(c); x = math.floor(x / 256)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 58,
+    "text": "local c = 255 - math.mod(x, 256) + carry",
+    "type": "statement:localassign"
+  }, {
+    "id": 59,
+    "text": "if c == 256 then c = 0; carry = 1 else carry = 0 end",
+    "type": "statement:if"
+  }, {
+    "id": 60,
+    "text": "c = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 61,
+    "text": "carry = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "carry = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 63,
+    "text": "v = v..string.char(c)",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 65,
+    "text": "function luaU:DumpLiteral(s, D) self:DumpBlock(s, D) end",
+    "type": "function"
+  }, {
+    "id": 66,
+    "text": "self:DumpBlock(s, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 67,
+    "text": "function luaU:DumpBlock(b, D) D.write(b, D.data) end",
+    "type": "function"
+  }, {
+    "id": 68,
+    "text": "D.write(b, D.data)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 69,
+    "text": "function luaU:DumpByte(y, D)\r\n  self:DumpBlock(string.char(y), D)\r\nend",
+    "type": "function"
+  }, {
+    "id": 70,
+    "text": "self:DumpBlock(string.char(y), D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 72,
+    "text": "function luaU:DumpInt(x, D)\r\n  self:DumpBlock(self:from_int(x, format.int_size), D)\r\nend",
+    "type": "function"
+  }, {
+    "id": 73,
+    "text": "self:DumpBlock(self:from_int(x, format.int_size), D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 75,
+    "text": "function luaU:DumpSize(x, D)\r\n  self:DumpBlock(self:from_int(x, format.size_t_size), D)\r\nend",
+    "type": "function"
+  }, {
+    "id": 76,
+    "text": "self:DumpBlock(self:from_int(x, format.size_t_size), D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 78,
+    "text": "function luaU:DumpNumber(x, D)\r\n   if format.integral then\r\n      self:DumpBlock(self:from_int(x, format.number_size), D)\r\n   else\r\n      self:DumpBlock(self:from_double(x), D)\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 79,
+    "text": "if format.integral then\r\n      self:DumpBlock(self:from_int(x, format.number_size), D)\r\n   else\r\n      self:DumpBlock(self:from_double(x), D)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 80,
+    "text": "self:DumpBlock(self:from_int(x, format.number_size), D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 81,
+    "text": "self:DumpBlock(self:from_double(x), D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 83,
+    "text": "function luaU:DumpString(s, D)\r\n  if s == nil then\r\n    self:DumpSize(0, D)\r\n  else\r\n    s = s..\"\\0\"  -- include trailing '\\0'\r\n    self:DumpSize(string.len(s), D)\r\n    self:DumpBlock(s, D)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 84,
+    "text": "if s == nil then\r\n    self:DumpSize(0, D)\r\n  else\r\n    s = s..\"\\0\"  -- include trailing '\\0'\r\n    self:DumpSize(string.len(s), D)\r\n    self:DumpBlock(s, D)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 85,
+    "text": "self:DumpSize(0, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 86,
+    "text": "s = s..\"\\0\"",
+    "type": "statement:assign"
+  }, {
+    "id": 87,
+    "text": "self:DumpSize(string.len(s), D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 89,
+    "text": "function luaU:DumpCode(f, D)\r\n  local n = f.sizecode\r\n  self:DumpInt(n, D)\r\n  --was DumpVector\r\n  for i = 0, n - 1 do\r\n    self:DumpBlock(luaP:Instruction(f.code[i]), D)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 90,
+    "text": "local n = f.sizecode",
+    "type": "statement:localassign"
+  }, {
+    "id": 91,
+    "text": "self:DumpInt(n, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 92,
+    "text": "for i = 0, n - 1 do\r\n    self:DumpBlock(luaP:Instruction(f.code[i]), D)\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 93,
+    "text": "self:DumpBlock(luaP:Instruction(f.code[i]), D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 95,
+    "text": "function luaU:DumpLocals(f, D)\r\n  local n = f.sizelocvars\r\n  self:DumpInt(n, D)\r\n  for i = 0, n - 1 do\r\n    -- Dirty temporary fix: \r\n    -- `Stat{ } keeps properly count of the number of local vars,\r\n    -- but fails to keep score of their debug info (names).\r\n    -- It therefore might happen that #f.localvars < f.sizelocvars, or\r\n    -- that a variable's startpc and endpc fields are left unset.\r\n    -- FIXME: This might not be needed anymore, check the bug report\r\n    --        by J. Belmonte.\r\n    local var = f.locvars[i]\r\n    if not var then break end \r\n    -- printf(\"[DUMPLOCALS] dumping local var #%i = %s\", i, table.tostring(var))\r\n    self:DumpString(var.varname, D)\r\n    self:DumpInt(var.startpc or 0, D)\r\n    self:DumpInt(var.endpc or 0, D)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 96,
+    "text": "local n = f.sizelocvars",
+    "type": "statement:localassign"
+  }, {
+    "id": 97,
+    "text": "for i = 0, n - 1 do\r\n    -- Dirty temporary fix: \r\n    -- `Stat{ } keeps properly count of the number of local vars,\r\n    -- but fails to keep score of their debug info (names).\r\n    -- It therefore might happen that #f.localvars < f.sizelocvars, or\r\n    -- that a variable's startpc and endpc fields are left unset.\r\n    -- FIXME: This might not be needed anymore, check the bug report\r\n    --        by J. Belmonte.\r\n    local var = f.locvars[i]\r\n    if not var then break end \r\n    -- printf(\"[DUMPLOCALS] dumping local var #%i = %s\", i, table.tostring(var))\r\n    self:DumpString(var.varname, D)\r\n    self:DumpInt(var.startpc or 0, D)\r\n    self:DumpInt(var.endpc or 0, D)\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 98,
+    "text": "local var = f.locvars[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 99,
+    "text": "if not var then break end",
+    "type": "statement:if"
+  }, {
+    "id": 100,
+    "text": "self:DumpString(var.varname, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 101,
+    "text": "self:DumpInt(var.startpc or 0, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 102,
+    "text": "self:DumpInt(var.endpc or 0, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 103,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 104,
+    "text": "function luaU:DumpLines(f, D)\r\n  local n = f.sizelineinfo\r\n  self:DumpInt(n, D)\r\n  --was DumpVector\r\n  for i = 0, n - 1 do\r\n    self:DumpInt(f.lineinfo[i], D)  -- was DumpBlock\r\n    --print(i, f.lineinfo[i])\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 105,
+    "text": "local n = f.sizelineinfo",
+    "type": "statement:localassign"
+  }, {
+    "id": 106,
+    "text": "for i = 0, n - 1 do\r\n    self:DumpInt(f.lineinfo[i], D)  -- was DumpBlock\r\n    --print(i, f.lineinfo[i])\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 107,
+    "text": "self:DumpInt(f.lineinfo[i], D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 109,
+    "text": "function luaU:DumpUpvalues(f, D)\r\n  local n = f.sizeupvalues\r\n  self:DumpInt(n, D)\r\n  for i = 0, n - 1 do\r\n    self:DumpString(f.upvalues[i], D)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 110,
+    "text": "local n = f.sizeupvalues",
+    "type": "statement:localassign"
+  }, {
+    "id": 111,
+    "text": "for i = 0, n - 1 do\r\n    self:DumpString(f.upvalues[i], D)\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 112,
+    "text": "self:DumpString(f.upvalues[i], D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 114,
+    "text": "function luaU:DumpConstants(f, D)\r\n  local n = f.sizek\r\n  self:DumpInt(n, D)\r\n  for i = 0, n - 1 do\r\n    local o = f.k[i]  -- TObject\r\n    local tt = self:ttype(o)\r\n    assert (tt >= 0)\r\n    self:DumpByte(tt, D)\r\n    if tt == self.LUA_TNUMBER then\r\n       self:DumpNumber(o.value, D)\r\n    elseif tt == self.LUA_TSTRING then\r\n       self:DumpString(o.value, D)\r\n    elseif tt == self.LUA_TBOOLEAN then\r\n       self:DumpByte (o.value and 1 or 0, D)\r\n    elseif tt == self.LUA_TNIL then\r\n    else\r\n      assert(false)  -- cannot happen\r\n    end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 115,
+    "text": "local n = f.sizek",
+    "type": "statement:localassign"
+  }, {
+    "id": 116,
+    "text": "for i = 0, n - 1 do\r\n    local o = f.k[i]  -- TObject\r\n    local tt = self:ttype(o)\r\n    assert (tt >= 0)\r\n    self:DumpByte(tt, D)\r\n    if tt == self.LUA_TNUMBER then\r\n       self:DumpNumber(o.value, D)\r\n    elseif tt == self.LUA_TSTRING then\r\n       self:DumpString(o.value, D)\r\n    elseif tt == self.LUA_TBOOLEAN then\r\n       self:DumpByte (o.value and 1 or 0, D)\r\n    elseif tt == self.LUA_TNIL then\r\n    else\r\n      assert(false)  -- cannot happen\r\n    end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 117,
+    "text": "local o = f.k[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 118,
+    "text": "local tt = self:ttype(o)",
+    "type": "statement:localassign"
+  }, {
+    "id": 119,
+    "text": "assert (tt >= 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 120,
+    "text": "self:DumpByte(tt, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 121,
+    "text": "if tt == self.LUA_TNUMBER then\r\n       self:DumpNumber(o.value, D)\r\n    elseif tt == self.LUA_TSTRING then\r\n       self:DumpString(o.value, D)\r\n    elseif tt == self.LUA_TBOOLEAN then\r\n       self:DumpByte (o.value and 1 or 0, D)\r\n    elseif tt == self.LUA_TNIL then\r\n    else\r\n      assert(false)  -- cannot happen\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 122,
+    "text": "self:DumpNumber(o.value, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 123,
+    "text": "self:DumpString(o.value, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 124,
+    "text": "self:DumpByte (o.value and 1 or 0, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 125,
+    "text": "assert(false)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 127,
+    "text": "function luaU:DumpProtos (f, D)\r\n  local n = f.sizep\r\n  assert (n)\r\n  self:DumpInt(n, D)\r\n  for i = 0, n - 1 do\r\n    self:DumpFunction(f.p[i], f.source, D)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 128,
+    "text": "local n = f.sizep",
+    "type": "statement:localassign"
+  }, {
+    "id": 129,
+    "text": "assert (n)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 130,
+    "text": "for i = 0, n - 1 do\r\n    self:DumpFunction(f.p[i], f.source, D)\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 131,
+    "text": "self:DumpFunction(f.p[i], f.source, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 132,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 133,
+    "text": "function luaU:DumpDebug(f, D)\r\n  self:DumpLines(f, D)\r\n  self:DumpLocals(f, D)\r\n  self:DumpUpvalues(f, D)\r\nend",
+    "type": "function"
+  }, {
+    "id": 134,
+    "text": "self:DumpLines(f, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 135,
+    "text": "self:DumpLocals(f, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 136,
+    "text": "self:DumpUpvalues(f, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 138,
+    "text": "function luaU:DumpFunction(f, p, D)\r\n   -- print \"Dumping function:\"\r\n   -- table.print(f, 60)\r\n\r\n  local source = f.source\r\n  if source == p then source = nil end\r\n  self:DumpString(source, D)\r\n  self:DumpInt(f.lineDefined, D)\r\n  self:DumpInt(f.lastLineDefined or 42, D)\r\n  self:DumpByte(f.nups, D)\r\n  self:DumpByte(f.numparams, D)\r\n  self:DumpByte(f.is_vararg, D)\r\n  self:DumpByte(f.maxstacksize, D)\r\n  self:DumpCode(f, D)\r\n  self:DumpConstants(f, D)\r\n  self:DumpProtos( f, D)\r\n  self:DumpDebug(f, D)\r\nend",
+    "type": "function"
+  }, {
+    "id": 139,
+    "text": "local source = f.source",
+    "type": "statement:localassign"
+  }, {
+    "id": 140,
+    "text": "if source == p then source = nil end",
+    "type": "statement:if"
+  }, {
+    "id": 141,
+    "text": "source = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 142,
+    "text": "self:DumpString(source, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 143,
+    "text": "self:DumpInt(f.lineDefined, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 144,
+    "text": "self:DumpInt(f.lastLineDefined or 42, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 145,
+    "text": "self:DumpByte(f.nups, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 146,
+    "text": "self:DumpByte(f.numparams, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 147,
+    "text": "self:DumpByte(f.is_vararg, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 148,
+    "text": "self:DumpByte(f.maxstacksize, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 149,
+    "text": "self:DumpCode(f, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 150,
+    "text": "self:DumpConstants(f, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 151,
+    "text": "self:DumpProtos( f, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 152,
+    "text": "self:DumpDebug(f, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 153,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 154,
+    "text": "function luaU:DumpHeader(D)\r\n  self:DumpLiteral(format.header, D)\r\nend",
+    "type": "function"
+  }, {
+    "id": 155,
+    "text": "self:DumpLiteral(format.header, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 156,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 157,
+    "text": "function luaU:dump (Main, w, data)\r\n  local D = {}  -- DumpState\r\n  D.write = w\r\n  D.data = data\r\n  self:DumpHeader(D)\r\n  self:DumpFunction(Main, nil, D)\r\n  -- added: for a chunk writer writing to a file, this final call with\r\n  -- nil data is to indicate to the writer to close the file\r\n  D.write(nil, D.data)\r\nend",
+    "type": "function"
+  }, {
+    "id": 158,
+    "text": "local D = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 159,
+    "text": "D.write = w",
+    "type": "statement:assign"
+  }, {
+    "id": 160,
+    "text": "D.data = data",
+    "type": "statement:assign"
+  }, {
+    "id": 161,
+    "text": "self:DumpHeader(D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 162,
+    "text": "self:DumpFunction(Main, nil, D)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 163,
+    "text": "D.write(nil, D.data)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 164,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 165,
+    "text": "function luaU:endianness()\r\n  return 1\r\nend",
+    "type": "function"
+  }, {
+    "id": 166,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 167,
+    "text": "function dump_string (proto)\r\n   local writer, buff = luaU:make_setS()\r\n   luaU:dump (proto, writer, buff)\r\n   return buff.data\r\nend",
+    "type": "function"
+  }, {
+    "id": 168,
+    "text": "local writer, buff = luaU:make_setS()",
+    "type": "statement:localassign"
+  }, {
+    "id": 169,
+    "text": "luaU:dump (proto, writer, buff)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 170,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 171,
+    "text": "function dump_file (proto, filename)\r\n   local writer, buff = luaU:make_setS()\r\n   luaU:dump (proto, writer, buff)\r\n   local file = io.open (filename, \"wb\")\r\n   file:write (buff.data)\r\n   io.close(file)\r\n   if UNIX_SHARPBANG then os.execute (\"chmod a+x \"..filename) end\r\nend",
+    "type": "function"
+  }, {
+    "id": 172,
+    "text": "local file = io.open (filename, \"wb\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 173,
+    "text": "file:write (buff.data)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 174,
+    "text": "io.close(file)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 175,
+    "text": "if UNIX_SHARPBANG then os.execute (\"chmod a+x \"..filename) end",
+    "type": "statement:if"
+  }, {
+    "id": 176,
+    "text": "os.execute (\"chmod a+x \"..filename)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 177,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 178,
+    "text": "function()end",
+    "type": "function"
+  }, {
+    "id": 179,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 180,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 181,
+    "text": "floor",
+    "type": "global function"
+  }, {
+    "id": 182,
+    "text": "frexp",
+    "type": "global function"
+  }, {
+    "id": 183,
+    "text": "execute",
+    "type": "global function"
+  }, {
+    "id": 184,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 185,
+    "text": "close",
+    "type": "global function"
+  }, {
+    "id": 186,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 187,
+    "text": "dump",
+    "type": "global function"
+  }, {
+    "id": 188,
+    "text": "mod",
+    "type": "global function"
+  }, {
+    "id": 189,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 190,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 191,
+    "text": "ldexp",
+    "type": "global function"
+  }, {
+    "id": 192,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 193,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 194,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 195,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 196,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 197,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 198,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 199,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 200,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 201,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 202,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 203,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 204,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 205,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 206,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 207,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 208,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 209,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 210,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 211,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 212,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 213,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 214,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 215,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 216,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 217,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

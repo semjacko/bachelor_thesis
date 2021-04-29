@@ -1,0 +1,1121 @@
+{
+  "_filename": "app.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/penlight/lua/pl/app.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 90
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 96
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 85,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 85,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 93
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 85,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 85,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 85,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 85,
+    "label": "declares",
+    "to": 39
+  }, {
+    "from": 85,
+    "label": "declares",
+    "to": 49
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 99
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 100
+  }, {
+    "from": 107,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 108
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 109
+  }, {
+    "from": 108,
+    "label": "initializes",
+    "to": 110
+  }, {
+    "from": 110,
+    "label": "assigns",
+    "to": 111
+  }, {
+    "from": 108,
+    "label": "initializes",
+    "to": 112
+  }, {
+    "from": 112,
+    "label": "assigns",
+    "to": 113
+  }, {
+    "from": 108,
+    "label": "initializes",
+    "to": 114
+  }, {
+    "from": 114,
+    "label": "assigns",
+    "to": 115
+  }, {
+    "from": 108,
+    "label": "initializes",
+    "to": 116
+  }, {
+    "from": 116,
+    "label": "assigns",
+    "to": 117
+  }, {
+    "from": 109,
+    "label": "initializes",
+    "to": 118
+  }, {
+    "from": 118,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 109,
+    "label": "initializes",
+    "to": 119
+  }, {
+    "from": 119,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 120
+  }, {
+    "from": 116,
+    "label": "represents",
+    "to": 121
+  }, {
+    "from": 120,
+    "label": "provides",
+    "to": 121
+  }, {
+    "from": 106,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 122,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 123,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 124,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 125,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 106,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 126,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 116,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 116,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 116,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 116,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 116,
+    "label": "contains",
+    "to": 49
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "app",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "path",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "utils",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "local function check_script_name ()\r\n    if _G.arg == nil then error('no command line args available\\nWas this run from a main script?') end\r\n    return _G.arg[0]\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "if _G.arg == nil then error('no command line args available\\nWas this run from a main script?') end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "error('no command line args available\\nWas this run from a main script?')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function app.require_here (base)\r\n    local p = path.dirname(check_script_name())\r\n    if not path.isabs(p) then\r\n        p = path.join(path.currentdir(),p)\r\n    end\r\n    if p:sub(-1,-1) ~= path.sep then\r\n        p = p..path.sep\r\n    end\r\n    if base then\r\n        p = p..base..path.sep\r\n    end\r\n    local so_ext = path.is_windows and 'dll' or 'so'\r\n    local lsep = package.path:find '^;' and '' or ';'\r\n    local csep = package.cpath:find '^;' and '' or ';'\r\n    package.path = ('%s?.lua;%s?%sinit.lua%s%s'):format(p,p,path.sep,lsep,package.path)\r\n    package.cpath = ('%s?.%s%s%s'):format(p,so_ext,csep,package.cpath)\r\n    return p\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local p = path.dirname(check_script_name())",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "if not path.isabs(p) then\r\n        p = path.join(path.currentdir(),p)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "p = path.join(path.currentdir(),p)",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "if p:sub(-1,-1) ~= path.sep then\r\n        p = p..path.sep\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "p = p..path.sep",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "if base then\r\n        p = p..base..path.sep\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "p = p..base..path.sep",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "local so_ext = path.is_windows and 'dll' or 'so'",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "local lsep = package.path:find '^;' and '' or ';'",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "local csep = package.cpath:find '^;' and '' or ';'",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "package.path = ('%s?.lua;%s?%sinit.lua%s%s'):format(p,p,path.sep,lsep,package.path)",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "package.cpath = ('%s?.%s%s%s'):format(p,so_ext,csep,package.cpath)",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function app.appfile (file)\r\n    local sname = path.basename(check_script_name())\r\n    local name,ext = path.splitext(sname)\r\n    local dir = path.join(path.expanduser('~'),'.'..name)\r\n    if not path.isdir(dir) then\r\n        local ret = path.mkdir(dir)\r\n        if not ret then return utils.raise ('cannot create '..dir) end\r\n    end\r\n    return path.join(dir,file)\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "local sname = path.basename(check_script_name())",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "local name,ext = path.splitext(sname)",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "local dir = path.join(path.expanduser('~'),'.'..name)",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "if not path.isdir(dir) then\r\n        local ret = path.mkdir(dir)\r\n        if not ret then return utils.raise ('cannot create '..dir) end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "local ret = path.mkdir(dir)",
+    "type": "statement:localassign"
+  }, {
+    "id": 29,
+    "text": "if not ret then return utils.raise ('cannot create '..dir) end",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function app.platform()\r\n    if path.is_windows then\r\n        return 'Windows'\r\n    else\r\n        local f = io.popen('uname')\r\n        local res = f:read()\r\n        if res == 'Darwin' then res = 'OSX' end\r\n        f:close()\r\n        return res\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "if path.is_windows then\r\n        return 'Windows'\r\n    else\r\n        local f = io.popen('uname')\r\n        local res = f:read()\r\n        if res == 'Darwin' then res = 'OSX' end\r\n        f:close()\r\n        return res\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "local f = io.popen('uname')",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "local res = f:read()",
+    "type": "statement:localassign"
+  }, {
+    "id": 35,
+    "text": "if res == 'Darwin' then res = 'OSX' end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "res = 'OSX'",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "f:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 39,
+    "text": "function app.lua ()\r\n    local args = _G.arg or error \"not in a main program\"\r\n    local imin = 0\r\n    for i in pairs(args) do\r\n        if i < imin then imin = i end\r\n    end\r\n    local cmd, append = {}, table.insert\r\n    for i = imin,-1 do\r\n        append(cmd, utils.quote_arg(args[i]))\r\n    end\r\n    return table.concat(cmd,' '),args[imin]\r\nend",
+    "type": "function"
+  }, {
+    "id": 40,
+    "text": "local args = _G.arg or error \"not in a main program\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 41,
+    "text": "local imin = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 42,
+    "text": "for i in pairs(args) do\r\n        if i < imin then imin = i end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 43,
+    "text": "if i < imin then imin = i end",
+    "type": "statement:if"
+  }, {
+    "id": 44,
+    "text": "imin = i",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "local cmd, append = {}, table.insert",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "for i = imin,-1 do\r\n        append(cmd, utils.quote_arg(args[i]))\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 47,
+    "text": "append(cmd, utils.quote_arg(args[i]))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 49,
+    "text": "function app.parse_args (args,flags_with_values)\r\n    if not args then\r\n        args = _G.arg\r\n        if not args then error \"Not in a main program: 'arg' not found\" end\r\n    end\r\n    flags_with_values = flags_with_values or {}\r\n    local _args = {}\r\n    local flags = {}\r\n    local i = 1\r\n    while i <= #args do\r\n        local a = args[i]\r\n        local v = a:match('^-(.+)')\r\n        local is_long\r\n        if v then -- we have a flag\r\n            if v:find '^-' then\r\n                is_long = true\r\n                v = v:sub(2)\r\n            end\r\n            if flags_with_values[v] then\r\n                if i == #args or args[i+1]:find '^-' then\r\n                    return utils.raise (\"no value for '\"..v..\"'\")\r\n                end\r\n                flags[v] = args[i+1]\r\n                i = i + 1\r\n            else\r\n                -- a value can also be indicated with =\r\n                local var,val =  utils.splitv (v,'=')\r\n                var = var or v\r\n                val = val or true\r\n                if not is_long then\r\n                    if #var > 1 then\r\n                        if var:find '.%d+' then -- short flag, number value\r\n                            val = var:sub(2)\r\n                            var = var:sub(1,1)\r\n                        else -- multiple short flags\r\n                            for i = 1,#var do\r\n                                flags[var:sub(i,i)] = true\r\n                            end\r\n                            val = nil -- prevents use of var as a flag below\r\n                        end\r\n                    else  -- single short flag (can have value, defaults to true)\r\n                        val = val or true\r\n                    end\r\n                end\r\n                if val then\r\n                    flags[var] = val\r\n                end\r\n            end\r\n        else\r\n            _args[#_args+1] = a\r\n        end\r\n        i = i + 1\r\n    end\r\n    return flags,_args\r\nend",
+    "type": "function"
+  }, {
+    "id": 50,
+    "text": "if not args then\r\n        args = _G.arg\r\n        if not args then error \"Not in a main program: 'arg' not found\" end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "args = _G.arg",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "if not args then error \"Not in a main program: 'arg' not found\" end",
+    "type": "statement:if"
+  }, {
+    "id": 53,
+    "text": "error \"Not in a main program: 'arg' not found\"",
+    "type": "statement:functioncall"
+  }, {
+    "id": 54,
+    "text": "flags_with_values = flags_with_values or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "local _args = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 56,
+    "text": "local flags = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 57,
+    "text": "local i = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 58,
+    "text": "while i <= #args do\r\n        local a = args[i]\r\n        local v = a:match('^-(.+)')\r\n        local is_long\r\n        if v then -- we have a flag\r\n            if v:find '^-' then\r\n                is_long = true\r\n                v = v:sub(2)\r\n            end\r\n            if flags_with_values[v] then\r\n                if i == #args or args[i+1]:find '^-' then\r\n                    return utils.raise (\"no value for '\"..v..\"'\")\r\n                end\r\n                flags[v] = args[i+1]\r\n                i = i + 1\r\n            else\r\n                -- a value can also be indicated with =\r\n                local var,val =  utils.splitv (v,'=')\r\n                var = var or v\r\n                val = val or true\r\n                if not is_long then\r\n                    if #var > 1 then\r\n                        if var:find '.%d+' then -- short flag, number value\r\n                            val = var:sub(2)\r\n                            var = var:sub(1,1)\r\n                        else -- multiple short flags\r\n                            for i = 1,#var do\r\n                                flags[var:sub(i,i)] = true\r\n                            end\r\n                            val = nil -- prevents use of var as a flag below\r\n                        end\r\n                    else  -- single short flag (can have value, defaults to true)\r\n                        val = val or true\r\n                    end\r\n                end\r\n                if val then\r\n                    flags[var] = val\r\n                end\r\n            end\r\n        else\r\n            _args[#_args+1] = a\r\n        end\r\n        i = i + 1\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 59,
+    "text": "local a = args[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 60,
+    "text": "local v = a:match('^-(.+)')",
+    "type": "statement:localassign"
+  }, {
+    "id": 61,
+    "text": "local is_long",
+    "type": "statement:localassign"
+  }, {
+    "id": 62,
+    "text": "if v then -- we have a flag\r\n            if v:find '^-' then\r\n                is_long = true\r\n                v = v:sub(2)\r\n            end\r\n            if flags_with_values[v] then\r\n                if i == #args or args[i+1]:find '^-' then\r\n                    return utils.raise (\"no value for '\"..v..\"'\")\r\n                end\r\n                flags[v] = args[i+1]\r\n                i = i + 1\r\n            else\r\n                -- a value can also be indicated with =\r\n                local var,val =  utils.splitv (v,'=')\r\n                var = var or v\r\n                val = val or true\r\n                if not is_long then\r\n                    if #var > 1 then\r\n                        if var:find '.%d+' then -- short flag, number value\r\n                            val = var:sub(2)\r\n                            var = var:sub(1,1)\r\n                        else -- multiple short flags\r\n                            for i = 1,#var do\r\n                                flags[var:sub(i,i)] = true\r\n                            end\r\n                            val = nil -- prevents use of var as a flag below\r\n                        end\r\n                    else  -- single short flag (can have value, defaults to true)\r\n                        val = val or true\r\n                    end\r\n                end\r\n                if val then\r\n                    flags[var] = val\r\n                end\r\n            end\r\n        else\r\n            _args[#_args+1] = a\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 63,
+    "text": "if v:find '^-' then\r\n                is_long = true\r\n                v = v:sub(2)\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 64,
+    "text": "is_long = true",
+    "type": "statement:assign"
+  }, {
+    "id": 65,
+    "text": "v = v:sub(2)",
+    "type": "statement:assign"
+  }, {
+    "id": 66,
+    "text": "if flags_with_values[v] then\r\n                if i == #args or args[i+1]:find '^-' then\r\n                    return utils.raise (\"no value for '\"..v..\"'\")\r\n                end\r\n                flags[v] = args[i+1]\r\n                i = i + 1\r\n            else\r\n                -- a value can also be indicated with =\r\n                local var,val =  utils.splitv (v,'=')\r\n                var = var or v\r\n                val = val or true\r\n                if not is_long then\r\n                    if #var > 1 then\r\n                        if var:find '.%d+' then -- short flag, number value\r\n                            val = var:sub(2)\r\n                            var = var:sub(1,1)\r\n                        else -- multiple short flags\r\n                            for i = 1,#var do\r\n                                flags[var:sub(i,i)] = true\r\n                            end\r\n                            val = nil -- prevents use of var as a flag below\r\n                        end\r\n                    else  -- single short flag (can have value, defaults to true)\r\n                        val = val or true\r\n                    end\r\n                end\r\n                if val then\r\n                    flags[var] = val\r\n                end\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 67,
+    "text": "if i == #args or args[i+1]:find '^-' then\r\n                    return utils.raise (\"no value for '\"..v..\"'\")\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 68,
+    "text": "flags[v] = args[i+1]",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "i = i + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 70,
+    "text": "local var,val =  utils.splitv (v,'=')",
+    "type": "statement:localassign"
+  }, {
+    "id": 71,
+    "text": "var = var or v",
+    "type": "statement:assign"
+  }, {
+    "id": 72,
+    "text": "val = val or true",
+    "type": "statement:assign"
+  }, {
+    "id": 73,
+    "text": "if not is_long then\r\n                    if #var > 1 then\r\n                        if var:find '.%d+' then -- short flag, number value\r\n                            val = var:sub(2)\r\n                            var = var:sub(1,1)\r\n                        else -- multiple short flags\r\n                            for i = 1,#var do\r\n                                flags[var:sub(i,i)] = true\r\n                            end\r\n                            val = nil -- prevents use of var as a flag below\r\n                        end\r\n                    else  -- single short flag (can have value, defaults to true)\r\n                        val = val or true\r\n                    end\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 74,
+    "text": "if #var > 1 then\r\n                        if var:find '.%d+' then -- short flag, number value\r\n                            val = var:sub(2)\r\n                            var = var:sub(1,1)\r\n                        else -- multiple short flags\r\n                            for i = 1,#var do\r\n                                flags[var:sub(i,i)] = true\r\n                            end\r\n                            val = nil -- prevents use of var as a flag below\r\n                        end\r\n                    else  -- single short flag (can have value, defaults to true)\r\n                        val = val or true\r\n                    end",
+    "type": "statement:if"
+  }, {
+    "id": 75,
+    "text": "if var:find '.%d+' then -- short flag, number value\r\n                            val = var:sub(2)\r\n                            var = var:sub(1,1)\r\n                        else -- multiple short flags\r\n                            for i = 1,#var do\r\n                                flags[var:sub(i,i)] = true\r\n                            end\r\n                            val = nil -- prevents use of var as a flag below\r\n                        end",
+    "type": "statement:if"
+  }, {
+    "id": 76,
+    "text": "val = var:sub(2)",
+    "type": "statement:assign"
+  }, {
+    "id": 77,
+    "text": "var = var:sub(1,1)",
+    "type": "statement:assign"
+  }, {
+    "id": 78,
+    "text": "for i = 1,#var do\r\n                                flags[var:sub(i,i)] = true\r\n                            end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 79,
+    "text": "flags[var:sub(i,i)] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 80,
+    "text": "val = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 81,
+    "text": "if val then\r\n                    flags[var] = val\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 82,
+    "text": "flags[var] = val",
+    "type": "statement:assign"
+  }, {
+    "id": 83,
+    "text": "_args[#_args+1] = a",
+    "type": "statement:assign"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 86,
+    "text": "join",
+    "type": "global function"
+  }, {
+    "id": 87,
+    "text": "raise",
+    "type": "global function"
+  }, {
+    "id": 88,
+    "text": "splitext",
+    "type": "global function"
+  }, {
+    "id": 89,
+    "text": "dirname",
+    "type": "global function"
+  }, {
+    "id": 90,
+    "text": "expanduser",
+    "type": "global function"
+  }, {
+    "id": 91,
+    "text": "isabs",
+    "type": "global function"
+  }, {
+    "id": 92,
+    "text": "quote_arg",
+    "type": "global function"
+  }, {
+    "id": 93,
+    "text": "mkdir",
+    "type": "global function"
+  }, {
+    "id": 94,
+    "text": "splitv",
+    "type": "global function"
+  }, {
+    "id": 95,
+    "text": "currentdir",
+    "type": "global function"
+  }, {
+    "id": 96,
+    "text": "isdir",
+    "type": "global function"
+  }, {
+    "id": 97,
+    "text": "basename",
+    "type": "global function"
+  }, {
+    "id": 98,
+    "text": "append",
+    "type": "global function"
+  }, {
+    "id": 99,
+    "text": "appfile",
+    "type": "global function"
+  }, {
+    "id": 100,
+    "text": "require_here",
+    "type": "global function"
+  }, {
+    "id": 101,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 102,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 103,
+    "text": "popen",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 105,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

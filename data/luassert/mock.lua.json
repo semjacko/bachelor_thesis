@@ -1,0 +1,461 @@
+{
+  "_filename": "mock.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luassert/src/mock.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "assigns",
+    "to": 43
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 46
+  }, {
+    "from": 32,
+    "label": "represents",
+    "to": 47
+  }, {
+    "from": 46,
+    "label": "provides",
+    "to": 47
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "mock",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "spy",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "stub",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "local function mock_apply(object, action)\r\n  if type(object) ~= \"table\" then return end\r\n  if spy.is_spy(object) then\r\n    return object[action](object)\r\n  end\r\n  for k,v in pairs(object) do\r\n    mock_apply(v, action)\r\n  end\r\n  return object\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "if type(object) ~= \"table\" then return end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "if spy.is_spy(object) then\r\n    return object[action](object)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "for k,v in pairs(object) do\r\n    mock_apply(v, action)\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 9,
+    "text": "mock_apply(v, action)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function(object, dostub, func, self, key)\r\n    local data_type = type(object)\r\n    if data_type == \"table\" then\r\n      if spy.is_spy(object) then\r\n        -- this table is a function already wrapped as a spy, so nothing to do here\r\n      else\r\n        for k,v in pairs(object) do\r\n          object[k] = mock.new(v, dostub, func, object, k)\r\n        end\r\n      end\r\n    elseif data_type == \"function\" then\r\n      if dostub then\r\n        return stub(self, key, func)\r\n      elseif self==nil then\r\n        return spy.new(object)\r\n      else\r\n        return spy.on(self, key)\r\n      end\r\n    end\r\n    return object\r\n  end",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "local data_type = type(object)",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "if data_type == \"table\" then\r\n      if spy.is_spy(object) then\r\n        -- this table is a function already wrapped as a spy, so nothing to do here\r\n      else\r\n        for k,v in pairs(object) do\r\n          object[k] = mock.new(v, dostub, func, object, k)\r\n        end\r\n      end\r\n    elseif data_type == \"function\" then\r\n      if dostub then\r\n        return stub(self, key, func)\r\n      elseif self==nil then\r\n        return spy.new(object)\r\n      else\r\n        return spy.on(self, key)\r\n      end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "if spy.is_spy(object) then\r\n        -- this table is a function already wrapped as a spy, so nothing to do here\r\n      else\r\n        for k,v in pairs(object) do\r\n          object[k] = mock.new(v, dostub, func, object, k)\r\n        end\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "for k,v in pairs(object) do\r\n          object[k] = mock.new(v, dostub, func, object, k)\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 16,
+    "text": "object[k] = mock.new(v, dostub, func, object, k)",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "if dostub then\r\n        return stub(self, key, func)\r\n      elseif self==nil then\r\n        return spy.new(object)\r\n      else\r\n        return spy.on(self, key)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "function(object)\r\n    return mock_apply(object, \"clear\")\r\n  end",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function(object)\r\n    return mock_apply(object, \"revert\")\r\n  end",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function(self, ...)\r\n    -- mock originally was a function only. Now that it is a module table\r\n    -- the __call method is required for backward compatibility\r\n    return mock.new(...)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 26,
+    "text": "on",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "is_spy",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "stub",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "revert",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "clear",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "object[action]",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "interface"
+  } ]
+}

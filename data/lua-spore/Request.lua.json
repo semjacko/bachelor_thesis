@@ -1,0 +1,1117 @@
+{
+  "_filename": "Request.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-spore/src/Spore/Request.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 73
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 74
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 74
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 74
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 74
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 64,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 64,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 64,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 64,
+    "label": "declares",
+    "to": 60
+  }, {
+    "from": 64,
+    "label": "declares",
+    "to": 62
+  }, {
+    "from": 76,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 85,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 101
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 102
+  }, {
+    "from": 101,
+    "label": "initializes",
+    "to": 103
+  }, {
+    "from": 103,
+    "label": "assigns",
+    "to": 104
+  }, {
+    "from": 101,
+    "label": "initializes",
+    "to": 105
+  }, {
+    "from": 105,
+    "label": "assigns",
+    "to": 106
+  }, {
+    "from": 101,
+    "label": "initializes",
+    "to": 107
+  }, {
+    "from": 107,
+    "label": "assigns",
+    "to": 108
+  }, {
+    "from": 101,
+    "label": "initializes",
+    "to": 109
+  }, {
+    "from": 109,
+    "label": "assigns",
+    "to": 110
+  }, {
+    "from": 101,
+    "label": "initializes",
+    "to": 111
+  }, {
+    "from": 111,
+    "label": "assigns",
+    "to": 112
+  }, {
+    "from": 101,
+    "label": "initializes",
+    "to": 113
+  }, {
+    "from": 113,
+    "label": "assigns",
+    "to": 114
+  }, {
+    "from": 101,
+    "label": "initializes",
+    "to": 115
+  }, {
+    "from": 101,
+    "label": "initializes",
+    "to": 116
+  }, {
+    "from": 101,
+    "label": "initializes",
+    "to": 117
+  }, {
+    "from": 117,
+    "label": "assigns",
+    "to": 118
+  }, {
+    "from": 102,
+    "label": "initializes",
+    "to": 119
+  }, {
+    "from": 119,
+    "label": "requires",
+    "to": 66
+  }, {
+    "from": 102,
+    "label": "initializes",
+    "to": 120
+  }, {
+    "from": 120,
+    "label": "requires",
+    "to": 82
+  }, {
+    "from": 102,
+    "label": "initializes",
+    "to": 91
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 121
+  }, {
+    "from": 75,
+    "label": "represents",
+    "to": 122
+  }, {
+    "from": 121,
+    "label": "provides",
+    "to": 122
+  }, {
+    "from": 113,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 113,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 113,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 113,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 113,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 75,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 77,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 78,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 79,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 80,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 81,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 83,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 86,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 87,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 88,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 89,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 90,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 92,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 93,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 94,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 95,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 96,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 97,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 98,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 99,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 100,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 113,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 123,
+    "label": "contains",
+    "to": 7
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Request",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function m.new_from_discovery (api, opts)\r\n    opts = opts or {}\r\n    checktype('new_from_discovery', 2, opts, 'table')\r\n    if type(api) == 'string' then\r\n        local content = slurp(api)\r\n        return new_from_lua(convert(decode(content)), opts)\r\n    end\r\n    if type(api) == 'table' then\r\n        local discovery = new_from_lua {\r\n            base_url = 'https://www.googleapis.com/discovery/v1/',\r\n            methods = {\r\n                get = {\r\n                    path = 'apis/:api/:version/rest',\r\n                    method = 'GET',\r\n                    required_params = { 'api', 'version' },\r\n                    expected_status = { 200 },\r\n                },\r\n            },\r\n        }\r\n        discovery:enable 'Format.JSON'\r\n        local r = discovery:get(api)\r\n        return new_from_lua(convert(r.body), opts)\r\n    end\r\n    error(\"bad argument #1 to new_from_discovery (string or table expected, got \"\r\n          .. type(api) .. \")\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function m.generate_nonce ()\r\n    return format('%08x', time())\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function m.generate_timestamp ()\r\n    return tostring(time())\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function m.generate_nonce ()\r\n    return digest('sha1', tostring(random()) .. 'random' .. tostring(time()), 'keyyyy')\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function m.reset ()\r\n    collectgarbage 'collect'\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function m.new (env)\r\n    local obj = {\r\n        env = env,\r\n        redirect = m.redirect,\r\n        headers = {\r\n            ['user-agent'] = env.HTTP_USER_AGENT,\r\n        },\r\n    }\r\n    return setmetatable(obj, {\r\n        __index = m,\r\n    })\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local obj = {\r\n        env = env,\r\n        redirect = m.redirect,\r\n        headers = {\r\n            ['user-agent'] = env.HTTP_USER_AGENT,\r\n        },\r\n    }",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "local function escape (s)\r\n    -- see RFC 3986 & RFC 5849\r\n    -- unreserved\r\n    return string.gsub(s, '[^-._~%w]', function(c)\r\n        return string.format('%%%02X', string.byte(c))\r\n    end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "local function escape_path (s)\r\n    -- see RFC 3986\r\n    -- unreserved + slash\r\n    return string.gsub(s, '[^-._~%w/]', function(c)\r\n        return string.format('%%%02X', string.byte(c))\r\n    end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function m:finalize (oauth)\r\n    if self.url then\r\n        return\r\n    end\r\n    local env = self.env\r\n    local spore = env.spore\r\n    if not require 'Spore'.early_validate then\r\n        require 'Spore'.validate(spore.caller, spore.method, spore.params, spore.payload)\r\n    end\r\n    local path_info = env.PATH_INFO\r\n    local query_string = env.QUERY_STRING\r\n    local form_data = {}\r\n    for k, v in pairs(spore.form_data or {}) do\r\n        form_data[tostring(k)] = tostring(v)\r\n    end\r\n    local headers = {}\r\n    for k, v in pairs(spore.headers or {}) do\r\n        headers[tostring(k):lower()] = tostring(v)\r\n    end\r\n    local query = {}\r\n    if query_string then\r\n        query[1] = query_string\r\n    end\r\n    local form = {}\r\n    for k, v in pairs(spore.params) do\r\n        k = tostring(k)\r\n        v = tostring(v)\r\n        local n\r\n        path_info, n = path_info:gsub(':' .. k, (escape_path(v):gsub('%%', '%%%%')))\r\n        for kk, vv in pairs(form_data) do\r\n            local nn\r\n            vv, nn = vv:gsub(':' .. k, (v:gsub('%%', '%%%%')))\r\n            if nn > 0 then\r\n                form_data[kk] = vv\r\n                form[kk] = vv\r\n                n = n + 1\r\n            end\r\n        end\r\n        for kk, vv in pairs(headers) do\r\n            local nn\r\n            vv, nn = vv:gsub(':' .. k, (v:gsub('%%', '%%%%')))\r\n            if nn > 0 then\r\n                headers[kk] = vv\r\n                self.headers[kk] = vv\r\n                n = n + 1\r\n            end\r\n        end\r\n        if n == 0 then\r\n            query[#query+1] = escape(k) .. '=' .. escape(v)\r\n        end\r\n    end\r\n    if #query > 0 then\r\n        query_string = tconcat(query, '&')\r\n    end\r\n    env.PATH_INFO = path_info\r\n    env.QUERY_STRING = query_string\r\n    if spore.form_data then\r\n        spore.form_data = form\r\n    end\r\n    self.method = env.REQUEST_METHOD\r\n    self.url = url.build {\r\n        scheme  = spore.url_scheme,\r\n        host    = env.SERVER_NAME,\r\n        port    = env.SERVER_PORT,\r\n        path    = path_info,\r\n        query   = query_string,\r\n    }\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "if self.url then\r\n        return\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "local env = self.env",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "local spore = env.spore",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "if not require 'Spore'.early_validate then\r\n        require 'Spore'.validate(spore.caller, spore.method, spore.params, spore.payload)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "require 'Spore'.validate(spore.caller, spore.method, spore.params, spore.payload)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "local path_info = env.PATH_INFO",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "local query_string = env.QUERY_STRING",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "local form_data = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "for k, v in pairs(spore.form_data or {}) do\r\n        form_data[tostring(k)] = tostring(v)\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 25,
+    "text": "form_data[tostring(k)] = tostring(v)",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "local headers = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "for k, v in pairs(spore.headers or {}) do\r\n        headers[tostring(k):lower()] = tostring(v)\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 28,
+    "text": "headers[tostring(k):lower()] = tostring(v)",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "local query = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "if query_string then\r\n        query[1] = query_string\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "query[1] = query_string",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "local form = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "for k, v in pairs(spore.params) do\r\n        k = tostring(k)\r\n        v = tostring(v)\r\n        local n\r\n        path_info, n = path_info:gsub(':' .. k, (escape_path(v):gsub('%%', '%%%%')))\r\n        for kk, vv in pairs(form_data) do\r\n            local nn\r\n            vv, nn = vv:gsub(':' .. k, (v:gsub('%%', '%%%%')))\r\n            if nn > 0 then\r\n                form_data[kk] = vv\r\n                form[kk] = vv\r\n                n = n + 1\r\n            end\r\n        end\r\n        for kk, vv in pairs(headers) do\r\n            local nn\r\n            vv, nn = vv:gsub(':' .. k, (v:gsub('%%', '%%%%')))\r\n            if nn > 0 then\r\n                headers[kk] = vv\r\n                self.headers[kk] = vv\r\n                n = n + 1\r\n            end\r\n        end\r\n        if n == 0 then\r\n            query[#query+1] = escape(k) .. '=' .. escape(v)\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 34,
+    "text": "k = tostring(k)",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "v = tostring(v)",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "local n",
+    "type": "statement:localassign"
+  }, {
+    "id": 37,
+    "text": "path_info, n = path_info:gsub(':' .. k, (escape_path(v):gsub('%%', '%%%%')))",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "for kk, vv in pairs(form_data) do\r\n            local nn\r\n            vv, nn = vv:gsub(':' .. k, (v:gsub('%%', '%%%%')))\r\n            if nn > 0 then\r\n                form_data[kk] = vv\r\n                form[kk] = vv\r\n                n = n + 1\r\n            end\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 39,
+    "text": "local nn",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "vv, nn = vv:gsub(':' .. k, (v:gsub('%%', '%%%%')))",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "if nn > 0 then\r\n                form_data[kk] = vv\r\n                form[kk] = vv\r\n                n = n + 1\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 42,
+    "text": "form_data[kk] = vv",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "form[kk] = vv",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "n = n + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "for kk, vv in pairs(headers) do\r\n            local nn\r\n            vv, nn = vv:gsub(':' .. k, (v:gsub('%%', '%%%%')))\r\n            if nn > 0 then\r\n                headers[kk] = vv\r\n                self.headers[kk] = vv\r\n                n = n + 1\r\n            end\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 46,
+    "text": "if nn > 0 then\r\n                headers[kk] = vv\r\n                self.headers[kk] = vv\r\n                n = n + 1\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "headers[kk] = vv",
+    "type": "statement:assign"
+  }, {
+    "id": 48,
+    "text": "self.headers[kk] = vv",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "if n == 0 then\r\n            query[#query+1] = escape(k) .. '=' .. escape(v)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 50,
+    "text": "query[#query+1] = escape(k) .. '=' .. escape(v)",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "if #query > 0 then\r\n        query_string = tconcat(query, '&')\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 52,
+    "text": "query_string = tconcat(query, '&')",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "env.PATH_INFO = path_info",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "env.QUERY_STRING = query_string",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "if spore.form_data then\r\n        spore.form_data = form\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 56,
+    "text": "spore.form_data = form",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "self.method = env.REQUEST_METHOD",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "self.url = url.build {\r\n        scheme  = spore.url_scheme,\r\n        host    = env.SERVER_NAME,\r\n        port    = env.SERVER_PORT,\r\n        path    = path_info,\r\n        query   = query_string,\r\n    }",
+    "type": "statement:assign"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 60,
+    "text": "function(c)\r\n        return string.format('%%%02X', string.byte(c))\r\n    end",
+    "type": "function"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 62,
+    "text": "function(c)\r\n        return string.format('%%%02X', string.byte(c))\r\n    end",
+    "type": "function"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 65,
+    "text": "build",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 67,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 68,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 69,
+    "text": "byte",
+    "type": "global function"
+  }, {
+    "id": 70,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 71,
+    "text": "tconcat",
+    "type": "global function"
+  }, {
+    "id": 72,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 73,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 74,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 82,
+    "text": "url",
+    "type": "module"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 90,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 97,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 99,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 102,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 103,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 104,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "local variable"
+  } ]
+}

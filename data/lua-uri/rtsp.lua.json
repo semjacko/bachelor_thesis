@@ -1,0 +1,273 @@
+{
+  "_filename": "rtsp.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/rtsp.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "assigns",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "assigns",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "assigns",
+    "to": 26
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 29
+  }, {
+    "from": 20,
+    "label": "represents",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "provides",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "http",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "rtsp",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function testcase:test_rtsp ()\r\n    local u = assert(URI:new(\"RTSP://MEDIA.EXAMPLE.COM:554/twister/audiotrack\"))\r\n    is(\"rtsp://media.example.com/twister/audiotrack\", tostring(u))\r\n    is(\"media.example.com\", u:host())\r\n    is(\"/twister/audiotrack\", u:path())\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function testcase:test_rtspu ()\r\n    local uri = assert(URI:new(\"rtspu://media.perl.com/f%C3%B4o.smi/\"))\r\n    is(\"rtspu://media.perl.com/f%C3%B4o.smi/\", tostring(uri))\r\n    is(\"media.perl.com\", uri:host())\r\n    is(\"/f%C3%B4o.smi/\", uri:path())\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function testcase:test_switch_scheme ()\r\n    -- Should be no problem switching between TCP and UDP URIs, because they\r\n    -- have the same syntax.\r\n    local uri = assert(URI:new(\"rtsp://media.example.com/twister/audiotrack\"))\r\n    is(\"rtsp://media.example.com/twister/audiotrack\", tostring(uri))\r\n    is(\"rtsp\", uri:scheme(\"rtspu\"))\r\n    is(\"rtspu://media.example.com/twister/audiotrack\", tostring(uri))\r\n    is(\"rtspu\", uri:scheme(\"rtsp\"))\r\n    is(\"rtsp://media.example.com/twister/audiotrack\", tostring(uri))\r\n    is(\"rtsp\", uri:scheme())\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function testcase:test_rtsp_default_port ()\r\n    local uri = assert(URI:new(\"rtsp://host/path/\"))\r\n    is(554, uri:port())\r\n    uri = assert(URI:new(\"rtspu://host/path/\"))\r\n    is(554, uri:port())\r\n\r\n    is(554, uri:port(8554))\r\n    is(\"rtspu://host:8554/path/\", tostring(uri))\r\n    is(8554, uri:port(554))\r\n    is(\"rtspu://host/path/\", tostring(uri))\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 9,
+    "text": "function M.default_port () return 554 end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 11,
+    "text": "subclass_of",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "TestCase",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "run",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

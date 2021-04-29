@@ -1,0 +1,213 @@
+{
+  "_filename": "Force.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-spore/src/Spore/Middleware/Parameter/Force.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 24
+  }, {
+    "from": 15,
+    "label": "represents",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "provides",
+    "to": 25
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 13
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Force",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function m.new_from_discovery (api, opts)\r\n    opts = opts or {}\r\n    checktype('new_from_discovery', 2, opts, 'table')\r\n    if type(api) == 'string' then\r\n        local content = slurp(api)\r\n        return new_from_lua(convert(decode(content)), opts)\r\n    end\r\n    if type(api) == 'table' then\r\n        local discovery = new_from_lua {\r\n            base_url = 'https://www.googleapis.com/discovery/v1/',\r\n            methods = {\r\n                get = {\r\n                    path = 'apis/:api/:version/rest',\r\n                    method = 'GET',\r\n                    required_params = { 'api', 'version' },\r\n                    expected_status = { 200 },\r\n                },\r\n            },\r\n        }\r\n        discovery:enable 'Format.JSON'\r\n        local r = discovery:get(api)\r\n        return new_from_lua(convert(r.body), opts)\r\n    end\r\n    error(\"bad argument #1 to new_from_discovery (string or table expected, got \"\r\n          .. type(api) .. \")\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function m.generate_nonce ()\r\n    return format('%08x', time())\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function m.generate_timestamp ()\r\n    return tostring(time())\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function m.generate_nonce ()\r\n    return digest('sha1', tostring(random()) .. 'random' .. tostring(time()), 'keyyyy')\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function m.reset ()\r\n    collectgarbage 'collect'\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function m:call (req)\r\n    local params = req.env.spore.params\r\n    for k, v in pairs(self) do\r\n        params[k] = v\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local params = req.env.spore.params",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "for k, v in pairs(self) do\r\n        params[k] = v\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 10,
+    "text": "params[k] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "function m.new (env)\r\n    local obj = {\r\n        env = env,\r\n        redirect = m.redirect,\r\n        headers = {\r\n            ['user-agent'] = env.HTTP_USER_AGENT,\r\n        },\r\n    }\r\n    return setmetatable(obj, {\r\n        __index = m,\r\n    })\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "interface"
+  } ]
+}

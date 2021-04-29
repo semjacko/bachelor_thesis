@@ -1,0 +1,521 @@
+{
+  "_filename": "lom.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luaexpat/src/lxp/lom.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 43
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "assigns",
+    "to": 46
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "assigns",
+    "to": 48
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "assigns",
+    "to": 50
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "assigns",
+    "to": 52
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "assigns",
+    "to": 54
+  }, {
+    "from": 44,
+    "label": "initializes",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "requires",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 56
+  }, {
+    "from": 20,
+    "label": "represents",
+    "to": 57
+  }, {
+    "from": 56,
+    "label": "provides",
+    "to": 57
+  }, {
+    "from": 58,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lom",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function starttag (p, tag, attr)\r\n  local stack = p:getcallbacks().stack\r\n  local newelement = {tag = tag, attr = attr}\r\n  tinsert(stack, newelement)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local stack = p:getcallbacks().stack",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local newelement = {tag = tag, attr = attr}",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "tinsert(stack, newelement)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "local function endtag (p, tag)\r\n  local stack = p:getcallbacks().stack\r\n  local element = tremove(stack)\r\n  assert(element.tag == tag)\r\n  local level = #stack\r\n  tinsert(stack[level], element)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local element = tremove(stack)",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "assert(element.tag == tag)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "local level = #stack",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "tinsert(stack[level], element)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "local function text (p, txt)\r\n  local stack = p:getcallbacks().stack\r\n  local element = stack[#stack]\r\n  local n = #element\r\n  if type(element[n]) == \"string\" then\r\n    element[n] = element[n] .. txt\r\n  else\r\n    tinsert(element, txt)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "local element = stack[#stack]",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "local n = #element",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "if type(element[n]) == \"string\" then\r\n    element[n] = element[n] .. txt\r\n  else\r\n    tinsert(element, txt)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "element[n] = element[n] .. txt",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "tinsert(element, txt)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "local function parse (o)\r\n  local c = { StartElement = starttag,\r\n              EndElement = endtag,\r\n              CharacterData = text,\r\n              _nonstrict = true,\r\n              stack = {{}}\r\n            }\r\n  local p = lxp.new(c)\r\n  local status, err\r\n  if type(o) == \"string\" then\r\n    status, err = p:parse(o)\r\n    if not status then return nil, err end\r\n  else\r\n    for l in pairs(o) do\r\n      status, err = p:parse(l)\r\n      if not status then return nil, err end\r\n    end\r\n  end\r\n  status, err = p:parse()\r\n  if not status then return nil, err end\r\n  p:close()\r\n  return c.stack[1][1]\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "local c = { StartElement = starttag,\r\n              EndElement = endtag,\r\n              CharacterData = text,\r\n              _nonstrict = true,\r\n              stack = {{}}\r\n            }",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "local p = lxp.new(c)",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "local status, err",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "if type(o) == \"string\" then\r\n    status, err = p:parse(o)\r\n    if not status then return nil, err end\r\n  else\r\n    for l in pairs(o) do\r\n      status, err = p:parse(l)\r\n      if not status then return nil, err end\r\n    end\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "status, err = p:parse(o)",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "if not status then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "for l in pairs(o) do\r\n      status, err = p:parse(l)\r\n      if not status then return nil, err end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 28,
+    "text": "status, err = p:parse(l)",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 30,
+    "text": "status, err = p:parse()",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "p:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 35,
+    "text": "lxp",
+    "type": "module"
+  }, {
+    "id": 36,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "tremove",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "tinsert",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

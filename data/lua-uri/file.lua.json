@@ -1,0 +1,849 @@
+{
+  "_filename": "file.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/file.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 73
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 73
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 74
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 74
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 66,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 59
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 64
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 66
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 80
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 81
+  }, {
+    "from": 80,
+    "label": "initializes",
+    "to": 82
+  }, {
+    "from": 80,
+    "label": "initializes",
+    "to": 83
+  }, {
+    "from": 83,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 80,
+    "label": "initializes",
+    "to": 78
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 85
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 86
+  }, {
+    "from": 85,
+    "label": "initializes",
+    "to": 87
+  }, {
+    "from": 87,
+    "label": "assigns",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "assigns",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "assigns",
+    "to": 90
+  }, {
+    "from": 86,
+    "label": "initializes",
+    "to": 91
+  }, {
+    "from": 91,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 86,
+    "label": "initializes",
+    "to": 92
+  }, {
+    "from": 92,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 93
+  }, {
+    "from": 84,
+    "label": "represents",
+    "to": 94
+  }, {
+    "from": 93,
+    "label": "provides",
+    "to": 94
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "file",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "uri",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function testcase:test_normalize ()\r\n    test_norm(\"file:///foo\", \"file://LocalHost/foo\")\r\n    test_norm(\"file:///\", \"file://localhost/\")\r\n    test_norm(\"file:///\", \"file://localhost\")\r\n    test_norm(\"file:///\", \"file://\")\r\n    test_norm(\"file:///\", \"file:/\")\r\n    test_norm(\"file:///foo\", \"file:/foo\")\r\n    test_norm(\"file://foo/\", \"file://foo\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function testcase:test_invalid ()\r\n    is_bad_uri(\"just scheme\", \"file:\")\r\n    is_bad_uri(\"scheme with relative path\", \"file:foo/bar\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function testcase:test_set_host ()\r\n    local uri = assert(URI:new(\"file:///foo\"))\r\n    is(\"\", uri:host())\r\n    is(\"\", uri:host(\"LocalHost\"))\r\n    is(\"file:///foo\", tostring(uri))\r\n    is(\"\", uri:host(\"host.name\"))\r\n    is(\"file://host.name/foo\", tostring(uri))\r\n    is(\"host.name\", uri:host(\"\"))\r\n    is(\"file:///foo\", tostring(uri))\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function testcase:test_set_path ()\r\n    local uri = assert(URI:new(\"file:///foo\"))\r\n    is(\"/foo\", uri:path())\r\n    is(\"/foo\", uri:path(nil))\r\n    is(\"file:///\", tostring(uri))\r\n    is(\"/\", uri:path(\"\"))\r\n    is(\"file:///\", tostring(uri))\r\n    is(\"/\", uri:path(\"/bar/frob\"))\r\n    is(\"file:///bar/frob\", tostring(uri))\r\n    is(\"/bar/frob\", uri:path(\"/\"))\r\n    is(\"file:///\", tostring(uri))\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function testcase:test_bad_usage ()\r\n    local uri = assert(URI:new(\"file:///foo\"))\r\n    assert_error(\"nil host\", function () uri:host(nil) end)\r\n    assert_error(\"set userinfo\", function () uri:userinfo(\"foo\") end)\r\n    assert_error(\"set port\", function () uri:userinfo(23) end)\r\n    assert_error(\"set relative path\", function () uri:userinfo(\"foo/\") end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local function uri_to_fs (os, uristr, expected)\r\n    local uri = assert(URI:new(uristr))\r\n    is(expected, uri:filesystem_path(os))\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local function fs_to_uri (os, path, expected)\r\n    is(expected, tostring(URIFile.make_file_uri(path, os)))\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function testcase:test_uri_to_fs_unix ()\r\n    uri_to_fs(\"unix\", \"file:///\", \"/\")\r\n    uri_to_fs(\"unix\", \"file:///c:\", \"/c:\")\r\n    uri_to_fs(\"unix\", \"file:///C:/\", \"/C:/\")\r\n    uri_to_fs(\"unix\", \"file:///C:/Program%20Files\", \"/C:/Program Files\")\r\n    uri_to_fs(\"unix\", \"file:///C:/Program%20Files/\", \"/C:/Program Files/\")\r\n    uri_to_fs(\"unix\", \"file:///Program%20Files/\", \"/Program Files/\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function testcase:test_uri_to_fs_unix_bad ()\r\n    -- On Unix platforms, there's no equivalent of UNC paths.\r\n    local uri = assert(URI:new(\"file://laptop/My%20Documents/FileSchemeURIs.doc\"))\r\n    assert_error(\"Unix path with host name\",\r\n                 function () uri:filesystem_path(\"unix\") end)\r\n    -- Unix paths can't contain null bytes or encoded slashes.\r\n    uri = assert(URI:new(\"file:///frob/foo%00bar/quux\"))\r\n    assert_error(\"Unix path with null byte\",\r\n                 function () uri:filesystem_path(\"unix\") end)\r\n    uri = assert(URI:new(\"file:///frob/foo%2Fbar/quux\"))\r\n    assert_error(\"Unix path with encoded slash\",\r\n                 function () uri:filesystem_path(\"unix\") end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function testcase:test_fs_to_uri_unix ()\r\n    fs_to_uri(\"unix\", \"/\", \"file:///\")\r\n    fs_to_uri(\"unix\", \"//\", \"file:///\")\r\n    fs_to_uri(\"unix\", \"///\", \"file:///\")\r\n    fs_to_uri(\"unix\", \"/foo/bar\", \"file:///foo/bar\")\r\n    fs_to_uri(\"unix\", \"/foo/bar/\", \"file:///foo/bar/\")\r\n    fs_to_uri(\"unix\", \"//foo///bar//\", \"file:///foo/bar/\")\r\n    fs_to_uri(\"unix\", \"/foo bar/%2F\", \"file:///foo%20bar/%252F\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function testcase:test_fs_to_uri_unix_bad ()\r\n    -- Relative paths can't be converted to URIs, because URIs are inherently\r\n    -- absolute.\r\n    assert_error(\"relative Unix path\",\r\n                 function () FileURI.make_file_uri(\"foo/bar\", \"unix\") end)\r\n    assert_error(\"relative empty Unix path\",\r\n                 function () FileURI.make_file_uri(\"\", \"unix\") end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function testcase:test_uri_to_fs_win32 ()\r\n    uri_to_fs(\"win32\", \"file:///\", \"\\\\\")\r\n    uri_to_fs(\"win32\", \"file:///c:\", \"c:\\\\\")\r\n    uri_to_fs(\"win32\", \"file:///C:/\", \"C:\\\\\")\r\n    uri_to_fs(\"win32\", \"file:///C:/Program%20Files\", \"C:\\\\Program Files\")\r\n    uri_to_fs(\"win32\", \"file:///C:/Program%20Files/\", \"C:\\\\Program Files\\\\\")\r\n    uri_to_fs(\"win32\", \"file:///Program%20Files/\", \"\\\\Program Files\\\\\")\r\n    -- http://blogs.msdn.com/ie/archive/2006/12/06/file-uris-in-windows.aspx\r\n    uri_to_fs(\"win32\", \"file://laptop/My%20Documents/FileSchemeURIs.doc\",\r\n              \"\\\\\\\\laptop\\\\My Documents\\\\FileSchemeURIs.doc\")\r\n    uri_to_fs(\"win32\",\r\n              \"file:///C:/Documents%20and%20Settings/davris/FileSchemeURIs.doc\",\r\n              \"C:\\\\Documents and Settings\\\\davris\\\\FileSchemeURIs.doc\")\r\n    -- For backwards compatibility with deprecated way of indicating drives.\r\n    uri_to_fs(\"win32\", \"file:///c%7C\", \"c:\\\\\")\r\n    uri_to_fs(\"win32\", \"file:///c%7C/\", \"c:\\\\\")\r\n    uri_to_fs(\"win32\", \"file:///C%7C/foo/\", \"C:\\\\foo\\\\\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function testcase:test_fs_to_uri_win32 ()\r\n    fs_to_uri(\"win32\", \"\", \"file:///\")\r\n    fs_to_uri(\"win32\", \"\\\\\", \"file:///\")\r\n    fs_to_uri(\"win32\", \"c:\", \"file:///c:/\")\r\n    fs_to_uri(\"win32\", \"C:\\\\\", \"file:///C:/\")\r\n    fs_to_uri(\"win32\", \"C:/\", \"file:///C:/\")\r\n    fs_to_uri(\"win32\", \"C:\\\\Program Files\", \"file:///C:/Program%20Files\")\r\n    fs_to_uri(\"win32\", \"C:\\\\Program Files\\\\\", \"file:///C:/Program%20Files/\")\r\n    fs_to_uri(\"win32\", \"C:/Program Files/\", \"file:///C:/Program%20Files/\")\r\n    fs_to_uri(\"win32\", \"\\\\Program Files\\\\\", \"file:///Program%20Files/\")\r\n    fs_to_uri(\"win32\", \"\\\\\\\\laptop\\\\My Documents\\\\FileSchemeURIs.doc\",\r\n              \"file://laptop/My%20Documents/FileSchemeURIs.doc\")\r\n    fs_to_uri(\"win32\", \"c:\\\\foo bar\\\\%2F\", \"file:///c:/foo%20bar/%252F\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function testcase:test_convert_on_unknown_os ()\r\n    local uri = assert(URI:new(\"file:///foo\"))\r\n    assert_error(\"filesystem_path, unknown os\",\r\n                 function () uri:filesystem_path(\"NonExistent\") end)\r\n    assert_error(\"make_file_uri, unknown os\",\r\n                 function () URIFile.make_file_uri(\"/foo\", \"NonExistent\") end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function () uri:host(nil) end",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "function () uri:userinfo(\"foo\") end",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "function () uri:userinfo(23) end",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "function () uri:userinfo(\"foo/\") end",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "function () uri:filesystem_path(\"unix\") end",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "function () uri:filesystem_path(\"unix\") end",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "function () uri:filesystem_path(\"unix\") end",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "function () FileURI.make_file_uri(\"foo/bar\", \"unix\") end",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "function () FileURI.make_file_uri(\"\", \"unix\") end",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "function () uri:filesystem_path(\"NonExistent\") end",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "function () URIFile.make_file_uri(\"/foo\", \"NonExistent\") end",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 30,
+    "text": "function M.init (self)\r\n    if self:userinfo() or self:port() then\r\n        return nil, \"usernames and passwords are not allowed in HTTP URIs\"\r\n    end\r\n\r\n    local host = self:host()\r\n    local path = self:path()\r\n    if host then\r\n        if host:lower() == \"localhost\" then self:host(\"\") end\r\n    else\r\n        if not path:find(\"^/\") then\r\n            return nil, \"file URIs must contain a host, even if it's empty\"\r\n        end\r\n        self:host(\"\")\r\n    end\r\n\r\n    if path == \"\" then self:path(\"/\") end\r\n\r\n    return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "if self:userinfo() or self:port() then\r\n        return nil, \"usernames and passwords are not allowed in HTTP URIs\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 33,
+    "text": "local host = self:host()",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "local path = self:path()",
+    "type": "statement:localassign"
+  }, {
+    "id": 35,
+    "text": "if host then\r\n        if host:lower() == \"localhost\" then self:host(\"\") end\r\n    else\r\n        if not path:find(\"^/\") then\r\n            return nil, \"file URIs must contain a host, even if it's empty\"\r\n        end\r\n        self:host(\"\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "if host:lower() == \"localhost\" then self:host(\"\") end",
+    "type": "statement:if"
+  }, {
+    "id": 37,
+    "text": "self:host(\"\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 38,
+    "text": "if not path:find(\"^/\") then\r\n            return nil, \"file URIs must contain a host, even if it's empty\"\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "if path == \"\" then self:path(\"/\") end",
+    "type": "statement:if"
+  }, {
+    "id": 40,
+    "text": "self:path(\"/\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function M.host (self, ...)\r\n    local old = M._SUPER.host(self)\r\n\r\n    if select('#', ...) > 0 then\r\n        local new = ...\r\n        if not new then error(\"file URIs must have an authority part\") end\r\n        if new:lower() == \"localhost\" then new = \"\" end\r\n        M._SUPER.host(self, new)\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "local old = M._SUPER.host(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 44,
+    "text": "if select('#', ...) > 0 then\r\n        local new = ...\r\n        if not new then error(\"file URIs must have an authority part\") end\r\n        if new:lower() == \"localhost\" then new = \"\" end\r\n        M._SUPER.host(self, new)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 45,
+    "text": "local new = ...",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "if not new then error(\"file URIs must have an authority part\") end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "error(\"file URIs must have an authority part\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 48,
+    "text": "if new:lower() == \"localhost\" then new = \"\" end",
+    "type": "statement:if"
+  }, {
+    "id": 49,
+    "text": "new = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 50,
+    "text": "M._SUPER.host(self, new)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "function M.path (self, ...)\r\n    local old = M._SUPER.path(self)\r\n\r\n    if select('#', ...) > 0 then\r\n        local new = ...\r\n        if not new or new == \"\" then new = \"/\" end\r\n        M._SUPER.path(self, new)\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "local old = M._SUPER.path(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 54,
+    "text": "if select('#', ...) > 0 then\r\n        local new = ...\r\n        if not new or new == \"\" then new = \"/\" end\r\n        M._SUPER.path(self, new)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 55,
+    "text": "if not new or new == \"\" then new = \"/\" end",
+    "type": "statement:if"
+  }, {
+    "id": 56,
+    "text": "new = \"/\"",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "M._SUPER.path(self, new)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 59,
+    "text": "local function _os_implementation (os)\r\n    local FileImpl = Util.attempt_require(\"uri.file.\" .. os:lower())\r\n    if not FileImpl then\r\n        error(\"no file URI implementation for operating system \" .. os)\r\n    end\r\n    return FileImpl\r\nend",
+    "type": "function"
+  }, {
+    "id": 60,
+    "text": "local FileImpl = Util.attempt_require(\"uri.file.\" .. os:lower())",
+    "type": "statement:localassign"
+  }, {
+    "id": 61,
+    "text": "if not FileImpl then\r\n        error(\"no file URI implementation for operating system \" .. os)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 62,
+    "text": "error(\"no file URI implementation for operating system \" .. os)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 64,
+    "text": "function M.filesystem_path (self, os)\r\n    return _os_implementation(os).filesystem_path(self)\r\nend",
+    "type": "function"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 66,
+    "text": "function M.make_file_uri (path, os)\r\n    return _os_implementation(os).make_file_uri(path)\r\nend",
+    "type": "function"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 68,
+    "text": "subclass_of",
+    "type": "global function"
+  }, {
+    "id": 69,
+    "text": "uri_part_not_allowed",
+    "type": "global function"
+  }, {
+    "id": 70,
+    "text": "attempt_require",
+    "type": "global function"
+  }, {
+    "id": 71,
+    "text": "M._SUPER.path",
+    "type": "global function"
+  }, {
+    "id": 72,
+    "text": "TestCase",
+    "type": "global function"
+  }, {
+    "id": 73,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 74,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 75,
+    "text": "M._SUPER.host",
+    "type": "global function"
+  }, {
+    "id": 76,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 77,
+    "text": "run",
+    "type": "global function"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 90,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "interface"
+  } ]
+}

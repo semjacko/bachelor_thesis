@@ -1,0 +1,673 @@
+{
+  "_filename": "infoflow.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luametrics/src/metrics/captures/infoflow.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 50
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 51
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 62
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 63
+  }, {
+    "from": 62,
+    "label": "initializes",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "assigns",
+    "to": 65
+  }, {
+    "from": 62,
+    "label": "initializes",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "assigns",
+    "to": 67
+  }, {
+    "from": 62,
+    "label": "initializes",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "assigns",
+    "to": 69
+  }, {
+    "from": 62,
+    "label": "initializes",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "assigns",
+    "to": 71
+  }, {
+    "from": 63,
+    "label": "initializes",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 73,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "infoflow",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "utils",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function do_information_flow(funcAST)\r\n\r\n\tlocal in_counter = 0\r\n\tlocal return_counter = 0\r\n\tlocal block = utils.getBlockFromFunction(funcAST)\r\n\t\r\n\tif (block) then -- should always be true but to be sure\r\n\t\t\r\n\t\tlocal usedNodes = {}\r\n\t\t\r\n\t\t-- get number of expressions in return statement\r\n\t\tlocal lastStat = utils.searchForTagItem('LastStat', block.data[1].data)\r\n\t\tif (lastStat) then\r\n\t\t\tlocal explist = utils.searchForTagItem('ExpList', lastStat.data)\r\n\t\t\tif (explist) then -- moze byt len obycajny return bez argumentov\r\n\t\t\t\tlocal expressions = utils.getExpsFromExpsList(explist)\r\n\t\t\t\treturn_counter = #expressions\t\t\t\r\n\t\t\t\tfor k,v in pairs(expressions) do table.insert(usedNodes, v) end\r\n\t\t\tend\r\n\t\tend\r\n\t\t\r\n\t\tlocal parListNames = {}\r\n\t\t\r\n\t\t-- search for function's parameters\r\n\t\tlocal parlist = utils.searchForTagItem_recursive('ParList', funcAST, 2)\r\n\t\tif (parlist) then\r\n\t\t\tlocal nameList = parlist.data[1] -- can be a 'symbol' node (...)\r\n\t\t\tif (nameList.tag == 'NameList') then\r\n\t\t\t\tlocal names = utils.getNamesFromNameList(nameList)\r\n\t\t\t\tin_counter = #names\r\n\t\t\t\tfor k,v in pairs(names) do \r\n\t\t\t\t\tparListNames[v.text] = v\r\n\t\t\t\t\ttable.insert(usedNodes, v) \r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\r\n\t\tif (funcAST.metrics == nil) then funcAST.metrics = {} end\r\n\t\t\r\n\t\tlocal v_in, v_out = {}, {}\r\n\t\t\r\n\t\t-- count number of read and written remote variables\r\n\t\tfor name, vars in pairs(block.metrics.blockdata.remotes) do\r\n\t\t\tfor _, node in pairs(vars) do\r\n\t\t\t\tlocal used = false\r\n\t\t\t\tif (node.isRead) and parListNames[node.text] == nil then\r\n\t\t\t\t\tif not used then table.insert(v_in, node) used = true end\r\n\t\t\t\t\ttable.insert(usedNodes, node)\r\n\t\t\t\tend\r\n\t\t\t\tif (node.isWritten) and parListNames[node.text] == nil then\r\n\t\t\t\t\tif not used then table.insert(v_out, node) used = true end\r\n\t\t\t\t\ttable.insert(usedNodes, node)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\t\r\n\t\t-- calculate the metric\r\n\t\tfuncAST.metrics.infoflow = {}\r\n\t\tfuncAST.metrics.infoflow.information_flow = (#v_in * (#v_out + return_counter))^2\r\n\t\tfuncAST.metrics.infoflow.arguments_in =\tin_counter\r\n\t\tfuncAST.metrics.infoflow.arguments_out = return_counter\r\n\t\tfuncAST.metrics.infoflow.interface_complexity = in_counter + return_counter\r\n\t\tfuncAST.metrics.infoflow.used_nodes = usedNodes\t\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local in_counter = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local return_counter = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local block = utils.getBlockFromFunction(funcAST)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if (block) then -- should always be true but to be sure\r\n\t\t\r\n\t\tlocal usedNodes = {}\r\n\t\t\r\n\t\t-- get number of expressions in return statement\r\n\t\tlocal lastStat = utils.searchForTagItem('LastStat', block.data[1].data)\r\n\t\tif (lastStat) then\r\n\t\t\tlocal explist = utils.searchForTagItem('ExpList', lastStat.data)\r\n\t\t\tif (explist) then -- moze byt len obycajny return bez argumentov\r\n\t\t\t\tlocal expressions = utils.getExpsFromExpsList(explist)\r\n\t\t\t\treturn_counter = #expressions\t\t\t\r\n\t\t\t\tfor k,v in pairs(expressions) do table.insert(usedNodes, v) end\r\n\t\t\tend\r\n\t\tend\r\n\t\t\r\n\t\tlocal parListNames = {}\r\n\t\t\r\n\t\t-- search for function's parameters\r\n\t\tlocal parlist = utils.searchForTagItem_recursive('ParList', funcAST, 2)\r\n\t\tif (parlist) then\r\n\t\t\tlocal nameList = parlist.data[1] -- can be a 'symbol' node (...)\r\n\t\t\tif (nameList.tag == 'NameList') then\r\n\t\t\t\tlocal names = utils.getNamesFromNameList(nameList)\r\n\t\t\t\tin_counter = #names\r\n\t\t\t\tfor k,v in pairs(names) do \r\n\t\t\t\t\tparListNames[v.text] = v\r\n\t\t\t\t\ttable.insert(usedNodes, v) \r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\r\n\t\tif (funcAST.metrics == nil) then funcAST.metrics = {} end\r\n\t\t\r\n\t\tlocal v_in, v_out = {}, {}\r\n\t\t\r\n\t\t-- count number of read and written remote variables\r\n\t\tfor name, vars in pairs(block.metrics.blockdata.remotes) do\r\n\t\t\tfor _, node in pairs(vars) do\r\n\t\t\t\tlocal used = false\r\n\t\t\t\tif (node.isRead) and parListNames[node.text] == nil then\r\n\t\t\t\t\tif not used then table.insert(v_in, node) used = true end\r\n\t\t\t\t\ttable.insert(usedNodes, node)\r\n\t\t\t\tend\r\n\t\t\t\tif (node.isWritten) and parListNames[node.text] == nil then\r\n\t\t\t\t\tif not used then table.insert(v_out, node) used = true end\r\n\t\t\t\t\ttable.insert(usedNodes, node)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\t\r\n\t\t-- calculate the metric\r\n\t\tfuncAST.metrics.infoflow = {}\r\n\t\tfuncAST.metrics.infoflow.information_flow = (#v_in * (#v_out + return_counter))^2\r\n\t\tfuncAST.metrics.infoflow.arguments_in =\tin_counter\r\n\t\tfuncAST.metrics.infoflow.arguments_out = return_counter\r\n\t\tfuncAST.metrics.infoflow.interface_complexity = in_counter + return_counter\r\n\t\tfuncAST.metrics.infoflow.used_nodes = usedNodes\t\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "local usedNodes = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "local lastStat = utils.searchForTagItem('LastStat', block.data[1].data)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if (lastStat) then\r\n\t\t\tlocal explist = utils.searchForTagItem('ExpList', lastStat.data)\r\n\t\t\tif (explist) then -- moze byt len obycajny return bez argumentov\r\n\t\t\t\tlocal expressions = utils.getExpsFromExpsList(explist)\r\n\t\t\t\treturn_counter = #expressions\t\t\t\r\n\t\t\t\tfor k,v in pairs(expressions) do table.insert(usedNodes, v) end\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "local explist = utils.searchForTagItem('ExpList', lastStat.data)",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "if (explist) then -- moze byt len obycajny return bez argumentov\r\n\t\t\t\tlocal expressions = utils.getExpsFromExpsList(explist)\r\n\t\t\t\treturn_counter = #expressions\t\t\t\r\n\t\t\t\tfor k,v in pairs(expressions) do table.insert(usedNodes, v) end\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "local expressions = utils.getExpsFromExpsList(explist)",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "return_counter = #expressions",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "for k,v in pairs(expressions) do table.insert(usedNodes, v) end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 16,
+    "text": "table.insert(usedNodes, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "local parListNames = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "local parlist = utils.searchForTagItem_recursive('ParList', funcAST, 2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "if (parlist) then\r\n\t\t\tlocal nameList = parlist.data[1] -- can be a 'symbol' node (...)\r\n\t\t\tif (nameList.tag == 'NameList') then\r\n\t\t\t\tlocal names = utils.getNamesFromNameList(nameList)\r\n\t\t\t\tin_counter = #names\r\n\t\t\t\tfor k,v in pairs(names) do \r\n\t\t\t\t\tparListNames[v.text] = v\r\n\t\t\t\t\ttable.insert(usedNodes, v) \r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "local nameList = parlist.data[1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "if (nameList.tag == 'NameList') then\r\n\t\t\t\tlocal names = utils.getNamesFromNameList(nameList)\r\n\t\t\t\tin_counter = #names\r\n\t\t\t\tfor k,v in pairs(names) do \r\n\t\t\t\t\tparListNames[v.text] = v\r\n\t\t\t\t\ttable.insert(usedNodes, v) \r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "local names = utils.getNamesFromNameList(nameList)",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "in_counter = #names",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "for k,v in pairs(names) do \r\n\t\t\t\t\tparListNames[v.text] = v\r\n\t\t\t\t\ttable.insert(usedNodes, v) \r\n\t\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 25,
+    "text": "parListNames[v.text] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "if (funcAST.metrics == nil) then funcAST.metrics = {} end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "funcAST.metrics = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "local v_in, v_out = {}, {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 29,
+    "text": "for name, vars in pairs(block.metrics.blockdata.remotes) do\r\n\t\t\tfor _, node in pairs(vars) do\r\n\t\t\t\tlocal used = false\r\n\t\t\t\tif (node.isRead) and parListNames[node.text] == nil then\r\n\t\t\t\t\tif not used then table.insert(v_in, node) used = true end\r\n\t\t\t\t\ttable.insert(usedNodes, node)\r\n\t\t\t\tend\r\n\t\t\t\tif (node.isWritten) and parListNames[node.text] == nil then\r\n\t\t\t\t\tif not used then table.insert(v_out, node) used = true end\r\n\t\t\t\t\ttable.insert(usedNodes, node)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 30,
+    "text": "for _, node in pairs(vars) do\r\n\t\t\t\tlocal used = false\r\n\t\t\t\tif (node.isRead) and parListNames[node.text] == nil then\r\n\t\t\t\t\tif not used then table.insert(v_in, node) used = true end\r\n\t\t\t\t\ttable.insert(usedNodes, node)\r\n\t\t\t\tend\r\n\t\t\t\tif (node.isWritten) and parListNames[node.text] == nil then\r\n\t\t\t\t\tif not used then table.insert(v_out, node) used = true end\r\n\t\t\t\t\ttable.insert(usedNodes, node)\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 31,
+    "text": "local used = false",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "if (node.isRead) and parListNames[node.text] == nil then\r\n\t\t\t\t\tif not used then table.insert(v_in, node) used = true end\r\n\t\t\t\t\ttable.insert(usedNodes, node)\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "if not used then table.insert(v_in, node) used = true end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "table.insert(v_in, node)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "used = true",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "table.insert(usedNodes, node)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 37,
+    "text": "if (node.isWritten) and parListNames[node.text] == nil then\r\n\t\t\t\t\tif not used then table.insert(v_out, node) used = true end\r\n\t\t\t\t\ttable.insert(usedNodes, node)\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "if not used then table.insert(v_out, node) used = true end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "table.insert(v_out, node)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "funcAST.metrics.infoflow = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "funcAST.metrics.infoflow.information_flow = (#v_in * (#v_out + return_counter))^2",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "funcAST.metrics.infoflow.arguments_in =\tin_counter",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "funcAST.metrics.infoflow.arguments_out = return_counter",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "funcAST.metrics.infoflow.interface_complexity = in_counter + return_counter",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "funcAST.metrics.infoflow.used_nodes = usedNodes",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 47,
+    "text": "function(data) do_information_flow(data) return data end",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "do_information_flow(data)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 49,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 50,
+    "text": "function(data) do_information_flow(data) return data end",
+    "type": "function"
+  }, {
+    "id": 51,
+    "text": "function(data) do_information_flow(data) return data end",
+    "type": "function"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 53,
+    "text": "function searchForTagItem(tagname, data)\r\n\tfor j,l in pairs(data) do\r\n\t\tif (l.tag == tagname) then\r\n\t\t\treturn l\t\r\n\t\tend\r\n\tend\r\n\treturn nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 54,
+    "text": "function searchForTagItem_recursive(tagname, node, maxdepth)\r\n\tif (node == nil) then return nil end\r\n\tlocal j,l\r\n\tif (maxdepth ~= nil) then maxdepth = maxdepth -1 end\r\n\tfor j,l in pairs(node.data) do\r\n\t\tif (l.tag == tagname) then\r\n\t\t\treturn l\r\n\t\telseif (l.data ~= nil) then\r\n\t\t\tif (maxdepth == nil or maxdepth > 0) then\r\n\t\t\t\tlocal tmp = searchForTagItem_recursive(tagname, l, maxdepth)\r\n\t\t\t\tif (tmp ~= nil) then return tmp end\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\treturn nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "function getNamesFromNameList(nameList)\r\n\tlocal names = {}\r\n\tfor i,j in pairs(nameList.data) do\r\n\t\tif (j.tag == 'Name' or j.tag == 'Var') then\r\n\t\t\ttable.insert(names, j)\r\n\t\tend\r\n\tend\r\n\treturn names\r\nend",
+    "type": "function"
+  }, {
+    "id": 56,
+    "text": "function getExpsFromExpsList(expList)\r\n\tlocal names = {}\r\n\tfor i,j in pairs(expList.data) do\r\n\t\tif (j.tag == 'Exp') then\r\n\t\t\ttable.insert(names, j)\r\n\t\tend\r\n\tend\r\n\treturn names\r\nend",
+    "type": "function"
+  }, {
+    "id": 57,
+    "text": "function getBlockFromFunction(func)\r\n\tlocal block = nil\r\n\tfor k, v in pairs(func.data) do\r\n\t\tif (v.tag == 'FuncBody') then\r\n\t\t\tfor i,j in pairs(v.data) do\r\n\t\t\t\tif (j.tag == 'Block') then\r\n\t\t\t\t\tblock = j\t\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\t\t\r\n\treturn block\r\nend",
+    "type": "function"
+  }, {
+    "id": 58,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

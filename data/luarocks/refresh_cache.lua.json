@@ -1,0 +1,253 @@
+{
+  "_filename": "refresh_cache.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/refresh_cache.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "requires",
+    "to": 19
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 18
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "requires",
+    "to": 20
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "refresh_cache",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function get_upload_server(server)\r\n   if not server then server = cfg.upload_server end\r\n   if not server then\r\n      return nil, \"No server specified and no default configured with upload_server.\"\r\n   end\r\n   return server, cfg.upload_servers and cfg.upload_servers[server]\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function get_server_urls(server, upload_server)\r\n   local download_url = server\r\n   local login_url = nil\r\n   if upload_server then\r\n      if upload_server.rsync then download_url = \"rsync://\"..upload_server.rsync\r\n      elseif upload_server.http then download_url = \"http://\"..upload_server.http\r\n      elseif upload_server.ftp then download_url = \"ftp://\"..upload_server.ftp\r\n      end\r\n      \r\n      if upload_server.ftp then login_url = \"ftp://\"..upload_server.ftp\r\n      elseif upload_server.sftp then login_url = \"sftp://\"..upload_server.sftp\r\n      end\r\n   end\r\n   return download_url, login_url\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function refresh_local_cache(server, url, user, password)\r\n   local local_cache, protocol, server_path, user, password = split_server_url(server, url, user, password)\r\n\r\n   local ok, err = fs.make_dir(cfg.local_cache)\r\n   if not ok then return nil, err end\r\n\r\n   local tmp_cache = false\r\n   if not local_cache then\r\n      local err\r\n      local_cache, err = fs.make_temp_dir(\"local_cache\")\r\n      tmp_cache = true\r\n   end\r\n   local ok, err = fs.make_dir(local_cache)\r\n   if not ok then\r\n      return nil, \"Failed creating local cache dir: \"..err\r\n   end\r\n   fs.change_dir(local_cache)\r\n   if not ok then return nil, err end\r\n   util.printout(\"Refreshing cache \"..local_cache..\"...\")\r\n\r\n   -- TODO abstract away explicit 'wget' call\r\n   local ok = false\r\n   if protocol == \"rsync\" then\r\n      local srv, path = server_path:match(\"([^/]+)(/.+)\")\r\n      ok = fs.execute(cfg.variables.RSYNC..\" \"..cfg.variables.RSYNCFLAGS..\" -e ssh \"..user..\"@\"..srv..\":\"..path..\"/ \"..local_cache..\"/\")\r\n   else \r\n      local login_info = \"\"\r\n      if user then login_info = \" --user=\"..user end\r\n      if password then login_info = login_info .. \" --password=\"..password end\r\n      ok = fs.execute(cfg.variables.WGET..\" --no-cache -q -m -np -nd \"..protocol..\"://\"..server_path..login_info)\r\n   end\r\n   if not ok then\r\n      return nil, \"Failed downloading cache.\"\r\n   end\r\n   return local_cache, protocol, server_path, user, password\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function run(...)\r\n   local flags = util.parse_flags(...)\r\n   local server, upload_server = cache.get_upload_server(flags[\"server\"])\r\n   if not server then return nil, upload_server end\r\n   local download_url = cache.get_server_urls(server, upload_server)\r\n   \r\n   local ok, err = cache.refresh_local_cache(server, download_url, cfg.upload_user, cfg.upload_password)\r\n   if not ok then\r\n      return nil, err\r\n   else\r\n      return true\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "local flags = util.parse_flags(...)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local server, upload_server = cache.get_upload_server(flags[\"server\"])",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "if not server then return nil, upload_server end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "local download_url = cache.get_server_urls(server, upload_server)",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local ok, err = cache.refresh_local_cache(server, download_url, cfg.upload_user, cfg.upload_password)",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "if not ok then\r\n      return nil, err\r\n   else\r\n      return true\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "function parse_flags(...)\r\n   local args = {...}\r\n   local flags = {}\r\n   for i = #args, 1, -1 do\r\n      local flag = args[i]:match(\"^%-%-(.*)\")\r\n      if flag then\r\n         local var,val = flag:match(\"([a-z_%-]*)=(.*)\")\r\n         if val then\r\n            flags[var] = val\r\n         else\r\n            flags[flag] = true\r\n         end\r\n         table.remove(args, i)\r\n      end\r\n   end\r\n   return flags, unpack(args)\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "cfg)",
+    "type": "module"
+  }, {
+    "id": 19,
+    "text": "util)",
+    "type": "module"
+  }, {
+    "id": 20,
+    "text": "cache)",
+    "type": "module"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,397 @@
+{
+  "_filename": "literate.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luacomments/src/comments/literate.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "requires",
+    "to": 40
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "literate",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function parse(text)\r\n\r\n  if(string.find(text,\"%s--%[=*%[[^#]\"))then\r\n    text = re.gsub(text,\" {[^%nl]} %nl {[^%nl]} \",\"%1 %2\")        -- nahradit jeden znak newline s medzerou\r\n    text = re.gsub(text,\"%nl[%nl \\t]+\",\"\\n\")                      -- nahradit za sebou iduce znaky newline  jednym newline-om\r\n                                                                  --? doplnit aj tabulatory???\r\n    text = re.gsub(text,\"[ \\t]+\",\" \")                             -- nahradit lubovolny pocet za sebou iducich medzier jednou medzerou\r\n  elseif(string.find(text,\"%s--%[=*%[[#]\"))then\r\n      text = re.gsub(text,\"[%s]+{'--]]'}\",\"%1\")\r\n  end\r\n\r\n  local x = re.compile( [==[\r\n  start     <- (simpleline/markdown/literate)\r\n  simpleline<-(s'--_'s{:text:.+:}{:tag:\"\"->\"comment\":}{:type:\"\"->\"lp\":} ) ->{}\r\n  markdown  <- (s beginmark{:tag:\"\"->\"comment\":}{:type:\"\"->\"markdown\":} [^%nl]* [%nl]* {:text:between:}s close s) ->{}\r\n  literate  <-(s begin{:tag:\"\"->\"comment\":}{:type:\"\"->\"lp\":} s{:text:between:}s close s) ->{}\r\n  begin     <-('--[' {:trail:'='*:} '[')\r\n  beginmark <-('--[' {:trail:'='*:} '[#')\r\n  between   <- (!'%nl'!close.)+\r\n  close     <- ('--]' =trail ']')\r\n  s         <- (%s)*\r\n  ]==]\r\n  )\r\n  x=x:match(text)\r\n  if(x)then\r\n--^ `delete global padding`\r\n    if(x.type==\"markdown\")then\r\n      local text=\"\"\r\n      local mini=\"\"\r\n      local first=1\r\n      local act\r\n      for r in string.gmatch(x.text,\"[^\\n]+\")do\r\n        act=r:match(\"^%s*\")\r\n        if(act)then\r\n          if(first==1)then\r\n            mini=act\r\n            first=0\r\n          elseif(string.len(mini) > string.len(act))then\r\n            mini=act\r\n          end\r\n        end\r\n      end\r\n      for r in string.gmatch(x.text,\"[^\\n]*\")do\r\n        local afterdelete =r:gsub(\"^\"..mini,\"\",1) \r\n        if(afterdelete:sub(-1) == \"\")then\r\n          text=text .. \"\\n\"\r\n        else\r\n          text=text .. r:gsub(\"^\"..mini,\"\",1)\r\n        end\r\n      end\r\n      x.text=text\r\n    end\r\n--v    \r\n    x.trail=nil\r\n    x.style=\"literate\"\r\n    return x\r\n  else\r\n    return nil,\"Error: Nothing parsed!\"\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "if(string.find(text,\"%s--%[=*%[[^#]\"))then\r\n    text = re.gsub(text,\" {[^%nl]} %nl {[^%nl]} \",\"%1 %2\")        -- nahradit jeden znak newline s medzerou\r\n    text = re.gsub(text,\"%nl[%nl \\t]+\",\"\\n\")                      -- nahradit za sebou iduce znaky newline  jednym newline-om\r\n                                                                  --? doplnit aj tabulatory???\r\n    text = re.gsub(text,\"[ \\t]+\",\" \")                             -- nahradit lubovolny pocet za sebou iducich medzier jednou medzerou\r\n  elseif(string.find(text,\"%s--%[=*%[[#]\"))then\r\n      text = re.gsub(text,\"[%s]+{'--]]'}\",\"%1\")\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 4,
+    "text": "text = re.gsub(text,\" {[^%nl]} %nl {[^%nl]} \",\"%1 %2\")",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "text = re.gsub(text,\"%nl[%nl \\t]+\",\"\\n\")",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "text = re.gsub(text,\"[ \\t]+\",\" \")",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "text = re.gsub(text,\"[%s]+{'--]]'}\",\"%1\")",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "local x = re.compile( [==[\r\n  start     <- (simpleline/markdown/literate)\r\n  simpleline<-(s'--_'s{:text:.+:}{:tag:\"\"->\"comment\":}{:type:\"\"->\"lp\":} ) ->{}\r\n  markdown  <- (s beginmark{:tag:\"\"->\"comment\":}{:type:\"\"->\"markdown\":} [^%nl]* [%nl]* {:text:between:}s close s) ->{}\r\n  literate  <-(s begin{:tag:\"\"->\"comment\":}{:type:\"\"->\"lp\":} s{:text:between:}s close s) ->{}\r\n  begin     <-('--[' {:trail:'='*:} '[')\r\n  beginmark <-('--[' {:trail:'='*:} '[#')\r\n  between   <- (!'%nl'!close.)+\r\n  close     <- ('--]' =trail ']')\r\n  s         <- (%s)*\r\n  ]==]\r\n  )",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "x=x:match(text)",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "if(x)then\r\n--^ `delete global padding`\r\n    if(x.type==\"markdown\")then\r\n      local text=\"\"\r\n      local mini=\"\"\r\n      local first=1\r\n      local act\r\n      for r in string.gmatch(x.text,\"[^\\n]+\")do\r\n        act=r:match(\"^%s*\")\r\n        if(act)then\r\n          if(first==1)then\r\n            mini=act\r\n            first=0\r\n          elseif(string.len(mini) > string.len(act))then\r\n            mini=act\r\n          end\r\n        end\r\n      end\r\n      for r in string.gmatch(x.text,\"[^\\n]*\")do\r\n        local afterdelete =r:gsub(\"^\"..mini,\"\",1) \r\n        if(afterdelete:sub(-1) == \"\")then\r\n          text=text .. \"\\n\"\r\n        else\r\n          text=text .. r:gsub(\"^\"..mini,\"\",1)\r\n        end\r\n      end\r\n      x.text=text\r\n    end\r\n--v    \r\n    x.trail=nil\r\n    x.style=\"literate\"\r\n    return x\r\n  else\r\n    return nil,\"Error: Nothing parsed!\"\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "if(x.type==\"markdown\")then\r\n      local text=\"\"\r\n      local mini=\"\"\r\n      local first=1\r\n      local act\r\n      for r in string.gmatch(x.text,\"[^\\n]+\")do\r\n        act=r:match(\"^%s*\")\r\n        if(act)then\r\n          if(first==1)then\r\n            mini=act\r\n            first=0\r\n          elseif(string.len(mini) > string.len(act))then\r\n            mini=act\r\n          end\r\n        end\r\n      end\r\n      for r in string.gmatch(x.text,\"[^\\n]*\")do\r\n        local afterdelete =r:gsub(\"^\"..mini,\"\",1) \r\n        if(afterdelete:sub(-1) == \"\")then\r\n          text=text .. \"\\n\"\r\n        else\r\n          text=text .. r:gsub(\"^\"..mini,\"\",1)\r\n        end\r\n      end\r\n      x.text=text\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "local text=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local mini=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local first=1",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "local act",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "for r in string.gmatch(x.text,\"[^\\n]+\")do\r\n        act=r:match(\"^%s*\")\r\n        if(act)then\r\n          if(first==1)then\r\n            mini=act\r\n            first=0\r\n          elseif(string.len(mini) > string.len(act))then\r\n            mini=act\r\n          end\r\n        end\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 17,
+    "text": "act=r:match(\"^%s*\")",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "if(act)then\r\n          if(first==1)then\r\n            mini=act\r\n            first=0\r\n          elseif(string.len(mini) > string.len(act))then\r\n            mini=act\r\n          end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "if(first==1)then\r\n            mini=act\r\n            first=0\r\n          elseif(string.len(mini) > string.len(act))then\r\n            mini=act\r\n          end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "mini=act",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "first=0",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "for r in string.gmatch(x.text,\"[^\\n]*\")do\r\n        local afterdelete =r:gsub(\"^\"..mini,\"\",1) \r\n        if(afterdelete:sub(-1) == \"\")then\r\n          text=text .. \"\\n\"\r\n        else\r\n          text=text .. r:gsub(\"^\"..mini,\"\",1)\r\n        end\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 23,
+    "text": "local afterdelete =r:gsub(\"^\"..mini,\"\",1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "if(afterdelete:sub(-1) == \"\")then\r\n          text=text .. \"\\n\"\r\n        else\r\n          text=text .. r:gsub(\"^\"..mini,\"\",1)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "text=text .. \"\\n\"",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "text=text .. r:gsub(\"^\"..mini,\"\",1)",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "x.text=text",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "x.trail=nil",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "x.style=\"literate\"",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 33,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "compile",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "gmatch",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "(re)",
+    "type": "module"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

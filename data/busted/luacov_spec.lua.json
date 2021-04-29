@@ -1,0 +1,69 @@
+{
+  "_filename": "luacov_spec.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/modules/luacov_spec.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "initializes",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "luacov",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "luacov_spec",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

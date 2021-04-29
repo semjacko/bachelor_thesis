@@ -1,0 +1,105 @@
+{
+  "_filename": "hello.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/qtlua/examples/lua/hello/hello.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "initializes",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "assigns",
+    "to": 11
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "hello",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function ()\r\n\t\tui.lineEdit:setText(\"hello world\");\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "ui.lineEdit:setText(\"hello world\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "load_ui",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "connect",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

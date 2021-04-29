@@ -1,0 +1,365 @@
+{
+  "_filename": "win32.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/file/win32.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 34
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "assigns",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "assigns",
+    "to": 39
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 42
+  }, {
+    "from": 33,
+    "label": "represents",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "provides",
+    "to": 43
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "win32",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "uri",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function M.filesystem_path (uri)\r\n    local host = uri:host()\r\n    local path = Util.uri_decode(uri:path())\r\n    if host ~= \"\" then path = \"//\" .. host .. path end\r\n    if path:find(\"^/[A-Za-z]|/\") or path:find(\"^/[A-Za-z]|$\") then\r\n        path = path:gsub(\"|\", \":\", 1)\r\n    end\r\n    if path:find(\"^/[A-Za-z]:/\") then\r\n        path = path:sub(2)\r\n    elseif path:find(\"^/[A-Za-z]:$\") then\r\n        path = path:sub(2) .. \"/\"\r\n    end\r\n    path = path:gsub(\"/\", \"\\\\\")\r\n    return path\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local host = uri:host()",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local path = Util.uri_decode(uri:path())",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if host ~= \"\" then path = \"//\" .. host .. path end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "path = \"//\" .. host .. path",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "if path:find(\"^/[A-Za-z]|/\") or path:find(\"^/[A-Za-z]|$\") then\r\n        path = path:gsub(\"|\", \":\", 1)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "path = path:gsub(\"|\", \":\", 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "if path:find(\"^/[A-Za-z]:/\") then\r\n        path = path:sub(2)\r\n    elseif path:find(\"^/[A-Za-z]:$\") then\r\n        path = path:sub(2) .. \"/\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "path = path:sub(2)",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "path = path:sub(2) .. \"/\"",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "path = path:gsub(\"/\", \"\\\\\")",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function M.make_file_uri (path)\r\n    if path:find(\"^[A-Za-z]:$\") then path = path .. \"\\\\\" end\r\n    local _, _, host, hostpath = path:find(\"^\\\\\\\\([A-Za-z.]+)\\\\(.*)$\")\r\n    host = host or \"\"\r\n    hostpath = hostpath or path\r\n    hostpath = hostpath:gsub(\"\\\\\", \"/\")\r\n                       :gsub(\"//+\", \"/\")\r\n    hostpath = Util.uri_encode(hostpath, \"^A-Za-z0-9%-._~!$&'()*+,;=:@/\")\r\n    if not hostpath:find(\"^/\") then hostpath = \"/\" .. hostpath end\r\n    return assert(URI:new(\"file://\" .. host .. hostpath))\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "if path:find(\"^[A-Za-z]:$\") then path = path .. \"\\\\\" end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "path = path .. \"\\\\\"",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "local _, _, host, hostpath = path:find(\"^\\\\\\\\([A-Za-z.]+)\\\\(.*)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "host = host or \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "hostpath = hostpath or path",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "hostpath = hostpath:gsub(\"\\\\\", \"/\")\r\n                       :gsub(\"//+\", \"/\")",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "hostpath = Util.uri_encode(hostpath, \"^A-Za-z0-9%-._~!$&'()*+,;=:@/\")",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "if not hostpath:find(\"^/\") then hostpath = \"/\" .. hostpath end",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "hostpath = \"/\" .. hostpath",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 29,
+    "text": "uri_decode",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "uri_encode",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "interface"
+  } ]
+}

@@ -1,0 +1,189 @@
+{
+  "_filename": "test-uninterrupted.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/winapi/examples/test-uninterrupted.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 17
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test-uninterrupted",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function protected(val)\r\n  print(val)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "print(val)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function()\r\n  print 'bonzo'\r\n  l = l + 1\r\n  --if l > 10 then os.exit() end\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "print 'bonzo'",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "l = l + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function()\r\n  print 'woo'\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "print 'woo'",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "make_timer",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "sleep",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

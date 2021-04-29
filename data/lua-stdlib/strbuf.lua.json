@@ -1,0 +1,285 @@
+{
+  "_filename": "strbuf.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-stdlib/src/strbuf.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "assigns",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "assigns",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 18
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "strbuf",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function version_to_list (v)\r\n    return list.new (string.split (v, \"%.\"))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function _G.render (x, open, close, elem, pair, sep, roots)\r\n  local function stop_roots (x)\r\n    return roots[x] or render (x, open, close, elem, pair, sep, table.clone (roots))\r\n  end\r\n  roots = roots or {}\r\n  if type (x) ~= \"table\" or metamethod (x, \"__tostring\") then\r\n    return elem (x)\r\n  else\r\n    local s = strbuf.new ()\r\n    s = s .. open (x)\r\n    roots[x] = elem (x)\r\n    local i, v = nil, nil\r\n    for j, w in pairs (x) do\r\n      s = s .. sep (x, i, v, j, w) .. pair (x, j, w, stop_roots (j), stop_roots (w))\r\n      i, v = j, w\r\n    end\r\n    s = s .. sep(x, i, v, nil, nil) .. close (x)\r\n    return s:tostring ()\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function (t, k)\r\n  local path = io.catfile (getmetatable (t).directory, k)\r\n  local attrs = lfs.attributes (path)\r\n  if attrs then\r\n    if attrs.mode == \"file\" then\r\n      return io.slurp (path)\r\n    elseif attrs.mode == \"directory\" then\r\n      return new (path)\r\n    end\r\n  end\r\n  return attrs\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function (t, k, v)\r\n  local ty = type (v)\r\n  if ty == \"thread\" or ty == \"function\" or ty == \"userdata\" then\r\n    error (\"cannot persist a \" .. ty .. \"\")\r\n  elseif type (k) ~= \"string\" then\r\n    error (\"keys of persistent tables must be of type string\")\r\n  else\r\n    k = string.gsub (k, package.dirsep, \"_\")\r\n    local path = io.catfile (getmetatable (t).directory, k)\r\n    local vm = getmetatable (v)\r\n    if v == nil then\r\n      os.remove (path)\r\n    elseif type (v) ~= \"table\" then\r\n      local h = io.open (path, \"w\")\r\n      h:write (tostring (v))\r\n      h:close ()\r\n    elseif type (vm) == \"table\" and vm.metatable == metatable then\r\n      -- To match Lua semantics we'd hardlink, but that's not allowed for directories\r\n      local ok, errmsg = posix.link (vm.directory, path, true)\r\n    else\r\n      local ok, errmsg = lfs.mkdir (path)\r\n      if not ok then\r\n        error (errmsg)\r\n      end\r\n      new (path, v)\r\n    end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function (t)\r\n  local _, dir = lfs.dir (getmetatable (t).directory)\r\n  return function (dir)\r\n           local f = fsnext (dir)\r\n           if f then\r\n             return f, t[f]\r\n           end\r\n         end,\r\n  dir\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function (t)\r\n  local _, dir = lfs.dir (getmetatable (t).directory)\r\n  return function (dir, i)\r\n           local f = fsnext (dir)\r\n           if f then\r\n             return i + 1, f\r\n           end\r\n         end,\r\n  dir, 0\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function new ()\r\n  return setmetatable ({}, metatable)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function concat (b, s)\r\n  table.insert (b, s)\r\n  return b\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "table.insert (b, s)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function tostring (b)\r\n  return table.concat (b)\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 17,
+    "text": "function metatable.__index (tr, i)\r\n  -- FIXME: the following doesn't treat list keys correctly\r\n  --        e.g. tr[{{1, 2}, {3, 4}}], maybe flatten first?\r\n  if type (i) == \"table\" and #i > 0 then\r\n    return list.foldl (op[\"[]\"], tr, i)\r\n  else\r\n    return rawget (tr, i)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function metatable.__newindex (tr, i, v)\r\n  if type (i) == \"table\" then\r\n    for n = 1, #i - 1 do\r\n      if getmetatable (tr[i[n]]) ~= metatable then\r\n        rawset (tr, i[n], tree.new ())\r\n      end\r\n      tr = tr[i[n]]\r\n    end\r\n    rawset (tr, i[#i], v)\r\n  else\r\n    rawset (tr, i, v)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

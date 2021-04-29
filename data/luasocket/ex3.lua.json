@@ -1,0 +1,257 @@
+{
+  "_filename": "ex3.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luasocket/gem/ex3.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 21,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 22,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 23,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 24,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 25,
+    "label": "contains",
+    "to": 7
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ex3",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function chainpair(f1, f2)\r\n  return function(chunk)\r\n    local ret = f2(f1(chunk))\r\n    if chunk then return ret\r\n    else return (ret or \"\") .. (f2() or \"\") end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "local ret = f2(f1(chunk))",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if chunk then return ret\r\n    else return (ret or \"\") .. (f2() or \"\") end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function filter.chain(...)\r\n  local f = select(1, ...) \r\n  for i = 2, select('#', ...) do\r\n    f = chainpair(f, select(i, ...))\r\n  end\r\n  return f\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local f = select(1, ...)",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "for i = 2, select('#', ...) do\r\n    f = chainpair(f, select(i, ...))\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 10,
+    "text": "f = chainpair(f, select(i, ...))",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function(chunk)\r\n    local ret = f2(f1(chunk))\r\n    if chunk then return ret\r\n    else return (ret or \"\") .. (f2() or \"\") end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "f1",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "f2",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "local variable"
+  } ]
+}

@@ -1,0 +1,249 @@
+{
+  "_filename": "json.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/busted/busted/outputHandlers/json.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 16
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "provides",
+    "to": 27
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "json",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "busted",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function()\r\n    print(json.encode({\r\n      pendings = handler.pendings,\r\n      successes = handler.successes,\r\n      failures = handler.failures,\r\n      errors = handler.errors,\r\n      duration = handler.getDuration()\r\n    }))\r\n\r\n    return nil, true\r\n  end",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "print(json.encode({\r\n      pendings = handler.pendings,\r\n      successes = handler.successes,\r\n      failures = handler.failures,\r\n      errors = handler.errors,\r\n      duration = handler.getDuration()\r\n    }))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function(options)\r\n  local busted = require 'busted'\r\n  local handler = require 'busted.outputHandlers.base'()\r\n\r\n  handler.suiteEnd = function()\r\n    print(json.encode({\r\n      pendings = handler.pendings,\r\n      successes = handler.successes,\r\n      failures = handler.failures,\r\n      errors = handler.errors,\r\n      duration = handler.getDuration()\r\n    }))\r\n\r\n    return nil, true\r\n  end\r\n\r\n  busted.subscribe({ 'suite', 'end' }, handler.suiteEnd)\r\n\r\n  return handler\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local busted = require 'busted'",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "local handler = require 'busted.outputHandlers.base'()",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "handler.suiteEnd = function()\r\n    print(json.encode({\r\n      pendings = handler.pendings,\r\n      successes = handler.successes,\r\n      failures = handler.failures,\r\n      errors = handler.errors,\r\n      duration = handler.getDuration()\r\n    }))\r\n\r\n    return nil, true\r\n  end",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "busted.subscribe({ 'suite', 'end' }, handler.suiteEnd)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "getDuration",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "dkjson",
+    "type": "module"
+  }, {
+    "id": 17,
+    "text": "encode",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "subscribe",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "interface"
+  } ]
+}

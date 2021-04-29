@@ -1,0 +1,197 @@
+{
+  "_filename": "ex2.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luasocket/gem/ex2.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 16,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 17,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 19,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ex2",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function filter.cycle(lowlevel, context, extra)\r\n  return function(chunk)\r\n    local ret\r\n    ret, context = lowlevel(context, chunk, extra)\r\n    return ret\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "local ret",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "ret, context = lowlevel(context, chunk, extra)",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function normalize(marker)\r\n  return filter.cycle(eol, 0, marker)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function(chunk)\r\n    local ret\r\n    ret, context = lowlevel(context, chunk, extra)\r\n    return ret\r\n  end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 12,
+    "text": "lowlevel",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  } ]
+}

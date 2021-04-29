@@ -1,0 +1,569 @@
+{
+  "_filename": "ftp.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/ftp.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 49
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 49,
+    "label": "initializes",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "initializes",
+    "to": 52
+  }, {
+    "from": 50,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 54
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 55
+  }, {
+    "from": 54,
+    "label": "initializes",
+    "to": 56
+  }, {
+    "from": 56,
+    "label": "assigns",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "assigns",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "assigns",
+    "to": 59
+  }, {
+    "from": 55,
+    "label": "initializes",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 55,
+    "label": "initializes",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 62
+  }, {
+    "from": 53,
+    "label": "represents",
+    "to": 63
+  }, {
+    "from": 62,
+    "label": "provides",
+    "to": 63
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ftp",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "_login",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function testcase:test_ftp ()\r\n    local uri = assert(URI:new(\"ftp://ftp.example.com/path\"))\r\n    is(\"ftp\", uri:scheme())\r\n    is(\"ftp.example.com\", uri:host())\r\n    is(21, uri:port())\r\n    is(nil, uri:userinfo())\r\n    is(nil, uri:username())\r\n    is(nil, uri:password())\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function testcase:test_ftp_typecode ()\r\n    local uri = assert(URI:new(\"ftp://host/path\"))\r\n    is(nil, uri:ftp_typecode())\r\n    is(nil, uri:ftp_typecode(\"d\"))\r\n    is(\"/path;type=d\", uri:path())\r\n    is(\"ftp://host/path;type=d\", tostring(uri))\r\n    is(\"d\", uri:ftp_typecode(\"a\"))\r\n    is(\"/path;type=a\", uri:path())\r\n    is(\"ftp://host/path;type=a\", tostring(uri))\r\n    is(\"a\", uri:ftp_typecode(\"\"))\r\n    is(\"/path\", uri:path())\r\n    is(\"ftp://host/path\", tostring(uri))\r\n\r\n    local uri = assert(URI:new(\"ftp://host/path;type=xyzzy\"))\r\n    is(\"/path;type=xyzzy\", uri:path())\r\n    is(\"ftp://host/path;type=xyzzy\", tostring(uri))\r\n    is(\"xyzzy\", uri:ftp_typecode())\r\n    is(\"xyzzy\", uri:ftp_typecode(nil))\r\n    is(nil, uri:ftp_typecode())\r\n    is(\"/path\", uri:path())\r\n    is(\"ftp://host/path\", tostring(uri))\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function testcase:test_normalize_path ()\r\n    local uri = assert(URI:new(\"ftp://host\"))\r\n    is(\"ftp://host/\", tostring(uri))\r\n    is(\"/\", uri:path(\"/foo\"))\r\n    is(\"/foo\", uri:path(\"\"))\r\n    is(\"/\", uri:path(\"/foo\"))\r\n    is(\"/foo\", uri:path(nil))\r\n    is(\"/\", uri:path())\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function testcase:test_bad_host ()\r\n    is_bad_uri(\"missing authority, just scheme\", \"ftp:\")\r\n    is_bad_uri(\"missing authority, just scheme and path\", \"ftp:/foo\")\r\n    is_bad_uri(\"empty host\", \"ftp:///foo\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 9,
+    "text": "function M.default_port () return 21 end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 11,
+    "text": "function M.init (self)\r\n    self, err = M._SUPER.init_base(self)\r\n    if not self then return nil, err end\r\n\r\n    local host = self:host()\r\n    if not host or host == \"\" then\r\n        return nil, \"FTP URIs must have a hostname\"\r\n    end\r\n\r\n    -- I don't think there's any distinction in FTP URIs between empty path\r\n    -- and the root directory, so probably best to normalize as we do for HTTP.\r\n    if self:path() == \"\" then self:path(\"/\") end\r\n\r\n    return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "self, err = M._SUPER.init_base(self)",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "if not self then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "local host = self:host()",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "if not host or host == \"\" then\r\n        return nil, \"FTP URIs must have a hostname\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "if self:path() == \"\" then self:path(\"/\") end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "self:path(\"/\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "function M.path (self, ...)\r\n    local old = M._SUPER.path(self)\r\n\r\n    if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if not new or new == \"\" then new = \"/\" end\r\n        M._SUPER.path(self, new)\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "local old = M._SUPER.path(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if not new or new == \"\" then new = \"/\" end\r\n        M._SUPER.path(self, new)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "local new = ...",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "if not new or new == \"\" then new = \"/\" end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "new = \"/\"",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "M._SUPER.path(self, new)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function M.ftp_typecode (self, ...)\r\n    local path = M._SUPER.path(self)\r\n    local _, _, withouttype, old = path:find(\"^(.*);type=(.*)$\")\r\n    if not withouttype then withouttype = path end\r\n    if old == \"\" then old = nil end\r\n\r\n    if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if not new then new = \"\" end\r\n        if new ~= \"\" then new = \";type=\" .. new end\r\n        M._SUPER.path(self, withouttype .. new)\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "local path = M._SUPER.path(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 29,
+    "text": "local _, _, withouttype, old = path:find(\"^(.*);type=(.*)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "if not withouttype then withouttype = path end",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "withouttype = path",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "if old == \"\" then old = nil end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "old = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "if select(\"#\", ...) > 0 then\r\n        local new = ...\r\n        if not new then new = \"\" end\r\n        if new ~= \"\" then new = \";type=\" .. new end\r\n        M._SUPER.path(self, withouttype .. new)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "if not new then new = \"\" end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "new = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "if new ~= \"\" then new = \";type=\" .. new end",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "new = \";type=\" .. new",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "M._SUPER.path(self, withouttype .. new)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 41,
+    "text": "subclass_of",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "M._SUPER.path",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "TestCase",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "M._SUPER.init_base",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "run",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "interface"
+  } ]
+}

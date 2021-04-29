@@ -1,0 +1,117 @@
+{
+  "_filename": "git_file.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/fetch/git_file.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "initializes",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "requires",
+    "to": 13
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "git_file",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function get_sources(rockspec, extract, dest_dir)\r\n   assert(type(rockspec) == \"table\")\r\n   assert(type(dest_dir) == \"string\" or not dest_dir)\r\n\r\n   local git_cmd = rockspec.variables.GIT\r\n   local name_version = rockspec.name .. \"-\" .. rockspec.version\r\n   local module = dir.base_name(rockspec.source.url)\r\n   -- Strip off .git from base name if present\r\n   module = module:gsub(\"%.git$\", \"\")\r\n\r\n   local store_dir\r\n   if not dest_dir then\r\n      store_dir = fs.make_temp_dir(name_version)\r\n      if not store_dir then\r\n         return nil, \"Failed creating temporary directory.\"\r\n      end\r\n      util.schedule_function(fs.delete, store_dir)\r\n   else\r\n      store_dir = dest_dir\r\n   end\r\n   store_dir = fs.absolute_name(store_dir)\r\n   local ok, err = fs.change_dir(store_dir)\r\n   if not ok then return nil, err end\r\n\r\n   local command = {git_cmd, \"clone\", \"--depth=1\", rockspec.source.url, module}\r\n   local tag_or_branch = rockspec.source.tag or rockspec.source.branch\r\n   -- If the tag or branch is explicitly set to \"master\" in the rockspec, then\r\n   -- we can avoid passing it to Git since it's the default.\r\n   if tag_or_branch == \"master\" then tag_or_branch = nil end\r\n   if tag_or_branch then\r\n      if git_can_clone_by_tag(git_cmd) then\r\n         -- The argument to `--branch` can actually be a branch or a tag as of\r\n         -- Git 1.7.10.\r\n         table.insert(command, 4, \"--branch=\" .. tag_or_branch)\r\n      end\r\n   end\r\n   if not fs.execute(unpack(command)) then\r\n      return nil, \"Failed cloning git repository.\"\r\n   end\r\n   local ok, err = fs.change_dir(module)\r\n   if not ok then return nil, err end\r\n   if tag_or_branch and not git_can_clone_by_tag() then\r\n      local checkout_command = {git_cmd, \"checkout\", tag_or_branch}\r\n      if not fs.execute(unpack(checkout_command)) then\r\n         return nil, 'Failed to check out the \"' .. tag_or_branch ..'\" tag or branch.'\r\n      end\r\n   end\r\n\r\n   fs.delete(dir.path(store_dir, module, \".git\"))\r\n   fs.delete(dir.path(store_dir, module, \".gitignore\"))\r\n   fs.pop_dir()\r\n   fs.pop_dir()\r\n   return module, store_dir\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function get_sources(rockspec, extract, dest_dir)\r\n   rockspec.source.url = rockspec.source.url:gsub(\"^git.file://\", \"\")\r\n   return git.get_sources(rockspec, extract, dest_dir)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "rockspec.source.url = rockspec.source.url:gsub(\"^git.file://\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 8,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 13,
+    "text": "git)",
+    "type": "module"
+  } ]
+}

@@ -1,0 +1,257 @@
+{
+  "_filename": "test_session.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/cgilua/tests/test_session.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test_session",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function pt (tab)\r\n\tfor i, v in pairs (tab) do\r\n\t\tlocal vv = v\r\n\t\tif type(v) == \"table\" then\r\n\t\t\tvv = \"\"\r\n\t\t\tfor _i, _v in pairs (v) do\r\n\t\t\t\tvv = vv..string.format (\"%s = %q, \", _i, _v)\r\n\t\t\tend\r\n\t\t\tvv = '{'..vv..'}'\r\n\t\tend\r\n\t\tcgilua.put (string.format (\"%s = %s<br>\\n\", tostring (i), tostring (vv)))\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "for i, v in pairs (tab) do\r\n\t\tlocal vv = v\r\n\t\tif type(v) == \"table\" then\r\n\t\t\tvv = \"\"\r\n\t\t\tfor _i, _v in pairs (v) do\r\n\t\t\t\tvv = vv..string.format (\"%s = %q, \", _i, _v)\r\n\t\t\tend\r\n\t\t\tvv = '{'..vv..'}'\r\n\t\tend\r\n\t\tcgilua.put (string.format (\"%s = %s<br>\\n\", tostring (i), tostring (vv)))\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 4,
+    "text": "local vv = v",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if type(v) == \"table\" then\r\n\t\t\tvv = \"\"\r\n\t\t\tfor _i, _v in pairs (v) do\r\n\t\t\t\tvv = vv..string.format (\"%s = %q, \", _i, _v)\r\n\t\t\tend\r\n\t\t\tvv = '{'..vv..'}'\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "vv = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "for _i, _v in pairs (v) do\r\n\t\t\t\tvv = vv..string.format (\"%s = %q, \", _i, _v)\r\n\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 8,
+    "text": "vv = vv..string.format (\"%s = %q, \", _i, _v)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "vv = '{'..vv..'}'",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "cgilua.put (string.format (\"%s = %s<br>\\n\", tostring (i), tostring (vv)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "mkurlpath",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "put",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "enablesession",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "htmlheader",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require container"
+  } ]
+}

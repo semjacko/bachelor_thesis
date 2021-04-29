@@ -1,0 +1,301 @@
+{
+  "_filename": "ado.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasql/tests/ado.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 36
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ado",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function luasql.ado()\r\n    local isClosed  = false\r\n    local openConns = {}\r\n    openConns.n     = 0\r\n\r\n    local env = {}\r\n    \r\n    setmetatable(env, metatable)\r\n    \r\n    env.ADOTypes = ADOTypes\r\n    \r\n    local function closeConn(con)\r\n    \r\n        if not openConns[con] then\r\n            return false\r\n        end\r\n        \r\n        openConns[con] = nil\r\n        openConns.n = openConns.n - 1\r\n        \r\n        return true\r\n    end\r\n    \r\n    function env:close()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n    \r\n        if isClosed or openConns.n ~= 0 then\r\n            return false\r\n        end\r\n        \r\n        isClosed = true\r\n        \r\n        return true\r\n    end\r\n    \r\n    function env:connect(sourcestr, user, pass, opts)\r\n        if not self then error(\"You must provide a self parameter\") end\r\n    \r\n        if isClosed then\r\n            error(\"Environment closed\")\r\n        end\r\n        \r\n        if type(sourcestr) ~= \"string\" then\r\n            error(\"Sourcename must be a string\")\r\n        end\r\n\r\n        local conn = luacom.CreateObject(\"ADODB.Connection\")\r\n        local ok, errmsg = pcall(conn.Open, conn, sourcestr, user, pass, opts)\r\n                \r\n        if not ok then\r\n            return nil, errmsg\r\n        end\r\n        \r\n        if conn.State == 0 then\r\n            return nil, \"Invalid sourcename\"\r\n        end\r\n          \r\n        openConns[conn] = true\r\n        openConns.n = openConns.n + 1\r\n\r\n        local ok, errmsg = pcall(conn.BeginTrans, conn)\r\n        \r\n        return Private.createConnection(conn, closeConn)\r\n    end\r\n    \r\n    return env\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local function closeConn(con)\r\n    \r\n        if not openConns[con] then\r\n            return false\r\n        end\r\n        \r\n        openConns[con] = nil\r\n        openConns.n = openConns.n - 1\r\n        \r\n        return true\r\n    end",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function env:close()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n    \r\n        if isClosed or openConns.n ~= 0 then\r\n            return false\r\n        end\r\n        \r\n        isClosed = true\r\n        \r\n        return true\r\n    end",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function env:connect(sourcestr, user, pass, opts)\r\n        if not self then error(\"You must provide a self parameter\") end\r\n    \r\n        if isClosed then\r\n            error(\"Environment closed\")\r\n        end\r\n        \r\n        if type(sourcestr) ~= \"string\" then\r\n            error(\"Sourcename must be a string\")\r\n        end\r\n\r\n        local conn = luacom.CreateObject(\"ADODB.Connection\")\r\n        local ok, errmsg = pcall(conn.Open, conn, sourcestr, user, pass, opts)\r\n                \r\n        if not ok then\r\n            return nil, errmsg\r\n        end\r\n        \r\n        if conn.State == 0 then\r\n            return nil, \"Invalid sourcename\"\r\n        end\r\n          \r\n        openConns[conn] = true\r\n        openConns.n = openConns.n + 1\r\n\r\n        local ok, errmsg = pcall(conn.BeginTrans, conn)\r\n        \r\n        return Private.createConnection(conn, closeConn)\r\n    end",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function Private.createConnection(conObj, closeFunc)\r\n\r\n    local openCursors = {}\r\n    openCursors.n = 0\r\n    local isClosed = false\r\n    \r\n    local con = {}\r\n\r\n    setmetatable(con, metatable)\r\n\r\n    local autocommit = true\r\n    \r\n    local function closeCursor(cursor)\r\n    \r\n        if not openCursors[cursor] then\r\n            return false\r\n        end\r\n        \r\n        openCursors[cursor] = nil\r\n        openCursors.n = openCursors.n - 1\r\n    end\r\n    \r\n    function con:close()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed or openCursors.n ~= 0 then\r\n            return false\r\n        end\r\n        \r\n        isClosed = true\r\n        local cond, err = pcall(conObj.RollbackTrans, conObj)\r\n        conObj:Close()\r\n        closeFunc(conObj)\r\n        \r\n        return true\r\n    end\r\n    \r\n    function con:commit()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Connection closed\")\r\n        end          \r\n          \r\n        local cond, err = pcall(conObj.CommitTrans, conObj)\r\n        if not cond then\r\n            return false, err\r\n        end\r\n\r\n        local cond, err = pcall(conObj.BeginTrans, conObj)\r\n        if not cond then\r\n            return false, err\r\n        end\r\n        \r\n        return true\r\n    end\r\n    \r\n    function con:execute(sql)\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Connection closed\")\r\n        end          \r\n        \r\n        local cond, res, upcount = pcall(conObj.Execute, conObj, sql)\r\n        if not cond then\r\n            return nil, res\r\n        end\r\n        \r\n        if not upcount then upcount = 0 end\r\n         \r\n        if autocommit then\r\n          local cond, err = con:commit()\r\n          if not cond then\r\n            return nil, err\r\n          end\r\n        end\r\n\r\n        if res and res.State ~= 0  then\r\n            res = Private.createCursor(res, con, closeCursor)\r\n            openCursors[res] = true\r\n            openCursors.n = openCursors.n + 1\r\n        else\r\n            res = upcount\r\n        end\r\n        \r\n        return res\r\n    end\r\n    \r\n    function con:rollback()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Connection closed\")\r\n        end          \r\n          \r\n        local cond, err = pcall(conObj.RollbackTrans, conObj)\r\n        if not cond then\r\n            return false, err\r\n        end\r\n\r\n        local cond, err = pcall(conObj.BeginTrans, conObj)\r\n        if not cond then\r\n            return false, err\r\n        end\r\n        \r\n        return true\r\n    end\r\n    \r\n    function con:setautocommit(bool)\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Connection closed\")\r\n        end          \r\n\r\n        local cond, err = pcall(conObj.CommitTrans, conObj)\r\n        if not cond then\r\n            return false, err\r\n        end\r\n\r\n        autocommit = bool\r\n\r\n        local cond, err = pcall(conObj.BeginTrans, conObj)\r\n        if not cond then\r\n            return false, err\r\n        end\r\n\r\n        return true\r\n    end\r\n   \r\n    return con\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local function closeCursor(cursor)\r\n    \r\n        if not openCursors[cursor] then\r\n            return false\r\n        end\r\n        \r\n        openCursors[cursor] = nil\r\n        openCursors.n = openCursors.n - 1\r\n    end",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function con:close()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed or openCursors.n ~= 0 then\r\n            return false\r\n        end\r\n        \r\n        isClosed = true\r\n        local cond, err = pcall(conObj.RollbackTrans, conObj)\r\n        conObj:Close()\r\n        closeFunc(conObj)\r\n        \r\n        return true\r\n    end",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function con:commit()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Connection closed\")\r\n        end          \r\n          \r\n        local cond, err = pcall(conObj.CommitTrans, conObj)\r\n        if not cond then\r\n            return false, err\r\n        end\r\n\r\n        local cond, err = pcall(conObj.BeginTrans, conObj)\r\n        if not cond then\r\n            return false, err\r\n        end\r\n        \r\n        return true\r\n    end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function con:execute(sql)\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Connection closed\")\r\n        end          \r\n        \r\n        local cond, res, upcount = pcall(conObj.Execute, conObj, sql)\r\n        if not cond then\r\n            return nil, res\r\n        end\r\n        \r\n        if not upcount then upcount = 0 end\r\n         \r\n        if autocommit then\r\n          local cond, err = con:commit()\r\n          if not cond then\r\n            return nil, err\r\n          end\r\n        end\r\n\r\n        if res and res.State ~= 0  then\r\n            res = Private.createCursor(res, con, closeCursor)\r\n            openCursors[res] = true\r\n            openCursors.n = openCursors.n + 1\r\n        else\r\n            res = upcount\r\n        end\r\n        \r\n        return res\r\n    end",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function con:rollback()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Connection closed\")\r\n        end          \r\n          \r\n        local cond, err = pcall(conObj.RollbackTrans, conObj)\r\n        if not cond then\r\n            return false, err\r\n        end\r\n\r\n        local cond, err = pcall(conObj.BeginTrans, conObj)\r\n        if not cond then\r\n            return false, err\r\n        end\r\n        \r\n        return true\r\n    end",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function con:setautocommit(bool)\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Connection closed\")\r\n        end          \r\n\r\n        local cond, err = pcall(conObj.CommitTrans, conObj)\r\n        if not cond then\r\n            return false, err\r\n        end\r\n\r\n        autocommit = bool\r\n\r\n        local cond, err = pcall(conObj.BeginTrans, conObj)\r\n        if not cond then\r\n            return false, err\r\n        end\r\n\r\n        return true\r\n    end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function Private.createCursor(rs, con, closeFunc)\r\n\r\n    local isClosed = false\r\n    local cursor = rs\r\n    local res = {}\r\n    local col_names = nil\r\n    local col_types = nil\r\n\r\n    setmetatable(res, metatable)\r\n    \r\n    function res:close()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n    \r\n        if isClosed then\r\n            return false\r\n        end\r\n        \r\n        rs:Close()\r\n        closeFunc(res, con)\r\n        \r\n        isClosed = true\r\n        \r\n        return true\r\n    end\r\n    \r\n    function res:fetch(tb, modestring)\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Cursor closed\")\r\n        end          \r\n\r\n        local arg_tb = tb\r\n    \r\n        if cursor.EOF then\r\n          return nil, \"End of cursor reached\"\r\n        end\r\n        \r\n        if tb == nil or type(tb) ~= \"table\" then\r\n            tb = {}\r\n        end\r\n        \r\n        if modestring == nil or type(modestring) ~= \"string\" then\r\n            modestring = \"n\"\r\n        end\r\n        \r\n        for i = 0, cursor.Fields.Count-1 do\r\n          local fields = cursor.Fields\r\n          local cond, field = pcall(fields.Item, fields, i)\r\n          if not cond then\r\n            return nil, field\r\n          end\r\n          if modestring == \"n\" or modestring == \"an\" or modestring == \"na\" then\r\n            tb[i+1] = field.Value\r\n          end\r\n          if modestring == \"a\" or modestring == \"an\" or modestring == \"na\" then\r\n            tb[field.Name] = field.Value\r\n          end\r\n        end\r\n        local cond, err = pcall(cursor.MoveNext, cursor)\r\n        if not cond then\r\n            return nil, err\r\n        end\r\n        \r\n        if modestring == \"n\" and not arg_tb then\r\n          return unpack(tb)\r\n        else\r\n          return tb\r\n        end  \r\n    end\r\n    \r\n    function res:getcolnames()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Cursor closed\")\r\n        end          \r\n\r\n        if col_names then return col_names end\r\n        \r\n        col_names = {}\r\n        local tb = col_names\r\n        \r\n        for i = 0, cursor.Fields.Count-1 do\r\n          local fields = cursor.Fields\r\n          local cond, field = pcall(fields.Item, fields, i)\r\n          if not cond then\r\n            return nil, field\r\n          end\r\n          tb[i+1] = field.Name\r\n        end\r\n                \r\n        return tb\r\n    end\r\n    \r\n    function res:getcoltypes()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Cursor closed\")\r\n        end          \r\n\r\n        if col_types then return col_types end\r\n        \r\n        col_types = {}\r\n        local tb = col_types\r\n       \r\n        for i = 0, cursor.Fields.Count-1 do\r\n          local fields = cursor.Fields\r\n          local cond, field = pcall(fields.Item, fields, i)\r\n          if not cond then\r\n            return nil, field\r\n          end\r\n          tb[i+1] = ADOTypes[field.Type]\r\n        end\r\n                \r\n        return tb\r\n    end\r\n    \r\n    return res\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function res:close()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n    \r\n        if isClosed then\r\n            return false\r\n        end\r\n        \r\n        rs:Close()\r\n        closeFunc(res, con)\r\n        \r\n        isClosed = true\r\n        \r\n        return true\r\n    end",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function res:fetch(tb, modestring)\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Cursor closed\")\r\n        end          \r\n\r\n        local arg_tb = tb\r\n    \r\n        if cursor.EOF then\r\n          return nil, \"End of cursor reached\"\r\n        end\r\n        \r\n        if tb == nil or type(tb) ~= \"table\" then\r\n            tb = {}\r\n        end\r\n        \r\n        if modestring == nil or type(modestring) ~= \"string\" then\r\n            modestring = \"n\"\r\n        end\r\n        \r\n        for i = 0, cursor.Fields.Count-1 do\r\n          local fields = cursor.Fields\r\n          local cond, field = pcall(fields.Item, fields, i)\r\n          if not cond then\r\n            return nil, field\r\n          end\r\n          if modestring == \"n\" or modestring == \"an\" or modestring == \"na\" then\r\n            tb[i+1] = field.Value\r\n          end\r\n          if modestring == \"a\" or modestring == \"an\" or modestring == \"na\" then\r\n            tb[field.Name] = field.Value\r\n          end\r\n        end\r\n        local cond, err = pcall(cursor.MoveNext, cursor)\r\n        if not cond then\r\n            return nil, err\r\n        end\r\n        \r\n        if modestring == \"n\" and not arg_tb then\r\n          return unpack(tb)\r\n        else\r\n          return tb\r\n        end  \r\n    end",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function res:getcolnames()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Cursor closed\")\r\n        end          \r\n\r\n        if col_names then return col_names end\r\n        \r\n        col_names = {}\r\n        local tb = col_names\r\n        \r\n        for i = 0, cursor.Fields.Count-1 do\r\n          local fields = cursor.Fields\r\n          local cond, field = pcall(fields.Item, fields, i)\r\n          if not cond then\r\n            return nil, field\r\n          end\r\n          tb[i+1] = field.Name\r\n        end\r\n                \r\n        return tb\r\n    end",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function res:getcoltypes()\r\n        if not self then error(\"You must provide a self parameter\") end\r\n\r\n        if isClosed then\r\n          error(\"Cursor closed\")\r\n        end          \r\n\r\n        if col_types then return col_types end\r\n        \r\n        col_types = {}\r\n        local tb = col_types\r\n       \r\n        for i = 0, cursor.Fields.Count-1 do\r\n          local fields = cursor.Fields\r\n          local cond, field = pcall(fields.Item, fields, i)\r\n          if not cond then\r\n            return nil, field\r\n          end\r\n          tb[i+1] = ADOTypes[field.Type]\r\n        end\r\n                \r\n        return tb\r\n    end",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 19,
+    "text": "CreateObject",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "GetTypeInfo",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require container"
+  } ]
+}

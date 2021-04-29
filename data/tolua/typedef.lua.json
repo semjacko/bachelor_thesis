@@ -1,0 +1,341 @@
+{
+  "_filename": "typedef.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/tolua/src/bin/lua/typedef.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "typedef",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function classTypedef:print (ident,close)\r\n print(ident..\"Typedef{\")\r\n print(ident..\" utype = '\"..self.utype..\"',\")\r\n print(ident..\" mod = '\"..self.mod..\"',\")\r\n print(ident..\" type = '\"..self.type..\"',\")\r\n print(ident..\"}\"..close)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "print(ident..\"Typedef{\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "print(ident..\" utype = '\"..self.utype..\"',\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "print(ident..\" mod = '\"..self.mod..\"',\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "print(ident..\" type = '\"..self.type..\"',\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "print(ident..\"}\"..close)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function classTypedef:isvariable ()\r\n return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function _Typedef (t)\r\n setmetatable(t,classTypedef)\r\n appendtypedef(t)\r\n return t\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "setmetatable(t,classTypedef)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "appendtypedef(t)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function Typedef (s)\r\n if strfind(s,'[%*&]') then\r\n  tolua_error(\"#invalid typedef: pointers (and references) are not supported\")\r\n end\r\n local t = split(gsub(s,\"%s%s*\",\" \"),\" \")\r\n\tif not isbasic(t[t.n]) then\r\n return _Typedef {\r\n  utype = t[t.n],\r\n  type = t[t.n-1],\r\n  mod = concat(t,1,t.n-2),\r\n }\r\n\telse\r\n\t return nil\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "if strfind(s,'[%*&]') then\r\n  tolua_error(\"#invalid typedef: pointers (and references) are not supported\")\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "tolua_error(\"#invalid typedef: pointers (and references) are not supported\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "local t = split(gsub(s,\"%s%s*\",\" \"),\" \")",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "if not isbasic(t[t.n]) then\r\n return _Typedef {\r\n  utype = t[t.n],\r\n  type = t[t.n-1],\r\n  mod = concat(t,1,t.n-2),\r\n }\r\n\telse\r\n\t return nil\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 23,
+    "text": "tolua_error",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "split",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "strfind",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "isbasic",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "appendtypedef",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

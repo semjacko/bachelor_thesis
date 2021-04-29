@@ -1,0 +1,1469 @@
+{
+  "_filename": "comprehension.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/penlight/lua/pl/comprehension.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 112,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 112,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 112,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 112,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 114,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 114,
+    "label": "has",
+    "to": 115
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 80,
+    "label": "calls",
+    "to": 125
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 66,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 80,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 80,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 124
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 129
+  }, {
+    "from": 66,
+    "label": "calls",
+    "to": 129
+  }, {
+    "from": 66,
+    "label": "calls",
+    "to": 129
+  }, {
+    "from": 80,
+    "label": "calls",
+    "to": 129
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 131
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 121
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 126
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 122
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 122
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 132
+  }, {
+    "from": 118,
+    "label": "calls",
+    "to": 128
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 133
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 80
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 118,
+    "label": "calls",
+    "to": 127
+  }, {
+    "from": 118,
+    "label": "calls",
+    "to": 127
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 123
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 119
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 118
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 66
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 80
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 96
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 101
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 112
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 114
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 116
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 134
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 135
+  }, {
+    "from": 134,
+    "label": "initializes",
+    "to": 136
+  }, {
+    "from": 136,
+    "label": "assigns",
+    "to": 137
+  }, {
+    "from": 134,
+    "label": "initializes",
+    "to": 138
+  }, {
+    "from": 134,
+    "label": "initializes",
+    "to": 139
+  }, {
+    "from": 139,
+    "label": "assigns",
+    "to": 140
+  }, {
+    "from": 134,
+    "label": "initializes",
+    "to": 141
+  }, {
+    "from": 141,
+    "label": "assigns",
+    "to": 142
+  }, {
+    "from": 134,
+    "label": "initializes",
+    "to": 143
+  }, {
+    "from": 143,
+    "label": "assigns",
+    "to": 144
+  }, {
+    "from": 144,
+    "label": "assigns",
+    "to": 145
+  }, {
+    "from": 145,
+    "label": "assigns",
+    "to": 146
+  }, {
+    "from": 144,
+    "label": "assigns",
+    "to": 147
+  }, {
+    "from": 147,
+    "label": "assigns",
+    "to": 148
+  }, {
+    "from": 144,
+    "label": "assigns",
+    "to": 149
+  }, {
+    "from": 149,
+    "label": "assigns",
+    "to": 150
+  }, {
+    "from": 144,
+    "label": "assigns",
+    "to": 151
+  }, {
+    "from": 151,
+    "label": "assigns",
+    "to": 152
+  }, {
+    "from": 144,
+    "label": "assigns",
+    "to": 153
+  }, {
+    "from": 153,
+    "label": "assigns",
+    "to": 154
+  }, {
+    "from": 134,
+    "label": "initializes",
+    "to": 155
+  }, {
+    "from": 155,
+    "label": "assigns",
+    "to": 156
+  }, {
+    "from": 134,
+    "label": "initializes",
+    "to": 157
+  }, {
+    "from": 157,
+    "label": "assigns",
+    "to": 158
+  }, {
+    "from": 135,
+    "label": "initializes",
+    "to": 159
+  }, {
+    "from": 159,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 160
+  }, {
+    "from": 155,
+    "label": "represents",
+    "to": 161
+  }, {
+    "from": 160,
+    "label": "provides",
+    "to": 161
+  }, {
+    "from": 162,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 54,
+    "label": "hasArgument",
+    "to": 114
+  }, {
+    "from": 58,
+    "label": "hasArgument",
+    "to": 116
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "comprehension",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "utils",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function parse_comprehension(expr)\r\n  local t = {}\r\n  local pos = 1\r\n\r\n  -- extract opname (if exists)\r\n  local opname\r\n  local tok, post = expr:match('^%s*([%a_][%w_]*)%s*%(()', pos)\r\n  local pose = #expr + 1\r\n  if tok then\r\n    local tok2, posb = lb.match_bracketed(expr, post-1)\r\n    assert(tok2, 'syntax error')\r\n    if expr:match('^%s*$', posb) then\r\n      opname = tok\r\n      pose = posb - 1\r\n      pos = post\r\n    end\r\n  end\r\n  opname = opname or \"list\"\r\n\r\n  -- extract out expression list\r\n  local out; out, pos = lb.match_explist(expr, pos)\r\n  assert(out, \"syntax error: missing expression list\")\r\n  out = table_concat(out, ', ')\r\n\r\n  -- extract \"for\" clauses\r\n  local fortypes = {}\r\n  local invarlists = {}\r\n  local invallists = {}\r\n  while 1 do\r\n    local post = expr:match('^%s*for%s+()', pos)\r\n    if not post then break end\r\n    pos = post\r\n\r\n    -- extract input vars\r\n    local iv; iv, pos = lb.match_namelist(expr, pos)\r\n    assert(#iv > 0, 'syntax error: zero variables')\r\n    for _,ident in ipairs(iv) do\r\n      assert(not ident:match'^__',\r\n             \"identifier \" .. ident .. \" may not contain __ prefix\")\r\n    end\r\n    invarlists[#invarlists+1] = iv\r\n\r\n    -- extract '=' or 'in' (optional)\r\n    local fortype, post = expr:match('^(=)%s*()', pos)\r\n    if not fortype then fortype, post = expr:match('^(in)%s+()', pos) end\r\n    if fortype then\r\n      pos = post\r\n      -- extract input value range\r\n      local il; il, pos = lb.match_explist(expr, pos)\r\n      assert(#il > 0, 'syntax error: zero expressions')\r\n      assert(fortype ~= '=' or #il == 2 or #il == 3,\r\n             'syntax error: numeric for requires 2 or three expressions')\r\n      fortypes[#invarlists] = fortype\r\n      invallists[#invarlists] = il\r\n    else\r\n      fortypes[#invarlists] = false\r\n      invallists[#invarlists] = false\r\n    end\r\n  end\r\n  assert(#invarlists > 0, 'syntax error: missing \"for\" clause')\r\n\r\n  -- extract \"if\" clauses\r\n  local preds = {}\r\n  while 1 do\r\n    local post = expr:match('^%s*if%s+()', pos)\r\n    if not post then break end\r\n    pos = post\r\n    local pred; pred, pos = lb.match_expression(expr, pos)\r\n    assert(pred, 'syntax error: predicated expression not found')\r\n    preds[#preds+1] = pred\r\n  end\r\n\r\n  -- extract number of parameter variables (name matching \"_%d+\")\r\n  local stmp = ''; lb.gsub(expr, function(u, sin)  -- strip comments/strings\r\n    if u == 'e' then stmp = stmp .. ' ' .. sin .. ' ' end\r\n  end)\r\n  local max_param = 0; stmp:gsub('[%a_][%w_]*', function(s)\r\n    local s = s:match('^_(%d+)$')\r\n    if s then max_param = math_max(max_param, tonumber(s)) end\r\n  end)\r\n\r\n  if pos ~= pose then\r\n    assert(false, \"syntax error: unrecognized \" .. expr:sub(pos))\r\n  end\r\n\r\n  --DEBUG:\r\n  --print('----\\n', string.format(\"%q\", expr), string.format(\"%q\", out), opname)\r\n  --for k,v in ipairs(invarlists) do print(k,v, invallists[k]) end\r\n  --for k,v in ipairs(preds) do print(k,v) end\r\n\r\n  return out, fortypes, invarlists, invallists, preds, opname, max_param\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local t = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local pos = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local opname",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local tok, post = expr:match('^%s*([%a_][%w_]*)%s*%(()', pos)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local pose = #expr + 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "if tok then\r\n    local tok2, posb = lb.match_bracketed(expr, post-1)\r\n    assert(tok2, 'syntax error')\r\n    if expr:match('^%s*$', posb) then\r\n      opname = tok\r\n      pose = posb - 1\r\n      pos = post\r\n    end\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "local tok2, posb = lb.match_bracketed(expr, post-1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "assert(tok2, 'syntax error')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "if expr:match('^%s*$', posb) then\r\n      opname = tok\r\n      pose = posb - 1\r\n      pos = post\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "opname = tok",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "pose = posb - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "pos = post",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "opname = opname or \"list\"",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "local out",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "out, pos = lb.match_explist(expr, pos)",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "assert(out, \"syntax error: missing expression list\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "out = table_concat(out, ', ')",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "local fortypes = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "local invarlists = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "local invallists = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "while 1 do\r\n    local post = expr:match('^%s*for%s+()', pos)\r\n    if not post then break end\r\n    pos = post\r\n\r\n    -- extract input vars\r\n    local iv; iv, pos = lb.match_namelist(expr, pos)\r\n    assert(#iv > 0, 'syntax error: zero variables')\r\n    for _,ident in ipairs(iv) do\r\n      assert(not ident:match'^__',\r\n             \"identifier \" .. ident .. \" may not contain __ prefix\")\r\n    end\r\n    invarlists[#invarlists+1] = iv\r\n\r\n    -- extract '=' or 'in' (optional)\r\n    local fortype, post = expr:match('^(=)%s*()', pos)\r\n    if not fortype then fortype, post = expr:match('^(in)%s+()', pos) end\r\n    if fortype then\r\n      pos = post\r\n      -- extract input value range\r\n      local il; il, pos = lb.match_explist(expr, pos)\r\n      assert(#il > 0, 'syntax error: zero expressions')\r\n      assert(fortype ~= '=' or #il == 2 or #il == 3,\r\n             'syntax error: numeric for requires 2 or three expressions')\r\n      fortypes[#invarlists] = fortype\r\n      invallists[#invarlists] = il\r\n    else\r\n      fortypes[#invarlists] = false\r\n      invallists[#invarlists] = false\r\n    end\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 25,
+    "text": "local post = expr:match('^%s*for%s+()', pos)",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if not post then break end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "local iv",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "iv, pos = lb.match_namelist(expr, pos)",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "assert(#iv > 0, 'syntax error: zero variables')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "for _,ident in ipairs(iv) do\r\n      assert(not ident:match'^__',\r\n             \"identifier \" .. ident .. \" may not contain __ prefix\")\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 31,
+    "text": "assert(not ident:match'^__',\r\n             \"identifier \" .. ident .. \" may not contain __ prefix\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "invarlists[#invarlists+1] = iv",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "local fortype, post = expr:match('^(=)%s*()', pos)",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "if not fortype then fortype, post = expr:match('^(in)%s+()', pos) end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "fortype, post = expr:match('^(in)%s+()', pos)",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "if fortype then\r\n      pos = post\r\n      -- extract input value range\r\n      local il; il, pos = lb.match_explist(expr, pos)\r\n      assert(#il > 0, 'syntax error: zero expressions')\r\n      assert(fortype ~= '=' or #il == 2 or #il == 3,\r\n             'syntax error: numeric for requires 2 or three expressions')\r\n      fortypes[#invarlists] = fortype\r\n      invallists[#invarlists] = il\r\n    else\r\n      fortypes[#invarlists] = false\r\n      invallists[#invarlists] = false\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 37,
+    "text": "local il",
+    "type": "statement:localassign"
+  }, {
+    "id": 38,
+    "text": "il, pos = lb.match_explist(expr, pos)",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "assert(#il > 0, 'syntax error: zero expressions')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "assert(fortype ~= '=' or #il == 2 or #il == 3,\r\n             'syntax error: numeric for requires 2 or three expressions')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "fortypes[#invarlists] = fortype",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "invallists[#invarlists] = il",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "fortypes[#invarlists] = false",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "invallists[#invarlists] = false",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "assert(#invarlists > 0, 'syntax error: missing \"for\" clause')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 46,
+    "text": "local preds = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 47,
+    "text": "while 1 do\r\n    local post = expr:match('^%s*if%s+()', pos)\r\n    if not post then break end\r\n    pos = post\r\n    local pred; pred, pos = lb.match_expression(expr, pos)\r\n    assert(pred, 'syntax error: predicated expression not found')\r\n    preds[#preds+1] = pred\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 48,
+    "text": "local post = expr:match('^%s*if%s+()', pos)",
+    "type": "statement:localassign"
+  }, {
+    "id": 49,
+    "text": "local pred",
+    "type": "statement:localassign"
+  }, {
+    "id": 50,
+    "text": "pred, pos = lb.match_expression(expr, pos)",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "assert(pred, 'syntax error: predicated expression not found')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 52,
+    "text": "preds[#preds+1] = pred",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "local stmp = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 54,
+    "text": "lb.gsub(expr, function(u, sin)  -- strip comments/strings\r\n    if u == 'e' then stmp = stmp .. ' ' .. sin .. ' ' end\r\n  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 55,
+    "text": "if u == 'e' then stmp = stmp .. ' ' .. sin .. ' ' end",
+    "type": "statement:if"
+  }, {
+    "id": 56,
+    "text": "stmp = stmp .. ' ' .. sin .. ' '",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "local max_param = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 58,
+    "text": "stmp:gsub('[%a_][%w_]*', function(s)\r\n    local s = s:match('^_(%d+)$')\r\n    if s then max_param = math_max(max_param, tonumber(s)) end\r\n  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 59,
+    "text": "local s = s:match('^_(%d+)$')",
+    "type": "statement:localassign"
+  }, {
+    "id": 60,
+    "text": "if s then max_param = math_max(max_param, tonumber(s)) end",
+    "type": "statement:if"
+  }, {
+    "id": 61,
+    "text": "max_param = math_max(max_param, tonumber(s))",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "if pos ~= pose then\r\n    assert(false, \"syntax error: unrecognized \" .. expr:sub(pos))\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 63,
+    "text": "assert(false, \"syntax error: unrecognized \" .. expr:sub(pos))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 64,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 66,
+    "text": "local function code_comprehension(\r\n    out, fortypes, invarlists, invallists, preds, opname, max_param\r\n)\r\n  local op = assert(ops[opname])\r\n  local code = op.accum:gsub('%%s',  out)\r\n\r\n  for i=#preds,1,-1 do local pred = preds[i]\r\n    code = ' if ' .. pred .. ' then ' .. code .. ' end '\r\n  end\r\n  for i=#invarlists,1,-1 do\r\n    if not fortypes[i] then\r\n      local arrayname = '__in' .. i\r\n      local idx = '__idx' .. i\r\n      code =\r\n        ' for ' .. idx .. ' = 1, #' .. arrayname .. ' do ' ..\r\n        ' local ' .. invarlists[i][1] .. ' = ' .. arrayname .. '['..idx..'] ' ..\r\n        code .. ' end '\r\n    else\r\n      code =\r\n        ' for ' ..\r\n        table_concat(invarlists[i], ', ') ..\r\n        ' ' .. fortypes[i] .. ' ' ..\r\n        table_concat(invallists[i], ', ') ..\r\n        ' do ' .. code .. ' end '\r\n    end\r\n  end\r\n  code = ' local __result = ( ' .. op.init .. ' ) ' .. code\r\n  return code\r\nend",
+    "type": "function"
+  }, {
+    "id": 67,
+    "text": "local op = assert(ops[opname])",
+    "type": "statement:localassign"
+  }, {
+    "id": 68,
+    "text": "local code = op.accum:gsub('%%s',  out)",
+    "type": "statement:localassign"
+  }, {
+    "id": 69,
+    "text": "for i=#preds,1,-1 do local pred = preds[i]\r\n    code = ' if ' .. pred .. ' then ' .. code .. ' end '\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 70,
+    "text": "local pred = preds[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 71,
+    "text": "code = ' if ' .. pred .. ' then ' .. code .. ' end '",
+    "type": "statement:assign"
+  }, {
+    "id": 72,
+    "text": "for i=#invarlists,1,-1 do\r\n    if not fortypes[i] then\r\n      local arrayname = '__in' .. i\r\n      local idx = '__idx' .. i\r\n      code =\r\n        ' for ' .. idx .. ' = 1, #' .. arrayname .. ' do ' ..\r\n        ' local ' .. invarlists[i][1] .. ' = ' .. arrayname .. '['..idx..'] ' ..\r\n        code .. ' end '\r\n    else\r\n      code =\r\n        ' for ' ..\r\n        table_concat(invarlists[i], ', ') ..\r\n        ' ' .. fortypes[i] .. ' ' ..\r\n        table_concat(invallists[i], ', ') ..\r\n        ' do ' .. code .. ' end '\r\n    end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 73,
+    "text": "if not fortypes[i] then\r\n      local arrayname = '__in' .. i\r\n      local idx = '__idx' .. i\r\n      code =\r\n        ' for ' .. idx .. ' = 1, #' .. arrayname .. ' do ' ..\r\n        ' local ' .. invarlists[i][1] .. ' = ' .. arrayname .. '['..idx..'] ' ..\r\n        code .. ' end '\r\n    else\r\n      code =\r\n        ' for ' ..\r\n        table_concat(invarlists[i], ', ') ..\r\n        ' ' .. fortypes[i] .. ' ' ..\r\n        table_concat(invallists[i], ', ') ..\r\n        ' do ' .. code .. ' end '\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 74,
+    "text": "local arrayname = '__in' .. i",
+    "type": "statement:localassign"
+  }, {
+    "id": 75,
+    "text": "local idx = '__idx' .. i",
+    "type": "statement:localassign"
+  }, {
+    "id": 76,
+    "text": "code =\r\n        ' for ' .. idx .. ' = 1, #' .. arrayname .. ' do ' ..\r\n        ' local ' .. invarlists[i][1] .. ' = ' .. arrayname .. '['..idx..'] ' ..\r\n        code .. ' end '",
+    "type": "statement:assign"
+  }, {
+    "id": 77,
+    "text": "code =\r\n        ' for ' ..\r\n        table_concat(invarlists[i], ', ') ..\r\n        ' ' .. fortypes[i] .. ' ' ..\r\n        table_concat(invallists[i], ', ') ..\r\n        ' do ' .. code .. ' end '",
+    "type": "statement:assign"
+  }, {
+    "id": 78,
+    "text": "code = ' local __result = ( ' .. op.init .. ' ) ' .. code",
+    "type": "statement:assign"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 80,
+    "text": "local function wrap_comprehension(code, ninputs, max_param, invallists, env)\r\n  assert(ninputs > 0)\r\n  local ts = {}\r\n  for i=1,max_param do\r\n    ts[#ts+1] = '_' .. i\r\n  end\r\n  for i=1,ninputs do\r\n    if not invallists[i] then\r\n      local name = '__in' .. i\r\n      ts[#ts+1] = name\r\n    end\r\n  end\r\n  if #ts > 0 then\r\n    code = ' local ' .. table_concat(ts, ', ') .. ' = ... ' .. code\r\n  end\r\n  code = code .. ' return __result '\r\n  --print('DEBUG:', code)\r\n  local f, err = utils.load(code,'tmp','t',env)\r\n  if not f then assert(false, err .. ' with generated code ' .. code) end\r\n  return f\r\nend",
+    "type": "function"
+  }, {
+    "id": 81,
+    "text": "assert(ninputs > 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 82,
+    "text": "local ts = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 83,
+    "text": "for i=1,max_param do\r\n    ts[#ts+1] = '_' .. i\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 84,
+    "text": "ts[#ts+1] = '_' .. i",
+    "type": "statement:assign"
+  }, {
+    "id": 85,
+    "text": "for i=1,ninputs do\r\n    if not invallists[i] then\r\n      local name = '__in' .. i\r\n      ts[#ts+1] = name\r\n    end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 86,
+    "text": "if not invallists[i] then\r\n      local name = '__in' .. i\r\n      ts[#ts+1] = name\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 87,
+    "text": "local name = '__in' .. i",
+    "type": "statement:localassign"
+  }, {
+    "id": 88,
+    "text": "ts[#ts+1] = name",
+    "type": "statement:assign"
+  }, {
+    "id": 89,
+    "text": "if #ts > 0 then\r\n    code = ' local ' .. table_concat(ts, ', ') .. ' = ... ' .. code\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 90,
+    "text": "code = ' local ' .. table_concat(ts, ', ') .. ' = ... ' .. code",
+    "type": "statement:assign"
+  }, {
+    "id": 91,
+    "text": "code = code .. ' return __result '",
+    "type": "statement:assign"
+  }, {
+    "id": 92,
+    "text": "local f, err = utils.load(code,'tmp','t',env)",
+    "type": "statement:localassign"
+  }, {
+    "id": 93,
+    "text": "if not f then assert(false, err .. ' with generated code ' .. code) end",
+    "type": "statement:if"
+  }, {
+    "id": 94,
+    "text": "assert(false, err .. ' with generated code ' .. code)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 96,
+    "text": "local function build_comprehension(expr, env)\r\n  local out, fortypes, invarlists, invallists, preds, opname, max_param\r\n    = parse_comprehension(expr)\r\n  local code = code_comprehension(\r\n    out, fortypes, invarlists, invallists, preds, opname, max_param)\r\n  local f = wrap_comprehension(code, #invarlists, max_param, invallists, env)\r\n  return f\r\nend",
+    "type": "function"
+  }, {
+    "id": 97,
+    "text": "local out, fortypes, invarlists, invallists, preds, opname, max_param\r\n    = parse_comprehension(expr)",
+    "type": "statement:localassign"
+  }, {
+    "id": 98,
+    "text": "local code = code_comprehension(\r\n    out, fortypes, invarlists, invallists, preds, opname, max_param)",
+    "type": "statement:localassign"
+  }, {
+    "id": 99,
+    "text": "local f = wrap_comprehension(code, #invarlists, max_param, invallists, env)",
+    "type": "statement:localassign"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 101,
+    "text": "local function new(env)\r\n  -- Note: using a single global comprehension cache would have had\r\n  -- security implications (e.g. retrieving cached functions created\r\n  -- in other environments).\r\n  -- The cache lookup function could have instead been written to retrieve\r\n  -- the caller's environment, lookup up the cache private to that\r\n  -- environment, and then looked up the function in that cache.\r\n  -- That would avoid the need for this <new> call to\r\n  -- explicitly manage caches; however, that might also have an undue\r\n  -- performance penalty.\r\n\r\n  if not env then\r\n    env = utils.getfenv(2)\r\n  end\r\n\r\n  local mt = {}\r\n  local cache = setmetatable({}, mt)\r\n\r\n  -- Index operator builds, caches, and returns Lua function\r\n  -- corresponding to comprehension expression string.\r\n  --\r\n  -- Example: f = comprehension['x^2 for x']\r\n  --\r\n  function mt:__index(expr)\r\n    local f = build_comprehension(expr, env)\r\n    self[expr] = f  -- cache\r\n    return f\r\n  end\r\n\r\n  -- Convenience syntax.\r\n  -- Allows comprehension 'x^2 for x' instead of comprehension['x^2 for x'].\r\n  mt.__call = mt.__index\r\n\r\n  cache.new = new\r\n\r\n  return cache\r\nend",
+    "type": "function"
+  }, {
+    "id": 102,
+    "text": "if not env then\r\n    env = utils.getfenv(2)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 103,
+    "text": "env = utils.getfenv(2)",
+    "type": "statement:assign"
+  }, {
+    "id": 104,
+    "text": "local mt = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 105,
+    "text": "local cache = setmetatable({}, mt)",
+    "type": "statement:localassign"
+  }, {
+    "id": 106,
+    "text": "function mt:__index(expr)\r\n    local f = build_comprehension(expr, env)\r\n    self[expr] = f  -- cache\r\n    return f\r\n  end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 107,
+    "text": "local f = build_comprehension(expr, env)",
+    "type": "statement:localassign"
+  }, {
+    "id": 108,
+    "text": "self[expr] = f",
+    "type": "statement:assign"
+  }, {
+    "id": 109,
+    "text": "mt.__call = mt.__index",
+    "type": "statement:assign"
+  }, {
+    "id": 110,
+    "text": "cache.new = new",
+    "type": "statement:assign"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 112,
+    "text": "function mt:__index(expr)\r\n    local f = build_comprehension(expr, env)\r\n    self[expr] = f  -- cache\r\n    return f\r\n  end",
+    "type": "function"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 114,
+    "text": "function(u, sin)  -- strip comments/strings\r\n    if u == 'e' then stmp = stmp .. ' ' .. sin .. ' ' end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 116,
+    "text": "function(s)\r\n    local s = s:match('^_(%d+)$')\r\n    if s then max_param = math_max(max_param, tonumber(s)) end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 119,
+    "text": "local function match_bracketed(s, pos)\r\n  pos = pos or 1\r\n  local posa = pos\r\n  local ca = s:sub(pos,pos)\r\n  if not ends[ca] then\r\n    return nil, pos\r\n  end\r\n  local stack = {}\r\n  while 1 do\r\n    pos = s:find('[%(%{%[%)%}%]\\\"\\']', pos)\r\n    assert(pos, 'syntax error: unbalanced')\r\n    local c = s:sub(pos,pos)\r\n    if c == '\"' or c == \"'\" then\r\n      local part; part, pos = match_string(s, pos)\r\n      assert(part)\r\n    elseif ends[c] then -- open\r\n      local mid, posb\r\n      if c == '[' then mid, posb = s:match('^%[(=*)%[()', pos) end\r\n      if mid then\r\n        pos = s:match('%]' .. mid .. '%]()', posb)\r\n        assert(pos, 'syntax error: long string not terminated')\r\n        if #stack == 0 then\r\n          local part = s:sub(posa, pos-1)\r\n          return part, pos\r\n        end\r\n      else\r\n        stack[#stack+1] = c\r\n        pos = pos + 1\r\n      end\r\n    else -- close\r\n      assert(stack[#stack] == assert(begins[c]), 'syntax error: unbalanced')\r\n      stack[#stack] = nil\r\n      if #stack == 0 then\r\n        local part = s:sub(posa, pos)\r\n        return part, pos+1\r\n      end\r\n      pos = pos + 1\r\n    end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 120,
+    "text": "local function match_expression(s, pos)\r\n  pos = pos or 1\r\n  local posa = pos\r\n  local lastident\r\n  local poscs, posce\r\n  while pos do\r\n    local c = s:sub(pos,pos)\r\n    if c == '\"' or c == \"'\" or c == '[' and s:find('^[=%[]', pos+1) then\r\n      local part; part, pos = match_string(s, pos)\r\n      assert(part, 'syntax error')\r\n    elseif c == '-' and s:sub(pos+1,pos+1) == '-' then\r\n      -- note: handle adjacent comments in loop to properly support\r\n      -- backtracing (poscs/posce).\r\n      poscs = pos\r\n      while s:sub(pos,pos+1) == '--' do\r\n        local part; part, pos = match_comment(s, pos)\r\n        assert(part)\r\n        pos = s:match('^%s*()', pos)\r\n        posce = pos\r\n      end\r\n    elseif c == '(' or c == '{' or c == '[' then\r\n      local part; part, pos = match_bracketed(s, pos)\r\n    elseif c == '=' and s:sub(pos+1,pos+1) == '=' then\r\n      pos = pos + 2  -- skip over two-char op containing '='\r\n    elseif c == '=' and is_compare[s:sub(pos-1,pos-1)] then\r\n      pos = pos + 1  -- skip over two-char op containing '='\r\n    elseif c:match'^[%)%}%];,=]' then\r\n      local part = s:sub(posa, pos-1)\r\n      return part, pos\r\n    elseif c:match'^[%w_]' then\r\n      local newident,newpos = s:match('^([%w_]+)()', pos)\r\n      if pos ~= posa and not wordop[newident] then -- non-first ident\r\n        local pose = ((posce == pos) and poscs or pos) - 1\r\n        while s:match('^%s', pose) do pose = pose - 1 end\r\n        local ce = s:sub(pose,pose)\r\n        if ce:match'[%)%}\\'\\\"%]]' or\r\n           ce:match'[%w_]' and not wordop[lastident]\r\n        then\r\n          local part = s:sub(posa, pos-1)\r\n          return part, pos\r\n        end\r\n      end\r\n      lastident, pos = newident, newpos\r\n    else\r\n      pos = pos + 1\r\n    end\r\n    pos = s:find('[%(%{%[%)%}%]\\\"\\';,=%w_%-]', pos)\r\n  end\r\n  local part = s:sub(posa, #s)\r\n  return part, #s+1\r\nend",
+    "type": "function"
+  }, {
+    "id": 121,
+    "text": "local function match_namelist(s, pos)\r\n  pos = pos or 1\r\n  local list = {}\r\n  while 1 do\r\n    local c = #list == 0 and '^' or '^%s*,%s*'\r\n    local item, post = s:match(c .. '([%a_][%w_]*)%s*()', pos)\r\n    if item then pos = post else break end\r\n    list[#list+1] = item\r\n  end\r\n  return list, pos\r\nend",
+    "type": "function"
+  }, {
+    "id": 122,
+    "text": "local function match_explist(s, pos)\r\n  pos = pos or 1\r\n  local list = {}\r\n  while 1 do\r\n    if #list ~= 0 then\r\n      local post = s:match('^%s*,%s*()', pos)\r\n      if post then pos = post else break end\r\n    end\r\n    local item; item, pos = match_expression(s, pos)\r\n    assert(item, 'syntax error')\r\n    list[#list+1] = item\r\n  end\r\n  return list, pos\r\nend",
+    "type": "function"
+  }, {
+    "id": 123,
+    "text": "local function gsub(s, f)\r\n  local pos = 1\r\n  local posa = 1\r\n  local sret = ''\r\n  while 1 do\r\n    pos = s:find('[%-\\'\\\"%[]', pos)\r\n    if not pos then break end\r\n    if s:match('^%-%-', pos) then\r\n      local exp = s:sub(posa, pos-1)\r\n      if #exp > 0 then sret = sret .. (f('e', exp) or exp) end\r\n      local comment; comment, pos = match_comment(s, pos)\r\n      sret = sret .. (f('c', assert(comment)) or comment)\r\n      posa = pos\r\n    else\r\n      local posb = s:find('^[\\'\\\"%[]', pos)\r\n      local str\r\n      if posb then str, pos = match_string(s, posb) end\r\n      if str then\r\n        local exp = s:sub(posa, posb-1)\r\n        if #exp > 0 then sret = sret .. (f('e', exp) or exp) end\r\n        sret = sret .. (f('s', str) or str)\r\n        posa = pos\r\n      else\r\n        pos = pos + 1\r\n      end\r\n    end\r\n  end\r\n  local exp = s:sub(posa)\r\n  if #exp > 0 then sret = sret .. (f('e', exp) or exp) end\r\n  return sret\r\nend",
+    "type": "function"
+  }, {
+    "id": 124,
+    "text": "getfenv",
+    "type": "global function"
+  }, {
+    "id": 125,
+    "text": "load",
+    "type": "global function"
+  }, {
+    "id": 126,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 127,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 128,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 129,
+    "text": "table_concat",
+    "type": "global function"
+  }, {
+    "id": 130,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 131,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 132,
+    "text": "math_max",
+    "type": "global function"
+  }, {
+    "id": 133,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 134,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 135,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 136,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 138,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 139,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 140,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 141,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 142,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 143,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 144,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 145,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 146,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 147,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 148,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 149,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 150,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 151,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 152,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 153,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 154,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 155,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 156,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 157,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 158,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 159,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 160,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 161,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 162,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

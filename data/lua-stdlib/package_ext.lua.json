@@ -1,0 +1,117 @@
+{
+  "_filename": "package_ext.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-stdlib/src/package_ext.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 5,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "initializes",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "assigns",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "initializes",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "initializes",
+    "to": 12
+  }, {
+    "from": 6,
+    "label": "initializes",
+    "to": 13
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "package_ext",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 4,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

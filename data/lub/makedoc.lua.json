@@ -1,0 +1,77 @@
+{
+  "_filename": "makedoc.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lub/scripts/makedoc.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "makedoc",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "lut",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "Doc.make",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

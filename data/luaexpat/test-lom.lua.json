@@ -1,0 +1,409 @@
+{
+  "_filename": "test-lom.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luaexpat/tests/test-lom.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lom",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "test-lom",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function parse (o)\r\n  local c = { StartElement = starttag,\r\n              EndElement = endtag,\r\n              CharacterData = text,\r\n              _nonstrict = true,\r\n              stack = {{}}\r\n            }\r\n  local p = lxp.new(c)\r\n  local status, err\r\n  if type(o) == \"string\" then\r\n    status, err = p:parse(o)\r\n    if not status then return nil, err end\r\n  else\r\n    for l in pairs(o) do\r\n      status, err = p:parse(l)\r\n      if not status then return nil, err end\r\n    end\r\n  end\r\n  status, err = p:parse()\r\n  if not status then return nil, err end\r\n  p:close()\r\n  return c.stack[1][1]\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function table._tostring (tab, indent, spacing)\r\n\tlocal s = {}\r\n\tspacing = spacing or \"\"\r\n\tindent = indent or \"\\t\"\r\n    table.insert (s, \"{\\n\")\r\n    for nome, val in pairs (tab) do\r\n        table.insert (s, spacing..indent)\r\n        local t = type(nome)\r\n\t\tif t == \"string\" then\r\n            table.insert (s, string.format (\"[%q] = \", tostring (nome)))\r\n\t\telseif t == \"number\" or t == \"boolean\" then\r\n            table.insert (s, string.format (\"[%s] = \", tostring (nome)))\r\n        else\r\n            table.insert (s, t)\r\n        end\r\n        t = type(val)\r\n        if t == \"string\" or t == \"number\" then\r\n            table.insert (s, string.format (\"%q\", val))\r\n        elseif t == \"table\" then\r\n            table.insert (s, table._tostring (val, indent, spacing..indent))\r\n        else\r\n            table.insert (s, t)\r\n        end\r\n        table.insert (s, \",\\n\")\r\n    end\r\n    table.insert (s, spacing..\"}\")\r\n\treturn table.concat (s)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local s = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "spacing = spacing or \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "indent = indent or \"\\t\"",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "table.insert (s, \"{\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "for nome, val in pairs (tab) do\r\n        table.insert (s, spacing..indent)\r\n        local t = type(nome)\r\n\t\tif t == \"string\" then\r\n            table.insert (s, string.format (\"[%q] = \", tostring (nome)))\r\n\t\telseif t == \"number\" or t == \"boolean\" then\r\n            table.insert (s, string.format (\"[%s] = \", tostring (nome)))\r\n        else\r\n            table.insert (s, t)\r\n        end\r\n        t = type(val)\r\n        if t == \"string\" or t == \"number\" then\r\n            table.insert (s, string.format (\"%q\", val))\r\n        elseif t == \"table\" then\r\n            table.insert (s, table._tostring (val, indent, spacing..indent))\r\n        else\r\n            table.insert (s, t)\r\n        end\r\n        table.insert (s, \",\\n\")\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 10,
+    "text": "table.insert (s, spacing..indent)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "local t = type(nome)",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "if t == \"string\" then\r\n            table.insert (s, string.format (\"[%q] = \", tostring (nome)))\r\n\t\telseif t == \"number\" or t == \"boolean\" then\r\n            table.insert (s, string.format (\"[%s] = \", tostring (nome)))\r\n        else\r\n            table.insert (s, t)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "table.insert (s, string.format (\"[%q] = \", tostring (nome)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "table.insert (s, string.format (\"[%s] = \", tostring (nome)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "table.insert (s, t)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "t = type(val)",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "if t == \"string\" or t == \"number\" then\r\n            table.insert (s, string.format (\"%q\", val))\r\n        elseif t == \"table\" then\r\n            table.insert (s, table._tostring (val, indent, spacing..indent))\r\n        else\r\n            table.insert (s, t)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "table.insert (s, string.format (\"%q\", val))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "table.insert (s, table._tostring (val, indent, spacing..indent))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "table.insert (s, \",\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "table.insert (s, spacing..\"}\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function table.print (tab, indent, spacing)\r\n\tio.write (table._tostring (tab, indent, spacing))\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "io.write (table._tostring (tab, indent, spacing))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 28,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

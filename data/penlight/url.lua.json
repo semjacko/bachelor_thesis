@@ -1,0 +1,317 @@
+{
+  "_filename": "url.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/penlight/lua/pl/url.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 21,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 21,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 21,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "assigns",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "represents",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "provides",
+    "to": 32
+  }, {
+    "from": 33,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 29,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 29,
+    "label": "contains",
+    "to": 16
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "url",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function quote_char(c)\r\n    return string.format(\"%%%02X\", string.byte(c))\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function url.quote(s, quote_plus)\r\n    if not s or not type(s) == \"string\" then\r\n        return s\r\n    end\r\n\r\n    s = s:gsub(\"\\n\", \"\\r\\n\")\r\n    s = s:gsub(\"([^A-Za-z0-9 %-_%./])\", quote_char)\r\n    if quote_plus then\r\n        s = s:gsub(\" \", \"+\")\r\n        s = s:gsub(\"/\", quote_char)\r\n    else\r\n        s = s:gsub(\" \", \"%%20\")\r\n    end\r\n\r\n    return s\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "if not s or not type(s) == \"string\" then\r\n        return s\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "s = s:gsub(\"\\n\", \"\\r\\n\")",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "s = s:gsub(\"([^A-Za-z0-9 %-_%./])\", quote_char)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "if quote_plus then\r\n        s = s:gsub(\" \", \"+\")\r\n        s = s:gsub(\"/\", quote_char)\r\n    else\r\n        s = s:gsub(\" \", \"%%20\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "s = s:gsub(\" \", \"+\")",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "s = s:gsub(\"/\", quote_char)",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "s = s:gsub(\" \", \"%%20\")",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "local function unquote_char(h)\r\n    return string.char(tonumber(h, 16))\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function url.unquote(s)\r\n    if not s or not type(s) == \"string\" then\r\n        return s\r\n    end\r\n\r\n    s = s:gsub(\"+\", \" \")\r\n    s = s:gsub(\"%%(%x%x)\", unquote_char)\r\n    s = s:gsub(\"\\r\\n\", \"\\n\")\r\n\r\n    return s\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "s = s:gsub(\"+\", \" \")",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "s = s:gsub(\"%%(%x%x)\", unquote_char)",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "s = s:gsub(\"\\r\\n\", \"\\n\")",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 22,
+    "text": "byte",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

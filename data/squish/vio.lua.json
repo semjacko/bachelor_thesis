@@ -1,0 +1,433 @@
+{
+  "_filename": "vio.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/squish/vio/vio.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "assigns",
+    "to": 44
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "assigns",
+    "to": 46
+  }, {
+    "from": 43,
+    "label": "contains",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "vio",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function vio.open(string)\r\n\treturn setmetatable({ pos = 1, data = string }, vio);\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function vio:read(format, ...)\r\n\tif self.pos >= #self.data then return; end\r\n\tif format == \"*a\" then\r\n\t\tlocal oldpos = self.pos;\r\n\t\tself.pos = #self.data;\r\n\t\treturn self.data:sub(oldpos, self.pos);\r\n\telseif format == \"*l\" then\r\n\t\tlocal data;\r\n\t\tdata, self.pos = self.data:match(\"([^\\r\\n]*)\\r?\\n?()\", self.pos)\r\n\t\treturn data;\r\n\telseif format == \"*n\" then\r\n\t\tlocal data;\r\n\t\tdata, self.pos = self.data:match(\"(%d+)()\", self.pos)\r\n\t\treturn tonumber(data);\t\r\n\telseif type(format) == \"number\" then\r\n\t\tlocal oldpos = self.pos;\r\n\t\tself.pos = self.pos + format;\r\n\t\treturn self.data:sub(oldpos, self.pos-1);\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "if self.pos >= #self.data then return; end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "if format == \"*a\" then\r\n\t\tlocal oldpos = self.pos;\r\n\t\tself.pos = #self.data;\r\n\t\treturn self.data:sub(oldpos, self.pos);\r\n\telseif format == \"*l\" then\r\n\t\tlocal data;\r\n\t\tdata, self.pos = self.data:match(\"([^\\r\\n]*)\\r?\\n?()\", self.pos)\r\n\t\treturn data;\r\n\telseif format == \"*n\" then\r\n\t\tlocal data;\r\n\t\tdata, self.pos = self.data:match(\"(%d+)()\", self.pos)\r\n\t\treturn tonumber(data);\t\r\n\telseif type(format) == \"number\" then\r\n\t\tlocal oldpos = self.pos;\r\n\t\tself.pos = self.pos + format;\r\n\t\treturn self.data:sub(oldpos, self.pos-1);\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "local oldpos = self.pos",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "self.pos = #self.data",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "local data",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "data, self.pos = self.data:match(\"([^\\r\\n]*)\\r?\\n?()\", self.pos)",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "data, self.pos = self.data:match(\"(%d+)()\", self.pos)",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "self.pos = self.pos + format",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function vio:seek(whence, offset)\r\n\tif type(whence) == \"number\" then\r\n\t\twhence, offset = \"cur\", whence;\r\n\tend\r\n\toffset = offset or 0;\r\n\t\r\n\tif whence == \"cur\" then\r\n\t\tself.pos = self.pos + offset;\r\n\telseif whence == \"set\" then\r\n\t\tself.pos = offset + 1;\r\n\telseif whence == \"end\" then\r\n\t\tself.pos = #self.data - offset;\r\n\tend\r\n\t\r\n\treturn self.pos;\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "if type(whence) == \"number\" then\r\n\t\twhence, offset = \"cur\", whence;\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "whence, offset = \"cur\", whence",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "offset = offset or 0",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "if whence == \"cur\" then\r\n\t\tself.pos = self.pos + offset;\r\n\telseif whence == \"set\" then\r\n\t\tself.pos = offset + 1;\r\n\telseif whence == \"end\" then\r\n\t\tself.pos = #self.data - offset;\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "self.pos = self.pos + offset",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "self.pos = offset + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "self.pos = #self.data - offset",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "local function _readline(f) return f:read(\"*l\"); end",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "function vio:lines()\r\n\treturn _readline, self;\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function vio:write(...)\r\n\tfor i=1,select('#', ...) do\r\n\t\tlocal dat = tostring(select(i, ...));\r\n\t\tself.data = self.data:sub(1, self.pos-1)..dat..self.data:sub(self.pos+#dat, -1);\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "for i=1,select('#', ...) do\r\n\t\tlocal dat = tostring(select(i, ...));\r\n\t\tself.data = self.data:sub(1, self.pos-1)..dat..self.data:sub(self.pos+#dat, -1);\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 29,
+    "text": "local dat = tostring(select(i, ...))",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "self.data = self.data:sub(1, self.pos-1)..dat..self.data:sub(self.pos+#dat, -1)",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function vio:close()\r\n\tself.pos, self.data = nil, nil;\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "self.pos, self.data = nil, nil",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 36,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

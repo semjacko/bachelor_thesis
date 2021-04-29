@@ -1,0 +1,309 @@
+{
+  "_filename": "trace-globals.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lualnum/test/trace-globals.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 34
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "trace-globals",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function(a)\r\n  if type(a)==\"string\" then\r\n   return string.format(\"%q\",a)\r\n  else\r\n   return _tostring(a)\r\n  end\r\n end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "if type(a)==\"string\" then\r\n   return string.format(\"%q\",a)\r\n  else\r\n   return _tostring(a)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function (name,old,new)\r\n  local t=debug.getinfo(3,\"Sl\")\r\n  local line=t.currentline\r\n  io.write(t.short_src)\r\n  if line>=0 then io.write(\":\",line) end\r\n  io.write(\": \",name,\" is now \",tostring(new),\" (was \",tostring(old),\")\",\"\\n\")\r\n end",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local t=debug.getinfo(3,\"Sl\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local line=t.currentline",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "io.write(t.short_src)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "if line>=0 then io.write(\":\",line) end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "io.write(\":\",line)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "io.write(\": \",name,\" is now \",tostring(new),\" (was \",tostring(old),\")\",\"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function (t,name,value)\r\n  log(name,g[name],value)\r\n  g[name]=value\r\n end",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "log(name,g[name],value)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "g[name]=value",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 19,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "getinfo",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "_tostring",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "getfenv",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

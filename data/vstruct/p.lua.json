@@ -1,0 +1,209 @@
+{
+  "_filename": "p.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io/p.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "represents",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "provides",
+    "to": 21
+  }, {
+    "from": 17,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 17,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 17,
+    "label": "contains",
+    "to": 9
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "p",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function p.width(width, frac)\r\n    assert(width*8 >= frac, \"fixed point number has more fractional bits than total bits\")\r\n    \r\n    return width\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "assert(width*8 >= frac, \"fixed point number has more fractional bits than total bits\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function p.unpack(fd, buf, width, frac)\r\n    return io(\"i\", \"unpack\", fd, buf, width)/(2^frac)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function p.pack(fd, data, width, frac)\r\n    return io(\"i\", \"pack\", fd, data * 2^frac, width)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 12,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "io",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "interface"
+  } ]
+}

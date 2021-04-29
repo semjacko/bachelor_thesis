@@ -1,0 +1,385 @@
+{
+  "_filename": "cl_random_seed.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/cl_random_seed.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 34
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 8,
+    "label": "hasArgument",
+    "to": 2
+  }, {
+    "from": 24,
+    "label": "hasArgument",
+    "to": 10
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cl_random_seed",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function()\r\n      table.insert(order, i)\r\n    end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "table.insert(order, i)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function()\r\n  randomize()\r\n\r\n  for i = 1, 10 do\r\n    it('does 10 its', function()\r\n      table.insert(order, i)\r\n    end)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "randomize()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "for i = 1, 10 do\r\n    it('does 10 its', function()\r\n      table.insert(order, i)\r\n    end)\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 8,
+    "text": "it('does 10 its', function()\r\n      table.insert(order, i)\r\n    end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function()\r\n    math.randomseed(12345)\r\n    local t = {}\r\n    for i = 1, 10 do\r\n      table.insert(t, i)\r\n    end\r\n    local n = #t\r\n    while n >= 1 do\r\n      local k = math.random(n)\r\n      t[n], t[k] = t[k], t[n]\r\n      n = n - 1\r\n    end\r\n    local expected = t\r\n    assert.are.same(expected, order)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "math.randomseed(12345)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "local t = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "for i = 1, 10 do\r\n      table.insert(t, i)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 14,
+    "text": "table.insert(t, i)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "local n = #t",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "while n >= 1 do\r\n      local k = math.random(n)\r\n      t[n], t[k] = t[k], t[n]\r\n      n = n - 1\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 17,
+    "text": "local k = math.random(n)",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "t[n], t[k] = t[k], t[n]",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "n = n - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "local expected = t",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "assert.are.same(expected, order)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function()\r\n  randomize()\r\n\r\n  it('randomized with known random seed', function()\r\n    math.randomseed(12345)\r\n    local t = {}\r\n    for i = 1, 10 do\r\n      table.insert(t, i)\r\n    end\r\n    local n = #t\r\n    while n >= 1 do\r\n      local k = math.random(n)\r\n      t[n], t[k] = t[k], t[n]\r\n      n = n - 1\r\n    end\r\n    local expected = t\r\n    assert.are.same(expected, order)\r\n  end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "it('randomized with known random seed', function()\r\n    math.randomseed(12345)\r\n    local t = {}\r\n    for i = 1, 10 do\r\n      table.insert(t, i)\r\n    end\r\n    local n = #t\r\n    while n >= 1 do\r\n      local k = math.random(n)\r\n      t[n], t[k] = t[k], t[n]\r\n      n = n - 1\r\n    end\r\n    local expected = t\r\n    assert.are.same(expected, order)\r\n  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 27,
+    "text": "random",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "it",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "describe",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "randomseed",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "assert.are.same",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "randomize",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "tableconstructor"
+  } ]
+}

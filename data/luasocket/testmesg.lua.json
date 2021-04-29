@@ -1,0 +1,385 @@
+{
+  "_filename": "testmesg.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasocket/test/testmesg.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 36
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "assigns",
+    "to": 38
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 41
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "requires",
+    "to": 21
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "requires",
+    "to": 20
+  }, {
+    "from": 22,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 23,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 24,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 25,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 27,
+    "label": "contains",
+    "to": 5
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "testmesg",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function filter.chain(...)\r\n    local arg = {...}\r\n    local n = select('#',...)\r\n    local top, index = 1, 1\r\n    local retry = \"\"\r\n    return function(chunk)\r\n        retry = chunk and retry\r\n        while true do\r\n            if index == top then\r\n                chunk = arg[index](chunk)\r\n                if chunk == \"\" or top == n then return chunk\r\n                elseif chunk then index = index + 1\r\n                else\r\n                    top = top+1\r\n                    index = top\r\n                end\r\n            else\r\n                chunk = arg[index](chunk or \"\")\r\n                if chunk == \"\" then\r\n                    index = index - 1\r\n                    chunk = retry\r\n                elseif chunk then\r\n                    if index == n then return chunk\r\n                    else index = index + 1 end\r\n                else base.error(\"filter returned inappropriate nil\") end\r\n            end\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function source.file(handle, io_err)\r\n    if handle then\r\n        return function()\r\n            local chunk = handle:read(_M.BLOCKSIZE)\r\n            if not chunk then handle:close() end\r\n            return chunk\r\n        end\r\n    else return source.error(io_err or \"unable to open file\") end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function source.chain(src, f)\r\n    base.assert(src and f)\r\n    local last_in, last_out = \"\", \"\"\r\n    local state = \"feeding\"\r\n    local err\r\n    return function()\r\n        if not last_out then\r\n            base.error('source is empty!', 2)\r\n        end\r\n        while true do\r\n            if state == \"feeding\" then\r\n                last_in, err = src()\r\n                if err then return nil, err end\r\n                last_out = f(last_in)\r\n                if not last_out then\r\n                    if last_in then\r\n                        base.error('filter returned inappropriate nil')\r\n                    else\r\n                        return nil\r\n                    end\r\n                elseif last_out ~= \"\" then\r\n                    state = \"eating\"\r\n                    if last_in then last_in = \"\" end\r\n                    return last_out\r\n                end\r\n            else\r\n                last_out = f(last_in)\r\n                if last_out == \"\" then\r\n                    if last_in == \"\" then\r\n                        state = \"feeding\"\r\n                    else\r\n                        base.error('filter returned \"\"')\r\n                    end\r\n                elseif not last_out then\r\n                    if last_in then\r\n                        base.error('filter returned inappropriate nil')\r\n                    else\r\n                        return nil\r\n                    end\r\n                else\r\n                    return last_out\r\n                end\r\n            end\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function filter(s)\r\n    if s then io.write(s) end\r\n    return s\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "if s then io.write(s) end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "io.write(s)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "send",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "message",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "encode",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "eol",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "wrap",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "(ltn12)",
+    "type": "module"
+  }, {
+    "id": 21,
+    "text": "(mime)",
+    "type": "module"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 41,
+    "text": "smtp)",
+    "type": "module"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,613 @@
+{
+  "_filename": "lunit-console.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-memoryfile/lunit-console.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 39
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 60
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 61
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "assigns",
+    "to": 63
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "assigns",
+    "to": 65
+  }, {
+    "from": 61,
+    "label": "initializes",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 67,
+    "label": "initializes",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 68,
+    "label": "initializes",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 69,
+    "label": "initializes",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lunit-console",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "lunit",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "memoryfile-test",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "local function printformat(format, ...)\r\n  io.write( string.format(format, ...) )\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "io.write( string.format(format, ...) )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "local function writestatus(char)\r\n  if columns_printed == 0 then\r\n    io.write(\"    \")\r\n  end\r\n  if columns_printed == 60 then\r\n    io.write(\"\\n    \")\r\n    columns_printed = 0\r\n  end\r\n  io.write(char)\r\n  io.flush()\r\n  columns_printed = columns_printed + 1\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "if columns_printed == 0 then\r\n    io.write(\"    \")\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "io.write(\"    \")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "if columns_printed == 60 then\r\n    io.write(\"\\n    \")\r\n    columns_printed = 0\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "io.write(\"\\n    \")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "columns_printed = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "io.write(char)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "io.flush()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "columns_printed = columns_printed + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function begin()\r\n  local total_tc = 0\r\n  local total_tests = 0\r\n\r\n  for tcname in lunit.testcases() do\r\n    total_tc = total_tc + 1\r\n    for testname, test in lunit.tests(tcname) do\r\n      total_tests = total_tests + 1\r\n    end\r\n  end\r\n\r\n  printformat(\"Loaded testsuite with %d tests in %d testcases.\\n\\n\", total_tests, total_tc)\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "local total_tc = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "local total_tests = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "for tcname in lunit.testcases() do\r\n    total_tc = total_tc + 1\r\n    for testname, test in lunit.tests(tcname) do\r\n      total_tests = total_tests + 1\r\n    end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 21,
+    "text": "total_tc = total_tc + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "for testname, test in lunit.tests(tcname) do\r\n      total_tests = total_tests + 1\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 23,
+    "text": "total_tests = total_tests + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "printformat(\"Loaded testsuite with %d tests in %d testcases.\\n\\n\", total_tests, total_tc)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function run(testcasename, testname)\r\n  -- NOP\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function err(fullname, message, traceback)\r\n  writestatus(\"E\")\r\n  msgs[#msgs+1] = \"Error! (\"..fullname..\"):\\n\"..message..\"\\n\\t\"..table.concat(traceback, \"\\n\\t\") .. \"\\n\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "writestatus(\"E\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "msgs[#msgs+1] = \"Error! (\"..fullname..\"):\\n\"..message..\"\\n\\t\"..table.concat(traceback, \"\\n\\t\") .. \"\\n\"",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function fail(fullname, where, message, usermessage)\r\n  writestatus(\"F\")\r\n  local text =  \"Failure (\"..fullname..\"):\\n\"..\r\n                where..\": \"..message..\"\\n\"\r\n\r\n  if usermessage then\r\n    text = text .. where..\": \"..usermessage..\"\\n\"\r\n  end\r\n\r\n  msgs[#msgs+1] = text\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "writestatus(\"F\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 34,
+    "text": "local text =  \"Failure (\"..fullname..\"):\\n\"..\r\n                where..\": \"..message..\"\\n\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 35,
+    "text": "if usermessage then\r\n    text = text .. where..\": \"..usermessage..\"\\n\"\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "text = text .. where..\": \"..usermessage..\"\\n\"",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "msgs[#msgs+1] = text",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 39,
+    "text": "function pass(testcasename, testname)\r\n  writestatus(\".\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 40,
+    "text": "writestatus(\".\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function done()\r\n  printformat(\"\\n\\n%d Assertions checked.\\n\", lunit.stats.assertions )\r\n  print()\r\n\r\n  for i, msg in ipairs(msgs) do\r\n    printformat( \"%3d) %s\\n\", i, msg )\r\n  end\r\n\r\n  printformat(\"Testsuite finished (%d passed, %d failed, %d errors).\\n\",\r\n      lunit.stats.passed, lunit.stats.failed, lunit.stats.errors )\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "printformat(\"\\n\\n%d Assertions checked.\\n\", lunit.stats.assertions )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "print()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "for i, msg in ipairs(msgs) do\r\n    printformat( \"%3d) %s\\n\", i, msg )\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 46,
+    "text": "printformat( \"%3d) %s\\n\", i, msg )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 47,
+    "text": "printformat(\"Testsuite finished (%d passed, %d failed, %d errors).\\n\",\r\n      lunit.stats.passed, lunit.stats.failed, lunit.stats.errors )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 50,
+    "text": "tests",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "testcases",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "flush",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "require container"
+  } ]
+}

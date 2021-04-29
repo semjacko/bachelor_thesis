@@ -1,0 +1,745 @@
+{
+  "_filename": "wmi_obj.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luacom/demo/wmi/wmi_obj.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 50
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 53
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 60
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 71
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 72
+  }, {
+    "from": 71,
+    "label": "initializes",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "assigns",
+    "to": 74
+  }, {
+    "from": 71,
+    "label": "initializes",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "assigns",
+    "to": 76
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 70
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "wmi_obj",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function (self)\r\n    o = {}\r\n    setmetatable (o,self)\r\n    self.__index = self\r\n    return o\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "o = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "setmetatable (o,self)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "self.__index = self",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function (self,computer,user,password)\r\n    computer = computer or \".\"\r\n\r\n    if not user then\r\n      self.oWMIService = luacom.GetObject (\"winmgmts:{impersonationLevel=Impersonate}!\\\\\\\\\" ..computer.. \"\\\\root\\\\cimv2\")\r\n    else\r\n      self.oWMIService = luacom.GetObject ( \"winmgmts:\\\\\\\\\" ..computer.. \"\\\\root\\\\cimv2\",user,password)\r\n    end\r\n\r\n    if not self.oWMIService then\r\n      return nil,\"Failed to connect to computer \"..computer\r\n    end\r\n\r\n    --refresher\r\n    self.oRefresher = luacom.CreateObject (\"WbemScripting.SWbemRefresher\")\r\n    self.oRefresher.AutoReconnect = 1\r\n\r\n    -- processor\r\n    self.refobjProcessor = self.oRefresher:AddEnum(self.oWMIService,\"Win32_PerfFormattedData_PerfOS_Processor\").ObjectSet\r\n\r\n    -- memory\r\n    self.refobjMemory = self.oRefresher:AddEnum(self.oWMIService,\"Win32_PerfFormattedData_PerfOS_Memory\").ObjectSet\r\n\r\n    --drive\r\n    self.refobjDisk = self.oRefresher:AddEnum(self.oWMIService,\"Win32_PerfFormattedData_PerfDisk_LogicalDisk\").ObjectSet\r\n \r\n    --network\r\n    self.refobjNetwork = self.oRefresher:AddEnum(self.oWMIService,\"Win32_PerfFormattedData_Tcpip_NetworkInterface\").ObjectSet\r\n    self.oRefresher:Refresh ()\r\n\r\n    local cWMISettings = self.oWMIService:ExecQuery (\"Select * from Win32_WMISetting\")\r\n\r\n    for index,item in luacomE.pairs (cWMISettings) do\r\n      self.ver = item:BuildVersion ()\r\n    end\r\n\r\n    return self.ver\r\n  end",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "computer = computer or \".\"",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "if not user then\r\n      self.oWMIService = luacom.GetObject (\"winmgmts:{impersonationLevel=Impersonate}!\\\\\\\\\" ..computer.. \"\\\\root\\\\cimv2\")\r\n    else\r\n      self.oWMIService = luacom.GetObject ( \"winmgmts:\\\\\\\\\" ..computer.. \"\\\\root\\\\cimv2\",user,password)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "self.oWMIService = luacom.GetObject (\"winmgmts:{impersonationLevel=Impersonate}!\\\\\\\\\" ..computer.. \"\\\\root\\\\cimv2\")",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "self.oWMIService = luacom.GetObject ( \"winmgmts:\\\\\\\\\" ..computer.. \"\\\\root\\\\cimv2\",user,password)",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "if not self.oWMIService then\r\n      return nil,\"Failed to connect to computer \"..computer\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "self.oRefresher = luacom.CreateObject (\"WbemScripting.SWbemRefresher\")",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "self.oRefresher.AutoReconnect = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "self.refobjProcessor = self.oRefresher:AddEnum(self.oWMIService,\"Win32_PerfFormattedData_PerfOS_Processor\").ObjectSet",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "self.refobjMemory = self.oRefresher:AddEnum(self.oWMIService,\"Win32_PerfFormattedData_PerfOS_Memory\").ObjectSet",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "self.refobjDisk = self.oRefresher:AddEnum(self.oWMIService,\"Win32_PerfFormattedData_PerfDisk_LogicalDisk\").ObjectSet",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "self.refobjNetwork = self.oRefresher:AddEnum(self.oWMIService,\"Win32_PerfFormattedData_Tcpip_NetworkInterface\").ObjectSet",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "self.oRefresher:Refresh ()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "local cWMISettings = self.oWMIService:ExecQuery (\"Select * from Win32_WMISetting\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "for index,item in luacomE.pairs (cWMISettings) do\r\n      self.ver = item:BuildVersion ()\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 23,
+    "text": "self.ver = item:BuildVersion ()",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function (self)\r\n    self.oRefresher:Refresh ()\r\n    for index,item in luacomE.pairs (self.refobjProcessor) do\r\n      if item:Name () == \"_Total\" then\r\n        return item:PercentProcessorTime ()\r\n      end\r\n    end\r\n    return 0\r\n  end",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "for index,item in luacomE.pairs (self.refobjProcessor) do\r\n      if item:Name () == \"_Total\" then\r\n        return item:PercentProcessorTime ()\r\n      end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 27,
+    "text": "if item:Name () == \"_Total\" then\r\n        return item:PercentProcessorTime ()\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "function (self)\r\n    local x\r\n    self.oRefresher:Refresh ()\r\n    for index,item in luacomE.pairs (self.refobjMemory) do\r\n      x = item:AvailableMBytes ()\r\n    end\r\n    return x or 0\r\n  end",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "local x",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "for index,item in luacomE.pairs (self.refobjMemory) do\r\n      x = item:AvailableMBytes ()\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 32,
+    "text": "x = item:AvailableMBytes ()",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "function (self,drive)\r\n    local x,y\r\n    self.oRefresher:Refresh ()\r\n    for index,item in luacomE.pairs (self.refobjDisk) do\r\n      if item:Name () == drive then\r\n        x = item:FreeMegaBytes ()\r\n        y = item:PercentFreeSpace ()\r\n        return x,y\r\n      end\r\n    end\r\n    return 0,0\r\n  end",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "local x,y",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "for index,item in luacomE.pairs (self.refobjDisk) do\r\n      if item:Name () == drive then\r\n        x = item:FreeMegaBytes ()\r\n        y = item:PercentFreeSpace ()\r\n        return x,y\r\n      end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 37,
+    "text": "if item:Name () == drive then\r\n        x = item:FreeMegaBytes ()\r\n        y = item:PercentFreeSpace ()\r\n        return x,y\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "x = item:FreeMegaBytes ()",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "y = item:PercentFreeSpace ()",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 41,
+    "text": "function (self)\r\n    local item,BpsSent,BpsRec,BpsTot,bpsBandwidth\r\n    BpsSent,BpsRec,BpsTot,bpsBandwidth = 0,0,0,0\r\n    for index,item in luacomE.pairs (self.refobjNetwork) do\r\n      BpsRec = BpsRec + item:BytesReceivedPerSec()\r\n      BpsSent = BpsSent + item:BytesSentPerSec()\r\n      BpsTot = BpsTot + item:BytesTotalPerSec()\r\n      bpsBandwidth = bpsBandwidth + item:CurrentBandwidth()\r\n    end\r\n    return BpsSent,BpsRec,BpsTot,bpsBandwidth   \r\n  end",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "local item,BpsSent,BpsRec,BpsTot,bpsBandwidth",
+    "type": "statement:localassign"
+  }, {
+    "id": 43,
+    "text": "BpsSent,BpsRec,BpsTot,bpsBandwidth = 0,0,0,0",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "for index,item in luacomE.pairs (self.refobjNetwork) do\r\n      BpsRec = BpsRec + item:BytesReceivedPerSec()\r\n      BpsSent = BpsSent + item:BytesSentPerSec()\r\n      BpsTot = BpsTot + item:BytesTotalPerSec()\r\n      bpsBandwidth = bpsBandwidth + item:CurrentBandwidth()\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 45,
+    "text": "BpsRec = BpsRec + item:BytesReceivedPerSec()",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "BpsSent = BpsSent + item:BytesSentPerSec()",
+    "type": "statement:assign"
+  }, {
+    "id": 47,
+    "text": "BpsTot = BpsTot + item:BytesTotalPerSec()",
+    "type": "statement:assign"
+  }, {
+    "id": 48,
+    "text": "bpsBandwidth = bpsBandwidth + item:CurrentBandwidth()",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 50,
+    "text": "function (self,Process)\r\n    local objProcess = self.oWMIService:Get(\"Win32_Process\")\r\n    return objProcess:Create (Process,nil,nil,nil)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 51,
+    "text": "local objProcess = self.oWMIService:Get(\"Win32_Process\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 53,
+    "text": "function (self,Process)\r\n    local colProcesses = self.oWMIService:ExecQuery(\"select * from Win32_Process where Name=\\\"\"..Process..\"\\\"\",nil,48)\r\n    local i\r\n    for index,item in luacomE.pairs (colProcesses) do \r\n      i = (i or 0) + 1\r\n      item:Terminate ()\r\n    end\r\n    return i\r\n  end",
+    "type": "function"
+  }, {
+    "id": 54,
+    "text": "local colProcesses = self.oWMIService:ExecQuery(\"select * from Win32_Process where Name=\\\"\"..Process..\"\\\"\",nil,48)",
+    "type": "statement:localassign"
+  }, {
+    "id": 55,
+    "text": "local i",
+    "type": "statement:localassign"
+  }, {
+    "id": 56,
+    "text": "for index,item in luacomE.pairs (colProcesses) do \r\n      i = (i or 0) + 1\r\n      item:Terminate ()\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 57,
+    "text": "i = (i or 0) + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "item:Terminate ()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 60,
+    "text": "function (self,Process)\r\n    local colProcesses = self.oWMIService:ExecQuery(\"select * from Win32_Process where Name=\\\"\"..Process..\"\\\"\",nil,48)\r\n    local i\r\n    for index,item in luacomE.pairs (colProcesses) do\r\n      i = (i or 0) + 1\r\n    end\r\n   return i\r\n  end",
+    "type": "function"
+  }, {
+    "id": 61,
+    "text": "for index,item in luacomE.pairs (colProcesses) do\r\n      i = (i or 0) + 1\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 64,
+    "text": "GetObject",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "CreateObject",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 68,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 69,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

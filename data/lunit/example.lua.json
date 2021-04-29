@@ -1,0 +1,337 @@
+{
+  "_filename": "example.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lunit/example.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "example",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "lunit",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function test_success()\r\n  assert_true( true, \"This test never fails.\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "assert_true( true, \"This test never fails.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function test_failure()\r\n  assert_true( false, \"This test always fails!\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "assert_true( false, \"This test always fails!\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function setup()\r\n  foobar = \"Hello World\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "foobar = \"Hello World\"",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function teardown()\r\n  foobar = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "foobar = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function test1()\r\n  assert_equal(\"Hello World\", foobar)\r\n  foobar = string.sub(foobar, 1, 5)\r\n  assert_equal(\"Hello\", foobar)\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "assert_equal(\"Hello World\", foobar)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "foobar = string.sub(foobar, 1, 5)",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "assert_equal(\"Hello\", foobar)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function test2()\r\n  assert_equal(\"Hello World\", foobar)\r\n  foobar = string.sub(foobar, -5)\r\n  assert_equal(\"World\", foobar)\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "foobar = string.sub(foobar, -5)",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "assert_equal(\"World\", foobar)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 25,
+    "text": "assert_equal",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "assert_true",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "keyword"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require container"
+  } ]
+}

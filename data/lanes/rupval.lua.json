@@ -1,0 +1,297 @@
+{
+  "_filename": "rupval.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lanes/tests/rupval.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "assigns",
+    "to": 23
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "assigns",
+    "to": 26
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "assigns",
+    "to": 28
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "assigns",
+    "to": 30
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "assigns",
+    "to": 32
+  }, {
+    "from": 17,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 18,
+    "label": "contains",
+    "to": 10
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "rupval",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function( ...)\r\n\t-- aggregrate all strings together, separated by \",\" as well as tables\r\n\t-- the strings are a list of libraries to open\r\n\t-- the tables contain the lane options\r\n\tlocal opt = {}\r\n\tlocal libs = nil\r\n\r\n\tlocal n = select( '#', ...)\r\n\r\n\t-- we need at least a function\r\n\tif n == 0 then\r\n\t\terror( \"No parameters!\", 2)\r\n\tend\r\n\r\n\t-- all arguments but the last must be nil, strings, or tables\r\n\tfor i = 1, n - 1 do\r\n\t\tlocal v = select( i, ...)\r\n\t\tlocal tv = type( v)\r\n\t\tif tv == \"string\" then\r\n\t\t\tlibs = libs and libs .. \",\" .. v or v\r\n\t\telseif tv == \"table\" then\r\n\t\t\tfor k, vv in pairs( v) do\r\n\t\t\t\topt[k]= vv\r\n\t\t\tend\r\n\t\telseif v == nil then\r\n\t\t\t-- skip\r\n\t\telse\r\n\t\t\terror( \"Bad parameter \" .. i .. \": \" .. tv .. \" \" .. string_format( \"%q\", tostring( v)), 2)\r\n\t\tend\r\n\tend\r\n\r\n\t-- the last argument should be a function or a string\r\n\tlocal func = select( n, ...)\r\n\tlocal functype = type( func)\r\n\tif functype ~= \"function\" and functype ~= \"string\" then\r\n\t\terror( \"Last parameter not function or string: \" .. functype .. \" \" .. string_format( \"%q\", tostring( func)), 2)\r\n\tend\r\n\r\n\t-- check that the caller only provides reserved library names, and those only once\r\n\t-- \"*\" is a special case that doesn't require individual checking\r\n\tif libs and libs ~= \"*\" then\r\n\t\tlocal found = {}\r\n\t\tfor s in string_gmatch(libs, \"[%a%d.]+\") do\r\n\t\t\tif not valid_libs[s] then\r\n\t\t\t\terror( \"Bad library name: \" .. s, 2)\r\n\t\t\telse\r\n\t\t\t\tfound[s] = (found[s] or 0) + 1\r\n\t\t\t\tif found[s] > 1 then\r\n\t\t\t\t\terror( \"libs specification contains '\" .. s .. \"' more than once\", 2)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\r\n\t-- validate that each option is known and properly valued\r\n\tfor k, v in pairs( opt) do\r\n\t\tlocal validator = opt_validators[k]\r\n\t\tif not validator then\r\n\t\t\terror( (type( k) == \"number\" and \"Unkeyed option: \" .. type( v) .. \" \" .. string_format( \"%q\", tostring( v)) or \"Bad '\" .. tostring( k) .. \"' option\"), 2)\r\n\t\telse\r\n\t\t\topt[k] = validator( v)\r\n\t\tend\r\n\tend\r\n\r\n\tlocal cancelstep, priority, globals, package, required, gc_cb = opt.cancelstep, opt.priority, opt.globals, opt.package or package, opt.required, opt.gc_cb\r\n\treturn function( ...)\r\n\t\t-- must pass functions args last else they will be truncated to the first one\r\n\t\treturn core_lane_new( func, libs, cancelstep, priority, globals, package, required, gc_cb, ...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function( n)\r\n  print( \"a\", n)\r\n\treturn n <= 0 and n or b( n-1)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "print( \"a\", n)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function( n)\r\n\tprint( \"b\", n)\r\n\treturn n <= 0 and n or c( n-1)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "print( \"b\", n)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function( n)\r\n\tprint( \"c\", n)\r\n\treturn n <= 0 and n or a( n-1)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "print( \"c\", n)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 14,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "g",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

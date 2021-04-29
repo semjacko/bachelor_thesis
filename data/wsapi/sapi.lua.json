@@ -1,0 +1,441 @@
+{
+  "_filename": "sapi.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wsapi/src/wsapi/sapi.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 45,
+    "label": "initializes",
+    "to": 43
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "sapi",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function run(wsapi_env)\r\n  _G.CGILUA_APPS = _G.CGILUA_APPS or wsapi_env.DOCUMENT_ROOT .. \"/cgilua\"\r\n  _G.CGILUA_CONF = _G.CGILUA_CONF or wsapi_env.DOCUMENT_ROOT .. \"/cgilua\"\r\n  _G.CGILUA_TMP = _G.CGILUA_TMP or os.getenv(\"TMP\") or os.getenv(\"TEMP\") or \"/tmp\"\r\n  _G.CGILUA_ISDIRECT = true\r\n\r\n  local res = wsapi.response.new()\r\n\r\n  _G.SAPI = {\r\n    Info =  {\r\n      _COPYRIGHT = \"Copyright (C) 2007 Kepler Project\",\r\n      _DESCRIPTION = \"WSAPI SAPI implementation\",\r\n      _VERSION = \"WSAPI SAPI 1.0\",\r\n      ispersistent = false,\r\n    },\r\n    Request = {\r\n      servervariable = function (name) return wsapi_env[name] end,\r\n      getpostdata = function (n) return wsapi_env.input:read(n) end\r\n    },\r\n    Response = {\r\n      contenttype = function (header)\r\n        res:content_type(header)\r\n      end,\r\n      errorlog = function (msg, errlevel)\r\n        wsapi_env.error:write (msg)\r\n      end,\r\n      header = function (header, value)\r\n        if res.headers[header] then\r\n          if type(res.headers[header]) == \"table\" then\r\n            table.insert(res.headers[header], value)\r\n          else\r\n            res.headers[header] = { res.headers[header], value }\r\n          end\r\n        else\r\n          res.headers[header] = value\r\n        end\r\n      end,\r\n      redirect = function (url)\r\n        res.status = 302\r\n        res.headers[\"Location\"] = url\r\n      end,\r\n      write = function (...)\r\n        res:write({...})\r\n      end,\r\n    },\r\n  }\r\n  require\"cgilua\"\r\n  cgilua.main()\r\n  return res:finish()\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "_G.CGILUA_APPS = _G.CGILUA_APPS or wsapi_env.DOCUMENT_ROOT .. \"/cgilua\"",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "_G.CGILUA_CONF = _G.CGILUA_CONF or wsapi_env.DOCUMENT_ROOT .. \"/cgilua\"",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "_G.CGILUA_TMP = _G.CGILUA_TMP or os.getenv(\"TMP\") or os.getenv(\"TEMP\") or \"/tmp\"",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "_G.CGILUA_ISDIRECT = true",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "local res = wsapi.response.new()",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "_G.SAPI = {\r\n    Info =  {\r\n      _COPYRIGHT = \"Copyright (C) 2007 Kepler Project\",\r\n      _DESCRIPTION = \"WSAPI SAPI implementation\",\r\n      _VERSION = \"WSAPI SAPI 1.0\",\r\n      ispersistent = false,\r\n    },\r\n    Request = {\r\n      servervariable = function (name) return wsapi_env[name] end,\r\n      getpostdata = function (n) return wsapi_env.input:read(n) end\r\n    },\r\n    Response = {\r\n      contenttype = function (header)\r\n        res:content_type(header)\r\n      end,\r\n      errorlog = function (msg, errlevel)\r\n        wsapi_env.error:write (msg)\r\n      end,\r\n      header = function (header, value)\r\n        if res.headers[header] then\r\n          if type(res.headers[header]) == \"table\" then\r\n            table.insert(res.headers[header], value)\r\n          else\r\n            res.headers[header] = { res.headers[header], value }\r\n          end\r\n        else\r\n          res.headers[header] = value\r\n        end\r\n      end,\r\n      redirect = function (url)\r\n        res.status = 302\r\n        res.headers[\"Location\"] = url\r\n      end,\r\n      write = function (...)\r\n        res:write({...})\r\n      end,\r\n    },\r\n  }",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "res:content_type(header)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "wsapi_env.error:write (msg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "if res.headers[header] then\r\n          if type(res.headers[header]) == \"table\" then\r\n            table.insert(res.headers[header], value)\r\n          else\r\n            res.headers[header] = { res.headers[header], value }\r\n          end\r\n        else\r\n          res.headers[header] = value\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "if type(res.headers[header]) == \"table\" then\r\n            table.insert(res.headers[header], value)\r\n          else\r\n            res.headers[header] = { res.headers[header], value }\r\n          end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "table.insert(res.headers[header], value)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "res.headers[header] = { res.headers[header], value }",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "res.headers[header] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "res.status = 302",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "res.headers[\"Location\"] = url",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "res:write({...})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "require\"cgilua\"",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "cgilua.main()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function (name) return wsapi_env[name] end",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "function (n) return wsapi_env.input:read(n) end",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "function (header)\r\n        res:content_type(header)\r\n      end",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function (msg, errlevel)\r\n        wsapi_env.error:write (msg)\r\n      end",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "function (header, value)\r\n        if res.headers[header] then\r\n          if type(res.headers[header]) == \"table\" then\r\n            table.insert(res.headers[header], value)\r\n          else\r\n            res.headers[header] = { res.headers[header], value }\r\n          end\r\n        else\r\n          res.headers[header] = value\r\n        end\r\n      end",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function (url)\r\n        res.status = 302\r\n        res.headers[\"Location\"] = url\r\n      end",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "function (...)\r\n        res:write({...})\r\n      end",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 36,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "main",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "getenv",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "require container"
+  } ]
+}

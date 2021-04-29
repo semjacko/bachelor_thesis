@@ -1,0 +1,241 @@
+{
+  "_filename": "bin2c.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luacom/mak/bin2c.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 7,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "assigns",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "assigns",
+    "to": 23
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "assigns",
+    "to": 25
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 26
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "bin2c",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function boilerplate(fmt)\r\n  return string.format(fmt,\r\n    status and \"(\"..status..\"=\" or \"\",\r\n    filename,\r\n    status and \")\" or \"\",\r\n    status and status..\"=\" or \"\",\r\n    filename)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function dump(str)\r\n    return (str:gsub(\".\", numtab):gsub((\".\"):rep(80), \"%0\\n\"))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 8,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "dump",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "loadfile",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  } ]
+}

@@ -1,0 +1,205 @@
+{
+  "_filename": "ex12.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luasocket/gem/ex12.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "requires",
+    "to": 4
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ex12",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "ltn12",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "mime",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "smtp",
+    "type": "module"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "function filter.chain(...)\r\n    local arg = {...}\r\n    local n = select('#',...)\r\n    local top, index = 1, 1\r\n    local retry = \"\"\r\n    return function(chunk)\r\n        retry = chunk and retry\r\n        while true do\r\n            if index == top then\r\n                chunk = arg[index](chunk)\r\n                if chunk == \"\" or top == n then return chunk\r\n                elseif chunk then index = index + 1\r\n                else\r\n                    top = top+1\r\n                    index = top\r\n                end\r\n            else\r\n                chunk = arg[index](chunk or \"\")\r\n                if chunk == \"\" then\r\n                    index = index - 1\r\n                    chunk = retry\r\n                elseif chunk then\r\n                    if index == n then return chunk\r\n                    else index = index + 1 end\r\n                else base.error(\"filter returned inappropriate nil\") end\r\n            end\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function source.file(handle, io_err)\r\n    if handle then\r\n        return function()\r\n            local chunk = handle:read(_M.BLOCKSIZE)\r\n            if not chunk then handle:close() end\r\n            return chunk\r\n        end\r\n    else return source.error(io_err or \"unable to open file\") end\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function source.chain(src, f)\r\n    base.assert(src and f)\r\n    local last_in, last_out = \"\", \"\"\r\n    local state = \"feeding\"\r\n    local err\r\n    return function()\r\n        if not last_out then\r\n            base.error('source is empty!', 2)\r\n        end\r\n        while true do\r\n            if state == \"feeding\" then\r\n                last_in, err = src()\r\n                if err then return nil, err end\r\n                last_out = f(last_in)\r\n                if not last_out then\r\n                    if last_in then\r\n                        base.error('filter returned inappropriate nil')\r\n                    else\r\n                        return nil\r\n                    end\r\n                elseif last_out ~= \"\" then\r\n                    state = \"eating\"\r\n                    if last_in then last_in = \"\" end\r\n                    return last_out\r\n                end\r\n            else\r\n                last_out = f(last_in)\r\n                if last_out == \"\" then\r\n                    if last_in == \"\" then\r\n                        state = \"feeding\"\r\n                    else\r\n                        base.error('filter returned \"\"')\r\n                    end\r\n                elseif not last_out then\r\n                    if last_in then\r\n                        base.error('filter returned inappropriate nil')\r\n                    else\r\n                        return nil\r\n                    end\r\n                else\r\n                    return last_out\r\n                end\r\n            end\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "send",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "message",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "encode",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "wrap",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,361 @@
+{
+  "_filename": "filefilter.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luacov/tests/filefilter.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 29
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "filefilter",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function test(config, files)\r\n   ntests = ntests + 1\r\n\r\n   local filenames = {}\r\n\r\n   for file in pairs(files) do\r\n      table.insert(filenames, file)\r\n   end\r\n\r\n   table.sort(filenames)\r\n\r\n   package.loaded[\"luacov.runner\"] = nil\r\n   local runner = require(\"luacov.runner\")\r\n   runner.load_config(config)\r\n\r\n   for _, filename in ipairs(filenames) do\r\n      local expected = files[filename] and files[filename]:gsub(\"/\", dir_sep)\r\n      filename = filename:gsub(\"/\", dir_sep)\r\n      local actual = runner.file_included(filename) and runner.real_name(filename)\r\n\r\n      if actual ~= expected then\r\n         error((\"File filtering test #%d failed!\\nFile/expected/actual:\\n%s %s %s\"):format(\r\n            ntests, filename, expected or \"(excluded)\", actual or \"(excluded)\"\r\n         ), 0)\r\n      end\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "ntests = ntests + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "local filenames = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "for file in pairs(files) do\r\n      table.insert(filenames, file)\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 6,
+    "text": "table.insert(filenames, file)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "table.sort(filenames)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "package.loaded[\"luacov.runner\"] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "local runner = require(\"luacov.runner\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "runner.load_config(config)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "for _, filename in ipairs(filenames) do\r\n      local expected = files[filename] and files[filename]:gsub(\"/\", dir_sep)\r\n      filename = filename:gsub(\"/\", dir_sep)\r\n      local actual = runner.file_included(filename) and runner.real_name(filename)\r\n\r\n      if actual ~= expected then\r\n         error((\"File filtering test #%d failed!\\nFile/expected/actual:\\n%s %s %s\"):format(\r\n            ntests, filename, expected or \"(excluded)\", actual or \"(excluded)\"\r\n         ), 0)\r\n      end\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 12,
+    "text": "local expected = files[filename] and files[filename]:gsub(\"/\", dir_sep)",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "filename = filename:gsub(\"/\", dir_sep)",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "local actual = runner.file_included(filename) and runner.real_name(filename)",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "if actual ~= expected then\r\n         error((\"File filtering test #%d failed!\\nFile/expected/actual:\\n%s %s %s\"):format(\r\n            ntests, filename, expected or \"(excluded)\", actual or \"(excluded)\"\r\n         ), 0)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "error((\"File filtering test #%d failed!\\nFile/expected/actual:\\n%s %s %s\"):format(\r\n            ntests, filename, expected or \"(excluded)\", actual or \"(excluded)\"\r\n         ), 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 19,
+    "text": "real_name",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "load_config",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "file_included",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "sort",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "runner)",
+    "type": "module"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

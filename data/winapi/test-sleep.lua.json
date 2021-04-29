@@ -1,0 +1,213 @@
+{
+  "_filename": "test-sleep.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/winapi/examples/test-sleep.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 20
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test-sleep",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function()\r\n  print 'bonzo'\r\n  l = l + 1\r\n  if l > 10 then os.exit() end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "print 'bonzo'",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "l = l + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "if l > 10 then os.exit() end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "os.exit()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function()\r\n  print 'alice'\r\n  k = k  +1\r\n  if k > 5 then return true end\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "print 'alice'",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "k = k  +1",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "if k > 5 then return true end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "make_timer",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "sleep",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

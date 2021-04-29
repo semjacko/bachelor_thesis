@@ -1,0 +1,877 @@
+{
+  "_filename": "aliases.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luacomments/src/comments/aliases.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 74,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 75,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 78
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 78,
+    "label": "initializes",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "assigns",
+    "to": 81
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 82
+  }, {
+    "from": 82,
+    "label": "assigns",
+    "to": 83
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "assigns",
+    "to": 85
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "assigns",
+    "to": 87
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "assigns",
+    "to": 89
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 90
+  }, {
+    "from": 90,
+    "label": "assigns",
+    "to": 91
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 92
+  }, {
+    "from": 92,
+    "label": "assigns",
+    "to": 93
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 94
+  }, {
+    "from": 94,
+    "label": "assigns",
+    "to": 95
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "assigns",
+    "to": 97
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 98
+  }, {
+    "from": 98,
+    "label": "assigns",
+    "to": 99
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 100
+  }, {
+    "from": 100,
+    "label": "assigns",
+    "to": 101
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 102
+  }, {
+    "from": 102,
+    "label": "assigns",
+    "to": 103
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "aliases",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function getaliases()\r\n  local aliases={}\r\n  local luadoc={}\r\n\r\n  local paramalias=\"\"\r\n  local fieldalias=\"\"\r\n  local authoralias=\"\"\r\n  local copyrightalias=\"\"\r\n  local releasealias=\"\"\r\n  local returnalias=\"\"\r\n  local seealias=\"\"\r\n  local usagealias=\"\"\r\n  local descriptionalias=\"\"\r\n  local classalias=\"\"\r\n  local namealias=\"\"\r\n\r\n  for k,v in pairs(common.param.user) do\r\n     paramalias = paramalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  paramalias = paramalias .. ')->\"param\":})'    \r\n   \r\n  for k,v in pairs(common.field.user) do\r\n     fieldalias = fieldalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  fieldalias = fieldalias .. ')->\"field\":})'\r\n\r\n  for k,v in pairs(common.author.user) do\r\n     authoralias = authoralias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  authoralias = authoralias .. ')->\"author\":})'\r\n\r\n  for k,v in pairs(common.copyright.user) do\r\n     copyrightalias = copyrightalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  copyrightalias = copyrightalias .. ')->\"copyright\":})'\r\n\r\n  for k,v in pairs(common.release.user) do\r\n     releasealias = releasealias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  releasealias = releasealias .. ')->\"release\":})'\r\n\r\n  for k,v in pairs(common.Return.user) do\r\n     returnalias = returnalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  returnalias = returnalias .. ')->\"return\":})'\r\n\r\n  for k,v in pairs(common.see.user) do\r\n     seealias = seealias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  seealias = seealias .. ')->\"see\":})'\r\n\r\n  for k,v in pairs(common.usage.user) do\r\n     usagealias = usagealias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  usagealias = usagealias .. ')->\"usage\":})'\r\n\r\n  for k,v in pairs(common.description.user) do\r\n     descriptionalias = descriptionalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  descriptionalias = descriptionalias .. ')->\"descr\":})'\r\n\r\n  for k,v in pairs(common.class.user) do\r\n     classalias = classalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  classalias = classalias .. ')->\"class\":})'\r\n\r\n  for k,v in pairs(common.name.user) do\r\n     namealias = namealias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  namealias = namealias .. ')->\"name\":})'\r\n\r\n--^ `LUADOC` ********************\r\n\r\n\r\n  local luadocparamalias=[[({:type:((\"]] .. common.param.luadoc .. [[\"s+)]]   \r\n  local luadocfieldalias=[[({:type:((\"]] .. common.field.luadoc .. [[\"s+)]]\r\n  local luadocauthoralias=[[({:type:((\"]] .. common.author.luadoc .. [[\"s+)]]\r\n  local luadoccopyrightalias=[[({:type:((\"]] .. common.copyright.luadoc .. [[\"s+)]]\r\n  local luadocreleasealias=[[({:type:((\"]] .. common.release.luadoc .. [[\"s+)]]\r\n  local luadocreturnalias=[[({:type:((\"]] .. common.Return.luadoc .. [[\"s+)]]\r\n  local luadocseealias=[[({:type:((\"]] .. common.see.luadoc .. [[\"s+)]]\r\n  local luadocusagealias=[[({:type:((\"]] .. common.usage.luadoc .. [[\"s+)]]\r\n  local luadocdescriptionalias = [[({:type:((\"]] .. common.description.luadoc .. [[\"s+)]]\r\n  local luadocclassalias=[[({:type:((\"]] .. common.class.luadoc .. [[\"s+)]]\r\n  local luadocnamealias=[[({:type:((\"]] .. common.name.luadoc .. [[\"s+)]]\r\n  \r\n  \r\n  luadoc.param=  luadocparamalias .. paramalias\r\n  luadoc.field=  luadocfieldalias .. fieldalias\r\n  luadoc.author=luadocauthoralias .. authoralias\r\n\r\n  luadoc.copyright=luadoccopyrightalias .. copyrightalias \r\n  luadoc.release=luadocreleasealias .. releasealias\r\n  luadoc.Return=luadocreturnalias .. returnalias\r\n  luadoc.see=luadocseealias .. seealias\r\n  luadoc.usage=luadocusagealias .. usagealias\r\n  luadoc.description=luadocdescriptionalias ..descriptionalias\r\n  luadoc.class=luadocclassalias .. classalias\r\n  luadoc.name=luadocnamealias .. namealias\r\n\r\n\r\n\r\n  aliases.luadoc= luadoc\r\n\r\n--v LUADOC ***********************************\r\n\r\nreturn aliases\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local aliases={}",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local luadoc={}",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local paramalias=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local fieldalias=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local authoralias=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local copyrightalias=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "local releasealias=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "local returnalias=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local seealias=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local usagealias=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local descriptionalias=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local classalias=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "local namealias=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "for k,v in pairs(common.param.user) do\r\n     paramalias = paramalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 17,
+    "text": "paramalias = paramalias .. [[/(\"]] .. v .. [[\"s+)]]",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "paramalias = paramalias .. ')->\"param\":})'",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "for k,v in pairs(common.field.user) do\r\n     fieldalias = fieldalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 20,
+    "text": "fieldalias = fieldalias .. [[/(\"]] .. v .. [[\"s+)]]",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "fieldalias = fieldalias .. ')->\"field\":})'",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "for k,v in pairs(common.author.user) do\r\n     authoralias = authoralias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 23,
+    "text": "authoralias = authoralias .. [[/(\"]] .. v .. [[\"s+)]]",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "authoralias = authoralias .. ')->\"author\":})'",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "for k,v in pairs(common.copyright.user) do\r\n     copyrightalias = copyrightalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 26,
+    "text": "copyrightalias = copyrightalias .. [[/(\"]] .. v .. [[\"s+)]]",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "copyrightalias = copyrightalias .. ')->\"copyright\":})'",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "for k,v in pairs(common.release.user) do\r\n     releasealias = releasealias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 29,
+    "text": "releasealias = releasealias .. [[/(\"]] .. v .. [[\"s+)]]",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "releasealias = releasealias .. ')->\"release\":})'",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "for k,v in pairs(common.Return.user) do\r\n     returnalias = returnalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 32,
+    "text": "returnalias = returnalias .. [[/(\"]] .. v .. [[\"s+)]]",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "returnalias = returnalias .. ')->\"return\":})'",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "for k,v in pairs(common.see.user) do\r\n     seealias = seealias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 35,
+    "text": "seealias = seealias .. [[/(\"]] .. v .. [[\"s+)]]",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "seealias = seealias .. ')->\"see\":})'",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "for k,v in pairs(common.usage.user) do\r\n     usagealias = usagealias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 38,
+    "text": "usagealias = usagealias .. [[/(\"]] .. v .. [[\"s+)]]",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "usagealias = usagealias .. ')->\"usage\":})'",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "for k,v in pairs(common.description.user) do\r\n     descriptionalias = descriptionalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 41,
+    "text": "descriptionalias = descriptionalias .. [[/(\"]] .. v .. [[\"s+)]]",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "descriptionalias = descriptionalias .. ')->\"descr\":})'",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "for k,v in pairs(common.class.user) do\r\n     classalias = classalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 44,
+    "text": "classalias = classalias .. [[/(\"]] .. v .. [[\"s+)]]",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "classalias = classalias .. ')->\"class\":})'",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "for k,v in pairs(common.name.user) do\r\n     namealias = namealias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 47,
+    "text": "namealias = namealias .. [[/(\"]] .. v .. [[\"s+)]]",
+    "type": "statement:assign"
+  }, {
+    "id": 48,
+    "text": "namealias = namealias .. ')->\"name\":})'",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "local luadocparamalias=[[({:type:((\"]] .. common.param.luadoc .. [[\"s+)]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 50,
+    "text": "local luadocfieldalias=[[({:type:((\"]] .. common.field.luadoc .. [[\"s+)]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 51,
+    "text": "local luadocauthoralias=[[({:type:((\"]] .. common.author.luadoc .. [[\"s+)]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "local luadoccopyrightalias=[[({:type:((\"]] .. common.copyright.luadoc .. [[\"s+)]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 53,
+    "text": "local luadocreleasealias=[[({:type:((\"]] .. common.release.luadoc .. [[\"s+)]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 54,
+    "text": "local luadocreturnalias=[[({:type:((\"]] .. common.Return.luadoc .. [[\"s+)]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 55,
+    "text": "local luadocseealias=[[({:type:((\"]] .. common.see.luadoc .. [[\"s+)]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 56,
+    "text": "local luadocusagealias=[[({:type:((\"]] .. common.usage.luadoc .. [[\"s+)]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 57,
+    "text": "local luadocdescriptionalias = [[({:type:((\"]] .. common.description.luadoc .. [[\"s+)]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 58,
+    "text": "local luadocclassalias=[[({:type:((\"]] .. common.class.luadoc .. [[\"s+)]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 59,
+    "text": "local luadocnamealias=[[({:type:((\"]] .. common.name.luadoc .. [[\"s+)]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 60,
+    "text": "luadoc.param=  luadocparamalias .. paramalias",
+    "type": "statement:assign"
+  }, {
+    "id": 61,
+    "text": "luadoc.field=  luadocfieldalias .. fieldalias",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "luadoc.author=luadocauthoralias .. authoralias",
+    "type": "statement:assign"
+  }, {
+    "id": 63,
+    "text": "luadoc.copyright=luadoccopyrightalias .. copyrightalias",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "luadoc.release=luadocreleasealias .. releasealias",
+    "type": "statement:assign"
+  }, {
+    "id": 65,
+    "text": "luadoc.Return=luadocreturnalias .. returnalias",
+    "type": "statement:assign"
+  }, {
+    "id": 66,
+    "text": "luadoc.see=luadocseealias .. seealias",
+    "type": "statement:assign"
+  }, {
+    "id": 67,
+    "text": "luadoc.usage=luadocusagealias .. usagealias",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "luadoc.description=luadocdescriptionalias ..descriptionalias",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "luadoc.class=luadocclassalias .. classalias",
+    "type": "statement:assign"
+  }, {
+    "id": 70,
+    "text": "luadoc.name=luadocnamealias .. namealias",
+    "type": "statement:assign"
+  }, {
+    "id": 71,
+    "text": "aliases.luadoc= luadoc",
+    "type": "statement:assign"
+  }, {
+    "id": 72,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 76,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 77,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 90,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 97,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 99,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 102,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 103,
+    "text": "",
+    "type": "tableconstructor"
+  } ]
+}

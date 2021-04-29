@@ -1,0 +1,353 @@
+{
+  "_filename": "recaptcha.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/recaptcha/lua/recaptcha.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 21,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 21,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 21,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "assigns",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "assigns",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 39
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "recaptcha",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function new(args)\r\n   local obj = setmetatable({}, ReCaptcha_mt)\r\n   obj.private = args[2]\r\n   obj.public = args[1]\r\n   return obj\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local obj = setmetatable({}, ReCaptcha_mt)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "obj.private = args[2]",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "obj.public = args[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function ReCaptcha:get_fields()\r\n   return {\"recaptcha_challenge_field\", \"recaptcha_response_field\"}\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function ReCaptcha:get_html(options)\r\n   options = options or {}\r\n   return string.format([[\r\n      <script type=\"text/javascript\">\r\n       var RecaptchaOptions = {\r\n          theme : '%s',\r\n          lang  : '%s',\r\n       };\r\n      </script>\r\n      <script type=\"text/javascript\" src=\"http://api.recaptcha.net/challenge?k=%s\">\r\n      </script>\r\n      <noscript>\r\n       <iframe src=\"http://api.recaptcha.net/noscript?k=%s\"\r\n               height=\"300\" width=\"500\" frameborder=\"0\"></iframe><br/>\r\n       <textarea name=\"recaptcha_challenge_field\" rows=\"3\" cols=\"40\">\r\n       </textarea>\r\n       <input type=\"hidden\" name=\"recaptcha_response_field\" value=\"manual_challenge\"/>\r\n      </noscript>\r\n   ]], options.theme or \"white\", options.lang or \"en\", self.public, self.public)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "options = options or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function ReCaptcha:verify(params, remote_ip)\r\n   require(\"socket.http\")\r\n   if not params.recaptcha_challenge_field then\r\n      return false, \"recaptcha_challenge_field not submitted\"\r\n   elseif not params.recaptcha_response_field then\r\n      return false, \"recaptcha_response_field not submitted\"\r\n   end\r\n\r\n   local result, err = socket.http.request(\r\n                          \"http://api-verify.recaptcha.net/verify\",\r\n                          \"privatekey=\"..self.private\r\n                              ..\"&remoteip=\"..remote_ip\r\n                              ..\"&challenge=\"..params.recaptcha_challenge_field\r\n                              ..\"&response=\"..(params.recaptcha_response_field or \"\")\r\n                        )\r\n   if not result then\r\n      return false, err\r\n   else\r\n      if result==\"true\" then\r\n         return true\r\n      else\r\n         result, err = string.match(result, \"(%w+)\\n(.*)\")\r\n         return (result and result==\"true\"), err\r\n      end\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "require(\"socket.http\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "if not params.recaptcha_challenge_field then\r\n      return false, \"recaptcha_challenge_field not submitted\"\r\n   elseif not params.recaptcha_response_field then\r\n      return false, \"recaptcha_response_field not submitted\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "local result, err = socket.http.request(\r\n                          \"http://api-verify.recaptcha.net/verify\",\r\n                          \"privatekey=\"..self.private\r\n                              ..\"&remoteip=\"..remote_ip\r\n                              ..\"&challenge=\"..params.recaptcha_challenge_field\r\n                              ..\"&response=\"..(params.recaptcha_response_field or \"\")\r\n                        )",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "if not result then\r\n      return false, err\r\n   else\r\n      if result==\"true\" then\r\n         return true\r\n      else\r\n         result, err = string.match(result, \"(%w+)\\n(.*)\")\r\n         return (result and result==\"true\"), err\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "if result==\"true\" then\r\n         return true\r\n      else\r\n         result, err = string.match(result, \"(%w+)\\n(.*)\")\r\n         return (result and result==\"true\"), err\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "result, err = string.match(result, \"(%w+)\\n(.*)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 22,
+    "text": "request",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "_prefixexp"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 39,
+    "text": "http)",
+    "type": "module"
+  } ]
+}

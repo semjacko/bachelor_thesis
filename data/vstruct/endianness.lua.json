@@ -1,0 +1,273 @@
+{
+  "_filename": "endianness.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io/endianness.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "assigns",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "represents",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "provides",
+    "to": 28
+  }, {
+    "from": 24,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 24,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 24,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 24,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 24,
+    "label": "contains",
+    "to": 16
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "endianness",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function e.hasvalue()\r\n    return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function e.big()\r\n    endianness = \"big\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "endianness = \"big\"",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function e.little()\r\n    endianness = \"little\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "endianness = \"little\"",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function e.host()\r\n    if string.byte(string.dump(function() end)) == 0x00 then\r\n        e.big()\r\n    else\r\n        e.little()\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "if string.byte(string.dump(function() end)) == 0x00 then\r\n        e.big()\r\n    else\r\n        e.little()\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "e.big()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "e.little()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function e.get()\r\n    return endianness\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function() end",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 20,
+    "text": "dump",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "byte",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "interface"
+  } ]
+}

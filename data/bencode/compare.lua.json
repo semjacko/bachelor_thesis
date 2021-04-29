@@ -1,0 +1,177 @@
+{
+  "_filename": "compare.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/bencode/tests/compare.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "initializes",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "assigns",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "assigns",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "represents",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "provides",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "represents",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "provides",
+    "to": 19
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "bencode",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "compare",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function encode(x)\r\n\r\n\tlocal t = {}\r\n\tlocal err, val = encode_rec(t,x)\r\n\tif not err then\r\n\t\treturn concat(t)\r\n\telse\r\n\t\treturn nil, err, val\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function decode(s, index) \r\n\tif not s then return nil, \"no data\", nil end\r\n\tindex = index or 1 \r\n\tlocal t = sub(s, index, index) \r\n\tif not t then return nil, \"truncation error\", nil end\r\n\r\n\tif t == \"i\" then \r\n\t\treturn decode_integer(s, index + 1) \r\n\telseif t == \"l\" then \r\n\t\treturn decode_list(s, index + 1) \r\n\telseif t == \"d\" then \r\n\t\treturn decode_dictionary(s, index + 1) \r\n\telseif t >= '0' and t <= '9' then \r\n\t\treturn decode_string(s, index) \r\n\telse \r\n\t\treturn nil, \"invalid type\", t\r\n\tend \r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "interface"
+  } ]
+}

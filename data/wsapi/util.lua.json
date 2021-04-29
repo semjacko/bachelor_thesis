@@ -1,0 +1,1021 @@
+{
+  "_filename": "util.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wsapi/src/wsapi/util.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 93
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 93
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 90
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 68
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 71
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 77
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 78
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 79
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 80
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 82
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 84
+  }, {
+    "from": 96,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 97,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 98
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 99
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "util",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function new(wsapi_env, options)\r\n  options = options or {}\r\n  local req = {\r\n    GET          = {},\r\n    POST         = {},\r\n    method       = wsapi_env.REQUEST_METHOD,\r\n    path_info    = wsapi_env.PATH_INFO,\r\n    query_string = wsapi_env.QUERY_STRING,\r\n    script_name  = wsapi_env.SCRIPT_NAME,\r\n    env          = wsapi_env,\r\n    mk_app       = options.mk_app,\r\n    doc_root     = wsapi_env.DOCUMENT_ROOT,\r\n    app_path     = wsapi_env.APP_PATH\r\n  }\r\n  parse_qs(wsapi_env.QUERY_STRING, req.GET, options.overwrite)\r\n  if options.delay_post then\r\n    req.parse_post = function (self)\r\n      parse_post_data(wsapi_env, self.POST, options.overwrite)\r\n      self.parse_post = function () return nil, \"postdata already parsed\" end\r\n      return self.POST\r\n    end\r\n  else\r\n    parse_post_data(wsapi_env, req.POST, options.overwrite)\r\n    req.parse_post = function () return nil, \"postdata already parsed\" end\r\n  end\r\n  req.params = {}\r\n  setmetatable(req.params, { __index = function (tab, name)\r\n    local var = req.GET[name] or req.POST[name]\r\n    rawset(tab, name, var)\r\n    return var\r\n  end})\r\n  req.cookies = {}\r\n  local cookies = string.gsub(\";\" .. (wsapi_env.HTTP_COOKIE or \"\") .. \";\",\r\n            \"%s*;%s*\", \";\")\r\n  setmetatable(req.cookies, { __index = function (tab, name)\r\n    name = name\r\n    local pattern = \";\" .. name ..\r\n      \"=(.-);\"\r\n    local cookie = string.match(cookies, pattern)\r\n    cookie = util.url_decode(cookie)\r\n    rawset(tab, name, cookie)\r\n    return cookie\r\n  end})\r\n  return setmetatable(req, methods)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local function make_cookie(name, value)\r\n  local options = {}\r\n  if type(value) == \"table\" then\r\n    options = value\r\n    value = value.value\r\n  end\r\n  local cookie = name .. \"=\" .. util.url_encode(value)\r\n  if options.expires then\r\n    local t = date(\"!%A, %d-%b-%Y %H:%M:%S GMT\", options.expires)\r\n    cookie = cookie .. optional(\"expires\", t)\r\n  end\r\n  cookie = cookie .. optional(\"path\", options.path)\r\n  cookie = cookie .. optional(\"domain\", options.domain)\r\n  cookie = cookie .. optional(\"secure\", options.secure)\r\n  return cookie\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function url_decode(str)\r\n  if not str then return nil end\r\n  str = string.gsub (str, \"+\", \" \")\r\n  str = string.gsub (str, \"%%(%x%x)\", function(h) return string.char(tonumber(h,16)) end)\r\n  str = string.gsub (str, \"\\r\\n\", \"\\n\")\r\n  return str\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "if not str then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "str = string.gsub (str, \"+\", \" \")",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "str = string.gsub (str, \"%%(%x%x)\", function(h) return string.char(tonumber(h,16)) end)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "str = string.gsub (str, \"\\r\\n\", \"\\n\")",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function url_encode(str)\r\n  if not str then return nil end\r\n  str = string.gsub (str, \"\\n\", \"\\r\\n\")\r\n  str = string.gsub (str, \"([^%w ])\",\r\n        function (c) return string.format (\"%%%02X\", string.byte(c)) end)\r\n  str = string.gsub (str, \" \", \"+\")\r\n  return str\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "str = string.gsub (str, \"\\n\", \"\\r\\n\")",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "str = string.gsub (str, \"([^%w ])\",\r\n        function (c) return string.format (\"%%%02X\", string.byte(c)) end)",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "str = string.gsub (str, \" \", \"+\")",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function sanitize(text)\r\n   return text:gsub(\">\", \"&gt;\"):gsub(\"<\", \"&lt;\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function not_empty(s)\r\n  if s and s ~= \"\" then return s else return nil end\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "if s and s ~= \"\" then return s else return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function make_rewindable(wsapi_env)\r\n   local new_env = { input = { position = 1, contents = \"\" } }\r\n   function new_env.input:read(size)\r\n      local left = #self.contents - self.position + 1\r\n      local s\r\n      if left < size then\r\n         self.contents = self.contents .. wsapi_env.input:read(size - left)\r\n         s = self.contents:sub(self.position)\r\n         self.position = #self.contents + 1\r\n      else\r\n         s = self.contents:sub(self.position, self.position + size)\r\n         self.position = self.position + size\r\n      end\r\n      if s == \"\" then return nil else return s end\r\n   end\r\n   function new_env.input:rewind()\r\n      self.position = 1\r\n   end\r\n   return setmetatable(new_env, { __index = wsapi_env, __newindex = wsapi_env })\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "local new_env = { input = { position = 1, contents = \"\" } }",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "function new_env.input:read(size)\r\n      local left = #self.contents - self.position + 1\r\n      local s\r\n      if left < size then\r\n         self.contents = self.contents .. wsapi_env.input:read(size - left)\r\n         s = self.contents:sub(self.position)\r\n         self.position = #self.contents + 1\r\n      else\r\n         s = self.contents:sub(self.position, self.position + size)\r\n         self.position = self.position + size\r\n      end\r\n      if s == \"\" then return nil else return s end\r\n   end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 24,
+    "text": "local left = #self.contents - self.position + 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "local s",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if left < size then\r\n         self.contents = self.contents .. wsapi_env.input:read(size - left)\r\n         s = self.contents:sub(self.position)\r\n         self.position = #self.contents + 1\r\n      else\r\n         s = self.contents:sub(self.position, self.position + size)\r\n         self.position = self.position + size\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "self.contents = self.contents .. wsapi_env.input:read(size - left)",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "s = self.contents:sub(self.position)",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "self.position = #self.contents + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "s = self.contents:sub(self.position, self.position + size)",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "self.position = self.position + size",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "if s == \"\" then return nil else return s end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "function new_env.input:rewind()\r\n      self.position = 1\r\n   end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 34,
+    "text": "self.position = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "function new_env.input:read(size)\r\n      local left = #self.contents - self.position + 1\r\n      local s\r\n      if left < size then\r\n         self.contents = self.contents .. wsapi_env.input:read(size - left)\r\n         s = self.contents:sub(self.position)\r\n         self.position = #self.contents + 1\r\n      else\r\n         s = self.contents:sub(self.position, self.position + size)\r\n         self.position = self.position + size\r\n      end\r\n      if s == \"\" then return nil else return s end\r\n   end",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 38,
+    "text": "function new_env.input:rewind()\r\n      self.position = 1\r\n   end",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "function getopt( arg, options )\r\n  local tab, args = {}, {}\r\n  local k = 1\r\n  while k <= #arg do\r\n    local v = arg[k]\r\n    if string.sub( v, 1, 2) == \"--\" then\r\n      local x = string.find( v, \"=\", 1, true )\r\n      if x then tab[ string.sub( v, 3, x-1 ) ] = string.sub( v, x+1 )\r\n      else      tab[ string.sub( v, 3 ) ] = true\r\n      end\r\n      k = k + 1\r\n    elseif string.sub( v, 1, 1 ) == \"-\" then\r\n      local y = 2\r\n      local l = #v\r\n      local jopt\r\n      local next = 1\r\n      while ( y <= l ) do\r\n        jopt = string.sub( v, y, y )\r\n        if string.find( options, jopt, 1, true ) then\r\n          if y < l then\r\n            tab[ jopt ] = string.sub( v, y+1 )\r\n            y = l\r\n          else\r\n            tab[ jopt ] = arg[ k + 1 ]\r\n            next = 2\r\n          end\r\n        else\r\n          tab[ jopt ] = true\r\n        end\r\n        y = y + 1\r\n      end\r\n      k = k + next\r\n    else\r\n      args[#args + 1] = v\r\n      k = k + 1\r\n    end\r\n  end\r\n  return tab, args\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "local tab, args = {}, {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 42,
+    "text": "local k = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 43,
+    "text": "while k <= #arg do\r\n    local v = arg[k]\r\n    if string.sub( v, 1, 2) == \"--\" then\r\n      local x = string.find( v, \"=\", 1, true )\r\n      if x then tab[ string.sub( v, 3, x-1 ) ] = string.sub( v, x+1 )\r\n      else      tab[ string.sub( v, 3 ) ] = true\r\n      end\r\n      k = k + 1\r\n    elseif string.sub( v, 1, 1 ) == \"-\" then\r\n      local y = 2\r\n      local l = #v\r\n      local jopt\r\n      local next = 1\r\n      while ( y <= l ) do\r\n        jopt = string.sub( v, y, y )\r\n        if string.find( options, jopt, 1, true ) then\r\n          if y < l then\r\n            tab[ jopt ] = string.sub( v, y+1 )\r\n            y = l\r\n          else\r\n            tab[ jopt ] = arg[ k + 1 ]\r\n            next = 2\r\n          end\r\n        else\r\n          tab[ jopt ] = true\r\n        end\r\n        y = y + 1\r\n      end\r\n      k = k + next\r\n    else\r\n      args[#args + 1] = v\r\n      k = k + 1\r\n    end\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 44,
+    "text": "local v = arg[k]",
+    "type": "statement:localassign"
+  }, {
+    "id": 45,
+    "text": "if string.sub( v, 1, 2) == \"--\" then\r\n      local x = string.find( v, \"=\", 1, true )\r\n      if x then tab[ string.sub( v, 3, x-1 ) ] = string.sub( v, x+1 )\r\n      else      tab[ string.sub( v, 3 ) ] = true\r\n      end\r\n      k = k + 1\r\n    elseif string.sub( v, 1, 1 ) == \"-\" then\r\n      local y = 2\r\n      local l = #v\r\n      local jopt\r\n      local next = 1\r\n      while ( y <= l ) do\r\n        jopt = string.sub( v, y, y )\r\n        if string.find( options, jopt, 1, true ) then\r\n          if y < l then\r\n            tab[ jopt ] = string.sub( v, y+1 )\r\n            y = l\r\n          else\r\n            tab[ jopt ] = arg[ k + 1 ]\r\n            next = 2\r\n          end\r\n        else\r\n          tab[ jopt ] = true\r\n        end\r\n        y = y + 1\r\n      end\r\n      k = k + next\r\n    else\r\n      args[#args + 1] = v\r\n      k = k + 1\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 46,
+    "text": "local x = string.find( v, \"=\", 1, true )",
+    "type": "statement:localassign"
+  }, {
+    "id": 47,
+    "text": "if x then tab[ string.sub( v, 3, x-1 ) ] = string.sub( v, x+1 )\r\n      else      tab[ string.sub( v, 3 ) ] = true\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 48,
+    "text": "tab[ string.sub( v, 3, x-1 ) ] = string.sub( v, x+1 )",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "tab[ string.sub( v, 3 ) ] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 50,
+    "text": "k = k + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "local y = 2",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "local l = #v",
+    "type": "statement:localassign"
+  }, {
+    "id": 53,
+    "text": "local jopt",
+    "type": "statement:localassign"
+  }, {
+    "id": 54,
+    "text": "local next = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 55,
+    "text": "while ( y <= l ) do\r\n        jopt = string.sub( v, y, y )\r\n        if string.find( options, jopt, 1, true ) then\r\n          if y < l then\r\n            tab[ jopt ] = string.sub( v, y+1 )\r\n            y = l\r\n          else\r\n            tab[ jopt ] = arg[ k + 1 ]\r\n            next = 2\r\n          end\r\n        else\r\n          tab[ jopt ] = true\r\n        end\r\n        y = y + 1\r\n      end",
+    "type": "statement:while"
+  }, {
+    "id": 56,
+    "text": "jopt = string.sub( v, y, y )",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "if string.find( options, jopt, 1, true ) then\r\n          if y < l then\r\n            tab[ jopt ] = string.sub( v, y+1 )\r\n            y = l\r\n          else\r\n            tab[ jopt ] = arg[ k + 1 ]\r\n            next = 2\r\n          end\r\n        else\r\n          tab[ jopt ] = true\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 58,
+    "text": "if y < l then\r\n            tab[ jopt ] = string.sub( v, y+1 )\r\n            y = l\r\n          else\r\n            tab[ jopt ] = arg[ k + 1 ]\r\n            next = 2\r\n          end",
+    "type": "statement:if"
+  }, {
+    "id": 59,
+    "text": "tab[ jopt ] = string.sub( v, y+1 )",
+    "type": "statement:assign"
+  }, {
+    "id": 60,
+    "text": "y = l",
+    "type": "statement:assign"
+  }, {
+    "id": 61,
+    "text": "tab[ jopt ] = arg[ k + 1 ]",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "next = 2",
+    "type": "statement:assign"
+  }, {
+    "id": 63,
+    "text": "tab[ jopt ] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "y = y + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 65,
+    "text": "k = k + next",
+    "type": "statement:assign"
+  }, {
+    "id": 66,
+    "text": "args[#args + 1] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 68,
+    "text": "function make_env_get(qs)\r\n  return {\r\n    REQUEST_METHOD = \"GET\",\r\n    QUERY_STRING = qs or \"\",\r\n    CONTENT_LENGTH = 0,\r\n    PATH_INFO = \"/\",\r\n    SCRIPT_NAME = \"\",\r\n    CONTENT_TYPE = \"x-www-form-urlencoded\",\r\n    input = {\r\n      read = function () return nil end\r\n    },\r\n    error = {\r\n      messages = {},\r\n      write = function (self, msg)\r\n        self.messages[#self.messages+1] = msg\r\n      end\r\n    }\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 69,
+    "text": "self.messages[#self.messages+1] = msg",
+    "type": "statement:assign"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 71,
+    "text": "function make_env_post(pd, type, qs)\r\n  pd = pd or \"\"\r\n  return {\r\n    REQUEST_METHOD = \"POST\",\r\n    QUERY_STRING = qs or \"\",\r\n    CONTENT_LENGTH = #pd,\r\n    PATH_INFO = \"/\",\r\n    CONTENT_TYPE = type or \"x-www-form-urlencoded\",\r\n    SCRIPT_NAME = \"\",\r\n    input = {\r\n      post_data = pd,\r\n      current = 1,\r\n      read = function (self, len)\r\n        if self.current > #self.post_data then return nil end\r\n        local s = self.post_data:sub(self.current, len)\r\n        self.current = self.current + len\r\n        return s\r\n      end\r\n    },\r\n    error = {\r\n      messages = {},\r\n      write = function (self, msg)\r\n        self.messages[#self.messages+1] = msg\r\n      end\r\n    }\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 72,
+    "text": "pd = pd or \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 73,
+    "text": "if self.current > #self.post_data then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 74,
+    "text": "local s = self.post_data:sub(self.current, len)",
+    "type": "statement:localassign"
+  }, {
+    "id": 75,
+    "text": "self.current = self.current + len",
+    "type": "statement:assign"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 77,
+    "text": "function(h) return string.char(tonumber(h,16)) end",
+    "type": "function"
+  }, {
+    "id": 78,
+    "text": "function (c) return string.format (\"%%%02X\", string.byte(c)) end",
+    "type": "function"
+  }, {
+    "id": 79,
+    "text": "function () return nil end",
+    "type": "function"
+  }, {
+    "id": 80,
+    "text": "function (self, msg)\r\n        self.messages[#self.messages+1] = msg\r\n      end",
+    "type": "function"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 82,
+    "text": "function (self, len)\r\n        if self.current > #self.post_data then return nil end\r\n        local s = self.post_data:sub(self.current, len)\r\n        self.current = self.current + len\r\n        return s\r\n      end",
+    "type": "function"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 84,
+    "text": "function (self, msg)\r\n        self.messages[#self.messages+1] = msg\r\n      end",
+    "type": "function"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 87,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 88,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 89,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 90,
+    "text": "byte",
+    "type": "global function"
+  }, {
+    "id": 91,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 92,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 93,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 94,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 95,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 97,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 99,
+    "text": "",
+    "type": "require container"
+  } ]
+}

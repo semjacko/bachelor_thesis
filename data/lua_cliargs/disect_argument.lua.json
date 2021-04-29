@@ -1,0 +1,213 @@
+{
+  "_filename": "disect_argument.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua_cliargs/src/cliargs/utils/disect_argument.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 21,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 24
+  }, {
+    "from": 20,
+    "label": "represents",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "provides",
+    "to": 25
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "disect_argument",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function disect_argument(str)\r\n  local _, symbol, key, value\r\n  local negated = false\r\n\r\n  _, _, symbol, key = str:find(\"^([%-]*)(.*)\")\r\n\r\n  if key then\r\n    local actual_key\r\n\r\n    -- split value and key\r\n    _, _, actual_key, value = key:find(\"([^%=]+)[%=]?(.*)\")\r\n\r\n    if value then\r\n      key = actual_key\r\n    end\r\n\r\n    if key:sub(1,3) == \"no-\" then\r\n      key = key:sub(4,-1)\r\n      negated = true\r\n    end\r\n  end\r\n\r\n  -- no leading symbol means the sole fragment is the value.\r\n  if #symbol == 0 then\r\n    value = str\r\n    key = nil\r\n  end\r\n\r\n  return\r\n    #symbol > 0 and symbol or nil,\r\n    key and #key > 0 and key or nil,\r\n    value and #value > 0 and value or nil,\r\n    negated and true or false\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local _, symbol, key, value",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local negated = false",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "_, _, symbol, key = str:find(\"^([%-]*)(.*)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "if key then\r\n    local actual_key\r\n\r\n    -- split value and key\r\n    _, _, actual_key, value = key:find(\"([^%=]+)[%=]?(.*)\")\r\n\r\n    if value then\r\n      key = actual_key\r\n    end\r\n\r\n    if key:sub(1,3) == \"no-\" then\r\n      key = key:sub(4,-1)\r\n      negated = true\r\n    end\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "local actual_key",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "_, _, actual_key, value = key:find(\"([^%=]+)[%=]?(.*)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "if value then\r\n      key = actual_key\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "key = actual_key",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "if key:sub(1,3) == \"no-\" then\r\n      key = key:sub(4,-1)\r\n      negated = true\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "key = key:sub(4,-1)",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "negated = true",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "if #symbol == 0 then\r\n    value = str\r\n    key = nil\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "value = str",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "key = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 20,
+    "text": "disect_argument",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "interface"
+  } ]
+}

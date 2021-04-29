@@ -1,0 +1,277 @@
+{
+  "_filename": "memsize.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-tokyocabinet/memsize.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 28
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "memsize",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function memoryusage()\r\n   local tmpname = os.tmpname()\r\n   os.execute(\"cat /proc/$PPID/status > \" .. tmpname)\r\n   local fh = io.open(tmpname)\r\n   if fh then\r\n      for line in fh:lines() do\r\n         if string.find(line, \"VmRSS:\") == 1 then\r\n            local num = string.gsub(line, \"%w+:%s*(%d+).*\", \"%1\")\r\n            return tonumber(num) / 1024\r\n         end\r\n      end\r\n      fh:close()\r\n   end\r\n   os.remove(tmpname)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local tmpname = os.tmpname()",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "os.execute(\"cat /proc/$PPID/status > \" .. tmpname)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "local fh = io.open(tmpname)",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "if fh then\r\n      for line in fh:lines() do\r\n         if string.find(line, \"VmRSS:\") == 1 then\r\n            local num = string.gsub(line, \"%w+:%s*(%d+).*\", \"%1\")\r\n            return tonumber(num) / 1024\r\n         end\r\n      end\r\n      fh:close()\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "for line in fh:lines() do\r\n         if string.find(line, \"VmRSS:\") == 1 then\r\n            local num = string.gsub(line, \"%w+:%s*(%d+).*\", \"%1\")\r\n            return tonumber(num) / 1024\r\n         end\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 8,
+    "text": "if string.find(line, \"VmRSS:\") == 1 then\r\n            local num = string.gsub(line, \"%w+:%s*(%d+).*\", \"%1\")\r\n            return tonumber(num) / 1024\r\n         end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "local num = string.gsub(line, \"%w+:%s*(%d+).*\", \"%1\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "fh:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 12,
+    "text": "os.remove(tmpname)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "adbnew",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "time",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "tmpname",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "execute",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require container"
+  } ]
+}

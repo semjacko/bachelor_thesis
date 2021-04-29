@@ -1,0 +1,277 @@
+{
+  "_filename": "test_pid.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasys/test/test_pid.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "requires",
+    "to": 17
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test_pid",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function on_timer()\r\n\t\tprint\"Working...\"\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "print\"Working...\"",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "local function on_child(evq, evid, pid, _, _, timeout, err)\r\n\t\tevq:del(timer_id)\r\n\t\tif timeout then\r\n\t\t\tprint(\"Timeout:\", timeout)\r\n\t\t\tif not pid:kill() then\r\n\t\t\t\tprint(\"Kill:\", errorMessage)\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tprint(\"Status:\", err or 0)\r\n\t\t\tif err then\r\n\t\t\t\tprint(\"Subprocess killed.\")\r\n\t\t\telse\r\n\t\t\t\tprint(\"Subprocess output:\", fdi:read())\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "evq:del(timer_id)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "if timeout then\r\n\t\t\tprint(\"Timeout:\", timeout)\r\n\t\t\tif not pid:kill() then\r\n\t\t\t\tprint(\"Kill:\", errorMessage)\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tprint(\"Status:\", err or 0)\r\n\t\t\tif err then\r\n\t\t\t\tprint(\"Subprocess killed.\")\r\n\t\t\telse\r\n\t\t\t\tprint(\"Subprocess output:\", fdi:read())\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "print(\"Timeout:\", timeout)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "if not pid:kill() then\r\n\t\t\t\tprint(\"Kill:\", errorMessage)\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "print(\"Kill:\", errorMessage)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "print(\"Status:\", err or 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "if err then\r\n\t\t\t\tprint(\"Subprocess killed.\")\r\n\t\t\telse\r\n\t\t\t\tprint(\"Subprocess output:\", fdi:read())\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "print(\"Subprocess killed.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "print(\"Subprocess output:\", fdi:read())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 17,
+    "text": "sys",
+    "type": "module"
+  }, {
+    "id": 18,
+    "text": "pid",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "spawn",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "event_queue",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "handle",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

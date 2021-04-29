@@ -1,0 +1,2317 @@
+{
+  "_filename": "apr.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-apr/src/apr.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 98,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 105,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 113,
+    "label": "has",
+    "to": 114
+  }, {
+    "from": 113,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 113,
+    "label": "has",
+    "to": 115
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 223
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 164
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 164
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 164
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 224
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 224
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 224
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 224
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 224
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 224
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 224
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 224
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 227
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 161
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 161
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 145
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 228
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 183
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 226
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 226
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 225
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 215
+  }, {
+    "from": 118,
+    "label": "calls",
+    "to": 237
+  }, {
+    "from": 111,
+    "label": "calls",
+    "to": 237
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 188
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 171
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 234
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 234
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 234
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 234
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 234
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 229
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 229
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 233
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 126
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 197
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 232
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 231
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 231
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 231
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 231
+  }, {
+    "from": 111,
+    "label": "calls",
+    "to": 235
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 113,
+    "label": "calls",
+    "to": 236
+  }, {
+    "from": 113,
+    "label": "calls",
+    "to": 230
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 166
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 166
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 118
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 45
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 56
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 67
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 88
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 111
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 113
+  }, {
+    "from": 118,
+    "label": "declares",
+    "to": 116
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 119
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 120
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 121
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 122
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 123
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 124
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 125
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 127
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 128
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 129
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 130
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 131
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 132
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 133
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 134
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 135
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 136
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 137
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 138
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 139
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 140
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 141
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 142
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 143
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 144
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 146
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 147
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 148
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 149
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 150
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 151
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 152
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 153
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 154
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 155
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 156
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 157
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 158
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 159
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 160
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 162
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 163
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 164
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 165
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 167
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 168
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 169
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 170
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 171
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 172
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 173
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 174
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 175
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 176
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 177
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 178
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 179
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 180
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 181
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 182
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 184
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 185
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 186
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 187
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 188
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 189
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 190
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 191
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 192
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 193
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 194
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 195
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 196
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 198
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 199
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 200
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 201
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 202
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 203
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 204
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 205
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 206
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 207
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 208
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 209
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 210
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 211
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 212
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 213
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 214
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 215
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 216
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 217
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 218
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 219
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 220
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 221
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 222
+  }, {
+    "from": 238,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 239,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 240,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 241,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 242,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 243,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 244,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 245
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 246
+  }, {
+    "from": 245,
+    "label": "initializes",
+    "to": 247
+  }, {
+    "from": 247,
+    "label": "assigns",
+    "to": 248
+  }, {
+    "from": 245,
+    "label": "initializes",
+    "to": 249
+  }, {
+    "from": 246,
+    "label": "initializes",
+    "to": 250
+  }, {
+    "from": 250,
+    "label": "requires",
+    "to": 251
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 252
+  }, {
+    "from": 252,
+    "label": "provides",
+    "to": 253
+  }, {
+    "from": 254,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 255,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 256,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 257,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "apr",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function executable(type, user, group, protection)\r\n  if type == 'file' and user and group and protection then\r\n    local current_user, current_group = assert(apr.user_get())\r\n    return (protection:find '^(r.x)(...)(...)$' and user == current_user)\r\n        or (protection:find '^(...)(r.x)(...)$' and group == current_group)\r\n        or (protection:find '^(...)(...)(r.[xt])$' and user ~= current_user and group ~= current_group)\r\n  end\r\n  return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "if type == 'file' and user and group and protection then\r\n    local current_user, current_group = assert(apr.user_get())\r\n    return (protection:find '^(r.x)(...)(...)$' and user == current_user)\r\n        or (protection:find '^(...)(r.x)(...)$' and group == current_group)\r\n        or (protection:find '^(...)(...)(r.[xt])$' and user ~= current_user and group ~= current_group)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 4,
+    "text": "local current_user, current_group = assert(apr.user_get())",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function apr.md5(input, binary)\r\n  assert(type(input) == 'string', \"bad argument #1 to apr.md5() (string expected)\")\r\n  local context, digest, status, errmsg, errcode\r\n  context, errmsg, errcode = apr.md5_init()\r\n  if context then\r\n    status, errmsg, errcode = context:update(input)\r\n    if status then\r\n      digest, errmsg, errcode = context:digest(binary)\r\n      if digest then return digest end\r\n    end\r\n  end\r\n  return nil, errmsg, errcode\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "assert(type(input) == 'string', \"bad argument #1 to apr.md5() (string expected)\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "local context, digest, status, errmsg, errcode",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "context, errmsg, errcode = apr.md5_init()",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "if context then\r\n    status, errmsg, errcode = context:update(input)\r\n    if status then\r\n      digest, errmsg, errcode = context:digest(binary)\r\n      if digest then return digest end\r\n    end\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "status, errmsg, errcode = context:update(input)",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "if status then\r\n      digest, errmsg, errcode = context:digest(binary)\r\n      if digest then return digest end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "digest, errmsg, errcode = context:digest(binary)",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "if digest then return digest end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function apr.sha1(input, binary)\r\n  assert(type(input) == 'string', \"bad argument #1 to apr.sha1() (string expected)\")\r\n  local context, digest, status, errmsg, errcode\r\n  context, errmsg, errcode = apr.sha1_init()\r\n  if context then\r\n    status, errmsg, errcode = context:update(input)\r\n    if status then\r\n      digest, errmsg, errcode = context:digest(binary)\r\n      if digest then return digest end\r\n    end\r\n  end\r\n  return nil, errmsg, errcode\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "assert(type(input) == 'string', \"bad argument #1 to apr.sha1() (string expected)\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "context, errmsg, errcode = apr.sha1_init()",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function apr.file_truncate(path, offset)\r\n  local status = nil\r\n  local handle, errmsg, errcode = apr.file_open(path, 'r+')\r\n  if handle then\r\n    status, errmsg, errcode = handle:truncate(offset or 0)\r\n    if status then return handle:close() end\r\n    handle:close()\r\n  end\r\n  return status, errmsg, errcode\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "local status = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "local handle, errmsg, errcode = apr.file_open(path, 'r+')",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "if handle then\r\n    status, errmsg, errcode = handle:truncate(offset or 0)\r\n    if status then return handle:close() end\r\n    handle:close()\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "status, errmsg, errcode = handle:truncate(offset or 0)",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "if status then return handle:close() end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "handle:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "function apr.filepath_which(program, find_all)\r\n  local split = apr.filepath_list_split\r\n  local is_windows = apr.platform_get() == 'WIN32'\r\n  local extensions = is_windows and split(apr.env_get 'PATHEXT')\r\n  local results = find_all and {}\r\n  for _, directory in ipairs(split(apr.env_get 'PATH')) do\r\n    local candidate = apr.filepath_merge(directory, program)\r\n    local t, u, g, p = apr.stat(candidate, 'type', 'user', 'group', 'protection')\r\n    if t == 'file' and is_windows or executable(t, u, g, p) then\r\n      if not find_all then return candidate end\r\n      results[#results + 1] = candidate\r\n    end\r\n    if is_windows and #extensions >= 1 then\r\n      for _, extension in ipairs(extensions) do\r\n        candidate = apr.filepath_merge(directory, program .. extension)\r\n        if apr.stat(candidate, 'type') == 'file' then\r\n          if not find_all then return candidate end\r\n          results[#results + 1] = candidate\r\n        end\r\n      end\r\n    end\r\n  end\r\n  return results\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "local split = apr.filepath_list_split",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "local is_windows = apr.platform_get() == 'WIN32'",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "local extensions = is_windows and split(apr.env_get 'PATHEXT')",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "local results = find_all and {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "for _, directory in ipairs(split(apr.env_get 'PATH')) do\r\n    local candidate = apr.filepath_merge(directory, program)\r\n    local t, u, g, p = apr.stat(candidate, 'type', 'user', 'group', 'protection')\r\n    if t == 'file' and is_windows or executable(t, u, g, p) then\r\n      if not find_all then return candidate end\r\n      results[#results + 1] = candidate\r\n    end\r\n    if is_windows and #extensions >= 1 then\r\n      for _, extension in ipairs(extensions) do\r\n        candidate = apr.filepath_merge(directory, program .. extension)\r\n        if apr.stat(candidate, 'type') == 'file' then\r\n          if not find_all then return candidate end\r\n          results[#results + 1] = candidate\r\n        end\r\n      end\r\n    end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 35,
+    "text": "local candidate = apr.filepath_merge(directory, program)",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "local t, u, g, p = apr.stat(candidate, 'type', 'user', 'group', 'protection')",
+    "type": "statement:localassign"
+  }, {
+    "id": 37,
+    "text": "if t == 'file' and is_windows or executable(t, u, g, p) then\r\n      if not find_all then return candidate end\r\n      results[#results + 1] = candidate\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "if not find_all then return candidate end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "results[#results + 1] = candidate",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "if is_windows and #extensions >= 1 then\r\n      for _, extension in ipairs(extensions) do\r\n        candidate = apr.filepath_merge(directory, program .. extension)\r\n        if apr.stat(candidate, 'type') == 'file' then\r\n          if not find_all then return candidate end\r\n          results[#results + 1] = candidate\r\n        end\r\n      end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 41,
+    "text": "for _, extension in ipairs(extensions) do\r\n        candidate = apr.filepath_merge(directory, program .. extension)\r\n        if apr.stat(candidate, 'type') == 'file' then\r\n          if not find_all then return candidate end\r\n          results[#results + 1] = candidate\r\n        end\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 42,
+    "text": "candidate = apr.filepath_merge(directory, program .. extension)",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "if apr.stat(candidate, 'type') == 'file' then\r\n          if not find_all then return candidate end\r\n          results[#results + 1] = candidate\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 45,
+    "text": "function apr.filepath_executable(path)\r\n  return executable(apr.stat(path, 'type', 'user', 'group', 'protection'))\r\nend",
+    "type": "function"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 47,
+    "text": "function apr.glob(pattern, ignorecase)\r\n  local fnmatch = apr.fnmatch\r\n  local yield = coroutine.yield\r\n  local directory, pattern = apr.filepath_parent(pattern)\r\n  local handle = assert(apr.dir_open(directory))\r\n  return coroutine.wrap(function()\r\n    for path, name in handle:entries('path', 'name') do\r\n      if fnmatch(pattern, name, ignorecase) then\r\n        yield(path)\r\n      end\r\n    end\r\n    handle:close()\r\n  end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "local fnmatch = apr.fnmatch",
+    "type": "statement:localassign"
+  }, {
+    "id": 49,
+    "text": "local yield = coroutine.yield",
+    "type": "statement:localassign"
+  }, {
+    "id": 50,
+    "text": "local directory, pattern = apr.filepath_parent(pattern)",
+    "type": "statement:localassign"
+  }, {
+    "id": 51,
+    "text": "local handle = assert(apr.dir_open(directory))",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "for path, name in handle:entries('path', 'name') do\r\n      if fnmatch(pattern, name, ignorecase) then\r\n        yield(path)\r\n      end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 53,
+    "text": "if fnmatch(pattern, name, ignorecase) then\r\n        yield(path)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 54,
+    "text": "yield(path)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 56,
+    "text": "local function match_arg(table, key, line, pattern)\r\n  local opt, remainder = line:match(pattern)\r\n  if opt and remainder then\r\n    local name, args = opt:match '^(.-)=(.-)$'\r\n    if name and args then\r\n      table[key] = name\r\n      table.has_arg = true\r\n    else\r\n      if key == 'optch' then\r\n        opt = opt:gsub(',$', '')\r\n      end\r\n      table[key] = opt\r\n    end\r\n    return remainder\r\n  end\r\n  return line\r\nend",
+    "type": "function"
+  }, {
+    "id": 57,
+    "text": "local opt, remainder = line:match(pattern)",
+    "type": "statement:localassign"
+  }, {
+    "id": 58,
+    "text": "if opt and remainder then\r\n    local name, args = opt:match '^(.-)=(.-)$'\r\n    if name and args then\r\n      table[key] = name\r\n      table.has_arg = true\r\n    else\r\n      if key == 'optch' then\r\n        opt = opt:gsub(',$', '')\r\n      end\r\n      table[key] = opt\r\n    end\r\n    return remainder\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 59,
+    "text": "local name, args = opt:match '^(.-)=(.-)$'",
+    "type": "statement:localassign"
+  }, {
+    "id": 60,
+    "text": "if name and args then\r\n      table[key] = name\r\n      table.has_arg = true\r\n    else\r\n      if key == 'optch' then\r\n        opt = opt:gsub(',$', '')\r\n      end\r\n      table[key] = opt\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 61,
+    "text": "table[key] = name",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "table.has_arg = true",
+    "type": "statement:assign"
+  }, {
+    "id": 63,
+    "text": "if key == 'optch' then\r\n        opt = opt:gsub(',$', '')\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 64,
+    "text": "opt = opt:gsub(',$', '')",
+    "type": "statement:assign"
+  }, {
+    "id": 65,
+    "text": "table[key] = opt",
+    "type": "statement:assign"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 67,
+    "text": "local function parse_usage(usage)\r\n  local optdefs = {}\r\n  -- Parse the usage message into a nested table structure.\r\n  for line in usage:gmatch '[^\\n]+' do\r\n    local t = {}\r\n    line = match_arg(t, 'optch', line, '^%s*%-([^-]%S*)(.-)$')\r\n    line = match_arg(t, 'name', line, '^%s*%-%-(%S+)(.-)$')\r\n    t.description = line:match '^%s*(.-)%s*$'\r\n    optdefs[#optdefs + 1] = t\r\n    if t.optch then optdefs[t.optch] = t end\r\n    if t.name then optdefs[t.name] = t end\r\n  end\r\n  -- Generate any missing \"optch\" values.\r\n  for i, t in ipairs(optdefs) do\r\n    if t.name and not t.optch then\r\n      for i = 1, 255 do\r\n        local c = string.char(i)\r\n        if not optdefs[c] then\r\n          t.optch = c\r\n          t.fake_optch = true\r\n          optdefs[c] = t\r\n          break\r\n        end\r\n      end\r\n    end\r\n  end\r\n  return optdefs\r\nend",
+    "type": "function"
+  }, {
+    "id": 68,
+    "text": "local optdefs = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 69,
+    "text": "for line in usage:gmatch '[^\\n]+' do\r\n    local t = {}\r\n    line = match_arg(t, 'optch', line, '^%s*%-([^-]%S*)(.-)$')\r\n    line = match_arg(t, 'name', line, '^%s*%-%-(%S+)(.-)$')\r\n    t.description = line:match '^%s*(.-)%s*$'\r\n    optdefs[#optdefs + 1] = t\r\n    if t.optch then optdefs[t.optch] = t end\r\n    if t.name then optdefs[t.name] = t end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 70,
+    "text": "local t = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 71,
+    "text": "line = match_arg(t, 'optch', line, '^%s*%-([^-]%S*)(.-)$')",
+    "type": "statement:assign"
+  }, {
+    "id": 72,
+    "text": "line = match_arg(t, 'name', line, '^%s*%-%-(%S+)(.-)$')",
+    "type": "statement:assign"
+  }, {
+    "id": 73,
+    "text": "t.description = line:match '^%s*(.-)%s*$'",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "optdefs[#optdefs + 1] = t",
+    "type": "statement:assign"
+  }, {
+    "id": 75,
+    "text": "if t.optch then optdefs[t.optch] = t end",
+    "type": "statement:if"
+  }, {
+    "id": 76,
+    "text": "optdefs[t.optch] = t",
+    "type": "statement:assign"
+  }, {
+    "id": 77,
+    "text": "if t.name then optdefs[t.name] = t end",
+    "type": "statement:if"
+  }, {
+    "id": 78,
+    "text": "optdefs[t.name] = t",
+    "type": "statement:assign"
+  }, {
+    "id": 79,
+    "text": "for i, t in ipairs(optdefs) do\r\n    if t.name and not t.optch then\r\n      for i = 1, 255 do\r\n        local c = string.char(i)\r\n        if not optdefs[c] then\r\n          t.optch = c\r\n          t.fake_optch = true\r\n          optdefs[c] = t\r\n          break\r\n        end\r\n      end\r\n    end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 80,
+    "text": "if t.name and not t.optch then\r\n      for i = 1, 255 do\r\n        local c = string.char(i)\r\n        if not optdefs[c] then\r\n          t.optch = c\r\n          t.fake_optch = true\r\n          optdefs[c] = t\r\n          break\r\n        end\r\n      end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 81,
+    "text": "for i = 1, 255 do\r\n        local c = string.char(i)\r\n        if not optdefs[c] then\r\n          t.optch = c\r\n          t.fake_optch = true\r\n          optdefs[c] = t\r\n          break\r\n        end\r\n      end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 82,
+    "text": "local c = string.char(i)",
+    "type": "statement:localassign"
+  }, {
+    "id": 83,
+    "text": "if not optdefs[c] then\r\n          t.optch = c\r\n          t.fake_optch = true\r\n          optdefs[c] = t\r\n          break\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 84,
+    "text": "t.optch = c",
+    "type": "statement:assign"
+  }, {
+    "id": 85,
+    "text": "t.fake_optch = true",
+    "type": "statement:assign"
+  }, {
+    "id": 86,
+    "text": "optdefs[c] = t",
+    "type": "statement:assign"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 88,
+    "text": "function apr.getopt(usage, config)\r\n  -- Validate arguments.\r\n  assert(type(usage) == 'string')\r\n  if config then assert(type(config) == 'table') else config = {} end\r\n  local arguments = config.args or _G.arg\r\n  assert(type(arguments) == 'table', \"No arguments to parse!\")\r\n  assert(arguments[0], \"Program name missing from arguments!\")\r\n  -- Get the option definitions from the usage message.\r\n  local optdefs = parse_usage(usage)\r\n  -- Parse the Lua script's arguments using the definitions.\r\n  local opts, args, code = real_getopt(optdefs, arguments, config.handle_errors == false)\r\n  -- Handle errors during command argument parsing.\r\n  if not (opts and args) then\r\n    if config.handle_errors ~= false then\r\n      os.exit(1)\r\n    else\r\n      local msg = args\r\n      return nil, msg, code\r\n    end\r\n  end\r\n  -- Copy option letter values to long option aliases.\r\n  for i, t in ipairs(optdefs) do\r\n    if t.optch and t.name then\r\n      opts[t.name] = opts[t.optch]\r\n    end\r\n    if t.fake_optch then\r\n      opts[t.optch] = nil\r\n    end\r\n  end\r\n  -- Print usage message or return results.\r\n  if config.show_usage ~= false and (opts.h or opts.help) then\r\n    io.write(usage)\r\n    os.exit(0)\r\n  else\r\n    return opts, args\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 89,
+    "text": "assert(type(usage) == 'string')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 90,
+    "text": "if config then assert(type(config) == 'table') else config = {} end",
+    "type": "statement:if"
+  }, {
+    "id": 91,
+    "text": "assert(type(config) == 'table')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 92,
+    "text": "config = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 93,
+    "text": "local arguments = config.args or _G.arg",
+    "type": "statement:localassign"
+  }, {
+    "id": 94,
+    "text": "assert(type(arguments) == 'table', \"No arguments to parse!\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 95,
+    "text": "assert(arguments[0], \"Program name missing from arguments!\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 96,
+    "text": "local optdefs = parse_usage(usage)",
+    "type": "statement:localassign"
+  }, {
+    "id": 97,
+    "text": "local opts, args, code = real_getopt(optdefs, arguments, config.handle_errors == false)",
+    "type": "statement:localassign"
+  }, {
+    "id": 98,
+    "text": "if not (opts and args) then\r\n    if config.handle_errors ~= false then\r\n      os.exit(1)\r\n    else\r\n      local msg = args\r\n      return nil, msg, code\r\n    end\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 99,
+    "text": "if config.handle_errors ~= false then\r\n      os.exit(1)\r\n    else\r\n      local msg = args\r\n      return nil, msg, code\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 100,
+    "text": "os.exit(1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 101,
+    "text": "local msg = args",
+    "type": "statement:localassign"
+  }, {
+    "id": 102,
+    "text": "for i, t in ipairs(optdefs) do\r\n    if t.optch and t.name then\r\n      opts[t.name] = opts[t.optch]\r\n    end\r\n    if t.fake_optch then\r\n      opts[t.optch] = nil\r\n    end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 103,
+    "text": "if t.optch and t.name then\r\n      opts[t.name] = opts[t.optch]\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 104,
+    "text": "opts[t.name] = opts[t.optch]",
+    "type": "statement:assign"
+  }, {
+    "id": 105,
+    "text": "if t.fake_optch then\r\n      opts[t.optch] = nil\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 106,
+    "text": "opts[t.optch] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 107,
+    "text": "if config.show_usage ~= false and (opts.h or opts.help) then\r\n    io.write(usage)\r\n    os.exit(0)\r\n  else\r\n    return opts, args\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 108,
+    "text": "io.write(usage)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 109,
+    "text": "os.exit(0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 111,
+    "text": "function apr.serialize(...)\r\n  return require 'apr.serialize' ({ n = select('#', ...), ... })\r\nend",
+    "type": "function"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 113,
+    "text": "function apr.unserialize(data)\r\n  local tuple = loadstring(data)()\r\n  return unpack(tuple, 1, tuple.n)\r\nend",
+    "type": "function"
+  }, {
+    "id": 114,
+    "text": "local tuple = loadstring(data)()",
+    "type": "statement:localassign"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 116,
+    "text": "function()\r\n    for path, name in handle:entries('path', 'name') do\r\n      if fnmatch(pattern, name, ignorecase) then\r\n        yield(path)\r\n      end\r\n    end\r\n    handle:close()\r\n  end",
+    "type": "function"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 119,
+    "text": "dir_remove",
+    "type": "global function"
+  }, {
+    "id": 120,
+    "text": "dbd",
+    "type": "global function"
+  }, {
+    "id": 121,
+    "text": "time_now",
+    "type": "global function"
+  }, {
+    "id": 122,
+    "text": "file_remove",
+    "type": "global function"
+  }, {
+    "id": 123,
+    "text": "filepath_name",
+    "type": "global function"
+  }, {
+    "id": 124,
+    "text": "header_attribute",
+    "type": "global function"
+  }, {
+    "id": 125,
+    "text": "fnmatch",
+    "type": "global function"
+  }, {
+    "id": 126,
+    "text": "md5_init",
+    "type": "global function"
+  }, {
+    "id": 127,
+    "text": "file_copy",
+    "type": "global function"
+  }, {
+    "id": 128,
+    "text": "filepath_list_split",
+    "type": "global function"
+  }, {
+    "id": 129,
+    "text": "env_set",
+    "type": "global function"
+  }, {
+    "id": 130,
+    "text": "xml",
+    "type": "global function"
+  }, {
+    "id": 131,
+    "text": "sha1",
+    "type": "global function"
+  }, {
+    "id": 132,
+    "text": "parse_multipart",
+    "type": "global function"
+  }, {
+    "id": 133,
+    "text": "uuid_get",
+    "type": "global function"
+  }, {
+    "id": 134,
+    "text": "dbm_getnames",
+    "type": "global function"
+  }, {
+    "id": 135,
+    "text": "xlate",
+    "type": "global function"
+  }, {
+    "id": 136,
+    "text": "shm_create",
+    "type": "global function"
+  }, {
+    "id": 137,
+    "text": "uuid_format",
+    "type": "global function"
+  }, {
+    "id": 138,
+    "text": "uuid_parse",
+    "type": "global function"
+  }, {
+    "id": 139,
+    "text": "sleep",
+    "type": "global function"
+  }, {
+    "id": 140,
+    "text": "user_homepath_get",
+    "type": "global function"
+  }, {
+    "id": 141,
+    "text": "ldap_url_parse",
+    "type": "global function"
+  }, {
+    "id": 142,
+    "text": "time_implode",
+    "type": "global function"
+  }, {
+    "id": 143,
+    "text": "file_perms_set",
+    "type": "global function"
+  }, {
+    "id": 144,
+    "text": "time_explode",
+    "type": "global function"
+  }, {
+    "id": 145,
+    "text": "sha1_init",
+    "type": "global function"
+  }, {
+    "id": 146,
+    "text": "filepath_which",
+    "type": "global function"
+  }, {
+    "id": 147,
+    "text": "base64_decode",
+    "type": "global function"
+  }, {
+    "id": 148,
+    "text": "dbm_open",
+    "type": "global function"
+  }, {
+    "id": 149,
+    "text": "thread_yield",
+    "type": "global function"
+  }, {
+    "id": 150,
+    "text": "tokenize_to_argv",
+    "type": "global function"
+  }, {
+    "id": 151,
+    "text": "signal_block",
+    "type": "global function"
+  }, {
+    "id": 152,
+    "text": "signal_unblock",
+    "type": "global function"
+  }, {
+    "id": 153,
+    "text": "signal_raise",
+    "type": "global function"
+  }, {
+    "id": 154,
+    "text": "parse_cookie_header",
+    "type": "global function"
+  }, {
+    "id": 155,
+    "text": "uri_unparse",
+    "type": "global function"
+  }, {
+    "id": 156,
+    "text": "file_attrs_set",
+    "type": "global function"
+  }, {
+    "id": 157,
+    "text": "parse_headers",
+    "type": "global function"
+  }, {
+    "id": 158,
+    "text": "ref",
+    "type": "global function"
+  }, {
+    "id": 159,
+    "text": "shm_attach",
+    "type": "global function"
+  }, {
+    "id": 160,
+    "text": "shm_remove",
+    "type": "global function"
+  }, {
+    "id": 161,
+    "text": "env_get",
+    "type": "global function"
+  }, {
+    "id": 162,
+    "text": "serialize",
+    "type": "global function"
+  }, {
+    "id": 163,
+    "text": "uri_encode",
+    "type": "global function"
+  }, {
+    "id": 164,
+    "text": "stat",
+    "type": "global function"
+  }, {
+    "id": 165,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 166,
+    "text": "filepath_merge",
+    "type": "global function"
+  }, {
+    "id": 167,
+    "text": "unserialize",
+    "type": "global function"
+  }, {
+    "id": 168,
+    "text": "namedpipe_create",
+    "type": "global function"
+  }, {
+    "id": 169,
+    "text": "proc_fork",
+    "type": "global function"
+  }, {
+    "id": 170,
+    "text": "proc_create",
+    "type": "global function"
+  }, {
+    "id": 171,
+    "text": "filepath_parent",
+    "type": "global function"
+  }, {
+    "id": 172,
+    "text": "os_locale_encoding",
+    "type": "global function"
+  }, {
+    "id": 173,
+    "text": "os_default_encoding",
+    "type": "global function"
+  }, {
+    "id": 174,
+    "text": "pipe_open_stderr",
+    "type": "global function"
+  }, {
+    "id": 175,
+    "text": "pollset",
+    "type": "global function"
+  }, {
+    "id": 176,
+    "text": "pipe_open_stdin",
+    "type": "global function"
+  }, {
+    "id": 177,
+    "text": "memcache",
+    "type": "global function"
+  }, {
+    "id": 178,
+    "text": "ldap",
+    "type": "global function"
+  }, {
+    "id": 179,
+    "text": "dir_make",
+    "type": "global function"
+  }, {
+    "id": 180,
+    "text": "strnatcmp",
+    "type": "global function"
+  }, {
+    "id": 181,
+    "text": "socket_create",
+    "type": "global function"
+  }, {
+    "id": 182,
+    "text": "base64_encode",
+    "type": "global function"
+  }, {
+    "id": 183,
+    "text": "file_open",
+    "type": "global function"
+  }, {
+    "id": 184,
+    "text": "hostname_get",
+    "type": "global function"
+  }, {
+    "id": 185,
+    "text": "addr_to_host",
+    "type": "global function"
+  }, {
+    "id": 186,
+    "text": "temp_dir_get",
+    "type": "global function"
+  }, {
+    "id": 187,
+    "text": "version_get",
+    "type": "global function"
+  }, {
+    "id": 188,
+    "text": "platform_get",
+    "type": "global function"
+  }, {
+    "id": 189,
+    "text": "md5_encode",
+    "type": "global function"
+  }, {
+    "id": 190,
+    "text": "filepath_list_merge",
+    "type": "global function"
+  }, {
+    "id": 191,
+    "text": "password_validate",
+    "type": "global function"
+  }, {
+    "id": 192,
+    "text": "file_mtime_set",
+    "type": "global function"
+  }, {
+    "id": 193,
+    "text": "filepath_set",
+    "type": "global function"
+  }, {
+    "id": 194,
+    "text": "file_truncate",
+    "type": "global function"
+  }, {
+    "id": 195,
+    "text": "host_to_addr",
+    "type": "global function"
+  }, {
+    "id": 196,
+    "text": "file_rename",
+    "type": "global function"
+  }, {
+    "id": 197,
+    "text": "user_get",
+    "type": "global function"
+  }, {
+    "id": 198,
+    "text": "getopt",
+    "type": "global function"
+  }, {
+    "id": 199,
+    "text": "filepath_executable",
+    "type": "global function"
+  }, {
+    "id": 200,
+    "text": "signal",
+    "type": "global function"
+  }, {
+    "id": 201,
+    "text": "file_append",
+    "type": "global function"
+  }, {
+    "id": 202,
+    "text": "strfsize",
+    "type": "global function"
+  }, {
+    "id": 203,
+    "text": "parse_query_string",
+    "type": "global function"
+  }, {
+    "id": 204,
+    "text": "uri_parse",
+    "type": "global function"
+  }, {
+    "id": 205,
+    "text": "dir_remove_recursive",
+    "type": "global function"
+  }, {
+    "id": 206,
+    "text": "ldap_info",
+    "type": "global function"
+  }, {
+    "id": 207,
+    "text": "filepath_root",
+    "type": "global function"
+  }, {
+    "id": 208,
+    "text": "uri_port_of_scheme",
+    "type": "global function"
+  }, {
+    "id": 209,
+    "text": "thread_queue",
+    "type": "global function"
+  }, {
+    "id": 210,
+    "text": "pipe_open_stdout",
+    "type": "global function"
+  }, {
+    "id": 211,
+    "text": "date_parse_rfc",
+    "type": "global function"
+  }, {
+    "id": 212,
+    "text": "signal_names",
+    "type": "global function"
+  }, {
+    "id": 213,
+    "text": "time_format",
+    "type": "global function"
+  }, {
+    "id": 214,
+    "text": "md5",
+    "type": "global function"
+  }, {
+    "id": 215,
+    "text": "dir_open",
+    "type": "global function"
+  }, {
+    "id": 216,
+    "text": "fnmatch_test",
+    "type": "global function"
+  }, {
+    "id": 217,
+    "text": "ldap_url_check",
+    "type": "global function"
+  }, {
+    "id": 218,
+    "text": "dir_make_recursive",
+    "type": "global function"
+  }, {
+    "id": 219,
+    "text": "env_delete",
+    "type": "global function"
+  }, {
+    "id": 220,
+    "text": "thread",
+    "type": "global function"
+  }, {
+    "id": 221,
+    "text": "filepath_get",
+    "type": "global function"
+  }, {
+    "id": 222,
+    "text": "date_parse_http",
+    "type": "global function"
+  }, {
+    "id": 223,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 224,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 225,
+    "text": "fnmatch",
+    "type": "global function"
+  }, {
+    "id": 226,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 227,
+    "text": "real_getopt",
+    "type": "global function"
+  }, {
+    "id": 228,
+    "text": "yield",
+    "type": "global function"
+  }, {
+    "id": 229,
+    "text": "split",
+    "type": "global function"
+  }, {
+    "id": 230,
+    "text": "loadstring",
+    "type": "global function"
+  }, {
+    "id": 231,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 232,
+    "text": "wrap",
+    "type": "global function"
+  }, {
+    "id": 233,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 234,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 235,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 236,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 237,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 238,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 239,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 240,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 241,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 242,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 243,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 244,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 245,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 246,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 247,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 248,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 249,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 250,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 251,
+    "text": "core",
+    "type": "module"
+  }, {
+    "id": 252,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 253,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 254,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 255,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 256,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 257,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

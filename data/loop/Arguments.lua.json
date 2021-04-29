@@ -1,0 +1,557 @@
+{
+  "_filename": "Arguments.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/compiler/Arguments.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 51
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 52
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "assigns",
+    "to": 54
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "assigns",
+    "to": 56
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "assigns",
+    "to": 58
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 59
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 60
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 61
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 62
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 63
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "assigns",
+    "to": 65
+  }, {
+    "from": 52,
+    "label": "initializes",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Arguments",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function __call(self, ...)\r\n\tlocal errmsg\r\n\tlocal defined = self._norepeat and {} or nil\r\n\tlocal count = select(\"#\", ...)\r\n\tlocal pos = 1\r\n\twhile pos <= count do\r\n\t\tlocal opt, set, val = select(pos, ...):match(self._optpat)\r\n\t\tif not opt then break end\r\n\t\t\r\n\t\t-- apply option alias\r\n\t\tlocal temp = self._alias\r\n\t\ttemp = temp and temp[opt]\r\n\t\topt = temp or opt\r\n\t\t\r\n\t\t-- check repeated definitions\r\n\t\tlocal kind = type(self[opt])\r\n\t\tif defined then\r\n\t\t\tif not defined[opt] then\r\n\t\t\t\tdefined[opt] = true\r\n\t\t\telseif kind ~= \"table\" and kind ~= \"function\" then\r\n\t\t\t\tpos, errmsg = nil, self._norepeat:format(opt)\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend\r\n\t\t\r\n\t\t-- process option value\r\n\t\tif kind == \"boolean\" then\r\n\t\t\tif set == \"\" then -- option value was not set yet, get following argument\r\n\t\t\t\tval = true\r\n\t\t\telse\r\n\t\t\t\ttemp = self._boolean[val]\r\n\t\t\t\tif temp ~= nil then val = temp end\r\n\t\t\tend\r\n\t\t\tself[opt] = val\r\n\t\telseif kind ~= \"nil\" or not self._unknown then\r\n\t\t\tif set == \"\" then -- option value was not set yet, get following argument\r\n\t\t\t\tpos = pos + 1\r\n\t\t\t\tif pos <= count then\r\n\t\t\t\t\tval = select(pos, ...)\r\n\t\t\t\telse\r\n\t\t\t\t\tpos, errmsg = nil, self._missing:format(opt)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\t\r\n\t\t\tif kind == \"number\" then\r\n\t\t\t\tlocal number = tonumber(val)\r\n\t\t\t\tif number == nil then\r\n\t\t\t\t\tpos, errmsg = nil, self._badnumber:format(opt, val)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\t\tself[opt] = number\r\n\t\t\telseif kind == \"function\" then\r\n\t\t\t\terrmsg = self[opt](self, opt, val)\r\n\t\t\t\tif errmsg then\r\n\t\t\t\t\tpos = nil\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\telseif kind == \"table\" then\r\n\t\t\t\tlocal list = self[opt]\r\n\t\t\t\tlist[#list+1] = val\r\n\t\t\telse\r\n\t\t\t\tself[opt] = val\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tpos, errmsg = nil, self._unknown:format(opt)\r\n\t\t\tbreak\r\n\t\tend\r\n\t\tpos = pos + 1\r\n\tend\r\n\treturn pos, errmsg\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local errmsg",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local defined = self._norepeat and {} or nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local count = select(\"#\", ...)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local pos = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "while pos <= count do\r\n\t\tlocal opt, set, val = select(pos, ...):match(self._optpat)\r\n\t\tif not opt then break end\r\n\t\t\r\n\t\t-- apply option alias\r\n\t\tlocal temp = self._alias\r\n\t\ttemp = temp and temp[opt]\r\n\t\topt = temp or opt\r\n\t\t\r\n\t\t-- check repeated definitions\r\n\t\tlocal kind = type(self[opt])\r\n\t\tif defined then\r\n\t\t\tif not defined[opt] then\r\n\t\t\t\tdefined[opt] = true\r\n\t\t\telseif kind ~= \"table\" and kind ~= \"function\" then\r\n\t\t\t\tpos, errmsg = nil, self._norepeat:format(opt)\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend\r\n\t\t\r\n\t\t-- process option value\r\n\t\tif kind == \"boolean\" then\r\n\t\t\tif set == \"\" then -- option value was not set yet, get following argument\r\n\t\t\t\tval = true\r\n\t\t\telse\r\n\t\t\t\ttemp = self._boolean[val]\r\n\t\t\t\tif temp ~= nil then val = temp end\r\n\t\t\tend\r\n\t\t\tself[opt] = val\r\n\t\telseif kind ~= \"nil\" or not self._unknown then\r\n\t\t\tif set == \"\" then -- option value was not set yet, get following argument\r\n\t\t\t\tpos = pos + 1\r\n\t\t\t\tif pos <= count then\r\n\t\t\t\t\tval = select(pos, ...)\r\n\t\t\t\telse\r\n\t\t\t\t\tpos, errmsg = nil, self._missing:format(opt)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\t\r\n\t\t\tif kind == \"number\" then\r\n\t\t\t\tlocal number = tonumber(val)\r\n\t\t\t\tif number == nil then\r\n\t\t\t\t\tpos, errmsg = nil, self._badnumber:format(opt, val)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\t\tself[opt] = number\r\n\t\t\telseif kind == \"function\" then\r\n\t\t\t\terrmsg = self[opt](self, opt, val)\r\n\t\t\t\tif errmsg then\r\n\t\t\t\t\tpos = nil\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\telseif kind == \"table\" then\r\n\t\t\t\tlocal list = self[opt]\r\n\t\t\t\tlist[#list+1] = val\r\n\t\t\telse\r\n\t\t\t\tself[opt] = val\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tpos, errmsg = nil, self._unknown:format(opt)\r\n\t\t\tbreak\r\n\t\tend\r\n\t\tpos = pos + 1\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 9,
+    "text": "local opt, set, val = select(pos, ...):match(self._optpat)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if not opt then break end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "local temp = self._alias",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "temp = temp and temp[opt]",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "opt = temp or opt",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "local kind = type(self[opt])",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "if defined then\r\n\t\t\tif not defined[opt] then\r\n\t\t\t\tdefined[opt] = true\r\n\t\t\telseif kind ~= \"table\" and kind ~= \"function\" then\r\n\t\t\t\tpos, errmsg = nil, self._norepeat:format(opt)\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "if not defined[opt] then\r\n\t\t\t\tdefined[opt] = true\r\n\t\t\telseif kind ~= \"table\" and kind ~= \"function\" then\r\n\t\t\t\tpos, errmsg = nil, self._norepeat:format(opt)\r\n\t\t\t\tbreak\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "defined[opt] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "pos, errmsg = nil, self._norepeat:format(opt)",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "if kind == \"boolean\" then\r\n\t\t\tif set == \"\" then -- option value was not set yet, get following argument\r\n\t\t\t\tval = true\r\n\t\t\telse\r\n\t\t\t\ttemp = self._boolean[val]\r\n\t\t\t\tif temp ~= nil then val = temp end\r\n\t\t\tend\r\n\t\t\tself[opt] = val\r\n\t\telseif kind ~= \"nil\" or not self._unknown then\r\n\t\t\tif set == \"\" then -- option value was not set yet, get following argument\r\n\t\t\t\tpos = pos + 1\r\n\t\t\t\tif pos <= count then\r\n\t\t\t\t\tval = select(pos, ...)\r\n\t\t\t\telse\r\n\t\t\t\t\tpos, errmsg = nil, self._missing:format(opt)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\t\r\n\t\t\tif kind == \"number\" then\r\n\t\t\t\tlocal number = tonumber(val)\r\n\t\t\t\tif number == nil then\r\n\t\t\t\t\tpos, errmsg = nil, self._badnumber:format(opt, val)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\t\tself[opt] = number\r\n\t\t\telseif kind == \"function\" then\r\n\t\t\t\terrmsg = self[opt](self, opt, val)\r\n\t\t\t\tif errmsg then\r\n\t\t\t\t\tpos = nil\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\telseif kind == \"table\" then\r\n\t\t\t\tlocal list = self[opt]\r\n\t\t\t\tlist[#list+1] = val\r\n\t\t\telse\r\n\t\t\t\tself[opt] = val\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tpos, errmsg = nil, self._unknown:format(opt)\r\n\t\t\tbreak\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "if set == \"\" then -- option value was not set yet, get following argument\r\n\t\t\t\tval = true\r\n\t\t\telse\r\n\t\t\t\ttemp = self._boolean[val]\r\n\t\t\t\tif temp ~= nil then val = temp end\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "val = true",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "temp = self._boolean[val]",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "if temp ~= nil then val = temp end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "val = temp",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "self[opt] = val",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "if set == \"\" then -- option value was not set yet, get following argument\r\n\t\t\t\tpos = pos + 1\r\n\t\t\t\tif pos <= count then\r\n\t\t\t\t\tval = select(pos, ...)\r\n\t\t\t\telse\r\n\t\t\t\t\tpos, errmsg = nil, self._missing:format(opt)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "pos = pos + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "if pos <= count then\r\n\t\t\t\t\tval = select(pos, ...)\r\n\t\t\t\telse\r\n\t\t\t\t\tpos, errmsg = nil, self._missing:format(opt)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "val = select(pos, ...)",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "pos, errmsg = nil, self._missing:format(opt)",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "if kind == \"number\" then\r\n\t\t\t\tlocal number = tonumber(val)\r\n\t\t\t\tif number == nil then\r\n\t\t\t\t\tpos, errmsg = nil, self._badnumber:format(opt, val)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\t\tself[opt] = number\r\n\t\t\telseif kind == \"function\" then\r\n\t\t\t\terrmsg = self[opt](self, opt, val)\r\n\t\t\t\tif errmsg then\r\n\t\t\t\t\tpos = nil\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\telseif kind == \"table\" then\r\n\t\t\t\tlocal list = self[opt]\r\n\t\t\t\tlist[#list+1] = val\r\n\t\t\telse\r\n\t\t\t\tself[opt] = val\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "local number = tonumber(val)",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "if number == nil then\r\n\t\t\t\t\tpos, errmsg = nil, self._badnumber:format(opt, val)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "pos, errmsg = nil, self._badnumber:format(opt, val)",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "self[opt] = number",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "errmsg = self[opt](self, opt, val)",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "if errmsg then\r\n\t\t\t\t\tpos = nil\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "pos = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "local list = self[opt]",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "list[#list+1] = val",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "pos, errmsg = nil, self._unknown:format(opt)",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 45,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "self[opt]",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

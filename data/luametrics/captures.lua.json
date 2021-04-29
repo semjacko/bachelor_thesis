@@ -1,0 +1,1237 @@
+{
+  "_filename": "captures.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luametrics/src/metrics/luadoc/captures.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 112
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 114
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 114
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 108,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 108
+  }, {
+    "from": 108,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 108,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 108,
+    "label": "declares",
+    "to": 76
+  }, {
+    "from": 108,
+    "label": "declares",
+    "to": 103
+  }, {
+    "from": 108,
+    "label": "declares",
+    "to": 106
+  }, {
+    "from": 116,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 117
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 118
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 119
+  }, {
+    "from": 119,
+    "label": "assigns",
+    "to": 120
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 121
+  }, {
+    "from": 121,
+    "label": "assigns",
+    "to": 122
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 123
+  }, {
+    "from": 123,
+    "label": "assigns",
+    "to": 124
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 125
+  }, {
+    "from": 125,
+    "label": "assigns",
+    "to": 126
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 127
+  }, {
+    "from": 127,
+    "label": "assigns",
+    "to": 128
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 129
+  }, {
+    "from": 129,
+    "label": "assigns",
+    "to": 130
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 131
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 132
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 133
+  }, {
+    "from": 133,
+    "label": "assigns",
+    "to": 134
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 135
+  }, {
+    "from": 135,
+    "label": "assigns",
+    "to": 136
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 137
+  }, {
+    "from": 137,
+    "label": "assigns",
+    "to": 138
+  }, {
+    "from": 118,
+    "label": "initializes",
+    "to": 139
+  }, {
+    "from": 139,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 118,
+    "label": "initializes",
+    "to": 140
+  }, {
+    "from": 140,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "captures",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "commentParser",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "utils",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "local function processFunction(comment, funcAST)\r\n\tlocal name = nil\r\n\r\n\tif (funcAST.name) then\r\n\t\tname = funcAST.name\r\n\telse\r\n\t\treturn\r\n\tend\r\n\t--added functionality to recognize partly documented and not standardly documented functions, options 2 and 3 for key 'documented' in funcAST\r\n\t--by Peter Mendel, 05/2014\r\n\r\n\t--matches explua template comment generated by comments.templateComments\r\n\tif string.match(comment,\"%-%-%-[%s]+%-%-%%%s[%a]*%s[%a]*%sfunction[\\n]\") then\r\n\t\tfuncAST.documented = 2 \t\t-- partly documented function\r\n\telse\r\n\t\tlocal result = commentParser.parse(comment,0,true) or commentParser.parse(comment,0)\r\n\t\tif (result) then\r\n\t\t\tfuncAST.documented=1\r\n\t\t\tfor k,v in pairs(result) do\r\n\r\n\t\t\t\tif (v.tag == 'comment') then\r\n\r\n\t\t\t\t\tfuncAST.description =(funcAST.description or '') .. v.text .. ' '\r\n\t\t\t\tend\r\n\t\t\t\tif (v.item == 'name') then\r\n\t\t\t\t\tname = v.text\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tfuncAST.comment=(string.match(funcAST.description or '', \"(.-%.)[%s\\t]\") or funcAST.description)\r\n\t\telse\r\n\t\t\tfuncAST.comment = comment\r\n\t\tend\r\n\t\tif result == nil then\r\n\t\t\tfuncAST.documented=3 -- not standardly documented\r\n\t\t\tfuncAST.comment = string.match(comment,\"[^\\n]*\")\r\n\t\tend\r\n\tend\r\n\t--end Peter Mendel\r\n\tlocal block = nil\r\n\r\n\tfor k, v in pairs(funcAST.data) do\r\n\t\tif (v.tag == 'FuncBody') then\r\n\t\t\tfor i,j in pairs(v.data) do\r\n\t\t\t\tif (j.tag == 'Block') then\r\n\t\t\t\t\tblock = j\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\n\r\n\tfuncAST.metrics.blockdata \t\t\t\t= {}\r\n\tfuncAST.metrics.blockdata.locals \t\t= block.metrics.blockdata.locals\r\n\tfuncAST.metrics.blockdata.locals_total \t= block.metrics.blockdata.locals_total\r\n\tfuncAST.metrics.blockdata.remotes \t\t= block.metrics.blockdata.remotes\r\n\tfuncAST.metrics.blockdata.read_upvalue \t= block.metrics.blockdata.read_upvalue\r\n\tfuncAST.metrics.blockdata.write_upvalue = block.metrics.blockdata.write_upvalue\r\n\tfuncAST.metrics.blockdata.execs \t\t= block.metrics.blockdata.execs\r\n\r\n\tif name then stack_functions[name] = funcAST end\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local name = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "if (funcAST.name) then\r\n\t\tname = funcAST.name\r\n\telse\r\n\t\treturn\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "name = funcAST.name",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "if string.match(comment,\"%-%-%-[%s]+%-%-%%%s[%a]*%s[%a]*%sfunction[\\n]\") then\r\n\t\tfuncAST.documented = 2 \t\t-- partly documented function\r\n\telse\r\n\t\tlocal result = commentParser.parse(comment,0,true) or commentParser.parse(comment,0)\r\n\t\tif (result) then\r\n\t\t\tfuncAST.documented=1\r\n\t\t\tfor k,v in pairs(result) do\r\n\r\n\t\t\t\tif (v.tag == 'comment') then\r\n\r\n\t\t\t\t\tfuncAST.description =(funcAST.description or '') .. v.text .. ' '\r\n\t\t\t\tend\r\n\t\t\t\tif (v.item == 'name') then\r\n\t\t\t\t\tname = v.text\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tfuncAST.comment=(string.match(funcAST.description or '', \"(.-%.)[%s\\t]\") or funcAST.description)\r\n\t\telse\r\n\t\t\tfuncAST.comment = comment\r\n\t\tend\r\n\t\tif result == nil then\r\n\t\t\tfuncAST.documented=3 -- not standardly documented\r\n\t\t\tfuncAST.comment = string.match(comment,\"[^\\n]*\")\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "funcAST.documented = 2",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "local result = commentParser.parse(comment,0,true) or commentParser.parse(comment,0)",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "if (result) then\r\n\t\t\tfuncAST.documented=1\r\n\t\t\tfor k,v in pairs(result) do\r\n\r\n\t\t\t\tif (v.tag == 'comment') then\r\n\r\n\t\t\t\t\tfuncAST.description =(funcAST.description or '') .. v.text .. ' '\r\n\t\t\t\tend\r\n\t\t\t\tif (v.item == 'name') then\r\n\t\t\t\t\tname = v.text\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tfuncAST.comment=(string.match(funcAST.description or '', \"(.-%.)[%s\\t]\") or funcAST.description)\r\n\t\telse\r\n\t\t\tfuncAST.comment = comment\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "funcAST.documented=1",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "for k,v in pairs(result) do\r\n\r\n\t\t\t\tif (v.tag == 'comment') then\r\n\r\n\t\t\t\t\tfuncAST.description =(funcAST.description or '') .. v.text .. ' '\r\n\t\t\t\tend\r\n\t\t\t\tif (v.item == 'name') then\r\n\t\t\t\t\tname = v.text\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 15,
+    "text": "if (v.tag == 'comment') then\r\n\r\n\t\t\t\t\tfuncAST.description =(funcAST.description or '') .. v.text .. ' '\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "funcAST.description =(funcAST.description or '') .. v.text .. ' '",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "if (v.item == 'name') then\r\n\t\t\t\t\tname = v.text\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "name = v.text",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "funcAST.comment=(string.match(funcAST.description or '', \"(.-%.)[%s\\t]\") or funcAST.description)",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "funcAST.comment = comment",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "if result == nil then\r\n\t\t\tfuncAST.documented=3 -- not standardly documented\r\n\t\t\tfuncAST.comment = string.match(comment,\"[^\\n]*\")\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "funcAST.documented=3",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "funcAST.comment = string.match(comment,\"[^\\n]*\")",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "local block = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "for k, v in pairs(funcAST.data) do\r\n\t\tif (v.tag == 'FuncBody') then\r\n\t\t\tfor i,j in pairs(v.data) do\r\n\t\t\t\tif (j.tag == 'Block') then\r\n\t\t\t\t\tblock = j\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tbreak\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 26,
+    "text": "if (v.tag == 'FuncBody') then\r\n\t\t\tfor i,j in pairs(v.data) do\r\n\t\t\t\tif (j.tag == 'Block') then\r\n\t\t\t\t\tblock = j\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tbreak\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "for i,j in pairs(v.data) do\r\n\t\t\t\tif (j.tag == 'Block') then\r\n\t\t\t\t\tblock = j\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 28,
+    "text": "if (j.tag == 'Block') then\r\n\t\t\t\t\tblock = j\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "block = j",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "funcAST.metrics.blockdata \t\t\t\t= {}",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "funcAST.metrics.blockdata.locals \t\t= block.metrics.blockdata.locals",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "funcAST.metrics.blockdata.locals_total \t= block.metrics.blockdata.locals_total",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "funcAST.metrics.blockdata.remotes \t\t= block.metrics.blockdata.remotes",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "funcAST.metrics.blockdata.read_upvalue \t= block.metrics.blockdata.read_upvalue",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "funcAST.metrics.blockdata.write_upvalue = block.metrics.blockdata.write_upvalue",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "funcAST.metrics.blockdata.execs \t\t= block.metrics.blockdata.execs",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "if name then stack_functions[name] = funcAST end",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "stack_functions[name] = funcAST",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "local function processAssign(comment, assignAST)\r\n\r\n\tif (assignAST.tag ~= 'LocalAssign' and  assignAST.tag ~= 'Assign') then\r\n\t\treturn\r\n\tend\r\n\r\n\t-- parse luadoc comment\r\n\tlocal result = commentParser.parse(comment)\r\n\r\n\tlocal ldoc_class = nil\r\n\tlocal ldoc_name = nil\r\n\tlocal commentflag = 0\r\n\tlocal comment = ''\r\n\tlocal description=\"\"\r\n\tif (result) then\r\n\r\n\t\tfor k,v in pairs(result) do\r\n\t\t\tif (v.item == 'name') then\r\n\t\t\t\tldoc_name = v.text\r\n\t\t\tend\r\n\t\t\tif (v.tag == 'comment') then\r\n\t\t\t\tdescription =(description or '') .. v.text .. ' '\r\n\t\t\tend\r\n\r\n\t\t\tif (v.item == 'class') then\r\n\t\t\t\tldoc_class = v.text\r\n\t\t\tend\r\n\t\tend\r\n\t\tcomment=(string.match(description, \"(.-%.)[%s\\t]\") or description)\r\n\tend\r\n\r\n\r\n\tif ldoc_class == 'table' and ldoc_name ~= nil then\r\n\t\tlocal namelist = nil\r\n\t\tlocal explist = nil\r\n\t\tlocal commentflag = 1\r\n\t\tfor k,v in pairs(assignAST.data) do\r\n\t\t\tif (v.tag) == 'NameList' or (v.tag == 'VarList') then namelist = v end\r\n\t\t\tif (v.tag) == 'ExpList' then explist = v end\r\n\r\n\t\tend\r\n\r\n\t\tfor k,v in pairs(namelist.data) do \t\t\t-- compare namelist and explist values ... create result table\r\n\t\t\tif (v.text == ldoc_name) then\r\n\t\t\t\texplist.data[k].documented = commentflag\r\n\t\t\t\texplist.data[k].description = description\r\n\t\t\t\texplist.data[k].comment = comment\r\n\t\t\t\tif(assignAST.tag == 'Assign')then\r\n\t\t\t\t\texplist.data[k].ttype = \t''\t\t--old: 'global' not sure, what if\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t-- local newtable\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t-- newtable = {}\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t--TODO set correct ttype -- see: captures/block.lua\r\n\t\t\t\telse\r\n\t\t\t\t\texplist.data[k].ttype = \t'local'\r\n\t\t\t\tend\r\n\t\t\t\tstack_tables[v.text] = explist.data[k]\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "if (assignAST.tag ~= 'LocalAssign' and  assignAST.tag ~= 'Assign') then\r\n\t\treturn\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 42,
+    "text": "local result = commentParser.parse(comment)",
+    "type": "statement:localassign"
+  }, {
+    "id": 43,
+    "text": "local ldoc_class = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 44,
+    "text": "local ldoc_name = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 45,
+    "text": "local commentflag = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "local comment = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 47,
+    "text": "local description=\"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 48,
+    "text": "if (result) then\r\n\r\n\t\tfor k,v in pairs(result) do\r\n\t\t\tif (v.item == 'name') then\r\n\t\t\t\tldoc_name = v.text\r\n\t\t\tend\r\n\t\t\tif (v.tag == 'comment') then\r\n\t\t\t\tdescription =(description or '') .. v.text .. ' '\r\n\t\t\tend\r\n\r\n\t\t\tif (v.item == 'class') then\r\n\t\t\t\tldoc_class = v.text\r\n\t\t\tend\r\n\t\tend\r\n\t\tcomment=(string.match(description, \"(.-%.)[%s\\t]\") or description)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 49,
+    "text": "for k,v in pairs(result) do\r\n\t\t\tif (v.item == 'name') then\r\n\t\t\t\tldoc_name = v.text\r\n\t\t\tend\r\n\t\t\tif (v.tag == 'comment') then\r\n\t\t\t\tdescription =(description or '') .. v.text .. ' '\r\n\t\t\tend\r\n\r\n\t\t\tif (v.item == 'class') then\r\n\t\t\t\tldoc_class = v.text\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 50,
+    "text": "if (v.item == 'name') then\r\n\t\t\t\tldoc_name = v.text\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "ldoc_name = v.text",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "if (v.tag == 'comment') then\r\n\t\t\t\tdescription =(description or '') .. v.text .. ' '\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 53,
+    "text": "description =(description or '') .. v.text .. ' '",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "if (v.item == 'class') then\r\n\t\t\t\tldoc_class = v.text\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 55,
+    "text": "ldoc_class = v.text",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "comment=(string.match(description, \"(.-%.)[%s\\t]\") or description)",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "if ldoc_class == 'table' and ldoc_name ~= nil then\r\n\t\tlocal namelist = nil\r\n\t\tlocal explist = nil\r\n\t\tlocal commentflag = 1\r\n\t\tfor k,v in pairs(assignAST.data) do\r\n\t\t\tif (v.tag) == 'NameList' or (v.tag == 'VarList') then namelist = v end\r\n\t\t\tif (v.tag) == 'ExpList' then explist = v end\r\n\r\n\t\tend\r\n\r\n\t\tfor k,v in pairs(namelist.data) do \t\t\t-- compare namelist and explist values ... create result table\r\n\t\t\tif (v.text == ldoc_name) then\r\n\t\t\t\texplist.data[k].documented = commentflag\r\n\t\t\t\texplist.data[k].description = description\r\n\t\t\t\texplist.data[k].comment = comment\r\n\t\t\t\tif(assignAST.tag == 'Assign')then\r\n\t\t\t\t\texplist.data[k].ttype = \t''\t\t--old: 'global' not sure, what if\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t-- local newtable\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t-- newtable = {}\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t--TODO set correct ttype -- see: captures/block.lua\r\n\t\t\t\telse\r\n\t\t\t\t\texplist.data[k].ttype = \t'local'\r\n\t\t\t\tend\r\n\t\t\t\tstack_tables[v.text] = explist.data[k]\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 58,
+    "text": "local namelist = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 59,
+    "text": "local explist = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 60,
+    "text": "local commentflag = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 61,
+    "text": "for k,v in pairs(assignAST.data) do\r\n\t\t\tif (v.tag) == 'NameList' or (v.tag == 'VarList') then namelist = v end\r\n\t\t\tif (v.tag) == 'ExpList' then explist = v end\r\n\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 62,
+    "text": "if (v.tag) == 'NameList' or (v.tag == 'VarList') then namelist = v end",
+    "type": "statement:if"
+  }, {
+    "id": 63,
+    "text": "namelist = v",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "if (v.tag) == 'ExpList' then explist = v end",
+    "type": "statement:if"
+  }, {
+    "id": 65,
+    "text": "explist = v",
+    "type": "statement:assign"
+  }, {
+    "id": 66,
+    "text": "for k,v in pairs(namelist.data) do \t\t\t-- compare namelist and explist values ... create result table\r\n\t\t\tif (v.text == ldoc_name) then\r\n\t\t\t\texplist.data[k].documented = commentflag\r\n\t\t\t\texplist.data[k].description = description\r\n\t\t\t\texplist.data[k].comment = comment\r\n\t\t\t\tif(assignAST.tag == 'Assign')then\r\n\t\t\t\t\texplist.data[k].ttype = \t''\t\t--old: 'global' not sure, what if\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t-- local newtable\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t-- newtable = {}\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t--TODO set correct ttype -- see: captures/block.lua\r\n\t\t\t\telse\r\n\t\t\t\t\texplist.data[k].ttype = \t'local'\r\n\t\t\t\tend\r\n\t\t\t\tstack_tables[v.text] = explist.data[k]\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 67,
+    "text": "if (v.text == ldoc_name) then\r\n\t\t\t\texplist.data[k].documented = commentflag\r\n\t\t\t\texplist.data[k].description = description\r\n\t\t\t\texplist.data[k].comment = comment\r\n\t\t\t\tif(assignAST.tag == 'Assign')then\r\n\t\t\t\t\texplist.data[k].ttype = \t''\t\t--old: 'global' not sure, what if\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t-- local newtable\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t-- newtable = {}\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t--TODO set correct ttype -- see: captures/block.lua\r\n\t\t\t\telse\r\n\t\t\t\t\texplist.data[k].ttype = \t'local'\r\n\t\t\t\tend\r\n\t\t\t\tstack_tables[v.text] = explist.data[k]\r\n\t\t\t\tbreak\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 68,
+    "text": "explist.data[k].documented = commentflag",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "explist.data[k].description = description",
+    "type": "statement:assign"
+  }, {
+    "id": 70,
+    "text": "explist.data[k].comment = comment",
+    "type": "statement:assign"
+  }, {
+    "id": 71,
+    "text": "if(assignAST.tag == 'Assign')then\r\n\t\t\t\t\texplist.data[k].ttype = \t''\t\t--old: 'global' not sure, what if\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t-- local newtable\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t-- newtable = {}\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t--TODO set correct ttype -- see: captures/block.lua\r\n\t\t\t\telse\r\n\t\t\t\t\texplist.data[k].ttype = \t'local'\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 72,
+    "text": "explist.data[k].ttype = \t''",
+    "type": "statement:assign"
+  }, {
+    "id": 73,
+    "text": "explist.data[k].ttype = \t'local'",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "stack_tables[v.text] = explist.data[k]",
+    "type": "statement:assign"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 76,
+    "text": "function(data)\r\n\t\tstack_functions = {}\r\n\t\tstack_tables = {}\r\n\r\n\t\tlocal k, fun, tab\r\n\r\n\r\n\t\tfor k,fun in pairs(data.metrics.functionDefinitions) do\r\n\t\t\tlocal searchNode = fun\r\n\r\n\t\t\tif (fun.assignNode) then searchNode=fun.assignNode end\r\n--bug util.getComment function returns all comments and empty lines before the node,what if the first line isn't the luadoc-style comment (not starting with ---)\r\n\t\t\tlocal comment = utils.getComment(searchNode)\r\n\t\t\tfun.documented = 0\r\n\t\t\tif (comment) then\r\n--? is this correct solution for bug above?\r\n\t\t\t\t--added by Peter Mendel 05/2014\r\n\t\t\t\tlocal diffcomment = comment\r\n\t\t\t\tcomment=string.match(comment,\"%-%-%-.*\")\r\n\r\n\t\t\t\tif(comment)then\r\n\t\t\t\t\tprocessFunction(comment, fun)\r\n\t\t\t\telse\r\n\t\t\t\t\tprocessFunction(diffcomment, fun)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\t--end Peter Mendel\r\n\t\tend\r\n\t\tfor k,tab in pairs(tabs) do\r\n\t\t\tlocal comment = utils.getComment(tab)\r\n\t\t\ttab.documented = 0\r\n\t\t\tif (comment) then\r\n\t\t\t\tcomment=string.match(comment,\"%-%-%-.*\")\r\n\t\t\t\tif(comment)then\r\n\t\t\t\t\t processAssign(comment, tab)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\t-- made work dith current luadoc taglet\r\n\t\tfuncs = {}\r\n\t\ttabs = {}\r\n\r\n\t\tdata.luaDoc_functions = stack_functions\r\n\t\tdata.luaDoc_tables = stack_tables\r\n\t\treturn data\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 77,
+    "text": "stack_functions = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 78,
+    "text": "stack_tables = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 79,
+    "text": "local k, fun, tab",
+    "type": "statement:localassign"
+  }, {
+    "id": 80,
+    "text": "for k,fun in pairs(data.metrics.functionDefinitions) do\r\n\t\t\tlocal searchNode = fun\r\n\r\n\t\t\tif (fun.assignNode) then searchNode=fun.assignNode end\r\n--bug util.getComment function returns all comments and empty lines before the node,what if the first line isn't the luadoc-style comment (not starting with ---)\r\n\t\t\tlocal comment = utils.getComment(searchNode)\r\n\t\t\tfun.documented = 0\r\n\t\t\tif (comment) then\r\n--? is this correct solution for bug above?\r\n\t\t\t\t--added by Peter Mendel 05/2014\r\n\t\t\t\tlocal diffcomment = comment\r\n\t\t\t\tcomment=string.match(comment,\"%-%-%-.*\")\r\n\r\n\t\t\t\tif(comment)then\r\n\t\t\t\t\tprocessFunction(comment, fun)\r\n\t\t\t\telse\r\n\t\t\t\t\tprocessFunction(diffcomment, fun)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\t--end Peter Mendel\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 81,
+    "text": "local searchNode = fun",
+    "type": "statement:localassign"
+  }, {
+    "id": 82,
+    "text": "if (fun.assignNode) then searchNode=fun.assignNode end",
+    "type": "statement:if"
+  }, {
+    "id": 83,
+    "text": "searchNode=fun.assignNode",
+    "type": "statement:assign"
+  }, {
+    "id": 84,
+    "text": "local comment = utils.getComment(searchNode)",
+    "type": "statement:localassign"
+  }, {
+    "id": 85,
+    "text": "fun.documented = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 86,
+    "text": "if (comment) then\r\n--? is this correct solution for bug above?\r\n\t\t\t\t--added by Peter Mendel 05/2014\r\n\t\t\t\tlocal diffcomment = comment\r\n\t\t\t\tcomment=string.match(comment,\"%-%-%-.*\")\r\n\r\n\t\t\t\tif(comment)then\r\n\t\t\t\t\tprocessFunction(comment, fun)\r\n\t\t\t\telse\r\n\t\t\t\t\tprocessFunction(diffcomment, fun)\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 87,
+    "text": "local diffcomment = comment",
+    "type": "statement:localassign"
+  }, {
+    "id": 88,
+    "text": "comment=string.match(comment,\"%-%-%-.*\")",
+    "type": "statement:assign"
+  }, {
+    "id": 89,
+    "text": "if(comment)then\r\n\t\t\t\t\tprocessFunction(comment, fun)\r\n\t\t\t\telse\r\n\t\t\t\t\tprocessFunction(diffcomment, fun)\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 90,
+    "text": "processFunction(comment, fun)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 91,
+    "text": "processFunction(diffcomment, fun)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 92,
+    "text": "for k,tab in pairs(tabs) do\r\n\t\t\tlocal comment = utils.getComment(tab)\r\n\t\t\ttab.documented = 0\r\n\t\t\tif (comment) then\r\n\t\t\t\tcomment=string.match(comment,\"%-%-%-.*\")\r\n\t\t\t\tif(comment)then\r\n\t\t\t\t\t processAssign(comment, tab)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 93,
+    "text": "local comment = utils.getComment(tab)",
+    "type": "statement:localassign"
+  }, {
+    "id": 94,
+    "text": "tab.documented = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 95,
+    "text": "if (comment) then\r\n\t\t\t\tcomment=string.match(comment,\"%-%-%-.*\")\r\n\t\t\t\tif(comment)then\r\n\t\t\t\t\t processAssign(comment, tab)\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 96,
+    "text": "if(comment)then\r\n\t\t\t\t\t processAssign(comment, tab)\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 97,
+    "text": "processAssign(comment, tab)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 98,
+    "text": "funcs = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 99,
+    "text": "tabs = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 100,
+    "text": "data.luaDoc_functions = stack_functions",
+    "type": "statement:assign"
+  }, {
+    "id": 101,
+    "text": "data.luaDoc_tables = stack_tables",
+    "type": "statement:assign"
+  }, {
+    "id": 102,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 103,
+    "text": "function(data)\r\n\t\ttable.insert(tabs, data)\r\n\t\treturn data\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 104,
+    "text": "table.insert(tabs, data)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 106,
+    "text": "function(data)\r\n\t\ttable.insert(tabs, data)\r\n\t\treturn data\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 109,
+    "text": "function parse(text)\r\n\r\nlocal result\r\n--^ `novy parser z modulu comments`\r\n--info converts new result table of comments parser to old form\r\nlocal t={}\r\n\r\nif(string.match(text,\"^[%s]*%-%-%-\"))then\r\n\tfor v in string.gmatch(text,\"[^\\n]+\")do\r\n\t\t-- print(v)\r\n\t\t\tlocal minires =comments.Parse(v)\r\n\t\t\t\t\r\n\t\t\tif(minires and minires.style==\"luadoc\")then \r\n\t\t\t\ttable.insert(t,v)\r\n\t\t\t\tfor key,val in pairs(minires) do\r\n\t\t\t\t\tif(key~=\"style\")then\r\n\t\t\t\t\t\tif(key==\"type\" and val==\"descr\" )then\r\n\t\t\t\t\t\t\ttable.insert(t,minires.text)\t\r\n\t\t\t\t\t\t\ttable.insert(t,{tag=\"comment\",text=minires.text})\r\n\t\t\t\t\t\telseif(key==\"type\" and (val==\"class\" or val==\"name\") )then\r\n\t\t\t\t\t\t\ttable.insert(t,minires.name)\t\r\n\t\t\t\t\t\t\ttable.insert(t,{tag=\"item\",item=val,text=minires.name})\r\n\t\t\t\t\t\telseif(key==\"type\")then\r\n\t\t\t\t\t\t\ttable.insert(t,minires.text)\t\r\n\t\t\t\t\t\t\ttable.insert(t,{tag=\"item\",item=val,text=minires.name,textt=minires.text})\r\n\t\t\t\t\t\tend\r\n\r\n\t\t\t\t\tend\r\n\t\t\t\tend\r\n\t\t\telseif(minires and minires.style==\"explua\")then\r\n\t\t\t\ttable.insert(t,v)\r\n\t\t\t\tfor key,val in pairs(minires) do\r\n\t\t\t\t\tif(key~=\"style\")then\r\n\t\t\t\t\t\tif(key==\"type\" and val==\"descr\" )then\r\n\t\t\t\t\t\t\ttable.insert(t,minires.text)\t\r\n\t\t\t\t\t\t\ttable.insert(t,{tag=\"comment\",text=minires.text})\r\n\t\t\t\t\t\telseif(key==\"type\" and (val==\"class\" or val==\"name\") )then\r\n\t\t\t\t\t\t\ttable.insert(t,minires.name)\t\r\n\t\t\t\t\t\t\ttable.insert(t,{tag=\"item\",item=val,text=minires.name})\r\n\t\t\t\t\t\telseif(key==\"type\" and val==\"table\" )then\r\n\t\t\t\t\t\t\ttable.insert(t,\"table\")\r\n\t\t\t\t\t\t\ttable.insert(t,{text=\"table\",item=\"class\",tag=\"item\"})\t\r\n\t\t\t\t\t\t\ttable.insert(t,{text=minires.var,item=\"name\",tag=\"item\"})\t\r\n\t\t\t\t\t\t\ttable.insert(t,{tag=\"comment\",text=minires.text})\r\n\t\t\t\t\t\telseif(key==\"type\" and val==\"tablefield\")then\r\n\t\t\t\t\t\t\ttable.insert(t,\"table\")\r\n\t\t\t\t\t\t\ttable.insert(t,{text=minires.var,item=\"field\",tag=\"item\",textt=minires.text,table=minires.table})\t\r\n\t\t\t\t\t\telseif(key==\"type\")then\r\n\t\t\t\t\t\t\ttable.insert(t,minires.text)\t\r\n\t\t\t\t\t\t\ttable.insert(t,{tag=\"item\",item=val,text=minires.name,textt=minires.text})\r\n\t\t\t\t\t\tend\r\n\r\n\t\t\t\t\tend\r\n\t\t\t\tend\r\n\t\t\tend\r\n\r\n\tend\r\n\tresult=t\r\nend\r\n--v\r\n\treturn result\r\nend",
+    "type": "function"
+  }, {
+    "id": 110,
+    "text": "function getComment(node)\r\n\t\r\n\tlocal comment = ''\r\n\tlocal fullIGNORED = ''\r\n\tlocal ignore\r\n\tlocal order = node.order\r\n\tlocal currNode = node\r\n\tlocal comment_table = {}\r\n\tlocal numberOfLines = 0\r\n\t\r\n\twhile (true) do\r\n\t\twhile (order == 1 or order == 0) do\r\n\t\t\tcurrNode = currNode.parent\r\n\t\t\tif (currNode == nil) then return nil end\r\n\t\t\torder = currNode.order\t\t\t\r\n\t\tend\t\r\n\r\n\t\tif (currNode.tag == 'STARTPOINT') then return nil end\r\n\t\r\n\t\torder = order - 1\r\n\r\n\t\twhile (order ~= 0) do\r\n\t\t\tignore = currNode.parent.data[order]\r\n\t\t\tif (ignore.tag == 'IGNORED') then\r\n\t\t\t\tfor k,v in pairs(ignore.data) do\r\n\t\t\t\t\tif (type(v) == 'table') then\r\n\t\t\t\t\t\tif (v.tag == 'COMMENT') then\r\n\t\t\t\t\t\t\tcomment = comment .. v.text .. '\\n'\r\n\t\t\t\t\t\t\tnumberOfLines = numberOfLines + 1\r\n\t\t\t\t\t\tend\r\n\t\t\t\t\t\tfullIGNORED = fullIGNORED .. v.text\r\n\t\t\t\t\tend\r\n\t\t\t\tend\r\n\t\t\t\torder = order - 1\r\n\t\t\telse\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend\r\n\t\t\r\n\t\tif (order ~= 0) then\r\n\t\t\tbreak\r\n\t\tend\t\r\n\t\t\t\r\n\tend\r\n\t\r\n\tif (comment == '') then comment = nil end\r\n\treturn comment, fullIGNORED,numberOfLines\r\nend",
+    "type": "function"
+  }, {
+    "id": 111,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 112,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 113,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 114,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 115,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 128,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 129,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 130,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 131,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 132,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 133,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 134,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 135,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 136,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 138,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 139,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 140,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

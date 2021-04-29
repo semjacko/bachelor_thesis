@@ -1,0 +1,217 @@
+{
+  "_filename": "lua.lua",
+  "_isShebang": true,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/lua.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 6,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "provides",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "compatibility",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "lua",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function(filename, info)\r\n  local index = info.traceback:find('\\n%s*%[C]')\r\n  info.traceback = info.traceback:sub(1, index)\r\n  return info\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function(busted, filename)\r\n  return path.extension(filename) == '.lua'\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function(busted, filename)\r\n  local file, err = loadfile(filename)\r\n  if not file then\r\n    busted.publish({ 'error', 'file' }, { descriptor = 'file', name = filename }, nil, err, {})\r\n  end\r\n  return file, getTrace\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 7,
+    "text": "publish",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "extension",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "loadfile",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

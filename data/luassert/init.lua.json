@@ -1,0 +1,413 @@
+{
+  "_filename": "init.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luassert/src/matchers/init.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "provides",
+    "to": 39
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 43
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "init",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function fmt_string(arg)\r\n  if type(arg) == \"string\" then\r\n    return string.format(\"(string) '%s'\", arg)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local function tostr(arg)\r\n  if type(arg) ~= \"number\" then\r\n    return tostring(arg)\r\n  end\r\n\r\n  if arg ~= arg then\r\n    return \"NaN\"\r\n  elseif arg == 1/0 then\r\n    return \"Inf\"\r\n  elseif arg == -1/0 then\r\n    return \"-Inf\"\r\n  end\r\n\r\n  local str = string.format(\"%.20g\", arg)\r\n\r\n  if math.type and math.type(arg) == \"float\" and not str:find(\"[%.,]\") then\r\n    -- Number is a float but looks like an integer.\r\n    -- Insert \".0\" after first run of digits.\r\n    str = str:gsub(\"%d+\", \"%0.0\", 1)\r\n  end\r\n\r\n  return str\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local function fmt_number(arg)\r\n  if type(arg) == \"number\" then\r\n    return string.format(\"(number) %s\", tostr(arg))\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local function fmt_boolean(arg)\r\n  if type(arg) == \"boolean\" then\r\n    return string.format(\"(boolean) %s\", tostring(arg))\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "local function fmt_nil(arg)\r\n  if type(arg) == \"nil\" then\r\n    return \"(nil)\"\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local function is_in_array_part(key, length)\r\n  return type(key) == \"number\" and 1 <= key and key <= length and math.floor(key) == key\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local function get_sorted_keys(t)\r\n  local keys = {}\r\n  local nkeys = 0\r\n\r\n  for key in pairs(t) do\r\n    nkeys = nkeys + 1\r\n    keys[nkeys] = key\r\n  end\r\n\r\n  local length = #t\r\n\r\n  local function key_comparator(key1, key2)\r\n    local type1, type2 = type(key1), type(key2)\r\n    local priority1 = is_in_array_part(key1, length) and 0 or type_priorities[type1] or 8\r\n    local priority2 = is_in_array_part(key2, length) and 0 or type_priorities[type2] or 8\r\n\r\n    if priority1 == priority2 then\r\n      if type1 == \"string\" or type1 == \"number\" then\r\n        return key1 < key2\r\n      elseif type1 == \"boolean\" then\r\n        return key1  -- put true before false\r\n      end\r\n    else\r\n      return priority1 < priority2\r\n    end\r\n  end\r\n\r\n  table.sort(keys, key_comparator)\r\n  return keys, nkeys\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local function key_comparator(key1, key2)\r\n    local type1, type2 = type(key1), type(key2)\r\n    local priority1 = is_in_array_part(key1, length) and 0 or type_priorities[type1] or 8\r\n    local priority2 = is_in_array_part(key2, length) and 0 or type_priorities[type2] or 8\r\n\r\n    if priority1 == priority2 then\r\n      if type1 == \"string\" or type1 == \"number\" then\r\n        return key1 < key2\r\n      elseif type1 == \"boolean\" then\r\n        return key1  -- put true before false\r\n      end\r\n    else\r\n      return priority1 < priority2\r\n    end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local function fmt_table(arg, fmtargs)\r\n  if type(arg) ~= \"table\" then\r\n    return\r\n  end\r\n\r\n  local tmax = assert:get_parameter(\"TableFormatLevel\")\r\n  local showrec = assert:get_parameter(\"TableFormatShowRecursion\")\r\n  local errchar = assert:get_parameter(\"TableErrorHighlightCharacter\") or \"\"\r\n  local errcolor = assert:get_parameter(\"TableErrorHighlightColor\") or \"none\"\r\n  local crumbs = fmtargs and fmtargs.crumbs or {}\r\n  local cache = {}\r\n\r\n  local function ft(t, l, with_crumbs)\r\n    if showrec and cache[t] and cache[t] > 0 then\r\n      return \"{ ... recursive }\"\r\n    end\r\n\r\n    if next(t) == nil then\r\n      return \"{ }\"\r\n    end\r\n\r\n    if l > tmax and tmax >= 0 then\r\n      return \"{ ... more }\"\r\n    end\r\n\r\n    local result = \"{\"\r\n    local keys, nkeys = get_sorted_keys(t)\r\n\r\n    cache[t] = (cache[t] or 0) + 1\r\n    local crumb = crumbs[#crumbs - l + 1]\r\n\r\n    for i = 1, nkeys do\r\n      local k = keys[i]\r\n      local v = t[k]\r\n      local use_crumbs = with_crumbs and k == crumb\r\n\r\n      if type(v) == \"table\" then\r\n        v = ft(v, l + 1, use_crumbs)\r\n      elseif type(v) == \"string\" then\r\n        v = \"'\"..v..\"'\"\r\n      end\r\n\r\n      local ch = use_crumbs and errchar or \"\"\r\n      local indent = string.rep(\" \",l * 2 - ch:len())\r\n      local mark = (ch:len() == 0 and \"\" or colors[errcolor](ch))\r\n      result = result .. string.format(\"\\n%s%s[%s] = %s\", indent, mark, tostr(k), tostr(v))\r\n    end\r\n\r\n    cache[t] = cache[t] - 1\r\n\r\n    return result .. \" }\"\r\n  end\r\n\r\n  return \"(table) \" .. ft(arg, 1, true)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local function ft(t, l, with_crumbs)\r\n    if showrec and cache[t] and cache[t] > 0 then\r\n      return \"{ ... recursive }\"\r\n    end\r\n\r\n    if next(t) == nil then\r\n      return \"{ }\"\r\n    end\r\n\r\n    if l > tmax and tmax >= 0 then\r\n      return \"{ ... more }\"\r\n    end\r\n\r\n    local result = \"{\"\r\n    local keys, nkeys = get_sorted_keys(t)\r\n\r\n    cache[t] = (cache[t] or 0) + 1\r\n    local crumb = crumbs[#crumbs - l + 1]\r\n\r\n    for i = 1, nkeys do\r\n      local k = keys[i]\r\n      local v = t[k]\r\n      local use_crumbs = with_crumbs and k == crumb\r\n\r\n      if type(v) == \"table\" then\r\n        v = ft(v, l + 1, use_crumbs)\r\n      elseif type(v) == \"string\" then\r\n        v = \"'\"..v..\"'\"\r\n      end\r\n\r\n      local ch = use_crumbs and errchar or \"\"\r\n      local indent = string.rep(\" \",l * 2 - ch:len())\r\n      local mark = (ch:len() == 0 and \"\" or colors[errcolor](ch))\r\n      result = result .. string.format(\"\\n%s%s[%s] = %s\", indent, mark, tostr(k), tostr(v))\r\n    end\r\n\r\n    cache[t] = cache[t] - 1\r\n\r\n    return result .. \" }\"\r\n  end",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "local function fmt_function(arg)\r\n  if type(arg) == \"function\" then\r\n    local debug_info = debug.getinfo(arg)\r\n    return string.format(\"%s @ line %s in %s\", tostring(arg), tostring(debug_info.linedefined), tostring(debug_info.source))\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "local function fmt_userdata(arg)\r\n  if type(arg) == \"userdata\" then\r\n    return string.format(\"(userdata) '%s'\", tostring(arg))\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "local function fmt_thread(arg)\r\n  if type(arg) == \"thread\" then\r\n    return string.format(\"(thread) '%s'\", tostring(arg))\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function(c) return c end",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function(c) return c end",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function(c)\r\n    for token in key:gmatch(\"[^%.]+\") do\r\n      c = term.colors[token](c)\r\n    end\r\n    return c\r\n  end",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function(self, key)\r\n  local ok, term = pcall(require, 'term')\r\n  local isatty = io.type(io.stdout) == 'file' and ok and term.isatty(io.stdout)\r\n  if not ok or not isatty or not term.colors then\r\n    return function(c) return c end\r\n  end\r\n  return function(c)\r\n    for token in key:gmatch(\"[^%.]+\") do\r\n      c = term.colors[token](c)\r\n    end\r\n    return c\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 20,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "colors[token]",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "isatty",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 42,
+    "text": "core)",
+    "type": "module"
+  }, {
+    "id": 43,
+    "text": "composite)",
+    "type": "module"
+  } ]
+}

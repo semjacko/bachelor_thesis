@@ -1,0 +1,69 @@
+{
+  "_filename": "config.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/lua_cliargs/spec/fixtures/config.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "provides",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "provides",
+    "to": 7
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "config",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "interface"
+  } ]
+}

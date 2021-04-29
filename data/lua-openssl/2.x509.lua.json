@@ -1,0 +1,217 @@
+{
+  "_filename": "2.x509.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-openssl/test/2.x509.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "requires",
+    "to": 14
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 23,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "2",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "util",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function test_x509()\r\n        local x = openssl.x509_read(raw_data)\r\n        print(x)\r\n        t = x:parse()\r\n        dump(t,0)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local x = openssl.x509_read(raw_data)",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "print(x)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "t = x:parse()",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "dump(t,0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 10,
+    "text": "x509_read",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "dump",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "(openssl)",
+    "type": "module"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require container"
+  } ]
+}

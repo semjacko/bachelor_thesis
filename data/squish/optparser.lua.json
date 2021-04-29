@@ -1,0 +1,1829 @@
+{
+  "_filename": "optparser.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/squish/minify/optparser.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 113,
+    "label": "has",
+    "to": 114
+  }, {
+    "from": 113,
+    "label": "has",
+    "to": 115
+  }, {
+    "from": 113,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 118
+  }, {
+    "from": 118,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 120
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 121
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 122
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 123
+  }, {
+    "from": 123,
+    "label": "has",
+    "to": 124
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 125
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 127
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 128
+  }, {
+    "from": 128,
+    "label": "has",
+    "to": 129
+  }, {
+    "from": 128,
+    "label": "has",
+    "to": 130
+  }, {
+    "from": 130,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 128,
+    "label": "has",
+    "to": 127
+  }, {
+    "from": 128,
+    "label": "has",
+    "to": 132
+  }, {
+    "from": 128,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 128,
+    "label": "has",
+    "to": 133
+  }, {
+    "from": 128,
+    "label": "has",
+    "to": 134
+  }, {
+    "from": 128,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 128,
+    "label": "has",
+    "to": 136
+  }, {
+    "from": 128,
+    "label": "has",
+    "to": 137
+  }, {
+    "from": 128,
+    "label": "has",
+    "to": 138
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 139
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 140
+  }, {
+    "from": 140,
+    "label": "has",
+    "to": 141
+  }, {
+    "from": 141,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 140,
+    "label": "has",
+    "to": 142
+  }, {
+    "from": 140,
+    "label": "has",
+    "to": 143
+  }, {
+    "from": 140,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 140,
+    "label": "has",
+    "to": 144
+  }, {
+    "from": 140,
+    "label": "has",
+    "to": 145
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 140,
+    "label": "has",
+    "to": 146
+  }, {
+    "from": 146,
+    "label": "has",
+    "to": 147
+  }, {
+    "from": 147,
+    "label": "has",
+    "to": 148
+  }, {
+    "from": 148,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 148,
+    "label": "has",
+    "to": 149
+  }, {
+    "from": 149,
+    "label": "has",
+    "to": 127
+  }, {
+    "from": 149,
+    "label": "has",
+    "to": 150
+  }, {
+    "from": 147,
+    "label": "has",
+    "to": 151
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 127
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 150
+  }, {
+    "from": 140,
+    "label": "has",
+    "to": 152
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 153
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 154
+  }, {
+    "from": 154,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 154,
+    "label": "has",
+    "to": 155
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 156
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 157
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 158
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 159
+  }, {
+    "from": 159,
+    "label": "has",
+    "to": 160
+  }, {
+    "from": 160,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 160,
+    "label": "has",
+    "to": 161
+  }, {
+    "from": 159,
+    "label": "has",
+    "to": 162
+  }, {
+    "from": 159,
+    "label": "has",
+    "to": 163
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 164
+  }, {
+    "from": 164,
+    "label": "has",
+    "to": 165
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 166
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 168,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 168,
+    "label": "has",
+    "to": 169
+  }, {
+    "from": 170,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 170,
+    "label": "has",
+    "to": 171
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 178
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 174
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 174
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 172,
+    "label": "calls",
+    "to": 176
+  }, {
+    "from": 172,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 180
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 180
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 181
+  }, {
+    "from": 172,
+    "label": "calls",
+    "to": 182
+  }, {
+    "from": 172,
+    "label": "calls",
+    "to": 182
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 177
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 177
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 177
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 172
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 60
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 62
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 86
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 168
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 170
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 183
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 184
+  }, {
+    "from": 183,
+    "label": "initializes",
+    "to": 185
+  }, {
+    "from": 185,
+    "label": "assigns",
+    "to": 186
+  }, {
+    "from": 183,
+    "label": "initializes",
+    "to": 187
+  }, {
+    "from": 187,
+    "label": "assigns",
+    "to": 188
+  }, {
+    "from": 183,
+    "label": "initializes",
+    "to": 189
+  }, {
+    "from": 189,
+    "label": "assigns",
+    "to": 190
+  }, {
+    "from": 183,
+    "label": "initializes",
+    "to": 191
+  }, {
+    "from": 191,
+    "label": "assigns",
+    "to": 192
+  }, {
+    "from": 183,
+    "label": "initializes",
+    "to": 193
+  }, {
+    "from": 183,
+    "label": "initializes",
+    "to": 194
+  }, {
+    "from": 183,
+    "label": "initializes",
+    "to": 195
+  }, {
+    "from": 183,
+    "label": "initializes",
+    "to": 196
+  }, {
+    "from": 183,
+    "label": "initializes",
+    "to": 197
+  }, {
+    "from": 183,
+    "label": "initializes",
+    "to": 198
+  }, {
+    "from": 183,
+    "label": "initializes",
+    "to": 199
+  }, {
+    "from": 183,
+    "label": "initializes",
+    "to": 200
+  }, {
+    "from": 184,
+    "label": "initializes",
+    "to": 201
+  }, {
+    "from": 201,
+    "label": "requires",
+    "to": 175
+  }, {
+    "from": 184,
+    "label": "initializes",
+    "to": 202
+  }, {
+    "from": 202,
+    "label": "requires",
+    "to": 173
+  }, {
+    "from": 203,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 53,
+    "label": "hasArgument",
+    "to": 168
+  }, {
+    "from": 97,
+    "label": "hasArgument",
+    "to": 170
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "optparser",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function preprocess(infotable)\r\n  local uniqtable = {}\r\n  for i = 1, #infotable do              -- enumerate info table\r\n    local obj = infotable[i]\r\n    local name = obj.name\r\n    --------------------------------------------------------------------\r\n    if not uniqtable[name] then         -- not found, start an entry\r\n      uniqtable[name] = {\r\n        decl = 0, token = 0, size = 0,\r\n      }\r\n    end\r\n    --------------------------------------------------------------------\r\n    local uniq = uniqtable[name]        -- count declarations, tokens, size\r\n    uniq.decl = uniq.decl + 1\r\n    local xref = obj.xref\r\n    local xcount = #xref\r\n    uniq.token = uniq.token + xcount\r\n    uniq.size = uniq.size + xcount * #name\r\n    --------------------------------------------------------------------\r\n    if obj.decl then            -- if local table, create first,last pairs\r\n      obj.id = i\r\n      obj.xcount = xcount\r\n      if xcount > 1 then        -- if ==1, means local never accessed\r\n        obj.first = xref[2]\r\n        obj.last = xref[xcount]\r\n      end\r\n    --------------------------------------------------------------------\r\n    else                        -- if global table, add a back ref\r\n      uniq.id = i\r\n    end\r\n    --------------------------------------------------------------------\r\n  end--for\r\n  return uniqtable\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local uniqtable = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "for i = 1, #infotable do              -- enumerate info table\r\n    local obj = infotable[i]\r\n    local name = obj.name\r\n    --------------------------------------------------------------------\r\n    if not uniqtable[name] then         -- not found, start an entry\r\n      uniqtable[name] = {\r\n        decl = 0, token = 0, size = 0,\r\n      }\r\n    end\r\n    --------------------------------------------------------------------\r\n    local uniq = uniqtable[name]        -- count declarations, tokens, size\r\n    uniq.decl = uniq.decl + 1\r\n    local xref = obj.xref\r\n    local xcount = #xref\r\n    uniq.token = uniq.token + xcount\r\n    uniq.size = uniq.size + xcount * #name\r\n    --------------------------------------------------------------------\r\n    if obj.decl then            -- if local table, create first,last pairs\r\n      obj.id = i\r\n      obj.xcount = xcount\r\n      if xcount > 1 then        -- if ==1, means local never accessed\r\n        obj.first = xref[2]\r\n        obj.last = xref[xcount]\r\n      end\r\n    --------------------------------------------------------------------\r\n    else                        -- if global table, add a back ref\r\n      uniq.id = i\r\n    end\r\n    --------------------------------------------------------------------\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 5,
+    "text": "local obj = infotable[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local name = obj.name",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if not uniqtable[name] then         -- not found, start an entry\r\n      uniqtable[name] = {\r\n        decl = 0, token = 0, size = 0,\r\n      }\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "uniqtable[name] = {\r\n        decl = 0, token = 0, size = 0,\r\n      }",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "local uniq = uniqtable[name]",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "uniq.decl = uniq.decl + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "local xref = obj.xref",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local xcount = #xref",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "uniq.token = uniq.token + xcount",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "uniq.size = uniq.size + xcount * #name",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "if obj.decl then            -- if local table, create first,last pairs\r\n      obj.id = i\r\n      obj.xcount = xcount\r\n      if xcount > 1 then        -- if ==1, means local never accessed\r\n        obj.first = xref[2]\r\n        obj.last = xref[xcount]\r\n      end\r\n    --------------------------------------------------------------------\r\n    else                        -- if global table, add a back ref\r\n      uniq.id = i\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "obj.id = i",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "obj.xcount = xcount",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "if xcount > 1 then        -- if ==1, means local never accessed\r\n        obj.first = xref[2]\r\n        obj.last = xref[xcount]\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "obj.first = xref[2]",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "obj.last = xref[xcount]",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "uniq.id = i",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "local function recalc_for_entropy(option)\r\n  local byte = string.byte\r\n  local char = string.char\r\n  -- table of token classes to accept in calculating symbol frequency\r\n  local ACCEPT = {\r\n    TK_KEYWORD = true, TK_NAME = true, TK_NUMBER = true,\r\n    TK_STRING = true, TK_LSTRING = true,\r\n  }\r\n  if not option[\"opt-comments\"] then\r\n    ACCEPT.TK_COMMENT = true\r\n    ACCEPT.TK_LCOMMENT = true\r\n  end\r\n  --------------------------------------------------------------------\r\n  -- create a new table and remove any original locals by filtering\r\n  --------------------------------------------------------------------\r\n  local filtered = {}\r\n  for i = 1, #toklist do\r\n    filtered[i] = seminfolist[i]\r\n  end\r\n  for i = 1, #localinfo do              -- enumerate local info table\r\n    local obj = localinfo[i]\r\n    local xref = obj.xref\r\n    for j = 1, obj.xcount do\r\n      local p = xref[j]\r\n      filtered[p] = \"\"                  -- remove locals\r\n    end\r\n  end\r\n  --------------------------------------------------------------------\r\n  local freq = {}                       -- reset symbol frequency table\r\n  for i = 0, 255 do freq[i] = 0 end\r\n  for i = 1, #toklist do                -- gather symbol frequency\r\n    local tok, info = toklist[i], filtered[i]\r\n    if ACCEPT[tok] then\r\n      for j = 1, #info do\r\n        local c = byte(info, j)\r\n        freq[c] = freq[c] + 1\r\n      end\r\n    end--if\r\n  end--for\r\n  --------------------------------------------------------------------\r\n  -- function to re-sort symbols according to actual frequencies\r\n  --------------------------------------------------------------------\r\n  local function resort(symbols)\r\n    local symlist = {}\r\n    for i = 1, #symbols do              -- prepare table to sort\r\n      local c = byte(symbols, i)\r\n      symlist[i] = { c = c, freq = freq[c], }\r\n    end\r\n    table.sort(symlist,                 -- sort selected symbols\r\n      function(v1, v2)\r\n        return v1.freq > v2.freq\r\n      end\r\n    )\r\n    local charlist = {}                 -- reconstitute the string\r\n    for i = 1, #symlist do\r\n      charlist[i] = char(symlist[i].c)\r\n    end\r\n    return table.concat(charlist)\r\n  end\r\n  --------------------------------------------------------------------\r\n  LETTERS = resort(LETTERS)             -- change letter arrangement\r\n  ALPHANUM = resort(ALPHANUM)\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "local byte = string.byte",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "local char = string.char",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "local ACCEPT = {\r\n    TK_KEYWORD = true, TK_NAME = true, TK_NUMBER = true,\r\n    TK_STRING = true, TK_LSTRING = true,\r\n  }",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "if not option[\"opt-comments\"] then\r\n    ACCEPT.TK_COMMENT = true\r\n    ACCEPT.TK_LCOMMENT = true\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "ACCEPT.TK_COMMENT = true",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "ACCEPT.TK_LCOMMENT = true",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "local filtered = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "for i = 1, #toklist do\r\n    filtered[i] = seminfolist[i]\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 33,
+    "text": "filtered[i] = seminfolist[i]",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "for i = 1, #localinfo do              -- enumerate local info table\r\n    local obj = localinfo[i]\r\n    local xref = obj.xref\r\n    for j = 1, obj.xcount do\r\n      local p = xref[j]\r\n      filtered[p] = \"\"                  -- remove locals\r\n    end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 35,
+    "text": "local obj = localinfo[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "for j = 1, obj.xcount do\r\n      local p = xref[j]\r\n      filtered[p] = \"\"                  -- remove locals\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 37,
+    "text": "local p = xref[j]",
+    "type": "statement:localassign"
+  }, {
+    "id": 38,
+    "text": "filtered[p] = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "local freq = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "for i = 0, 255 do freq[i] = 0 end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 41,
+    "text": "freq[i] = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "for i = 1, #toklist do                -- gather symbol frequency\r\n    local tok, info = toklist[i], filtered[i]\r\n    if ACCEPT[tok] then\r\n      for j = 1, #info do\r\n        local c = byte(info, j)\r\n        freq[c] = freq[c] + 1\r\n      end\r\n    end--if\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 43,
+    "text": "local tok, info = toklist[i], filtered[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 44,
+    "text": "if ACCEPT[tok] then\r\n      for j = 1, #info do\r\n        local c = byte(info, j)\r\n        freq[c] = freq[c] + 1\r\n      end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 45,
+    "text": "for j = 1, #info do\r\n        local c = byte(info, j)\r\n        freq[c] = freq[c] + 1\r\n      end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 46,
+    "text": "local c = byte(info, j)",
+    "type": "statement:localassign"
+  }, {
+    "id": 47,
+    "text": "freq[c] = freq[c] + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 48,
+    "text": "local function resort(symbols)\r\n    local symlist = {}\r\n    for i = 1, #symbols do              -- prepare table to sort\r\n      local c = byte(symbols, i)\r\n      symlist[i] = { c = c, freq = freq[c], }\r\n    end\r\n    table.sort(symlist,                 -- sort selected symbols\r\n      function(v1, v2)\r\n        return v1.freq > v2.freq\r\n      end\r\n    )\r\n    local charlist = {}                 -- reconstitute the string\r\n    for i = 1, #symlist do\r\n      charlist[i] = char(symlist[i].c)\r\n    end\r\n    return table.concat(charlist)\r\n  end",
+    "type": "statement:localfunction"
+  }, {
+    "id": 49,
+    "text": "local symlist = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 50,
+    "text": "for i = 1, #symbols do              -- prepare table to sort\r\n      local c = byte(symbols, i)\r\n      symlist[i] = { c = c, freq = freq[c], }\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 51,
+    "text": "local c = byte(symbols, i)",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "symlist[i] = { c = c, freq = freq[c], }",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "table.sort(symlist,                 -- sort selected symbols\r\n      function(v1, v2)\r\n        return v1.freq > v2.freq\r\n      end\r\n    )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 54,
+    "text": "local charlist = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 55,
+    "text": "for i = 1, #symlist do\r\n      charlist[i] = char(symlist[i].c)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 56,
+    "text": "charlist[i] = char(symlist[i].c)",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "LETTERS = resort(LETTERS)",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "ALPHANUM = resort(ALPHANUM)",
+    "type": "statement:assign"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 60,
+    "text": "local function resort(symbols)\r\n    local symlist = {}\r\n    for i = 1, #symbols do              -- prepare table to sort\r\n      local c = byte(symbols, i)\r\n      symlist[i] = { c = c, freq = freq[c], }\r\n    end\r\n    table.sort(symlist,                 -- sort selected symbols\r\n      function(v1, v2)\r\n        return v1.freq > v2.freq\r\n      end\r\n    )\r\n    local charlist = {}                 -- reconstitute the string\r\n    for i = 1, #symlist do\r\n      charlist[i] = char(symlist[i].c)\r\n    end\r\n    return table.concat(charlist)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 62,
+    "text": "local function new_var_name()\r\n  local var\r\n  local cletters, calphanum = #LETTERS, #ALPHANUM\r\n  local v = var_new\r\n  if v < cletters then                  -- single char\r\n    v = v + 1\r\n    var = string.sub(LETTERS, v, v)\r\n  else                                  -- longer names\r\n    local range, sz = cletters, 1       -- calculate # chars fit\r\n    repeat\r\n      v = v - range\r\n      range = range * calphanum\r\n      sz = sz + 1\r\n    until range > v\r\n    local n = v % cletters              -- left side cycles faster\r\n    v = (v - n) / cletters              -- do first char first\r\n    n = n + 1\r\n    var = string.sub(LETTERS, n, n)\r\n    while sz > 1 do\r\n      local m = v % calphanum\r\n      v = (v - m) / calphanum\r\n      m = m + 1\r\n      var = var..string.sub(ALPHANUM, m, m)\r\n      sz = sz - 1\r\n    end\r\n  end\r\n  var_new = var_new + 1\r\n  return var, globaluniq[var] ~= nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 63,
+    "text": "local var",
+    "type": "statement:localassign"
+  }, {
+    "id": 64,
+    "text": "local cletters, calphanum = #LETTERS, #ALPHANUM",
+    "type": "statement:localassign"
+  }, {
+    "id": 65,
+    "text": "local v = var_new",
+    "type": "statement:localassign"
+  }, {
+    "id": 66,
+    "text": "if v < cletters then                  -- single char\r\n    v = v + 1\r\n    var = string.sub(LETTERS, v, v)\r\n  else                                  -- longer names\r\n    local range, sz = cletters, 1       -- calculate # chars fit\r\n    repeat\r\n      v = v - range\r\n      range = range * calphanum\r\n      sz = sz + 1\r\n    until range > v\r\n    local n = v % cletters              -- left side cycles faster\r\n    v = (v - n) / cletters              -- do first char first\r\n    n = n + 1\r\n    var = string.sub(LETTERS, n, n)\r\n    while sz > 1 do\r\n      local m = v % calphanum\r\n      v = (v - m) / calphanum\r\n      m = m + 1\r\n      var = var..string.sub(ALPHANUM, m, m)\r\n      sz = sz - 1\r\n    end\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 67,
+    "text": "v = v + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "var = string.sub(LETTERS, v, v)",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "local range, sz = cletters, 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 70,
+    "text": "repeat\r\n      v = v - range\r\n      range = range * calphanum\r\n      sz = sz + 1\r\n    until range > v",
+    "type": "statement:repeat"
+  }, {
+    "id": 71,
+    "text": "v = v - range",
+    "type": "statement:assign"
+  }, {
+    "id": 72,
+    "text": "range = range * calphanum",
+    "type": "statement:assign"
+  }, {
+    "id": 73,
+    "text": "sz = sz + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "local n = v % cletters",
+    "type": "statement:localassign"
+  }, {
+    "id": 75,
+    "text": "v = (v - n) / cletters",
+    "type": "statement:assign"
+  }, {
+    "id": 76,
+    "text": "n = n + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 77,
+    "text": "var = string.sub(LETTERS, n, n)",
+    "type": "statement:assign"
+  }, {
+    "id": 78,
+    "text": "while sz > 1 do\r\n      local m = v % calphanum\r\n      v = (v - m) / calphanum\r\n      m = m + 1\r\n      var = var..string.sub(ALPHANUM, m, m)\r\n      sz = sz - 1\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 79,
+    "text": "local m = v % calphanum",
+    "type": "statement:localassign"
+  }, {
+    "id": 80,
+    "text": "v = (v - m) / calphanum",
+    "type": "statement:assign"
+  }, {
+    "id": 81,
+    "text": "m = m + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 82,
+    "text": "var = var..string.sub(ALPHANUM, m, m)",
+    "type": "statement:assign"
+  }, {
+    "id": 83,
+    "text": "sz = sz - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 84,
+    "text": "var_new = var_new + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 86,
+    "text": "function optimize(option, _toklist, _seminfolist, _globalinfo, _localinfo)\r\n  -- set tables\r\n  toklist, seminfolist, globalinfo, localinfo\r\n    = _toklist, _seminfolist, _globalinfo, _localinfo\r\n  var_new = 0                           -- reset variable name allocator\r\n  varlist = {}\r\n  ------------------------------------------------------------------\r\n  -- preprocess global/local tables, handle entropy reduction\r\n  ------------------------------------------------------------------\r\n  globaluniq = preprocess(globalinfo)\r\n  localuniq = preprocess(localinfo)\r\n  if option[\"opt-entropy\"] then         -- for entropy improvement\r\n    recalc_for_entropy(option)\r\n  end\r\n  ------------------------------------------------------------------\r\n  -- build initial declared object table, then sort according to\r\n  -- token count, this might help assign more tokens to more common\r\n  -- variable names such as 'e' thus possibly reducing entropy\r\n  -- * an object knows its localinfo index via its 'id' field\r\n  -- * special handling for \"self\" special local (parameter) here\r\n  ------------------------------------------------------------------\r\n  local object = {}\r\n  for i = 1, #localinfo do\r\n    object[i] = localinfo[i]\r\n  end\r\n  table.sort(object,                    -- sort largest first\r\n    function(v1, v2)\r\n      return v1.xcount > v2.xcount\r\n    end\r\n  )\r\n  ------------------------------------------------------------------\r\n  -- the special \"self\" function parameters must be preserved\r\n  -- * the allocator below will never use \"self\", so it is safe to\r\n  --   keep those implicit declarations as-is\r\n  ------------------------------------------------------------------\r\n  local temp, j, gotself = {}, 1, false\r\n  for i = 1, #object do\r\n    local obj = object[i]\r\n    if not obj.isself then\r\n      temp[j] = obj\r\n      j = j + 1\r\n    else\r\n      gotself = true\r\n    end\r\n  end\r\n  object = temp\r\n  ------------------------------------------------------------------\r\n  -- a simple first-come first-served heuristic name allocator,\r\n  -- note that this is in no way optimal...\r\n  -- * each object is a local variable declaration plus existence\r\n  -- * the aim is to assign short names to as many tokens as possible,\r\n  --   so the following tries to maximize name reuse\r\n  -- * note that we preserve sort order\r\n  ------------------------------------------------------------------\r\n  local nobject = #object\r\n  while nobject > 0 do\r\n    local varname, gcollide\r\n    repeat\r\n      varname, gcollide = new_var_name()  -- collect a variable name\r\n    until not SKIP_NAME[varname]          -- skip all special names\r\n    varlist[#varlist + 1] = varname       -- keep a list\r\n    local oleft = nobject\r\n    ------------------------------------------------------------------\r\n    -- if variable name collides with an existing global, the name\r\n    -- cannot be used by a local when the name is accessed as a global\r\n    -- during which the local is alive (between 'act' to 'rem'), so\r\n    -- we drop objects that collides with the corresponding global\r\n    ------------------------------------------------------------------\r\n    if gcollide then\r\n      -- find the xref table of the global\r\n      local gref = globalinfo[globaluniq[varname].id].xref\r\n      local ngref = #gref\r\n      -- enumerate for all current objects; all are valid at this point\r\n      for i = 1, nobject do\r\n        local obj = object[i]\r\n        local act, rem = obj.act, obj.rem  -- 'live' range of local\r\n        -- if rem < 0, it is a -id to a local that had the same name\r\n        -- so follow rem to extend it; does this make sense?\r\n        while rem < 0 do\r\n          rem = localinfo[-rem].rem\r\n        end\r\n        local drop\r\n        for j = 1, ngref do\r\n          local p = gref[j]\r\n          if p >= act and p <= rem then drop = true end  -- in range?\r\n        end\r\n        if drop then\r\n          obj.skip = true\r\n          oleft = oleft - 1\r\n        end\r\n      end--for\r\n    end--if gcollide\r\n    ------------------------------------------------------------------\r\n    -- now the first unassigned local (since it's sorted) will be the\r\n    -- one with the most tokens to rename, so we set this one and then\r\n    -- eliminate all others that collides, then any locals that left\r\n    -- can then reuse the same variable name; this is repeated until\r\n    -- all local declaration that can use this name is assigned\r\n    -- * the criteria for local-local reuse/collision is:\r\n    --   A is the local with a name already assigned\r\n    --   B is the unassigned local under consideration\r\n    --   => anytime A is accessed, it cannot be when B is 'live'\r\n    --   => to speed up things, we have first/last accesses noted\r\n    ------------------------------------------------------------------\r\n    while oleft > 0 do\r\n      local i = 1\r\n      while object[i].skip do  -- scan for first object\r\n        i = i + 1\r\n      end\r\n      ------------------------------------------------------------------\r\n      -- first object is free for assignment of the variable name\r\n      -- [first,last] gives the access range for collision checking\r\n      ------------------------------------------------------------------\r\n      oleft = oleft - 1\r\n      local obja = object[i]\r\n      i = i + 1\r\n      obja.newname = varname\r\n      obja.skip = true\r\n      obja.done = true\r\n      local first, last = obja.first, obja.last\r\n      local xref = obja.xref\r\n      ------------------------------------------------------------------\r\n      -- then, scan all the rest and drop those colliding\r\n      -- if A was never accessed then it'll never collide with anything\r\n      -- otherwise trivial skip if:\r\n      -- * B was activated after A's last access (last < act)\r\n      -- * B was removed before A's first access (first > rem)\r\n      -- if not, see detailed skip below...\r\n      ------------------------------------------------------------------\r\n      if first and oleft > 0 then  -- must have at least 1 access\r\n        local scanleft = oleft\r\n        while scanleft > 0 do\r\n          while object[i].skip do  -- next valid object\r\n            i = i + 1\r\n          end\r\n          scanleft = scanleft - 1\r\n          local objb = object[i]\r\n          i = i + 1\r\n          local act, rem = objb.act, objb.rem  -- live range of B\r\n          -- if rem < 0, extend range of rem thru' following local\r\n          while rem < 0 do\r\n            rem = localinfo[-rem].rem\r\n          end\r\n          --------------------------------------------------------\r\n          if not(last < act or first > rem) then  -- possible collision\r\n            --------------------------------------------------------\r\n            -- B is activated later than A or at the same statement,\r\n            -- this means for no collision, A cannot be accessed when B\r\n            -- is alive, since B overrides A (or is a peer)\r\n            --------------------------------------------------------\r\n            if act >= obja.act then\r\n              for j = 1, obja.xcount do  -- ... then check every access\r\n                local p = xref[j]\r\n                if p >= act and p <= rem then  -- A accessed when B live!\r\n                  oleft = oleft - 1\r\n                  objb.skip = true\r\n                  break\r\n                end\r\n              end--for\r\n            --------------------------------------------------------\r\n            -- A is activated later than B, this means for no collision,\r\n            -- A's access is okay since it overrides B, but B's last\r\n            -- access need to be earlier than A's activation time\r\n            --------------------------------------------------------\r\n            else\r\n              if objb.last and objb.last >= obja.act then\r\n                oleft = oleft - 1\r\n                objb.skip = true\r\n              end\r\n            end\r\n          end\r\n          --------------------------------------------------------\r\n          if oleft == 0 then break end\r\n        end\r\n      end--if first\r\n      ------------------------------------------------------------------\r\n    end--while\r\n    ------------------------------------------------------------------\r\n    -- after assigning all possible locals to one variable name, the\r\n    -- unassigned locals/objects have the skip field reset and the table\r\n    -- is compacted, to hopefully reduce iteration time\r\n    ------------------------------------------------------------------\r\n    local temp, j = {}, 1\r\n    for i = 1, nobject do\r\n      local obj = object[i]\r\n      if not obj.done then\r\n        obj.skip = false\r\n        temp[j] = obj\r\n        j = j + 1\r\n      end\r\n    end\r\n    object = temp  -- new compacted object table\r\n    nobject = #object  -- objects left to process\r\n    ------------------------------------------------------------------\r\n  end--while\r\n  ------------------------------------------------------------------\r\n  -- after assigning all locals with new variable names, we can\r\n  -- patch in the new names, and reprocess to get 'after' stats\r\n  ------------------------------------------------------------------\r\n  for i = 1, #localinfo do  -- enumerate all locals\r\n    local obj = localinfo[i]\r\n    local xref = obj.xref\r\n    if obj.newname then                 -- if got new name, patch it in\r\n      for j = 1, obj.xcount do\r\n        local p = xref[j]               -- xrefs indexes the token list\r\n        seminfolist[p] = obj.newname\r\n      end\r\n      obj.name, obj.oldname             -- adjust names\r\n        = obj.newname, obj.name\r\n    else\r\n      obj.oldname = obj.name            -- for cases like 'self'\r\n    end\r\n  end\r\n  ------------------------------------------------------------------\r\n  -- deal with statistics output\r\n  ------------------------------------------------------------------\r\n  if gotself then  -- add 'self' to end of list\r\n    varlist[#varlist + 1] = \"self\"\r\n  end\r\n  local afteruniq = preprocess(localinfo)\r\n  ------------------------------------------------------------------\r\nend",
+    "type": "function"
+  }, {
+    "id": 87,
+    "text": "toklist, seminfolist, globalinfo, localinfo\r\n    = _toklist, _seminfolist, _globalinfo, _localinfo",
+    "type": "statement:assign"
+  }, {
+    "id": 88,
+    "text": "var_new = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 89,
+    "text": "varlist = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 90,
+    "text": "globaluniq = preprocess(globalinfo)",
+    "type": "statement:assign"
+  }, {
+    "id": 91,
+    "text": "localuniq = preprocess(localinfo)",
+    "type": "statement:assign"
+  }, {
+    "id": 92,
+    "text": "if option[\"opt-entropy\"] then         -- for entropy improvement\r\n    recalc_for_entropy(option)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 93,
+    "text": "recalc_for_entropy(option)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 94,
+    "text": "local object = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 95,
+    "text": "for i = 1, #localinfo do\r\n    object[i] = localinfo[i]\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 96,
+    "text": "object[i] = localinfo[i]",
+    "type": "statement:assign"
+  }, {
+    "id": 97,
+    "text": "table.sort(object,                    -- sort largest first\r\n    function(v1, v2)\r\n      return v1.xcount > v2.xcount\r\n    end\r\n  )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 98,
+    "text": "local temp, j, gotself = {}, 1, false",
+    "type": "statement:localassign"
+  }, {
+    "id": 99,
+    "text": "for i = 1, #object do\r\n    local obj = object[i]\r\n    if not obj.isself then\r\n      temp[j] = obj\r\n      j = j + 1\r\n    else\r\n      gotself = true\r\n    end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 100,
+    "text": "local obj = object[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 101,
+    "text": "if not obj.isself then\r\n      temp[j] = obj\r\n      j = j + 1\r\n    else\r\n      gotself = true\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 102,
+    "text": "temp[j] = obj",
+    "type": "statement:assign"
+  }, {
+    "id": 103,
+    "text": "j = j + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 104,
+    "text": "gotself = true",
+    "type": "statement:assign"
+  }, {
+    "id": 105,
+    "text": "object = temp",
+    "type": "statement:assign"
+  }, {
+    "id": 106,
+    "text": "local nobject = #object",
+    "type": "statement:localassign"
+  }, {
+    "id": 107,
+    "text": "while nobject > 0 do\r\n    local varname, gcollide\r\n    repeat\r\n      varname, gcollide = new_var_name()  -- collect a variable name\r\n    until not SKIP_NAME[varname]          -- skip all special names\r\n    varlist[#varlist + 1] = varname       -- keep a list\r\n    local oleft = nobject\r\n    ------------------------------------------------------------------\r\n    -- if variable name collides with an existing global, the name\r\n    -- cannot be used by a local when the name is accessed as a global\r\n    -- during which the local is alive (between 'act' to 'rem'), so\r\n    -- we drop objects that collides with the corresponding global\r\n    ------------------------------------------------------------------\r\n    if gcollide then\r\n      -- find the xref table of the global\r\n      local gref = globalinfo[globaluniq[varname].id].xref\r\n      local ngref = #gref\r\n      -- enumerate for all current objects; all are valid at this point\r\n      for i = 1, nobject do\r\n        local obj = object[i]\r\n        local act, rem = obj.act, obj.rem  -- 'live' range of local\r\n        -- if rem < 0, it is a -id to a local that had the same name\r\n        -- so follow rem to extend it; does this make sense?\r\n        while rem < 0 do\r\n          rem = localinfo[-rem].rem\r\n        end\r\n        local drop\r\n        for j = 1, ngref do\r\n          local p = gref[j]\r\n          if p >= act and p <= rem then drop = true end  -- in range?\r\n        end\r\n        if drop then\r\n          obj.skip = true\r\n          oleft = oleft - 1\r\n        end\r\n      end--for\r\n    end--if gcollide\r\n    ------------------------------------------------------------------\r\n    -- now the first unassigned local (since it's sorted) will be the\r\n    -- one with the most tokens to rename, so we set this one and then\r\n    -- eliminate all others that collides, then any locals that left\r\n    -- can then reuse the same variable name; this is repeated until\r\n    -- all local declaration that can use this name is assigned\r\n    -- * the criteria for local-local reuse/collision is:\r\n    --   A is the local with a name already assigned\r\n    --   B is the unassigned local under consideration\r\n    --   => anytime A is accessed, it cannot be when B is 'live'\r\n    --   => to speed up things, we have first/last accesses noted\r\n    ------------------------------------------------------------------\r\n    while oleft > 0 do\r\n      local i = 1\r\n      while object[i].skip do  -- scan for first object\r\n        i = i + 1\r\n      end\r\n      ------------------------------------------------------------------\r\n      -- first object is free for assignment of the variable name\r\n      -- [first,last] gives the access range for collision checking\r\n      ------------------------------------------------------------------\r\n      oleft = oleft - 1\r\n      local obja = object[i]\r\n      i = i + 1\r\n      obja.newname = varname\r\n      obja.skip = true\r\n      obja.done = true\r\n      local first, last = obja.first, obja.last\r\n      local xref = obja.xref\r\n      ------------------------------------------------------------------\r\n      -- then, scan all the rest and drop those colliding\r\n      -- if A was never accessed then it'll never collide with anything\r\n      -- otherwise trivial skip if:\r\n      -- * B was activated after A's last access (last < act)\r\n      -- * B was removed before A's first access (first > rem)\r\n      -- if not, see detailed skip below...\r\n      ------------------------------------------------------------------\r\n      if first and oleft > 0 then  -- must have at least 1 access\r\n        local scanleft = oleft\r\n        while scanleft > 0 do\r\n          while object[i].skip do  -- next valid object\r\n            i = i + 1\r\n          end\r\n          scanleft = scanleft - 1\r\n          local objb = object[i]\r\n          i = i + 1\r\n          local act, rem = objb.act, objb.rem  -- live range of B\r\n          -- if rem < 0, extend range of rem thru' following local\r\n          while rem < 0 do\r\n            rem = localinfo[-rem].rem\r\n          end\r\n          --------------------------------------------------------\r\n          if not(last < act or first > rem) then  -- possible collision\r\n            --------------------------------------------------------\r\n            -- B is activated later than A or at the same statement,\r\n            -- this means for no collision, A cannot be accessed when B\r\n            -- is alive, since B overrides A (or is a peer)\r\n            --------------------------------------------------------\r\n            if act >= obja.act then\r\n              for j = 1, obja.xcount do  -- ... then check every access\r\n                local p = xref[j]\r\n                if p >= act and p <= rem then  -- A accessed when B live!\r\n                  oleft = oleft - 1\r\n                  objb.skip = true\r\n                  break\r\n                end\r\n              end--for\r\n            --------------------------------------------------------\r\n            -- A is activated later than B, this means for no collision,\r\n            -- A's access is okay since it overrides B, but B's last\r\n            -- access need to be earlier than A's activation time\r\n            --------------------------------------------------------\r\n            else\r\n              if objb.last and objb.last >= obja.act then\r\n                oleft = oleft - 1\r\n                objb.skip = true\r\n              end\r\n            end\r\n          end\r\n          --------------------------------------------------------\r\n          if oleft == 0 then break end\r\n        end\r\n      end--if first\r\n      ------------------------------------------------------------------\r\n    end--while\r\n    ------------------------------------------------------------------\r\n    -- after assigning all possible locals to one variable name, the\r\n    -- unassigned locals/objects have the skip field reset and the table\r\n    -- is compacted, to hopefully reduce iteration time\r\n    ------------------------------------------------------------------\r\n    local temp, j = {}, 1\r\n    for i = 1, nobject do\r\n      local obj = object[i]\r\n      if not obj.done then\r\n        obj.skip = false\r\n        temp[j] = obj\r\n        j = j + 1\r\n      end\r\n    end\r\n    object = temp  -- new compacted object table\r\n    nobject = #object  -- objects left to process\r\n    ------------------------------------------------------------------\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 108,
+    "text": "local varname, gcollide",
+    "type": "statement:localassign"
+  }, {
+    "id": 109,
+    "text": "repeat\r\n      varname, gcollide = new_var_name()  -- collect a variable name\r\n    until not SKIP_NAME[varname]",
+    "type": "statement:repeat"
+  }, {
+    "id": 110,
+    "text": "varname, gcollide = new_var_name()",
+    "type": "statement:assign"
+  }, {
+    "id": 111,
+    "text": "varlist[#varlist + 1] = varname",
+    "type": "statement:assign"
+  }, {
+    "id": 112,
+    "text": "local oleft = nobject",
+    "type": "statement:localassign"
+  }, {
+    "id": 113,
+    "text": "if gcollide then\r\n      -- find the xref table of the global\r\n      local gref = globalinfo[globaluniq[varname].id].xref\r\n      local ngref = #gref\r\n      -- enumerate for all current objects; all are valid at this point\r\n      for i = 1, nobject do\r\n        local obj = object[i]\r\n        local act, rem = obj.act, obj.rem  -- 'live' range of local\r\n        -- if rem < 0, it is a -id to a local that had the same name\r\n        -- so follow rem to extend it; does this make sense?\r\n        while rem < 0 do\r\n          rem = localinfo[-rem].rem\r\n        end\r\n        local drop\r\n        for j = 1, ngref do\r\n          local p = gref[j]\r\n          if p >= act and p <= rem then drop = true end  -- in range?\r\n        end\r\n        if drop then\r\n          obj.skip = true\r\n          oleft = oleft - 1\r\n        end\r\n      end--for\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 114,
+    "text": "local gref = globalinfo[globaluniq[varname].id].xref",
+    "type": "statement:localassign"
+  }, {
+    "id": 115,
+    "text": "local ngref = #gref",
+    "type": "statement:localassign"
+  }, {
+    "id": 116,
+    "text": "for i = 1, nobject do\r\n        local obj = object[i]\r\n        local act, rem = obj.act, obj.rem  -- 'live' range of local\r\n        -- if rem < 0, it is a -id to a local that had the same name\r\n        -- so follow rem to extend it; does this make sense?\r\n        while rem < 0 do\r\n          rem = localinfo[-rem].rem\r\n        end\r\n        local drop\r\n        for j = 1, ngref do\r\n          local p = gref[j]\r\n          if p >= act and p <= rem then drop = true end  -- in range?\r\n        end\r\n        if drop then\r\n          obj.skip = true\r\n          oleft = oleft - 1\r\n        end\r\n      end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 117,
+    "text": "local act, rem = obj.act, obj.rem",
+    "type": "statement:localassign"
+  }, {
+    "id": 118,
+    "text": "while rem < 0 do\r\n          rem = localinfo[-rem].rem\r\n        end",
+    "type": "statement:while"
+  }, {
+    "id": 119,
+    "text": "rem = localinfo[-rem].rem",
+    "type": "statement:assign"
+  }, {
+    "id": 120,
+    "text": "local drop",
+    "type": "statement:localassign"
+  }, {
+    "id": 121,
+    "text": "for j = 1, ngref do\r\n          local p = gref[j]\r\n          if p >= act and p <= rem then drop = true end  -- in range?\r\n        end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 122,
+    "text": "local p = gref[j]",
+    "type": "statement:localassign"
+  }, {
+    "id": 123,
+    "text": "if p >= act and p <= rem then drop = true end",
+    "type": "statement:if"
+  }, {
+    "id": 124,
+    "text": "drop = true",
+    "type": "statement:assign"
+  }, {
+    "id": 125,
+    "text": "if drop then\r\n          obj.skip = true\r\n          oleft = oleft - 1\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 126,
+    "text": "obj.skip = true",
+    "type": "statement:assign"
+  }, {
+    "id": 127,
+    "text": "oleft = oleft - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 128,
+    "text": "while oleft > 0 do\r\n      local i = 1\r\n      while object[i].skip do  -- scan for first object\r\n        i = i + 1\r\n      end\r\n      ------------------------------------------------------------------\r\n      -- first object is free for assignment of the variable name\r\n      -- [first,last] gives the access range for collision checking\r\n      ------------------------------------------------------------------\r\n      oleft = oleft - 1\r\n      local obja = object[i]\r\n      i = i + 1\r\n      obja.newname = varname\r\n      obja.skip = true\r\n      obja.done = true\r\n      local first, last = obja.first, obja.last\r\n      local xref = obja.xref\r\n      ------------------------------------------------------------------\r\n      -- then, scan all the rest and drop those colliding\r\n      -- if A was never accessed then it'll never collide with anything\r\n      -- otherwise trivial skip if:\r\n      -- * B was activated after A's last access (last < act)\r\n      -- * B was removed before A's first access (first > rem)\r\n      -- if not, see detailed skip below...\r\n      ------------------------------------------------------------------\r\n      if first and oleft > 0 then  -- must have at least 1 access\r\n        local scanleft = oleft\r\n        while scanleft > 0 do\r\n          while object[i].skip do  -- next valid object\r\n            i = i + 1\r\n          end\r\n          scanleft = scanleft - 1\r\n          local objb = object[i]\r\n          i = i + 1\r\n          local act, rem = objb.act, objb.rem  -- live range of B\r\n          -- if rem < 0, extend range of rem thru' following local\r\n          while rem < 0 do\r\n            rem = localinfo[-rem].rem\r\n          end\r\n          --------------------------------------------------------\r\n          if not(last < act or first > rem) then  -- possible collision\r\n            --------------------------------------------------------\r\n            -- B is activated later than A or at the same statement,\r\n            -- this means for no collision, A cannot be accessed when B\r\n            -- is alive, since B overrides A (or is a peer)\r\n            --------------------------------------------------------\r\n            if act >= obja.act then\r\n              for j = 1, obja.xcount do  -- ... then check every access\r\n                local p = xref[j]\r\n                if p >= act and p <= rem then  -- A accessed when B live!\r\n                  oleft = oleft - 1\r\n                  objb.skip = true\r\n                  break\r\n                end\r\n              end--for\r\n            --------------------------------------------------------\r\n            -- A is activated later than B, this means for no collision,\r\n            -- A's access is okay since it overrides B, but B's last\r\n            -- access need to be earlier than A's activation time\r\n            --------------------------------------------------------\r\n            else\r\n              if objb.last and objb.last >= obja.act then\r\n                oleft = oleft - 1\r\n                objb.skip = true\r\n              end\r\n            end\r\n          end\r\n          --------------------------------------------------------\r\n          if oleft == 0 then break end\r\n        end\r\n      end--if first\r\n      ------------------------------------------------------------------\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 129,
+    "text": "local i = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 130,
+    "text": "while object[i].skip do  -- scan for first object\r\n        i = i + 1\r\n      end",
+    "type": "statement:while"
+  }, {
+    "id": 131,
+    "text": "i = i + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 132,
+    "text": "local obja = object[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 133,
+    "text": "obja.newname = varname",
+    "type": "statement:assign"
+  }, {
+    "id": 134,
+    "text": "obja.skip = true",
+    "type": "statement:assign"
+  }, {
+    "id": 135,
+    "text": "obja.done = true",
+    "type": "statement:assign"
+  }, {
+    "id": 136,
+    "text": "local first, last = obja.first, obja.last",
+    "type": "statement:localassign"
+  }, {
+    "id": 137,
+    "text": "local xref = obja.xref",
+    "type": "statement:localassign"
+  }, {
+    "id": 138,
+    "text": "if first and oleft > 0 then  -- must have at least 1 access\r\n        local scanleft = oleft\r\n        while scanleft > 0 do\r\n          while object[i].skip do  -- next valid object\r\n            i = i + 1\r\n          end\r\n          scanleft = scanleft - 1\r\n          local objb = object[i]\r\n          i = i + 1\r\n          local act, rem = objb.act, objb.rem  -- live range of B\r\n          -- if rem < 0, extend range of rem thru' following local\r\n          while rem < 0 do\r\n            rem = localinfo[-rem].rem\r\n          end\r\n          --------------------------------------------------------\r\n          if not(last < act or first > rem) then  -- possible collision\r\n            --------------------------------------------------------\r\n            -- B is activated later than A or at the same statement,\r\n            -- this means for no collision, A cannot be accessed when B\r\n            -- is alive, since B overrides A (or is a peer)\r\n            --------------------------------------------------------\r\n            if act >= obja.act then\r\n              for j = 1, obja.xcount do  -- ... then check every access\r\n                local p = xref[j]\r\n                if p >= act and p <= rem then  -- A accessed when B live!\r\n                  oleft = oleft - 1\r\n                  objb.skip = true\r\n                  break\r\n                end\r\n              end--for\r\n            --------------------------------------------------------\r\n            -- A is activated later than B, this means for no collision,\r\n            -- A's access is okay since it overrides B, but B's last\r\n            -- access need to be earlier than A's activation time\r\n            --------------------------------------------------------\r\n            else\r\n              if objb.last and objb.last >= obja.act then\r\n                oleft = oleft - 1\r\n                objb.skip = true\r\n              end\r\n            end\r\n          end\r\n          --------------------------------------------------------\r\n          if oleft == 0 then break end\r\n        end\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 139,
+    "text": "local scanleft = oleft",
+    "type": "statement:localassign"
+  }, {
+    "id": 140,
+    "text": "while scanleft > 0 do\r\n          while object[i].skip do  -- next valid object\r\n            i = i + 1\r\n          end\r\n          scanleft = scanleft - 1\r\n          local objb = object[i]\r\n          i = i + 1\r\n          local act, rem = objb.act, objb.rem  -- live range of B\r\n          -- if rem < 0, extend range of rem thru' following local\r\n          while rem < 0 do\r\n            rem = localinfo[-rem].rem\r\n          end\r\n          --------------------------------------------------------\r\n          if not(last < act or first > rem) then  -- possible collision\r\n            --------------------------------------------------------\r\n            -- B is activated later than A or at the same statement,\r\n            -- this means for no collision, A cannot be accessed when B\r\n            -- is alive, since B overrides A (or is a peer)\r\n            --------------------------------------------------------\r\n            if act >= obja.act then\r\n              for j = 1, obja.xcount do  -- ... then check every access\r\n                local p = xref[j]\r\n                if p >= act and p <= rem then  -- A accessed when B live!\r\n                  oleft = oleft - 1\r\n                  objb.skip = true\r\n                  break\r\n                end\r\n              end--for\r\n            --------------------------------------------------------\r\n            -- A is activated later than B, this means for no collision,\r\n            -- A's access is okay since it overrides B, but B's last\r\n            -- access need to be earlier than A's activation time\r\n            --------------------------------------------------------\r\n            else\r\n              if objb.last and objb.last >= obja.act then\r\n                oleft = oleft - 1\r\n                objb.skip = true\r\n              end\r\n            end\r\n          end\r\n          --------------------------------------------------------\r\n          if oleft == 0 then break end\r\n        end",
+    "type": "statement:while"
+  }, {
+    "id": 141,
+    "text": "while object[i].skip do  -- next valid object\r\n            i = i + 1\r\n          end",
+    "type": "statement:while"
+  }, {
+    "id": 142,
+    "text": "scanleft = scanleft - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 143,
+    "text": "local objb = object[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 144,
+    "text": "local act, rem = objb.act, objb.rem",
+    "type": "statement:localassign"
+  }, {
+    "id": 145,
+    "text": "while rem < 0 do\r\n            rem = localinfo[-rem].rem\r\n          end",
+    "type": "statement:while"
+  }, {
+    "id": 146,
+    "text": "if not(last < act or first > rem) then  -- possible collision\r\n            --------------------------------------------------------\r\n            -- B is activated later than A or at the same statement,\r\n            -- this means for no collision, A cannot be accessed when B\r\n            -- is alive, since B overrides A (or is a peer)\r\n            --------------------------------------------------------\r\n            if act >= obja.act then\r\n              for j = 1, obja.xcount do  -- ... then check every access\r\n                local p = xref[j]\r\n                if p >= act and p <= rem then  -- A accessed when B live!\r\n                  oleft = oleft - 1\r\n                  objb.skip = true\r\n                  break\r\n                end\r\n              end--for\r\n            --------------------------------------------------------\r\n            -- A is activated later than B, this means for no collision,\r\n            -- A's access is okay since it overrides B, but B's last\r\n            -- access need to be earlier than A's activation time\r\n            --------------------------------------------------------\r\n            else\r\n              if objb.last and objb.last >= obja.act then\r\n                oleft = oleft - 1\r\n                objb.skip = true\r\n              end\r\n            end\r\n          end",
+    "type": "statement:if"
+  }, {
+    "id": 147,
+    "text": "if act >= obja.act then\r\n              for j = 1, obja.xcount do  -- ... then check every access\r\n                local p = xref[j]\r\n                if p >= act and p <= rem then  -- A accessed when B live!\r\n                  oleft = oleft - 1\r\n                  objb.skip = true\r\n                  break\r\n                end\r\n              end--for\r\n            --------------------------------------------------------\r\n            -- A is activated later than B, this means for no collision,\r\n            -- A's access is okay since it overrides B, but B's last\r\n            -- access need to be earlier than A's activation time\r\n            --------------------------------------------------------\r\n            else\r\n              if objb.last and objb.last >= obja.act then\r\n                oleft = oleft - 1\r\n                objb.skip = true\r\n              end\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 148,
+    "text": "for j = 1, obja.xcount do  -- ... then check every access\r\n                local p = xref[j]\r\n                if p >= act and p <= rem then  -- A accessed when B live!\r\n                  oleft = oleft - 1\r\n                  objb.skip = true\r\n                  break\r\n                end\r\n              end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 149,
+    "text": "if p >= act and p <= rem then  -- A accessed when B live!\r\n                  oleft = oleft - 1\r\n                  objb.skip = true\r\n                  break\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 150,
+    "text": "objb.skip = true",
+    "type": "statement:assign"
+  }, {
+    "id": 151,
+    "text": "if objb.last and objb.last >= obja.act then\r\n                oleft = oleft - 1\r\n                objb.skip = true\r\n              end",
+    "type": "statement:if"
+  }, {
+    "id": 152,
+    "text": "if oleft == 0 then break end",
+    "type": "statement:if"
+  }, {
+    "id": 153,
+    "text": "local temp, j = {}, 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 154,
+    "text": "for i = 1, nobject do\r\n      local obj = object[i]\r\n      if not obj.done then\r\n        obj.skip = false\r\n        temp[j] = obj\r\n        j = j + 1\r\n      end\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 155,
+    "text": "if not obj.done then\r\n        obj.skip = false\r\n        temp[j] = obj\r\n        j = j + 1\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 156,
+    "text": "obj.skip = false",
+    "type": "statement:assign"
+  }, {
+    "id": 157,
+    "text": "nobject = #object",
+    "type": "statement:assign"
+  }, {
+    "id": 158,
+    "text": "for i = 1, #localinfo do  -- enumerate all locals\r\n    local obj = localinfo[i]\r\n    local xref = obj.xref\r\n    if obj.newname then                 -- if got new name, patch it in\r\n      for j = 1, obj.xcount do\r\n        local p = xref[j]               -- xrefs indexes the token list\r\n        seminfolist[p] = obj.newname\r\n      end\r\n      obj.name, obj.oldname             -- adjust names\r\n        = obj.newname, obj.name\r\n    else\r\n      obj.oldname = obj.name            -- for cases like 'self'\r\n    end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 159,
+    "text": "if obj.newname then                 -- if got new name, patch it in\r\n      for j = 1, obj.xcount do\r\n        local p = xref[j]               -- xrefs indexes the token list\r\n        seminfolist[p] = obj.newname\r\n      end\r\n      obj.name, obj.oldname             -- adjust names\r\n        = obj.newname, obj.name\r\n    else\r\n      obj.oldname = obj.name            -- for cases like 'self'\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 160,
+    "text": "for j = 1, obj.xcount do\r\n        local p = xref[j]               -- xrefs indexes the token list\r\n        seminfolist[p] = obj.newname\r\n      end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 161,
+    "text": "seminfolist[p] = obj.newname",
+    "type": "statement:assign"
+  }, {
+    "id": 162,
+    "text": "obj.name, obj.oldname             -- adjust names\r\n        = obj.newname, obj.name",
+    "type": "statement:assign"
+  }, {
+    "id": 163,
+    "text": "obj.oldname = obj.name",
+    "type": "statement:assign"
+  }, {
+    "id": 164,
+    "text": "if gotself then  -- add 'self' to end of list\r\n    varlist[#varlist + 1] = \"self\"\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 165,
+    "text": "varlist[#varlist + 1] = \"self\"",
+    "type": "statement:assign"
+  }, {
+    "id": 166,
+    "text": "local afteruniq = preprocess(localinfo)",
+    "type": "statement:localassign"
+  }, {
+    "id": 167,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 168,
+    "text": "function(v1, v2)\r\n        return v1.freq > v2.freq\r\n      end",
+    "type": "function"
+  }, {
+    "id": 169,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 170,
+    "text": "function(v1, v2)\r\n      return v1.xcount > v2.xcount\r\n    end",
+    "type": "function"
+  }, {
+    "id": 171,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 172,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 173,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 174,
+    "text": "sort",
+    "type": "global function"
+  }, {
+    "id": 175,
+    "text": "string",
+    "type": "module"
+  }, {
+    "id": 176,
+    "text": "gmatch",
+    "type": "global function"
+  }, {
+    "id": 177,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 178,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 179,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 180,
+    "text": "byte",
+    "type": "global function"
+  }, {
+    "id": 181,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 182,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 183,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 184,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 185,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 186,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 187,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 188,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 189,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 190,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 191,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 192,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 193,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 194,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 195,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 196,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 197,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 198,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 199,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 200,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 201,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 202,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 203,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

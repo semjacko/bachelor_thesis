@@ -1,0 +1,221 @@
+{
+  "_filename": "cookie1a.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/concurrentlua/test/distributed/cookie1a.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 23
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cookie1a",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function pong(n)\r\n    concurrent.register('pong', concurrent.self())\r\n    for i = 1, n do\r\n        local msg  = concurrent.receive()\r\n        print('pong received message from ping')\r\n        concurrent.send(msg.from, { from = { 'pong', 'pong@localhost' },\r\n            body = 'pong' })\r\n        print('pong sent reply to ping')\r\n    end\r\n    print('pong exiting')\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "concurrent.register('pong', concurrent.self())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "for i = 1, n do\r\n        local msg  = concurrent.receive()\r\n        print('pong received message from ping')\r\n        concurrent.send(msg.from, { from = { 'pong', 'pong@localhost' },\r\n            body = 'pong' })\r\n        print('pong sent reply to ping')\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 5,
+    "text": "local msg  = concurrent.receive()",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "print('pong received message from ping')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "concurrent.send(msg.from, { from = { 'pong', 'pong@localhost' },\r\n            body = 'pong' })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "print('pong sent reply to ping')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "print('pong exiting')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 12,
+    "text": "spawn",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "receive",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "send",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "loop",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "setcookie",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "register",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "self",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "shutdown",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  } ]
+}

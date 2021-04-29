@@ -1,0 +1,249 @@
+{
+  "_filename": "explua.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luacomments/src/comments/explua.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "requires",
+    "to": 17
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 26,
+    "label": "requires",
+    "to": 24
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 24
+  }, {
+    "from": 28,
+    "label": "requires",
+    "to": 24
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "explua",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function parse(text,extended)\r\n\tlocal x\r\n\tif(extended)then\r\n\t   x = re.compile( [[\r\n\t      start     <- (simple / return / param / table / tablefield)\r\n\r\n\t      simple    <- ( commentprefix  simplecommenttypes   tex  )          -> {}\r\n\t      return    <- ( commentprefix {:type: (\":\"s+) -> \"return\":}  '['? vari ']'? s+ {:vartype: types :} s+ tex) -> {}\r\n\t      param     <- ( commentprefix {:type: (\"@\"s+) -> \"param\":}   '['? vari ']'? s+ {:vartype: types? :} s* tex  )   -> {}\r\n\t      table     <- ( commentprefix {:type: (\"&\"s+) -> \"table\":}   vari s+ tex  )        -> {}\r\n\t      tablefield<- ( commentprefix {:type: (\".\"s+) -> \"tablefield\":}   {:table: variable :} s+ vari s+ tex  )        -> {}\r\n\r\n\t      types     <-  ( \"(\" s* typelist  s* \")\" )     ->{}\r\n\t      typelist  <-  basetypes (s*  (\"|\"/\",\") s*  basetypes )*\r\n\t      simplecommenttypes <- ]].. simplecommenttypes ..[[\r\n\t      variable  <-  ]] .. common.variable .. [[\r\n\t      basetypes <-  ]] .. common.basetypes .. [[\r\n\t      text      <-  !\"(\" .+   -- !\"(\" to ensure that the 'types' pattern matches\r\n\t      s <- (\"]]..\"\\t\"..[[\" / \" \")\r\n\t      commentprefix <-'--'\r\n\t      vari      <- {:var: variable :}\r\n\t      tex      <-{:text: text :}\r\n\t    ]]\r\n\t  )\r\n\telse\r\n\tx = re.compile( [[\r\n\t      start     <- (simple / return / param / table / tablefield)\r\n\r\n\t      simple    <- ( commentprefix  simplecommenttypes   tex  )          -> {}\r\n\t      return    <- ( commentprefix {:type: (\":\"s+) -> \"return\":}   {:vartype: types :} s+ tex  )  -> {}\r\n\t      param     <- ( commentprefix {:type: (\"@\"s+) -> \"param\":}   '['? vari ']'? s+ {:vartype: types? :} s* tex  )   -> {}\r\n\t      table     <- ( commentprefix {:type: (\"&\"s+) -> \"table\":}    vari s+ tex  )        -> {}\r\n\t      tablefield<- ( commentprefix {:type: (\".\"s+) -> \"tablefield\":}   {:table: variable :} s+ vari s+ tex  )        -> {}\r\n\r\n\t      types     <-  ( \"(\" s* typelist  s* \")\" )     ->{}\r\n\t      typelist  <-  basetypes (s*  (\"|\"/\",\") s*  basetypes )*\r\n\t      simplecommenttypes <- ]].. simplecommenttypes ..[[\r\n\t      variable  <-  ]] .. common.variable .. [[\r\n\t      basetypes <-  ]] .. common.basetypes .. [[\r\n\t      text      <-  !\"(\" .+   -- !\"(\" to ensure that the 'types' pattern matches\r\n\t        s <- (\"]]..\"\\t\"..[[\" / \" \")\r\n\t      commentprefix <-'--'\r\n\t      vari      <- {:var: variable :}\r\n\t      tex      <-{:text: text :}\r\n\t    ]]\r\n\t  )\r\n\r\n\tend\r\n\tx = x:match(text)\r\n\tif (x) then\r\n\t\tx.tag = \"comment\"\r\n\t\tx.style = \"explua\"\r\n\t\treturn x\r\n\telse\r\n\t\treturn nil, \"Error: nothing parsed!\"\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local x",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "if(extended)then\r\n\t   x = re.compile( [[\r\n\t      start     <- (simple / return / param / table / tablefield)\r\n\r\n\t      simple    <- ( commentprefix  simplecommenttypes   tex  )          -> {}\r\n\t      return    <- ( commentprefix {:type: (\":\"s+) -> \"return\":}  '['? vari ']'? s+ {:vartype: types :} s+ tex) -> {}\r\n\t      param     <- ( commentprefix {:type: (\"@\"s+) -> \"param\":}   '['? vari ']'? s+ {:vartype: types? :} s* tex  )   -> {}\r\n\t      table     <- ( commentprefix {:type: (\"&\"s+) -> \"table\":}   vari s+ tex  )        -> {}\r\n\t      tablefield<- ( commentprefix {:type: (\".\"s+) -> \"tablefield\":}   {:table: variable :} s+ vari s+ tex  )        -> {}\r\n\r\n\t      types     <-  ( \"(\" s* typelist  s* \")\" )     ->{}\r\n\t      typelist  <-  basetypes (s*  (\"|\"/\",\") s*  basetypes )*\r\n\t      simplecommenttypes <- ]].. simplecommenttypes ..[[\r\n\t      variable  <-  ]] .. common.variable .. [[\r\n\t      basetypes <-  ]] .. common.basetypes .. [[\r\n\t      text      <-  !\"(\" .+   -- !\"(\" to ensure that the 'types' pattern matches\r\n\t      s <- (\"]]..\"\\t\"..[[\" / \" \")\r\n\t      commentprefix <-'--'\r\n\t      vari      <- {:var: variable :}\r\n\t      tex      <-{:text: text :}\r\n\t    ]]\r\n\t  )\r\n\telse\r\n\tx = re.compile( [[\r\n\t      start     <- (simple / return / param / table / tablefield)\r\n\r\n\t      simple    <- ( commentprefix  simplecommenttypes   tex  )          -> {}\r\n\t      return    <- ( commentprefix {:type: (\":\"s+) -> \"return\":}   {:vartype: types :} s+ tex  )  -> {}\r\n\t      param     <- ( commentprefix {:type: (\"@\"s+) -> \"param\":}   '['? vari ']'? s+ {:vartype: types? :} s* tex  )   -> {}\r\n\t      table     <- ( commentprefix {:type: (\"&\"s+) -> \"table\":}    vari s+ tex  )        -> {}\r\n\t      tablefield<- ( commentprefix {:type: (\".\"s+) -> \"tablefield\":}   {:table: variable :} s+ vari s+ tex  )        -> {}\r\n\r\n\t      types     <-  ( \"(\" s* typelist  s* \")\" )     ->{}\r\n\t      typelist  <-  basetypes (s*  (\"|\"/\",\") s*  basetypes )*\r\n\t      simplecommenttypes <- ]].. simplecommenttypes ..[[\r\n\t      variable  <-  ]] .. common.variable .. [[\r\n\t      basetypes <-  ]] .. common.basetypes .. [[\r\n\t      text      <-  !\"(\" .+   -- !\"(\" to ensure that the 'types' pattern matches\r\n\t        s <- (\"]]..\"\\t\"..[[\" / \" \")\r\n\t      commentprefix <-'--'\r\n\t      vari      <- {:var: variable :}\r\n\t      tex      <-{:text: text :}\r\n\t    ]]\r\n\t  )\r\n\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "x = re.compile( [[\r\n\t      start     <- (simple / return / param / table / tablefield)\r\n\r\n\t      simple    <- ( commentprefix  simplecommenttypes   tex  )          -> {}\r\n\t      return    <- ( commentprefix {:type: (\":\"s+) -> \"return\":}  '['? vari ']'? s+ {:vartype: types :} s+ tex) -> {}\r\n\t      param     <- ( commentprefix {:type: (\"@\"s+) -> \"param\":}   '['? vari ']'? s+ {:vartype: types? :} s* tex  )   -> {}\r\n\t      table     <- ( commentprefix {:type: (\"&\"s+) -> \"table\":}   vari s+ tex  )        -> {}\r\n\t      tablefield<- ( commentprefix {:type: (\".\"s+) -> \"tablefield\":}   {:table: variable :} s+ vari s+ tex  )        -> {}\r\n\r\n\t      types     <-  ( \"(\" s* typelist  s* \")\" )     ->{}\r\n\t      typelist  <-  basetypes (s*  (\"|\"/\",\") s*  basetypes )*\r\n\t      simplecommenttypes <- ]].. simplecommenttypes ..[[\r\n\t      variable  <-  ]] .. common.variable .. [[\r\n\t      basetypes <-  ]] .. common.basetypes .. [[\r\n\t      text      <-  !\"(\" .+   -- !\"(\" to ensure that the 'types' pattern matches\r\n\t      s <- (\"]]..\"\\t\"..[[\" / \" \")\r\n\t      commentprefix <-'--'\r\n\t      vari      <- {:var: variable :}\r\n\t      tex      <-{:text: text :}\r\n\t    ]]\r\n\t  )",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "x = re.compile( [[\r\n\t      start     <- (simple / return / param / table / tablefield)\r\n\r\n\t      simple    <- ( commentprefix  simplecommenttypes   tex  )          -> {}\r\n\t      return    <- ( commentprefix {:type: (\":\"s+) -> \"return\":}   {:vartype: types :} s+ tex  )  -> {}\r\n\t      param     <- ( commentprefix {:type: (\"@\"s+) -> \"param\":}   '['? vari ']'? s+ {:vartype: types? :} s* tex  )   -> {}\r\n\t      table     <- ( commentprefix {:type: (\"&\"s+) -> \"table\":}    vari s+ tex  )        -> {}\r\n\t      tablefield<- ( commentprefix {:type: (\".\"s+) -> \"tablefield\":}   {:table: variable :} s+ vari s+ tex  )        -> {}\r\n\r\n\t      types     <-  ( \"(\" s* typelist  s* \")\" )     ->{}\r\n\t      typelist  <-  basetypes (s*  (\"|\"/\",\") s*  basetypes )*\r\n\t      simplecommenttypes <- ]].. simplecommenttypes ..[[\r\n\t      variable  <-  ]] .. common.variable .. [[\r\n\t      basetypes <-  ]] .. common.basetypes .. [[\r\n\t      text      <-  !\"(\" .+   -- !\"(\" to ensure that the 'types' pattern matches\r\n\t        s <- (\"]]..\"\\t\"..[[\" / \" \")\r\n\t      commentprefix <-'--'\r\n\t      vari      <- {:var: variable :}\r\n\t      tex      <-{:text: text :}\r\n\t    ]]\r\n\t  )",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "x = x:match(text)",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "if (x) then\r\n\t\tx.tag = \"comment\"\r\n\t\tx.style = \"explua\"\r\n\t\treturn x\r\n\telse\r\n\t\treturn nil, \"Error: nothing parsed!\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "x.tag = \"comment\"",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "x.style = \"explua\"",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 14,
+    "text": "compile",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "(re)",
+    "type": "module"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 24,
+    "text": "common)",
+    "type": "module"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

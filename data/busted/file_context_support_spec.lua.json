@@ -1,0 +1,289 @@
+{
+  "_filename": "file_context_support_spec.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/file_context_support_spec.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "file_context_support_spec",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function()\r\n  egg = egg..'S'\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "egg = egg..'S'",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function()\r\n  egg = egg..'T'\r\n  assert.equal('Sb1ab2aT', egg)\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "egg = egg..'T'",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "assert.equal('Sb1ab2aT', egg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function()\r\n  egg = egg..'b'\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "egg = egg..'b'",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function()\r\n  egg = egg..'a'\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "egg = egg..'a'",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function()\r\n  assert.equal('Sb', egg)\r\n  egg = egg..'1'\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "assert.equal('Sb', egg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "egg = egg..'1'",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "function()\r\n  assert.equal('Sb1ab', egg)\r\n  egg = egg..'2'\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "assert.equal('Sb1ab', egg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "egg = egg..'2'",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 24,
+    "text": "setup",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "it",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "before_each",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "teardown",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "equal",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "after_each",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "string"
+  } ]
+}

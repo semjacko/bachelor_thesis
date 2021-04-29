@@ -1,0 +1,421 @@
+{
+  "_filename": "minimal.wx.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wxlua/samples/minimal.wx.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "initializes",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "assigns",
+    "to": 47
+  }, {
+    "from": 44,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 45,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 24,
+    "label": "hasArgument",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "hasArgument",
+    "to": 31
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "minimal",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function OnPaint(event)\r\n    -- must always create a wxPaintDC in a wxEVT_PAINT handler\r\n    local dc = wx.wxPaintDC(panel)\r\n    -- call some drawing functions\r\n    dc:DrawRectangle(10, 10, 300, 300);\r\n    dc:DrawRoundedRectangle(20, 20, 280, 280, 20);\r\n    dc:DrawEllipse(30, 30, 260, 260);\r\n    dc:DrawText(\"A test string\", 50, 150);\r\n    -- the paint DC will be automatically destroyed by the garbage collector,\r\n    -- however on Windows 9x/Me this may be too late (DC's are precious resource)\r\n    -- so delete it here\r\n    dc:delete() -- ALWAYS delete() any wxDCs created when done\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local dc = wx.wxPaintDC(panel)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "dc:DrawRectangle(10, 10, 300, 300)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "dc:DrawRoundedRectangle(20, 20, 280, 280, 20)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "dc:DrawEllipse(30, 30, 260, 260)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "dc:DrawText(\"A test string\", 50, 150)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "dc:delete()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function main()\r\n\r\n    -- create the wxFrame window\r\n    frame = wx.wxFrame( wx.NULL,            -- no parent for toplevel windows\r\n                        wx.wxID_ANY,          -- don't need a wxWindow ID\r\n                        \"wxLua Minimal Demo\", -- caption on the frame\r\n                        wx.wxDefaultPosition, -- let system place the frame\r\n                        wx.wxSize(450, 450),  -- set the size of the frame\r\n                        wx.wxDEFAULT_FRAME_STYLE ) -- use default frame styles\r\n\r\n    -- create a single child window, wxWidgets will set the size to fill frame\r\n    panel = wx.wxPanel(frame, wx.wxID_ANY)\r\n\r\n    -- connect the paint event handler function with the paint event\r\n    panel:Connect(wx.wxEVT_PAINT, OnPaint)\r\n\r\n    -- create a simple file menu\r\n    local fileMenu = wx.wxMenu()\r\n    fileMenu:Append(wx.wxID_EXIT, \"E&xit\", \"Quit the program\")\r\n\r\n    -- create a simple help menu\r\n    local helpMenu = wx.wxMenu()\r\n    helpMenu:Append(wx.wxID_ABOUT, \"&About\", \"About the wxLua Minimal Application\")\r\n\r\n    -- create a menu bar and append the file and help menus\r\n    local menuBar = wx.wxMenuBar()\r\n    menuBar:Append(fileMenu, \"&File\")\r\n    menuBar:Append(helpMenu, \"&Help\")\r\n\r\n    -- attach the menu bar into the frame\r\n    frame:SetMenuBar(menuBar)\r\n\r\n    -- create a simple status bar\r\n    frame:CreateStatusBar(1)\r\n    frame:SetStatusText(\"Welcome to wxLua.\")\r\n\r\n    -- connect the selection event of the exit menu item to an\r\n    -- event handler that closes the window\r\n    frame:Connect(wx.wxID_EXIT, wx.wxEVT_COMMAND_MENU_SELECTED,\r\n                  function (event) frame:Close(true) end )\r\n\r\n    -- connect the selection event of the about menu item\r\n    frame:Connect(wx.wxID_ABOUT, wx.wxEVT_COMMAND_MENU_SELECTED,\r\n        function (event)\r\n            wx.wxMessageBox('This is the \"About\" dialog of the Minimal wxLua sample.\\n'..\r\n                            wxlua.wxLUA_VERSION_STRING..\" built with \"..wx.wxVERSION_STRING,\r\n                            \"About wxLua\",\r\n                            wx.wxOK + wx.wxICON_INFORMATION,\r\n                            frame)\r\n        end )\r\n\r\n    -- show the frame window\r\n    frame:Show(true)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "frame = wx.wxFrame( wx.NULL,            -- no parent for toplevel windows\r\n                        wx.wxID_ANY,          -- don't need a wxWindow ID\r\n                        \"wxLua Minimal Demo\", -- caption on the frame\r\n                        wx.wxDefaultPosition, -- let system place the frame\r\n                        wx.wxSize(450, 450),  -- set the size of the frame\r\n                        wx.wxDEFAULT_FRAME_STYLE )",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "panel = wx.wxPanel(frame, wx.wxID_ANY)",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "panel:Connect(wx.wxEVT_PAINT, OnPaint)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "local fileMenu = wx.wxMenu()",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "fileMenu:Append(wx.wxID_EXIT, \"E&xit\", \"Quit the program\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "local helpMenu = wx.wxMenu()",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "helpMenu:Append(wx.wxID_ABOUT, \"&About\", \"About the wxLua Minimal Application\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "local menuBar = wx.wxMenuBar()",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "menuBar:Append(fileMenu, \"&File\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "menuBar:Append(helpMenu, \"&Help\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "frame:SetMenuBar(menuBar)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "frame:CreateStatusBar(1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "frame:SetStatusText(\"Welcome to wxLua.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "frame:Connect(wx.wxID_EXIT, wx.wxEVT_COMMAND_MENU_SELECTED,\r\n                  function (event) frame:Close(true) end )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "frame:Close(true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "frame:Connect(wx.wxID_ABOUT, wx.wxEVT_COMMAND_MENU_SELECTED,\r\n        function (event)\r\n            wx.wxMessageBox('This is the \"About\" dialog of the Minimal wxLua sample.\\n'..\r\n                            wxlua.wxLUA_VERSION_STRING..\" built with \"..wx.wxVERSION_STRING,\r\n                            \"About wxLua\",\r\n                            wx.wxOK + wx.wxICON_INFORMATION,\r\n                            frame)\r\n        end )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 27,
+    "text": "wx.wxMessageBox('This is the \"About\" dialog of the Minimal wxLua sample.\\n'..\r\n                            wxlua.wxLUA_VERSION_STRING..\" built with \"..wx.wxVERSION_STRING,\r\n                            \"About wxLua\",\r\n                            wx.wxOK + wx.wxICON_INFORMATION,\r\n                            frame)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "frame:Show(true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function (event) frame:Close(true) end",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "function (event)\r\n            wx.wxMessageBox('This is the \"About\" dialog of the Minimal wxLua sample.\\n'..\r\n                            wxlua.wxLUA_VERSION_STRING..\" built with \"..wx.wxVERSION_STRING,\r\n                            \"About wxLua\",\r\n                            wx.wxOK + wx.wxICON_INFORMATION,\r\n                            frame)\r\n        end",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 34,
+    "text": "wxMenuBar",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "wxMessageBox",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "wxSize",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "wxGetApp",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "wxMenu",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "wxFrame",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "wxPanel",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "wxPaintDC",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

@@ -1,0 +1,209 @@
+{
+  "_filename": "poll.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luaposix/examples/poll.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "assigns",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "assigns",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "assigns",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "assigns",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "assigns",
+    "to": 23
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "poll",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "posix",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "read",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "poll",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "close",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "next",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

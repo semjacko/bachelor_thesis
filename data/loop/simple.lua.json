@@ -1,0 +1,513 @@
+{
+  "_filename": "simple.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/simple.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 3
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "assigns",
+    "to": 44
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "assigns",
+    "to": 46
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "assigns",
+    "to": 48
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "assigns",
+    "to": 50
+  }, {
+    "from": 42,
+    "label": "initializes",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "requires",
+    "to": 4
+  }, {
+    "from": 42,
+    "label": "initializes",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 42,
+    "label": "initializes",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 54,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 55,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ObjectCache",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "simple",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 5,
+    "text": "function isclass(class)\r\n\treturn getclass(class) ~= nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function class(class, ...)\r\n\tif select(\"#\", ...) > 1\r\n\t\tthen return base.rawnew(table.copy(MultipleClass, {...}), initclass(class))\r\n\t\telse return base.class(class, ...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function class(class, super)\r\n\tif super\r\n\t\tthen return DerivedClass[super](initclass(class))\r\n\t\telse return base.class(class)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "if super\r\n\t\tthen return DerivedClass[super](initclass(class))\r\n\t\telse return base.class(class)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function isclass(class)\r\n\tlocal metaclass = classof(class)\r\n\tif metaclass then\r\n\t\treturn metaclass == rawget(DerivedClass, metaclass.__index) or\r\n\t\t       base.isclass(class)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "local metaclass = classof(class)",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "if metaclass then\r\n\t\treturn metaclass == rawget(DerivedClass, metaclass.__index) or\r\n\t\t       base.isclass(class)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function superclass(class)\r\n\tlocal metaclass = classof(class)\r\n\tif metaclass then return metaclass.__index end\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "if metaclass then return metaclass.__index end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function subclassof(class, super)\r\n\twhile class do\r\n\t\tif class == super then return true end\r\n\t\tclass = superclass(class)\r\n\tend\r\n\treturn false\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "while class do\r\n\t\tif class == super then return true end\r\n\t\tclass = superclass(class)\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 20,
+    "text": "if class == super then return true end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "class = superclass(class)",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function instanceof(object, class)\r\n\treturn subclassof(classof(object), class)\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function(self, super)\r\n\t\treturn base.class { __index = super, __call = new }\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 28,
+    "text": "function copy(source, destiny)\r\n\tif source then\r\n\t\tif not destiny then destiny = {} end\r\n\t\tfor field, value in pairs(source) do\r\n\t\t\trawset(destiny, field, value)\r\n\t\tend\r\n\tend\r\n\treturn destiny\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "rawget",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "initclass",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "ObjectCache",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "DerivedClass[super]",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "classof",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,569 @@
+{
+  "_filename": "odbc.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-odbc/test/luasql/odbc.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 43
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 45
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 49
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 52
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 53
+  }, {
+    "from": 52,
+    "label": "initializes",
+    "to": 54
+  }, {
+    "from": 52,
+    "label": "initializes",
+    "to": 55
+  }, {
+    "from": 52,
+    "label": "initializes",
+    "to": 56
+  }, {
+    "from": 53,
+    "label": "initializes",
+    "to": 57
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "provides",
+    "to": 59
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 60
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 61
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 62
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "odbc",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function odbc.connect(...)\r\n  local env, err = odbc.environment()\r\n  if not env then return nil, err end\r\n  local cnn, err = env:connect(...)\r\n  if not cnn then \r\n    env:destroy()\r\n    return nil, err\r\n  end\r\n  assert(cnn:environment() == env)\r\n  return cnn, env\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function odbc.driverconnect(...)\r\n  local env, err = odbc.environment()\r\n  if not env then return nil, err end\r\n  local cnn, err = env:driverconnect(...)\r\n  if not cnn then \r\n    env:destroy()\r\n    return nil, err\r\n  end\r\n  assert(cnn:environment() == env)\r\n  return cnn, env\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function Environment:driverconnect(...)\r\n  local cnn, err = self:connection()\r\n  if not cnn then return nil, err end\r\n  local ok, err = cnn:driverconnect(...)\r\n  if not ok then cnn:destroy() return nil, err end\r\n  return cnn\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function Environment:connect(...)\r\n  if type((...)) == 'table' then\r\n    return self:driverconnect(...)\r\n  end\r\n  local cnn, err = self:connection()\r\n  if not cnn then return nil, err end\r\n  local ok, err = cnn:connect(...)\r\n  if not ok then cnn:destroy() return nil, err end\r\n  return cnn\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function Connection:prepare(sql)\r\n  local stmt, err = self:statement()\r\n  if not stmt then return nil, err end\r\n  local ok, err = stmt:prepare(sql)\r\n  if not ok then \r\n    stmt:destroy()\r\n    return nil, err\r\n  end\r\n  return stmt\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function Connection:execute(sql)\r\n  local stmt, err = self:statement()\r\n  if not stmt then return nil, err end\r\n  local ok, err = stmt:execute(sql)\r\n  if not ok then \r\n    stmt:destroy()\r\n    return nil, err\r\n  end\r\n  return stmt\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function Statement:vbind_col(i, val, ...)\r\n  return val:bind_col(self, i, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function Statement:vbind_param(i, val, ...)\r\n  return val:bind_param(self, i, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function(self, ...)\r\n    return odbc[tname]():bind_col(self, ...)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function(self, i, val, ...)\r\n    return odbc[tname](val):bind_param(self, i, ...)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function(self, i, size, ...)\r\n    return odbc[tname](size):bind_col(self, i, ...)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function(self, i, size, ...)\r\n    if type(size) == 'string' then\r\n      return odbc[tname](size):bind_param(self, i, ...)\r\n    end\r\n    assert(type(size) == 'number')\r\n    local val = ...\r\n    if type(val) == 'string' then\r\n      return odbc[tname](size, val):bind_param(self, i, select(2, ...))\r\n    end\r\n    return odbc[tname](size):bind_param(self, i, ...)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "function ()\r\n\tassert2 (CREATE_TABLE_RETURN_VALUE, CONN:execute\"create table test_dt (f1 integer, f2 varchar(30), f3 bit )\")\r\n\t-- Inserts a number, a string value and a \"bit\" value.\r\n\tassert2 (1, CONN:execute\"insert into test_dt values (10, 'ABCDE', 1)\")\r\n\r\n\t-- Checks the results with the inserted values.\r\n\tlocal cur = CUR_OK (CONN:execute\"select * from test_dt\")\r\n\tlocal row, err = cur:fetch ({}, \"a\")\r\n\tassert2 (\"table\", type(row), err)\r\n\r\n\tassert2 (10, row.f1, \"Wrong number representation\")\r\n\tassert2 (\"ABCDE\", row.f2, \"Wrong string representation\")\r\n\tassert2 (true, row.f3, \"Wrong bit representation\")\r\n\r\n\t-- Drops the table\r\n    assert2 (DROP_TABLE_RETURN_VALUE, CONN:execute(\"drop table test_dt\") )\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "assert2 (CREATE_TABLE_RETURN_VALUE, CONN:execute\"create table test_dt (f1 integer, f2 varchar(30), f3 bit )\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "assert2 (1, CONN:execute\"insert into test_dt values (10, 'ABCDE', 1)\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "local cur = CUR_OK (CONN:execute\"select * from test_dt\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "local row, err = cur:fetch ({}, \"a\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "assert2 (\"table\", type(row), err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "assert2 (10, row.f1, \"Wrong number representation\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "assert2 (\"ABCDE\", row.f2, \"Wrong string representation\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "assert2 (true, row.f3, \"Wrong bit representation\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "assert2 (DROP_TABLE_RETURN_VALUE, CONN:execute(\"drop table test_dt\") )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "getcnnmeta",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "getstmtmeta",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "getenvmeta",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "date",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "bit",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "time",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "CUR_OK",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "binary",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "environment",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "version",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "assert2",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "slong",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "init_connection",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "timestamp",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "double",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "ulong",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "odbc[tname]",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "utinyint",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

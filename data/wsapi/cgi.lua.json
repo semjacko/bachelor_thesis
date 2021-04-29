@@ -1,0 +1,185 @@
+{
+  "_filename": "cgi.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wsapi/src/wsapi/cgi.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 15,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "requires",
+    "to": 11
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "requires",
+    "to": 13
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cgi",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "common",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "function run(app_run)\r\n   common.run(app_run, { input = io.stdin, output = io.stdout,\r\n     error = io.stderr, env = os.getenv })\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "common.run(app_run, { input = io.stdin, output = io.stdout,\r\n     error = io.stderr, env = os.getenv })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 9,
+    "text": "function setmode()\r\n   pcall(lfs.setmode, io.stdin, \"binary\")\r\n   pcall(lfs.setmode, io.stdout, \"binary\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function run(app_run)\r\n   while lfcgi.accept() >= 0 do\r\n     local headers\r\n     local function getenv(n)\r\n       if n == \"headers\" then\r\n         if headers then return headers end\r\n         local env_vars = lfcgi.environ()\r\n         headers = {}\r\n         for _, s in ipairs(env_vars) do\r\n           local name, val = s:match(\"^([^=]+)=(.*)$\")\r\n           headers[name] = val\r\n         end\r\n         return headers\r\n       else\r\n         return lfcgi.getenv(n) or os.getenv(n)\r\n       end\r\n     end\r\n     common.run(app_run, { input = lfcgi.stdin,\r\n                           output = lfcgi.stdout,\r\n                           error = lfcgi.stderr,\r\n                           env = getenv })\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "os",
+    "type": "module"
+  }, {
+    "id": 12,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 14,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

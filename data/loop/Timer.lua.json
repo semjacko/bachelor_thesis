@@ -1,0 +1,357 @@
+{
+  "_filename": "Timer.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/thread/Timer.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 31
+  }, {
+    "from": 37,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 29
+  }, {
+    "from": 37,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "Timer",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function __init(class, self)\r\n\tself = oo.rawnew(class, self)\r\n\tself.thread = coroutine.create(function() return self:timer() end)\r\n\treturn self\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "self = oo.rawnew(class, self)",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "self.thread = coroutine.create(function() return self:timer() end)",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function timer(self)\r\n\tlocal scheduler = self.scheduler\r\n\tif self.enabled then\r\n\t\tlocal rate = self.rate\r\n\t\tlocal next = scheduler:time() + rate\r\n\t\tself:action()\r\n\t\tlocal now = scheduler:time()\r\n\t\tif now < next\r\n\t\t\tthen scheduler:suspend(next - now)\r\n\t\t\telse scheduler:suspend(rate - math.fmod(now - next, rate))\r\n\t\tend\r\n\telse\r\n\t\tscheduler:suspend()\r\n\tend\r\n\treturn self:timer()\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local scheduler = self.scheduler",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if self.enabled then\r\n\t\tlocal rate = self.rate\r\n\t\tlocal next = scheduler:time() + rate\r\n\t\tself:action()\r\n\t\tlocal now = scheduler:time()\r\n\t\tif now < next\r\n\t\t\tthen scheduler:suspend(next - now)\r\n\t\t\telse scheduler:suspend(rate - math.fmod(now - next, rate))\r\n\t\tend\r\n\telse\r\n\t\tscheduler:suspend()\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "local rate = self.rate",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local next = scheduler:time() + rate",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "self:action()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "local now = scheduler:time()",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "if now < next\r\n\t\t\tthen scheduler:suspend(next - now)\r\n\t\t\telse scheduler:suspend(rate - math.fmod(now - next, rate))\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "scheduler:suspend(next - now)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "scheduler:suspend(rate - math.fmod(now - next, rate))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "scheduler:suspend()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function enable(self)\r\n\tif not self.enabled then\r\n\t\tself.enabled = true\r\n\t\treturn self.scheduler:register(self.thread)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "if not self.enabled then\r\n\t\tself.enabled = true\r\n\t\treturn self.scheduler:register(self.thread)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "self.enabled = true",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function disable(self)\r\n\tself.enabled = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "self.enabled = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function() return self:timer() end",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 29,
+    "text": "coroutine",
+    "type": "module"
+  }, {
+    "id": 30,
+    "text": "create",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "math",
+    "type": "module"
+  }, {
+    "id": 32,
+    "text": "fmod",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "rawnew",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,437 @@
+{
+  "_filename": "stats.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luacov/src/luacov/stats.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 45
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 46
+  }, {
+    "from": 45,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "assigns",
+    "to": 48
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 49
+  }, {
+    "from": 47,
+    "label": "represents",
+    "to": 50
+  }, {
+    "from": 49,
+    "label": "provides",
+    "to": 50
+  }, {
+    "from": 47,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 47,
+    "label": "contains",
+    "to": 23
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "stats",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function stats.load(statsfile)\r\n   local data = {}\r\n   local fd = io.open(statsfile, \"r\")\r\n   if not fd then\r\n      return nil\r\n   end\r\n   while true do\r\n      local max = fd:read(\"*n\")\r\n      if not max then\r\n         break\r\n      end\r\n      if fd:read(1) ~= \":\" then\r\n         break\r\n      end\r\n      local filename = fd:read(\"*l\")\r\n      if not filename then\r\n         break\r\n      end\r\n      data[filename] = {\r\n         max = max,\r\n         max_hits = 0\r\n      }\r\n      for i = 1, max do\r\n         local hits = fd:read(\"*n\")\r\n         if not hits then\r\n            break\r\n         end\r\n         if fd:read(1) ~= \" \" then\r\n            break\r\n         end\r\n         if hits > 0 then\r\n            data[filename][i] = hits\r\n            data[filename].max_hits = math.max(data[filename].max_hits, hits)\r\n         end\r\n      end\r\n   end\r\n   fd:close()\r\n   return data\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local data = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local fd = io.open(statsfile, \"r\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if not fd then\r\n      return nil\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "while true do\r\n      local max = fd:read(\"*n\")\r\n      if not max then\r\n         break\r\n      end\r\n      if fd:read(1) ~= \":\" then\r\n         break\r\n      end\r\n      local filename = fd:read(\"*l\")\r\n      if not filename then\r\n         break\r\n      end\r\n      data[filename] = {\r\n         max = max,\r\n         max_hits = 0\r\n      }\r\n      for i = 1, max do\r\n         local hits = fd:read(\"*n\")\r\n         if not hits then\r\n            break\r\n         end\r\n         if fd:read(1) ~= \" \" then\r\n            break\r\n         end\r\n         if hits > 0 then\r\n            data[filename][i] = hits\r\n            data[filename].max_hits = math.max(data[filename].max_hits, hits)\r\n         end\r\n      end\r\n   end",
+    "type": "statement:while"
+  }, {
+    "id": 8,
+    "text": "local max = fd:read(\"*n\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "if not max then\r\n         break\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "if fd:read(1) ~= \":\" then\r\n         break\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "local filename = fd:read(\"*l\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "if not filename then\r\n         break\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "data[filename] = {\r\n         max = max,\r\n         max_hits = 0\r\n      }",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "for i = 1, max do\r\n         local hits = fd:read(\"*n\")\r\n         if not hits then\r\n            break\r\n         end\r\n         if fd:read(1) ~= \" \" then\r\n            break\r\n         end\r\n         if hits > 0 then\r\n            data[filename][i] = hits\r\n            data[filename].max_hits = math.max(data[filename].max_hits, hits)\r\n         end\r\n      end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 15,
+    "text": "local hits = fd:read(\"*n\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "if not hits then\r\n            break\r\n         end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "if fd:read(1) ~= \" \" then\r\n            break\r\n         end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "if hits > 0 then\r\n            data[filename][i] = hits\r\n            data[filename].max_hits = math.max(data[filename].max_hits, hits)\r\n         end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "data[filename][i] = hits",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "data[filename].max_hits = math.max(data[filename].max_hits, hits)",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "fd:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function stats.save(statsfile, data)\r\n   local fd = assert(io.open(statsfile, \"w\"))\r\n\r\n   local filenames = {}\r\n   for filename in pairs(data) do\r\n      table.insert(filenames, filename)\r\n   end\r\n   table.sort(filenames)\r\n\r\n   for _, filename in ipairs(filenames) do\r\n      local filedata = data[filename]\r\n      fd:write(filedata.max, \":\", filename, \"\\n\")\r\n\r\n      for i = 1, filedata.max do\r\n         fd:write(tostring(filedata[i] or 0), \" \")\r\n      end\r\n      fd:write(\"\\n\")\r\n   end\r\n   fd:close()\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "local fd = assert(io.open(statsfile, \"w\"))",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "local filenames = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "for filename in pairs(data) do\r\n      table.insert(filenames, filename)\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 27,
+    "text": "table.insert(filenames, filename)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "table.sort(filenames)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "for _, filename in ipairs(filenames) do\r\n      local filedata = data[filename]\r\n      fd:write(filedata.max, \":\", filename, \"\\n\")\r\n\r\n      for i = 1, filedata.max do\r\n         fd:write(tostring(filedata[i] or 0), \" \")\r\n      end\r\n      fd:write(\"\\n\")\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 30,
+    "text": "local filedata = data[filename]",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "fd:write(filedata.max, \":\", filename, \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "for i = 1, filedata.max do\r\n         fd:write(tostring(filedata[i] or 0), \" \")\r\n      end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 33,
+    "text": "fd:write(tostring(filedata[i] or 0), \" \")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 34,
+    "text": "fd:write(\"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 37,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "max",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "sort",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "interface"
+  } ]
+}

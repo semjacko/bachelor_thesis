@@ -1,0 +1,509 @@
+{
+  "_filename": "clean.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/toluapp/src/bin/lua/clean.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 46
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 50
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "assigns",
+    "to": 52
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "clean",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function mask (s)\r\n for i = 1,getn(MASK)  do\r\n  s = gsub(s,MASK[i][2],MASK[i][1])\r\n end\r\n return s\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "for i = 1,getn(MASK)  do\r\n  s = gsub(s,MASK[i][2],MASK[i][1])\r\n end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 4,
+    "text": "s = gsub(s,MASK[i][2],MASK[i][1])",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function unmask (s)\r\n for i = 1,getn(MASK)  do\r\n  s = gsub(s,MASK[i][1],MASK[i][2])\r\n end\r\n return s\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "for i = 1,getn(MASK)  do\r\n  s = gsub(s,MASK[i][1],MASK[i][2])\r\n end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 9,
+    "text": "s = gsub(s,MASK[i][1],MASK[i][2])",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function clean (s)\r\n -- check for compilation error\r\n local code = \"return function ()\\n\" .. s .. \"\\n end\"\r\n if not dostring(code) then\r\n  return nil\r\n end\r\n\r\n if flags['C'] then\r\n \treturn s\r\n end\r\n\r\n local S = \"\" -- saved string\r\n\r\n s = mask(s)\r\n\r\n -- remove blanks and comments\r\n while 1 do\r\n  local b,e,d = strfind(s,ANY)\r\n  if b then\r\n   S = S..strsub(s,1,b-1)\r\n   s = strsub(s,b+1)\r\n   if d==STR1 or d==STR2 then\r\n    e = strfind(s,d)\r\n    S = S ..d..strsub(s,1,e)\r\n    s = strsub(s,e+1)\r\n   elseif d==STR3 then\r\n    e = strfind(s,STR4)\r\n    S = S..d..strsub(s,1,e)\r\n    s = strsub(s,e+1)\r\n   elseif d==REM then\r\n    s = gsub(s,\"[^\\n]*(\\n?)\",\"%1\",1)\r\n   end\r\n  else\r\n   S = S..s\r\n   break\r\n  end\r\n end\r\n -- eliminate unecessary spaces\r\n S = gsub(S,\"[ \\t]+\",\" \")\r\n S = gsub(S,\"[ \\t]*\\n[ \\t]*\",\"\\n\")\r\n\tS = gsub(S,\"\\n+\",\"\\n\")\r\n S = unmask(S)\r\n return S\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "local code = \"return function ()\\n\" .. s .. \"\\n end\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "if not dostring(code) then\r\n  return nil\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "if flags['C'] then\r\n \treturn s\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "local S = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "s = mask(s)",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "while 1 do\r\n  local b,e,d = strfind(s,ANY)\r\n  if b then\r\n   S = S..strsub(s,1,b-1)\r\n   s = strsub(s,b+1)\r\n   if d==STR1 or d==STR2 then\r\n    e = strfind(s,d)\r\n    S = S ..d..strsub(s,1,e)\r\n    s = strsub(s,e+1)\r\n   elseif d==STR3 then\r\n    e = strfind(s,STR4)\r\n    S = S..d..strsub(s,1,e)\r\n    s = strsub(s,e+1)\r\n   elseif d==REM then\r\n    s = gsub(s,\"[^\\n]*(\\n?)\",\"%1\",1)\r\n   end\r\n  else\r\n   S = S..s\r\n   break\r\n  end\r\n end",
+    "type": "statement:while"
+  }, {
+    "id": 18,
+    "text": "local b,e,d = strfind(s,ANY)",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "if b then\r\n   S = S..strsub(s,1,b-1)\r\n   s = strsub(s,b+1)\r\n   if d==STR1 or d==STR2 then\r\n    e = strfind(s,d)\r\n    S = S ..d..strsub(s,1,e)\r\n    s = strsub(s,e+1)\r\n   elseif d==STR3 then\r\n    e = strfind(s,STR4)\r\n    S = S..d..strsub(s,1,e)\r\n    s = strsub(s,e+1)\r\n   elseif d==REM then\r\n    s = gsub(s,\"[^\\n]*(\\n?)\",\"%1\",1)\r\n   end\r\n  else\r\n   S = S..s\r\n   break\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "S = S..strsub(s,1,b-1)",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "s = strsub(s,b+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "if d==STR1 or d==STR2 then\r\n    e = strfind(s,d)\r\n    S = S ..d..strsub(s,1,e)\r\n    s = strsub(s,e+1)\r\n   elseif d==STR3 then\r\n    e = strfind(s,STR4)\r\n    S = S..d..strsub(s,1,e)\r\n    s = strsub(s,e+1)\r\n   elseif d==REM then\r\n    s = gsub(s,\"[^\\n]*(\\n?)\",\"%1\",1)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 23,
+    "text": "e = strfind(s,d)",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "S = S ..d..strsub(s,1,e)",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "s = strsub(s,e+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "e = strfind(s,STR4)",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "S = S..d..strsub(s,1,e)",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "s = gsub(s,\"[^\\n]*(\\n?)\",\"%1\",1)",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "S = S..s",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "S = gsub(S,\"[ \\t]+\",\" \")",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "S = gsub(S,\"[ \\t]*\\n[ \\t]*\",\"\\n\")",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "S = gsub(S,\"\\n+\",\"\\n\")",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "S = unmask(S)",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 36,
+    "text": "dostring",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "strsub",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "getn",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "strfind",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

@@ -1,0 +1,925 @@
+{
+  "_filename": "mock_env.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lmock/src/mock_env.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 74
+  }, {
+    "from": 58,
+    "label": "calls",
+    "to": 78
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 81
+  }, {
+    "from": 58,
+    "label": "calls",
+    "to": 81
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 84
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 82
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 73,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 58,
+    "label": "calls",
+    "to": 80
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 85
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 79
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 35
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 54
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 56
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 58
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 67
+  }, {
+    "from": 88,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 89
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 90
+  }, {
+    "from": 89,
+    "label": "initializes",
+    "to": 91
+  }, {
+    "from": 91,
+    "label": "assigns",
+    "to": 92
+  }, {
+    "from": 89,
+    "label": "initializes",
+    "to": 93
+  }, {
+    "from": 93,
+    "label": "assigns",
+    "to": 94
+  }, {
+    "from": 89,
+    "label": "initializes",
+    "to": 95
+  }, {
+    "from": 95,
+    "label": "assigns",
+    "to": 96
+  }, {
+    "from": 95,
+    "label": "contains",
+    "to": 7
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "mock_env",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function CMockEnv:Ctor( env )\r\n\tassert( type(env) == \"table\" )\r\n\tself.m_env = env\r\n\tself.m_methods = {}\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "assert( type(env) == \"table\" )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "self.m_env = env",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "self.m_methods = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function CMockEnv.new( env )\r\n\tlocal obj = {}\r\n\tsetmetatable( obj , { __index = CMockEnv } )\r\n\tobj:Ctor( env )\r\n\treturn obj\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local obj = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "setmetatable( obj , { __index = CMockEnv } )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "obj:Ctor( env )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "local function checkMethodExist( methodName )\r\n\tlocal str = methodName\r\n\tlocal first , last = string.find( str , fmtModule )\r\n\tlocal checkEnv = _G\r\n\twhile first do\r\n\t\tlocal moduleName = string.sub( str , first , last-1 )\r\n\t\tcheckEnv[ moduleName ] = checkEnv[ moduleName ] or {}\r\n\t\tcheckEnv = checkEnv[ moduleName ]\r\n\t\t\r\n\t\tstr = string.sub( str , last+1 )\r\n\t\tfirst , last = string.find( str , fmtModule )\r\n\tend\r\n\r\n\tfirst , last = string.find( str , fmtObject )\r\n\tif first then\r\n\t\tlocal objName = string.sub( str , first , last-1 )\r\n\t\tcheckEnv[ objName ] = checkEnv[ objName ] or {}\r\n\t\tcheckEnv = checkEnv[ objName ]\r\n\t\t\r\n\t\tstr = string.sub( str , last+1)\r\n\t\tfunc = memberFunc\r\n\tend\r\n\r\n\tif type( checkEnv[str] ) ~= \"function\" then\r\n\t\terror( methodName..\"@METHOD is not exist , please check\" , 2 )\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "local str = methodName",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "local first , last = string.find( str , fmtModule )",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "local checkEnv = _G",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "while first do\r\n\t\tlocal moduleName = string.sub( str , first , last-1 )\r\n\t\tcheckEnv[ moduleName ] = checkEnv[ moduleName ] or {}\r\n\t\tcheckEnv = checkEnv[ moduleName ]\r\n\t\t\r\n\t\tstr = string.sub( str , last+1 )\r\n\t\tfirst , last = string.find( str , fmtModule )\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 18,
+    "text": "local moduleName = string.sub( str , first , last-1 )",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "checkEnv[ moduleName ] = checkEnv[ moduleName ] or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "checkEnv = checkEnv[ moduleName ]",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "str = string.sub( str , last+1 )",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "first , last = string.find( str , fmtModule )",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "first , last = string.find( str , fmtObject )",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "if first then\r\n\t\tlocal objName = string.sub( str , first , last-1 )\r\n\t\tcheckEnv[ objName ] = checkEnv[ objName ] or {}\r\n\t\tcheckEnv = checkEnv[ objName ]\r\n\t\t\r\n\t\tstr = string.sub( str , last+1)\r\n\t\tfunc = memberFunc\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "local objName = string.sub( str , first , last-1 )",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "checkEnv[ objName ] = checkEnv[ objName ] or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "checkEnv = checkEnv[ objName ]",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "str = string.sub( str , last+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "func = memberFunc",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "if type( checkEnv[str] ) ~= \"function\" then\r\n\t\terror( methodName..\"@METHOD is not exist , please check\" , 2 )\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "error( methodName..\"@METHOD is not exist , please check\" , 2 )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "local function createUnpolluteGEnv( env , moduleName )\r\n\treturn ( _G == env._G and ( _G[ moduleName ] ~= env[ moduleName ] and env[ moduleName ] or {} ) ) \r\n\t\t\tor env[ moduleName ] or {}\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 35,
+    "text": "local function buildMethodEnv( env , methodName , func , memberFunc )\r\n\tlocal str = methodName\r\n\t\t\r\n\tlocal first , last = string.find( str , fmtModule )\t\r\n\twhile first do\r\n\t\tlocal moduleName = string.sub( str , first , last-1 )\r\n\t\tenv[ moduleName ] = createUnpolluteGEnv( env , moduleName )\r\n\t\tenv = env[ moduleName ]\r\n\t\t\r\n\t\tstr = string.sub( str , last+1 )\r\n\t\tfirst , last = string.find( str , fmtModule )\r\n\tend\r\n\r\n\tfirst , last = string.find( str , fmtObject )\r\n\tif first then\r\n\t\tlocal objName = string.sub( str , first , last-1 )\r\n\t\tenv[ objName ] = createUnpolluteGEnv( env , objName )\r\n\t\tenv = env[ objName ]\r\n\t\tstr = string.sub( str , last+1)\r\n\r\n\t\tfunc = memberFunc\r\n\tend\r\n\r\n\tenv[str] = func\r\nend",
+    "type": "function"
+  }, {
+    "id": 36,
+    "text": "while first do\r\n\t\tlocal moduleName = string.sub( str , first , last-1 )\r\n\t\tenv[ moduleName ] = createUnpolluteGEnv( env , moduleName )\r\n\t\tenv = env[ moduleName ]\r\n\t\t\r\n\t\tstr = string.sub( str , last+1 )\r\n\t\tfirst , last = string.find( str , fmtModule )\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 37,
+    "text": "env[ moduleName ] = createUnpolluteGEnv( env , moduleName )",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "env = env[ moduleName ]",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "if first then\r\n\t\tlocal objName = string.sub( str , first , last-1 )\r\n\t\tenv[ objName ] = createUnpolluteGEnv( env , objName )\r\n\t\tenv = env[ objName ]\r\n\t\tstr = string.sub( str , last+1)\r\n\r\n\t\tfunc = memberFunc\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 40,
+    "text": "env[ objName ] = createUnpolluteGEnv( env , objName )",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "env = env[ objName ]",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "env[str] = func",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "function CMockEnv:method( methodName , check )\r\n\tif not self.m_methods[ methodName ] then\r\n\t\tself.m_methods[ methodName ] = CMockMethod.new( methodName )\r\n\t\tlocal method = self.m_methods[ methodName ]\r\n\r\n\t\tlocal function func( ... )\r\n\t\t\treturn method:call( ... )\r\n\t\tend\r\n\r\n\t\tlocal function memberFunc( obj , ... )\r\n\t\t\treturn method:call( ... )\r\n\t\tend\r\n\t\t\r\n\t\tif check then\r\n\t\t\tcheckMethodExist( methodName )\r\n\t\tend\r\n\t\tbuildMethodEnv( self.m_env , methodName , func , memberFunc )\r\n\tend\r\n\r\n\treturn self.m_methods[ methodName ]\r\nend",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "if not self.m_methods[ methodName ] then\r\n\t\tself.m_methods[ methodName ] = CMockMethod.new( methodName )\r\n\t\tlocal method = self.m_methods[ methodName ]\r\n\r\n\t\tlocal function func( ... )\r\n\t\t\treturn method:call( ... )\r\n\t\tend\r\n\r\n\t\tlocal function memberFunc( obj , ... )\r\n\t\t\treturn method:call( ... )\r\n\t\tend\r\n\t\t\r\n\t\tif check then\r\n\t\t\tcheckMethodExist( methodName )\r\n\t\tend\r\n\t\tbuildMethodEnv( self.m_env , methodName , func , memberFunc )\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 46,
+    "text": "self.m_methods[ methodName ] = CMockMethod.new( methodName )",
+    "type": "statement:assign"
+  }, {
+    "id": 47,
+    "text": "local method = self.m_methods[ methodName ]",
+    "type": "statement:localassign"
+  }, {
+    "id": 48,
+    "text": "local function func( ... )\r\n\t\t\treturn method:call( ... )\r\n\t\tend",
+    "type": "statement:localfunction"
+  }, {
+    "id": 49,
+    "text": "local function memberFunc( obj , ... )\r\n\t\t\treturn method:call( ... )\r\n\t\tend",
+    "type": "statement:localfunction"
+  }, {
+    "id": 50,
+    "text": "if check then\r\n\t\t\tcheckMethodExist( methodName )\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "checkMethodExist( methodName )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 52,
+    "text": "buildMethodEnv( self.m_env , methodName , func , memberFunc )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 54,
+    "text": "local function func( ... )\r\n\t\t\treturn method:call( ... )\r\n\t\tend",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 56,
+    "text": "local function memberFunc( obj , ... )\r\n\t\t\treturn method:call( ... )\r\n\t\tend",
+    "type": "function"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 58,
+    "text": "function CMockEnv:verify()\r\n\tlocal allRet = \"\"\r\n\tfor name , method in pairs( self.m_methods ) do\r\n\t\tlocal ret = method:verify()\r\n\t\tif ret then\r\n\t\t\tallRet = allRet..ret..\"\\n\"\r\n\t\tend\r\n\tend\r\n\tif string.len( allRet ) > 0 then\r\n\t\terror( allRet , 2 )\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 59,
+    "text": "local allRet = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 60,
+    "text": "for name , method in pairs( self.m_methods ) do\r\n\t\tlocal ret = method:verify()\r\n\t\tif ret then\r\n\t\t\tallRet = allRet..ret..\"\\n\"\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 61,
+    "text": "local ret = method:verify()",
+    "type": "statement:localassign"
+  }, {
+    "id": 62,
+    "text": "if ret then\r\n\t\t\tallRet = allRet..ret..\"\\n\"\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 63,
+    "text": "allRet = allRet..ret..\"\\n\"",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "if string.len( allRet ) > 0 then\r\n\t\terror( allRet , 2 )\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 65,
+    "text": "error( allRet , 2 )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 67,
+    "text": "function CMockEnv:run( testee , ... )\r\n\tlocal oldEnv = getfenv( testee )\r\n\tsetfenv( testee , self.m_env )\r\n\tlocal ret = { testee( ... ) }\r\n\tsetfenv( testee , oldEnv )\r\n\treturn unpack( ret )\r\nend",
+    "type": "function"
+  }, {
+    "id": 68,
+    "text": "local oldEnv = getfenv( testee )",
+    "type": "statement:localassign"
+  }, {
+    "id": 69,
+    "text": "setfenv( testee , self.m_env )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 70,
+    "text": "local ret = { testee( ... ) }",
+    "type": "statement:localassign"
+  }, {
+    "id": 71,
+    "text": "setfenv( testee , oldEnv )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 74,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 75,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 76,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 77,
+    "text": "setfenv",
+    "type": "global function"
+  }, {
+    "id": 78,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 79,
+    "text": "testee",
+    "type": "global function"
+  }, {
+    "id": 80,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 81,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 82,
+    "text": "getfenv",
+    "type": "global function"
+  }, {
+    "id": 83,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 84,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 85,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 86,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 87,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 90,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

@@ -1,0 +1,197 @@
+{
+  "_filename": "pristine.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-memoryfile/test/pristine.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "requires",
+    "to": 13
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 18
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "pristine",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function test_no_global_clobbering ()\r\n    local globals = {}\r\n    for key in pairs(_G) do globals[key] = true end\r\n\r\n    local lib = require \"memoryfile\"\r\n\r\n    for key in pairs(_G) do\r\n        lunit.assert_not_nil(globals[key],\r\n                             \"global '\" .. key .. \"' created by lib\")\r\n    end\r\n    for key in pairs(globals) do\r\n        lunit.assert_not_nil(_G[key],\r\n                             \"global '\" .. key .. \"' destroyed by lib\")\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local globals = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "for key in pairs(_G) do globals[key] = true end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 5,
+    "text": "globals[key] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "local lib = require \"memoryfile\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "for key in pairs(_G) do\r\n        lunit.assert_not_nil(globals[key],\r\n                             \"global '\" .. key .. \"' created by lib\")\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 8,
+    "text": "lunit.assert_not_nil(globals[key],\r\n                             \"global '\" .. key .. \"' created by lib\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "for key in pairs(globals) do\r\n        lunit.assert_not_nil(_G[key],\r\n                             \"global '\" .. key .. \"' destroyed by lib\")\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 10,
+    "text": "lunit.assert_not_nil(_G[key],\r\n                             \"global '\" .. key .. \"' destroyed by lib\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "memoryfile",
+    "type": "module"
+  }, {
+    "id": 14,
+    "text": "assert_not_nil",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

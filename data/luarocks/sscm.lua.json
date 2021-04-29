@@ -1,0 +1,313 @@
+{
+  "_filename": "sscm.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/fetch/sscm.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "requires",
+    "to": 30
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "requires",
+    "to": 29
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "sscm",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function base_name(pathname)\r\n   assert(type(pathname) == \"string\")\r\n\r\n   local base = pathname:gsub(\"[/\\\\]*$\", \"\"):match(\".*[/\\\\]([^/\\\\]*)\")\r\n   return base or pathname\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function get_sources(rockspec, extract, dest_dir)\r\n   assert(type(rockspec) == \"table\")\r\n   assert(type(dest_dir) == \"string\" or not dest_dir)\r\n\r\n   local sscm_cmd = rockspec.variables.SSCM\r\n   local module = rockspec.source.module or dir.base_name(rockspec.source.url)\r\n   local branch, repository = string.match(rockspec.source.pathname, \"^([^/]*)/(.*)\")\r\n   if not branch or not repository then\r\n      return nil, \"Error retrieving branch and repository from rockspec.\"\r\n   end\r\n   -- Search for working directory.\r\n   local working_dir\r\n   local tmp = io.popen(string.format(sscm_cmd..[[ property \"/\" -d -b%s -p%s]], branch, repository))\r\n   for line in tmp:lines() do\r\n      --%c because a chr(13) comes in the end.\r\n      working_dir = string.match(line, \"Working directory:[%s]*(.*)%c$\")\r\n      if working_dir then break end\r\n   end\r\n   tmp:close()\r\n   if not working_dir then\r\n      return nil, \"Error retrieving working directory from SSCM.\"\r\n   end\r\n   if not fs.execute(sscm_cmd, \"get\", \"*\", \"-e\" , \"-r\", \"-b\"..branch, \"-p\"..repository, \"-tmodify\", \"-wreplace\") then\r\n      return nil, \"Failed fetching files from SSCM.\"\r\n   end\r\n   -- FIXME: This function does not honor the dest_dir parameter.\r\n   return module, working_dir\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "assert(type(rockspec) == \"table\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "assert(type(dest_dir) == \"string\" or not dest_dir)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "local sscm_cmd = rockspec.variables.SSCM",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local module = rockspec.source.module or dir.base_name(rockspec.source.url)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local branch, repository = string.match(rockspec.source.pathname, \"^([^/]*)/(.*)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "if not branch or not repository then\r\n      return nil, \"Error retrieving branch and repository from rockspec.\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 11,
+    "text": "local working_dir",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local tmp = io.popen(string.format(sscm_cmd..[[ property \"/\" -d -b%s -p%s]], branch, repository))",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "for line in tmp:lines() do\r\n      --%c because a chr(13) comes in the end.\r\n      working_dir = string.match(line, \"Working directory:[%s]*(.*)%c$\")\r\n      if working_dir then break end\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 14,
+    "text": "working_dir = string.match(line, \"Working directory:[%s]*(.*)%c$\")",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "if working_dir then break end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "tmp:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "if not working_dir then\r\n      return nil, \"Error retrieving working directory from SSCM.\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "if not fs.execute(sscm_cmd, \"get\", \"*\", \"-e\" , \"-r\", \"-b\"..branch, \"-p\"..repository, \"-tmodify\", \"-wreplace\") then\r\n      return nil, \"Failed fetching files from SSCM.\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 21,
+    "text": "function execute(command, ...)\r\n   assert(type(command) == \"string\")\r\n   return fs.execute_string(quote_args(command, ...))\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "popen",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "dir)",
+    "type": "module"
+  }, {
+    "id": 30,
+    "text": "fs)",
+    "type": "module"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

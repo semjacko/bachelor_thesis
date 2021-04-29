@@ -1,0 +1,341 @@
+{
+  "_filename": "animal.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/penlight/tests/lua/animal.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 33,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "class",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "utils",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "animal",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function Animal:_init(name)\r\n   self.name = name\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "self.name = name",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function Animal:__tostring()\r\n    return self.name..': '..self:speak()\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function Dog:speak()\r\n    return 'bark'\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function Cat:_init(name,breed)\r\n   self:super(name)  -- must init base!\r\n   self.breed = breed\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "self:super(name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "self.breed = breed",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function Cat:speak()\r\n    return 'meow'\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function(self)\r\n        return 'roar'\r\n    end",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function() error(\"no such method \"..name,2) end",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "error(\"no such method \"..name,2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "function(self,name)\r\n    return function() error(\"no such method \"..name,2) end\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 25,
+    "text": "Animal",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "Cat",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "Dog",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "Lion",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

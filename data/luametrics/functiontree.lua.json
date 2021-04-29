@@ -1,0 +1,333 @@
+{
+  "_filename": "functiontree.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luametrics/src/metrics/captures/functiontree.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "functiontree",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "utils",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function(node)\r\n\t\r\n\t\r\n\t\tlocal topmetrics = node.metrics\r\n\t\ttopmetrics.functiontree = {}\r\n\t\r\n\t\tlocal block = utils.searchForTagItem_recursive('Block', node, 2)\r\n\t\t\r\n\t\tfor _,fun in pairs(block.metrics.blockdata.fundefs) do\r\n\t\t\t\r\n\t\t\t-- all declared functions\r\n\t\t\tif (fun.metrics.functiontree == nil) then fun.metrics.functiontree = {} end\r\n\t\t\tlocal block = utils.searchForTagItem_recursive('Block', fun, 2)\r\n\t\t\t\r\n\t\t\t-- go upwards in AST tree and insert itself into functiontree variables of parent function\r\n\t\t\t\t\r\n\t\t\tlocal parent = fun.parent\r\n\t\t\t\t\r\n\t\t\twhile (parent ~= nil) do\r\n\t\t\t\t\t\r\n\t\t\t\tif ((parent.tag == 'GlobalFunction' or parent.tag == 'LocalFunction' or parent.tag == 'Function') and parent.name ~= nil) then\r\n\t\t\t\t\tif (parent.metrics.functiontree == nil) then parent.metrics.functiontree = {} end\r\n\t\t\t\t\ttable.insert(parent.metrics.functiontree, fun)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\t\t\t\r\n\t\t\t\tparent = parent.parent\r\n\t\t\tend\r\n\t\t\t\t\r\n\t\t\t-- no parent function - insert itself into topmetrics - metrics of the topmost node\t\r\n\t\t\tif (parent == nil) then\r\n\t\t\t\ttable.insert(topmetrics.functiontree, fun)\r\n\t\t\tend\r\n\t\t\t\r\n\t\tend\t\t\r\n\t\t\r\n\t\treturn node\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local topmetrics = node.metrics",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "topmetrics.functiontree = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "local block = utils.searchForTagItem_recursive('Block', node, 2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "for _,fun in pairs(block.metrics.blockdata.fundefs) do\r\n\t\t\t\r\n\t\t\t-- all declared functions\r\n\t\t\tif (fun.metrics.functiontree == nil) then fun.metrics.functiontree = {} end\r\n\t\t\tlocal block = utils.searchForTagItem_recursive('Block', fun, 2)\r\n\t\t\t\r\n\t\t\t-- go upwards in AST tree and insert itself into functiontree variables of parent function\r\n\t\t\t\t\r\n\t\t\tlocal parent = fun.parent\r\n\t\t\t\t\r\n\t\t\twhile (parent ~= nil) do\r\n\t\t\t\t\t\r\n\t\t\t\tif ((parent.tag == 'GlobalFunction' or parent.tag == 'LocalFunction' or parent.tag == 'Function') and parent.name ~= nil) then\r\n\t\t\t\t\tif (parent.metrics.functiontree == nil) then parent.metrics.functiontree = {} end\r\n\t\t\t\t\ttable.insert(parent.metrics.functiontree, fun)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\t\t\t\r\n\t\t\t\tparent = parent.parent\r\n\t\t\tend\r\n\t\t\t\t\r\n\t\t\t-- no parent function - insert itself into topmetrics - metrics of the topmost node\t\r\n\t\t\tif (parent == nil) then\r\n\t\t\t\ttable.insert(topmetrics.functiontree, fun)\r\n\t\t\tend\r\n\t\t\t\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 8,
+    "text": "if (fun.metrics.functiontree == nil) then fun.metrics.functiontree = {} end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "fun.metrics.functiontree = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "local block = utils.searchForTagItem_recursive('Block', fun, 2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local parent = fun.parent",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "while (parent ~= nil) do\r\n\t\t\t\t\t\r\n\t\t\t\tif ((parent.tag == 'GlobalFunction' or parent.tag == 'LocalFunction' or parent.tag == 'Function') and parent.name ~= nil) then\r\n\t\t\t\t\tif (parent.metrics.functiontree == nil) then parent.metrics.functiontree = {} end\r\n\t\t\t\t\ttable.insert(parent.metrics.functiontree, fun)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\t\t\t\r\n\t\t\t\tparent = parent.parent\r\n\t\t\tend",
+    "type": "statement:while"
+  }, {
+    "id": 13,
+    "text": "if ((parent.tag == 'GlobalFunction' or parent.tag == 'LocalFunction' or parent.tag == 'Function') and parent.name ~= nil) then\r\n\t\t\t\t\tif (parent.metrics.functiontree == nil) then parent.metrics.functiontree = {} end\r\n\t\t\t\t\ttable.insert(parent.metrics.functiontree, fun)\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "if (parent.metrics.functiontree == nil) then parent.metrics.functiontree = {} end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "parent.metrics.functiontree = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "table.insert(parent.metrics.functiontree, fun)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "parent = parent.parent",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "if (parent == nil) then\r\n\t\t\t\ttable.insert(topmetrics.functiontree, fun)\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "table.insert(topmetrics.functiontree, fun)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 23,
+    "text": "function searchForTagItem_recursive(tagname, node, maxdepth)\r\n\tif (node == nil) then return nil end\r\n\tlocal j,l\r\n\tif (maxdepth ~= nil) then maxdepth = maxdepth -1 end\r\n\tfor j,l in pairs(node.data) do\r\n\t\tif (l.tag == tagname) then\r\n\t\t\treturn l\r\n\t\telseif (l.data ~= nil) then\r\n\t\t\tif (maxdepth == nil or maxdepth > 0) then\r\n\t\t\t\tlocal tmp = searchForTagItem_recursive(tagname, l, maxdepth)\r\n\t\t\t\tif (tmp ~= nil) then return tmp end\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\treturn nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

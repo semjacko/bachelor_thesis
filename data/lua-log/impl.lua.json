@@ -1,0 +1,1429 @@
+{
+  "_filename": "impl.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-log/lua/log/writer/net/zmq/_private/impl.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 35
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 39
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 43
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 85
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 85
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 84
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 71,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 90
+  }, {
+    "from": 71,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 71,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 54
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 71
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 79
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 81
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 82
+  }, {
+    "from": 105,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 111
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 112
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 113
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 114
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 115
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 116
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 117
+  }, {
+    "from": 112,
+    "label": "initializes",
+    "to": 118
+  }, {
+    "from": 112,
+    "label": "initializes",
+    "to": 119
+  }, {
+    "from": 112,
+    "label": "initializes",
+    "to": 120
+  }, {
+    "from": 112,
+    "label": "initializes",
+    "to": 121
+  }, {
+    "from": 112,
+    "label": "initializes",
+    "to": 122
+  }, {
+    "from": 112,
+    "label": "initializes",
+    "to": 92
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 123
+  }, {
+    "from": 123,
+    "label": "provides",
+    "to": 124
+  }, {
+    "from": 127,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 132,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 135
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 136
+  }, {
+    "from": 135,
+    "label": "initializes",
+    "to": 137
+  }, {
+    "from": 137,
+    "label": "assigns",
+    "to": 138
+  }, {
+    "from": 135,
+    "label": "initializes",
+    "to": 139
+  }, {
+    "from": 139,
+    "label": "assigns",
+    "to": 140
+  }, {
+    "from": 135,
+    "label": "initializes",
+    "to": 141
+  }, {
+    "from": 141,
+    "label": "assigns",
+    "to": 142
+  }, {
+    "from": 135,
+    "label": "initializes",
+    "to": 143
+  }, {
+    "from": 143,
+    "label": "assigns",
+    "to": 144
+  }, {
+    "from": 135,
+    "label": "initializes",
+    "to": 145
+  }, {
+    "from": 145,
+    "label": "assigns",
+    "to": 146
+  }, {
+    "from": 135,
+    "label": "initializes",
+    "to": 147
+  }, {
+    "from": 147,
+    "label": "assigns",
+    "to": 148
+  }, {
+    "from": 135,
+    "label": "initializes",
+    "to": 149
+  }, {
+    "from": 149,
+    "label": "assigns",
+    "to": 150
+  }, {
+    "from": 135,
+    "label": "initializes",
+    "to": 151
+  }, {
+    "from": 136,
+    "label": "initializes",
+    "to": 152
+  }, {
+    "from": 152,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 136,
+    "label": "initializes",
+    "to": 153
+  }, {
+    "from": 153,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 154
+  }, {
+    "from": 83,
+    "label": "represents",
+    "to": 155
+  }, {
+    "from": 154,
+    "label": "provides",
+    "to": 155
+  }, {
+    "from": 93,
+    "label": "represents",
+    "to": 156
+  }, {
+    "from": 154,
+    "label": "provides",
+    "to": 156
+  }, {
+    "from": 160,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 94,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 95,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 96,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 97,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 98,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 99,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 100,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 101,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 102,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 103,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 104,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 106,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 107,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 108,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 109,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 110,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 125,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 126,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 128,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 129,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 130,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 131,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 133,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 134,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 157,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 158,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 159,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 68,
+    "label": "hasArgument",
+    "to": 81
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "compat",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "impl",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "log",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "local function create_server(ctx, addr, maker, logformat)\r\n  if ctx and not Z.is_ctx(ctx) then\r\n    ctx, addr, maker, logformat = nil, ctx, addr, maker\r\n  end\r\n  logformat = logformat or \"log.logformat.default\"\r\n\r\n  ctx = IMPL.context(ctx)\r\n\r\n  if maker then\r\n    local addr_sync = 'inproc://' .. rand_str(15)\r\n    local skt_sync = zassert(ctx:socket(zmq.PAIR))\r\n    zassert(skt_sync:bind(addr_sync))\r\n    server.zrun(\r\n      \"log.writer.net.server.zmq\", maker, logformat, ctx, \r\n      false, 'PULL', addr, addr_sync\r\n    )\r\n    zassert(skt_sync:recv())\r\n    skt_sync:close()\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local function remove_dir_end(str)\r\n  return (string.gsub(str, '[\\\\/]+$', ''))\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "local function ensure_dir_end(str)\r\n  return remove_dir_end(str) .. DIR_SEP\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local function path_normolize_sep(P)\r\n  return (string.gsub(P, '\\\\', DIR_SEP):gsub('/', DIR_SEP))\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local function path_fullpath(P)\r\n  P = path_normolize_sep(P)\r\n  local ch1, ch2 = P:sub(1,1), P:sub(2,2)\r\n  if IS_WINDOWS then\r\n    if ch1 == DIR_SEP then         -- \\temp => c:\\temp\r\n      local cwd = lfs.currentdir()\r\n      local disk = cwd:sub(1,2)\r\n      P = disk .. P\r\n    elseif ch1 == '~' then         -- ~\\temp\r\n      local base = os.getenv('USERPROFILE') or (os.getenv('HOMEDRIVE') .. os.getenv('HOMEPATH'))\r\n      P = ((ch2 == DIR_SEP) and remove_dir_end(base) or ensure_dir_end(base)) .. string.sub(P,2)\r\n    elseif ch2 ~= ':' then\r\n      P = ensure_dir_end(lfs.currentdir()) .. P\r\n    end\r\n  else\r\n    if ch1 == '~' then         -- ~/temp\r\n      local base = os.getenv('HOME')\r\n      P = ((ch2 == DIR_SEP) and remove_dir_end(base) or ensure_dir_end(base)) .. string.sub(P,2)\r\n    else\r\n      if P:sub(1,1) ~= '/' then\r\n        P = ensure_dir_end(lfs.currentdir()) .. P\r\n      end\r\n    end\r\n  end\r\n\r\n  P = string.gsub(P, DIR_SEP .. '%.' .. DIR_SEP, DIR_SEP):gsub(DIR_SEP .. DIR_SEP, DIR_SEP)\r\n  while true do\r\n    local first, last = string.find(P, DIR_SEP .. \"[^\".. DIR_SEP .. \"]+\" .. DIR_SEP .. '%.%.' .. DIR_SEP)\r\n    if not first then break end\r\n    P = string.sub(P, 1, first) .. string.sub(P, last+1)\r\n  end\r\n\r\n  return P\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local function attrib(P, ...)\r\n  if IS_WINDOWS then\r\n    if #P < 4 and P:sub(2,2) == ':' then\r\n      P = ensure_dir_end(P) -- c: => c:\\\r\n    else\r\n      P = remove_dir_end(P) -- c:\\temp\\ => c:\\temp\r\n    end\r\n  end\r\n  return lfs.attributes(P, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local function path_exists(P)\r\n  return attrib(P,'mode') ~= nil and P\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local function path_isdir(P)\r\n  return attrib(P,'mode') == 'directory' and P\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "local function path_mkdir(P)\r\n  local P = path_fullpath(P)\r\n  local p = ''\r\n\r\n  for str in string.gmatch(ensure_dir_end(P), '.-' .. DIR_SEP) do\r\n    p = p .. str\r\n    if path_exists(p) then\r\n      if not path_isdir(p) then\r\n        return nil, 'can not create ' .. p\r\n      end\r\n    else\r\n      local ok, err = lfs.mkdir(remove_dir_end(p))\r\n      if not ok then return nil, err .. ' ' .. p end\r\n    end\r\n  end\r\n\r\n  return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "local function path_getctime(P)\r\n  return attrib(P,'change')\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "local function path_getmtime(P)\r\n  return attrib(P,'modification')\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "local function path_getatime(P)\r\n  return attrib(P,'access')\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "local function path_getsize(P)\r\n  return attrib(P, 'size')\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "local function path_getrows(P)\r\n  local f, err = io.open(P, \"r\")\r\n  if not f then return 0 end\r\n  local count = 0\r\n  for _ in f:lines() do count = count + 1 end\r\n  f:close()\r\n  return count\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "local function path_remove(P)\r\n  return os.remove(P)\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "local function path_rename(from,to)\r\n  path_remove(to)\r\n  return os.rename(from, to)\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "local function reset_out(FileName, rewrite)\r\n  local END_OF_LINE  = '\\n'\r\n  local FILE_APPEND  = 'a'\r\n\r\n  if rewrite then\r\n    local FILE_REWRITE = 'w+'\r\n    local f, err = io.open(FileName , FILE_REWRITE);\r\n    if not f then return nil, err end\r\n    f:close();\r\n  end\r\n\r\n  return function (msg)\r\n    local f, err = io.open(FileName, FILE_APPEND)\r\n    if not f then return nil, err end\r\n    f:write(msg, END_OF_LINE)\r\n    f:close()\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "local function make_no_close_reset(flush_interval)\r\n  return function (FileName, rewrite)\r\n    local END_OF_LINE  = '\\n'\r\n    local FILE_APPEND  = 'a'\r\n\r\n    if rewrite then\r\n      local FILE_REWRITE = 'w+'\r\n      local f, err = io.open(FileName, FILE_REWRITE);\r\n      if not f then return nil, err end\r\n      f:close()\r\n    end\r\n\r\n    local f, err = io.open(FileName, FILE_APPEND);\r\n    if not f then return nil, err end\r\n\r\n    local writer\r\n    if flush_interval then\r\n      local flush_interval, counter = flush_interval, 0\r\n      writer = function (msg)\r\n        f:write(msg, END_OF_LINE)\r\n        counter = counter + 1\r\n        if counter > flush_interval then\r\n          f:flush()\r\n          counter = 0\r\n        end\r\n      end\r\n    else\r\n      writer = function (msg) f:write(msg, END_OF_LINE) end\r\n    end\r\n    return writer, function() f:close() end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "function (msg)\r\n        f:write(msg, END_OF_LINE)\r\n        counter = counter + 1\r\n        if counter > flush_interval then\r\n          f:flush()\r\n          counter = 0\r\n        end\r\n      end",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "function (msg) f:write(msg, END_OF_LINE) end",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "local function split_ext(fname)\r\n  local s1, s2 = string.match(fname, '([^\\\\/]*)([.][^.\\\\/]*)$')\r\n  if s1 then return s1, s2 end\r\n  s1 = string.match(fname, '([^\\\\/]+)$')\r\n  if s1 then return s1, '' end\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "local function assert_2(f1, f2, v1, v2)\r\n  assert(f1 == v1, string.format( \"Expected '%s' got '%s'\", tostring(f1), tostring(v1)))\r\n  assert(f2 == v2, string.format( \"Expected '%s' got '%s'\", tostring(f2), tostring(v2)))\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "local function get_file_date(fname)\r\n  local mdate = path_getmtime(fname)\r\n  if mdate then\r\n    mdate = date(mdate):tolocal()\r\n  else\r\n    mdate = date()\r\n  end\r\n  return mdate:fmt(FILE_LOG_DATE_FMT)\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "function file_logger:close()\r\n  if self.private_.logger and self.private_.logger_close then\r\n    self.private_.logger_close()\r\n  end\r\n  self.private_.logger = nil\r\n  self.private_.logger_close = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "function file_logger:open()\r\n  local full_name = self:current_name()\r\n\r\n  local logger, err = self.private_.reset_out(full_name)\r\n  if not logger then\r\n    return nil, string.format(\"can not create logger for file '%s':\", full_name, err)\r\n  end\r\n\r\n  self.private_.logger       = logger\r\n  self.private_.logger_close = err\r\n  self.private_.log_date     = os.date(FILE_LOG_DATE_FMT)\r\n  self.private_.log_rows     = 0\r\n  self.private_.log_size     = 0\r\n\r\n  return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "function file_logger:current_name()\r\n  return self.private_.log_dir .. self.private_.log_name\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "function file_logger:archive_roll_name(i)\r\n  return self.private_.log_dir .. string.format(\"%s.%.5d.log\", self.private_.arc_pfx, i)\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "function file_logger:archive_date_name(d, i)\r\n  return self.private_.log_dir .. string.format(\"%s.%s.%.5d.log\", self.private_.arc_pfx, d, i)\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "function file_logger:reset_log_by_roll()\r\n  self:close()\r\n\r\n  local full_name  = self:current_name()\r\n  local first_name = self:archive_roll_name(1)\r\n\r\n  -- we must \"free\" space for current file\r\n  if path_exists(first_name) then\r\n    for i = self.private_.roll_count - 1, 1, -1 do\r\n      local fname1 = self:archive_roll_name(i)\r\n      local fname2 = self:archive_roll_name(i + 1)\r\n      path_rename(fname1, fname2)\r\n    end\r\n  end\r\n\r\n  if path_exists(full_name) then\r\n    local ok, err = path_rename(full_name, first_name)\r\n    if not ok then\r\n      return nil, string.format(\"can not rename '%s' to '%s' : %s\", full_name, first_name, err or '')\r\n    end\r\n  end\r\n\r\n  return self:open()\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "function file_logger:next_date_name(log_date)\r\n  local id = self.private_.id\r\n\r\n  local fname = self:archive_date_name(log_date, id)\r\n  while path_exists(fname) do\r\n    id = id + 1\r\n    fname = self:archive_date_name(log_date, id)\r\n  end\r\n\r\n  self.private_.id = id\r\n  return fname\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "function file_logger:reset_log_by_date(log_date)\r\n  self:close()\r\n\r\n  local full_name = self:current_name()\r\n  if path_exists(full_name) then -- previews file\r\n    log_date = log_date or get_file_date(full_name)\r\n    local next_fname = self:next_date_name(log_date)\r\n    local ok, err = path_rename(full_name, next_fname)\r\n    if not ok then\r\n      return nil, string.format(\"can not rename '%s' to '%s' : \", full_name, next_fname, err or '')\r\n    end\r\n  end\r\n\r\n  return self:open()\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "function file_logger:reset_log(...)\r\n  if self.private_.roll_count then\r\n    return self:reset_log_by_roll(...)\r\n  end\r\n  return self:reset_log_by_date(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 36,
+    "text": "function file_logger:check()\r\n  if self.private_.by_day then\r\n    local now = os.date(FILE_LOG_DATE_FMT)\r\n    if self.private_.log_date ~= now then\r\n      local ok, err = self:reset_log_by_date(self.private_.log_date)\r\n      self.private_.id = 1\r\n      return ok, err\r\n    end\r\n  end\r\n\r\n  if self.private_.max_rows and (self.private_.log_rows >= self.private_.max_rows) then\r\n    return self:reset_log()\r\n  end\r\n\r\n  if self.private_.max_size and (self.private_.log_size >= self.private_.max_size) then\r\n    return self:reset_log()\r\n  end\r\n\r\n  return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "function file_logger:write(msg)\r\n  local ok, err = self:check()\r\n  if not ok then\r\n    io.stderr:write(\"logger error: \", err, '\\n')\r\n    return\r\n  end\r\n\r\n  self.private_.logger(msg)\r\n  self.private_.log_rows = self.private_.log_rows + 1\r\n  self.private_.log_size = self.private_.log_size + #msg + EOL_SIZE\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "function file_logger:init(opt)\r\n\r\n  if(opt.by_day or opt.roll_count)then\r\n    assert(not(opt.by_day and opt.roll_count),\r\n      \"Can not set 'by_day' and 'roll_count' fields at the same time!\"\r\n    )\r\n  end\r\n  assert(opt.log_name, 'field log_name is required')\r\n\r\n  local log_dir = path_fullpath(opt.log_dir or '.')\r\n\r\n  if path_exists(log_dir) then assert(path_isdir(log_dir))\r\n  else assert(path_mkdir(log_dir)) end\r\n\r\n  local log_name, log_ext = string.match(opt.log_name, '([^\\\\/]+)([.][^.\\\\/]+)$')\r\n  assert(log_name and log_ext)\r\n\r\n  log_dir = ensure_dir_end( log_dir )\r\n  local full_name = log_dir .. log_name .. log_ext\r\n  local current_size = path_getsize(full_name)\r\n  if 0 == current_size then\r\n    -- prevent rename zero size logfile\r\n    path_remove(full_name)\r\n  end\r\n\r\n  local flush_interval = opt.flush_interval and assert(tonumber(opt.flush_interval), 'flush_interval must be a number') or 1\r\n  self.private_ = {\r\n    -- options\r\n    log_dir    = log_dir;\r\n    log_name   = log_name .. log_ext;\r\n    max_rows   = opt.max_rows or math.huge;\r\n    max_size   = opt.max_size or math.huge;\r\n    reset_out  = opt.close_file and reset_out or make_no_close_reset(flush_interval);\r\n    arc_pfx    = opt.archive_prefix or log_name;\r\n    roll_count = opt.roll_count and assert(tonumber(opt.roll_count), 'roll_count must be a number');\r\n    by_day     = not not opt.by_day;\r\n\r\n    -- state\r\n    -- log_date = ;  -- date when current log file was create\r\n    -- log_rows = 0; -- how many lines in current log file\r\n    -- log_size = 0;\r\n    id       = 1;  -- numbers of file in current log_date\r\n  }\r\n  if self.private_.roll_count then\r\n    assert(self.private_.roll_count > 0)\r\n  end\r\n\r\n  local reuse_log = opt.reuse\r\n\r\n  if reuse_log and current_size and (current_size > 0) then\r\n    self.private_.log_date = get_file_date(full_name)\r\n\r\n    if opt.max_rows then\r\n      self.private_.log_rows = path_getrows(full_name) or 0\r\n    else\r\n      self.private_.log_rows = 0\r\n    end\r\n\r\n    if opt.max_size then\r\n      self.private_.log_size = path_getsize(full_name) or 0\r\n    else\r\n      self.private_.log_size = 0\r\n    end\r\n\r\n    local logger, err = self.private_.reset_out(full_name)\r\n    if not logger then\r\n      error(string.format(\"can not create logger for file '%s':\", full_name, err))\r\n    end\r\n\r\n    self.private_.logger       = logger\r\n    self.private_.logger_close = err\r\n\r\n  else\r\n    assert(self:reset_log())\r\n  end\r\n\r\n  return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "function file_logger:new(...)\r\n  return setmetatable({}, {__index = self}):init(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 40,
+    "text": "local function do_profile()\r\n  require \"profiler\".start()\r\n\r\n  local logger = file_logger:new{\r\n    log_dir        = './logs';\r\n    log_name       = \"events.log\";\r\n    max_rows       = 1000;\r\n    max_size       = 70;\r\n    roll_count     = 11;\r\n    -- by_day         = true;\r\n    close_file     = false;\r\n    flush_interval = 1;\r\n    reuse          = true\r\n  }\r\n\r\n  for i = 1, 10000 do\r\n    local msg = string.format(\"%5d\", i)\r\n    logger:write(msg)\r\n  end\r\n\r\n  logger:close()\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "function (msg)\r\n    local f, err = io.open(FileName, FILE_APPEND)\r\n    if not f then return nil, err end\r\n    f:write(msg, END_OF_LINE)\r\n    f:close()\r\n  end",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "function() f:close() end",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "function (FileName, rewrite)\r\n    local END_OF_LINE  = '\\n'\r\n    local FILE_APPEND  = 'a'\r\n\r\n    if rewrite then\r\n      local FILE_REWRITE = 'w+'\r\n      local f, err = io.open(FileName, FILE_REWRITE);\r\n      if not f then return nil, err end\r\n      f:close()\r\n    end\r\n\r\n    local f, err = io.open(FileName, FILE_APPEND);\r\n    if not f then return nil, err end\r\n\r\n    local writer\r\n    if flush_interval then\r\n      local flush_interval, counter = flush_interval, 0\r\n      writer = function (msg)\r\n        f:write(msg, END_OF_LINE)\r\n        counter = counter + 1\r\n        if counter > flush_interval then\r\n          f:flush()\r\n          counter = 0\r\n        end\r\n      end\r\n    else\r\n      writer = function (msg) f:write(msg, END_OF_LINE) end\r\n    end\r\n    return writer, function() f:close() end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 45,
+    "text": "function _M.run(writer, logformat, ctx, stype, address, addr_sync)\r\n  -- print(writer, logformat, ctx, stype, address, addr_sync)\r\n  local stypes = {\r\n    SUB  = zmq.SUB;\r\n    PULL = zmq.PULL;\r\n  }\r\n  stype = assert(stypes[stype], 'Unsupported socket type')\r\n\r\n  ctx = IMPL.context(ctx)\r\n\r\n  local skt = zassert(ctx:socket(stype))\r\n  zassert(skt:bind(address))\r\n\r\n  if addr_sync then\r\n    local skt_sync = zassert(ctx:socket(zmq.PAIR))\r\n    zassert(skt_sync:connect(addr_sync))\r\n    skt_sync:send(\"\")\r\n    skt_sync:close()\r\n  end\r\n\r\n  local unpack = log_packer.unpack\r\n\r\n  while(true)do\r\n    local msg, err = zrecv(skt)\r\n    if msg then \r\n      local msg, lvl, now = unpack(msg)\r\n      if msg and lvl and now then writer(logformat, msg, lvl, now) end\r\n    else\r\n      if zerrcode(err) == ETERM then break end\r\n      io.stderr:write('log.writer.net.zmq.server: ', tostring(err), zstrerror(err))\r\n    end\r\n  end\r\n\r\n  skt:close()\r\nend",
+    "type": "function"
+  }, {
+    "id": 46,
+    "text": "local function is_ctx(ctx)\r\n  local tname = type(ctx)\r\n  if (tname ~= 'table') and (tname ~= 'userdata') then\r\n    return false\r\n  end\r\n  return has_member(ctx, {\r\n    'socket', 'term'\r\n  })\r\nend",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "local function context(ctx)\r\n  -- we have to use same context for all writers\r\n  if ctx and log_ctx then assert(ctx == log_ctx) end\r\n\r\n  if log_ctx then return log_ctx end\r\n\r\n  log_ctx = ctx or (zthreads and zthreads.get_parent_ctx()) or zassert(zmq.init(1))\r\n\r\n  return log_ctx\r\nend",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "if ctx and log_ctx then assert(ctx == log_ctx) end",
+    "type": "statement:if"
+  }, {
+    "id": 49,
+    "text": "assert(ctx == log_ctx)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 50,
+    "text": "if log_ctx then return log_ctx end",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 52,
+    "text": "log_ctx = ctx or (zthreads and zthreads.get_parent_ctx()) or zassert(zmq.init(1))",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 54,
+    "text": "local function socket(ctx, stype, is_srv, addr, timeout)\r\n  local stypes = {\r\n    PUSH = zmq.PUSH;\r\n    PUB  = zmq.PUB;\r\n  }\r\n  stype = assert(stypes[stype], 'Unsupported socket type')\r\n  timeout = timeout or 100\r\n  ctx = context(ctx)\r\n\r\n  local skt = ctx:socket(stype)\r\n  if ctx.autoclose then ctx:autoclose(skt) end\r\n  skt:set_sndtimeo(timeout)\r\n  skt:set_linger(timeout)\r\n  if is_srv then zassert(zbind(skt, addr)) \r\n  else zassert(zconnect(skt, addr)) end\r\n  if not ctx.autoclose then\r\n    Log.add_cleanup(function() skt:close() end)\r\n  end\r\n  return skt\r\nend",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "local stypes = {\r\n    PUSH = zmq.PUSH;\r\n    PUB  = zmq.PUB;\r\n  }",
+    "type": "statement:localassign"
+  }, {
+    "id": 56,
+    "text": "stype = assert(stypes[stype], 'Unsupported socket type')",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "timeout = timeout or 100",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "ctx = context(ctx)",
+    "type": "statement:assign"
+  }, {
+    "id": 59,
+    "text": "local skt = ctx:socket(stype)",
+    "type": "statement:localassign"
+  }, {
+    "id": 60,
+    "text": "if ctx.autoclose then ctx:autoclose(skt) end",
+    "type": "statement:if"
+  }, {
+    "id": 61,
+    "text": "ctx:autoclose(skt)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 62,
+    "text": "skt:set_sndtimeo(timeout)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 63,
+    "text": "skt:set_linger(timeout)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 64,
+    "text": "if is_srv then zassert(zbind(skt, addr)) \r\n  else zassert(zconnect(skt, addr)) end",
+    "type": "statement:if"
+  }, {
+    "id": 65,
+    "text": "zassert(zbind(skt, addr))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 66,
+    "text": "zassert(zconnect(skt, addr))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 67,
+    "text": "if not ctx.autoclose then\r\n    Log.add_cleanup(function() skt:close() end)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 68,
+    "text": "Log.add_cleanup(function() skt:close() end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 69,
+    "text": "skt:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 71,
+    "text": "local function init(stype, is_srv)\r\n  local M = {}\r\n\r\n  function M.new(ctx, addr, timeout) \r\n    if ctx and not Z.is_ctx(ctx) then\r\n      ctx, addr, timeout = nil, ctx, addr\r\n    end\r\n\r\n    local skt = socket(ctx, stype, is_srv, addr, timeout)\r\n    return function(fmt, ...) skt:send((fmt(...))) end\r\n  end\r\n\r\n  return M\r\nend",
+    "type": "function"
+  }, {
+    "id": 72,
+    "text": "local M = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 73,
+    "text": "function M.new(ctx, addr, timeout) \r\n    if ctx and not Z.is_ctx(ctx) then\r\n      ctx, addr, timeout = nil, ctx, addr\r\n    end\r\n\r\n    local skt = socket(ctx, stype, is_srv, addr, timeout)\r\n    return function(fmt, ...) skt:send((fmt(...))) end\r\n  end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 74,
+    "text": "if ctx and not Z.is_ctx(ctx) then\r\n      ctx, addr, timeout = nil, ctx, addr\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 75,
+    "text": "ctx, addr, timeout = nil, ctx, addr",
+    "type": "statement:assign"
+  }, {
+    "id": 76,
+    "text": "local skt = socket(ctx, stype, is_srv, addr, timeout)",
+    "type": "statement:localassign"
+  }, {
+    "id": 77,
+    "text": "skt:send((fmt(...)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 79,
+    "text": "function M.new(ctx, addr, timeout) \r\n    if ctx and not Z.is_ctx(ctx) then\r\n      ctx, addr, timeout = nil, ctx, addr\r\n    end\r\n\r\n    local skt = socket(ctx, stype, is_srv, addr, timeout)\r\n    return function(fmt, ...) skt:send((fmt(...))) end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 81,
+    "text": "function() skt:close() end",
+    "type": "function"
+  }, {
+    "id": 82,
+    "text": "function(fmt, ...) skt:send((fmt(...))) end",
+    "type": "function"
+  }, {
+    "id": 83,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 84,
+    "text": "add_cleanup",
+    "type": "global function"
+  }, {
+    "id": 85,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 86,
+    "text": "zbind",
+    "type": "global function"
+  }, {
+    "id": 87,
+    "text": "fmt",
+    "type": "global function"
+  }, {
+    "id": 88,
+    "text": "get_parent_ctx",
+    "type": "global function"
+  }, {
+    "id": 89,
+    "text": "zassert",
+    "type": "global function"
+  }, {
+    "id": 90,
+    "text": "zconnect",
+    "type": "global function"
+  }, {
+    "id": 91,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 97,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 99,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 102,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 103,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 104,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 128,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 129,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 130,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 131,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 132,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 133,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 134,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 135,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 136,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 138,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 139,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 140,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 141,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 142,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 143,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 144,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 145,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 146,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 147,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 148,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 149,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 150,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 151,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 152,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 153,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 154,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 155,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 156,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 157,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 158,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 159,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 160,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

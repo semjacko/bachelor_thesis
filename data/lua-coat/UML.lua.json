@@ -1,0 +1,1401 @@
+{
+  "_filename": "UML.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-coat/src/Coat/UML.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 3
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 98,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 98,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 105,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 105,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 117
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 124
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 124
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 121
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 122
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 123
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 123
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 119
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 119
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 119
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 116
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 118
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 113,
+    "label": "calls",
+    "to": 125
+  }, {
+    "from": 113,
+    "label": "calls",
+    "to": 125
+  }, {
+    "from": 113,
+    "label": "calls",
+    "to": 125
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 122
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 113
+  }, {
+    "from": 113,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 113,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 113,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 113,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 113,
+    "label": "declares",
+    "to": 109
+  }, {
+    "from": 113,
+    "label": "declares",
+    "to": 111
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 131
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 132
+  }, {
+    "from": 131,
+    "label": "initializes",
+    "to": 133
+  }, {
+    "from": 133,
+    "label": "assigns",
+    "to": 134
+  }, {
+    "from": 131,
+    "label": "initializes",
+    "to": 135
+  }, {
+    "from": 135,
+    "label": "assigns",
+    "to": 136
+  }, {
+    "from": 131,
+    "label": "initializes",
+    "to": 137
+  }, {
+    "from": 132,
+    "label": "initializes",
+    "to": 138
+  }, {
+    "from": 138,
+    "label": "requires",
+    "to": 114
+  }, {
+    "from": 132,
+    "label": "initializes",
+    "to": 139
+  }, {
+    "from": 139,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 132,
+    "label": "initializes",
+    "to": 140
+  }, {
+    "from": 140,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "provides",
+    "to": 141
+  }, {
+    "from": 126,
+    "label": "represents",
+    "to": 142
+  }, {
+    "from": 141,
+    "label": "provides",
+    "to": 142
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 126,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 127,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 128,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 129,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 130,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 135,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 143,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 37,
+    "label": "hasArgument",
+    "to": 109
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Class",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "Role",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "UML",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function _M.classes ()\r\n    return _classes\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function _M.class (name)\r\n    return _classes[name]\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function _M.has (class, name)\r\n    return class._ATTR[name]\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function _M.attributes (class)\r\n    return next, class._ATTR, nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function _M.methods (class)\r\n    local function getnext (t, k)\r\n        local v\r\n        repeat\r\n            k, v = next(t, k)\r\n            if not k then return nil end\r\n        until not reserved[k]\r\n          and basic_type(v) == 'function'\r\n          and not k:match '^_get_' and not k:match '^_set_'\r\n          and not k:match '^_build_'\r\n        return k, v\r\n    end\r\n    return getnext, class, nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function _M.metamethods (class)\r\n    local function getnext (mt, k)\r\n        local v\r\n        repeat\r\n            k, v = next(mt, k)\r\n            if not k then return nil end\r\n        until k ~= '__index'\r\n        return k, v\r\n    end\r\n    return getnext, class._MT, nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function _M.parents (class)\r\n    local i = 0\r\n    return  function ()\r\n                i = i + 1\r\n                local parent = class._PARENT[i]\r\n                return parent and parent._NAME, parent\r\n            end\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function _M.roles (class)\r\n    local i = 0\r\n    return  function ()\r\n                i = i + 1\r\n                local role = class._ROLE[i]\r\n                return role and role._NAME, role\r\n            end\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function _M.roles ()\r\n    return _roles\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function _M.role (name)\r\n    return _roles[name]\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function _M.attributes (role)\r\n    local i = 0\r\n    return  function ()\r\n                local v\r\n                repeat\r\n                    i = i + 1\r\n                    v = role._STORE[i]\r\n                    if not v then return nil end\r\n                until v[1] == 'has'\r\n                return v[2], v[3]\r\n            end\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function _M.methods (role)\r\n    local i = 0\r\n    return  function ()\r\n                local v\r\n                repeat\r\n                    i = i + 1\r\n                    v = role._STORE[i]\r\n                    if not v then return nil end\r\n                    local name = v[2]\r\n                until v[1] == 'method' and not name:match '^_build_'\r\n                  and not name:match '^_get_' and not name:match '^_set_'\r\n                return v[2], v[3]\r\n            end\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "local function escape (txt)\r\n    txt = txt:gsub( '&', '&amp;' )\r\n    txt = txt:gsub( '<', '&lt;' )\r\n    txt = txt:gsub( '>', '&gt;' )\r\n    return txt\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "txt = txt:gsub( '&', '&amp;' )",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "txt = txt:gsub( '<', '&lt;' )",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "txt = txt:gsub( '>', '&gt;' )",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "local function find_type (name)\r\n    if mc.class(name) then\r\n        return name\r\n    end\r\n    if mr.role(name) then\r\n        return name\r\n    end\r\n    local capt = name:match'^table(%b<>)$'\r\n    if capt then\r\n        local typev = capt:sub(2, capt:len()-1)\r\n        local idx = typev:find','\r\n        if idx then\r\n            typev = typev:sub(idx+1)\r\n        end\r\n        return find_type(typev), true\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "if mc.class(name) then\r\n        return name\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "if mr.role(name) then\r\n        return name\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "local capt = name:match'^table(%b<>)$'",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if capt then\r\n        local typev = capt:sub(2, capt:len()-1)\r\n        local idx = typev:find','\r\n        if idx then\r\n            typev = typev:sub(idx+1)\r\n        end\r\n        return find_type(typev), true\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "local typev = capt:sub(2, capt:len()-1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "local idx = typev:find','",
+    "type": "statement:localassign"
+  }, {
+    "id": 29,
+    "text": "if idx then\r\n            typev = typev:sub(idx+1)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "typev = typev:sub(idx+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "local function sort (...)\r\n    local k, v = {}, {}\r\n    for name, val in ... do\r\n        k[#k+1] = name\r\n        v[name] = val\r\n    end\r\n    table.sort(k, function (a, b)\r\n                      return a:gsub('^_', '') < b:gsub('^_', '')\r\n                  end)\r\n    local i = 0\r\n    return  function ()\r\n                i = i + 1\r\n                local name = k[i]\r\n                return name, v[name]\r\n            end\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "local k, v = {}, {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "for name, val in ... do\r\n        k[#k+1] = name\r\n        v[name] = val\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 35,
+    "text": "k[#k+1] = name",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "v[name] = val",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "table.sort(k, function (a, b)\r\n                      return a:gsub('^_', '') < b:gsub('^_', '')\r\n                  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 38,
+    "text": "local i = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 39,
+    "text": "i = i + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "local name = k[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function _M.to_dot (opt)\r\n    opt = opt or {}\r\n    local with_attr = not opt.no_attr\r\n    local with_meth = not opt.no_meth\r\n    local with_meta = not opt.no_meta\r\n    local note = opt.note\r\n    local out = 'digraph {\\n\\n    node [shape=record];\\n\\n'\r\n    if note then\r\n        out = out .. '    \"__note__\"\\n'\r\n        out = out .. '        [label=\"' .. note .. '\" shape=note];\\n\\n'\r\n    end\r\n    for classname, class in pairs(mc.classes()) do\r\n        out = out .. '    \"' .. classname .. '\"\\n'\r\n        out = out .. '        [label=\"{'\r\n        if class.instance then\r\n            out = out .. '&laquo;singleton&raquo;\\\\n'\r\n        end\r\n        out = out .. '\\\\N'\r\n        if with_attr then\r\n            local first = true\r\n            for name, attr in sort(mc.attributes(class)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name\r\n                if attr.isa then\r\n                    out = out .. ' : ' .. escape(attr.isa)\r\n                elseif attr.does then\r\n                    out = out .. ' : ' .. attr.does\r\n                end\r\n                out = out .. '\\\\l'\r\n            end\r\n        end\r\n        if with_meth then\r\n            local first = true\r\n            if with_meta then\r\n                for name in sort(mc.metamethods(class)) do\r\n                    if first then\r\n                        out = out .. '|'\r\n                        first = false\r\n                    end\r\n                    out = out .. name .. '()\\\\l'\r\n                end\r\n            end\r\n            for name in sort(mc.methods(class)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name .. '()\\\\l'\r\n            end\r\n        end\r\n        out = out .. '}\"];\\n'\r\n        for name, attr in mc.attributes(class) do\r\n            if attr.isa then\r\n                local isa, agreg = find_type(attr.isa)\r\n                if isa then\r\n                    out = out .. '    \"' .. classname .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'\r\n                    if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end\r\n                end\r\n            end\r\n            if attr.does and mr.role(attr.does) then\r\n                out = out .. '    \"' .. classname .. '\" -> \"' .. attr.does .. '\" // attr does\\n'\r\n                out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n            end\r\n        end\r\n        for parent in mc.parents(class) do\r\n            out = out .. '    \"' .. classname .. '\" -> \"' .. parent .. '\" // extends\\n'\r\n            out = out .. '        [arrowhead = onormal, arrowtail = none, arrowsize = 2.0];\\n'\r\n        end\r\n        for role in mc.roles(class) do\r\n            out = out .. '    \"' .. classname .. '\" -> \"' .. role .. '\" // with\\n'\r\n            out = out .. '        [arrowhead = odot, arrowtail = none];\\n'\r\n        end\r\n        out = out .. '\\n'\r\n    end\r\n    for rolename, role in pairs(mr.roles()) do\r\n        out = out .. '    \"' .. rolename .. '\"\\n'\r\n        out = out .. '        [label=\"{&laquo;role&raquo;\\\\n\\\\N'\r\n        if with_attr then\r\n            local first = true\r\n            for name, attr in sort(mr.attributes(role)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name\r\n                if attr.isa then\r\n                    out = out .. ' : ' .. escape(attr.isa)\r\n                elseif attr.does then\r\n                    out = out .. ' : ' .. attr.does\r\n                end\r\n                out = out .. '\\\\l'\r\n            end\r\n        end\r\n        if with_meth then\r\n            local first = true\r\n            for name in sort(mr.methods(role)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name .. '()\\\\l'\r\n            end\r\n        end\r\n        out = out .. '}\"];\\n\\n'\r\n        for name, attr in mr.attributes(role) do\r\n            if attr.isa then\r\n                local isa, agreg = find_type(attr.isa)\r\n                if isa then\r\n                    out = out .. '    \"' .. rolename .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'\r\n                    if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end\r\n                end\r\n            end\r\n            if attr.does and mr.role(attr.does) then\r\n                out = out .. '    \"' .. rolename .. '\" -> \"' .. attr.does .. '\" // attr does\\n'\r\n                out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n            end\r\n        end\r\n    end\r\n    out = out .. '}'\r\n    return out\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "opt = opt or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "local with_attr = not opt.no_attr",
+    "type": "statement:localassign"
+  }, {
+    "id": 45,
+    "text": "local with_meth = not opt.no_meth",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "local with_meta = not opt.no_meta",
+    "type": "statement:localassign"
+  }, {
+    "id": 47,
+    "text": "local note = opt.note",
+    "type": "statement:localassign"
+  }, {
+    "id": 48,
+    "text": "local out = 'digraph {\\n\\n    node [shape=record];\\n\\n'",
+    "type": "statement:localassign"
+  }, {
+    "id": 49,
+    "text": "if note then\r\n        out = out .. '    \"__note__\"\\n'\r\n        out = out .. '        [label=\"' .. note .. '\" shape=note];\\n\\n'\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 50,
+    "text": "out = out .. '    \"__note__\"\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "out = out .. '        [label=\"' .. note .. '\" shape=note];\\n\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "for classname, class in pairs(mc.classes()) do\r\n        out = out .. '    \"' .. classname .. '\"\\n'\r\n        out = out .. '        [label=\"{'\r\n        if class.instance then\r\n            out = out .. '&laquo;singleton&raquo;\\\\n'\r\n        end\r\n        out = out .. '\\\\N'\r\n        if with_attr then\r\n            local first = true\r\n            for name, attr in sort(mc.attributes(class)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name\r\n                if attr.isa then\r\n                    out = out .. ' : ' .. escape(attr.isa)\r\n                elseif attr.does then\r\n                    out = out .. ' : ' .. attr.does\r\n                end\r\n                out = out .. '\\\\l'\r\n            end\r\n        end\r\n        if with_meth then\r\n            local first = true\r\n            if with_meta then\r\n                for name in sort(mc.metamethods(class)) do\r\n                    if first then\r\n                        out = out .. '|'\r\n                        first = false\r\n                    end\r\n                    out = out .. name .. '()\\\\l'\r\n                end\r\n            end\r\n            for name in sort(mc.methods(class)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name .. '()\\\\l'\r\n            end\r\n        end\r\n        out = out .. '}\"];\\n'\r\n        for name, attr in mc.attributes(class) do\r\n            if attr.isa then\r\n                local isa, agreg = find_type(attr.isa)\r\n                if isa then\r\n                    out = out .. '    \"' .. classname .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'\r\n                    if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end\r\n                end\r\n            end\r\n            if attr.does and mr.role(attr.does) then\r\n                out = out .. '    \"' .. classname .. '\" -> \"' .. attr.does .. '\" // attr does\\n'\r\n                out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n            end\r\n        end\r\n        for parent in mc.parents(class) do\r\n            out = out .. '    \"' .. classname .. '\" -> \"' .. parent .. '\" // extends\\n'\r\n            out = out .. '        [arrowhead = onormal, arrowtail = none, arrowsize = 2.0];\\n'\r\n        end\r\n        for role in mc.roles(class) do\r\n            out = out .. '    \"' .. classname .. '\" -> \"' .. role .. '\" // with\\n'\r\n            out = out .. '        [arrowhead = odot, arrowtail = none];\\n'\r\n        end\r\n        out = out .. '\\n'\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 53,
+    "text": "out = out .. '    \"' .. classname .. '\"\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "out = out .. '        [label=\"{'",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "if class.instance then\r\n            out = out .. '&laquo;singleton&raquo;\\\\n'\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 56,
+    "text": "out = out .. '&laquo;singleton&raquo;\\\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "out = out .. '\\\\N'",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "if with_attr then\r\n            local first = true\r\n            for name, attr in sort(mc.attributes(class)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name\r\n                if attr.isa then\r\n                    out = out .. ' : ' .. escape(attr.isa)\r\n                elseif attr.does then\r\n                    out = out .. ' : ' .. attr.does\r\n                end\r\n                out = out .. '\\\\l'\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 59,
+    "text": "local first = true",
+    "type": "statement:localassign"
+  }, {
+    "id": 60,
+    "text": "for name, attr in sort(mc.attributes(class)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name\r\n                if attr.isa then\r\n                    out = out .. ' : ' .. escape(attr.isa)\r\n                elseif attr.does then\r\n                    out = out .. ' : ' .. attr.does\r\n                end\r\n                out = out .. '\\\\l'\r\n            end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 61,
+    "text": "if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 62,
+    "text": "out = out .. '|'",
+    "type": "statement:assign"
+  }, {
+    "id": 63,
+    "text": "first = false",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "out = out .. name",
+    "type": "statement:assign"
+  }, {
+    "id": 65,
+    "text": "if attr.isa then\r\n                    out = out .. ' : ' .. escape(attr.isa)\r\n                elseif attr.does then\r\n                    out = out .. ' : ' .. attr.does\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 66,
+    "text": "out = out .. ' : ' .. escape(attr.isa)",
+    "type": "statement:assign"
+  }, {
+    "id": 67,
+    "text": "out = out .. ' : ' .. attr.does",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "out = out .. '\\\\l'",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "if with_meth then\r\n            local first = true\r\n            if with_meta then\r\n                for name in sort(mc.metamethods(class)) do\r\n                    if first then\r\n                        out = out .. '|'\r\n                        first = false\r\n                    end\r\n                    out = out .. name .. '()\\\\l'\r\n                end\r\n            end\r\n            for name in sort(mc.methods(class)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name .. '()\\\\l'\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 70,
+    "text": "if with_meta then\r\n                for name in sort(mc.metamethods(class)) do\r\n                    if first then\r\n                        out = out .. '|'\r\n                        first = false\r\n                    end\r\n                    out = out .. name .. '()\\\\l'\r\n                end\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 71,
+    "text": "for name in sort(mc.metamethods(class)) do\r\n                    if first then\r\n                        out = out .. '|'\r\n                        first = false\r\n                    end\r\n                    out = out .. name .. '()\\\\l'\r\n                end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 72,
+    "text": "if first then\r\n                        out = out .. '|'\r\n                        first = false\r\n                    end",
+    "type": "statement:if"
+  }, {
+    "id": 73,
+    "text": "out = out .. name .. '()\\\\l'",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "for name in sort(mc.methods(class)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name .. '()\\\\l'\r\n            end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 75,
+    "text": "out = out .. '}\"];\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 76,
+    "text": "for name, attr in mc.attributes(class) do\r\n            if attr.isa then\r\n                local isa, agreg = find_type(attr.isa)\r\n                if isa then\r\n                    out = out .. '    \"' .. classname .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'\r\n                    if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end\r\n                end\r\n            end\r\n            if attr.does and mr.role(attr.does) then\r\n                out = out .. '    \"' .. classname .. '\" -> \"' .. attr.does .. '\" // attr does\\n'\r\n                out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n            end\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 77,
+    "text": "if attr.isa then\r\n                local isa, agreg = find_type(attr.isa)\r\n                if isa then\r\n                    out = out .. '    \"' .. classname .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'\r\n                    if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end\r\n                end\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 78,
+    "text": "local isa, agreg = find_type(attr.isa)",
+    "type": "statement:localassign"
+  }, {
+    "id": 79,
+    "text": "if isa then\r\n                    out = out .. '    \"' .. classname .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'\r\n                    if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 80,
+    "text": "out = out .. '    \"' .. classname .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 81,
+    "text": "if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end",
+    "type": "statement:if"
+  }, {
+    "id": 82,
+    "text": "out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 83,
+    "text": "out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 84,
+    "text": "if attr.does and mr.role(attr.does) then\r\n                out = out .. '    \"' .. classname .. '\" -> \"' .. attr.does .. '\" // attr does\\n'\r\n                out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 85,
+    "text": "out = out .. '    \"' .. classname .. '\" -> \"' .. attr.does .. '\" // attr does\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 86,
+    "text": "for parent in mc.parents(class) do\r\n            out = out .. '    \"' .. classname .. '\" -> \"' .. parent .. '\" // extends\\n'\r\n            out = out .. '        [arrowhead = onormal, arrowtail = none, arrowsize = 2.0];\\n'\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 87,
+    "text": "out = out .. '    \"' .. classname .. '\" -> \"' .. parent .. '\" // extends\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 88,
+    "text": "out = out .. '        [arrowhead = onormal, arrowtail = none, arrowsize = 2.0];\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 89,
+    "text": "for role in mc.roles(class) do\r\n            out = out .. '    \"' .. classname .. '\" -> \"' .. role .. '\" // with\\n'\r\n            out = out .. '        [arrowhead = odot, arrowtail = none];\\n'\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 90,
+    "text": "out = out .. '    \"' .. classname .. '\" -> \"' .. role .. '\" // with\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 91,
+    "text": "out = out .. '        [arrowhead = odot, arrowtail = none];\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 92,
+    "text": "out = out .. '\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 93,
+    "text": "for rolename, role in pairs(mr.roles()) do\r\n        out = out .. '    \"' .. rolename .. '\"\\n'\r\n        out = out .. '        [label=\"{&laquo;role&raquo;\\\\n\\\\N'\r\n        if with_attr then\r\n            local first = true\r\n            for name, attr in sort(mr.attributes(role)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name\r\n                if attr.isa then\r\n                    out = out .. ' : ' .. escape(attr.isa)\r\n                elseif attr.does then\r\n                    out = out .. ' : ' .. attr.does\r\n                end\r\n                out = out .. '\\\\l'\r\n            end\r\n        end\r\n        if with_meth then\r\n            local first = true\r\n            for name in sort(mr.methods(role)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name .. '()\\\\l'\r\n            end\r\n        end\r\n        out = out .. '}\"];\\n\\n'\r\n        for name, attr in mr.attributes(role) do\r\n            if attr.isa then\r\n                local isa, agreg = find_type(attr.isa)\r\n                if isa then\r\n                    out = out .. '    \"' .. rolename .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'\r\n                    if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end\r\n                end\r\n            end\r\n            if attr.does and mr.role(attr.does) then\r\n                out = out .. '    \"' .. rolename .. '\" -> \"' .. attr.does .. '\" // attr does\\n'\r\n                out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n            end\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 94,
+    "text": "out = out .. '    \"' .. rolename .. '\"\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 95,
+    "text": "out = out .. '        [label=\"{&laquo;role&raquo;\\\\n\\\\N'",
+    "type": "statement:assign"
+  }, {
+    "id": 96,
+    "text": "if with_attr then\r\n            local first = true\r\n            for name, attr in sort(mr.attributes(role)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name\r\n                if attr.isa then\r\n                    out = out .. ' : ' .. escape(attr.isa)\r\n                elseif attr.does then\r\n                    out = out .. ' : ' .. attr.does\r\n                end\r\n                out = out .. '\\\\l'\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 97,
+    "text": "for name, attr in sort(mr.attributes(role)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name\r\n                if attr.isa then\r\n                    out = out .. ' : ' .. escape(attr.isa)\r\n                elseif attr.does then\r\n                    out = out .. ' : ' .. attr.does\r\n                end\r\n                out = out .. '\\\\l'\r\n            end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 98,
+    "text": "if with_meth then\r\n            local first = true\r\n            for name in sort(mr.methods(role)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name .. '()\\\\l'\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 99,
+    "text": "for name in sort(mr.methods(role)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name .. '()\\\\l'\r\n            end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 100,
+    "text": "out = out .. '}\"];\\n\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 101,
+    "text": "for name, attr in mr.attributes(role) do\r\n            if attr.isa then\r\n                local isa, agreg = find_type(attr.isa)\r\n                if isa then\r\n                    out = out .. '    \"' .. rolename .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'\r\n                    if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end\r\n                end\r\n            end\r\n            if attr.does and mr.role(attr.does) then\r\n                out = out .. '    \"' .. rolename .. '\" -> \"' .. attr.does .. '\" // attr does\\n'\r\n                out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n            end\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 102,
+    "text": "if attr.isa then\r\n                local isa, agreg = find_type(attr.isa)\r\n                if isa then\r\n                    out = out .. '    \"' .. rolename .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'\r\n                    if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end\r\n                end\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 103,
+    "text": "if isa then\r\n                    out = out .. '    \"' .. rolename .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'\r\n                    if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 104,
+    "text": "out = out .. '    \"' .. rolename .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 105,
+    "text": "if attr.does and mr.role(attr.does) then\r\n                out = out .. '    \"' .. rolename .. '\" -> \"' .. attr.does .. '\" // attr does\\n'\r\n                out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 106,
+    "text": "out = out .. '    \"' .. rolename .. '\" -> \"' .. attr.does .. '\" // attr does\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 107,
+    "text": "out = out .. '}'",
+    "type": "statement:assign"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 109,
+    "text": "function (a, b)\r\n                      return a:gsub('^_', '') < b:gsub('^_', '')\r\n                  end",
+    "type": "function"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 111,
+    "text": "function ()\r\n                i = i + 1\r\n                local name = k[i]\r\n                return name, v[name]\r\n            end",
+    "type": "function"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 114,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 115,
+    "text": "class",
+    "type": "global function"
+  }, {
+    "id": 116,
+    "text": "classes",
+    "type": "global function"
+  }, {
+    "id": 117,
+    "text": "metamethods",
+    "type": "global function"
+  }, {
+    "id": 118,
+    "text": "parents",
+    "type": "global function"
+  }, {
+    "id": 119,
+    "text": "role",
+    "type": "global function"
+  }, {
+    "id": 120,
+    "text": "attributes",
+    "type": "global function"
+  }, {
+    "id": 121,
+    "text": "sort",
+    "type": "global function"
+  }, {
+    "id": 122,
+    "text": "roles",
+    "type": "global function"
+  }, {
+    "id": 123,
+    "text": "methods",
+    "type": "global function"
+  }, {
+    "id": 124,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 125,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 128,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 129,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 130,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 131,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 132,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 133,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 134,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 135,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 136,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 138,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 139,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 140,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 141,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 142,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 143,
+    "text": "",
+    "type": "local variable"
+  } ]
+}

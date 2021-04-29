@@ -1,0 +1,969 @@
+{
+  "_filename": "Role.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-coat/src/Coat/Role.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 61
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 62
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 63
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 64
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 72
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 73
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 74
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 75
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 76
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "provides",
+    "to": 78
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 79
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 80
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 81
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 82
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 83
+  }, {
+    "from": 83,
+    "label": "assigns",
+    "to": 84
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "assigns",
+    "to": 86
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 87
+  }, {
+    "from": 87,
+    "label": "assigns",
+    "to": 88
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "assigns",
+    "to": 90
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 91
+  }, {
+    "from": 91,
+    "label": "assigns",
+    "to": 92
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 93
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 94
+  }, {
+    "from": 94,
+    "label": "assigns",
+    "to": 95
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "assigns",
+    "to": 97
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 98
+  }, {
+    "from": 98,
+    "label": "assigns",
+    "to": 99
+  }, {
+    "from": 79,
+    "label": "initializes",
+    "to": 100
+  }, {
+    "from": 100,
+    "label": "assigns",
+    "to": 101
+  }, {
+    "from": 80,
+    "label": "initializes",
+    "to": 102
+  }, {
+    "from": 102,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 80,
+    "label": "initializes",
+    "to": 103
+  }, {
+    "from": 103,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 104
+  }, {
+    "from": 71,
+    "label": "represents",
+    "to": 105
+  }, {
+    "from": 104,
+    "label": "provides",
+    "to": 105
+  }, {
+    "from": 106,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 107,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 91,
+    "label": "contains",
+    "to": 65
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Role",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "Coat",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function _M.classes ()\r\n    return _classes\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function _M.class (name)\r\n    return _classes[name]\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function _M.has (class, name)\r\n    return class._ATTR[name]\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function _M.attributes (class)\r\n    return next, class._ATTR, nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function _M.methods (class)\r\n    local function getnext (t, k)\r\n        local v\r\n        repeat\r\n            k, v = next(t, k)\r\n            if not k then return nil end\r\n        until not reserved[k]\r\n          and basic_type(v) == 'function'\r\n          and not k:match '^_get_' and not k:match '^_set_'\r\n          and not k:match '^_build_'\r\n        return k, v\r\n    end\r\n    return getnext, class, nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function _M.metamethods (class)\r\n    local function getnext (mt, k)\r\n        local v\r\n        repeat\r\n            k, v = next(mt, k)\r\n            if not k then return nil end\r\n        until k ~= '__index'\r\n        return k, v\r\n    end\r\n    return getnext, class._MT, nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function _M.parents (class)\r\n    local i = 0\r\n    return  function ()\r\n                i = i + 1\r\n                local parent = class._PARENT[i]\r\n                return parent and parent._NAME, parent\r\n            end\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function _M.roles (class)\r\n    local i = 0\r\n    return  function ()\r\n                i = i + 1\r\n                local role = class._ROLE[i]\r\n                return role and role._NAME, role\r\n            end\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function _M.roles ()\r\n    return _roles\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function _M.role (name)\r\n    return _roles[name]\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function _M.attributes (role)\r\n    local i = 0\r\n    return  function ()\r\n                local v\r\n                repeat\r\n                    i = i + 1\r\n                    v = role._STORE[i]\r\n                    if not v then return nil end\r\n                until v[1] == 'has'\r\n                return v[2], v[3]\r\n            end\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function _M.methods (role)\r\n    local i = 0\r\n    return  function ()\r\n                local v\r\n                repeat\r\n                    i = i + 1\r\n                    v = role._STORE[i]\r\n                    if not v then return nil end\r\n                    local name = v[2]\r\n                until v[1] == 'method' and not name:match '^_build_'\r\n                  and not name:match '^_get_' and not name:match '^_set_'\r\n                return v[2], v[3]\r\n            end\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function ()\r\n                local v\r\n                repeat\r\n                    i = i + 1\r\n                    v = role._STORE[i]\r\n                    if not v then return nil end\r\n                until v[1] == 'has'\r\n                return v[2], v[3]\r\n            end",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function ()\r\n                local v\r\n                repeat\r\n                    i = i + 1\r\n                    v = role._STORE[i]\r\n                    if not v then return nil end\r\n                    local name = v[2]\r\n                until v[1] == 'method' and not name:match '^_build_'\r\n                  and not name:match '^_get_' and not name:match '^_set_'\r\n                return v[2], v[3]\r\n            end",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 18,
+    "text": "local function has (role, name, options)\r\n    checktype('has', 1, name, 'string')\r\n    checktype('has', 2, options or {}, 'table')\r\n    local t = role._STORE; t[#t+1] = { 'has', name, options }\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "checktype('has', 1, name, 'string')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "checktype('has', 2, options or {}, 'table')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "local t = role._STORE",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "t[#t+1] = { 'has', name, options }",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "local function method (role, name, func)\r\n    checktype('method', 1, name, 'string')\r\n    checktype('method', 2, func, 'function')\r\n    local t = role._STORE; t[#t+1] = { 'method', name, func }\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "checktype('method', 1, name, 'string')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "checktype('method', 2, func, 'function')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 27,
+    "text": "t[#t+1] = { 'method', name, func }",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "local function requires (role, ...)\r\n    local t = role._REQ\r\n    local arg = {...}\r\n    for i = 1, #arg do\r\n        local meth = arg[i]\r\n        checktype('requires', i, meth, 'string')\r\n        t[#t+1] = meth\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "local t = role._REQ",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "local arg = {...}",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "for i = 1, #arg do\r\n        local meth = arg[i]\r\n        checktype('requires', i, meth, 'string')\r\n        t[#t+1] = meth\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 33,
+    "text": "local meth = arg[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "checktype('requires', i, meth, 'string')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "t[#t+1] = meth",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "local function excludes (role, ...)\r\n    local t = role._EXCL\r\n    local arg = {...}\r\n    for i = 1, #arg do\r\n        local r = arg[i]\r\n        checktype('excludes', i, r, 'string')\r\n        t[#t+1] = r\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "local t = role._EXCL",
+    "type": "statement:localassign"
+  }, {
+    "id": 39,
+    "text": "for i = 1, #arg do\r\n        local r = arg[i]\r\n        checktype('excludes', i, r, 'string')\r\n        t[#t+1] = r\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 40,
+    "text": "local r = arg[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 41,
+    "text": "checktype('excludes', i, r, 'string')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 42,
+    "text": "t[#t+1] = r",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "function _G.role (modname)\r\n    checktype('role', 1, modname, 'string')\r\n    local M = module(modname, 3)\r\n    setmetatable(M, { __index = _G })\r\n    M._STORE = {}\r\n    M._REQ = {}\r\n    M._EXCL = {}\r\n    M.has = setmetatable({}, { __newindex = function (t, k, v) has(M, k, v) end })\r\n    M.method = setmetatable({}, { __newindex = function (t, k, v) method(M, k, v) end })\r\n    M.requires = function (...) return requires(M, ...) end\r\n    M.excludes = function (...) return excludes(M, ...) end\r\n    local roles = Meta.roles()\r\n    roles[modname] = M\r\nend",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "checktype('role', 1, modname, 'string')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 46,
+    "text": "local M = module(modname, 3)",
+    "type": "statement:localassign"
+  }, {
+    "id": 47,
+    "text": "setmetatable(M, { __index = _G })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 48,
+    "text": "M._STORE = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "M._REQ = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 50,
+    "text": "M._EXCL = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "M.has = setmetatable({}, { __newindex = function (t, k, v) has(M, k, v) end })",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "has(M, k, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 53,
+    "text": "M.method = setmetatable({}, { __newindex = function (t, k, v) method(M, k, v) end })",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "method(M, k, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 55,
+    "text": "M.requires = function (...) return requires(M, ...) end",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 57,
+    "text": "M.excludes = function (...) return excludes(M, ...) end",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "local roles = Meta.roles()",
+    "type": "statement:localassign"
+  }, {
+    "id": 59,
+    "text": "roles[modname] = M",
+    "type": "statement:assign"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 61,
+    "text": "function (...) return requires(M, ...) end",
+    "type": "function"
+  }, {
+    "id": 62,
+    "text": "function (...) return excludes(M, ...) end",
+    "type": "function"
+  }, {
+    "id": 63,
+    "text": "function (t, k, v) has(M, k, v) end",
+    "type": "function"
+  }, {
+    "id": 64,
+    "text": "function (t, k, v) method(M, k, v) end",
+    "type": "function"
+  }, {
+    "id": 65,
+    "text": "function _M.to_dot (opt)\r\n    opt = opt or {}\r\n    local with_attr = not opt.no_attr\r\n    local with_meth = not opt.no_meth\r\n    local with_meta = not opt.no_meta\r\n    local note = opt.note\r\n    local out = 'digraph {\\n\\n    node [shape=record];\\n\\n'\r\n    if note then\r\n        out = out .. '    \"__note__\"\\n'\r\n        out = out .. '        [label=\"' .. note .. '\" shape=note];\\n\\n'\r\n    end\r\n    for classname, class in pairs(mc.classes()) do\r\n        out = out .. '    \"' .. classname .. '\"\\n'\r\n        out = out .. '        [label=\"{'\r\n        if class.instance then\r\n            out = out .. '&laquo;singleton&raquo;\\\\n'\r\n        end\r\n        out = out .. '\\\\N'\r\n        if with_attr then\r\n            local first = true\r\n            for name, attr in sort(mc.attributes(class)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name\r\n                if attr.isa then\r\n                    out = out .. ' : ' .. escape(attr.isa)\r\n                elseif attr.does then\r\n                    out = out .. ' : ' .. attr.does\r\n                end\r\n                out = out .. '\\\\l'\r\n            end\r\n        end\r\n        if with_meth then\r\n            local first = true\r\n            if with_meta then\r\n                for name in sort(mc.metamethods(class)) do\r\n                    if first then\r\n                        out = out .. '|'\r\n                        first = false\r\n                    end\r\n                    out = out .. name .. '()\\\\l'\r\n                end\r\n            end\r\n            for name in sort(mc.methods(class)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name .. '()\\\\l'\r\n            end\r\n        end\r\n        out = out .. '}\"];\\n'\r\n        for name, attr in mc.attributes(class) do\r\n            if attr.isa then\r\n                local isa, agreg = find_type(attr.isa)\r\n                if isa then\r\n                    out = out .. '    \"' .. classname .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'\r\n                    if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end\r\n                end\r\n            end\r\n            if attr.does and mr.role(attr.does) then\r\n                out = out .. '    \"' .. classname .. '\" -> \"' .. attr.does .. '\" // attr does\\n'\r\n                out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n            end\r\n        end\r\n        for parent in mc.parents(class) do\r\n            out = out .. '    \"' .. classname .. '\" -> \"' .. parent .. '\" // extends\\n'\r\n            out = out .. '        [arrowhead = onormal, arrowtail = none, arrowsize = 2.0];\\n'\r\n        end\r\n        for role in mc.roles(class) do\r\n            out = out .. '    \"' .. classname .. '\" -> \"' .. role .. '\" // with\\n'\r\n            out = out .. '        [arrowhead = odot, arrowtail = none];\\n'\r\n        end\r\n        out = out .. '\\n'\r\n    end\r\n    for rolename, role in pairs(mr.roles()) do\r\n        out = out .. '    \"' .. rolename .. '\"\\n'\r\n        out = out .. '        [label=\"{&laquo;role&raquo;\\\\n\\\\N'\r\n        if with_attr then\r\n            local first = true\r\n            for name, attr in sort(mr.attributes(role)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name\r\n                if attr.isa then\r\n                    out = out .. ' : ' .. escape(attr.isa)\r\n                elseif attr.does then\r\n                    out = out .. ' : ' .. attr.does\r\n                end\r\n                out = out .. '\\\\l'\r\n            end\r\n        end\r\n        if with_meth then\r\n            local first = true\r\n            for name in sort(mr.methods(role)) do\r\n                if first then\r\n                    out = out .. '|'\r\n                    first = false\r\n                end\r\n                out = out .. name .. '()\\\\l'\r\n            end\r\n        end\r\n        out = out .. '}\"];\\n\\n'\r\n        for name, attr in mr.attributes(role) do\r\n            if attr.isa then\r\n                local isa, agreg = find_type(attr.isa)\r\n                if isa then\r\n                    out = out .. '    \"' .. rolename .. '\" -> \"' .. isa .. '\" // attr isa ' .. attr.isa .. '\\n'\r\n                    if agreg then\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = odiamond];\\n'\r\n                    else\r\n                        out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n                    end\r\n                end\r\n            end\r\n            if attr.does and mr.role(attr.does) then\r\n                out = out .. '    \"' .. rolename .. '\" -> \"' .. attr.does .. '\" // attr does\\n'\r\n                out = out .. '        [label = \"' .. name .. '\", dir = back, arrowtail = diamond];\\n'\r\n            end\r\n        end\r\n    end\r\n    out = out .. '}'\r\n    return out\r\nend",
+    "type": "function"
+  }, {
+    "id": 66,
+    "text": "roles",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "checktype",
+    "type": "global function"
+  }, {
+    "id": 68,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 69,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 70,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 90,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 97,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 99,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 102,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 103,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 104,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

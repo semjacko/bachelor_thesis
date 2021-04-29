@@ -1,0 +1,341 @@
+{
+  "_filename": "hybrid.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luapi/examples/hybrid.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "assigns",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "assigns",
+    "to": 32
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "assigns",
+    "to": 34
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 4,
+    "label": "hasArgument",
+    "to": 15
+  }, {
+    "from": 4,
+    "label": "hasArgument",
+    "to": 16
+  }, {
+    "from": 11,
+    "label": "hasArgument",
+    "to": 17
+  }, {
+    "from": 11,
+    "label": "hasArgument",
+    "to": 18
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "hybrid",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function Positive(proc,chan,fuel)\r\n  while fuel>0 do\r\n    proc:choice( \r\n      { chan:send(1), function() print \"Positive: sends 1\" end },\r\n      { chan:receive(), function(x) print(\"Positive: receives \"..tostring(x)) end }\r\n    )()\r\n    fuel = fuel - 1\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "while fuel>0 do\r\n    proc:choice( \r\n      { chan:send(1), function() print \"Positive: sends 1\" end },\r\n      { chan:receive(), function(x) print(\"Positive: receives \"..tostring(x)) end }\r\n    )()\r\n    fuel = fuel - 1\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 4,
+    "text": "proc:choice( \r\n      { chan:send(1), function() print \"Positive: sends 1\" end },\r\n      { chan:receive(), function(x) print(\"Positive: receives \"..tostring(x)) end }\r\n    )()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "print \"Positive: sends 1\"",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "print(\"Positive: receives \"..tostring(x))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "fuel = fuel - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function Negative(proc,chan,fuel)\r\n  while fuel>0 do\r\n    proc:choice( \r\n      { chan:send(2), function() print \"Negative: sends 2\" end },\r\n      { chan:receive(), function(x) print(\"Negative: receives \"..tostring(x)) end }\r\n    )()\r\n    fuel = fuel - 1\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "while fuel>0 do\r\n    proc:choice( \r\n      { chan:send(2), function() print \"Negative: sends 2\" end },\r\n      { chan:receive(), function(x) print(\"Negative: receives \"..tostring(x)) end }\r\n    )()\r\n    fuel = fuel - 1\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 11,
+    "text": "proc:choice( \r\n      { chan:send(2), function() print \"Negative: sends 2\" end },\r\n      { chan:receive(), function(x) print(\"Negative: receives \"..tostring(x)) end }\r\n    )()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "print \"Negative: sends 2\"",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "print(\"Negative: receives \"..tostring(x))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function() print \"Positive: sends 1\" end",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function(x) print(\"Positive: receives \"..tostring(x)) end",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function() print \"Negative: sends 2\" end",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function(x) print(\"Negative: receives \"..tostring(x)) end",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 20,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "procchoice",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

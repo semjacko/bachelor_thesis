@@ -1,0 +1,241 @@
+{
+  "_filename": "trapexit2c.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/concurrentlua/test/distributed/trapexit2c.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 26
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "trapexit2c",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function root(pid)\r\n    local self = concurrent.self()\r\n    concurrent.register('root', self)\r\n    concurrent.link(pid)\r\n    while true do\r\n        concurrent.send(pid, { from = { self, 'root@localhost' },\r\n            body = 'ping' })\r\n        print('root sent message to internal')\r\n\r\n        local msg = concurrent.receive(10)\r\n        if msg and msg.signal == 'EXIT' then break end\r\n    end\r\n    print('root received EXIT and exiting')\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local self = concurrent.self()",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "concurrent.register('root', self)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "concurrent.link(pid)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "while true do\r\n        concurrent.send(pid, { from = { self, 'root@localhost' },\r\n            body = 'ping' })\r\n        print('root sent message to internal')\r\n\r\n        local msg = concurrent.receive(10)\r\n        if msg and msg.signal == 'EXIT' then break end\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 7,
+    "text": "concurrent.send(pid, { from = { self, 'root@localhost' },\r\n            body = 'ping' })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "print('root sent message to internal')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "local msg = concurrent.receive(10)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if msg and msg.signal == 'EXIT' then break end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "print('root received EXIT and exiting')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 14,
+    "text": "spawn",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "receive",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "send",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "loop",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "link",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "register",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "self",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "setoption",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "shutdown",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require container"
+  } ]
+}

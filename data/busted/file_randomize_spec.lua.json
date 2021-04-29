@@ -1,0 +1,169 @@
+{
+  "_filename": "file_randomize_spec.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/file_randomize_spec.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "assigns",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "file_randomize_spec",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function()\r\n    table.insert(order, i)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "table.insert(order, i)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function()\r\n  assert.are_not.same(unexpected, order)\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "assert.are_not.same(unexpected, order)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 9,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "it",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "teardown",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "assert.are_not.same",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "randomize",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "tableconstructor"
+  } ]
+}

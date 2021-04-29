@@ -1,0 +1,361 @@
+{
+  "_filename": "test-strict.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/penlight/tests/test-strict.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 5,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 5,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 5,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 33,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 33,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 33,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 4
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "app",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "strict",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "test",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "mymod",
+    "type": "module"
+  }, {
+    "id": 5,
+    "text": "test-strict",
+    "type": "module"
+  }, {
+    "id": 6,
+    "text": "function answer ()\r\n    -- of course, you don't have the usual global environment available\r\n    -- so define it as a local up above, or use utils.import(_G).\r\n    test.assertraise(function()\r\n        print 'hello'\r\n    end,(LUA_VERSION~=\"Lua 5.3\") and \"attempt to call global 'print'\" or \"attempt to call a nil value\")\r\n\r\n    -- but all the Penlight modules are available\r\n    return pretty.write(utils.split '10 20  30', '')\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function()\r\n   print(x)\r\n   print 'ok?'\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "print(x)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "print 'ok?'",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function()\r\n   Boo = 3\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "Boo = 3",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function() Boo = 42; Boo2 = 6*7 end",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "Boo = 42",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "Boo2 = 6*7",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "function()\r\n    print(M.Answer())\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "print(M.Answer())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function()\r\n    print(math.sine(1.2))\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "print(math.sine(1.2))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 24,
+    "text": "question",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "assertraise",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "Answer",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "make_all_strict",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "require_here",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "sine",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

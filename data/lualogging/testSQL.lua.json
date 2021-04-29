@@ -1,0 +1,181 @@
+{
+  "_filename": "testSQL.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lualogging/tests/testSQL.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "sql",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "testSQL",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function()\r\n\t\t\t\tlocal con, err = env:connect(\"test.db\")\r\n\t\t\t\tassert(con, err)\r\n\t\t\t\treturn con\r\n\t\t\tend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local con, err = env:connect(\"test.db\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "assert(con, err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 9,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "log_sql",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "sqlite3",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

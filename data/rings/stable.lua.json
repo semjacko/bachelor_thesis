@@ -1,0 +1,177 @@
+{
+  "_filename": "stable.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/rings/src/stable.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "assigns",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 19
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "stable",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function get (i)\r\n\tlocal ok, value = remotedostring (\"return _state_persistent_table_[...]\", i)\r\n\treturn value\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local ok, value = remotedostring (\"return _state_persistent_table_[...]\", i)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function set (i, v)\r\n\tremotedostring (\"_state_persistent_table_[select(1,...)] = select(2,...)\", i, v)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "remotedostring (\"_state_persistent_table_[select(1,...)] = select(2,...)\", i, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 10,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "remotedostring",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

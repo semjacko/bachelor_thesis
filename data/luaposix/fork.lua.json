@@ -1,0 +1,189 @@
+{
+  "_filename": "fork.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luaposix/examples/fork.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "assigns",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "fork",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "posix",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "read",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "pipe",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "fork",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "_exit",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "close",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "wait",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

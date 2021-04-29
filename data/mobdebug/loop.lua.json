@@ -1,0 +1,93 @@
+{
+  "_filename": "loop.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/mobdebug/examples/loop.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "initializes",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "initializes",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "requires",
+    "to": 7
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "loop",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 7,
+    "text": "(mobdebug)",
+    "type": "module"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "require container"
+  } ]
+}

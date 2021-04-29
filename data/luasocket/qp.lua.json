@@ -1,0 +1,245 @@
+{
+  "_filename": "qp.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luasocket/etc/qp.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "assigns",
+    "to": 23
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "assigns",
+    "to": 25
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "requires",
+    "to": 13
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 14
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "qp",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "function filter.chain(...)\r\n    local arg = {...}\r\n    local n = select('#',...)\r\n    local top, index = 1, 1\r\n    local retry = \"\"\r\n    return function(chunk)\r\n        retry = chunk and retry\r\n        while true do\r\n            if index == top then\r\n                chunk = arg[index](chunk)\r\n                if chunk == \"\" or top == n then return chunk\r\n                elseif chunk then index = index + 1\r\n                else\r\n                    top = top+1\r\n                    index = top\r\n                end\r\n            else\r\n                chunk = arg[index](chunk or \"\")\r\n                if chunk == \"\" then\r\n                    index = index - 1\r\n                    chunk = retry\r\n                elseif chunk then\r\n                    if index == n then return chunk\r\n                    else index = index + 1 end\r\n                else base.error(\"filter returned inappropriate nil\") end\r\n            end\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function source.file(handle, io_err)\r\n    if handle then\r\n        return function()\r\n            local chunk = handle:read(_M.BLOCKSIZE)\r\n            if not chunk then handle:close() end\r\n            return chunk\r\n        end\r\n    else return source.error(io_err or \"unable to open file\") end\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function source.chain(src, f)\r\n    base.assert(src and f)\r\n    local last_in, last_out = \"\", \"\"\r\n    local state = \"feeding\"\r\n    local err\r\n    return function()\r\n        if not last_out then\r\n            base.error('source is empty!', 2)\r\n        end\r\n        while true do\r\n            if state == \"feeding\" then\r\n                last_in, err = src()\r\n                if err then return nil, err end\r\n                last_out = f(last_in)\r\n                if not last_out then\r\n                    if last_in then\r\n                        base.error('filter returned inappropriate nil')\r\n                    else\r\n                        return nil\r\n                    end\r\n                elseif last_out ~= \"\" then\r\n                    state = \"eating\"\r\n                    if last_in then last_in = \"\" end\r\n                    return last_out\r\n                end\r\n            else\r\n                last_out = f(last_in)\r\n                if last_out == \"\" then\r\n                    if last_in == \"\" then\r\n                        state = \"feeding\"\r\n                    else\r\n                        base.error('filter returned \"\"')\r\n                    end\r\n                elseif not last_out then\r\n                    if last_in then\r\n                        base.error('filter returned inappropriate nil')\r\n                    else\r\n                        return nil\r\n                    end\r\n                else\r\n                    return last_out\r\n                end\r\n            end\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function sink.file(handle, io_err)\r\n    if handle then\r\n        return function(chunk, err)\r\n            if not chunk then\r\n                handle:close()\r\n                return 1\r\n            else return handle:write(chunk) end\r\n        end\r\n    else return sink.error(io_err or \"unable to open file\") end\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function pump.all(src, snk, step)\r\n    base.assert(src and snk)\r\n    step = step or pump.step\r\n    while true do\r\n        local ret, err = step(src, snk)\r\n        if not ret then\r\n            if err then return nil, err\r\n            else return 1 end\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "decode",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "encode",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "normalize",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "wrap",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "(ltn12)",
+    "type": "module"
+  }, {
+    "id": 14,
+    "text": "(mime)",
+    "type": "module"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

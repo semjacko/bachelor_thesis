@@ -1,0 +1,1545 @@
+{
+  "_filename": "command_line.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/command_line.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 94,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 94,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 94,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 105,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 108,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 108,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 108,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 113,
+    "label": "has",
+    "to": 114
+  }, {
+    "from": 108,
+    "label": "has",
+    "to": 115
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 118,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 119,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 119,
+    "label": "has",
+    "to": 120
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 140
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 140
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 134
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 126
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 143
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 122
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 121,
+    "label": "calls",
+    "to": 147
+  }, {
+    "from": 121,
+    "label": "calls",
+    "to": 147
+  }, {
+    "from": 121,
+    "label": "calls",
+    "to": 147
+  }, {
+    "from": 121,
+    "label": "calls",
+    "to": 147
+  }, {
+    "from": 121,
+    "label": "calls",
+    "to": 147
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 147
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 147
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 147
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 147
+  }, {
+    "from": 121,
+    "label": "calls",
+    "to": 131
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 145
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 145
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 145
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 123
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 141
+  }, {
+    "from": 121,
+    "label": "calls",
+    "to": 137
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 125
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 125
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 135
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 135
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 138
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 138
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 139
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 139
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 139
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 124
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 128
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 136
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 144
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 144
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 133
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 142
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 146
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 127
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 129
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 129
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 129
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 132
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 121
+  }, {
+    "from": 121,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 121,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 121,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 121,
+    "label": "declares",
+    "to": 118
+  }, {
+    "from": 121,
+    "label": "declares",
+    "to": 119
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 154
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 155
+  }, {
+    "from": 154,
+    "label": "initializes",
+    "to": 156
+  }, {
+    "from": 156,
+    "label": "assigns",
+    "to": 157
+  }, {
+    "from": 155,
+    "label": "initializes",
+    "to": 158
+  }, {
+    "from": 158,
+    "label": "requires",
+    "to": 149
+  }, {
+    "from": 155,
+    "label": "initializes",
+    "to": 159
+  }, {
+    "from": 159,
+    "label": "requires",
+    "to": 148
+  }, {
+    "from": 155,
+    "label": "initializes",
+    "to": 160
+  }, {
+    "from": 160,
+    "label": "requires",
+    "to": 152
+  }, {
+    "from": 155,
+    "label": "initializes",
+    "to": 161
+  }, {
+    "from": 161,
+    "label": "requires",
+    "to": 150
+  }, {
+    "from": 155,
+    "label": "initializes",
+    "to": 162
+  }, {
+    "from": 162,
+    "label": "requires",
+    "to": 153
+  }, {
+    "from": 155,
+    "label": "initializes",
+    "to": 163
+  }, {
+    "from": 163,
+    "label": "requires",
+    "to": 151
+  }, {
+    "from": 155,
+    "label": "initializes",
+    "to": 164
+  }, {
+    "from": 164,
+    "label": "requires",
+    "to": 165
+  }, {
+    "from": 155,
+    "label": "initializes",
+    "to": 166
+  }, {
+    "from": 166,
+    "label": "requires",
+    "to": 151
+  }, {
+    "from": 155,
+    "label": "initializes",
+    "to": 167
+  }, {
+    "from": 167,
+    "label": "requires",
+    "to": 168
+  }, {
+    "from": 169,
+    "label": "requires",
+    "to": 165
+  }, {
+    "from": 170,
+    "label": "requires",
+    "to": 168
+  }, {
+    "from": 171,
+    "label": "requires",
+    "to": 165
+  }, {
+    "from": 172,
+    "label": "requires",
+    "to": 165
+  }, {
+    "from": 173,
+    "label": "requires",
+    "to": 165
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "command_line",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "local function die(message, exitcode)\r\n   assert(type(message) == \"string\")\r\n\r\n   local ok, err = pcall(util.run_scheduled_functions)\r\n   if not ok then\r\n      util.printerr(\"\\nLuaRocks \"..cfg.program_version..\" internal bug (please report at luarocks-developers@lists.sourceforge.net):\\n\"..err)\r\n   end\r\n   util.printerr(\"\\nError: \"..message)\r\n   os.exit(exitcode or cfg.errorcodes.UNSPECIFIED)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "assert(type(message) == \"string\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "local ok, err = pcall(util.run_scheduled_functions)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if not ok then\r\n      util.printerr(\"\\nLuaRocks \"..cfg.program_version..\" internal bug (please report at luarocks-developers@lists.sourceforge.net):\\n\"..err)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "util.printerr(\"\\nLuaRocks \"..cfg.program_version..\" internal bug (please report at luarocks-developers@lists.sourceforge.net):\\n\"..err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "util.printerr(\"\\nError: \"..message)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "os.exit(exitcode or cfg.errorcodes.UNSPECIFIED)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "local function replace_tree(flags, args, tree)\r\n   local tree = dir.normalize(tree)\r\n   flags[\"tree\"] = tree\r\n   for i = 1, #args do\r\n      if args[i]:match(\"%-%-tree=\") then\r\n         args[i] = \"--tree=\"..tree\r\n         break\r\n      end\r\n   end\r\n   path.use_tree(tree)\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "local tree = dir.normalize(tree)",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "flags[\"tree\"] = tree",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "for i = 1, #args do\r\n      if args[i]:match(\"%-%-tree=\") then\r\n         args[i] = \"--tree=\"..tree\r\n         break\r\n      end\r\n   end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 16,
+    "text": "if args[i]:match(\"%-%-tree=\") then\r\n         args[i] = \"--tree=\"..tree\r\n         break\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "args[i] = \"--tree=\"..tree",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "path.use_tree(tree)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function run_command(...)\r\n   local args = {...}\r\n   local cmdline_vars = {}\r\n   for i = #args, 1, -1 do\r\n      local arg = args[i]\r\n      if arg:match(\"^[^-][^=]*=\") then\r\n         local var, val = arg:match(\"^([A-Z_][A-Z0-9_]*)=(.*)\")\r\n         if val then\r\n            cmdline_vars[var] = val\r\n            table.remove(args, i)\r\n         else\r\n            die(\"Invalid assignment: \"..arg)\r\n         end\r\n      end\r\n   end\r\n   local nonflags = { util.parse_flags(unpack(args)) }\r\n   local flags = table.remove(nonflags, 1)\r\n   \r\n   if flags[\"from\"] then flags[\"server\"] = flags[\"from\"] end\r\n   if flags[\"only-from\"] then flags[\"only-server\"] = flags[\"only-from\"] end\r\n   if flags[\"only-sources-from\"] then flags[\"only-sources\"] = flags[\"only-sources-from\"] end\r\n   if flags[\"to\"] then flags[\"tree\"] = flags[\"to\"] end\r\n   if flags[\"nodeps\"] then\r\n      flags[\"deps-mode\"] = \"none\"\r\n      table.insert(args, \"--deps-mode=none\")\r\n   end\r\n   \r\n   cfg.flags = flags\r\n\r\n   local command\r\n   \r\n   if flags[\"verbose\"] then   -- setting it in the config file will kick-in earlier in the process\r\n      cfg.verbose = true\r\n      local fs = require(\"luarocks.fs\")\r\n      fs.verbose()\r\n   end\r\n\r\n   if flags[\"version\"] then\r\n      util.printout(program..\" \"..cfg.program_version)\r\n      util.printout(program_description)\r\n      util.printout()\r\n      os.exit(cfg.errorcodes.OK)\r\n   elseif flags[\"help\"] or #nonflags == 0 then\r\n      command = \"help\"\r\n      args = nonflags\r\n   else\r\n      command = nonflags[1]\r\n      for i, arg in ipairs(args) do\r\n         if arg == command then\r\n            table.remove(args, i)\r\n            break\r\n         end\r\n      end\r\n   end\r\n   command = command:gsub(\"-\", \"_\")\r\n\r\n   if flags[\"extensions\"] then\r\n      cfg.use_extensions = true\r\n      local type_check = require(\"luarocks.type_check\")\r\n      type_check.load_extensions()\r\n   end\r\n   \r\n   if cfg.local_by_default then\r\n      flags[\"local\"] = true\r\n   end\r\n\r\n   if flags[\"deps-mode\"] and not deps.check_deps_mode_flag(flags[\"deps-mode\"]) then\r\n      die(\"Invalid entry for --deps-mode.\")\r\n   end\r\n   \r\n   if flags[\"tree\"] then\r\n      if flags[\"tree\"] == true or flags[\"tree\"] == \"\" then\r\n         die(\"Argument error: use --tree=<path>\")\r\n      end\r\n      local named = false\r\n      for _, tree in ipairs(cfg.rocks_trees) do\r\n         if type(tree) == \"table\" and flags[\"tree\"] == tree.name then\r\n            if not tree.root then\r\n               die(\"Configuration error: tree '\"..tree.name..\"' has no 'root' field.\")\r\n            end\r\n            replace_tree(flags, args, tree.root)\r\n            named = true\r\n            break\r\n         end\r\n      end\r\n      if not named then\r\n         local fs = require(\"luarocks.fs\")\r\n         local root_dir = fs.absolute_name(flags[\"tree\"])\r\n         replace_tree(flags, args, root_dir)\r\n      end\r\n   elseif flags[\"local\"] then\r\n      replace_tree(flags, args, cfg.home_tree)\r\n   else\r\n      local trees = cfg.rocks_trees\r\n      path.use_tree(trees[#trees])\r\n   end\r\n\r\n   if type(cfg.root_dir) == \"string\" then\r\n     cfg.root_dir = cfg.root_dir:gsub(\"/+$\", \"\")\r\n   else\r\n     cfg.root_dir.root = cfg.root_dir.root:gsub(\"/+$\", \"\")\r\n   end\r\n   cfg.rocks_dir = cfg.rocks_dir:gsub(\"/+$\", \"\")\r\n   cfg.deploy_bin_dir = cfg.deploy_bin_dir:gsub(\"/+$\", \"\")\r\n   cfg.deploy_lua_dir = cfg.deploy_lua_dir:gsub(\"/+$\", \"\")\r\n   cfg.deploy_lib_dir = cfg.deploy_lib_dir:gsub(\"/+$\", \"\")\r\n   \r\n   cfg.variables.ROCKS_TREE = cfg.rocks_dir\r\n   cfg.variables.SCRIPTS_DIR = cfg.deploy_bin_dir\r\n\r\n   if flags[\"server\"] then\r\n      if flags[\"server\"] == true then\r\n         die(\"Argument error: use --server=<url>\")\r\n      end\r\n      local protocol, path = dir.split_url(flags[\"server\"])\r\n      table.insert(cfg.rocks_servers, 1, protocol..\"://\"..path)\r\n   end\r\n   \r\n   if flags[\"only-server\"] then\r\n      if flags[\"only-server\"] == true then\r\n         die(\"Argument error: use --only-server=<url>\")\r\n      end\r\n      cfg.rocks_servers = { flags[\"only-server\"] }\r\n   end\r\n\r\n   if flags[\"only-sources\"] then\r\n      cfg.only_sources_from = flags[\"only-sources\"]\r\n   end\r\n  \r\n   if command ~= \"help\" then\r\n      for k, v in pairs(cmdline_vars) do\r\n         cfg.variables[k] = v\r\n      end\r\n   end\r\n   \r\n   if commands[command] then\r\n      -- TODO the interface of run should be modified, to receive the\r\n      -- flags table and the (possibly unpacked) nonflags arguments.\r\n      -- This would remove redundant parsing of arguments.\r\n      -- I'm not changing this now to avoid messing with the run()\r\n      -- interface, which I know some people use (even though\r\n      -- I never published it as a public API...)\r\n      local cmd = require(commands[command])\r\n      local xp, ok, err, exitcode = xpcall(function() return cmd.run(unpack(args)) end, function(err)\r\n         die(debug.traceback(\"LuaRocks \"..cfg.program_version\r\n            ..\" bug (please report at luarocks-developers@lists.sourceforge.net).\\n\"\r\n            ..err, 2))\r\n      end)\r\n      if xp and (not ok) then\r\n         die(err, exitcode)\r\n      end\r\n   else\r\n      die(\"Unknown command: \"..command)\r\n   end\r\n   util.run_scheduled_functions()\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "local args = {...}",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "local cmdline_vars = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "for i = #args, 1, -1 do\r\n      local arg = args[i]\r\n      if arg:match(\"^[^-][^=]*=\") then\r\n         local var, val = arg:match(\"^([A-Z_][A-Z0-9_]*)=(.*)\")\r\n         if val then\r\n            cmdline_vars[var] = val\r\n            table.remove(args, i)\r\n         else\r\n            die(\"Invalid assignment: \"..arg)\r\n         end\r\n      end\r\n   end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 24,
+    "text": "local arg = args[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "if arg:match(\"^[^-][^=]*=\") then\r\n         local var, val = arg:match(\"^([A-Z_][A-Z0-9_]*)=(.*)\")\r\n         if val then\r\n            cmdline_vars[var] = val\r\n            table.remove(args, i)\r\n         else\r\n            die(\"Invalid assignment: \"..arg)\r\n         end\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "local var, val = arg:match(\"^([A-Z_][A-Z0-9_]*)=(.*)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "if val then\r\n            cmdline_vars[var] = val\r\n            table.remove(args, i)\r\n         else\r\n            die(\"Invalid assignment: \"..arg)\r\n         end",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "cmdline_vars[var] = val",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "table.remove(args, i)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "die(\"Invalid assignment: \"..arg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "local nonflags = { util.parse_flags(unpack(args)) }",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "local flags = table.remove(nonflags, 1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "if flags[\"from\"] then flags[\"server\"] = flags[\"from\"] end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "flags[\"server\"] = flags[\"from\"]",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "if flags[\"only-from\"] then flags[\"only-server\"] = flags[\"only-from\"] end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "flags[\"only-server\"] = flags[\"only-from\"]",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "if flags[\"only-sources-from\"] then flags[\"only-sources\"] = flags[\"only-sources-from\"] end",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "flags[\"only-sources\"] = flags[\"only-sources-from\"]",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "if flags[\"to\"] then flags[\"tree\"] = flags[\"to\"] end",
+    "type": "statement:if"
+  }, {
+    "id": 40,
+    "text": "flags[\"tree\"] = flags[\"to\"]",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "if flags[\"nodeps\"] then\r\n      flags[\"deps-mode\"] = \"none\"\r\n      table.insert(args, \"--deps-mode=none\")\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 42,
+    "text": "flags[\"deps-mode\"] = \"none\"",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "table.insert(args, \"--deps-mode=none\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "cfg.flags = flags",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "local command",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "if flags[\"verbose\"] then   -- setting it in the config file will kick-in earlier in the process\r\n      cfg.verbose = true\r\n      local fs = require(\"luarocks.fs\")\r\n      fs.verbose()\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "cfg.verbose = true",
+    "type": "statement:assign"
+  }, {
+    "id": 48,
+    "text": "local fs = require(\"luarocks.fs\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 49,
+    "text": "fs.verbose()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 50,
+    "text": "if flags[\"version\"] then\r\n      util.printout(program..\" \"..cfg.program_version)\r\n      util.printout(program_description)\r\n      util.printout()\r\n      os.exit(cfg.errorcodes.OK)\r\n   elseif flags[\"help\"] or #nonflags == 0 then\r\n      command = \"help\"\r\n      args = nonflags\r\n   else\r\n      command = nonflags[1]\r\n      for i, arg in ipairs(args) do\r\n         if arg == command then\r\n            table.remove(args, i)\r\n            break\r\n         end\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "util.printout(program..\" \"..cfg.program_version)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 52,
+    "text": "util.printout(program_description)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 53,
+    "text": "util.printout()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 54,
+    "text": "os.exit(cfg.errorcodes.OK)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 55,
+    "text": "command = \"help\"",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "args = nonflags",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "command = nonflags[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "for i, arg in ipairs(args) do\r\n         if arg == command then\r\n            table.remove(args, i)\r\n            break\r\n         end\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 59,
+    "text": "if arg == command then\r\n            table.remove(args, i)\r\n            break\r\n         end",
+    "type": "statement:if"
+  }, {
+    "id": 60,
+    "text": "command = command:gsub(\"-\", \"_\")",
+    "type": "statement:assign"
+  }, {
+    "id": 61,
+    "text": "if flags[\"extensions\"] then\r\n      cfg.use_extensions = true\r\n      local type_check = require(\"luarocks.type_check\")\r\n      type_check.load_extensions()\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 62,
+    "text": "cfg.use_extensions = true",
+    "type": "statement:assign"
+  }, {
+    "id": 63,
+    "text": "local type_check = require(\"luarocks.type_check\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 64,
+    "text": "type_check.load_extensions()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 65,
+    "text": "if cfg.local_by_default then\r\n      flags[\"local\"] = true\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 66,
+    "text": "flags[\"local\"] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 67,
+    "text": "if flags[\"deps-mode\"] and not deps.check_deps_mode_flag(flags[\"deps-mode\"]) then\r\n      die(\"Invalid entry for --deps-mode.\")\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 68,
+    "text": "die(\"Invalid entry for --deps-mode.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 69,
+    "text": "if flags[\"tree\"] then\r\n      if flags[\"tree\"] == true or flags[\"tree\"] == \"\" then\r\n         die(\"Argument error: use --tree=<path>\")\r\n      end\r\n      local named = false\r\n      for _, tree in ipairs(cfg.rocks_trees) do\r\n         if type(tree) == \"table\" and flags[\"tree\"] == tree.name then\r\n            if not tree.root then\r\n               die(\"Configuration error: tree '\"..tree.name..\"' has no 'root' field.\")\r\n            end\r\n            replace_tree(flags, args, tree.root)\r\n            named = true\r\n            break\r\n         end\r\n      end\r\n      if not named then\r\n         local fs = require(\"luarocks.fs\")\r\n         local root_dir = fs.absolute_name(flags[\"tree\"])\r\n         replace_tree(flags, args, root_dir)\r\n      end\r\n   elseif flags[\"local\"] then\r\n      replace_tree(flags, args, cfg.home_tree)\r\n   else\r\n      local trees = cfg.rocks_trees\r\n      path.use_tree(trees[#trees])\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 70,
+    "text": "if flags[\"tree\"] == true or flags[\"tree\"] == \"\" then\r\n         die(\"Argument error: use --tree=<path>\")\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 71,
+    "text": "die(\"Argument error: use --tree=<path>\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 72,
+    "text": "local named = false",
+    "type": "statement:localassign"
+  }, {
+    "id": 73,
+    "text": "for _, tree in ipairs(cfg.rocks_trees) do\r\n         if type(tree) == \"table\" and flags[\"tree\"] == tree.name then\r\n            if not tree.root then\r\n               die(\"Configuration error: tree '\"..tree.name..\"' has no 'root' field.\")\r\n            end\r\n            replace_tree(flags, args, tree.root)\r\n            named = true\r\n            break\r\n         end\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 74,
+    "text": "if type(tree) == \"table\" and flags[\"tree\"] == tree.name then\r\n            if not tree.root then\r\n               die(\"Configuration error: tree '\"..tree.name..\"' has no 'root' field.\")\r\n            end\r\n            replace_tree(flags, args, tree.root)\r\n            named = true\r\n            break\r\n         end",
+    "type": "statement:if"
+  }, {
+    "id": 75,
+    "text": "if not tree.root then\r\n               die(\"Configuration error: tree '\"..tree.name..\"' has no 'root' field.\")\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 76,
+    "text": "die(\"Configuration error: tree '\"..tree.name..\"' has no 'root' field.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 77,
+    "text": "replace_tree(flags, args, tree.root)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 78,
+    "text": "named = true",
+    "type": "statement:assign"
+  }, {
+    "id": 79,
+    "text": "if not named then\r\n         local fs = require(\"luarocks.fs\")\r\n         local root_dir = fs.absolute_name(flags[\"tree\"])\r\n         replace_tree(flags, args, root_dir)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 80,
+    "text": "local root_dir = fs.absolute_name(flags[\"tree\"])",
+    "type": "statement:localassign"
+  }, {
+    "id": 81,
+    "text": "replace_tree(flags, args, root_dir)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 82,
+    "text": "replace_tree(flags, args, cfg.home_tree)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 83,
+    "text": "local trees = cfg.rocks_trees",
+    "type": "statement:localassign"
+  }, {
+    "id": 84,
+    "text": "path.use_tree(trees[#trees])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 85,
+    "text": "if type(cfg.root_dir) == \"string\" then\r\n     cfg.root_dir = cfg.root_dir:gsub(\"/+$\", \"\")\r\n   else\r\n     cfg.root_dir.root = cfg.root_dir.root:gsub(\"/+$\", \"\")\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 86,
+    "text": "cfg.root_dir = cfg.root_dir:gsub(\"/+$\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 87,
+    "text": "cfg.root_dir.root = cfg.root_dir.root:gsub(\"/+$\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 88,
+    "text": "cfg.rocks_dir = cfg.rocks_dir:gsub(\"/+$\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 89,
+    "text": "cfg.deploy_bin_dir = cfg.deploy_bin_dir:gsub(\"/+$\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 90,
+    "text": "cfg.deploy_lua_dir = cfg.deploy_lua_dir:gsub(\"/+$\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 91,
+    "text": "cfg.deploy_lib_dir = cfg.deploy_lib_dir:gsub(\"/+$\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 92,
+    "text": "cfg.variables.ROCKS_TREE = cfg.rocks_dir",
+    "type": "statement:assign"
+  }, {
+    "id": 93,
+    "text": "cfg.variables.SCRIPTS_DIR = cfg.deploy_bin_dir",
+    "type": "statement:assign"
+  }, {
+    "id": 94,
+    "text": "if flags[\"server\"] then\r\n      if flags[\"server\"] == true then\r\n         die(\"Argument error: use --server=<url>\")\r\n      end\r\n      local protocol, path = dir.split_url(flags[\"server\"])\r\n      table.insert(cfg.rocks_servers, 1, protocol..\"://\"..path)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 95,
+    "text": "if flags[\"server\"] == true then\r\n         die(\"Argument error: use --server=<url>\")\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 96,
+    "text": "die(\"Argument error: use --server=<url>\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 97,
+    "text": "local protocol, path = dir.split_url(flags[\"server\"])",
+    "type": "statement:localassign"
+  }, {
+    "id": 98,
+    "text": "table.insert(cfg.rocks_servers, 1, protocol..\"://\"..path)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 99,
+    "text": "if flags[\"only-server\"] then\r\n      if flags[\"only-server\"] == true then\r\n         die(\"Argument error: use --only-server=<url>\")\r\n      end\r\n      cfg.rocks_servers = { flags[\"only-server\"] }\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 100,
+    "text": "if flags[\"only-server\"] == true then\r\n         die(\"Argument error: use --only-server=<url>\")\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 101,
+    "text": "die(\"Argument error: use --only-server=<url>\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 102,
+    "text": "cfg.rocks_servers = { flags[\"only-server\"] }",
+    "type": "statement:assign"
+  }, {
+    "id": 103,
+    "text": "if flags[\"only-sources\"] then\r\n      cfg.only_sources_from = flags[\"only-sources\"]\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 104,
+    "text": "cfg.only_sources_from = flags[\"only-sources\"]",
+    "type": "statement:assign"
+  }, {
+    "id": 105,
+    "text": "if command ~= \"help\" then\r\n      for k, v in pairs(cmdline_vars) do\r\n         cfg.variables[k] = v\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 106,
+    "text": "for k, v in pairs(cmdline_vars) do\r\n         cfg.variables[k] = v\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 107,
+    "text": "cfg.variables[k] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 108,
+    "text": "if commands[command] then\r\n      -- TODO the interface of run should be modified, to receive the\r\n      -- flags table and the (possibly unpacked) nonflags arguments.\r\n      -- This would remove redundant parsing of arguments.\r\n      -- I'm not changing this now to avoid messing with the run()\r\n      -- interface, which I know some people use (even though\r\n      -- I never published it as a public API...)\r\n      local cmd = require(commands[command])\r\n      local xp, ok, err, exitcode = xpcall(function() return cmd.run(unpack(args)) end, function(err)\r\n         die(debug.traceback(\"LuaRocks \"..cfg.program_version\r\n            ..\" bug (please report at luarocks-developers@lists.sourceforge.net).\\n\"\r\n            ..err, 2))\r\n      end)\r\n      if xp and (not ok) then\r\n         die(err, exitcode)\r\n      end\r\n   else\r\n      die(\"Unknown command: \"..command)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 109,
+    "text": "local cmd = require(commands[command])",
+    "type": "statement:localassign"
+  }, {
+    "id": 110,
+    "text": "local xp, ok, err, exitcode = xpcall(function() return cmd.run(unpack(args)) end, function(err)\r\n         die(debug.traceback(\"LuaRocks \"..cfg.program_version\r\n            ..\" bug (please report at luarocks-developers@lists.sourceforge.net).\\n\"\r\n            ..err, 2))\r\n      end)",
+    "type": "statement:localassign"
+  }, {
+    "id": 111,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 112,
+    "text": "die(debug.traceback(\"LuaRocks \"..cfg.program_version\r\n            ..\" bug (please report at luarocks-developers@lists.sourceforge.net).\\n\"\r\n            ..err, 2))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 113,
+    "text": "if xp and (not ok) then\r\n         die(err, exitcode)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 114,
+    "text": "die(err, exitcode)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 115,
+    "text": "die(\"Unknown command: \"..command)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 116,
+    "text": "util.run_scheduled_functions()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 118,
+    "text": "function() return cmd.run(unpack(args)) end",
+    "type": "function"
+  }, {
+    "id": 119,
+    "text": "function(err)\r\n         die(debug.traceback(\"LuaRocks \"..cfg.program_version\r\n            ..\" bug (please report at luarocks-developers@lists.sourceforge.net).\\n\"\r\n            ..err, 2))\r\n      end",
+    "type": "function"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 122,
+    "text": "function check_deps_mode_flag(flag)\r\n   return valid_deps_modes[flag]\r\nend",
+    "type": "function"
+  }, {
+    "id": 123,
+    "text": "function split_url(url)\r\n   assert(type(url) == \"string\")\r\n   \r\n   local protocol, pathname = url:match(\"^([^:]*)://(.*)\")\r\n   if not protocol then\r\n      protocol = \"file\"\r\n      pathname = url\r\n   end\r\n   return protocol, pathname\r\nend",
+    "type": "function"
+  }, {
+    "id": 124,
+    "text": "function normalize(name)\r\n   local protocol, pathname = split_url(name)\r\n   pathname = pathname:gsub(\"\\\\\", \"/\"):gsub(\"(.)/*$\", \"%1\"):gsub(\"//\", \"/\")\r\n   if protocol ~= \"file\" then pathname = protocol ..\"://\"..pathname end\r\n   return pathname\r\nend",
+    "type": "function"
+  }, {
+    "id": 125,
+    "text": "function use_tree(tree)\r\n   cfg.root_dir = tree\r\n   cfg.rocks_dir = rocks_dir(tree)\r\n   cfg.deploy_bin_dir = deploy_bin_dir(tree)\r\n   cfg.deploy_lua_dir = deploy_lua_dir(tree)\r\n   cfg.deploy_lib_dir = deploy_lib_dir(tree)\r\nend",
+    "type": "function"
+  }, {
+    "id": 126,
+    "text": "function load_extensions()\r\n   rockspec_format = \"1.1\"\r\n   rockspec_types.deploy = {\r\n      wrap_bin_scripts = true,\r\n   }\r\nend",
+    "type": "function"
+  }, {
+    "id": 127,
+    "text": "function run_scheduled_functions()\r\n   local fs = require(\"luarocks.fs\")\r\n   fs.change_dir_to_root()\r\n   for i = #scheduled_functions, 1, -1 do\r\n      local item = scheduled_functions[i]\r\n      item.fn(unpack(item.args))\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 128,
+    "text": "function parse_flags(...)\r\n   local args = {...}\r\n   local flags = {}\r\n   for i = #args, 1, -1 do\r\n      local flag = args[i]:match(\"^%-%-(.*)\")\r\n      if flag then\r\n         local var,val = flag:match(\"([a-z_%-]*)=(.*)\")\r\n         if val then\r\n            flags[var] = val\r\n         else\r\n            flags[flag] = true\r\n         end\r\n         table.remove(args, i)\r\n      end\r\n   end\r\n   return flags, unpack(args)\r\nend",
+    "type": "function"
+  }, {
+    "id": 129,
+    "text": "function printout(...)\r\n   io.stdout:write(table.concat({...},\"\\t\"))\r\n   io.stdout:write(\"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 130,
+    "text": "function printerr(...)\r\n   io.stderr:write(table.concat({...},\"\\t\"))\r\n   io.stderr:write(\"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 131,
+    "text": "function this_program(default)\r\n   local i = 1\r\n   local last, cur = default, default\r\n   while i do\r\n      local dbg = debug.getinfo(i,\"S\")\r\n      if not dbg then break end\r\n      last = cur\r\n      cur = dbg.source\r\n      i=i+1\r\n   end\r\n   return last:sub(2)\r\nend",
+    "type": "function"
+  }, {
+    "id": 132,
+    "text": "absolute_name",
+    "type": "global function"
+  }, {
+    "id": 133,
+    "text": "verbose",
+    "type": "global function"
+  }, {
+    "id": 134,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 135,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 136,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 137,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 138,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 139,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 140,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 141,
+    "text": "xpcall",
+    "type": "global function"
+  }, {
+    "id": 142,
+    "text": "traceback",
+    "type": "global function"
+  }, {
+    "id": 143,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 144,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 145,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 146,
+    "text": "run",
+    "type": "global function"
+  }, {
+    "id": 147,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 148,
+    "text": "cfg)",
+    "type": "module"
+  }, {
+    "id": 149,
+    "text": "util)",
+    "type": "module"
+  }, {
+    "id": 150,
+    "text": "dir)",
+    "type": "module"
+  }, {
+    "id": 151,
+    "text": "fs)",
+    "type": "module"
+  }, {
+    "id": 152,
+    "text": "path)",
+    "type": "module"
+  }, {
+    "id": 153,
+    "text": "deps)",
+    "type": "module"
+  }, {
+    "id": 154,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 155,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 156,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 157,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 158,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 159,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 160,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 161,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 162,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 163,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 164,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 165,
+    "text": "type_check)",
+    "type": "module"
+  }, {
+    "id": 166,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 167,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 168,
+    "text": "(commands[command])",
+    "type": "module"
+  }, {
+    "id": 169,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 170,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 171,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 172,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 173,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

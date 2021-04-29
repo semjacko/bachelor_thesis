@@ -1,0 +1,305 @@
+{
+  "_filename": "basic_auth.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wsapi_basic_auth/wsapi/basic_auth.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "requires",
+    "to": 32
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "basic_auth",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function run(wsapi_env, realm, run_fn, check_fn, ...)\r\n   local req = request.new(wsapi_env)\r\n   local http_authorization = req.env[\"HTTP_AUTHORIZATION\"]\r\n   if http_authorization then\r\n      local scheme, credential = http_authorization:match(\"(%S+)%s(%S+)\")\r\n      if scheme and credential then\r\n         local user, password = base64.decode(credential):match(\"(.*):(.*)\")\r\n         wsapi_env.basic_auth = { user = user, password = password }\r\n         if check_fn then\r\n            if check_fn(user, password, ...) then\r\n               return run_fn(wsapi_env)\r\n            else\r\n               local res = response.new()\r\n               res.status = 403\r\n               return res:finish()\r\n            end\r\n         else\r\n            return run_fn(wsapi_env)\r\n         end\r\n      end\r\n   end\r\n   local res = response.new()\r\n   res.headers[\"WWW-Authenticate\"] = \"Basic realm=\"..realm\r\n   res.status = 401\r\n   return res:finish()\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local req = request.new(wsapi_env)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local http_authorization = req.env[\"HTTP_AUTHORIZATION\"]",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if http_authorization then\r\n      local scheme, credential = http_authorization:match(\"(%S+)%s(%S+)\")\r\n      if scheme and credential then\r\n         local user, password = base64.decode(credential):match(\"(.*):(.*)\")\r\n         wsapi_env.basic_auth = { user = user, password = password }\r\n         if check_fn then\r\n            if check_fn(user, password, ...) then\r\n               return run_fn(wsapi_env)\r\n            else\r\n               local res = response.new()\r\n               res.status = 403\r\n               return res:finish()\r\n            end\r\n         else\r\n            return run_fn(wsapi_env)\r\n         end\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "local scheme, credential = http_authorization:match(\"(%S+)%s(%S+)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if scheme and credential then\r\n         local user, password = base64.decode(credential):match(\"(.*):(.*)\")\r\n         wsapi_env.basic_auth = { user = user, password = password }\r\n         if check_fn then\r\n            if check_fn(user, password, ...) then\r\n               return run_fn(wsapi_env)\r\n            else\r\n               local res = response.new()\r\n               res.status = 403\r\n               return res:finish()\r\n            end\r\n         else\r\n            return run_fn(wsapi_env)\r\n         end\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "local user, password = base64.decode(credential):match(\"(.*):(.*)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "wsapi_env.basic_auth = { user = user, password = password }",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "if check_fn then\r\n            if check_fn(user, password, ...) then\r\n               return run_fn(wsapi_env)\r\n            else\r\n               local res = response.new()\r\n               res.status = 403\r\n               return res:finish()\r\n            end\r\n         else\r\n            return run_fn(wsapi_env)\r\n         end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "if check_fn(user, password, ...) then\r\n               return run_fn(wsapi_env)\r\n            else\r\n               local res = response.new()\r\n               res.status = 403\r\n               return res:finish()\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "local res = response.new()",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "res.status = 403",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 15,
+    "text": "res.headers[\"WWW-Authenticate\"] = \"Basic realm=\"..realm",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "res.status = 401",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 19,
+    "text": "decode",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "run_fn",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "check_fn",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 28,
+    "text": "request)",
+    "type": "module"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 30,
+    "text": "response)",
+    "type": "module"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 32,
+    "text": "(base64)",
+    "type": "module"
+  } ]
+}

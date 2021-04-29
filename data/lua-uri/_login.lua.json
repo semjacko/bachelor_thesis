@@ -1,0 +1,673 @@
+{
+  "_filename": "_login.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/_login.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 59,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 60,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 61
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "initializes",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "assigns",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "assigns",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "assigns",
+    "to": 66
+  }, {
+    "from": 62,
+    "label": "initializes",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 62,
+    "label": "initializes",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 69
+  }, {
+    "from": 58,
+    "label": "represents",
+    "to": 70
+  }, {
+    "from": 69,
+    "label": "provides",
+    "to": 70
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "_login",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "uri",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "local function _valid_userinfo (userinfo)\r\n    if userinfo then\r\n        local colon = userinfo:find(\":\")\r\n        if colon and userinfo:find(\":\", colon + 1) then\r\n            return nil, \"only one colon allowed in userinfo\"\r\n        end\r\n    end\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "if userinfo then\r\n        local colon = userinfo:find(\":\")\r\n        if colon and userinfo:find(\":\", colon + 1) then\r\n            return nil, \"only one colon allowed in userinfo\"\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "local colon = userinfo:find(\":\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if colon and userinfo:find(\":\", colon + 1) then\r\n            return nil, \"only one colon allowed in userinfo\"\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function M.init_base (self)\r\n    local host = self:host()\r\n    if not host or host == \"\" then\r\n        return nil, \"host missing from login URI\"\r\n    end\r\n\r\n    local ok, err = _valid_userinfo(self:userinfo())\r\n    if not ok then return nil, err end\r\n\r\n    return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local host = self:host()",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "if not host or host == \"\" then\r\n        return nil, \"host missing from login URI\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "local ok, err = _valid_userinfo(self:userinfo())",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "if not ok then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function M.userinfo (self, ...)\r\n    if select(\"#\", ...) > 0 then\r\n        local ok, err = _valid_userinfo(...)\r\n        if not ok then error(\"invalid userinfo value (\" .. err .. \")\") end\r\n    end\r\n    return M._SUPER.userinfo(self, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "if select(\"#\", ...) > 0 then\r\n        local ok, err = _valid_userinfo(...)\r\n        if not ok then error(\"invalid userinfo value (\" .. err .. \")\") end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "local ok, err = _valid_userinfo(...)",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "if not ok then error(\"invalid userinfo value (\" .. err .. \")\") end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "error(\"invalid userinfo value (\" .. err .. \")\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function M.username (self, ...)\r\n    local info = M._SUPER.userinfo(self)\r\n    local old, colon\r\n    if info then\r\n        local colon = info and info:find(\":\")\r\n        old = colon and info:sub(1, colon - 1) or info\r\n        old = Util.uri_decode(old)\r\n    end\r\n\r\n    if select('#', ...) > 0 then\r\n        local pass = colon and info:sub(colon) or \"\"    -- includes colon\r\n        local new = ...\r\n        if not new then\r\n            M._SUPER.userinfo(self, nil)\r\n        else\r\n            -- Escape anything that's not allowed in a userinfo, and also\r\n            -- colon, because that indicates the end of the username.\r\n            new = Util.uri_encode(new, \"^A-Za-z0-9%-._~!$&'()*+,;=\")\r\n            M._SUPER.userinfo(self, new .. pass)\r\n        end\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "local info = M._SUPER.userinfo(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "local old, colon",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "if info then\r\n        local colon = info and info:find(\":\")\r\n        old = colon and info:sub(1, colon - 1) or info\r\n        old = Util.uri_decode(old)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "local colon = info and info:find(\":\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "old = colon and info:sub(1, colon - 1) or info",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "old = Util.uri_decode(old)",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "if select('#', ...) > 0 then\r\n        local pass = colon and info:sub(colon) or \"\"    -- includes colon\r\n        local new = ...\r\n        if not new then\r\n            M._SUPER.userinfo(self, nil)\r\n        else\r\n            -- Escape anything that's not allowed in a userinfo, and also\r\n            -- colon, because that indicates the end of the username.\r\n            new = Util.uri_encode(new, \"^A-Za-z0-9%-._~!$&'()*+,;=\")\r\n            M._SUPER.userinfo(self, new .. pass)\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "local pass = colon and info:sub(colon) or \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "local new = ...",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "if not new then\r\n            M._SUPER.userinfo(self, nil)\r\n        else\r\n            -- Escape anything that's not allowed in a userinfo, and also\r\n            -- colon, because that indicates the end of the username.\r\n            new = Util.uri_encode(new, \"^A-Za-z0-9%-._~!$&'()*+,;=\")\r\n            M._SUPER.userinfo(self, new .. pass)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "M._SUPER.userinfo(self, nil)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 34,
+    "text": "new = Util.uri_encode(new, \"^A-Za-z0-9%-._~!$&'()*+,;=\")",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "M._SUPER.userinfo(self, new .. pass)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "function M.password (self, ...)\r\n    local info = M._SUPER.userinfo(self)\r\n    local old, colon\r\n    if info then\r\n        colon = info and info:find(\":\")\r\n        old = colon and info:sub(colon + 1) or nil\r\n        if old then old = Util.uri_decode(old) end\r\n    end\r\n\r\n    if select('#', ...) > 0 then\r\n        local new = ...\r\n        local user = colon and info:sub(1, colon - 1) or info\r\n        if not new then\r\n            M._SUPER.userinfo(self, user)\r\n        else\r\n            if not user then user = \"\" end\r\n            new = Util.uri_encode(new, \"^A-Za-z0-9%-._~!$&'()*+,;=\")\r\n            M._SUPER.userinfo(self, user .. \":\" .. new)\r\n        end\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "if info then\r\n        colon = info and info:find(\":\")\r\n        old = colon and info:sub(colon + 1) or nil\r\n        if old then old = Util.uri_decode(old) end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "colon = info and info:find(\":\")",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "old = colon and info:sub(colon + 1) or nil",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "if old then old = Util.uri_decode(old) end",
+    "type": "statement:if"
+  }, {
+    "id": 42,
+    "text": "if select('#', ...) > 0 then\r\n        local new = ...\r\n        local user = colon and info:sub(1, colon - 1) or info\r\n        if not new then\r\n            M._SUPER.userinfo(self, user)\r\n        else\r\n            if not user then user = \"\" end\r\n            new = Util.uri_encode(new, \"^A-Za-z0-9%-._~!$&'()*+,;=\")\r\n            M._SUPER.userinfo(self, user .. \":\" .. new)\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 43,
+    "text": "local user = colon and info:sub(1, colon - 1) or info",
+    "type": "statement:localassign"
+  }, {
+    "id": 44,
+    "text": "if not new then\r\n            M._SUPER.userinfo(self, user)\r\n        else\r\n            if not user then user = \"\" end\r\n            new = Util.uri_encode(new, \"^A-Za-z0-9%-._~!$&'()*+,;=\")\r\n            M._SUPER.userinfo(self, user .. \":\" .. new)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 45,
+    "text": "M._SUPER.userinfo(self, user)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 46,
+    "text": "if not user then user = \"\" end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "user = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 48,
+    "text": "M._SUPER.userinfo(self, user .. \":\" .. new)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 51,
+    "text": "uri_decode",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "uri_encode",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "subclass_of",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "M._SUPER.userinfo",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "interface"
+  } ]
+}

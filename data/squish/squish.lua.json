@@ -1,0 +1,885 @@
+{
+  "_filename": "squish.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/squish/squish.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 93
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 90
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 85
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 35
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 45
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 54
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 59
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 61
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 70
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 71
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 73
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 75
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 77
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 78
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 81
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 83
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 95
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "initializes",
+    "to": 97
+  }, {
+    "from": 97,
+    "label": "requires",
+    "to": 98
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "squish",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "squish",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "function () end",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function Module(name)\r\n\tif modules[name] then\r\n\t\tprint_verbose(\"Ignoring duplicate module definition for \"..name);\r\n\t\treturn function () end\r\n\tend\r\n\tlocal i = #modules+1;\r\n\tmodules[i] = { name = name, url = ___fetch_url };\r\n\tmodules[name] = modules[i];\r\n\treturn function (path)\r\n\t\tmodules[i].path = path;\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "if modules[name] then\r\n\t\tprint_verbose(\"Ignoring duplicate module definition for \"..name);\r\n\t\treturn function () end\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "print_verbose(\"Ignoring duplicate module definition for \"..name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "local i = #modules+1",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "modules[i] = { name = name, url = ___fetch_url }",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "modules[name] = modules[i]",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "modules[i].path = path",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function Resource(name, path)\r\n\tlocal i = #resources+1;\r\n\tresources[i] = { name = name, path = path or name };\r\n\treturn function (path)\r\n\t\tresources[i].path = path;\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "local i = #resources+1",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "resources[i] = { name = name, path = path or name }",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "resources[i].path = path",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "function AutoFetchURL(url)\r\n\t___fetch_url = url;\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "___fetch_url = url",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function Main(fn)\r\n\ttable.insert(main_files, fn);\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "table.insert(main_files, fn)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function Output(fn)\r\n\tif opts.output == nil then\r\n\t\tout_fn = fn;\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "if opts.output == nil then\r\n\t\tout_fn = fn;\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "out_fn = fn",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "function Option(name)\r\n\tname = name:gsub(\"%-\", \"_\");\r\n\tif opts[name] == nil then\r\n\t\topts[name] = true;\r\n\t\treturn function (value)\r\n\t\t\topts[name] = value;\r\n\t\tend\r\n\telse\r\n\t\treturn function () end;\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "name = name:gsub(\"%-\", \"_\")",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "if opts[name] == nil then\r\n\t\topts[name] = true;\r\n\t\treturn function (value)\r\n\t\t\topts[name] = value;\r\n\t\tend\r\n\telse\r\n\t\treturn function () end;\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "opts[name] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "opts[name] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 35,
+    "text": "function GetOption(name)\r\n\treturn opts[name:gsub('%-', '_')];\r\nend",
+    "type": "function"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "function Message(message)\r\n\tif not opts.quiet then\r\n\t\tprint_info(message);\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "if not opts.quiet then\r\n\t\tprint_info(message);\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "print_info(message)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 41,
+    "text": "function Error(message)\r\n\tif not opts.very_quiet then\r\n\t\tprint_err(message);\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "if not opts.very_quiet then\r\n\t\tprint_err(message);\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 43,
+    "text": "print_err(message)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 45,
+    "text": "function Exit()\r\n\tos.exit(1);\r\nend",
+    "type": "function"
+  }, {
+    "id": 46,
+    "text": "os.exit(1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 48,
+    "text": "function fetch.filesystem(path)\r\n\tlocal f, err = io.open(path);\r\n\tif not f then return false, err; end\r\n\t\r\n\tlocal data = f:read(\"*a\");\r\n\tf:close();\r\n\t\r\n\treturn data;\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "local f, err = io.open(path)",
+    "type": "statement:localassign"
+  }, {
+    "id": 50,
+    "text": "if not f then return false, err; end",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "local data = f:read(\"*a\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "f:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 54,
+    "text": "function fetch.http(url)\r\n\t\tlocal http = require \"socket.http\";\r\n\t\t\r\n\t\tlocal body, status = http.request(url);\r\n\t\tif status == 200 then\r\n\t\t\treturn body;\r\n\t\tend\r\n\t\treturn false, \"HTTP status code: \"..tostring(status);\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "local http = require \"socket.http\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 56,
+    "text": "local body, status = http.request(url)",
+    "type": "statement:localassign"
+  }, {
+    "id": 57,
+    "text": "if status == 200 then\r\n\t\t\treturn body;\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 59,
+    "text": "function fetch.http(url)\r\n\t\treturn false, \"Module not found. Re-squish with --use-http option to fetch it from \"..url;\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 61,
+    "text": "function resolve_module(name, path)\r\n\t        name = name:gsub(\"%.\", LUA_DIRSEP);\r\n\t        for c in path:gmatch(\"[^;]+\") do\r\n\t                c = c:gsub(\"%\"..LUA_PATH_MARK, name);\r\n\t                print_debug(\"Looking for \"..c)\r\n\t                local f = io.open(c);\r\n\t                if f then\r\n\t                \tprint_debug(\"Found!\");\r\n\t                        f:close();\r\n                        return c;\r\n                \tend\r\n        \tend\r\n        \treturn nil; -- not found\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 62,
+    "text": "name = name:gsub(\"%.\", LUA_DIRSEP)",
+    "type": "statement:assign"
+  }, {
+    "id": 63,
+    "text": "for c in path:gmatch(\"[^;]+\") do\r\n\t                c = c:gsub(\"%\"..LUA_PATH_MARK, name);\r\n\t                print_debug(\"Looking for \"..c)\r\n\t                local f = io.open(c);\r\n\t                if f then\r\n\t                \tprint_debug(\"Found!\");\r\n\t                        f:close();\r\n                        return c;\r\n                \tend\r\n        \tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 64,
+    "text": "c = c:gsub(\"%\"..LUA_PATH_MARK, name)",
+    "type": "statement:assign"
+  }, {
+    "id": 65,
+    "text": "print_debug(\"Looking for \"..c)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 66,
+    "text": "local f = io.open(c)",
+    "type": "statement:localassign"
+  }, {
+    "id": 67,
+    "text": "if f then\r\n\t                \tprint_debug(\"Found!\");\r\n\t                        f:close();\r\n                        return c;\r\n                \tend",
+    "type": "statement:if"
+  }, {
+    "id": 68,
+    "text": "print_debug(\"Found!\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 70,
+    "text": "function () end",
+    "type": "function"
+  }, {
+    "id": 71,
+    "text": "function (path)\r\n\t\tmodules[i].path = path;\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 73,
+    "text": "function (path)\r\n\t\tresources[i].path = path;\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 75,
+    "text": "function (value)\r\n\t\t\topts[name] = value;\r\n\t\tend",
+    "type": "function"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 77,
+    "text": "function () end",
+    "type": "function"
+  }, {
+    "id": 78,
+    "text": "function (path)\r\n\t\t\tif not path:match(\"^%\"..LUA_DIRSEP) then\r\n\t\t\t\treturn base_path..path;\r\n\t\t\tend\r\n\t\tend",
+    "type": "function"
+  }, {
+    "id": 79,
+    "text": "if not path:match(\"^%\"..LUA_DIRSEP) then\r\n\t\t\t\treturn base_path..path;\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 81,
+    "text": "function (path)\r\n\t\t\tif not path:match(\"^%\"..LUA_DIRSEP) then\r\n\t\t\t\treturn base_path..path;\r\n\t\t\tend\r\n\t\tend",
+    "type": "function"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 83,
+    "text": "function (equals_string) maxequals = math.max(maxequals, #equals_string); end",
+    "type": "function"
+  }, {
+    "id": 84,
+    "text": "maxequals = math.max(maxequals, #equals_string)",
+    "type": "statement:assign"
+  }, {
+    "id": 85,
+    "text": "request",
+    "type": "global function"
+  }, {
+    "id": 86,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 87,
+    "text": "print_debug",
+    "type": "global function"
+  }, {
+    "id": 88,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 89,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 90,
+    "text": "print_err",
+    "type": "global function"
+  }, {
+    "id": 91,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 92,
+    "text": "print_verbose",
+    "type": "global function"
+  }, {
+    "id": 93,
+    "text": "print_info",
+    "type": "global function"
+  }, {
+    "id": 94,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 97,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 98,
+    "text": "http",
+    "type": "module"
+  } ]
+}

@@ -1,0 +1,545 @@
+{
+  "_filename": "issn.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/urn/issn.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 41,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 41,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 41,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 41,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 41,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 49
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 49,
+    "label": "initializes",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "assigns",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "assigns",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "assigns",
+    "to": 54
+  }, {
+    "from": 50,
+    "label": "initializes",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 50,
+    "label": "initializes",
+    "to": 56
+  }, {
+    "from": 56,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 57
+  }, {
+    "from": 48,
+    "label": "represents",
+    "to": 58
+  }, {
+    "from": 57,
+    "label": "provides",
+    "to": 58
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "issn",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "urn",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "local function _parse_issn (issn)\r\n    local _, _, nums1, nums2, checksum\r\n        = issn:find(\"^(%d%d%d%d)-?(%d%d%d)([%dxX])$\")\r\n    if checksum == \"x\" then checksum = \"X\" end\r\n    return nums1, nums2, checksum\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local _, _, nums1, nums2, checksum\r\n        = issn:find(\"^(%d%d%d%d)-?(%d%d%d)([%dxX])$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "if checksum == \"x\" then checksum = \"X\" end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "checksum = \"X\"",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "local function _valid_issn (issn)\r\n    local nums1, nums2, actual_checksum = _parse_issn(issn)\r\n    if not nums1 then return nil, \"invalid ISSN syntax\" end\r\n    local nums = nums1 .. nums2\r\n\r\n    local expected_checksum = 0\r\n    for i = 1, 7 do\r\n        expected_checksum = expected_checksum + tonumber(nums:sub(i, i)) * (9 - i)\r\n    end\r\n    expected_checksum = (11 - expected_checksum % 11) % 11\r\n    expected_checksum = (expected_checksum == 10) and \"X\"\r\n                                                  or tostring(expected_checksum)\r\n    if actual_checksum ~= expected_checksum then\r\n        return nil, \"wrong checksum, expected \" .. expected_checksum\r\n    end\r\n\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local nums1, nums2, actual_checksum = _parse_issn(issn)",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "if not nums1 then return nil, \"invalid ISSN syntax\" end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "local nums = nums1 .. nums2",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local expected_checksum = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "for i = 1, 7 do\r\n        expected_checksum = expected_checksum + tonumber(nums:sub(i, i)) * (9 - i)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 16,
+    "text": "expected_checksum = expected_checksum + tonumber(nums:sub(i, i)) * (9 - i)",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "expected_checksum = (11 - expected_checksum % 11) % 11",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "expected_checksum = (expected_checksum == 10) and \"X\"\r\n                                                  or tostring(expected_checksum)",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "if actual_checksum ~= expected_checksum then\r\n        return nil, \"wrong checksum, expected \" .. expected_checksum\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "local function _normalize_issn (issn)\r\n    local nums1, nums2, checksum = _parse_issn(issn)\r\n    return nums1 .. \"-\" .. nums2 .. checksum\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "local nums1, nums2, checksum = _parse_issn(issn)",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function M.init (self)\r\n    local nss = self:nss()\r\n    local ok, msg = _valid_issn(nss)\r\n    if not ok then return nil, \"bad NSS value for ISSN URI (\" .. msg .. \")\" end\r\n    M._SUPER.nss(self, _normalize_issn(nss))\r\n    return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "local nss = self:nss()",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "local ok, msg = _valid_issn(nss)",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "if not ok then return nil, \"bad NSS value for ISSN URI (\" .. msg .. \")\" end",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "M._SUPER.nss(self, _normalize_issn(nss))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function M.nss (self, new)\r\n    local old = M._SUPER.nss(self)\r\n\r\n    if new then\r\n        local ok, msg = _valid_issn(new)\r\n        if not ok then\r\n            error(\"bad ISSN value '\" .. new .. \"' (\" .. msg .. \")\")\r\n        end\r\n        M._SUPER.nss(self, _normalize_issn(new))\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "local old = M._SUPER.nss(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "if new then\r\n        local ok, msg = _valid_issn(new)\r\n        if not ok then\r\n            error(\"bad ISSN value '\" .. new .. \"' (\" .. msg .. \")\")\r\n        end\r\n        M._SUPER.nss(self, _normalize_issn(new))\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "local ok, msg = _valid_issn(new)",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "if not ok then\r\n            error(\"bad ISSN value '\" .. new .. \"' (\" .. msg .. \")\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "error(\"bad ISSN value '\" .. new .. \"' (\" .. msg .. \")\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 36,
+    "text": "M._SUPER.nss(self, _normalize_issn(new))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 38,
+    "text": "function M.issn_digits (self, new)\r\n    local old = self:nss(new)\r\n    return old:sub(1, 4) .. old:sub(6, 9)\r\nend",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "local old = self:nss(new)",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 42,
+    "text": "subclass_of",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "M._SUPER.nss",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "interface"
+  } ]
+}

@@ -1,0 +1,457 @@
+{
+  "_filename": "dispatcher.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/cgilua/src/cgilua/dispatcher.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 48
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "initializes",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "assigns",
+    "to": 51
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "dispatcher",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function route_match(url, pattern) \r\n    local params = {}\r\n    local captures = string.gsub(pattern, \"(/$[%w_-]+)\", \"/([^/]*)\")\r\n    local url_parts = {string.match(url, captures)}\r\n    local i = 1\r\n    for name in string.gmatch(pattern, \"/$([%w_-]+)\") do\r\n        params[name] = url_parts[i]\r\n        i = i + 1\r\n    end\r\n    return next(params) and params\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local params = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local captures = string.gsub(pattern, \"(/$[%w_-]+)\", \"/([^/]*)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local url_parts = {string.match(url, captures)}",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local i = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "for name in string.gmatch(pattern, \"/$([%w_-]+)\") do\r\n        params[name] = url_parts[i]\r\n        i = i + 1\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 8,
+    "text": "params[name] = url_parts[i]",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "i = i + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "local function route_map(url) \r\n    for i, v in ipairs(route_URLs) do\r\n        local pattern, f, name = unpack(v)\r\n        local params = route_match(url, pattern)\r\n        if params then \r\n            return f, params \r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "for i, v in ipairs(route_URLs) do\r\n        local pattern, f, name = unpack(v)\r\n        local params = route_match(url, pattern)\r\n        if params then \r\n            return f, params \r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 14,
+    "text": "local pattern, f, name = unpack(v)",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "local params = route_match(url, pattern)",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "if params then \r\n            return f, params \r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function route_url(map_name, params, queryargs)\r\n\tlocal queryparams = \"\"\r\n\tif queryargs then\r\n\t\tqueryparams = \"?\"..cgilua.urlcode.encodetable(queryargs)\r\n\tend\r\n\tfor i, v in ipairs(route_URLs) do\r\n        local pattern, f, name = unpack(v)\r\n        if name == map_name then\r\n            local url = string.gsub(pattern, \"$([%w_-]+)\", params)\r\n            url = cgilua.urlpath..\"/\"..cgilua.app_name..url..queryparams\r\n            return url\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "local queryparams = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "if queryargs then\r\n\t\tqueryparams = \"?\"..cgilua.urlcode.encodetable(queryargs)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "queryparams = \"?\"..cgilua.urlcode.encodetable(queryargs)",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "for i, v in ipairs(route_URLs) do\r\n        local pattern, f, name = unpack(v)\r\n        if name == map_name then\r\n            local url = string.gsub(pattern, \"$([%w_-]+)\", params)\r\n            url = cgilua.urlpath..\"/\"..cgilua.app_name..url..queryparams\r\n            return url\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 23,
+    "text": "if name == map_name then\r\n            local url = string.gsub(pattern, \"$([%w_-]+)\", params)\r\n            url = cgilua.urlpath..\"/\"..cgilua.app_name..url..queryparams\r\n            return url\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "local url = string.gsub(pattern, \"$([%w_-]+)\", params)",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "url = cgilua.urlpath..\"/\"..cgilua.app_name..url..queryparams",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function route(URLs)\r\n\tURLs = URLs or {}\r\n\tif type(URLs[1]) == \"string\" then\r\n\t\t-- accepts a single map as the only entry in a map table\r\n\t\tURLs = {URLs}\r\n\tend\r\n    route_URLs = URLs\r\n    f, args = route_map(cgilua.script_vpath)\r\n\r\n    if f then\r\n        return f(args)\r\n    else\r\n        error(\"Missing page parameters\")\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "URLs = URLs or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "if type(URLs[1]) == \"string\" then\r\n\t\t-- accepts a single map as the only entry in a map table\r\n\t\tURLs = {URLs}\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "URLs = {URLs}",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "route_URLs = URLs",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "f, args = route_map(cgilua.script_vpath)",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "if f then\r\n        return f(args)\r\n    else\r\n        error(\"Missing page parameters\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "error(\"Missing page parameters\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 37,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "cgilua.urlcode.encodetable",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "gmatch",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "next",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "f",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "tableconstructor"
+  } ]
+}

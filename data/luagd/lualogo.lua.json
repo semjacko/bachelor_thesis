@@ -1,0 +1,413 @@
+{
+  "_filename": "lualogo.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luagd/demos/lualogo.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 45
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "initializes",
+    "to": 44
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lualogo",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function makelogo(size)\n  local nsize = 3 * size\n  local im = gd.createTrueColor(nsize, nsize)\r\n  local white = im:colorAllocate(255, 255, 255)\r\n  local blue = im:colorAllocate(0, 0, 128)\r\n  local gray = im:colorAllocate(170, 170, 170)\r\n\r\n  local ediam = nsize * 0.68                    -- Earth diameter\r\n  local mdiam = ediam * (1 - math.sqrt(2) / 2)  -- Moon diameter\r\n  local odiam = ediam * 1.3                     -- Orbit diameter\r\n  local emdist = odiam/2 * 1.05                 -- Earth - Moon distance\r\n  local esdist = odiam/2 * 0.4                  -- Earth - Moon shadow distance\r\n  local mang = 45                               -- Moon angle (degrees)\r\n  local mangr = math.rad(mang)\r\n  local cxy = nsize/2.0\r\n\r\n  im:fill(0, 0, white)\r\n  im:filledArc(cxy, cxy, ediam, ediam, 0, 360, blue, gd.ARC)\r\n\r\n  im:setThickness(math.max(0.02 * ediam, 1))\r\n  local i\r\n  for i = 0, 360, 10 do\r\n    im:arc(cxy, cxy, odiam, odiam, i, i+5, gray)\r\n  end\r\n  im:setThickness(1)\r\n\r\n  -- Moon\r\n  local mcx = cxy + math.sin(math.rad(mang)) * emdist\r\n  local mcy = cxy - math.cos(math.rad(mang)) * emdist\r\n  im:filledArc(mcx, mcy, mdiam, mdiam, 0, 360, blue, gd.ARC)\r\n\r\n  -- Moon shadow\r\n  local mscx = cxy + math.sin(math.rad(mang)) * esdist\r\n  local mscy = cxy - math.cos(math.rad(mang)) * esdist\r\n  im:filledArc(mscx, mscy, mdiam, mdiam, 0, 360, white, gd.ARC)\r\n\n  im:stringFT(white, \"Helvetica\", 0.23*nsize, 0, 0.25*nsize, 0.7*nsize, \"Lua\")\n\n  -- Implementation of the \"Desperate anti-aliasing algorithm\" ;)\n  local im2 = gd.createTrueColor(size, size)\n  im2:copyResampled(im, 0, 0, 0, 0, size, size, nsize, nsize)\n  return im2\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local nsize = 3 * size",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local im = gd.createTrueColor(nsize, nsize)",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local white = im:colorAllocate(255, 255, 255)",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local blue = im:colorAllocate(0, 0, 128)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local gray = im:colorAllocate(170, 170, 170)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local ediam = nsize * 0.68",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "local mdiam = ediam * (1 - math.sqrt(2) / 2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "local odiam = ediam * 1.3",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local emdist = odiam/2 * 1.05",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local esdist = odiam/2 * 0.4",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local mang = 45",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local mangr = math.rad(mang)",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "local cxy = nsize/2.0",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "im:fill(0, 0, white)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "im:filledArc(cxy, cxy, ediam, ediam, 0, 360, blue, gd.ARC)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "im:setThickness(math.max(0.02 * ediam, 1))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "local i",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "for i = 0, 360, 10 do\r\n    im:arc(cxy, cxy, odiam, odiam, i, i+5, gray)\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 21,
+    "text": "im:arc(cxy, cxy, odiam, odiam, i, i+5, gray)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "im:setThickness(1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "local mcx = cxy + math.sin(math.rad(mang)) * emdist",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "local mcy = cxy - math.cos(math.rad(mang)) * emdist",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "im:filledArc(mcx, mcy, mdiam, mdiam, 0, 360, blue, gd.ARC)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "local mscx = cxy + math.sin(math.rad(mang)) * esdist",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "local mscy = cxy - math.cos(math.rad(mang)) * esdist",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "im:filledArc(mscx, mscy, mdiam, mdiam, 0, 360, white, gd.ARC)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "im:stringFT(white, \"Helvetica\", 0.23*nsize, 0, 0.25*nsize, 0.7*nsize, \"Lua\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "local im2 = gd.createTrueColor(size, size)",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "im2:copyResampled(im, 0, 0, 0, 0, size, size, nsize, nsize)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 35,
+    "text": "createTrueColor",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "useFontConfig",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "cos",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "max",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "sqrt",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "sin",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "rad",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "execute",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "require container"
+  } ]
+}

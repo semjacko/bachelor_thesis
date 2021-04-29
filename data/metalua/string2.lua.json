@@ -1,0 +1,305 @@
+{
+  "_filename": "string2.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/metalua/src/lib/metalua/string2.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 34
+  }, {
+    "from": 2,
+    "label": "represents",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "provides",
+    "to": 35
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "string2",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function string (lx)\r\n   local a = lx:peek()\r\n   if lx:is_keyword (a, \"-{\") then\r\n      local v = gg.sequence{ \"-{\", splice_content, \"}\" } (lx) [1]\r\n      if v.tag ~= \"\" and v.tag ~= \"Splice\" then\r\n         gg.parse_error(lx,\"Bad string splice\")\r\n      end\r\n      return v\r\n   elseif a.tag == \"String\" then return lx:next()\r\n   else error \"String expected\" end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function string.split(str, pat)\r\n   local t = {} \r\n   local fpat = \"(.-)\" .. pat\r\n   local last_end = 1\r\n   local s, e, cap = string.find(str, fpat, 1)\r\n   while s do\r\n      if s ~= 1 or cap ~= \"\" then\r\n          table.insert(t,cap)\r\n       end\r\n      last_end = e+1\r\n      s, e, cap = string.find(str, fpat, last_end)\r\n   end\r\n   if last_end <= string.len(str) then\r\n      cap = string.sub(str, last_end)\r\n      table.insert(t, cap)\r\n   end\r\n   return t\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local t = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local fpat = \"(.-)\" .. pat",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local last_end = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local s, e, cap = string.find(str, fpat, 1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "while s do\r\n      if s ~= 1 or cap ~= \"\" then\r\n          table.insert(t,cap)\r\n       end\r\n      last_end = e+1\r\n      s, e, cap = string.find(str, fpat, last_end)\r\n   end",
+    "type": "statement:while"
+  }, {
+    "id": 9,
+    "text": "if s ~= 1 or cap ~= \"\" then\r\n          table.insert(t,cap)\r\n       end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "table.insert(t,cap)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "last_end = e+1",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "s, e, cap = string.find(str, fpat, last_end)",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "if last_end <= string.len(str) then\r\n      cap = string.sub(str, last_end)\r\n      table.insert(t, cap)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "cap = string.sub(str, last_end)",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "table.insert(t, cap)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function string.undump(str)\r\n   if str:strmatch '^\\027LuaQ' or str:strmatch '^#![^\\n]+\\n\\027LuaQ' then\r\n      local f = (lua_loadstring or loadstring)(str)\r\n      return f\r\n   else\r\n      error \"Not a chunk dump\"\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "if str:strmatch '^\\027LuaQ' or str:strmatch '^#![^\\n]+\\n\\027LuaQ' then\r\n      local f = (lua_loadstring or loadstring)(str)\r\n      return f\r\n   else\r\n      error \"Not a chunk dump\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "local f = (lua_loadstring or loadstring)(str)",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "error \"Not a chunk dump\"",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 24,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "interface"
+  } ]
+}

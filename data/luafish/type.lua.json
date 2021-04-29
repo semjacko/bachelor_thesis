@@ -1,0 +1,481 @@
+{
+  "_filename": "type.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luafish/lib/luafish/type.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 3
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 34,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 34,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "assigns",
+    "to": 44
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "assigns",
+    "to": 46
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "assigns",
+    "to": 48
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "assigns",
+    "to": 50
+  }, {
+    "from": 42,
+    "label": "initializes",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 42,
+    "label": "initializes",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "provides",
+    "to": 53
+  }, {
+    "from": 37,
+    "label": "represents",
+    "to": 54
+  }, {
+    "from": 53,
+    "label": "provides",
+    "to": 54
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 37,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 38,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 39,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 40,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 19
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "macro",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "parser",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "type",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function M.c_from_ast(ast)\r\n  assert(ast.tag == 'Block')\r\n  local cobj = to_c(ast)\r\n\r\n  return [[\r\n#include <stdio.h>\r\n]] .. (cobj.toplevel and cobj.toplevel or '') .. [[\r\nint main() {\r\n]] .. cobj[1] ..\r\n[[\r\nreturn 0;\r\n}\r\n]]\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function M.c_from_lua(input)\r\n  local Parser = require 'luafish.parser'\r\n  local p = Parser()\r\n  local ast = p:parse(input)\r\n  return M.c_from_ast(ast)\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function M.object_to_ast(o)\r\n  if type(o) == 'string' then\r\n    return ASTNode {'String', o}\r\n  elseif type(o) == 'number' then\r\n    return ASTNode {'Number', o}\r\n  elseif o == nil then\r\n    return ASTNode {'Nil'}\r\n  elseif o == false then\r\n    return ASTNode {'False'}\r\n  elseif o == true then\r\n    return ASTNode {'True'}\r\n  elseif type(o) == 'table' then\r\n    --LIMITATION: only does numeric keys + tag since non-numeric keys can\r\n    -- be recursive\r\n    local elements = {}\r\n    elements[#elements+1] = 'Table'\r\n    if o.tag ~= nil then\r\n      elements[#elements+1] = ASTNode {'Field', M.object_to_ast 'tag', M.object_to_ast(o.tag)}\r\n    end\r\n    for k,v in ipairs(o) do\r\n      elements[#elements+1] = ASTNode {'Field',\r\n         M.object_to_ast(k), M.object_to_ast(v)}\r\n    end\r\n    return ASTNode(elements)\r\n  else\r\n    assert(false, \"NOT IMPLEMENTED for \" .. tostring(o))\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function M.ast_to_object(ast)\r\n  if ast.tag == 'String' or ast.tag == 'Number' then\r\n    return ast[1]\r\n  elseif ast.tag == 'Nil' then return nil\r\n  elseif ast.tag == 'False' then return false\r\n  elseif ast.tag == 'True' then return true\r\n  else\r\n    local code = LuaFishSerializer.ast_to_code(ast)\r\n    local func = assert(loadstring('return ' .. code))\r\n    return func()\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function M.process_macros(ast, env)\r\n  local macros = env.MACRO\r\n\r\n  -- evaluate children\r\n  for i,v in ipairs(ast) do\r\n    if type(v) == \"table\" then\r\n      local is_replace, replaced = M.process_macros(v, env)\r\n      if is_replace then\r\n        ast[i] = replaced\r\n      end\r\n    end\r\n  end\r\n\r\n  -- Evaluate compile-time expressions.\r\n  -- The order is to evalute children then parents.\r\n\r\n  if ast.tag == 'Index' then\r\n    local obj_ast, key_ast = resolve(env, ast[1]), ast[2]\r\n    if obj_ast and obj_ast.stype and obj_ast.stype.__index then\r\n      local result_type =\r\n         mypcall(ast, obj_ast.stype.__index, obj_ast.stype, M.ast_to_object(key_ast))\r\n      ast.stype = result_type -- may be nil\r\n    end\r\n  elseif ast.tag == 'Id' then\r\n    local macro_name = ast[1]\r\n    --print(macros.SETSQUARE,rawget(macros, 'SETSQUARE'),'ss', macro_name)\r\n\r\n    local macro = macros[macro_name]\r\n    if macro then\r\n      local obj = {tag='Macro', macro}\r\n      obj.scope = ast.scope -- copy\r\n      obj.last = ast.last\r\n      return true, obj\r\n    end\r\n    -- otherwise, non-macro Id\r\n  elseif ast.tag == 'Call' then\r\n    local macro = ast[1]\r\n    if macro.tag == 'Macro' then -- a macro\r\n      macro = macro[1]\r\n      local arg_ast = ast[2]\r\n      local args = resolve_args(env, arg_ast)\r\n      local a,b = macro(unpack(args))\r\n      if a == 'value' then a = M.object_to_ast(b)\r\n      elseif a == nil then a = ASTNode{'Block'}end\r\n      local res_ast = a\r\n      --print (\"M\", macro, macro_name, arg_ast, res_ast)\r\n      return true, res_ast\r\n    end\r\n    -- otherwise, non-macro call\r\n\r\n    local obj_ast = resolve(env, ast[1])\r\n    if obj_ast and obj_ast.stype then\r\n      if obj_ast.stype then\r\n        local caller = TFunction.isa(obj_ast.stype) and obj_ast.stype.__call or\r\n           type(obj_ast.stype) == 'function' and obj_ast.stype\r\n        if caller then\r\n          local args = resolve_args(env, ast[2])\r\n          ast.stype = mypcall(ast, caller, unpack(args)) -- may be nil\r\n        else\r\n          error(\"not callable \" .. tostring(obj_ast) .. \" \" .. tostring(obj_ast.stype))\r\n        end\r\n      end\r\n    end\r\n  elseif ast.tag == 'ColonCall' then  \r\n    -- note: this is like an Index followed by a Call with \"self\"\r\n    local obj_ast = resolve(env, ast[1])\r\n\r\n    if obj_ast and obj_ast.stype and obj_ast.stype.__index then\r\n      local key_ast = ast[2]\r\n      local caller =\r\n         obj_ast.stype.__index(obj_ast.stype, M.ast_to_object(key_ast)) -- may be il\r\n      if caller then\r\n        local args = resolve_args(env, ast[3])\r\n        table.insert(args, 1, obj_ast) -- self\r\n        ast.stype = mypcall(ast, caller, unpack(args)) -- may be nil\r\n      end\r\n    end\r\n  elseif ast.tag == 'String' then\r\n    ast.stype = TString.create(ast)\r\n  elseif ast.tag == 'Number' then\r\n    ast.stype = TNumber.create(ast)\r\n  elseif ast.tag == 'Nil' then\r\n    ast.stype = 'nil'  -- note: 'nil' different from nil.\r\n  elseif ast.tag == 'True' or ast.tag == 'False' then\r\n    ast.stype = 'boolean'\r\n  elseif ast.tag == 'Op' then\r\n    if #ast == 2 then -- unary op\r\n      local a_ast = resolve(env, ast[2])\r\n      local event = unop_to_mt[ast[1]]\r\n      local h = getunhandler(a_ast, event)\r\n      if h then\r\n        ast.stype = h(a_ast.stype)\r\n      else -- unknown type\r\n        if a_ast.stype then\r\n          error(tostring(ast) .. ' - operation not defined')\r\n        end\r\n      end\r\n    else -- binary op\r\n      local a_ast, b_ast = resolve(env, ast[2]), resolve(env, ast[3])\r\n      if not a_ast or not b_ast then\r\n        if not a_ast then\r\n           print(context(ast) .. \": non-lexical \")\r\n        end\r\n        if not b_ast then\r\n          print(context(ast) .. \": non-lexical \")\r\n        end\r\n      else\r\n        if is_bool_binop[ast[1]] then\r\n          ast.stype = 'boolean'\r\n        else\r\n          local event = binop_to_mt[ast[1]]\r\n          local h = getbinhandler(a_ast, b_ast, event)\r\n          if h then\r\n            ast.stype = h(a_ast.stype, b_ast.stype)\r\n          elseif ast[1] == 'And' or ast[1] == 'Or' and\r\n                 a_ast.stype == b_ast.stype then\r\n            ast.stype = a_ast.stype\r\n          elseif a_ast.stype == 'number' or b_ast.stype == 'number' then\r\n            ast.stype = 'number'\r\n          else -- unknown type\r\n            if a_ast.stype and b_ast.stype then\r\n              error(tostring(ast) .. ' - operation not defined')\r\n            end\r\n          end\r\n        end\r\n      end\r\n    end\r\n  elseif ast.tag == 'Parens' then\r\n    ast.stype = ast[1].stype\r\n  elseif ast.tag == 'Local' then\r\n    local vals_ast = ast[2]\r\n    if vals_ast then\r\n      for i=1,#vals_ast do\r\n        local val_ast = vals_ast[i]\r\n        --print(val_ast.stype)\r\n        if ast[1][i] then\r\n          ast[1][i].stype = val_ast.stype\r\n          ast[1][i].typed = val_ast.typed\r\n        end\r\n      end\r\n    end\r\n  elseif ast.tag == 'Assign' then\r\n    local names_ast, vals_ast = ast[1], ast[2]\r\n    for i=1,#vals_ast do\r\n      local name_ast = resolve(env, names_ast[i])\r\n      local val_ast = resolve(env, vals_ast[i])\r\n      if name_ast and val_ast then\r\n        if not name_ast.typed then\r\n          name_ast.stype = val_ast.stype\r\n          -- unused: name_ast.typed = val_ast.typed\r\n        end\r\n      end\r\n    end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function M.resolve_lexical_scope(ast)\r\n  local scope = {}\r\n  local last_local = nil\r\n  helper(ast, scope, last_local)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function M.loadstring(code, chunkname, is_debug)\r\n  local parser = LuaFishParser()\r\n\r\n  local t = parser:parse(code)\r\n\r\n  if is_debug then print('DEBUG[AST.IN][', t, ']') end\r\n\r\n  local env = create_compile_environment()\r\n\r\n  local function macro_ONCOMPILE(func_ast)\r\n    assert(func_ast.tag == 'Function')\r\n\r\n    local func_code = LuaFishSerializer.ast_to_code(func_ast)\r\n\r\n    local func = assert(loadstring('return ' .. func_code,\r\n                                   (chunkname or '') .. '(ONCOMPILE)',\r\n                                    is_debug))\r\n    setfenv(func, getfenv(1))\r\n  \r\n    func()(func_ast.scope)\r\n\r\n    return ASTNode{'Block'} -- no nothing\r\n  end\r\n  setfenv(macro_ONCOMPILE, env)\r\n  env.MACRO.ONCOMPILE = macro_ONCOMPILE\r\n\r\n  local function macro_REQUIRE(name_ast)\r\n    assert(name_ast.tag == 'String')\r\n    local name = name_ast[1]\r\n\r\n    --print(name_ast.last, 'L')\r\n\r\n    --hack\r\n    local stype\r\n    if name == 'math' then\r\n      stype = require 'luafish.math'\r\n    elseif name == 'string' then\r\n      stype = require 'luafish.string'\r\n    elseif name == '_G' then\r\n      stype = _G\r\n    else\r\n      local m = require(name)\r\n      return m.init(env) --ok?\r\n    end\r\n\r\n\r\n\r\n    local result_ast = ASTNode{'Call', ASTNode{'Id', 'require'},\r\n           ASTNode{'ExpList', ASTNode{'String', name}}}\r\n    result_ast.stype = stype\r\n    result_ast.typed = true\r\n    return result_ast\r\n  end\r\n  env.MACRO.REQUIRE = macro_REQUIRE\r\n\r\n  local function macro_NOGLOBALS()\r\n    function env.ONGLOBAL(name)\r\n      error('global \"' .. name .. '\" used when globals are disabled')\r\n    end\r\n  end\r\n  env.MACRO.NOGLOBALS = macro_NOGLOBALS\r\n\r\n  env.M = M\r\n\r\n  M.resolve_lexical_scope(t)\r\n\r\n  M.process_macros(t, env)\r\n\r\n  if is_debug then print('DEBUG[AST.OUT][', t, ']') end\r\n\r\n  -- FIX- this should return nil and error message not raise an error\r\n  local code = LuaFishSerializer.ast_to_code(t)\r\n\r\n  if is_debug then print('DEBUG[CODE.OUT][', code, ']') end\r\n  local fh = io.open(\"out1\", 'w')\r\n  fh:write(code)\r\n  fh:close()\r\n  return loadstring(code, chunkname, is_debug)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function M.dofile(name, is_debug)\r\n  local fh = assert(io.open(name))\r\n  local code = fh:read'*a'\r\n  fh:close()\r\n\r\n  local f, message = assert(M.loadstring(code, name, is_debug))\r\n  if not f then error(message, 2) end\r\n\r\n  return f()\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function M.loadfile(name, is_debug)\r\n  local fh = assert(io.open(name))\r\n  local code = fh:read'*a'\r\n  fh:close()\r\n\r\n  local f, message = M.loadstring(code, name, is_debug)\r\n  return f, message\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function M.require(name, is_debug)\r\n  local pkg = package.loaded[name]\r\n  if pkg then return pkg end\r\n\r\n  local path = locate(package.path, name)\r\n  if path then -- macro-enabled loaded\r\n    package.loaded[name] = sentinel\r\n    local old_arg = _G.arg; _G.arg = {name} -- localize\r\n    pkg = M.dofile(path, is_debug)\r\n    _G.arg = old_arg -- restore\r\n    if pkg then\r\n      package.loaded[name] = pkg\r\n    end\r\n    if package.loaded[name] == sentinel then\r\n      package.loaded[name] = true\r\n    end\r\n    return package.loaded[name]\r\n  else\r\n    return require(name)  -- fallback\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function M.loader(name)\r\n  local path = locate(package.path, name)\r\n  if path then -- macro-enabled loaded\r\n    return M.loadfile(path)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function M.addloader()\r\n  table.insert(package.loaders, 1, M.loader)\r\n  return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function M.get_linecol(s, i)\r\n  local nline, ncol = 1, 0\r\n  local was_nl = false\r\n  for k=1,i do\r\n    if was_nl then\r\n      nline = nline + 1\r\n      ncol = 0\r\n      was_nl = false\r\n    end\r\n    if s:match('^\\n', k) then\r\n      was_nl = true\r\n    end\r\n    ncol = ncol + 1\r\n  end\r\n  return nline, ncol\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function M.update_linecol(s, i, i_last, nline, ncol)\r\n  i_last = i_last or 0\r\n  nline = nline or 0\r\n  ncol = ncol or 0\r\n\r\n  while i_last > i do -- reverse, go to start of previous line\r\n    repeat\r\n      i_last = i_last - 1\r\n    until i_last == 1 or s:match('^\\n',i_last)\r\n    nline = nline - 1\r\n    ncol = 0\r\n  end\r\n\r\n  for k=i_last+1,i do\r\n    if k == 1 or s:match('^\\n',k-1) then\r\n      nline = nline + 1\r\n      ncol = 0\r\n    end\r\n    ncol = ncol + 1\r\n  end\r\n  return i, nline, ncol\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function M.ast_to_code(ast)\r\n  return convert(ast)\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "function M.init(env)\r\n  function env.MACRO.TYPE(type_ast)\r\n    assert(type_ast.last)\r\n    local mtype = type_ast[1]\r\n    type_ast.last.stype = mtype\r\n  end\r\n\r\n  function env.MACRO.TYPED(obj_ast)\r\n    obj_ast.typed = true\r\n    return obj_ast\r\n  end\r\n\r\n  env.MACRO.NUMBER = TNumber.bind\r\n  env.MACRO.STRING = TString.bind\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "function env.MACRO.TYPE(type_ast)\r\n    assert(type_ast.last)\r\n    local mtype = type_ast[1]\r\n    type_ast.last.stype = mtype\r\n  end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 21,
+    "text": "assert(type_ast.last)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "local mtype = type_ast[1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "type_ast.last.stype = mtype",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "function env.MACRO.TYPED(obj_ast)\r\n    obj_ast.typed = true\r\n    return obj_ast\r\n  end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 25,
+    "text": "obj_ast.typed = true",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 27,
+    "text": "env.MACRO.NUMBER = TNumber.bind",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "env.MACRO.STRING = TString.bind",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function env.MACRO.TYPE(type_ast)\r\n    assert(type_ast.last)\r\n    local mtype = type_ast[1]\r\n    type_ast.last.stype = mtype\r\n  end",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function env.MACRO.TYPED(obj_ast)\r\n    obj_ast.typed = true\r\n    return obj_ast\r\n  end",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 35,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "interface"
+  } ]
+}

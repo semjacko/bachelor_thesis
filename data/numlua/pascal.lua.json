@@ -1,0 +1,185 @@
+{
+  "_filename": "pascal.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/numlua/examples/pascal.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 15
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "pascal",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function pascal (n)\r\n  local p = zeros(n, n)\r\n  set(p[1], 1)\r\n  set(p:col(1), 1)\r\n  for i = 2, n do\r\n    for j = 2, n do\r\n      p[i][j] = p[i - 1][j] + p[i][j - 1]\r\n    end\r\n  end\r\n  return p\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local p = zeros(n, n)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "set(p[1], 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "set(p:col(1), 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "for i = 2, n do\r\n    for j = 2, n do\r\n      p[i][j] = p[i - 1][j] + p[i][j - 1]\r\n    end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 7,
+    "text": "for j = 2, n do\r\n      p[i][j] = p[i - 1][j] + p[i][j - 1]\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 8,
+    "text": "p[i][j] = p[i - 1][j] + p[i][j - 1]",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 12,
+    "text": "zeros",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "set",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

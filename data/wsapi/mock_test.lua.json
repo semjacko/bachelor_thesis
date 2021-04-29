@@ -1,0 +1,213 @@
+{
+  "_filename": "mock_test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/wsapi/tests/mock_test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 19
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "mock",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "mock_test",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function make_handler(app)\r\n  return {\r\n    app  = app,\r\n    get  = get,\r\n    post = post\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function hello(wsapi_env)\r\n  local headers = { [\"Content-type\"] = \"text/html\" }\r\n  local function hello_text()\r\n    coroutine.yield(\"hello world!\")\r\n  end\r\n  return 200, headers, coroutine.wrap(hello_text)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local headers = { [\"Content-type\"] = \"text/html\" }",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local function hello_text()\r\n    coroutine.yield(\"hello world!\")\r\n  end",
+    "type": "statement:localfunction"
+  }, {
+    "id": 7,
+    "text": "coroutine.yield(\"hello world!\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "local function hello_text()\r\n    coroutine.yield(\"hello world!\")\r\n  end",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "yield",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "wrap",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

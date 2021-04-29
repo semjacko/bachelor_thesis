@@ -1,0 +1,1213 @@
+{
+  "_filename": "urn.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/urn.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 94,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 94,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 106
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 59
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 70
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 78
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 94
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 96
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 110
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 111
+  }, {
+    "from": 110,
+    "label": "initializes",
+    "to": 112
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 113
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 109
+  }, {
+    "from": 115,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 116,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 117,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 118
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 119
+  }, {
+    "from": 118,
+    "label": "initializes",
+    "to": 120
+  }, {
+    "from": 120,
+    "label": "assigns",
+    "to": 121
+  }, {
+    "from": 121,
+    "label": "assigns",
+    "to": 122
+  }, {
+    "from": 122,
+    "label": "assigns",
+    "to": 123
+  }, {
+    "from": 119,
+    "label": "initializes",
+    "to": 124
+  }, {
+    "from": 124,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 119,
+    "label": "initializes",
+    "to": 125
+  }, {
+    "from": 125,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 126
+  }, {
+    "from": 114,
+    "label": "represents",
+    "to": 127
+  }, {
+    "from": 126,
+    "label": "provides",
+    "to": 127
+  }, {
+    "from": 67,
+    "label": "hasArgument",
+    "to": 94
+  }, {
+    "from": 91,
+    "label": "hasArgument",
+    "to": 96
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "urn",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "uri",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function testcase:test_urn_parsing ()\r\n    local uri = assert(URI:new(\"urn:x-FOO-01239-:Nss\"))\r\n    is(\"urn:x-foo-01239-:Nss\", uri:uri())\r\n    is(\"urn\", uri:scheme())\r\n    is(\"x-foo-01239-:Nss\", uri:path())\r\n    is(\"x-foo-01239-\", uri:nid())\r\n    is(\"Nss\", uri:nss())\r\n    is(nil, uri:userinfo())\r\n    is(nil, uri:host())\r\n    is(nil, uri:port())\r\n    is(nil, uri:query())\r\n    is(nil, uri:fragment())\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function testcase:test_set_nss ()\r\n    local uri = assert(URI:new(\"urn:x-FOO-01239-:Nss\"))\r\n    is(\"Nss\", uri:nss(\"FooBar\"))\r\n    is(\"urn:x-foo-01239-:FooBar\", tostring(uri))\r\n    assert_error(\"bad NSS, empty\", function () uri:nss(\"\") end)\r\n    assert_error(\"bad NSS, illegal character\", function () uri:nss('x\"y') end)\r\n    is(\"urn:x-foo-01239-:FooBar\", tostring(uri))\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function testcase:test_bad_urn_syntax ()\r\n    is_bad_uri(\"missing nid\", \"urn::bar\")\r\n    is_bad_uri(\"hyphen at start of nid\", \"urn:-x-foo:bar\")\r\n    is_bad_uri(\"plus in middle of nid\", \"urn:x+foo:bar\")\r\n    is_bad_uri(\"underscore in middle of nid\", \"urn:x_foo:bar\")\r\n    is_bad_uri(\"dot in middle of nid\", \"urn:x.foo:bar\")\r\n    is_bad_uri(\"nid too long\", \"urn:x-012345678901234567890123456789x:bar\")\r\n    is_bad_uri(\"reserved 'urn' nid\", \"urn:urn:bar\")\r\n    is_bad_uri(\"missing nss\", \"urn:x-foo:\")\r\n    is_bad_uri(\"bad char in nss\", \"urn:x-foo:bar&\")\r\n    is_bad_uri(\"shoudn't have host part\", \"urn://foo.com/x-foo:bar\")\r\n    is_bad_uri(\"shoudn't have query part\", \"urn:x-foo:bar?baz\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function testcase:test_change_nid ()\r\n    local urn = assert(URI:new(\"urn:x-foo:14734966\"))\r\n    is(\"urn:x-foo:14734966\", tostring(urn))\r\n    is(\"x-foo\", urn:nid())\r\n    is(\"uri.urn\", urn._NAME)\r\n\r\n    -- x-foo -> x-bar\r\n    is(\"x-foo\", urn:nid(\"X-BAR\"))\r\n    is(\"x-bar\", urn:nid())\r\n    is(\"urn:x-bar:14734966\", tostring(urn))\r\n    is(\"uri.urn\", urn._NAME)\r\n\r\n    -- x-bar -> issn\r\n    is(\"x-bar\", urn:nid(\"issn\"))\r\n    is(\"issn\", urn:nid())\r\n    is(\"urn:issn:1473-4966\", tostring(urn))\r\n    is(\"uri.urn.issn\", urn._NAME)\r\n\r\n    -- issn -> x-foo\r\n    is(\"issn\", urn:nid(\"x-foo\"))\r\n    is(\"x-foo\", urn:nid())\r\n    is(\"urn:x-foo:1473-4966\", tostring(urn))\r\n    is(\"uri.urn\", urn._NAME)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function testcase:test_change_nid_bad ()\r\n    local urn = assert(URI:new(\"urn:x-foo:frob\"))\r\n\r\n    -- Try changing the NID to something invalid\r\n    assert_error(\"bad NID 'urn'\", function () urn:nid(\"urn\") end)\r\n    assert_error(\"bad NID '-x-foo'\", function () urn:nid(\"-x-foo\") end)\r\n    assert_error(\"bad NID 'x+foo'\", function () urn:nid(\"x+foo\") end)\r\n\r\n    -- Change to valid NID, but where the NSS is not valid for it\r\n    assert_error(\"bad NSS for ISSN URN\", function () urn:nid(\"issn\") end)\r\n\r\n    -- Original URN should be left unchanged\r\n    is(\"urn:x-foo:frob\", tostring(urn))\r\n    is(\"x-foo\", urn:nid())\r\n    is(\"uri.urn\", urn._NAME)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function testcase:test_change_path ()\r\n    local urn = assert(URI:new(\"urn:x-foo:foopath\"))\r\n    is(\"x-foo:foopath\", urn:path())\r\n\r\n    -- x-foo -> x-bar\r\n    is(\"x-foo:foopath\", urn:path(\"X-BAR:barpath\"))\r\n    is(\"x-bar:barpath\", urn:path())\r\n    is(\"urn:x-bar:barpath\", tostring(urn))\r\n    is(\"uri.urn\", urn._NAME)\r\n\r\n    -- x-bar -> issn\r\n    is(\"x-bar:barpath\", urn:path(\"issn:14734966\"))\r\n    is(\"issn:1473-4966\", urn:path())\r\n    is(\"urn:issn:1473-4966\", tostring(urn))\r\n    is(\"uri.urn.issn\", urn._NAME)\r\n\r\n    -- issn -> x-foo\r\n    is(\"issn:1473-4966\", urn:path(\"x-foo:foopath2\"))\r\n    is(\"x-foo:foopath2\", urn:path())\r\n    is(\"urn:x-foo:foopath2\", tostring(urn))\r\n    is(\"uri.urn\", urn._NAME)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function testcase:test_change_path_bad ()\r\n    local urn = assert(URI:new(\"urn:x-foo:frob\"))\r\n\r\n    -- Try changing the NID to something invalid\r\n    assert_error(\"bad NID 'urn'\", function () urn:path(\"urn:frob\") end)\r\n    assert_error(\"bad NID '-x-foo'\", function () urn:path(\"-x-foo:frob\") end)\r\n    assert_error(\"bad NID 'x+foo'\", function () urn:path(\"x+foo:frob\") end)\r\n    assert_error(\"bad NSS, empty\", function () urn:path(\"x-foo:\") end)\r\n    assert_error(\"bad NSS, bad char\", function () urn:path('x-foo:x\"y') end)\r\n\r\n    -- Change to valid NID, but where the NSS is not valid for it\r\n    assert_error(\"bad NSS for ISSN URN\", function () urn:path(\"issn:frob\") end)\r\n\r\n    -- Original URN should be left unchanged\r\n    is(\"urn:x-foo:frob\", tostring(urn))\r\n    is(\"x-foo:frob\", urn:path())\r\n    is(\"x-foo\", urn:nid())\r\n    is(\"frob\", urn:nss())\r\n    is(\"uri.urn\", urn._NAME)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function testcase:test_set_disallowed_stuff ()\r\n    local urn = assert(URI:new(\"urn:x-foo:frob\"))\r\n    assert_error(\"can't set userinfo\", function () urn:userinfo(\"x\") end)\r\n    assert_error(\"can't set host\", function () urn:host(\"x\") end)\r\n    assert_error(\"can't set port\", function () urn:port(23) end)\r\n    assert_error(\"can't set query\", function () urn:query(\"x\") end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function () uri:nss(\"\") end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function () uri:nss('x\"y') end",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function () urn:nid(\"urn\") end",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function () urn:nid(\"-x-foo\") end",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function () urn:nid(\"x+foo\") end",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function () urn:nid(\"issn\") end",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function () urn:path(\"urn:frob\") end",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "function () urn:path(\"-x-foo:frob\") end",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "function () urn:path(\"x+foo:frob\") end",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "function () urn:path(\"x-foo:\") end",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "function () urn:path('x-foo:x\"y') end",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "function () urn:path(\"issn:frob\") end",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "function () urn:userinfo(\"x\") end",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "function () urn:host(\"x\") end",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "function () urn:port(23) end",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "function () urn:query(\"x\") end",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 29,
+    "text": "local function _valid_nid (nid)\r\n    if nid == \"\" then return nil, \"missing completely\" end\r\n    if nid:len() > 32 then return nil, \"too long\" end\r\n    if not nid:find(\"^[A-Za-z0-9][-A-Za-z0-9]*$\") then\r\n        return nil, \"contains illegal character\"\r\n    end\r\n    if nid:lower() == \"urn\" then return nil, \"'urn' is reserved\" end\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "if nid == \"\" then return nil, \"missing completely\" end",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 32,
+    "text": "if nid:len() > 32 then return nil, \"too long\" end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "if not nid:find(\"^[A-Za-z0-9][-A-Za-z0-9]*$\") then\r\n        return nil, \"contains illegal character\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "if nid:lower() == \"urn\" then return nil, \"'urn' is reserved\" end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "local function _valid_nss (nss)\r\n    if nss == \"\" then return nil, \"can't be empty\" end\r\n    if nss:find(\"[^A-Za-z0-9()+,%-.:=@;$_!*'/%%]\") then\r\n        return nil, \"contains illegal character\"\r\n    end\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "if nss == \"\" then return nil, \"can't be empty\" end",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "if nss:find(\"[^A-Za-z0-9()+,%-.:=@;$_!*'/%%]\") then\r\n        return nil, \"contains illegal character\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "local function _validate_and_normalize_path (path)\r\n    local _, _, nid, nss = path:find(\"^([^:]+):(.*)$\")\r\n    if not nid then return nil, \"illegal path syntax for URN\" end\r\n\r\n    local ok, msg = _valid_nid(nid)\r\n    if not ok then\r\n        return nil, \"invalid namespace identifier (\" .. msg .. \")\"\r\n    end\r\n    ok, msg = _valid_nss(nss)\r\n    if not ok then\r\n        return nil, \"invalid namespace specific string (\" .. msg .. \")\"\r\n    end\r\n\r\n    return nid:lower() .. \":\" .. nss\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "local _, _, nid, nss = path:find(\"^([^:]+):(.*)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 42,
+    "text": "if not nid then return nil, \"illegal path syntax for URN\" end",
+    "type": "statement:if"
+  }, {
+    "id": 43,
+    "text": "local ok, msg = _valid_nid(nid)",
+    "type": "statement:localassign"
+  }, {
+    "id": 44,
+    "text": "if not ok then\r\n        return nil, \"invalid namespace identifier (\" .. msg .. \")\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 45,
+    "text": "ok, msg = _valid_nss(nss)",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "if not ok then\r\n        return nil, \"invalid namespace specific string (\" .. msg .. \")\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 48,
+    "text": "function M.init (self)\r\n    if M._SUPER.query(self) then\r\n        return nil, \"URNs may not have query parts\"\r\n    end\r\n    if M._SUPER.host(self) then\r\n        return nil, \"URNs may not have authority parts\"\r\n    end\r\n\r\n    local path, msg = _validate_and_normalize_path(self:path())\r\n    if not path then return nil, msg end\r\n    M._SUPER.path(self, path)\r\n\r\n    local nid_class\r\n        = Util.attempt_require(\"uri.urn.\" .. self:nid():gsub(\"%-\", \"_\"))\r\n    if nid_class then\r\n        setmetatable(self, nid_class)\r\n        if self.init ~= M.init then return self:init() end\r\n    end\r\n\r\n    return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "if M._SUPER.query(self) then\r\n        return nil, \"URNs may not have query parts\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 50,
+    "text": "if M._SUPER.host(self) then\r\n        return nil, \"URNs may not have authority parts\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "local path, msg = _validate_and_normalize_path(self:path())",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "if not path then return nil, msg end",
+    "type": "statement:if"
+  }, {
+    "id": 53,
+    "text": "M._SUPER.path(self, path)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 54,
+    "text": "local nid_class\r\n        = Util.attempt_require(\"uri.urn.\" .. self:nid():gsub(\"%-\", \"_\"))",
+    "type": "statement:localassign"
+  }, {
+    "id": 55,
+    "text": "if nid_class then\r\n        setmetatable(self, nid_class)\r\n        if self.init ~= M.init then return self:init() end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 56,
+    "text": "setmetatable(self, nid_class)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 57,
+    "text": "if self.init ~= M.init then return self:init() end",
+    "type": "statement:if"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 59,
+    "text": "function M.nid (self, new)\r\n    local _, _, old = self:path():find(\"^([^:]+)\")\r\n\r\n    if new then\r\n        new = new:lower()\r\n        if new ~= old then\r\n            local ok, msg = _valid_nid(new)\r\n            if not ok then\r\n                error(\"invalid namespace identifier (\" .. msg .. \")\")\r\n            end\r\n        end\r\n        Util.do_class_changing_change(self, M, \"NID\", new, function (uri, new)\r\n            M._SUPER.path(uri, new .. \":\" .. uri:nss())\r\n        end)\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 60,
+    "text": "local _, _, old = self:path():find(\"^([^:]+)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 61,
+    "text": "if new then\r\n        new = new:lower()\r\n        if new ~= old then\r\n            local ok, msg = _valid_nid(new)\r\n            if not ok then\r\n                error(\"invalid namespace identifier (\" .. msg .. \")\")\r\n            end\r\n        end\r\n        Util.do_class_changing_change(self, M, \"NID\", new, function (uri, new)\r\n            M._SUPER.path(uri, new .. \":\" .. uri:nss())\r\n        end)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 62,
+    "text": "new = new:lower()",
+    "type": "statement:assign"
+  }, {
+    "id": 63,
+    "text": "if new ~= old then\r\n            local ok, msg = _valid_nid(new)\r\n            if not ok then\r\n                error(\"invalid namespace identifier (\" .. msg .. \")\")\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 64,
+    "text": "local ok, msg = _valid_nid(new)",
+    "type": "statement:localassign"
+  }, {
+    "id": 65,
+    "text": "if not ok then\r\n                error(\"invalid namespace identifier (\" .. msg .. \")\")\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 66,
+    "text": "error(\"invalid namespace identifier (\" .. msg .. \")\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 67,
+    "text": "Util.do_class_changing_change(self, M, \"NID\", new, function (uri, new)\r\n            M._SUPER.path(uri, new .. \":\" .. uri:nss())\r\n        end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 68,
+    "text": "M._SUPER.path(uri, new .. \":\" .. uri:nss())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 70,
+    "text": "function M.nss (self, new)\r\n    local _, _, old = self:path():find(\":(.*)\")\r\n\r\n    if new and new ~= old then\r\n        local ok, msg = _valid_nss(new)\r\n        if not ok then\r\n            error(\"invalid namespace specific string (\" .. msg .. \")\")\r\n        end\r\n        M._SUPER.path(self, self:nid() .. \":\" .. new)\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 71,
+    "text": "local _, _, old = self:path():find(\":(.*)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 72,
+    "text": "if new and new ~= old then\r\n        local ok, msg = _valid_nss(new)\r\n        if not ok then\r\n            error(\"invalid namespace specific string (\" .. msg .. \")\")\r\n        end\r\n        M._SUPER.path(self, self:nid() .. \":\" .. new)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 73,
+    "text": "local ok, msg = _valid_nss(new)",
+    "type": "statement:localassign"
+  }, {
+    "id": 74,
+    "text": "if not ok then\r\n            error(\"invalid namespace specific string (\" .. msg .. \")\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 75,
+    "text": "error(\"invalid namespace specific string (\" .. msg .. \")\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 76,
+    "text": "M._SUPER.path(self, self:nid() .. \":\" .. new)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 78,
+    "text": "function M.path (self, new)\r\n    local old = M._SUPER.path(self)\r\n\r\n    if new and new ~= old then\r\n        local path, msg = _validate_and_normalize_path(new)\r\n        if not path then\r\n            error(\"invalid path for URN '\" .. new .. \"' (\" ..msg .. \")\")\r\n        end\r\n        local _, _, newnid, newnss = path:find(\"^([^:]+):(.*)\")\r\n        if not newnid then error(\"bad path for URN, no NID part found\") end\r\n        local ok, msg = _valid_nid(newnid)\r\n        if not ok then error(\"invalid namespace identifier (\" .. msg .. \")\") end\r\n        if newnid:lower() == self:nid() then\r\n            self:nss(newnss)\r\n        else\r\n            Util.do_class_changing_change(self, M, \"path\", path,\r\n                function (uri, new) M._SUPER.path(uri, new) end)\r\n        end\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 79,
+    "text": "local old = M._SUPER.path(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 80,
+    "text": "if new and new ~= old then\r\n        local path, msg = _validate_and_normalize_path(new)\r\n        if not path then\r\n            error(\"invalid path for URN '\" .. new .. \"' (\" ..msg .. \")\")\r\n        end\r\n        local _, _, newnid, newnss = path:find(\"^([^:]+):(.*)\")\r\n        if not newnid then error(\"bad path for URN, no NID part found\") end\r\n        local ok, msg = _valid_nid(newnid)\r\n        if not ok then error(\"invalid namespace identifier (\" .. msg .. \")\") end\r\n        if newnid:lower() == self:nid() then\r\n            self:nss(newnss)\r\n        else\r\n            Util.do_class_changing_change(self, M, \"path\", path,\r\n                function (uri, new) M._SUPER.path(uri, new) end)\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 81,
+    "text": "local path, msg = _validate_and_normalize_path(new)",
+    "type": "statement:localassign"
+  }, {
+    "id": 82,
+    "text": "if not path then\r\n            error(\"invalid path for URN '\" .. new .. \"' (\" ..msg .. \")\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 83,
+    "text": "error(\"invalid path for URN '\" .. new .. \"' (\" ..msg .. \")\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 84,
+    "text": "local _, _, newnid, newnss = path:find(\"^([^:]+):(.*)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 85,
+    "text": "if not newnid then error(\"bad path for URN, no NID part found\") end",
+    "type": "statement:if"
+  }, {
+    "id": 86,
+    "text": "error(\"bad path for URN, no NID part found\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 87,
+    "text": "local ok, msg = _valid_nid(newnid)",
+    "type": "statement:localassign"
+  }, {
+    "id": 88,
+    "text": "if not ok then error(\"invalid namespace identifier (\" .. msg .. \")\") end",
+    "type": "statement:if"
+  }, {
+    "id": 89,
+    "text": "if newnid:lower() == self:nid() then\r\n            self:nss(newnss)\r\n        else\r\n            Util.do_class_changing_change(self, M, \"path\", path,\r\n                function (uri, new) M._SUPER.path(uri, new) end)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 90,
+    "text": "self:nss(newnss)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 91,
+    "text": "Util.do_class_changing_change(self, M, \"path\", path,\r\n                function (uri, new) M._SUPER.path(uri, new) end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 92,
+    "text": "M._SUPER.path(uri, new)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 94,
+    "text": "function (uri, new)\r\n            M._SUPER.path(uri, new .. \":\" .. uri:nss())\r\n        end",
+    "type": "function"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 96,
+    "text": "function (uri, new) M._SUPER.path(uri, new) end",
+    "type": "function"
+  }, {
+    "id": 97,
+    "text": "subclass_of",
+    "type": "global function"
+  }, {
+    "id": 98,
+    "text": "do_class_changing_change",
+    "type": "global function"
+  }, {
+    "id": 99,
+    "text": "uri_part_not_allowed",
+    "type": "global function"
+  }, {
+    "id": 100,
+    "text": "attempt_require",
+    "type": "global function"
+  }, {
+    "id": 101,
+    "text": "M._SUPER.path",
+    "type": "global function"
+  }, {
+    "id": 102,
+    "text": "M._SUPER.query",
+    "type": "global function"
+  }, {
+    "id": 103,
+    "text": "TestCase",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 105,
+    "text": "M._SUPER.host",
+    "type": "global function"
+  }, {
+    "id": 106,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 107,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 108,
+    "text": "run",
+    "type": "global function"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "interface"
+  } ]
+}

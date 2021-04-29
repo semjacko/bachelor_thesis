@@ -1,0 +1,325 @@
+{
+  "_filename": "Dir_test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lub/test/Dir_test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "assigns",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 21
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lub",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "Dir_test",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function should.listFilesMatchingPattern()\r\n  local dir = lub.Dir(lub.path '|')\r\n  local pattern = '%.lua$'\r\n  for file in dir:glob(pattern) do\r\n    assertMatch(pattern, file)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local dir = lub.Dir(lub.path '|')",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local pattern = '%.lua$'",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "for file in dir:glob(pattern) do\r\n    assertMatch(pattern, file)\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 7,
+    "text": "assertMatch(pattern, file)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function should.listFiles()\r\n  local base = lub.path '|'\r\n  local list = {}\r\n  for file in lub.Dir(base):list() do\r\n    local p = string.gsub(file, '^'..base..'/', '')\r\n    lub.insertSorted(list, p)\r\n  end\r\n\r\n  assertValueEqual({\r\n    'Dir_test.lua',\r\n    'Template_test.lua',\r\n    'all.lua',\r\n    'fixtures',\r\n    'lub_test.lua',\r\n  }, list)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local base = lub.path '|'",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local list = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "for file in lub.Dir(base):list() do\r\n    local p = string.gsub(file, '^'..base..'/', '')\r\n    lub.insertSorted(list, p)\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 13,
+    "text": "local p = string.gsub(file, '^'..base..'/', '')",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "lub.insertSorted(list, p)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "assertValueEqual({\r\n    'Dir_test.lua',\r\n    'Template_test.lua',\r\n    'all.lua',\r\n    'fixtures',\r\n    'lub_test.lua',\r\n  }, list)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function should.respondToContain()\r\n  local dir = lub.Dir(lub.path '|')\r\n  assertTrue(dir:contains('all.lua'))\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "assertTrue(dir:contains('all.lua'))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 21,
+    "text": "lut",
+    "type": "module"
+  }, {
+    "id": 22,
+    "text": "Test",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "Dir",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "path",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "insertSorted",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "assertValueEqual",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "assertTrue",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "assertMatch",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,397 @@
+{
+  "_filename": "custom.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/toluapp/src/bin/lua/custom.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 43
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "custom",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function extract_code(fn,s)\r\n\tlocal code = \"\"\r\n\tif fn then\r\n\t\tcode = '\\n$#include \"'..fn..'\"\\n'\r\n\tend\r\n\ts= \"\\n\" .. s .. \"\\n\" -- add blank lines as sentinels\r\n\tlocal _,e,c,t = strfind(s, \"\\n([^\\n]-)SCRIPT_([%w_]*)[^\\n]*\\n\")\r\n\twhile e do\r\n\t\tt = strlower(t)\r\n\t\tif t == \"bind_begin\" then\r\n\t\t\t_,e,c = strfind(s,\"(.-)\\n[^\\n]*SCRIPT_BIND_END[^\\n]*\\n\",e)\r\n\t\t\tif not e then\r\n\t\t\t tolua_error(\"Unbalanced 'SCRIPT_BIND_BEGIN' directive in header file\")\r\n\t\t\tend\r\n\t\tend\r\n\t\tif t == \"bind_class\" or t == \"bind_block\" then\r\n\t\t\tlocal b\r\n\t\t\t_,e,c,b = string.find(s, \"([^{]-)(%b{})\", e)\r\n\t\t\tc = c..'{\\n'..extract_code(nil, b)..'\\n};\\n'\r\n\t\tend\r\n\t\tcode = code .. c .. \"\\n\"\r\n\t _,e,c,t = strfind(s, \"\\n([^\\n]-)SCRIPT_([%w_]*)[^\\n]*\\n\",e)\r\n\tend\r\n\treturn code\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local code = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "if fn then\r\n\t\tcode = '\\n$#include \"'..fn..'\"\\n'\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "code = '\\n$#include \"'..fn..'\"\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "s= \"\\n\" .. s .. \"\\n\"",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "local _,e,c,t = strfind(s, \"\\n([^\\n]-)SCRIPT_([%w_]*)[^\\n]*\\n\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "while e do\r\n\t\tt = strlower(t)\r\n\t\tif t == \"bind_begin\" then\r\n\t\t\t_,e,c = strfind(s,\"(.-)\\n[^\\n]*SCRIPT_BIND_END[^\\n]*\\n\",e)\r\n\t\t\tif not e then\r\n\t\t\t tolua_error(\"Unbalanced 'SCRIPT_BIND_BEGIN' directive in header file\")\r\n\t\t\tend\r\n\t\tend\r\n\t\tif t == \"bind_class\" or t == \"bind_block\" then\r\n\t\t\tlocal b\r\n\t\t\t_,e,c,b = string.find(s, \"([^{]-)(%b{})\", e)\r\n\t\t\tc = c..'{\\n'..extract_code(nil, b)..'\\n};\\n'\r\n\t\tend\r\n\t\tcode = code .. c .. \"\\n\"\r\n\t _,e,c,t = strfind(s, \"\\n([^\\n]-)SCRIPT_([%w_]*)[^\\n]*\\n\",e)\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 9,
+    "text": "t = strlower(t)",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "if t == \"bind_begin\" then\r\n\t\t\t_,e,c = strfind(s,\"(.-)\\n[^\\n]*SCRIPT_BIND_END[^\\n]*\\n\",e)\r\n\t\t\tif not e then\r\n\t\t\t tolua_error(\"Unbalanced 'SCRIPT_BIND_BEGIN' directive in header file\")\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "_,e,c = strfind(s,\"(.-)\\n[^\\n]*SCRIPT_BIND_END[^\\n]*\\n\",e)",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "if not e then\r\n\t\t\t tolua_error(\"Unbalanced 'SCRIPT_BIND_BEGIN' directive in header file\")\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "tolua_error(\"Unbalanced 'SCRIPT_BIND_BEGIN' directive in header file\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "if t == \"bind_class\" or t == \"bind_block\" then\r\n\t\t\tlocal b\r\n\t\t\t_,e,c,b = string.find(s, \"([^{]-)(%b{})\", e)\r\n\t\t\tc = c..'{\\n'..extract_code(nil, b)..'\\n};\\n'\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "local b",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "_,e,c,b = string.find(s, \"([^{]-)(%b{})\", e)",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "c = c..'{\\n'..extract_code(nil, b)..'\\n};\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "code = code .. c .. \"\\n\"",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "_,e,c,t = strfind(s, \"\\n([^\\n]-)SCRIPT_([%w_]*)[^\\n]*\\n\",e)",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function preprocess_hook(p)\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function preparse_hook(p)\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function include_file_hook(p, filename)\r\n\tdo return end\r\n--print(\"FILENAME is \"..filename)\r\n\tp.code = string.gsub(p.code, \"\\n%s*SigC::Signal\", \"\\n\\ttolua_readonly SigC::Signal\")\r\n\tp.code = string.gsub(p.code, \"#ifdef __cplusplus\\nextern \\\"C\\\" {\\n#endif\", \"\")\r\n\tp.code = string.gsub(p.code, \"#ifdef __cplusplus\\n};?\\n#endif\", \"\")\r\n\tp.code = string.gsub(p.code, \"DECLSPEC\", \"\")\r\n\tp.code = string.gsub(p.code, \"SDLCALL\", \"\")\r\n\tp.code = string.gsub(p.code, \"DLLINTERFACE\", \"\")\r\n\tp.code = string.gsub(p.code, \"#define[^\\n]*_[hH]_?%s*\\n\", \"\\n\")\r\n--print(\"code is \"..p.code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "do return end",
+    "type": "statement:do"
+  }, {
+    "id": 28,
+    "text": "p.code = string.gsub(p.code, \"\\n%s*SigC::Signal\", \"\\n\\ttolua_readonly SigC::Signal\")",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "p.code = string.gsub(p.code, \"#ifdef __cplusplus\\nextern \\\"C\\\" {\\n#endif\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "p.code = string.gsub(p.code, \"#ifdef __cplusplus\\n};?\\n#endif\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "p.code = string.gsub(p.code, \"DECLSPEC\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "p.code = string.gsub(p.code, \"SDLCALL\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "p.code = string.gsub(p.code, \"DLLINTERFACE\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "p.code = string.gsub(p.code, \"#define[^\\n]*_[hH]_?%s*\\n\", \"\\n\")",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 37,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "tolua_error",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "strfind",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "strlower",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "require container"
+  } ]
+}

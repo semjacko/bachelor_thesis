@@ -1,0 +1,125 @@
+{
+  "_filename": "neg_int.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/bencode/tests/neg_int.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "provides",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "provides",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "provides",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "provides",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "provides",
+    "to": 14
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "bencode",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "neg_int",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function decode(s, index) \r\n\tif not s then return nil, \"no data\", nil end\r\n\tindex = index or 1 \r\n\tlocal t = sub(s, index, index) \r\n\tif not t then return nil, \"truncation error\", nil end\r\n\r\n\tif t == \"i\" then \r\n\t\treturn decode_integer(s, index + 1) \r\n\telseif t == \"l\" then \r\n\t\treturn decode_list(s, index + 1) \r\n\telseif t == \"d\" then \r\n\t\treturn decode_dictionary(s, index + 1) \r\n\telseif t >= '0' and t <= '9' then \r\n\t\treturn decode_string(s, index) \r\n\telse \r\n\t\treturn nil, \"invalid type\", t\r\n\tend \r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "interface"
+  } ]
+}

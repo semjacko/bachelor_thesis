@@ -1,0 +1,109 @@
+{
+  "_filename": "defined4.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/luacheck/spec/samples/defined4.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 7,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 8,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 9,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 12,
+    "label": "contains",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "defined4",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function foo()\r\n   foo = 1\r\n   bar = {}\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "foo = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "bar = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "local variable"
+  } ]
+}

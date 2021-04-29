@@ -1,0 +1,213 @@
+{
+  "_filename": "link2c.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/concurrentlua/test/distributed/link2c.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 23
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "link2c",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function root(pid)\r\n    local self = concurrent.self()\r\n    concurrent.register('root', self)\r\n    concurrent.link(pid)\r\n    while true do\r\n        concurrent.send(pid, { from = { self, 'root@localhost' },\r\n            body = 'ping' })\r\n        print('root sent message to internal')\r\n\r\n        local msg = concurrent.receive(10)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local self = concurrent.self()",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "concurrent.register('root', self)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "concurrent.link(pid)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "while true do\r\n        concurrent.send(pid, { from = { self, 'root@localhost' },\r\n            body = 'ping' })\r\n        print('root sent message to internal')\r\n\r\n        local msg = concurrent.receive(10)\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 7,
+    "text": "concurrent.send(pid, { from = { self, 'root@localhost' },\r\n            body = 'ping' })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "print('root sent message to internal')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "local msg = concurrent.receive(10)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 12,
+    "text": "spawn",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "receive",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "send",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "loop",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "link",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "register",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "self",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "shutdown",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  } ]
+}

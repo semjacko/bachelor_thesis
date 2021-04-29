@@ -1,0 +1,1025 @@
+{
+  "_filename": "mock_method.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lmock/src/mock_method.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 90,
+    "label": "calls",
+    "to": 96
+  }, {
+    "from": 71,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 73,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 93
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 79
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 73,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 90
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 49
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 54
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 62
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 71
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 73
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 79
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 82
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 84
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 86
+  }, {
+    "from": 90,
+    "label": "declares",
+    "to": 88
+  }, {
+    "from": 105,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 106
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 107
+  }, {
+    "from": 106,
+    "label": "initializes",
+    "to": 108
+  }, {
+    "from": 108,
+    "label": "assigns",
+    "to": 109
+  }, {
+    "from": 108,
+    "label": "contains",
+    "to": 8
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "mock_method",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function CMockMethod:Ctor( methodName )\r\n\tself.m_invoker = {}\r\n\tself.m_deactiveInvoker = {}\r\n\r\n\tassert( type( methodName ) == \"string\" )\r\n\tself.m_name = methodName\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "self.m_invoker = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "self.m_deactiveInvoker = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "assert( type( methodName ) == \"string\" )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "self.m_name = methodName",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function CMockMethod.new( methodName )\r\n\tlocal obj = {}\r\n\tsetmetatable( obj , { __index = CMockMethod } )\r\n\tobj:Ctor( methodName )\r\n\treturn obj\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local obj = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "setmetatable( obj , { __index = CMockMethod } )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "obj:Ctor( methodName )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function CMockMethod:expects( restrict )\r\n\tlocal invoker = CMockInvoker.new( restrict )\r\n\ttable.insert( self.m_invoker , invoker )\r\n\treturn invoker\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "local invoker = CMockInvoker.new( restrict )",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "table.insert( self.m_invoker , invoker )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "local function default()\r\n\tlocal t = {}\r\n\t\r\n\tfunction t:update()\r\n\t\treturn true\r\n\tend\r\n\r\n\tfunction t:validate()\r\n\tend\r\n\r\n\tfunction t:toString()\r\n\t\treturn \"  :default()\\n\"\r\n\tend\r\n\r\n\treturn t\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "local t = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "function t:update()\r\n\t\treturn true\r\n\tend",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 21,
+    "text": "function t:validate()\r\n\tend",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 22,
+    "text": "function t:toString()\r\n\t\treturn \"  :default()\\n\"\r\n\tend",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function t:update()\r\n\t\treturn true\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function t:validate()\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function t:toString()\r\n\t\treturn \"  :default()\\n\"\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function CMockMethod:default()\r\n\tself.m_defaultInvoker = CMockInvoker.new( default() )\r\n\treturn self.m_defaultInvoker\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "self.m_defaultInvoker = CMockInvoker.new( default() )",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "function CMockMethod:call( ... )\r\n\tfor idx , invoker in ipairs( self.m_invoker ) do\r\n\t\tif invoker:matchParameter( ... ) then\r\n\t\t\tself:updateInvoker( idx , invoker , ... )\r\n\t\t\treturn unpack( invoker:excute() )\r\n\t\tend\r\n\tend\r\n\r\n\tif self.m_defaultInvoker and self.m_defaultInvoker:matchParameter( ... ) then\r\n\t\treturn unpack( self.m_defaultInvoker:excute() )\r\n\tend\r\n\r\n\tself:printParameterError( ... )\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "for idx , invoker in ipairs( self.m_invoker ) do\r\n\t\tif invoker:matchParameter( ... ) then\r\n\t\t\tself:updateInvoker( idx , invoker , ... )\r\n\t\t\treturn unpack( invoker:excute() )\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 35,
+    "text": "if invoker:matchParameter( ... ) then\r\n\t\t\tself:updateInvoker( idx , invoker , ... )\r\n\t\t\treturn unpack( invoker:excute() )\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "self:updateInvoker( idx , invoker , ... )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 37,
+    "text": "if self.m_defaultInvoker and self.m_defaultInvoker:matchParameter( ... ) then\r\n\t\treturn unpack( self.m_defaultInvoker:excute() )\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "self:printParameterError( ... )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "function CMockMethod:updateInvoker( idx , invoker , ... )\r\n\tlocal executeRst , active = pcall( invoker.updateRestrict , invoker )\r\n\tif executeRst and not active then\r\n\t\ttable.insert( self.m_deactiveInvoker , invoker )\r\n\t\ttable.remove( self.m_invoker , idx )\r\n\tend\r\n\r\n\tif not executeRst then\r\n\t\tlocal str = active..self:printCurrentInvoke( ... )..self:printMethodName()..invoker:toString()\r\n\t\terror( str , 4 )\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "local executeRst , active = pcall( invoker.updateRestrict , invoker )",
+    "type": "statement:localassign"
+  }, {
+    "id": 42,
+    "text": "if executeRst and not active then\r\n\t\ttable.insert( self.m_deactiveInvoker , invoker )\r\n\t\ttable.remove( self.m_invoker , idx )\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 43,
+    "text": "table.insert( self.m_deactiveInvoker , invoker )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "table.remove( self.m_invoker , idx )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "if not executeRst then\r\n\t\tlocal str = active..self:printCurrentInvoke( ... )..self:printMethodName()..invoker:toString()\r\n\t\terror( str , 4 )\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 46,
+    "text": "local str = active..self:printCurrentInvoke( ... )..self:printMethodName()..invoker:toString()",
+    "type": "statement:localassign"
+  }, {
+    "id": 47,
+    "text": "error( str , 4 )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 49,
+    "text": "function CMockMethod:printParameterError( ... )\r\n\tlocal currentInvoke = self:printCurrentInvoke( ... )\r\n\tlocal allInvokeDefine = self:printAllAllowedInvoke()\r\n\terror( \"Parameter exception\\n\"..currentInvoke..allInvokeDefine , 4 )\r\nend",
+    "type": "function"
+  }, {
+    "id": 50,
+    "text": "local currentInvoke = self:printCurrentInvoke( ... )",
+    "type": "statement:localassign"
+  }, {
+    "id": 51,
+    "text": "local allInvokeDefine = self:printAllAllowedInvoke()",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "error( \"Parameter exception\\n\"..currentInvoke..allInvokeDefine , 4 )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 54,
+    "text": "function CMockMethod:printCurrentInvoke( ... )\r\n\tlocal str = \"Invoked: \"..self.m_name..\"(\"\r\n\r\n\tfor idx , param in ipairs( arg ) do\r\n\t\tstr = str..tostring( arg[ idx ] )\r\n\t\tif idx ~= #arg then str = str..\",\" end\r\n\tend\r\n\r\n\tstr = str..\")\\n\"\r\n\t\r\n\treturn str\r\nend",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "local str = \"Invoked: \"..self.m_name..\"(\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 56,
+    "text": "for idx , param in ipairs( arg ) do\r\n\t\tstr = str..tostring( arg[ idx ] )\r\n\t\tif idx ~= #arg then str = str..\",\" end\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 57,
+    "text": "str = str..tostring( arg[ idx ] )",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "if idx ~= #arg then str = str..\",\" end",
+    "type": "statement:if"
+  }, {
+    "id": 59,
+    "text": "str = str..\",\"",
+    "type": "statement:assign"
+  }, {
+    "id": 60,
+    "text": "str = str..\")\\n\"",
+    "type": "statement:assign"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 62,
+    "text": "function CMockMethod:printAllAllowedInvoke()\r\n\tlocal str = \"Allowed:\\n\"\r\n\t\r\n\tlocal methodName = self:printMethodName()\r\n\r\n\tfor _ , invoker in ipairs( self.m_invoker ) do\r\n\t\tstr = str..methodName..invoker:toString()\r\n\tend\r\n\t\r\n\tfor _ , invoker in ipairs( self.m_deactiveInvoker ) do\r\n\t\tstr = str..methodName..invoker:toString()\r\n\tend\r\n\r\n\tif self.m_defaultInvoker then\r\n\t\tstr = str..methodName..self.m_defaultInvoker:toString()\r\n\tend\r\n\r\n\treturn str\r\nend",
+    "type": "function"
+  }, {
+    "id": 63,
+    "text": "local str = \"Allowed:\\n\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 64,
+    "text": "local methodName = self:printMethodName()",
+    "type": "statement:localassign"
+  }, {
+    "id": 65,
+    "text": "for _ , invoker in ipairs( self.m_invoker ) do\r\n\t\tstr = str..methodName..invoker:toString()\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 66,
+    "text": "str = str..methodName..invoker:toString()",
+    "type": "statement:assign"
+  }, {
+    "id": 67,
+    "text": "for _ , invoker in ipairs( self.m_deactiveInvoker ) do\r\n\t\tstr = str..methodName..invoker:toString()\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 68,
+    "text": "if self.m_defaultInvoker then\r\n\t\tstr = str..methodName..self.m_defaultInvoker:toString()\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 69,
+    "text": "str = str..methodName..self.m_defaultInvoker:toString()",
+    "type": "statement:assign"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 71,
+    "text": "function CMockMethod:printMethodName()\r\n\treturn string.format( \"METHOD(%s)\\n\" , self.m_name )\r\nend",
+    "type": "function"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 73,
+    "text": "function CMockMethod:verify()\r\n\tlocal str = \"\"\r\n\t\r\n\tlocal methodName = self:printMethodName()\r\n\r\n\tfor i , invoker in ipairs( self.m_invoker ) do\r\n\t\tif invoker:checkRestrict() then\r\n\t\t\tstr = str..invoker:checkRestrict()..methodName..invoker:toString()\r\n\t\tend\r\n\tend\r\n\r\n\treturn string.len( str ) > 0 and str\r\nend",
+    "type": "function"
+  }, {
+    "id": 74,
+    "text": "local str = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 75,
+    "text": "for i , invoker in ipairs( self.m_invoker ) do\r\n\t\tif invoker:checkRestrict() then\r\n\t\t\tstr = str..invoker:checkRestrict()..methodName..invoker:toString()\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 76,
+    "text": "if invoker:checkRestrict() then\r\n\t\t\tstr = str..invoker:checkRestrict()..methodName..invoker:toString()\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 77,
+    "text": "str = str..invoker:checkRestrict()..methodName..invoker:toString()",
+    "type": "statement:assign"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 79,
+    "text": "local function stubs()\r\n\tlocal t = {}\r\n\r\n\tfunction t:update()\r\n\t\treturn true\r\n\tend\r\n\r\n\tfunction t:validate()\r\n\tend\r\n\r\n\tfunction t:toString()\r\n\t\treturn \"  :stubs()\\n\"\r\n\tend\r\n\r\n\treturn t\r\nend",
+    "type": "function"
+  }, {
+    "id": 80,
+    "text": "function t:toString()\r\n\t\treturn \"  :stubs()\\n\"\r\n\tend",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 82,
+    "text": "function t:update()\r\n\t\treturn true\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 84,
+    "text": "function t:validate()\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 86,
+    "text": "function t:toString()\r\n\t\treturn \"  :stubs()\\n\"\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 88,
+    "text": "function CMockMethod:stubs()\r\n\treturn self:expects( stubs() )\r\nend",
+    "type": "function"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 90,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 91,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 92,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 93,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 94,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 95,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 96,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 97,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 98,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 99,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 100,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 101,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 102,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 103,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

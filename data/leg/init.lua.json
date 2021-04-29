@@ -1,0 +1,109 @@
+{
+  "_filename": "init.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/leg/src/init.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "requires",
+    "to": 4
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "grammar",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "init",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "parser",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "scanner",
+    "type": "module"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

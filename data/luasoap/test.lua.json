@@ -1,0 +1,293 @@
+{
+  "_filename": "test.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasoap/test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 24
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function encode (namespace, method, entries, header)\r\n\t-- Cleans old header and insert a new one (if it exists).\r\n\tinsert_header (envelope_template, header)\r\n\t-- Sets new body contents (and erase old content).\r\n\tlocal body = (envelope_template[2] and envelope_template[2][1]) or envelope_template[1][1]\r\n\tfor i = 1, max (getn(body), getn(entries)) do\r\n\t\tbody[i] = entries[i]\r\n\tend\r\n\t-- Sets method (actually, the table's tag) and namespace.\r\n\tbody.tag = (namespace and \"m:\" or \"\")..method\r\n\tbody.attr[\"xmlns:m\"] = namespace\r\n\treturn serialize (envelope_template)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function table.equal (t1, t2)\r\n\tassert (type(t1) == type(t2), string.format (\"%s (%s) ~= %s (%s)\", type(t1),\r\n\t\ttostring(t1), type(t2), tostring(t2)))\r\n\tfor i, v1 in pairs (t1) do\r\n\t\tlocal v2 = t2[i]\r\n\t\tlocal tv1 = type(v1)\r\n\t\tif tv1 == \"table\" then\r\n\t\t\tlocal ok, err = table.equal (v1, v2)\r\n\t\t\tif not ok then\r\n\t\t\t\treturn false, err\r\n\t\t\tend\r\n\t\telseif v1 ~= v2 then\r\n\t\t\treturn false, string.format (\"%s ~= %s\", tostring(v1), tostring(v2))\r\n\t\tend\r\n\tend\r\n\treturn true\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "assert (type(t1) == type(t2), string.format (\"%s (%s) ~= %s (%s)\", type(t1),\r\n\t\ttostring(t1), type(t2), tostring(t2)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "for i, v1 in pairs (t1) do\r\n\t\tlocal v2 = t2[i]\r\n\t\tlocal tv1 = type(v1)\r\n\t\tif tv1 == \"table\" then\r\n\t\t\tlocal ok, err = table.equal (v1, v2)\r\n\t\t\tif not ok then\r\n\t\t\t\treturn false, err\r\n\t\t\tend\r\n\t\telseif v1 ~= v2 then\r\n\t\t\treturn false, string.format (\"%s ~= %s\", tostring(v1), tostring(v2))\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 6,
+    "text": "local v2 = t2[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local tv1 = type(v1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "if tv1 == \"table\" then\r\n\t\t\tlocal ok, err = table.equal (v1, v2)\r\n\t\t\tif not ok then\r\n\t\t\t\treturn false, err\r\n\t\t\tend\r\n\t\telseif v1 ~= v2 then\r\n\t\t\treturn false, string.format (\"%s ~= %s\", tostring(v1), tostring(v2))\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "local ok, err = table.equal (v1, v2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if not ok then\r\n\t\t\t\treturn false, err\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 14,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "parse",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require container"
+  } ]
+}

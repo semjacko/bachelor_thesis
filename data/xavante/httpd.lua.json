@@ -1,0 +1,1961 @@
+{
+  "_filename": "httpd.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/xavante/src/xavante/httpd.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 160
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 94,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 105,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 112,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 114
+  }, {
+    "from": 114,
+    "label": "has",
+    "to": 115
+  }, {
+    "from": 114,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 114,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 118
+  }, {
+    "from": 118,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 119,
+    "label": "has",
+    "to": 120
+  }, {
+    "from": 120,
+    "label": "has",
+    "to": 121
+  }, {
+    "from": 119,
+    "label": "has",
+    "to": 122
+  }, {
+    "from": 118,
+    "label": "has",
+    "to": 123
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 124
+  }, {
+    "from": 124,
+    "label": "has",
+    "to": 125
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 128
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 129
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 130
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 132
+  }, {
+    "from": 132,
+    "label": "has",
+    "to": 133
+  }, {
+    "from": 132,
+    "label": "has",
+    "to": 134
+  }, {
+    "from": 132,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 132,
+    "label": "has",
+    "to": 136
+  }, {
+    "from": 136,
+    "label": "has",
+    "to": 137
+  }, {
+    "from": 137,
+    "label": "has",
+    "to": 138
+  }, {
+    "from": 137,
+    "label": "has",
+    "to": 139
+  }, {
+    "from": 137,
+    "label": "has",
+    "to": 140
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 141
+  }, {
+    "from": 142,
+    "label": "has",
+    "to": 143
+  }, {
+    "from": 142,
+    "label": "has",
+    "to": 144
+  }, {
+    "from": 142,
+    "label": "has",
+    "to": 145
+  }, {
+    "from": 142,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 142,
+    "label": "has",
+    "to": 146
+  }, {
+    "from": 147,
+    "label": "has",
+    "to": 148
+  }, {
+    "from": 147,
+    "label": "has",
+    "to": 144
+  }, {
+    "from": 147,
+    "label": "has",
+    "to": 149
+  }, {
+    "from": 147,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 147,
+    "label": "has",
+    "to": 150
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 152
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 153
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 154
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 156
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 157
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 158
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 159
+  }, {
+    "from": 160,
+    "label": "has",
+    "to": 161
+  }, {
+    "from": 160,
+    "label": "has",
+    "to": 162
+  }, {
+    "from": 160,
+    "label": "has",
+    "to": 163
+  }, {
+    "from": 160,
+    "label": "has",
+    "to": 164
+  }, {
+    "from": 160,
+    "label": "has",
+    "to": 165
+  }, {
+    "from": 160,
+    "label": "has",
+    "to": 166
+  }, {
+    "from": 167,
+    "label": "has",
+    "to": 168
+  }, {
+    "from": 167,
+    "label": "has",
+    "to": 169
+  }, {
+    "from": 169,
+    "label": "has",
+    "to": 170
+  }, {
+    "from": 167,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 167,
+    "label": "has",
+    "to": 171
+  }, {
+    "from": 102,
+    "label": "calls",
+    "to": 203
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 160,
+    "label": "calls",
+    "to": 181
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 199
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 199
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 199
+  }, {
+    "from": 167,
+    "label": "calls",
+    "to": 199
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 177
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 183
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 198
+  }, {
+    "from": 68,
+    "label": "calls",
+    "to": 198
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 201
+  }, {
+    "from": 102,
+    "label": "calls",
+    "to": 201
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 160,
+    "label": "calls",
+    "to": 184
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 178
+  }, {
+    "from": 172,
+    "label": "calls",
+    "to": 185
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 192
+  }, {
+    "from": 127,
+    "label": "calls",
+    "to": 192
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 193
+  }, {
+    "from": 160,
+    "label": "calls",
+    "to": 195
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 197
+  }, {
+    "from": 167,
+    "label": "calls",
+    "to": 197
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 196
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 194
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 99,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 176
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 176
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 176
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 176
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 176
+  }, {
+    "from": 90,
+    "label": "calls",
+    "to": 176
+  }, {
+    "from": 142,
+    "label": "calls",
+    "to": 176
+  }, {
+    "from": 147,
+    "label": "calls",
+    "to": 176
+  }, {
+    "from": 151,
+    "label": "calls",
+    "to": 176
+  }, {
+    "from": 90,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 191
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 202
+  }, {
+    "from": 68,
+    "label": "calls",
+    "to": 202
+  }, {
+    "from": 127,
+    "label": "calls",
+    "to": 202
+  }, {
+    "from": 167,
+    "label": "calls",
+    "to": 202
+  }, {
+    "from": 90,
+    "label": "calls",
+    "to": 200
+  }, {
+    "from": 102,
+    "label": "calls",
+    "to": 200
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 127,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 127,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 186
+  }, {
+    "from": 66,
+    "label": "calls",
+    "to": 186
+  }, {
+    "from": 68,
+    "label": "calls",
+    "to": 187
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 187
+  }, {
+    "from": 102,
+    "label": "calls",
+    "to": 187
+  }, {
+    "from": 102,
+    "label": "calls",
+    "to": 187
+  }, {
+    "from": 102,
+    "label": "calls",
+    "to": 187
+  }, {
+    "from": 127,
+    "label": "calls",
+    "to": 187
+  }, {
+    "from": 127,
+    "label": "calls",
+    "to": 190
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 204
+  }, {
+    "from": 172,
+    "label": "calls",
+    "to": 205
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 189
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 180
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 172
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 59
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 66
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 68
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 77
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 90
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 99
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 102
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 127
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 142
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 147
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 151
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 155
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 160
+  }, {
+    "from": 172,
+    "label": "declares",
+    "to": 167
+  }, {
+    "from": 173,
+    "label": "calls",
+    "to": 155
+  }, {
+    "from": 175,
+    "label": "calls",
+    "to": 167
+  }, {
+    "from": 174,
+    "label": "calls",
+    "to": 160
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 182
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 188
+  }, {
+    "from": 206,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 208
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 209
+  }, {
+    "from": 208,
+    "label": "initializes",
+    "to": 210
+  }, {
+    "from": 210,
+    "label": "assigns",
+    "to": 211
+  }, {
+    "from": 208,
+    "label": "initializes",
+    "to": 212
+  }, {
+    "from": 212,
+    "label": "assigns",
+    "to": 213
+  }, {
+    "from": 208,
+    "label": "initializes",
+    "to": 214
+  }, {
+    "from": 214,
+    "label": "assigns",
+    "to": 215
+  }, {
+    "from": 209,
+    "label": "initializes",
+    "to": 216
+  }, {
+    "from": 216,
+    "label": "requires",
+    "to": 207
+  }, {
+    "from": 206,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 206,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "httpd",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "function strsplit (str)\r\n\tlocal words = {}\r\n\t\r\n\tfor w in string.gmatch (str, \"%S+\") do\r\n\t\ttable.insert (words, w)\r\n\tend\r\n\t\r\n\treturn words\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local words = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "for w in string.gmatch (str, \"%S+\") do\r\n\t\ttable.insert (words, w)\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 6,
+    "text": "table.insert (words, w)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function connection (skt)\r\n\tcopas.setErrorHandler (errorhandler)\r\n\t\r\n\tskt:setoption (\"tcp-nodelay\", true)\r\n\tlocal srv, port = skt:getsockname ()\r\n\tlocal req = {\r\n\t\trawskt = skt,\r\n\t\tsrv = srv,\r\n\t\tport = port,\r\n\t\tcopasskt = copas.wrap (skt),\r\n\t}\r\n\treq.socket = req.copasskt\r\n\treq.serversoftware = _serversoftware\r\n\t\r\n\twhile read_method (req) do\r\n\t\tlocal res\r\n\t\tread_headers (req)\r\n\r\n\t\trepeat\r\n\t\t\treq.params = nil\r\n\t\t\tparse_url (req)\r\n\t\t\tres = make_response (req)\r\n\t\tuntil handle_request (req, res) ~= \"reparse\"\r\n\t\tsend_response (req, res)\r\n\r\n\t\treq.socket:flush ()\r\n\t\tif not res.keep_alive then\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "copas.setErrorHandler (errorhandler)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "skt:setoption (\"tcp-nodelay\", true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "local srv, port = skt:getsockname ()",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local req = {\r\n\t\trawskt = skt,\r\n\t\tsrv = srv,\r\n\t\tport = port,\r\n\t\tcopasskt = copas.wrap (skt),\r\n\t}",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "req.socket = req.copasskt",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "req.serversoftware = _serversoftware",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "while read_method (req) do\r\n\t\tlocal res\r\n\t\tread_headers (req)\r\n\r\n\t\trepeat\r\n\t\t\treq.params = nil\r\n\t\t\tparse_url (req)\r\n\t\t\tres = make_response (req)\r\n\t\tuntil handle_request (req, res) ~= \"reparse\"\r\n\t\tsend_response (req, res)\r\n\r\n\t\treq.socket:flush ()\r\n\t\tif not res.keep_alive then\r\n\t\t\tbreak\r\n\t\tend\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 17,
+    "text": "local res",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "read_headers (req)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "repeat\r\n\t\t\treq.params = nil\r\n\t\t\tparse_url (req)\r\n\t\t\tres = make_response (req)\r\n\t\tuntil handle_request (req, res) ~= \"reparse\"",
+    "type": "statement:repeat"
+  }, {
+    "id": 20,
+    "text": "req.params = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "parse_url (req)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "res = make_response (req)",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "send_response (req, res)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "req.socket:flush ()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "if not res.keep_alive then\r\n\t\t\tbreak\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function errorhandler (msg, co, skt)\r\n    msg = tostring(msg)\r\n\tio.stderr:write(\"  Xavante Error: \"..msg..\"\\n\", \"  \"..tostring(co)..\"\\n\", \"  \"..tostring(skt)..\"\\n\")\r\n\tskt:send (\"HTTP/1.0 200 OK\\r\\n\")\r\n\tskt:send (string.format (\"Date: %s\\r\\n\\r\\n\", os.date (\"!%a, %d %b %Y %H:%M:%S GMT\")))\r\n\tskt:send (string.format ([[\r\n<html><head><title>Xavante Error!</title></head>\r\n<body>\r\n<h1>Xavante Error!</h1>\r\n<p>%s</p>\r\n</body></html>\r\n]], string.gsub (msg, \"\\n\", \"<br/>\\n\")))\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "msg = tostring(msg)",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "io.stderr:write(\"  Xavante Error: \"..msg..\"\\n\", \"  \"..tostring(co)..\"\\n\", \"  \"..tostring(skt)..\"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "skt:send (\"HTTP/1.0 200 OK\\r\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "skt:send (string.format (\"Date: %s\\r\\n\\r\\n\", os.date (\"!%a, %d %b %Y %H:%M:%S GMT\")))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "skt:send (string.format ([[\r\n<html><head><title>Xavante Error!</title></head>\r\n<body>\r\n<h1>Xavante Error!</h1>\r\n<p>%s</p>\r\n</body></html>\r\n]], string.gsub (msg, \"\\n\", \"<br/>\\n\")))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "function read_method (req)\r\n\tlocal err\r\n\treq.cmdline, err = req.socket:receive ()\r\n\t\r\n\tif not req.cmdline then return nil end\r\n\treq.cmd_mth, req.cmd_url, req.cmd_version = unpack (strsplit (req.cmdline))\r\n\treq.cmd_mth = string.upper (req.cmd_mth or 'GET')\r\n\treq.cmd_url = req.cmd_url or '/'\r\n\t\r\n\treturn true\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "local err",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "req.cmdline, err = req.socket:receive ()",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "if not req.cmdline then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "req.cmd_mth, req.cmd_url, req.cmd_version = unpack (strsplit (req.cmdline))",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "req.cmd_mth = string.upper (req.cmd_mth or 'GET')",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "req.cmd_url = req.cmd_url or '/'",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function read_headers (req)\r\n\tlocal headers = {}\r\n\tlocal prevval, prevname\r\n\t\r\n\twhile 1 do\r\n\t\tlocal l,err = req.socket:receive ()\r\n\t\tif (not l or l == \"\") then\r\n\t\t\treq.headers = headers\r\n\t\t\treturn\r\n\t\tend\r\n\t\tlocal _,_, name, value = string.find (l, \"^([^: ]+)%s*:%s*(.+)\")\r\n\t\tname = string.lower (name or '')\r\n\t\tif name then\r\n\t\t\tprevval = headers [name]\r\n\t\t\tif prevval then\r\n\t\t\t\tvalue = prevval .. \",\" .. value\r\n\t\t\tend\r\n\t\t\theaders [name] = value\r\n\t\t\tprevname = name\r\n\t\telseif prevname then\r\n\t\t\theaders [prevname] = headers [prevname] .. l\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "local headers = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 44,
+    "text": "local prevval, prevname",
+    "type": "statement:localassign"
+  }, {
+    "id": 45,
+    "text": "while 1 do\r\n\t\tlocal l,err = req.socket:receive ()\r\n\t\tif (not l or l == \"\") then\r\n\t\t\treq.headers = headers\r\n\t\t\treturn\r\n\t\tend\r\n\t\tlocal _,_, name, value = string.find (l, \"^([^: ]+)%s*:%s*(.+)\")\r\n\t\tname = string.lower (name or '')\r\n\t\tif name then\r\n\t\t\tprevval = headers [name]\r\n\t\t\tif prevval then\r\n\t\t\t\tvalue = prevval .. \",\" .. value\r\n\t\t\tend\r\n\t\t\theaders [name] = value\r\n\t\t\tprevname = name\r\n\t\telseif prevname then\r\n\t\t\theaders [prevname] = headers [prevname] .. l\r\n\t\tend\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 46,
+    "text": "local l,err = req.socket:receive ()",
+    "type": "statement:localassign"
+  }, {
+    "id": 47,
+    "text": "if (not l or l == \"\") then\r\n\t\t\treq.headers = headers\r\n\t\t\treturn\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 48,
+    "text": "req.headers = headers",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "local _,_, name, value = string.find (l, \"^([^: ]+)%s*:%s*(.+)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 50,
+    "text": "name = string.lower (name or '')",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "if name then\r\n\t\t\tprevval = headers [name]\r\n\t\t\tif prevval then\r\n\t\t\t\tvalue = prevval .. \",\" .. value\r\n\t\t\tend\r\n\t\t\theaders [name] = value\r\n\t\t\tprevname = name\r\n\t\telseif prevname then\r\n\t\t\theaders [prevname] = headers [prevname] .. l\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 52,
+    "text": "prevval = headers [name]",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "if prevval then\r\n\t\t\t\tvalue = prevval .. \",\" .. value\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 54,
+    "text": "value = prevval .. \",\" .. value",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "headers [name] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "prevname = name",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "headers [prevname] = headers [prevname] .. l",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 59,
+    "text": "function parse_url (req)\r\n\tlocal def_url = string.format (\"http://%s%s\", req.headers.host or \"\", req.cmd_url or \"\")\r\n\t\r\n\treq.parsed_url = url.parse (def_url or '')\r\n\treq.parsed_url.port = req.parsed_url.port or req.port\r\n\treq.built_url = url.build (req.parsed_url)\r\n\t\r\n\treq.relpath = url.unescape (req.parsed_url.path)\r\nend",
+    "type": "function"
+  }, {
+    "id": 60,
+    "text": "local def_url = string.format (\"http://%s%s\", req.headers.host or \"\", req.cmd_url or \"\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 61,
+    "text": "req.parsed_url = url.parse (def_url or '')",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "req.parsed_url.port = req.parsed_url.port or req.port",
+    "type": "statement:assign"
+  }, {
+    "id": 63,
+    "text": "req.built_url = url.build (req.parsed_url)",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "req.relpath = url.unescape (req.parsed_url.path)",
+    "type": "statement:assign"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 66,
+    "text": "function default_headers (req)\r\n\treturn  {\r\n\t\tDate = os.date (\"!%a, %d %b %Y %H:%M:%S GMT\"),\r\n\t\tServer = _serversoftware,\r\n\t}\r\nend",
+    "type": "function"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 68,
+    "text": "function add_res_header (res, h, v)\r\n    if string.lower(h) == \"status\" then\r\n        res.statusline = \"HTTP/1.1 \"..v\r\n    else\r\n        local prevval = res.headers [h]\r\n        if (prevval  == nil) then\r\n            res.headers[h] = v\r\n        elseif type (prevval) == \"table\" then\r\n            table.insert (prevval, v)\r\n        else\r\n            res.headers[h] = {prevval, v}\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 69,
+    "text": "if string.lower(h) == \"status\" then\r\n        res.statusline = \"HTTP/1.1 \"..v\r\n    else\r\n        local prevval = res.headers [h]\r\n        if (prevval  == nil) then\r\n            res.headers[h] = v\r\n        elseif type (prevval) == \"table\" then\r\n            table.insert (prevval, v)\r\n        else\r\n            res.headers[h] = {prevval, v}\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 70,
+    "text": "res.statusline = \"HTTP/1.1 \"..v",
+    "type": "statement:assign"
+  }, {
+    "id": 71,
+    "text": "local prevval = res.headers [h]",
+    "type": "statement:localassign"
+  }, {
+    "id": 72,
+    "text": "if (prevval  == nil) then\r\n            res.headers[h] = v\r\n        elseif type (prevval) == \"table\" then\r\n            table.insert (prevval, v)\r\n        else\r\n            res.headers[h] = {prevval, v}\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 73,
+    "text": "res.headers[h] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "table.insert (prevval, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 75,
+    "text": "res.headers[h] = {prevval, v}",
+    "type": "statement:assign"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 77,
+    "text": "local function send_res_headers (res)\r\n\tif (res.sent_headers) then\r\n\t\treturn\r\n\tend\r\n\t\r\n\tif xavante.cookies then\r\n\t\txavante.cookies.set_res_cookies (res)\r\n\tend\r\n    \r\n\tres.statusline = res.statusline or \"HTTP/1.1 200 OK\"\r\n\t\r\n\tres.socket:send (res.statusline..\"\\r\\n\")\r\n\tfor name, value in pairs (res.headers) do\r\n                if type(value) == \"table\" then\r\n                  for _, value in ipairs(value) do\r\n                    res.socket:send (string.format (\"%s: %s\\r\\n\", name, value))\r\n                  end\r\n                else\r\n                  res.socket:send (string.format (\"%s: %s\\r\\n\", name, value))\r\n                end\r\n\tend\r\n\tres.socket:send (\"\\r\\n\")\r\n\t\r\n\tres.sent_headers = true;\r\nend",
+    "type": "function"
+  }, {
+    "id": 78,
+    "text": "if (res.sent_headers) then\r\n\t\treturn\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 79,
+    "text": "if xavante.cookies then\r\n\t\txavante.cookies.set_res_cookies (res)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 80,
+    "text": "xavante.cookies.set_res_cookies (res)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 81,
+    "text": "res.statusline = res.statusline or \"HTTP/1.1 200 OK\"",
+    "type": "statement:assign"
+  }, {
+    "id": 82,
+    "text": "res.socket:send (res.statusline..\"\\r\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 83,
+    "text": "for name, value in pairs (res.headers) do\r\n                if type(value) == \"table\" then\r\n                  for _, value in ipairs(value) do\r\n                    res.socket:send (string.format (\"%s: %s\\r\\n\", name, value))\r\n                  end\r\n                else\r\n                  res.socket:send (string.format (\"%s: %s\\r\\n\", name, value))\r\n                end\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 84,
+    "text": "if type(value) == \"table\" then\r\n                  for _, value in ipairs(value) do\r\n                    res.socket:send (string.format (\"%s: %s\\r\\n\", name, value))\r\n                  end\r\n                else\r\n                  res.socket:send (string.format (\"%s: %s\\r\\n\", name, value))\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 85,
+    "text": "for _, value in ipairs(value) do\r\n                    res.socket:send (string.format (\"%s: %s\\r\\n\", name, value))\r\n                  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 86,
+    "text": "res.socket:send (string.format (\"%s: %s\\r\\n\", name, value))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 87,
+    "text": "res.socket:send (\"\\r\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 88,
+    "text": "res.sent_headers = true",
+    "type": "statement:assign"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 90,
+    "text": "local function send_res_data (res, data)\r\n\r\n\tif not data or data == \"\" then\r\n\t\treturn\r\n\tend\r\n\r\n\tif not res.sent_headers then\r\n\t\tsend_res_headers (res)\r\n\tend\r\n\t\r\n\tif data then\r\n\t\tif res.chunked then\r\n\t\t\tres.socket:send (string.format (\"%X\\r\\n\", string.len (data)))\r\n\t\t\tres.socket:send (data)\r\n\t\t\tres.socket:send (\"\\r\\n\")\r\n\t\telse\r\n\t\t\tres.socket:send (data)\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 91,
+    "text": "if not data or data == \"\" then\r\n\t\treturn\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 92,
+    "text": "if not res.sent_headers then\r\n\t\tsend_res_headers (res)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 93,
+    "text": "send_res_headers (res)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 94,
+    "text": "if data then\r\n\t\tif res.chunked then\r\n\t\t\tres.socket:send (string.format (\"%X\\r\\n\", string.len (data)))\r\n\t\t\tres.socket:send (data)\r\n\t\t\tres.socket:send (\"\\r\\n\")\r\n\t\telse\r\n\t\t\tres.socket:send (data)\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 95,
+    "text": "if res.chunked then\r\n\t\t\tres.socket:send (string.format (\"%X\\r\\n\", string.len (data)))\r\n\t\t\tres.socket:send (data)\r\n\t\t\tres.socket:send (\"\\r\\n\")\r\n\t\telse\r\n\t\t\tres.socket:send (data)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 96,
+    "text": "res.socket:send (string.format (\"%X\\r\\n\", string.len (data)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 97,
+    "text": "res.socket:send (data)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 99,
+    "text": "function make_response (req)\r\n\tlocal res = {\r\n\t\treq = req,\r\n\t\tsocket = req.socket,\r\n\t\theaders = default_headers (req),\r\n\t\tadd_header = add_res_header,\r\n\t\tsend_headers = send_res_headers,\r\n\t\tsend_data = send_res_data,\r\n\t}\r\n\t\r\n\treturn res\r\nend",
+    "type": "function"
+  }, {
+    "id": 100,
+    "text": "local res = {\r\n\t\treq = req,\r\n\t\tsocket = req.socket,\r\n\t\theaders = default_headers (req),\r\n\t\tadd_header = add_res_header,\r\n\t\tsend_headers = send_res_headers,\r\n\t\tsend_data = send_res_data,\r\n\t}",
+    "type": "statement:localassign"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 102,
+    "text": "function send_response (req, res)\r\n\r\n\tif res.content then\r\n\t\tif not res.sent_headers then\r\n\t\t\tif (type (res.content) == \"table\" and not res.chunked) then\r\n\t\t\t\tres.content = table.concat (res.content)\r\n\t\t\tend\r\n\t\t\tif type (res.content) == \"string\" then\r\n\t\t\t\tres.headers[\"Content-Length\"] = string.len (res.content)\r\n\t\t\tend\r\n\t\tend\r\n\telse\r\n\t\tif not res.sent_headers then\r\n\t\t\tres.statusline = \"HTTP/1.1 204 No Content\"\r\n\t\t\tres.headers[\"Content-Length\"] = 0\r\n\t\tend\r\n\tend\r\n\t\r\n    if res.chunked then\r\n        res:add_header (\"Transfer-Encoding\", \"chunked\")\r\n    end\r\n    \r\n\tif res.chunked or ((res.headers [\"Content-Length\"]) and req.headers [\"connection\"] == \"Keep-Alive\")\r\n\tthen\r\n\t\tres.headers [\"Connection\"] = \"Keep-Alive\"\r\n\t\tres.keep_alive = true\r\n\telse\r\n\t\tres.keep_alive = nil\r\n\tend\r\n\t\r\n\tif res.content then\r\n\t\tif type (res.content) == \"table\" then\r\n\t\t\tfor _,v in ipairs (res.content) do res:send_data (v) end\r\n\t\telse\r\n\t\t\tres:send_data (res.content)\r\n\t\tend\r\n\telse\r\n\t\tres:send_headers ()\r\n\tend\r\n\t\r\n\tif res.chunked then\r\n\t\tres.socket:send (\"0\\r\\n\\r\\n\")\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 103,
+    "text": "if res.content then\r\n\t\tif not res.sent_headers then\r\n\t\t\tif (type (res.content) == \"table\" and not res.chunked) then\r\n\t\t\t\tres.content = table.concat (res.content)\r\n\t\t\tend\r\n\t\t\tif type (res.content) == \"string\" then\r\n\t\t\t\tres.headers[\"Content-Length\"] = string.len (res.content)\r\n\t\t\tend\r\n\t\tend\r\n\telse\r\n\t\tif not res.sent_headers then\r\n\t\t\tres.statusline = \"HTTP/1.1 204 No Content\"\r\n\t\t\tres.headers[\"Content-Length\"] = 0\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 104,
+    "text": "if not res.sent_headers then\r\n\t\t\tif (type (res.content) == \"table\" and not res.chunked) then\r\n\t\t\t\tres.content = table.concat (res.content)\r\n\t\t\tend\r\n\t\t\tif type (res.content) == \"string\" then\r\n\t\t\t\tres.headers[\"Content-Length\"] = string.len (res.content)\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 105,
+    "text": "if (type (res.content) == \"table\" and not res.chunked) then\r\n\t\t\t\tres.content = table.concat (res.content)\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 106,
+    "text": "res.content = table.concat (res.content)",
+    "type": "statement:assign"
+  }, {
+    "id": 107,
+    "text": "if type (res.content) == \"string\" then\r\n\t\t\t\tres.headers[\"Content-Length\"] = string.len (res.content)\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 108,
+    "text": "res.headers[\"Content-Length\"] = string.len (res.content)",
+    "type": "statement:assign"
+  }, {
+    "id": 109,
+    "text": "if not res.sent_headers then\r\n\t\t\tres.statusline = \"HTTP/1.1 204 No Content\"\r\n\t\t\tres.headers[\"Content-Length\"] = 0\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 110,
+    "text": "res.statusline = \"HTTP/1.1 204 No Content\"",
+    "type": "statement:assign"
+  }, {
+    "id": 111,
+    "text": "res.headers[\"Content-Length\"] = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 112,
+    "text": "if res.chunked then\r\n        res:add_header (\"Transfer-Encoding\", \"chunked\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 113,
+    "text": "res:add_header (\"Transfer-Encoding\", \"chunked\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 114,
+    "text": "if res.chunked or ((res.headers [\"Content-Length\"]) and req.headers [\"connection\"] == \"Keep-Alive\")\r\n\tthen\r\n\t\tres.headers [\"Connection\"] = \"Keep-Alive\"\r\n\t\tres.keep_alive = true\r\n\telse\r\n\t\tres.keep_alive = nil\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 115,
+    "text": "res.headers [\"Connection\"] = \"Keep-Alive\"",
+    "type": "statement:assign"
+  }, {
+    "id": 116,
+    "text": "res.keep_alive = true",
+    "type": "statement:assign"
+  }, {
+    "id": 117,
+    "text": "res.keep_alive = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 118,
+    "text": "if res.content then\r\n\t\tif type (res.content) == \"table\" then\r\n\t\t\tfor _,v in ipairs (res.content) do res:send_data (v) end\r\n\t\telse\r\n\t\t\tres:send_data (res.content)\r\n\t\tend\r\n\telse\r\n\t\tres:send_headers ()\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 119,
+    "text": "if type (res.content) == \"table\" then\r\n\t\t\tfor _,v in ipairs (res.content) do res:send_data (v) end\r\n\t\telse\r\n\t\t\tres:send_data (res.content)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 120,
+    "text": "for _,v in ipairs (res.content) do res:send_data (v) end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 121,
+    "text": "res:send_data (v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 122,
+    "text": "res:send_data (res.content)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 123,
+    "text": "res:send_headers ()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 124,
+    "text": "if res.chunked then\r\n\t\tres.socket:send (\"0\\r\\n\\r\\n\")\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 125,
+    "text": "res.socket:send (\"0\\r\\n\\r\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 127,
+    "text": "function getparams (req)\r\n\tif not req.parsed_url.query then return nil end\r\n\tif req.params then return req.params end\r\n\t\r\n\tlocal params = {}\r\n\treq.params = params\r\n\t\r\n\tfor parm in string.gmatch (req.parsed_url.query, \"([^&]+)\") do\r\n\t\tk,v = string.match (parm, \"(.*)=(.*)\")\r\n\t\tk = url.unescape (k)\r\n\t\tv = url.unescape (v)\r\n\t\tif k ~= nil then\r\n\t\t\tif params[k] == nil then\r\n\t\t\t\tparams[k] = v\r\n\t\t\telseif type (params[k]) == \"table\" then\r\n\t\t\t\ttable.insert (params[k], v)\r\n\t\t\telse\r\n\t\t\t\tparams[k] = {params[k], v}\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\t\r\n\treturn params\r\nend",
+    "type": "function"
+  }, {
+    "id": 128,
+    "text": "if not req.parsed_url.query then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 129,
+    "text": "if req.params then return req.params end",
+    "type": "statement:if"
+  }, {
+    "id": 130,
+    "text": "local params = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 131,
+    "text": "req.params = params",
+    "type": "statement:assign"
+  }, {
+    "id": 132,
+    "text": "for parm in string.gmatch (req.parsed_url.query, \"([^&]+)\") do\r\n\t\tk,v = string.match (parm, \"(.*)=(.*)\")\r\n\t\tk = url.unescape (k)\r\n\t\tv = url.unescape (v)\r\n\t\tif k ~= nil then\r\n\t\t\tif params[k] == nil then\r\n\t\t\t\tparams[k] = v\r\n\t\t\telseif type (params[k]) == \"table\" then\r\n\t\t\t\ttable.insert (params[k], v)\r\n\t\t\telse\r\n\t\t\t\tparams[k] = {params[k], v}\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 133,
+    "text": "k,v = string.match (parm, \"(.*)=(.*)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 134,
+    "text": "k = url.unescape (k)",
+    "type": "statement:assign"
+  }, {
+    "id": 135,
+    "text": "v = url.unescape (v)",
+    "type": "statement:assign"
+  }, {
+    "id": 136,
+    "text": "if k ~= nil then\r\n\t\t\tif params[k] == nil then\r\n\t\t\t\tparams[k] = v\r\n\t\t\telseif type (params[k]) == \"table\" then\r\n\t\t\t\ttable.insert (params[k], v)\r\n\t\t\telse\r\n\t\t\t\tparams[k] = {params[k], v}\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 137,
+    "text": "if params[k] == nil then\r\n\t\t\t\tparams[k] = v\r\n\t\t\telseif type (params[k]) == \"table\" then\r\n\t\t\t\ttable.insert (params[k], v)\r\n\t\t\telse\r\n\t\t\t\tparams[k] = {params[k], v}\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 138,
+    "text": "params[k] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 139,
+    "text": "table.insert (params[k], v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 140,
+    "text": "params[k] = {params[k], v}",
+    "type": "statement:assign"
+  }, {
+    "id": 141,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 142,
+    "text": "function err_404 (req, res)\r\n\tres.statusline = \"HTTP/1.1 404 Not Found\"\r\n\tres.headers [\"Content-Type\"] = \"text/html\"\r\n\tres.content = string.format ([[\r\n<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\r\n<HTML><HEAD>\r\n<TITLE>404 Not Found</TITLE>\r\n</HEAD><BODY>\r\n<H1>Not Found</H1>\r\nThe requested URL %s was not found on this server.<P>\r\n</BODY></HTML>]], req.built_url);\r\n\treturn res\r\nend",
+    "type": "function"
+  }, {
+    "id": 143,
+    "text": "res.statusline = \"HTTP/1.1 404 Not Found\"",
+    "type": "statement:assign"
+  }, {
+    "id": 144,
+    "text": "res.headers [\"Content-Type\"] = \"text/html\"",
+    "type": "statement:assign"
+  }, {
+    "id": 145,
+    "text": "res.content = string.format ([[\r\n<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\r\n<HTML><HEAD>\r\n<TITLE>404 Not Found</TITLE>\r\n</HEAD><BODY>\r\n<H1>Not Found</H1>\r\nThe requested URL %s was not found on this server.<P>\r\n</BODY></HTML>]], req.built_url)",
+    "type": "statement:assign"
+  }, {
+    "id": 146,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 147,
+    "text": "function err_403 (req, res)\r\n\tres.statusline = \"HTTP/1.1 403 Forbidden\"\r\n\tres.headers [\"Content-Type\"] = \"text/html\"\r\n\tres.content = string.format ([[\r\n<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\r\n<HTML><HEAD>\r\n<TITLE>403 Forbidden</TITLE>\r\n</HEAD><BODY>\r\n<H1>Forbidden</H1>\r\nYou are not allowed to access the requested URL %s .<P>\r\n</BODY></HTML>]], req.built_url);\r\n\treturn res\r\nend",
+    "type": "function"
+  }, {
+    "id": 148,
+    "text": "res.statusline = \"HTTP/1.1 403 Forbidden\"",
+    "type": "statement:assign"
+  }, {
+    "id": 149,
+    "text": "res.content = string.format ([[\r\n<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\r\n<HTML><HEAD>\r\n<TITLE>403 Forbidden</TITLE>\r\n</HEAD><BODY>\r\n<H1>Forbidden</H1>\r\nYou are not allowed to access the requested URL %s .<P>\r\n</BODY></HTML>]], req.built_url)",
+    "type": "statement:assign"
+  }, {
+    "id": 150,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 151,
+    "text": "function err_405 (req, res)\r\n\tres.statusline = \"HTTP/1.1 405 Method Not Allowed\"\r\n\tres.content = string.format ([[\r\n<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\r\n<HTML><HEAD>\r\n<TITLE>405 Method Not Allowed</TITLE>\r\n</HEAD><BODY>\r\n<H1>Not Found</H1>\r\nThe Method %s is not allowed for URL %s on this server.<P>\r\n</BODY></HTML>]], req.cmd_mth, req.built_url);\r\n\treturn res\r\nend",
+    "type": "function"
+  }, {
+    "id": 152,
+    "text": "res.statusline = \"HTTP/1.1 405 Method Not Allowed\"",
+    "type": "statement:assign"
+  }, {
+    "id": 153,
+    "text": "res.content = string.format ([[\r\n<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\r\n<HTML><HEAD>\r\n<TITLE>405 Method Not Allowed</TITLE>\r\n</HEAD><BODY>\r\n<H1>Not Found</H1>\r\nThe Method %s is not allowed for URL %s on this server.<P>\r\n</BODY></HTML>]], req.cmd_mth, req.built_url)",
+    "type": "statement:assign"
+  }, {
+    "id": 154,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 155,
+    "text": "function redirect (res, d)\r\n\tres.headers [\"Location\"] = d\r\n\tres.statusline = \"HTTP/1.1 302 Found\"\r\n\tres.content = \"redirect\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 156,
+    "text": "res.headers [\"Location\"] = d",
+    "type": "statement:assign"
+  }, {
+    "id": 157,
+    "text": "res.statusline = \"HTTP/1.1 302 Found\"",
+    "type": "statement:assign"
+  }, {
+    "id": 158,
+    "text": "res.content = \"redirect\"",
+    "type": "statement:assign"
+  }, {
+    "id": 159,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 160,
+    "text": "function register (host, port, serversoftware)\r\n\tlocal _server = assert(socket.bind(host, port))\r\n\t_serversoftware = serversoftware\r\n\tlocal _ip, _port = _server:getsockname()\r\n\t_serverports[_port] = true\r\n\tcopas.addserver(_server, connection)\r\nend",
+    "type": "function"
+  }, {
+    "id": 161,
+    "text": "local _server = assert(socket.bind(host, port))",
+    "type": "statement:localassign"
+  }, {
+    "id": 162,
+    "text": "_serversoftware = serversoftware",
+    "type": "statement:assign"
+  }, {
+    "id": 163,
+    "text": "local _ip, _port = _server:getsockname()",
+    "type": "statement:localassign"
+  }, {
+    "id": 164,
+    "text": "_serverports[_port] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 165,
+    "text": "copas.addserver(_server, connection)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 166,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 167,
+    "text": "function get_ports()\r\n  local ports = {}\r\n  for k, _ in pairs(_serverports) do\r\n    table.insert(ports, tostring(k))\r\n  end\r\n  return ports\r\nend",
+    "type": "function"
+  }, {
+    "id": 168,
+    "text": "local ports = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 169,
+    "text": "for k, _ in pairs(_serverports) do\r\n    table.insert(ports, tostring(k))\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 170,
+    "text": "table.insert(ports, tostring(k))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 171,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 172,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 173,
+    "text": "local function redirect (req, res, dest, action, cap)\r\n  dest = string.gsub(dest, \"%%(%d)\", function (capn) return cap[tonumber(capn)] or \"\" end)\r\n  dest = string.gsub(dest, \"%%%%\", \"%\")\r\n  \r\n  local path = req.parsed_url.path\r\n  local pfx = string.sub (dest, 1,1)\r\n  \r\n  if pfx == \"/\" then\r\n    path = dest\r\n  elseif pfx == \":\" then\r\n    path = path .. string.sub (dest, 2)\r\n  elseif dest:find(\"^[%w]+://\") then\r\n    path = dest\r\n    action = \"redirect\"\r\n  else\r\n    path = string.gsub (path, \"/[^/]*$\", \"\") .. \"/\" .. dest\r\n  end\r\n\r\n  local path, query = path:match(\"^([^?]+)(%??.*)$\")  \r\n  req.parsed_url.path = path\r\n  req.built_url = socket.url.build (req.parsed_url) .. (query or \"\")\r\n  req.cmd_url = string.gsub (req.built_url, \"^[^:]+://[^/]+\", \"\")\r\n  \r\n  if action == \"redirect\" then\r\n    xavante.httpd.redirect(res, path .. (query or \"\"))\r\n    return res    \r\n  elseif type(action) == \"function\" then\r\n    return action(req, res, cap)\r\n  else\r\n    return \"reparse\"\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 174,
+    "text": "function HTTP(config)\r\n    -- normalizes the configuration\r\n    config.server = config.server or {host = \"*\", port = 80}\r\n    \r\n    local vhosts_table = {}\r\n\r\n    if config.defaultHost then\r\n        vhosts_table[\"\"] = xavante.patternhandler(_buildRules(config.defaultHost.rules))\r\n    end\r\n\r\n    if type(config.virtualhosts) == \"table\" then\r\n        for hostname, host in pairs(config.virtualhosts) do\r\n\t    vhosts_table[hostname] = xavante.patternhandler(_buildRules(host.rules))\r\n        end\r\n    end\r\n\r\n    xavante.httpd.handle_request = xavante.vhostshandler(vhosts_table)\r\n    xavante.httpd.register(config.server.host, config.server.port, _VERSION)\r\nend",
+    "type": "function"
+  }, {
+    "id": 175,
+    "text": "function start(isFinished, timeout)\r\n    _startmessage(xavante.httpd.get_ports())\r\n    while true do\r\n      if isFinished and isFinished() then break end\r\n      copas.step(timeout)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 176,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 177,
+    "text": "parse",
+    "type": "global function"
+  }, {
+    "id": 178,
+    "text": "build",
+    "type": "global function"
+  }, {
+    "id": 179,
+    "text": "unescape",
+    "type": "global function"
+  }, {
+    "id": 180,
+    "text": "upper",
+    "type": "global function"
+  }, {
+    "id": 181,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 182,
+    "text": "err_404",
+    "type": "global function"
+  }, {
+    "id": 183,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 184,
+    "text": "addserver",
+    "type": "global function"
+  }, {
+    "id": 185,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 186,
+    "text": "date",
+    "type": "global function"
+  }, {
+    "id": 187,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 188,
+    "text": "err_405",
+    "type": "global function"
+  }, {
+    "id": 189,
+    "text": "xavante.cookies.set_res_cookies",
+    "type": "global function"
+  }, {
+    "id": 190,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 191,
+    "text": "handle_request",
+    "type": "global function"
+  }, {
+    "id": 192,
+    "text": "gmatch",
+    "type": "global function"
+  }, {
+    "id": 193,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 194,
+    "text": "wrap",
+    "type": "global function"
+  }, {
+    "id": 195,
+    "text": "bind",
+    "type": "global function"
+  }, {
+    "id": 196,
+    "text": "setErrorHandler",
+    "type": "global function"
+  }, {
+    "id": 197,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 198,
+    "text": "lower",
+    "type": "global function"
+  }, {
+    "id": 199,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 200,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 201,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 202,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 203,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 204,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 205,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 206,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 207,
+    "text": "url",
+    "type": "module"
+  }, {
+    "id": 208,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 209,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 210,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 211,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 212,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 213,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 214,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 215,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 216,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,4329 @@
+{
+  "_filename": "lcode.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/metalua/src/compiler/lcode.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 113,
+    "label": "has",
+    "to": 114
+  }, {
+    "from": 113,
+    "label": "has",
+    "to": 115
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 118
+  }, {
+    "from": 113,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 120,
+    "label": "has",
+    "to": 121
+  }, {
+    "from": 120,
+    "label": "has",
+    "to": 122
+  }, {
+    "from": 120,
+    "label": "has",
+    "to": 123
+  }, {
+    "from": 124,
+    "label": "has",
+    "to": 125
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 127
+  }, {
+    "from": 124,
+    "label": "has",
+    "to": 128
+  }, {
+    "from": 129,
+    "label": "has",
+    "to": 130
+  }, {
+    "from": 130,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 129,
+    "label": "has",
+    "to": 132
+  }, {
+    "from": 133,
+    "label": "has",
+    "to": 134
+  }, {
+    "from": 133,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 133,
+    "label": "has",
+    "to": 136
+  }, {
+    "from": 136,
+    "label": "has",
+    "to": 137
+  }, {
+    "from": 137,
+    "label": "has",
+    "to": 138
+  }, {
+    "from": 137,
+    "label": "has",
+    "to": 139
+  }, {
+    "from": 136,
+    "label": "has",
+    "to": 140
+  }, {
+    "from": 136,
+    "label": "has",
+    "to": 141
+  }, {
+    "from": 136,
+    "label": "has",
+    "to": 142
+  }, {
+    "from": 136,
+    "label": "has",
+    "to": 143
+  }, {
+    "from": 136,
+    "label": "has",
+    "to": 144
+  }, {
+    "from": 133,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 133,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 133,
+    "label": "has",
+    "to": 145
+  }, {
+    "from": 146,
+    "label": "has",
+    "to": 147
+  }, {
+    "from": 146,
+    "label": "has",
+    "to": 148
+  }, {
+    "from": 146,
+    "label": "has",
+    "to": 149
+  }, {
+    "from": 146,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 146,
+    "label": "has",
+    "to": 150
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 152
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 148
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 153
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 154
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 156
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 148
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 153
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 157
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 159
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 160
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 161
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 162
+  }, {
+    "from": 163,
+    "label": "has",
+    "to": 164
+  }, {
+    "from": 164,
+    "label": "has",
+    "to": 165
+  }, {
+    "from": 164,
+    "label": "has",
+    "to": 166
+  }, {
+    "from": 164,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 164,
+    "label": "has",
+    "to": 168
+  }, {
+    "from": 163,
+    "label": "has",
+    "to": 169
+  }, {
+    "from": 170,
+    "label": "has",
+    "to": 171
+  }, {
+    "from": 170,
+    "label": "has",
+    "to": 172
+  }, {
+    "from": 173,
+    "label": "has",
+    "to": 174
+  }, {
+    "from": 174,
+    "label": "has",
+    "to": 175
+  }, {
+    "from": 174,
+    "label": "has",
+    "to": 176
+  }, {
+    "from": 174,
+    "label": "has",
+    "to": 177
+  }, {
+    "from": 174,
+    "label": "has",
+    "to": 178
+  }, {
+    "from": 173,
+    "label": "has",
+    "to": 179
+  }, {
+    "from": 180,
+    "label": "has",
+    "to": 181
+  }, {
+    "from": 180,
+    "label": "has",
+    "to": 182
+  }, {
+    "from": 182,
+    "label": "has",
+    "to": 165
+  }, {
+    "from": 182,
+    "label": "has",
+    "to": 183
+  }, {
+    "from": 183,
+    "label": "has",
+    "to": 175
+  }, {
+    "from": 183,
+    "label": "has",
+    "to": 176
+  }, {
+    "from": 182,
+    "label": "has",
+    "to": 184
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 177
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 178
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 166
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 168
+  }, {
+    "from": 180,
+    "label": "has",
+    "to": 185
+  }, {
+    "from": 186,
+    "label": "has",
+    "to": 187
+  }, {
+    "from": 186,
+    "label": "has",
+    "to": 188
+  }, {
+    "from": 188,
+    "label": "has",
+    "to": 175
+  }, {
+    "from": 188,
+    "label": "has",
+    "to": 189
+  }, {
+    "from": 188,
+    "label": "has",
+    "to": 178
+  }, {
+    "from": 188,
+    "label": "has",
+    "to": 190
+  }, {
+    "from": 188,
+    "label": "has",
+    "to": 178
+  }, {
+    "from": 188,
+    "label": "has",
+    "to": 191
+  }, {
+    "from": 188,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 188,
+    "label": "has",
+    "to": 192
+  }, {
+    "from": 188,
+    "label": "has",
+    "to": 178
+  }, {
+    "from": 188,
+    "label": "has",
+    "to": 193
+  }, {
+    "from": 186,
+    "label": "has",
+    "to": 194
+  }, {
+    "from": 195,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 195,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 195,
+    "label": "has",
+    "to": 196
+  }, {
+    "from": 197,
+    "label": "has",
+    "to": 198
+  }, {
+    "from": 197,
+    "label": "has",
+    "to": 187
+  }, {
+    "from": 197,
+    "label": "has",
+    "to": 199
+  }, {
+    "from": 199,
+    "label": "has",
+    "to": 200
+  }, {
+    "from": 199,
+    "label": "has",
+    "to": 201
+  }, {
+    "from": 199,
+    "label": "has",
+    "to": 202
+  }, {
+    "from": 199,
+    "label": "has",
+    "to": 203
+  }, {
+    "from": 199,
+    "label": "has",
+    "to": 204
+  }, {
+    "from": 199,
+    "label": "has",
+    "to": 205
+  }, {
+    "from": 199,
+    "label": "has",
+    "to": 206
+  }, {
+    "from": 206,
+    "label": "has",
+    "to": 207
+  }, {
+    "from": 199,
+    "label": "has",
+    "to": 208
+  }, {
+    "from": 197,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 197,
+    "label": "has",
+    "to": 209
+  }, {
+    "from": 197,
+    "label": "has",
+    "to": 175
+  }, {
+    "from": 197,
+    "label": "has",
+    "to": 210
+  }, {
+    "from": 211,
+    "label": "has",
+    "to": 212
+  }, {
+    "from": 212,
+    "label": "has",
+    "to": 213
+  }, {
+    "from": 212,
+    "label": "has",
+    "to": 214
+  }, {
+    "from": 211,
+    "label": "has",
+    "to": 215
+  }, {
+    "from": 216,
+    "label": "has",
+    "to": 217
+  }, {
+    "from": 216,
+    "label": "has",
+    "to": 218
+  }, {
+    "from": 218,
+    "label": "has",
+    "to": 219
+  }, {
+    "from": 216,
+    "label": "has",
+    "to": 220
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 221
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 222
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 223
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 224
+  }, {
+    "from": 224,
+    "label": "has",
+    "to": 225
+  }, {
+    "from": 224,
+    "label": "has",
+    "to": 226
+  }, {
+    "from": 226,
+    "label": "has",
+    "to": 227
+  }, {
+    "from": 224,
+    "label": "has",
+    "to": 228
+  }, {
+    "from": 224,
+    "label": "has",
+    "to": 229
+  }, {
+    "from": 224,
+    "label": "has",
+    "to": 230
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 231
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 232
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 233
+  }, {
+    "from": 216,
+    "label": "has",
+    "to": 234
+  }, {
+    "from": 216,
+    "label": "has",
+    "to": 209
+  }, {
+    "from": 216,
+    "label": "has",
+    "to": 175
+  }, {
+    "from": 216,
+    "label": "has",
+    "to": 235
+  }, {
+    "from": 236,
+    "label": "has",
+    "to": 198
+  }, {
+    "from": 236,
+    "label": "has",
+    "to": 237
+  }, {
+    "from": 236,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 236,
+    "label": "has",
+    "to": 238
+  }, {
+    "from": 236,
+    "label": "has",
+    "to": 213
+  }, {
+    "from": 236,
+    "label": "has",
+    "to": 239
+  }, {
+    "from": 236,
+    "label": "has",
+    "to": 240
+  }, {
+    "from": 241,
+    "label": "has",
+    "to": 198
+  }, {
+    "from": 241,
+    "label": "has",
+    "to": 242
+  }, {
+    "from": 242,
+    "label": "has",
+    "to": 243
+  }, {
+    "from": 242,
+    "label": "has",
+    "to": 244
+  }, {
+    "from": 244,
+    "label": "has",
+    "to": 245
+  }, {
+    "from": 241,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 241,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 241,
+    "label": "has",
+    "to": 246
+  }, {
+    "from": 241,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 241,
+    "label": "has",
+    "to": 247
+  }, {
+    "from": 248,
+    "label": "has",
+    "to": 249
+  }, {
+    "from": 249,
+    "label": "has",
+    "to": 250
+  }, {
+    "from": 249,
+    "label": "has",
+    "to": 198
+  }, {
+    "from": 248,
+    "label": "has",
+    "to": 251
+  }, {
+    "from": 252,
+    "label": "has",
+    "to": 253
+  }, {
+    "from": 252,
+    "label": "has",
+    "to": 187
+  }, {
+    "from": 252,
+    "label": "has",
+    "to": 254
+  }, {
+    "from": 254,
+    "label": "has",
+    "to": 255
+  }, {
+    "from": 255,
+    "label": "has",
+    "to": 256
+  }, {
+    "from": 256,
+    "label": "has",
+    "to": 257
+  }, {
+    "from": 256,
+    "label": "has",
+    "to": 258
+  }, {
+    "from": 256,
+    "label": "has",
+    "to": 259
+  }, {
+    "from": 255,
+    "label": "has",
+    "to": 260
+  }, {
+    "from": 254,
+    "label": "has",
+    "to": 261
+  }, {
+    "from": 252,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 252,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 252,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 252,
+    "label": "has",
+    "to": 262
+  }, {
+    "from": 263,
+    "label": "has",
+    "to": 264
+  }, {
+    "from": 263,
+    "label": "has",
+    "to": 265
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 266
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 267
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 268
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 269
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 268
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 270
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 271
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 272
+  }, {
+    "from": 265,
+    "label": "has",
+    "to": 273
+  }, {
+    "from": 263,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 263,
+    "label": "has",
+    "to": 266
+  }, {
+    "from": 263,
+    "label": "has",
+    "to": 274
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 250
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 238
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 276
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 277
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 278
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 279
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 280
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 175
+  }, {
+    "from": 275,
+    "label": "has",
+    "to": 281
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 283
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 284
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 285
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 286
+  }, {
+    "from": 287,
+    "label": "has",
+    "to": 288
+  }, {
+    "from": 288,
+    "label": "has",
+    "to": 289
+  }, {
+    "from": 288,
+    "label": "has",
+    "to": 290
+  }, {
+    "from": 290,
+    "label": "has",
+    "to": 291
+  }, {
+    "from": 287,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 287,
+    "label": "has",
+    "to": 292
+  }, {
+    "from": 287,
+    "label": "has",
+    "to": 238
+  }, {
+    "from": 287,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 287,
+    "label": "has",
+    "to": 293
+  }, {
+    "from": 294,
+    "label": "has",
+    "to": 295
+  }, {
+    "from": 294,
+    "label": "has",
+    "to": 198
+  }, {
+    "from": 294,
+    "label": "has",
+    "to": 187
+  }, {
+    "from": 294,
+    "label": "has",
+    "to": 296
+  }, {
+    "from": 296,
+    "label": "has",
+    "to": 297
+  }, {
+    "from": 296,
+    "label": "has",
+    "to": 298
+  }, {
+    "from": 296,
+    "label": "has",
+    "to": 299
+  }, {
+    "from": 296,
+    "label": "has",
+    "to": 300
+  }, {
+    "from": 296,
+    "label": "has",
+    "to": 301
+  }, {
+    "from": 294,
+    "label": "has",
+    "to": 302
+  }, {
+    "from": 294,
+    "label": "has",
+    "to": 303
+  }, {
+    "from": 294,
+    "label": "has",
+    "to": 304
+  }, {
+    "from": 294,
+    "label": "has",
+    "to": 305
+  }, {
+    "from": 306,
+    "label": "has",
+    "to": 295
+  }, {
+    "from": 306,
+    "label": "has",
+    "to": 198
+  }, {
+    "from": 306,
+    "label": "has",
+    "to": 187
+  }, {
+    "from": 306,
+    "label": "has",
+    "to": 307
+  }, {
+    "from": 307,
+    "label": "has",
+    "to": 297
+  }, {
+    "from": 307,
+    "label": "has",
+    "to": 298
+  }, {
+    "from": 307,
+    "label": "has",
+    "to": 300
+  }, {
+    "from": 307,
+    "label": "has",
+    "to": 308
+  }, {
+    "from": 306,
+    "label": "has",
+    "to": 309
+  }, {
+    "from": 306,
+    "label": "has",
+    "to": 310
+  }, {
+    "from": 306,
+    "label": "has",
+    "to": 311
+  }, {
+    "from": 306,
+    "label": "has",
+    "to": 312
+  }, {
+    "from": 313,
+    "label": "has",
+    "to": 198
+  }, {
+    "from": 313,
+    "label": "has",
+    "to": 187
+  }, {
+    "from": 313,
+    "label": "has",
+    "to": 314
+  }, {
+    "from": 314,
+    "label": "has",
+    "to": 315
+  }, {
+    "from": 314,
+    "label": "has",
+    "to": 316
+  }, {
+    "from": 314,
+    "label": "has",
+    "to": 299
+  }, {
+    "from": 314,
+    "label": "has",
+    "to": 292
+  }, {
+    "from": 314,
+    "label": "has",
+    "to": 238
+  }, {
+    "from": 314,
+    "label": "has",
+    "to": 317
+  }, {
+    "from": 314,
+    "label": "has",
+    "to": 178
+  }, {
+    "from": 314,
+    "label": "has",
+    "to": 273
+  }, {
+    "from": 313,
+    "label": "has",
+    "to": 318
+  }, {
+    "from": 313,
+    "label": "has",
+    "to": 319
+  }, {
+    "from": 313,
+    "label": "has",
+    "to": 320
+  }, {
+    "from": 313,
+    "label": "has",
+    "to": 321
+  }, {
+    "from": 322,
+    "label": "has",
+    "to": 323
+  }, {
+    "from": 322,
+    "label": "has",
+    "to": 324
+  }, {
+    "from": 322,
+    "label": "has",
+    "to": 325
+  }, {
+    "from": 326,
+    "label": "has",
+    "to": 327
+  }, {
+    "from": 326,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 326,
+    "label": "has",
+    "to": 328
+  }, {
+    "from": 326,
+    "label": "has",
+    "to": 329
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 330
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 331
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 332
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 333
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 334
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 333
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 335
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 336
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 337
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 338
+  }, {
+    "from": 326,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 326,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 326,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 326,
+    "label": "has",
+    "to": 339
+  }, {
+    "from": 326,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 326,
+    "label": "has",
+    "to": 340
+  }, {
+    "from": 341,
+    "label": "has",
+    "to": 342
+  }, {
+    "from": 342,
+    "label": "has",
+    "to": 343
+  }, {
+    "from": 342,
+    "label": "has",
+    "to": 344
+  }, {
+    "from": 342,
+    "label": "has",
+    "to": 345
+  }, {
+    "from": 345,
+    "label": "has",
+    "to": 346
+  }, {
+    "from": 342,
+    "label": "has",
+    "to": 347
+  }, {
+    "from": 342,
+    "label": "has",
+    "to": 348
+  }, {
+    "from": 342,
+    "label": "has",
+    "to": 349
+  }, {
+    "from": 342,
+    "label": "has",
+    "to": 350
+  }, {
+    "from": 341,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 341,
+    "label": "has",
+    "to": 351
+  }, {
+    "from": 352,
+    "label": "has",
+    "to": 353
+  }, {
+    "from": 352,
+    "label": "has",
+    "to": 343
+  }, {
+    "from": 352,
+    "label": "has",
+    "to": 354
+  }, {
+    "from": 352,
+    "label": "has",
+    "to": 355
+  }, {
+    "from": 352,
+    "label": "has",
+    "to": 356
+  }, {
+    "from": 352,
+    "label": "has",
+    "to": 357
+  }, {
+    "from": 357,
+    "label": "has",
+    "to": 358
+  }, {
+    "from": 357,
+    "label": "has",
+    "to": 359
+  }, {
+    "from": 357,
+    "label": "has",
+    "to": 360
+  }, {
+    "from": 357,
+    "label": "has",
+    "to": 361
+  }, {
+    "from": 352,
+    "label": "has",
+    "to": 362
+  }, {
+    "from": 352,
+    "label": "has",
+    "to": 363
+  }, {
+    "from": 352,
+    "label": "has",
+    "to": 364
+  }, {
+    "from": 365,
+    "label": "has",
+    "to": 366
+  }, {
+    "from": 365,
+    "label": "has",
+    "to": 367
+  }, {
+    "from": 367,
+    "label": "has",
+    "to": 368
+  }, {
+    "from": 368,
+    "label": "has",
+    "to": 369
+  }, {
+    "from": 367,
+    "label": "has",
+    "to": 370
+  }, {
+    "from": 367,
+    "label": "has",
+    "to": 371
+  }, {
+    "from": 367,
+    "label": "has",
+    "to": 369
+  }, {
+    "from": 367,
+    "label": "has",
+    "to": 372
+  }, {
+    "from": 367,
+    "label": "has",
+    "to": 373
+  }, {
+    "from": 365,
+    "label": "has",
+    "to": 374
+  }, {
+    "from": 375,
+    "label": "has",
+    "to": 376
+  }, {
+    "from": 376,
+    "label": "has",
+    "to": 377
+  }, {
+    "from": 376,
+    "label": "has",
+    "to": 378
+  }, {
+    "from": 376,
+    "label": "has",
+    "to": 379
+  }, {
+    "from": 376,
+    "label": "has",
+    "to": 380
+  }, {
+    "from": 380,
+    "label": "has",
+    "to": 381
+  }, {
+    "from": 375,
+    "label": "has",
+    "to": 382
+  }, {
+    "from": 383,
+    "label": "has",
+    "to": 384
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 385
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 386
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 387
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 388
+  }, {
+    "from": 388,
+    "label": "has",
+    "to": 389
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 390
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 386
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 391
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 388
+  }, {
+    "from": 388,
+    "label": "has",
+    "to": 389
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 392
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 393
+  }, {
+    "from": 393,
+    "label": "has",
+    "to": 394
+  }, {
+    "from": 393,
+    "label": "has",
+    "to": 348
+  }, {
+    "from": 393,
+    "label": "has",
+    "to": 395
+  }, {
+    "from": 393,
+    "label": "has",
+    "to": 350
+  }, {
+    "from": 393,
+    "label": "has",
+    "to": 396
+  }, {
+    "from": 393,
+    "label": "has",
+    "to": 397
+  }, {
+    "from": 393,
+    "label": "has",
+    "to": 398
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 399
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 400
+  }, {
+    "from": 400,
+    "label": "has",
+    "to": 401
+  }, {
+    "from": 400,
+    "label": "has",
+    "to": 402
+  }, {
+    "from": 400,
+    "label": "has",
+    "to": 403
+  }, {
+    "from": 383,
+    "label": "has",
+    "to": 404
+  }, {
+    "from": 405,
+    "label": "has",
+    "to": 406
+  }, {
+    "from": 405,
+    "label": "has",
+    "to": 407
+  }, {
+    "from": 405,
+    "label": "has",
+    "to": 408
+  }, {
+    "from": 409,
+    "label": "has",
+    "to": 410
+  }, {
+    "from": 410,
+    "label": "has",
+    "to": 411
+  }, {
+    "from": 409,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 409,
+    "label": "has",
+    "to": 412
+  }, {
+    "from": 412,
+    "label": "has",
+    "to": 413
+  }, {
+    "from": 412,
+    "label": "has",
+    "to": 414
+  }, {
+    "from": 414,
+    "label": "has",
+    "to": 415
+  }, {
+    "from": 415,
+    "label": "has",
+    "to": 416
+  }, {
+    "from": 412,
+    "label": "has",
+    "to": 417
+  }, {
+    "from": 409,
+    "label": "has",
+    "to": 418
+  }, {
+    "from": 409,
+    "label": "has",
+    "to": 419
+  }, {
+    "from": 409,
+    "label": "has",
+    "to": 420
+  }, {
+    "from": 409,
+    "label": "has",
+    "to": 421
+  }, {
+    "from": 421,
+    "label": "has",
+    "to": 422
+  }, {
+    "from": 421,
+    "label": "has",
+    "to": 423
+  }, {
+    "from": 409,
+    "label": "has",
+    "to": 424
+  }, {
+    "from": 424,
+    "label": "has",
+    "to": 425
+  }, {
+    "from": 409,
+    "label": "has",
+    "to": 426
+  }, {
+    "from": 409,
+    "label": "has",
+    "to": 427
+  }, {
+    "from": 409,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 409,
+    "label": "has",
+    "to": 428
+  }, {
+    "from": 429,
+    "label": "has",
+    "to": 430
+  }, {
+    "from": 429,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 429,
+    "label": "has",
+    "to": 431
+  }, {
+    "from": 432,
+    "label": "has",
+    "to": 433
+  }, {
+    "from": 432,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 432,
+    "label": "has",
+    "to": 434
+  }, {
+    "from": 435,
+    "label": "has",
+    "to": 436
+  }, {
+    "from": 435,
+    "label": "has",
+    "to": 437
+  }, {
+    "from": 435,
+    "label": "has",
+    "to": 438
+  }, {
+    "from": 435,
+    "label": "has",
+    "to": 439
+  }, {
+    "from": 439,
+    "label": "has",
+    "to": 440
+  }, {
+    "from": 439,
+    "label": "has",
+    "to": 441
+  }, {
+    "from": 439,
+    "label": "has",
+    "to": 442
+  }, {
+    "from": 435,
+    "label": "has",
+    "to": 443
+  }, {
+    "from": 435,
+    "label": "has",
+    "to": 444
+  }, {
+    "from": 124,
+    "label": "calls",
+    "to": 452
+  }, {
+    "from": 409,
+    "label": "calls",
+    "to": 452
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 453
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 69,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 124,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 133,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 146,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 151,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 155,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 180,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 197,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 263,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 282,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 313,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 326,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 352,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 365,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 383,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 383,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 383,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 429,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 432,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 435,
+    "label": "calls",
+    "to": 451
+  }, {
+    "from": 383,
+    "label": "calls",
+    "to": 455
+  }, {
+    "from": 383,
+    "label": "calls",
+    "to": 455
+  }, {
+    "from": 435,
+    "label": "calls",
+    "to": 450
+  }, {
+    "from": 383,
+    "label": "calls",
+    "to": 454
+  }, {
+    "from": 445,
+    "label": "calls",
+    "to": 456
+  }, {
+    "from": 409,
+    "label": "calls",
+    "to": 446
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 448
+  }, {
+    "from": 133,
+    "label": "calls",
+    "to": 448
+  }, {
+    "from": 146,
+    "label": "calls",
+    "to": 448
+  }, {
+    "from": 151,
+    "label": "calls",
+    "to": 448
+  }, {
+    "from": 155,
+    "label": "calls",
+    "to": 448
+  }, {
+    "from": 352,
+    "label": "calls",
+    "to": 448
+  }, {
+    "from": 409,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 409,
+    "label": "calls",
+    "to": 447
+  }, {
+    "from": 409,
+    "label": "calls",
+    "to": 449
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 445
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 43
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 51
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 54
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 58
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 63
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 69
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 80
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 85
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 93
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 96
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 102
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 106
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 113
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 120
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 124
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 129
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 133
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 146
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 151
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 155
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 158
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 163
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 170
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 173
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 180
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 186
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 195
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 197
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 211
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 216
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 236
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 241
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 248
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 252
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 263
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 275
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 282
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 287
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 294
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 306
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 313
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 322
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 326
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 341
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 352
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 365
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 375
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 383
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 405
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 409
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 429
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 432
+  }, {
+    "from": 445,
+    "label": "declares",
+    "to": 435
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 457
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 458
+  }, {
+    "from": 457,
+    "label": "initializes",
+    "to": 459
+  }, {
+    "from": 459,
+    "label": "assigns",
+    "to": 460
+  }, {
+    "from": 457,
+    "label": "initializes",
+    "to": 461
+  }, {
+    "from": 457,
+    "label": "initializes",
+    "to": 462
+  }, {
+    "from": 457,
+    "label": "initializes",
+    "to": 463
+  }, {
+    "from": 457,
+    "label": "initializes",
+    "to": 464
+  }, {
+    "from": 464,
+    "label": "assigns",
+    "to": 465
+  }, {
+    "from": 457,
+    "label": "initializes",
+    "to": 466
+  }, {
+    "from": 466,
+    "label": "assigns",
+    "to": 467
+  }, {
+    "from": 457,
+    "label": "initializes",
+    "to": 468
+  }, {
+    "from": 468,
+    "label": "assigns",
+    "to": 469
+  }, {
+    "from": 457,
+    "label": "initializes",
+    "to": 470
+  }, {
+    "from": 470,
+    "label": "assigns",
+    "to": 471
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lcode",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function debugf() end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function luaK:isnumeral(e)\r\n   return e.k==\"VKNUM\" and e.t==self.NO_JUMP and e.t==self.NO_JUMP\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function luaK:ttisnumber(o)\r\n  if o then return type(o.value) == \"number\" else return false end\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "if o then return type(o.value) == \"number\" else return false end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function luaK:nvalue(o) return o.value end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function luaK:setnilvalue(o) o.value = nil end",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "o.value = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "function luaK:setsvalue(o, s) o.value = s end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "o.value = s",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "function luaK:getcode(fs, e)\r\n  return fs.f.code[e.info]\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function luaK:codeAsBx(fs, o, A, sBx)\r\n  return self:codeABx(fs, o, A, sBx + luaP.MAXARG_sBx)\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function luaK:hasjumps(e)\r\n  return e.t ~= e.f\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function luaK:_nil(fs, from, n)\r\n   if fs.pc > fs.lasttarget then  -- no jumps to current position?\r\n      if fs.pc == 0 then return end --function start, positions are already clean\r\n      local previous = fs.f.code[fs.pc - 1]\r\n      if luaP:GET_OPCODE(previous) == \"OP_LOADNIL\" then\r\n         local pfrom = luaP:GETARG_A(previous)\r\n         local pto = luaP:GETARG_B(previous)\r\n         if pfrom <= from and from <= pto + 1 then  -- can connect both?\r\n            if from + n - 1 > pto then\r\n               luaP:SETARG_B(previous, from + n - 1)\r\n            end\r\n            return\r\n         end\r\n      end\r\n   end\r\n   self:codeABC(fs, \"OP_LOADNIL\", from, from + n - 1, 0)  -- else no optimization\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "if fs.pc > fs.lasttarget then  -- no jumps to current position?\r\n      if fs.pc == 0 then return end --function start, positions are already clean\r\n      local previous = fs.f.code[fs.pc - 1]\r\n      if luaP:GET_OPCODE(previous) == \"OP_LOADNIL\" then\r\n         local pfrom = luaP:GETARG_A(previous)\r\n         local pto = luaP:GETARG_B(previous)\r\n         if pfrom <= from and from <= pto + 1 then  -- can connect both?\r\n            if from + n - 1 > pto then\r\n               luaP:SETARG_B(previous, from + n - 1)\r\n            end\r\n            return\r\n         end\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "if fs.pc == 0 then return end",
+    "type": "statement:if"
+  }, {
+    "id": 23,
+    "text": "local previous = fs.f.code[fs.pc - 1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "if luaP:GET_OPCODE(previous) == \"OP_LOADNIL\" then\r\n         local pfrom = luaP:GETARG_A(previous)\r\n         local pto = luaP:GETARG_B(previous)\r\n         if pfrom <= from and from <= pto + 1 then  -- can connect both?\r\n            if from + n - 1 > pto then\r\n               luaP:SETARG_B(previous, from + n - 1)\r\n            end\r\n            return\r\n         end\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "local pfrom = luaP:GETARG_A(previous)",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "local pto = luaP:GETARG_B(previous)",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "if pfrom <= from and from <= pto + 1 then  -- can connect both?\r\n            if from + n - 1 > pto then\r\n               luaP:SETARG_B(previous, from + n - 1)\r\n            end\r\n            return\r\n         end",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "if from + n - 1 > pto then\r\n               luaP:SETARG_B(previous, from + n - 1)\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "luaP:SETARG_B(previous, from + n - 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "self:codeABC(fs, \"OP_LOADNIL\", from, from + n - 1, 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function luaK:jump(fs)\r\n  local jpc = fs.jpc  -- save list of jumps to here\r\n  fs.jpc = self.NO_JUMP\r\n  local j = self:codeAsBx(fs, \"OP_JMP\", 0, self.NO_JUMP)\r\n  return self:concat(fs, j, jpc)  -- keep them on hold\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "local jpc = fs.jpc",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "fs.jpc = self.NO_JUMP",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "local j = self:codeAsBx(fs, \"OP_JMP\", 0, self.NO_JUMP)",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "function luaK:ret (fs, first, nret)\r\n   luaK:codeABC (fs, \"OP_RETURN\", first, nret+1, 0)\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "luaK:codeABC (fs, \"OP_RETURN\", first, nret+1, 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "function luaK:condjump(fs, op, A, B, C)\r\n  self:codeABC(fs, op, A, B, C)\r\n  return self:jump(fs)\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "self:codeABC(fs, op, A, B, C)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 43,
+    "text": "function luaK:fixjump(fs, pc, dest)\r\n  local jmp = fs.f.code[pc]\r\n  local offset = dest - (pc + 1)\r\n  assert(dest ~= self.NO_JUMP)\r\n  if math.abs(offset) > luaP.MAXARG_sBx then\r\n    luaX:syntaxerror(fs.ls, \"control structure too long\")\r\n  end\r\n  luaP:SETARG_sBx(jmp, offset)\r\nend",
+    "type": "function"
+  }, {
+    "id": 44,
+    "text": "local jmp = fs.f.code[pc]",
+    "type": "statement:localassign"
+  }, {
+    "id": 45,
+    "text": "local offset = dest - (pc + 1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "assert(dest ~= self.NO_JUMP)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 47,
+    "text": "if math.abs(offset) > luaP.MAXARG_sBx then\r\n    luaX:syntaxerror(fs.ls, \"control structure too long\")\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 48,
+    "text": "luaX:syntaxerror(fs.ls, \"control structure too long\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 49,
+    "text": "luaP:SETARG_sBx(jmp, offset)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 51,
+    "text": "function luaK:getlabel(fs)\r\n  fs.lasttarget = fs.pc\r\n  return fs.pc\r\nend",
+    "type": "function"
+  }, {
+    "id": 52,
+    "text": "fs.lasttarget = fs.pc",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 54,
+    "text": "function luaK:getjump(fs, pc)\r\n  local offset = luaP:GETARG_sBx(fs.f.code[pc])\r\n  if offset == self.NO_JUMP then  -- point to itself represents end of list\r\n    return self.NO_JUMP  -- end of list\r\n  else\r\n    return (pc + 1) + offset  -- turn offset into absolute position\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "local offset = luaP:GETARG_sBx(fs.f.code[pc])",
+    "type": "statement:localassign"
+  }, {
+    "id": 56,
+    "text": "if offset == self.NO_JUMP then  -- point to itself represents end of list\r\n    return self.NO_JUMP  -- end of list\r\n  else\r\n    return (pc + 1) + offset  -- turn offset into absolute position\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 58,
+    "text": "function luaK:getjumpcontrol(fs, pc)\r\n  local pi = fs.f.code[pc]\r\n  local ppi = fs.f.code[pc - 1]\r\n  if pc >= 1 and luaP:testOpMode(luaP:GET_OPCODE(ppi), \"OpModeT\") then\r\n    return ppi\r\n  else\r\n    return pi\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 59,
+    "text": "local pi = fs.f.code[pc]",
+    "type": "statement:localassign"
+  }, {
+    "id": 60,
+    "text": "local ppi = fs.f.code[pc - 1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 61,
+    "text": "if pc >= 1 and luaP:testOpMode(luaP:GET_OPCODE(ppi), \"OpModeT\") then\r\n    return ppi\r\n  else\r\n    return pi\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 63,
+    "text": "function luaK:need_value(fs, list, cond)\r\n  while list ~= self.NO_JUMP do\r\n    local i = self:getjumpcontrol(fs, list)\r\n    if luaP:GET_OPCODE(i) ~= \"OP_TESTSET\" or\r\n       luaP:GETARG_A(i) ~= luaP.NO_REG or\r\n       luaP:GETARG_C(i) ~= cond then\r\n      return true\r\n    end\r\n    list = self:getjump(fs, list)\r\n  end\r\n  return false  -- not found\r\nend",
+    "type": "function"
+  }, {
+    "id": 64,
+    "text": "while list ~= self.NO_JUMP do\r\n    local i = self:getjumpcontrol(fs, list)\r\n    if luaP:GET_OPCODE(i) ~= \"OP_TESTSET\" or\r\n       luaP:GETARG_A(i) ~= luaP.NO_REG or\r\n       luaP:GETARG_C(i) ~= cond then\r\n      return true\r\n    end\r\n    list = self:getjump(fs, list)\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 65,
+    "text": "local i = self:getjumpcontrol(fs, list)",
+    "type": "statement:localassign"
+  }, {
+    "id": 66,
+    "text": "if luaP:GET_OPCODE(i) ~= \"OP_TESTSET\" or\r\n       luaP:GETARG_A(i) ~= luaP.NO_REG or\r\n       luaP:GETARG_C(i) ~= cond then\r\n      return true\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 67,
+    "text": "list = self:getjump(fs, list)",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 69,
+    "text": "function luaK:patchtestreg(fs, node, reg)\r\n   assert(reg) -- pour assurer, vu que j'ai ajoute un parametre p/r a 5.0\r\n   local i = self:getjumpcontrol(fs, node)\r\n   if luaP:GET_OPCODE(i) ~= \"OP_TESTSET\" then \r\n      return false end -- cannot patch other instructions\r\n   if reg ~= luaP.NO_REG and reg ~= luaP:GETARG_B(i) then\r\n      luaP:SETARG_A(i, reg)\r\n   else \r\n      -- no register to put value or register already has the value\r\n      luaP:SET_OPCODE(i, \"OP_TEST\")\r\n      luaP:SETARG_A(i, luaP:GETARG_B(i))\r\n      luaP:SETARG_B(i, 0)\r\n      luaP:SETARG_C(i, luaP:GETARG_C(i))\r\n   end\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 70,
+    "text": "assert(reg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 71,
+    "text": "local i = self:getjumpcontrol(fs, node)",
+    "type": "statement:localassign"
+  }, {
+    "id": 72,
+    "text": "if luaP:GET_OPCODE(i) ~= \"OP_TESTSET\" then \r\n      return false end",
+    "type": "statement:if"
+  }, {
+    "id": 73,
+    "text": "if reg ~= luaP.NO_REG and reg ~= luaP:GETARG_B(i) then\r\n      luaP:SETARG_A(i, reg)\r\n   else \r\n      -- no register to put value or register already has the value\r\n      luaP:SET_OPCODE(i, \"OP_TEST\")\r\n      luaP:SETARG_A(i, luaP:GETARG_B(i))\r\n      luaP:SETARG_B(i, 0)\r\n      luaP:SETARG_C(i, luaP:GETARG_C(i))\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 74,
+    "text": "luaP:SETARG_A(i, reg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 75,
+    "text": "luaP:SET_OPCODE(i, \"OP_TEST\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 76,
+    "text": "luaP:SETARG_A(i, luaP:GETARG_B(i))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 77,
+    "text": "luaP:SETARG_B(i, 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 78,
+    "text": "luaP:SETARG_C(i, luaP:GETARG_C(i))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 80,
+    "text": "function luaK:removevalues (fs, list)\r\n   while list ~= self.NO_JUMP do\r\n      self:patchtestreg (fs, list, luaP.NO_REG)\r\n      list = self:getjump (fs, list)\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 81,
+    "text": "while list ~= self.NO_JUMP do\r\n      self:patchtestreg (fs, list, luaP.NO_REG)\r\n      list = self:getjump (fs, list)\r\n   end",
+    "type": "statement:while"
+  }, {
+    "id": 82,
+    "text": "self:patchtestreg (fs, list, luaP.NO_REG)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 83,
+    "text": "list = self:getjump (fs, list)",
+    "type": "statement:assign"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 85,
+    "text": "function luaK:patchlistaux(fs, list, vtarget, reg, dtarget)\r\n   while list ~= self.NO_JUMP do\r\n      local _next = self:getjump(fs, list)\r\n      if self:patchtestreg (fs, list, reg) then\r\n         self:fixjump(fs, list, vtarget)\r\n      else\r\n         self:fixjump (fs, list, dtarget)\r\n      end\r\n      list = _next\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 86,
+    "text": "while list ~= self.NO_JUMP do\r\n      local _next = self:getjump(fs, list)\r\n      if self:patchtestreg (fs, list, reg) then\r\n         self:fixjump(fs, list, vtarget)\r\n      else\r\n         self:fixjump (fs, list, dtarget)\r\n      end\r\n      list = _next\r\n   end",
+    "type": "statement:while"
+  }, {
+    "id": 87,
+    "text": "local _next = self:getjump(fs, list)",
+    "type": "statement:localassign"
+  }, {
+    "id": 88,
+    "text": "if self:patchtestreg (fs, list, reg) then\r\n         self:fixjump(fs, list, vtarget)\r\n      else\r\n         self:fixjump (fs, list, dtarget)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 89,
+    "text": "self:fixjump(fs, list, vtarget)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 90,
+    "text": "self:fixjump (fs, list, dtarget)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 91,
+    "text": "list = _next",
+    "type": "statement:assign"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 93,
+    "text": "function luaK:dischargejpc(fs)\r\n  self:patchlistaux(fs, fs.jpc, fs.pc, luaP.NO_REG, fs.pc)\r\n  fs.jpc = self.NO_JUMP\r\nend",
+    "type": "function"
+  }, {
+    "id": 94,
+    "text": "self:patchlistaux(fs, fs.jpc, fs.pc, luaP.NO_REG, fs.pc)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 96,
+    "text": "function luaK:patchlist(fs, list, target)\r\n  if target == fs.pc then\r\n    self:patchtohere(fs, list)\r\n  else\r\n    assert(target < fs.pc)\r\n    self:patchlistaux(fs, list, target, luaP.NO_REG, target)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 97,
+    "text": "if target == fs.pc then\r\n    self:patchtohere(fs, list)\r\n  else\r\n    assert(target < fs.pc)\r\n    self:patchlistaux(fs, list, target, luaP.NO_REG, target)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 98,
+    "text": "self:patchtohere(fs, list)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 99,
+    "text": "assert(target < fs.pc)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 100,
+    "text": "self:patchlistaux(fs, list, target, luaP.NO_REG, target)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 102,
+    "text": "function luaK:patchtohere(fs, list)\r\n  self:getlabel(fs)\r\n  fs.jpc = self:concat(fs, fs.jpc, list)\r\nend",
+    "type": "function"
+  }, {
+    "id": 103,
+    "text": "self:getlabel(fs)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 104,
+    "text": "fs.jpc = self:concat(fs, fs.jpc, list)",
+    "type": "statement:assign"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 106,
+    "text": "function luaK:concat(fs, l1, l2)\r\n  if l2 == self.NO_JUMP then return l1  -- unchanged\r\n  elseif l1 == self.NO_JUMP then\r\n    return l2  -- changed\r\n  else\r\n    local list = l1\r\n    local _next = self:getjump(fs, list)\r\n    while _next ~= self.NO_JUMP do  -- find last element\r\n      list = _next\r\n      _next = self:getjump(fs, list)\r\n    end\r\n    self:fixjump(fs, list, l2)\r\n  end\r\n  return l1  -- unchanged\r\nend",
+    "type": "function"
+  }, {
+    "id": 107,
+    "text": "if l2 == self.NO_JUMP then return l1  -- unchanged\r\n  elseif l1 == self.NO_JUMP then\r\n    return l2  -- changed\r\n  else\r\n    local list = l1\r\n    local _next = self:getjump(fs, list)\r\n    while _next ~= self.NO_JUMP do  -- find last element\r\n      list = _next\r\n      _next = self:getjump(fs, list)\r\n    end\r\n    self:fixjump(fs, list, l2)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 108,
+    "text": "local list = l1",
+    "type": "statement:localassign"
+  }, {
+    "id": 109,
+    "text": "while _next ~= self.NO_JUMP do  -- find last element\r\n      list = _next\r\n      _next = self:getjump(fs, list)\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 110,
+    "text": "_next = self:getjump(fs, list)",
+    "type": "statement:assign"
+  }, {
+    "id": 111,
+    "text": "self:fixjump(fs, list, l2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 113,
+    "text": "function luaK:checkstack(fs, n)\r\n  local newstack = fs.freereg + n\r\n  if newstack > fs.f.maxstacksize then\r\n    if newstack >= luaK.MAXSTACK then\r\n      luaX:syntaxerror(fs.ls, \"function or expression too complex\")\r\n    end\r\n    fs.f.maxstacksize = newstack\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 114,
+    "text": "local newstack = fs.freereg + n",
+    "type": "statement:localassign"
+  }, {
+    "id": 115,
+    "text": "if newstack > fs.f.maxstacksize then\r\n    if newstack >= luaK.MAXSTACK then\r\n      luaX:syntaxerror(fs.ls, \"function or expression too complex\")\r\n    end\r\n    fs.f.maxstacksize = newstack\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 116,
+    "text": "if newstack >= luaK.MAXSTACK then\r\n      luaX:syntaxerror(fs.ls, \"function or expression too complex\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 117,
+    "text": "luaX:syntaxerror(fs.ls, \"function or expression too complex\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 118,
+    "text": "fs.f.maxstacksize = newstack",
+    "type": "statement:assign"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 120,
+    "text": "function luaK:reserveregs(fs, n)\r\n  self:checkstack(fs, n)\r\n  fs.freereg = fs.freereg + n\r\nend",
+    "type": "function"
+  }, {
+    "id": 121,
+    "text": "self:checkstack(fs, n)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 122,
+    "text": "fs.freereg = fs.freereg + n",
+    "type": "statement:assign"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 124,
+    "text": "function luaK:freereg(fs, reg)\r\n  if not luaP:ISK (reg) and reg >= fs.nactvar then\r\n    fs.freereg = fs.freereg - 1\r\n    assert(reg == fs.freereg, \r\n           string.format(\"reg=%i, fs.freereg=%i\", reg, fs.freereg))\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 125,
+    "text": "if not luaP:ISK (reg) and reg >= fs.nactvar then\r\n    fs.freereg = fs.freereg - 1\r\n    assert(reg == fs.freereg, \r\n           string.format(\"reg=%i, fs.freereg=%i\", reg, fs.freereg))\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 126,
+    "text": "fs.freereg = fs.freereg - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 127,
+    "text": "assert(reg == fs.freereg, \r\n           string.format(\"reg=%i, fs.freereg=%i\", reg, fs.freereg))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 128,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 129,
+    "text": "function luaK:freeexp(fs, e)\r\n  if e.k == \"VNONRELOC\" then\r\n    self:freereg(fs, e.info)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 130,
+    "text": "if e.k == \"VNONRELOC\" then\r\n    self:freereg(fs, e.info)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 131,
+    "text": "self:freereg(fs, e.info)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 132,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 133,
+    "text": "function luaK:addk(fs, k, v)\r\n   local idx = fs.h[k.value]\r\n   local f = fs.f\r\n--   local oldsize = f.sizek\r\n   if self:ttisnumber (idx) then\r\n      --TODO this assert currently FAILS\r\n      --assert(fs.f.k[self:nvalue(idx)] == v)\r\n      return self:nvalue(idx)\r\n   else  -- constant not found; create a new entry\r\n      do\r\n         local t = type (v.value)\r\n         assert(t==\"nil\" or t==\"string\" or t==\"number\" or t==\"boolean\")\r\n      end\r\n      --debugf(\"[const: k[%i] = %s ]\", fs.nk, tostringv(v.value))\r\n      fs.f.k[fs.nk] = v\r\n      fs.h[k.value] = { }\r\n      self:setnvalue(fs.h[k.value], fs.nk)\r\n      local nk = fs.nk\r\n      fs.nk = fs.nk+1\r\n      return nk\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 134,
+    "text": "local idx = fs.h[k.value]",
+    "type": "statement:localassign"
+  }, {
+    "id": 135,
+    "text": "local f = fs.f",
+    "type": "statement:localassign"
+  }, {
+    "id": 136,
+    "text": "if self:ttisnumber (idx) then\r\n      --TODO this assert currently FAILS\r\n      --assert(fs.f.k[self:nvalue(idx)] == v)\r\n      return self:nvalue(idx)\r\n   else  -- constant not found; create a new entry\r\n      do\r\n         local t = type (v.value)\r\n         assert(t==\"nil\" or t==\"string\" or t==\"number\" or t==\"boolean\")\r\n      end\r\n      --debugf(\"[const: k[%i] = %s ]\", fs.nk, tostringv(v.value))\r\n      fs.f.k[fs.nk] = v\r\n      fs.h[k.value] = { }\r\n      self:setnvalue(fs.h[k.value], fs.nk)\r\n      local nk = fs.nk\r\n      fs.nk = fs.nk+1\r\n      return nk\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 137,
+    "text": "do\r\n         local t = type (v.value)\r\n         assert(t==\"nil\" or t==\"string\" or t==\"number\" or t==\"boolean\")\r\n      end",
+    "type": "statement:do"
+  }, {
+    "id": 138,
+    "text": "local t = type (v.value)",
+    "type": "statement:localassign"
+  }, {
+    "id": 139,
+    "text": "assert(t==\"nil\" or t==\"string\" or t==\"number\" or t==\"boolean\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 140,
+    "text": "fs.f.k[fs.nk] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 141,
+    "text": "fs.h[k.value] = { }",
+    "type": "statement:assign"
+  }, {
+    "id": 142,
+    "text": "self:setnvalue(fs.h[k.value], fs.nk)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 143,
+    "text": "local nk = fs.nk",
+    "type": "statement:localassign"
+  }, {
+    "id": 144,
+    "text": "fs.nk = fs.nk+1",
+    "type": "statement:assign"
+  }, {
+    "id": 145,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 146,
+    "text": "function luaK:stringK(fs, s)\r\n   assert (type(s)==\"string\")\r\n   local o = {}  -- TObject\r\n   self:setsvalue(o, s)\r\n   return self:addk(fs, o, o)\r\nend",
+    "type": "function"
+  }, {
+    "id": 147,
+    "text": "assert (type(s)==\"string\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 148,
+    "text": "local o = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 149,
+    "text": "self:setsvalue(o, s)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 150,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 151,
+    "text": "function luaK:numberK(fs, r)\r\n   assert (type(r)==\"number\")\r\n  local o = {}  -- TObject\r\n  self:setnvalue(o, r)\r\n  return self:addk(fs, o, o)\r\nend",
+    "type": "function"
+  }, {
+    "id": 152,
+    "text": "assert (type(r)==\"number\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 153,
+    "text": "self:setnvalue(o, r)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 154,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 155,
+    "text": "function luaK:boolK(fs, r)\r\n   assert (type(r)==\"boolean\")\r\n   local o = {}  -- TObject\r\n   self:setnvalue(o, r)\r\n   return self:addk(fs, o, o)\r\nend",
+    "type": "function"
+  }, {
+    "id": 156,
+    "text": "assert (type(r)==\"boolean\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 157,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 158,
+    "text": "function luaK:nilK(fs)\r\n  local k, v = {}, {}  -- TObject\r\n  self:setnilvalue(v)\r\n  self:sethvalue(k, fs.h)  -- cannot use nil as key; instead use table itself\r\n  return self:addk(fs, k, v)\r\nend",
+    "type": "function"
+  }, {
+    "id": 159,
+    "text": "local k, v = {}, {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 160,
+    "text": "self:setnilvalue(v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 161,
+    "text": "self:sethvalue(k, fs.h)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 162,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 163,
+    "text": "function luaK:setreturns (fs, e, nresults)\r\n   if e.k == \"VCALL\" then  -- expression is an open function call?\r\n      luaP:SETARG_C(self:getcode(fs, e), nresults + 1)\r\n   elseif e.k == \"VVARARG\" then\r\n      luaP:SETARG_B (self:getcode (fs, e), nresults + 1)\r\n      luaP:SETARG_A (self:getcode (fs, e), fs.freereg)\r\n      self:reserveregs (fs, 1)\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 164,
+    "text": "if e.k == \"VCALL\" then  -- expression is an open function call?\r\n      luaP:SETARG_C(self:getcode(fs, e), nresults + 1)\r\n   elseif e.k == \"VVARARG\" then\r\n      luaP:SETARG_B (self:getcode (fs, e), nresults + 1)\r\n      luaP:SETARG_A (self:getcode (fs, e), fs.freereg)\r\n      self:reserveregs (fs, 1)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 165,
+    "text": "luaP:SETARG_C(self:getcode(fs, e), nresults + 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 166,
+    "text": "luaP:SETARG_B (self:getcode (fs, e), nresults + 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 167,
+    "text": "luaP:SETARG_A (self:getcode (fs, e), fs.freereg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 168,
+    "text": "self:reserveregs (fs, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 169,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 170,
+    "text": "function luaK:setmultret (fs, e)\r\n   self:setreturns (fs, e, self.LUA_MULTRET)\r\nend",
+    "type": "function"
+  }, {
+    "id": 171,
+    "text": "self:setreturns (fs, e, self.LUA_MULTRET)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 172,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 173,
+    "text": "function luaK:setoneret (fs, e)\r\n   if e.k == \"VCALL\" then  -- expression is an open function call?\r\n      e.k = \"VNONRELOC\"\r\n      e.info = luaP:GETARG_A(self:getcode(fs, e))\r\n   elseif e.k == \"VVARARG\" then\r\n      luaP:SETARG_B (self:getcode (fs, e), 2)\r\n      e.k = \"VRELOCABLE\"\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 174,
+    "text": "if e.k == \"VCALL\" then  -- expression is an open function call?\r\n      e.k = \"VNONRELOC\"\r\n      e.info = luaP:GETARG_A(self:getcode(fs, e))\r\n   elseif e.k == \"VVARARG\" then\r\n      luaP:SETARG_B (self:getcode (fs, e), 2)\r\n      e.k = \"VRELOCABLE\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 175,
+    "text": "e.k = \"VNONRELOC\"",
+    "type": "statement:assign"
+  }, {
+    "id": 176,
+    "text": "e.info = luaP:GETARG_A(self:getcode(fs, e))",
+    "type": "statement:assign"
+  }, {
+    "id": 177,
+    "text": "luaP:SETARG_B (self:getcode (fs, e), 2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 178,
+    "text": "e.k = \"VRELOCABLE\"",
+    "type": "statement:assign"
+  }, {
+    "id": 179,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 180,
+    "text": "function luaK:setcallreturns(fs, e, nresults)\r\n   assert (false, \"setcallreturns deprecated\")\r\n   --print \"SCR:\"\r\n   --printv(e)\r\n   --printv(self:getcode(fs, e))\r\n   if e.k == \"VCALL\" then  -- expression is an open function call?\r\n      luaP:SETARG_C(self:getcode(fs, e), nresults + 1)\r\n      if nresults == 1 then  -- 'regular' expression?\r\n         e.k = \"VNONRELOC\"\r\n         e.info = luaP:GETARG_A(self:getcode(fs, e))\r\n      end\r\n   elseif e.k == \"VVARARG\" then\r\n      --printf(\"Handle vararg return on expr %s, whose code is %s\", \r\n      --       tostringv(e), tostringv(self:getcode(fs, e)))\r\n      if nresults == 1 then\r\n         luaP:SETARG_B (self:getcode (fs, e), 2)\r\n         e.k = \"VRELOCABLE\"\r\n--FIXME: why no SETARG_A???\r\n      else\r\n         luaP:SETARG_B (self:getcode (fs, e), nresults + 1)\r\n         luaP:SETARG_A (self:getcode (fs, e), fs.freereg)\r\n         self:reserveregs (fs, 1)\r\n      --printf(\"Now code is %s\", tostringv(self:getcode(fs, e)))\r\n      end\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 181,
+    "text": "assert (false, \"setcallreturns deprecated\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 182,
+    "text": "if e.k == \"VCALL\" then  -- expression is an open function call?\r\n      luaP:SETARG_C(self:getcode(fs, e), nresults + 1)\r\n      if nresults == 1 then  -- 'regular' expression?\r\n         e.k = \"VNONRELOC\"\r\n         e.info = luaP:GETARG_A(self:getcode(fs, e))\r\n      end\r\n   elseif e.k == \"VVARARG\" then\r\n      --printf(\"Handle vararg return on expr %s, whose code is %s\", \r\n      --       tostringv(e), tostringv(self:getcode(fs, e)))\r\n      if nresults == 1 then\r\n         luaP:SETARG_B (self:getcode (fs, e), 2)\r\n         e.k = \"VRELOCABLE\"\r\n--FIXME: why no SETARG_A???\r\n      else\r\n         luaP:SETARG_B (self:getcode (fs, e), nresults + 1)\r\n         luaP:SETARG_A (self:getcode (fs, e), fs.freereg)\r\n         self:reserveregs (fs, 1)\r\n      --printf(\"Now code is %s\", tostringv(self:getcode(fs, e)))\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 183,
+    "text": "if nresults == 1 then  -- 'regular' expression?\r\n         e.k = \"VNONRELOC\"\r\n         e.info = luaP:GETARG_A(self:getcode(fs, e))\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 184,
+    "text": "if nresults == 1 then\r\n         luaP:SETARG_B (self:getcode (fs, e), 2)\r\n         e.k = \"VRELOCABLE\"\r\n--FIXME: why no SETARG_A???\r\n      else\r\n         luaP:SETARG_B (self:getcode (fs, e), nresults + 1)\r\n         luaP:SETARG_A (self:getcode (fs, e), fs.freereg)\r\n         self:reserveregs (fs, 1)\r\n      --printf(\"Now code is %s\", tostringv(self:getcode(fs, e)))\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 185,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 186,
+    "text": "function luaK:dischargevars(fs, e)\r\n--printf(\"\\ndischargevars\\n\")\r\n  local k = e.k\r\n  if k == \"VLOCAL\" then\r\n    e.k = \"VNONRELOC\"\r\n  elseif k == \"VUPVAL\" then\r\n    e.info = self:codeABC(fs, \"OP_GETUPVAL\", 0, e.info, 0)\r\n    e.k = \"VRELOCABLE\"\r\n  elseif k == \"VGLOBAL\" then\r\n    e.info = self:codeABx(fs, \"OP_GETGLOBAL\", 0, e.info)\r\n    e.k = \"VRELOCABLE\"\r\n  elseif k == \"VINDEXED\" then\r\n    self:freereg(fs, e.aux)\r\n    self:freereg(fs, e.info)\r\n    e.info = self:codeABC(fs, \"OP_GETTABLE\", 0, e.info, e.aux)\r\n    e.k = \"VRELOCABLE\"\r\n  elseif k == \"VCALL\" or k == \"VVARARG\" then\r\n    self:setoneret(fs, e)\r\n  else\r\n    -- there is one value available (somewhere)\r\n  end\r\n--printf(\"\\n/dischargevars\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 187,
+    "text": "local k = e.k",
+    "type": "statement:localassign"
+  }, {
+    "id": 188,
+    "text": "if k == \"VLOCAL\" then\r\n    e.k = \"VNONRELOC\"\r\n  elseif k == \"VUPVAL\" then\r\n    e.info = self:codeABC(fs, \"OP_GETUPVAL\", 0, e.info, 0)\r\n    e.k = \"VRELOCABLE\"\r\n  elseif k == \"VGLOBAL\" then\r\n    e.info = self:codeABx(fs, \"OP_GETGLOBAL\", 0, e.info)\r\n    e.k = \"VRELOCABLE\"\r\n  elseif k == \"VINDEXED\" then\r\n    self:freereg(fs, e.aux)\r\n    self:freereg(fs, e.info)\r\n    e.info = self:codeABC(fs, \"OP_GETTABLE\", 0, e.info, e.aux)\r\n    e.k = \"VRELOCABLE\"\r\n  elseif k == \"VCALL\" or k == \"VVARARG\" then\r\n    self:setoneret(fs, e)\r\n  else\r\n    -- there is one value available (somewhere)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 189,
+    "text": "e.info = self:codeABC(fs, \"OP_GETUPVAL\", 0, e.info, 0)",
+    "type": "statement:assign"
+  }, {
+    "id": 190,
+    "text": "e.info = self:codeABx(fs, \"OP_GETGLOBAL\", 0, e.info)",
+    "type": "statement:assign"
+  }, {
+    "id": 191,
+    "text": "self:freereg(fs, e.aux)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 192,
+    "text": "e.info = self:codeABC(fs, \"OP_GETTABLE\", 0, e.info, e.aux)",
+    "type": "statement:assign"
+  }, {
+    "id": 193,
+    "text": "self:setoneret(fs, e)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 194,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 195,
+    "text": "function luaK:code_label(fs, A, b, jump)\r\n  self:getlabel(fs)  -- those instructions may be jump targets\r\n  return self:codeABC(fs, \"OP_LOADBOOL\", A, b, jump)\r\nend",
+    "type": "function"
+  }, {
+    "id": 196,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 197,
+    "text": "function luaK:discharge2reg(fs, e, reg)\r\n   self:dischargevars(fs, e)\r\n   local k = e.k\r\n   if k == \"VNIL\" then\r\n      self:_nil(fs, reg, 1)\r\n   elseif k == \"VFALSE\" or k == \"VTRUE\" then\r\n      self:codeABC(fs, \"OP_LOADBOOL\", reg, (e.k == \"VTRUE\") and 1 or 0, 0)\r\n   elseif k == \"VKNUM\" then\r\n      self:codeABx (fs, \"OP_LOADK\", reg, self:numberK(fs, e.nval))\r\n   elseif k == \"VK\" then\r\n      self:codeABx(fs, \"OP_LOADK\", reg, e.info)\r\n   elseif k == \"VRELOCABLE\" then\r\n      local pc = self:getcode(fs, e)\r\n      luaP:SETARG_A(pc, reg)\r\n   elseif k == \"VNONRELOC\" then\r\n      if reg ~= e.info then\r\n         self:codeABC(fs, \"OP_MOVE\", reg, e.info, 0)\r\n      end\r\n   else\r\n      assert(e.k == \"VVOID\" or e.k == \"VJMP\")\r\n      return  -- nothing to do...\r\n   end\r\n   e.info = reg\r\n   e.k = \"VNONRELOC\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 198,
+    "text": "self:dischargevars(fs, e)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 199,
+    "text": "if k == \"VNIL\" then\r\n      self:_nil(fs, reg, 1)\r\n   elseif k == \"VFALSE\" or k == \"VTRUE\" then\r\n      self:codeABC(fs, \"OP_LOADBOOL\", reg, (e.k == \"VTRUE\") and 1 or 0, 0)\r\n   elseif k == \"VKNUM\" then\r\n      self:codeABx (fs, \"OP_LOADK\", reg, self:numberK(fs, e.nval))\r\n   elseif k == \"VK\" then\r\n      self:codeABx(fs, \"OP_LOADK\", reg, e.info)\r\n   elseif k == \"VRELOCABLE\" then\r\n      local pc = self:getcode(fs, e)\r\n      luaP:SETARG_A(pc, reg)\r\n   elseif k == \"VNONRELOC\" then\r\n      if reg ~= e.info then\r\n         self:codeABC(fs, \"OP_MOVE\", reg, e.info, 0)\r\n      end\r\n   else\r\n      assert(e.k == \"VVOID\" or e.k == \"VJMP\")\r\n      return  -- nothing to do...\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 200,
+    "text": "self:_nil(fs, reg, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 201,
+    "text": "self:codeABC(fs, \"OP_LOADBOOL\", reg, (e.k == \"VTRUE\") and 1 or 0, 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 202,
+    "text": "self:codeABx (fs, \"OP_LOADK\", reg, self:numberK(fs, e.nval))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 203,
+    "text": "self:codeABx(fs, \"OP_LOADK\", reg, e.info)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 204,
+    "text": "local pc = self:getcode(fs, e)",
+    "type": "statement:localassign"
+  }, {
+    "id": 205,
+    "text": "luaP:SETARG_A(pc, reg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 206,
+    "text": "if reg ~= e.info then\r\n         self:codeABC(fs, \"OP_MOVE\", reg, e.info, 0)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 207,
+    "text": "self:codeABC(fs, \"OP_MOVE\", reg, e.info, 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 208,
+    "text": "assert(e.k == \"VVOID\" or e.k == \"VJMP\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 209,
+    "text": "e.info = reg",
+    "type": "statement:assign"
+  }, {
+    "id": 210,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 211,
+    "text": "function luaK:discharge2anyreg(fs, e)\r\n  if e.k ~= \"VNONRELOC\" then\r\n    self:reserveregs(fs, 1)\r\n    self:discharge2reg(fs, e, fs.freereg - 1)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 212,
+    "text": "if e.k ~= \"VNONRELOC\" then\r\n    self:reserveregs(fs, 1)\r\n    self:discharge2reg(fs, e, fs.freereg - 1)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 213,
+    "text": "self:reserveregs(fs, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 214,
+    "text": "self:discharge2reg(fs, e, fs.freereg - 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 215,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 216,
+    "text": "function luaK:exp2reg(fs, e, reg)\r\n  self:discharge2reg(fs, e, reg)\r\n  if e.k == \"VJMP\" then\r\n    e.t = self:concat(fs, e.t, e.info)  -- put this jump in 't' list\r\n  end\r\n  if self:hasjumps(e) then\r\n    local final  -- position after whole expression\r\n    local p_f = self.NO_JUMP  -- position of an eventual LOAD false\r\n    local p_t = self.NO_JUMP  -- position of an eventual LOAD true\r\n    if self:need_value(fs, e.t, 1) or self:need_value(fs, e.f, 0) then\r\n      local fj = self.NO_JUMP  -- first jump (over LOAD ops.)\r\n      if e.k ~= \"VJMP\" then fj = self:jump(fs) end\r\n      p_f = self:code_label(fs, reg, 0, 1)\r\n      p_t = self:code_label(fs, reg, 1, 0)\r\n      self:patchtohere(fs, fj)\r\n    end\r\n    final = self:getlabel(fs)\r\n    self:patchlistaux(fs, e.f, final, reg, p_f)\r\n    self:patchlistaux(fs, e.t, final, reg, p_t)\r\n  end\r\n  e.f, e.t = self.NO_JUMP, self.NO_JUMP\r\n  e.info = reg\r\n  e.k = \"VNONRELOC\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 217,
+    "text": "self:discharge2reg(fs, e, reg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 218,
+    "text": "if e.k == \"VJMP\" then\r\n    e.t = self:concat(fs, e.t, e.info)  -- put this jump in 't' list\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 219,
+    "text": "e.t = self:concat(fs, e.t, e.info)",
+    "type": "statement:assign"
+  }, {
+    "id": 220,
+    "text": "if self:hasjumps(e) then\r\n    local final  -- position after whole expression\r\n    local p_f = self.NO_JUMP  -- position of an eventual LOAD false\r\n    local p_t = self.NO_JUMP  -- position of an eventual LOAD true\r\n    if self:need_value(fs, e.t, 1) or self:need_value(fs, e.f, 0) then\r\n      local fj = self.NO_JUMP  -- first jump (over LOAD ops.)\r\n      if e.k ~= \"VJMP\" then fj = self:jump(fs) end\r\n      p_f = self:code_label(fs, reg, 0, 1)\r\n      p_t = self:code_label(fs, reg, 1, 0)\r\n      self:patchtohere(fs, fj)\r\n    end\r\n    final = self:getlabel(fs)\r\n    self:patchlistaux(fs, e.f, final, reg, p_f)\r\n    self:patchlistaux(fs, e.t, final, reg, p_t)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 221,
+    "text": "local final",
+    "type": "statement:localassign"
+  }, {
+    "id": 222,
+    "text": "local p_f = self.NO_JUMP",
+    "type": "statement:localassign"
+  }, {
+    "id": 223,
+    "text": "local p_t = self.NO_JUMP",
+    "type": "statement:localassign"
+  }, {
+    "id": 224,
+    "text": "if self:need_value(fs, e.t, 1) or self:need_value(fs, e.f, 0) then\r\n      local fj = self.NO_JUMP  -- first jump (over LOAD ops.)\r\n      if e.k ~= \"VJMP\" then fj = self:jump(fs) end\r\n      p_f = self:code_label(fs, reg, 0, 1)\r\n      p_t = self:code_label(fs, reg, 1, 0)\r\n      self:patchtohere(fs, fj)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 225,
+    "text": "local fj = self.NO_JUMP",
+    "type": "statement:localassign"
+  }, {
+    "id": 226,
+    "text": "if e.k ~= \"VJMP\" then fj = self:jump(fs) end",
+    "type": "statement:if"
+  }, {
+    "id": 227,
+    "text": "fj = self:jump(fs)",
+    "type": "statement:assign"
+  }, {
+    "id": 228,
+    "text": "p_f = self:code_label(fs, reg, 0, 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 229,
+    "text": "p_t = self:code_label(fs, reg, 1, 0)",
+    "type": "statement:assign"
+  }, {
+    "id": 230,
+    "text": "self:patchtohere(fs, fj)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 231,
+    "text": "final = self:getlabel(fs)",
+    "type": "statement:assign"
+  }, {
+    "id": 232,
+    "text": "self:patchlistaux(fs, e.f, final, reg, p_f)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 233,
+    "text": "self:patchlistaux(fs, e.t, final, reg, p_t)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 234,
+    "text": "e.f, e.t = self.NO_JUMP, self.NO_JUMP",
+    "type": "statement:assign"
+  }, {
+    "id": 235,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 236,
+    "text": "function luaK:exp2nextreg(fs, e)\r\n  self:dischargevars(fs, e)\r\n  --[FF] Allready in place (added for expr.Stat)\r\n  if e.k == \"VNONRELOC\" and e.info == fs.freereg then \r\n     --printf(\"Expression already in next reg %i: %s\", fs.freereg, tostringv(e))\r\n     return end\r\n  self:freeexp(fs, e)\r\n  self:reserveregs(fs, 1)\r\n  self:exp2reg(fs, e, fs.freereg - 1)\r\nend",
+    "type": "function"
+  }, {
+    "id": 237,
+    "text": "if e.k == \"VNONRELOC\" and e.info == fs.freereg then \r\n     --printf(\"Expression already in next reg %i: %s\", fs.freereg, tostringv(e))\r\n     return end",
+    "type": "statement:if"
+  }, {
+    "id": 238,
+    "text": "self:freeexp(fs, e)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 239,
+    "text": "self:exp2reg(fs, e, fs.freereg - 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 240,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 241,
+    "text": "function luaK:exp2anyreg(fs, e)\r\n   --printf(\"exp2anyregs(e=%s)\", tostringv(e))\r\n   self:dischargevars(fs, e)\r\n   if e.k == \"VNONRELOC\" then\r\n      if not self:hasjumps(e) then  -- exp is already in a register\r\n         return e.info\r\n      end\r\n      if e.info >= fs.nactvar then  -- reg. is not a local?\r\n         self:exp2reg(fs, e, e.info)  -- put value on it\r\n         return e.info\r\n      end\r\n   end\r\n   self:exp2nextreg(fs, e)  -- default\r\n   return e.info\r\nend",
+    "type": "function"
+  }, {
+    "id": 242,
+    "text": "if e.k == \"VNONRELOC\" then\r\n      if not self:hasjumps(e) then  -- exp is already in a register\r\n         return e.info\r\n      end\r\n      if e.info >= fs.nactvar then  -- reg. is not a local?\r\n         self:exp2reg(fs, e, e.info)  -- put value on it\r\n         return e.info\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 243,
+    "text": "if not self:hasjumps(e) then  -- exp is already in a register\r\n         return e.info\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 244,
+    "text": "if e.info >= fs.nactvar then  -- reg. is not a local?\r\n         self:exp2reg(fs, e, e.info)  -- put value on it\r\n         return e.info\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 245,
+    "text": "self:exp2reg(fs, e, e.info)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 246,
+    "text": "self:exp2nextreg(fs, e)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 247,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 248,
+    "text": "function luaK:exp2val(fs, e)\r\n  if self:hasjumps(e) then\r\n    self:exp2anyreg(fs, e)\r\n  else\r\n    self:dischargevars(fs, e)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 249,
+    "text": "if self:hasjumps(e) then\r\n    self:exp2anyreg(fs, e)\r\n  else\r\n    self:dischargevars(fs, e)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 250,
+    "text": "self:exp2anyreg(fs, e)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 251,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 252,
+    "text": "function luaK:exp2RK(fs, e)\r\n   self:exp2val(fs, e)\r\n   local k = e.k\r\n   if k==\"VNIL\" or k==\"VTRUE\" or k==\"VFALSE\" or k==\"VKNUM\" then\r\n      if fs.nk <= luaP.MAXINDEXRK then\r\n         if     k==\"VNIL\"  then e.info = self:nilK(fs)\r\n         elseif k==\"VKNUM\" then e.info = self:numberK (fs, e.nval)\r\n         else                   e.info = self:boolK(fs, e.k==\"VTRUE\") end\r\n         e.k = \"VK\"\r\n         return luaP:RKASK(e.info)\r\n      end\r\n   elseif k == \"VK\" then\r\n      if e.info <= luaP.MAXINDEXRK then  -- constant fit in argC?\r\n         return luaP:RKASK (e.info)\r\n      end\r\n   end\r\n   -- not a constant in the right range: put it in a register\r\n   return self:exp2anyreg(fs, e)\r\nend",
+    "type": "function"
+  }, {
+    "id": 253,
+    "text": "self:exp2val(fs, e)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 254,
+    "text": "if k==\"VNIL\" or k==\"VTRUE\" or k==\"VFALSE\" or k==\"VKNUM\" then\r\n      if fs.nk <= luaP.MAXINDEXRK then\r\n         if     k==\"VNIL\"  then e.info = self:nilK(fs)\r\n         elseif k==\"VKNUM\" then e.info = self:numberK (fs, e.nval)\r\n         else                   e.info = self:boolK(fs, e.k==\"VTRUE\") end\r\n         e.k = \"VK\"\r\n         return luaP:RKASK(e.info)\r\n      end\r\n   elseif k == \"VK\" then\r\n      if e.info <= luaP.MAXINDEXRK then  -- constant fit in argC?\r\n         return luaP:RKASK (e.info)\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 255,
+    "text": "if fs.nk <= luaP.MAXINDEXRK then\r\n         if     k==\"VNIL\"  then e.info = self:nilK(fs)\r\n         elseif k==\"VKNUM\" then e.info = self:numberK (fs, e.nval)\r\n         else                   e.info = self:boolK(fs, e.k==\"VTRUE\") end\r\n         e.k = \"VK\"\r\n         return luaP:RKASK(e.info)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 256,
+    "text": "if     k==\"VNIL\"  then e.info = self:nilK(fs)\r\n         elseif k==\"VKNUM\" then e.info = self:numberK (fs, e.nval)\r\n         else                   e.info = self:boolK(fs, e.k==\"VTRUE\") end",
+    "type": "statement:if"
+  }, {
+    "id": 257,
+    "text": "e.info = self:nilK(fs)",
+    "type": "statement:assign"
+  }, {
+    "id": 258,
+    "text": "e.info = self:numberK (fs, e.nval)",
+    "type": "statement:assign"
+  }, {
+    "id": 259,
+    "text": "e.info = self:boolK(fs, e.k==\"VTRUE\")",
+    "type": "statement:assign"
+  }, {
+    "id": 260,
+    "text": "e.k = \"VK\"",
+    "type": "statement:assign"
+  }, {
+    "id": 261,
+    "text": "if e.info <= luaP.MAXINDEXRK then  -- constant fit in argC?\r\n         return luaP:RKASK (e.info)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 262,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 263,
+    "text": "function luaK:storevar(fs, var, exp)\r\n   --print(\"STOREVAR\")\r\n   --printf(\"var=%s\", tostringv(var))\r\n   --printf(\"exp=%s\", tostringv(exp))\r\n\r\n   local k = var.k\r\n   if k == \"VLOCAL\" then\r\n      self:freeexp(fs, exp)\r\n      self:exp2reg(fs, exp, var.info)\r\n      return\r\n   elseif k == \"VUPVAL\" then\r\n      local e = self:exp2anyreg(fs, exp)\r\n      self:codeABC(fs, \"OP_SETUPVAL\", e, var.info, 0)\r\n   elseif k == \"VGLOBAL\" then\r\n      --printf(\"store global, exp=%s\", tostringv(exp))\r\n      local e = self:exp2anyreg(fs, exp)\r\n      self:codeABx(fs, \"OP_SETGLOBAL\", e, var.info)\r\n   elseif k == \"VINDEXED\" then\r\n      local e = self:exp2RK(fs, exp)\r\n      self:codeABC(fs, \"OP_SETTABLE\", var.info, var.aux, e)\r\n   else\r\n      assert(0)  -- invalid var kind to store\r\n   end\r\n   self:freeexp(fs, exp)\r\n   --print(\"/STOREVAR\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 264,
+    "text": "local k = var.k",
+    "type": "statement:localassign"
+  }, {
+    "id": 265,
+    "text": "if k == \"VLOCAL\" then\r\n      self:freeexp(fs, exp)\r\n      self:exp2reg(fs, exp, var.info)\r\n      return\r\n   elseif k == \"VUPVAL\" then\r\n      local e = self:exp2anyreg(fs, exp)\r\n      self:codeABC(fs, \"OP_SETUPVAL\", e, var.info, 0)\r\n   elseif k == \"VGLOBAL\" then\r\n      --printf(\"store global, exp=%s\", tostringv(exp))\r\n      local e = self:exp2anyreg(fs, exp)\r\n      self:codeABx(fs, \"OP_SETGLOBAL\", e, var.info)\r\n   elseif k == \"VINDEXED\" then\r\n      local e = self:exp2RK(fs, exp)\r\n      self:codeABC(fs, \"OP_SETTABLE\", var.info, var.aux, e)\r\n   else\r\n      assert(0)  -- invalid var kind to store\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 266,
+    "text": "self:freeexp(fs, exp)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 267,
+    "text": "self:exp2reg(fs, exp, var.info)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 268,
+    "text": "local e = self:exp2anyreg(fs, exp)",
+    "type": "statement:localassign"
+  }, {
+    "id": 269,
+    "text": "self:codeABC(fs, \"OP_SETUPVAL\", e, var.info, 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 270,
+    "text": "self:codeABx(fs, \"OP_SETGLOBAL\", e, var.info)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 271,
+    "text": "local e = self:exp2RK(fs, exp)",
+    "type": "statement:localassign"
+  }, {
+    "id": 272,
+    "text": "self:codeABC(fs, \"OP_SETTABLE\", var.info, var.aux, e)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 273,
+    "text": "assert(0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 274,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 275,
+    "text": "function luaK:_self(fs, e, key)\r\n  self:exp2anyreg(fs, e)\r\n  self:freeexp(fs, e)\r\n  local func = fs.freereg\r\n  self:reserveregs(fs, 2)\r\n  self:codeABC(fs, \"OP_SELF\", func, e.info, self:exp2RK(fs, key))\r\n  self:freeexp(fs, key)\r\n  e.info = func\r\n  e.k = \"VNONRELOC\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 276,
+    "text": "local func = fs.freereg",
+    "type": "statement:localassign"
+  }, {
+    "id": 277,
+    "text": "self:reserveregs(fs, 2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 278,
+    "text": "self:codeABC(fs, \"OP_SELF\", func, e.info, self:exp2RK(fs, key))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 279,
+    "text": "self:freeexp(fs, key)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 280,
+    "text": "e.info = func",
+    "type": "statement:assign"
+  }, {
+    "id": 281,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 282,
+    "text": "function luaK:invertjump(fs, e)\r\n   --printf(\"invertjump on jump instruction #%i\", e.info)\r\n   --printv(self:getcode(fs, e))\r\n   local pc = self:getjumpcontrol(fs, e.info)\r\n   assert(luaP:testOpMode(luaP:GET_OPCODE(pc), \"OpModeT\") and\r\n             luaP:GET_OPCODE(pc) ~= \"OP_TESTSET\" and\r\n             luaP:GET_OPCODE(pc) ~= \"OP_TEST\")\r\n   --printf(\"Before invert:\")\r\n   --printv(pc)\r\n   luaP:SETARG_A(pc, (luaP:GETARG_A(pc) == 0) and 1 or 0)\r\n   --printf(\"After invert:\")\r\n   --printv(pc)\r\nend",
+    "type": "function"
+  }, {
+    "id": 283,
+    "text": "local pc = self:getjumpcontrol(fs, e.info)",
+    "type": "statement:localassign"
+  }, {
+    "id": 284,
+    "text": "assert(luaP:testOpMode(luaP:GET_OPCODE(pc), \"OpModeT\") and\r\n             luaP:GET_OPCODE(pc) ~= \"OP_TESTSET\" and\r\n             luaP:GET_OPCODE(pc) ~= \"OP_TEST\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 285,
+    "text": "luaP:SETARG_A(pc, (luaP:GETARG_A(pc) == 0) and 1 or 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 286,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 287,
+    "text": "function luaK:jumponcond(fs, e, cond)\r\n  if e.k == \"VRELOCABLE\" then\r\n    local ie = self:getcode(fs, e)\r\n    if luaP:GET_OPCODE(ie) == \"OP_NOT\" then\r\n      fs.pc = fs.pc - 1  -- remove previous OP_NOT\r\n      return self:condjump(fs, \"OP_TEST\", luaP:GETARG_B(ie), 0,\r\n                           cond and 0 or 1)\r\n    end\r\n    -- else go through\r\n  end\r\n  self:discharge2anyreg(fs, e)\r\n  self:freeexp(fs, e)\r\n  return self:condjump(fs, \"OP_TESTSET\", luaP.NO_REG, e.info, cond and 1 or 0)\r\nend",
+    "type": "function"
+  }, {
+    "id": 288,
+    "text": "if e.k == \"VRELOCABLE\" then\r\n    local ie = self:getcode(fs, e)\r\n    if luaP:GET_OPCODE(ie) == \"OP_NOT\" then\r\n      fs.pc = fs.pc - 1  -- remove previous OP_NOT\r\n      return self:condjump(fs, \"OP_TEST\", luaP:GETARG_B(ie), 0,\r\n                           cond and 0 or 1)\r\n    end\r\n    -- else go through\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 289,
+    "text": "local ie = self:getcode(fs, e)",
+    "type": "statement:localassign"
+  }, {
+    "id": 290,
+    "text": "if luaP:GET_OPCODE(ie) == \"OP_NOT\" then\r\n      fs.pc = fs.pc - 1  -- remove previous OP_NOT\r\n      return self:condjump(fs, \"OP_TEST\", luaP:GETARG_B(ie), 0,\r\n                           cond and 0 or 1)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 291,
+    "text": "fs.pc = fs.pc - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 292,
+    "text": "self:discharge2anyreg(fs, e)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 293,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 294,
+    "text": "function luaK:goiftrue(fs, e)\r\n  local pc  -- pc of last jump\r\n  self:dischargevars(fs, e)\r\n  local k = e.k\r\n  if k == \"VK\" or k == \"VTRUE\" or k == \"VKNUM\" then\r\n    pc = self.NO_JUMP  -- always true; do nothing\r\n  elseif k == \"VFALSE\" then\r\n    pc = self:jump(fs)  -- always jump\r\n  elseif k == \"VJMP\" then\r\n    self:invertjump(fs, e)\r\n    pc = e.info\r\n  else\r\n    pc = self:jumponcond(fs, e, false)\r\n end\r\n  e.f = self:concat(fs, e.f, pc)  -- insert last jump in 'f' list\r\n  self:patchtohere(fs, e.t)\r\n  e.t = self.NO_JUMP\r\nend",
+    "type": "function"
+  }, {
+    "id": 295,
+    "text": "local pc",
+    "type": "statement:localassign"
+  }, {
+    "id": 296,
+    "text": "if k == \"VK\" or k == \"VTRUE\" or k == \"VKNUM\" then\r\n    pc = self.NO_JUMP  -- always true; do nothing\r\n  elseif k == \"VFALSE\" then\r\n    pc = self:jump(fs)  -- always jump\r\n  elseif k == \"VJMP\" then\r\n    self:invertjump(fs, e)\r\n    pc = e.info\r\n  else\r\n    pc = self:jumponcond(fs, e, false)\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 297,
+    "text": "pc = self.NO_JUMP",
+    "type": "statement:assign"
+  }, {
+    "id": 298,
+    "text": "pc = self:jump(fs)",
+    "type": "statement:assign"
+  }, {
+    "id": 299,
+    "text": "self:invertjump(fs, e)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 300,
+    "text": "pc = e.info",
+    "type": "statement:assign"
+  }, {
+    "id": 301,
+    "text": "pc = self:jumponcond(fs, e, false)",
+    "type": "statement:assign"
+  }, {
+    "id": 302,
+    "text": "e.f = self:concat(fs, e.f, pc)",
+    "type": "statement:assign"
+  }, {
+    "id": 303,
+    "text": "self:patchtohere(fs, e.t)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 304,
+    "text": "e.t = self.NO_JUMP",
+    "type": "statement:assign"
+  }, {
+    "id": 305,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 306,
+    "text": "function luaK:goiffalse(fs, e)\r\n  local pc  -- pc of last jump\r\n  self:dischargevars(fs, e)\r\n  local k = e.k\r\n  if k == \"VNIL\" or k == \"VFALSE\"then\r\n    pc = self.NO_JUMP  -- always false; do nothing\r\n  elseif k == \"VTRUE\" then\r\n    pc = self:jump(fs)  -- always jump\r\n  elseif k == \"VJMP\" then\r\n    pc = e.info\r\n  else\r\n    pc = self:jumponcond(fs, e, true)\r\n  end\r\n  e.t = self:concat(fs, e.t, pc)  -- insert last jump in 't' list\r\n  self:patchtohere(fs, e.f)\r\n  e.f = self.NO_JUMP\r\nend",
+    "type": "function"
+  }, {
+    "id": 307,
+    "text": "if k == \"VNIL\" or k == \"VFALSE\"then\r\n    pc = self.NO_JUMP  -- always false; do nothing\r\n  elseif k == \"VTRUE\" then\r\n    pc = self:jump(fs)  -- always jump\r\n  elseif k == \"VJMP\" then\r\n    pc = e.info\r\n  else\r\n    pc = self:jumponcond(fs, e, true)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 308,
+    "text": "pc = self:jumponcond(fs, e, true)",
+    "type": "statement:assign"
+  }, {
+    "id": 309,
+    "text": "e.t = self:concat(fs, e.t, pc)",
+    "type": "statement:assign"
+  }, {
+    "id": 310,
+    "text": "self:patchtohere(fs, e.f)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 311,
+    "text": "e.f = self.NO_JUMP",
+    "type": "statement:assign"
+  }, {
+    "id": 312,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 313,
+    "text": "function luaK:codenot(fs, e)\r\n  self:dischargevars(fs, e)\r\n  local k = e.k\r\n  if k == \"VNIL\" or k == \"VFALSE\" then\r\n    e.k = \"VTRUE\"\r\n  elseif k == \"VK\" or k == \"VKNUM\" or k == \"VTRUE\" then\r\n    e.k = \"VFALSE\"\r\n  elseif k == \"VJMP\" then\r\n    self:invertjump(fs, e)\r\n  elseif k == \"VRELOCABLE\" or k == \"VNONRELOC\" then\r\n    self:discharge2anyreg(fs, e)\r\n    self:freeexp(fs, e)\r\n    e.info = self:codeABC(fs, \"OP_NOT\", 0, e.info, 0)\r\n    e.k = \"VRELOCABLE\"\r\n  else\r\n    assert(0)  -- cannot happen\r\n  end\r\n  -- interchange true and false lists\r\n  e.f, e.t = e.t, e.f\r\n  self:removevalues(fs, e.f)\r\n  self:removevalues(fs, e.t)\r\nend",
+    "type": "function"
+  }, {
+    "id": 314,
+    "text": "if k == \"VNIL\" or k == \"VFALSE\" then\r\n    e.k = \"VTRUE\"\r\n  elseif k == \"VK\" or k == \"VKNUM\" or k == \"VTRUE\" then\r\n    e.k = \"VFALSE\"\r\n  elseif k == \"VJMP\" then\r\n    self:invertjump(fs, e)\r\n  elseif k == \"VRELOCABLE\" or k == \"VNONRELOC\" then\r\n    self:discharge2anyreg(fs, e)\r\n    self:freeexp(fs, e)\r\n    e.info = self:codeABC(fs, \"OP_NOT\", 0, e.info, 0)\r\n    e.k = \"VRELOCABLE\"\r\n  else\r\n    assert(0)  -- cannot happen\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 315,
+    "text": "e.k = \"VTRUE\"",
+    "type": "statement:assign"
+  }, {
+    "id": 316,
+    "text": "e.k = \"VFALSE\"",
+    "type": "statement:assign"
+  }, {
+    "id": 317,
+    "text": "e.info = self:codeABC(fs, \"OP_NOT\", 0, e.info, 0)",
+    "type": "statement:assign"
+  }, {
+    "id": 318,
+    "text": "e.f, e.t = e.t, e.f",
+    "type": "statement:assign"
+  }, {
+    "id": 319,
+    "text": "self:removevalues(fs, e.f)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 320,
+    "text": "self:removevalues(fs, e.t)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 321,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 322,
+    "text": "function luaK:indexed(fs, t, k)\r\n  t.aux = self:exp2RK(fs, k)\r\n  t.k = \"VINDEXED\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 323,
+    "text": "t.aux = self:exp2RK(fs, k)",
+    "type": "statement:assign"
+  }, {
+    "id": 324,
+    "text": "t.k = \"VINDEXED\"",
+    "type": "statement:assign"
+  }, {
+    "id": 325,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 326,
+    "text": "function luaK:constfolding (op, e1, e2)\r\n   if not self:isnumeral(e1) or not self:isnumeral(e2) then return false end\r\n   local v1, v2, e, r = e1.nval, e2 and e2.nval, nil\r\n   if     op == \"OP_ADD\" then r = v1+v2\r\n   elseif op == \"OP_SUB\" then r = v1-v2\r\n   elseif op == \"OP_MUL\" then r = v1*v2\r\n   elseif op == \"OP_DIV\" then if v2==0 then return false end r = v1/v2\r\n   elseif op == \"OP_MOD\" then if v2==0 then return false end r = v1%v2\r\n   elseif op == \"OP_POW\" then r = v1^v2\r\n   elseif op == \"OP_UNM\" then r = -v1\r\n   elseif op == \"OP_LEN\" then return false\r\n   else   assert (false, \"Unknown numeric value\") end\r\n   e1.nval = r\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 327,
+    "text": "if not self:isnumeral(e1) or not self:isnumeral(e2) then return false end",
+    "type": "statement:if"
+  }, {
+    "id": 328,
+    "text": "local v1, v2, e, r = e1.nval, e2 and e2.nval, nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 329,
+    "text": "if     op == \"OP_ADD\" then r = v1+v2\r\n   elseif op == \"OP_SUB\" then r = v1-v2\r\n   elseif op == \"OP_MUL\" then r = v1*v2\r\n   elseif op == \"OP_DIV\" then if v2==0 then return false end r = v1/v2\r\n   elseif op == \"OP_MOD\" then if v2==0 then return false end r = v1%v2\r\n   elseif op == \"OP_POW\" then r = v1^v2\r\n   elseif op == \"OP_UNM\" then r = -v1\r\n   elseif op == \"OP_LEN\" then return false\r\n   else   assert (false, \"Unknown numeric value\") end",
+    "type": "statement:if"
+  }, {
+    "id": 330,
+    "text": "r = v1+v2",
+    "type": "statement:assign"
+  }, {
+    "id": 331,
+    "text": "r = v1-v2",
+    "type": "statement:assign"
+  }, {
+    "id": 332,
+    "text": "r = v1*v2",
+    "type": "statement:assign"
+  }, {
+    "id": 333,
+    "text": "if v2==0 then return false end",
+    "type": "statement:if"
+  }, {
+    "id": 334,
+    "text": "r = v1/v2",
+    "type": "statement:assign"
+  }, {
+    "id": 335,
+    "text": "r = v1%v2",
+    "type": "statement:assign"
+  }, {
+    "id": 336,
+    "text": "r = v1^v2",
+    "type": "statement:assign"
+  }, {
+    "id": 337,
+    "text": "r = -v1",
+    "type": "statement:assign"
+  }, {
+    "id": 338,
+    "text": "assert (false, \"Unknown numeric value\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 339,
+    "text": "e1.nval = r",
+    "type": "statement:assign"
+  }, {
+    "id": 340,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 341,
+    "text": "function luaK:codearith (fs, op, e1, e2)\r\n   if self:constfolding (op, e1, e2) then return else\r\n      local o1 = self:exp2RK (fs, e1)\r\n      local o2 = 0\r\n      if op ~= \"OP_UNM\" and op ~= \"OP_LEN\" then \r\n         o2 = self:exp2RK (fs, e2) end\r\n      self:freeexp(fs, e2)\r\n      self:freeexp(fs, e1)\r\n      e1.info = self:codeABC (fs, op, 0, o1, o2)\r\n      e1.k = \"VRELOCABLE\"\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 342,
+    "text": "if self:constfolding (op, e1, e2) then return else\r\n      local o1 = self:exp2RK (fs, e1)\r\n      local o2 = 0\r\n      if op ~= \"OP_UNM\" and op ~= \"OP_LEN\" then \r\n         o2 = self:exp2RK (fs, e2) end\r\n      self:freeexp(fs, e2)\r\n      self:freeexp(fs, e1)\r\n      e1.info = self:codeABC (fs, op, 0, o1, o2)\r\n      e1.k = \"VRELOCABLE\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 343,
+    "text": "local o1 = self:exp2RK (fs, e1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 344,
+    "text": "local o2 = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 345,
+    "text": "if op ~= \"OP_UNM\" and op ~= \"OP_LEN\" then \r\n         o2 = self:exp2RK (fs, e2) end",
+    "type": "statement:if"
+  }, {
+    "id": 346,
+    "text": "o2 = self:exp2RK (fs, e2)",
+    "type": "statement:assign"
+  }, {
+    "id": 347,
+    "text": "self:freeexp(fs, e2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 348,
+    "text": "self:freeexp(fs, e1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 349,
+    "text": "e1.info = self:codeABC (fs, op, 0, o1, o2)",
+    "type": "statement:assign"
+  }, {
+    "id": 350,
+    "text": "e1.k = \"VRELOCABLE\"",
+    "type": "statement:assign"
+  }, {
+    "id": 351,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 352,
+    "text": "function luaK:codecomp (fs, op, cond, e1, e2)\r\n   assert (type (cond) == \"boolean\")\r\n   local o1 = self:exp2RK (fs, e1)\r\n   local o2 = self:exp2RK (fs, e2)\r\n   self:freeexp (fs, e2)\r\n   self:freeexp (fs, e1)\r\n   if not cond and op ~= \"OP_EQ\" then \r\n      local temp = o1; o1=o2; o2=temp cond = true end\r\n   e1.info = self:condjump (fs, op, cond and 1 or 0, o1, o2)\r\n   e1.k = \"VJMP\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 353,
+    "text": "assert (type (cond) == \"boolean\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 354,
+    "text": "local o2 = self:exp2RK (fs, e2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 355,
+    "text": "self:freeexp (fs, e2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 356,
+    "text": "self:freeexp (fs, e1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 357,
+    "text": "if not cond and op ~= \"OP_EQ\" then \r\n      local temp = o1; o1=o2; o2=temp cond = true end",
+    "type": "statement:if"
+  }, {
+    "id": 358,
+    "text": "local temp = o1",
+    "type": "statement:localassign"
+  }, {
+    "id": 359,
+    "text": "o1=o2",
+    "type": "statement:assign"
+  }, {
+    "id": 360,
+    "text": "o2=temp",
+    "type": "statement:assign"
+  }, {
+    "id": 361,
+    "text": "cond = true",
+    "type": "statement:assign"
+  }, {
+    "id": 362,
+    "text": "e1.info = self:condjump (fs, op, cond and 1 or 0, o1, o2)",
+    "type": "statement:assign"
+  }, {
+    "id": 363,
+    "text": "e1.k = \"VJMP\"",
+    "type": "statement:assign"
+  }, {
+    "id": 364,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 365,
+    "text": "function luaK:prefix (fs, op, e)\r\n   local e2 = { t = self.NO_JUMP; f = self.NO_JUMP;\r\n                k = \"VKNUM\"; nval = 0 }\r\n   if op == \"unm\" then\r\n      if e.k == \"VK\" then\r\n         self:exp2anyreg (fs, e) end\r\n      self:codearith (fs, \"OP_UNM\", e, e2)\r\n   elseif op == \"not\" then\r\n      self:codenot (fs, e)\r\n   elseif op == \"len\" then\r\n      self:exp2anyreg (fs, e)\r\n      self:codearith (fs, \"OP_LEN\", e, e2)\r\n   else\r\n      assert (false, \"Unknown unary operator\")\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 366,
+    "text": "local e2 = { t = self.NO_JUMP; f = self.NO_JUMP;\r\n                k = \"VKNUM\"; nval = 0 }",
+    "type": "statement:localassign"
+  }, {
+    "id": 367,
+    "text": "if op == \"unm\" then\r\n      if e.k == \"VK\" then\r\n         self:exp2anyreg (fs, e) end\r\n      self:codearith (fs, \"OP_UNM\", e, e2)\r\n   elseif op == \"not\" then\r\n      self:codenot (fs, e)\r\n   elseif op == \"len\" then\r\n      self:exp2anyreg (fs, e)\r\n      self:codearith (fs, \"OP_LEN\", e, e2)\r\n   else\r\n      assert (false, \"Unknown unary operator\")\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 368,
+    "text": "if e.k == \"VK\" then\r\n         self:exp2anyreg (fs, e) end",
+    "type": "statement:if"
+  }, {
+    "id": 369,
+    "text": "self:exp2anyreg (fs, e)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 370,
+    "text": "self:codearith (fs, \"OP_UNM\", e, e2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 371,
+    "text": "self:codenot (fs, e)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 372,
+    "text": "self:codearith (fs, \"OP_LEN\", e, e2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 373,
+    "text": "assert (false, \"Unknown unary operator\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 374,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 375,
+    "text": "function luaK:infix (fs, op, v)\r\n  if op == \"and\" then\r\n    self:goiftrue(fs, v)\r\n  elseif op == \"or\" then\r\n    self:goiffalse(fs, v)\r\n  elseif op == \"concat\" then\r\n    self:exp2nextreg(fs, v)  -- operand must be on the 'stack'\r\n else\r\n    if not self:isnumeral (v) then self:exp2RK(fs, v) end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 376,
+    "text": "if op == \"and\" then\r\n    self:goiftrue(fs, v)\r\n  elseif op == \"or\" then\r\n    self:goiffalse(fs, v)\r\n  elseif op == \"concat\" then\r\n    self:exp2nextreg(fs, v)  -- operand must be on the 'stack'\r\n else\r\n    if not self:isnumeral (v) then self:exp2RK(fs, v) end\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 377,
+    "text": "self:goiftrue(fs, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 378,
+    "text": "self:goiffalse(fs, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 379,
+    "text": "self:exp2nextreg(fs, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 380,
+    "text": "if not self:isnumeral (v) then self:exp2RK(fs, v) end",
+    "type": "statement:if"
+  }, {
+    "id": 381,
+    "text": "self:exp2RK(fs, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 382,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 383,
+    "text": "function luaK:posfix(fs, op, e1, e2)\r\n   if op == \"and\" then\r\n      assert(e1.t == self.NO_JUMP)  -- list must be closed\r\n      self:dischargevars(fs, e2)\r\n      e2.f = self:concat(fs, e2.f, e1.f)\r\n      for k,v in pairs(e2) do e1[k]=v end -- *e1 = *e2\r\n   elseif op == \"or\" then\r\n      assert(e1.f == self.NO_JUMP)  -- list must be closed\r\n      self:dischargevars(fs, e2)\r\n      e2.t = self:concat(fs, e2.t, e1.t)\r\n      for k,v in pairs(e2) do e1[k]=v end -- *e1 = *e2\r\n   elseif op == \"concat\" then\r\n      self:exp2val(fs, e2)\r\n      if e2.k == \"VRELOCABLE\"\r\n         and luaP:GET_OPCODE(self:getcode(fs, e2)) == \"OP_CONCAT\" then\r\n         assert(e1.info == luaP:GETARG_B(self:getcode(fs, e2)) - 1)\r\n         self:freeexp(fs, e1)\r\n         luaP:SETARG_B(self:getcode(fs, e2), e1.info)\r\n         e1.k = \"VRELOCABLE\"; e1.info = e2.info\r\n      else\r\n         self:exp2nextreg(fs, e2)\r\n         self:codearith (fs, \"OP_CONCAT\", e1, e2)\r\n      end\r\n   else\r\n      local opc = self.arith_opc[op]\r\n      if opc then self:codearith (fs, opc, e1, e2) else\r\n         opc = self.test_opc[op] or error (\"Unknown operator \"..op)\r\n         self:codecomp (fs, opc.opc, opc.cond, e1, e2)\r\n      end\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 384,
+    "text": "if op == \"and\" then\r\n      assert(e1.t == self.NO_JUMP)  -- list must be closed\r\n      self:dischargevars(fs, e2)\r\n      e2.f = self:concat(fs, e2.f, e1.f)\r\n      for k,v in pairs(e2) do e1[k]=v end -- *e1 = *e2\r\n   elseif op == \"or\" then\r\n      assert(e1.f == self.NO_JUMP)  -- list must be closed\r\n      self:dischargevars(fs, e2)\r\n      e2.t = self:concat(fs, e2.t, e1.t)\r\n      for k,v in pairs(e2) do e1[k]=v end -- *e1 = *e2\r\n   elseif op == \"concat\" then\r\n      self:exp2val(fs, e2)\r\n      if e2.k == \"VRELOCABLE\"\r\n         and luaP:GET_OPCODE(self:getcode(fs, e2)) == \"OP_CONCAT\" then\r\n         assert(e1.info == luaP:GETARG_B(self:getcode(fs, e2)) - 1)\r\n         self:freeexp(fs, e1)\r\n         luaP:SETARG_B(self:getcode(fs, e2), e1.info)\r\n         e1.k = \"VRELOCABLE\"; e1.info = e2.info\r\n      else\r\n         self:exp2nextreg(fs, e2)\r\n         self:codearith (fs, \"OP_CONCAT\", e1, e2)\r\n      end\r\n   else\r\n      local opc = self.arith_opc[op]\r\n      if opc then self:codearith (fs, opc, e1, e2) else\r\n         opc = self.test_opc[op] or error (\"Unknown operator \"..op)\r\n         self:codecomp (fs, opc.opc, opc.cond, e1, e2)\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 385,
+    "text": "assert(e1.t == self.NO_JUMP)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 386,
+    "text": "self:dischargevars(fs, e2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 387,
+    "text": "e2.f = self:concat(fs, e2.f, e1.f)",
+    "type": "statement:assign"
+  }, {
+    "id": 388,
+    "text": "for k,v in pairs(e2) do e1[k]=v end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 389,
+    "text": "e1[k]=v",
+    "type": "statement:assign"
+  }, {
+    "id": 390,
+    "text": "assert(e1.f == self.NO_JUMP)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 391,
+    "text": "e2.t = self:concat(fs, e2.t, e1.t)",
+    "type": "statement:assign"
+  }, {
+    "id": 392,
+    "text": "self:exp2val(fs, e2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 393,
+    "text": "if e2.k == \"VRELOCABLE\"\r\n         and luaP:GET_OPCODE(self:getcode(fs, e2)) == \"OP_CONCAT\" then\r\n         assert(e1.info == luaP:GETARG_B(self:getcode(fs, e2)) - 1)\r\n         self:freeexp(fs, e1)\r\n         luaP:SETARG_B(self:getcode(fs, e2), e1.info)\r\n         e1.k = \"VRELOCABLE\"; e1.info = e2.info\r\n      else\r\n         self:exp2nextreg(fs, e2)\r\n         self:codearith (fs, \"OP_CONCAT\", e1, e2)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 394,
+    "text": "assert(e1.info == luaP:GETARG_B(self:getcode(fs, e2)) - 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 395,
+    "text": "luaP:SETARG_B(self:getcode(fs, e2), e1.info)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 396,
+    "text": "e1.info = e2.info",
+    "type": "statement:assign"
+  }, {
+    "id": 397,
+    "text": "self:exp2nextreg(fs, e2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 398,
+    "text": "self:codearith (fs, \"OP_CONCAT\", e1, e2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 399,
+    "text": "local opc = self.arith_opc[op]",
+    "type": "statement:localassign"
+  }, {
+    "id": 400,
+    "text": "if opc then self:codearith (fs, opc, e1, e2) else\r\n         opc = self.test_opc[op] or error (\"Unknown operator \"..op)\r\n         self:codecomp (fs, opc.opc, opc.cond, e1, e2)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 401,
+    "text": "self:codearith (fs, opc, e1, e2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 402,
+    "text": "opc = self.test_opc[op] or error (\"Unknown operator \"..op)",
+    "type": "statement:assign"
+  }, {
+    "id": 403,
+    "text": "self:codecomp (fs, opc.opc, opc.cond, e1, e2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 404,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 405,
+    "text": "function luaK:fixline(fs, line)\r\n   --assert (line)\r\n   if not line then\r\n     --print(debug.traceback \"fixline (line == nil)\")\r\n   end\r\n   fs.f.lineinfo[fs.pc - 1] = line or 0\r\nend",
+    "type": "function"
+  }, {
+    "id": 406,
+    "text": "if not line then\r\n     --print(debug.traceback \"fixline (line == nil)\")\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 407,
+    "text": "fs.f.lineinfo[fs.pc - 1] = line or 0",
+    "type": "statement:assign"
+  }, {
+    "id": 408,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 409,
+    "text": "function luaK:code(fs, i, line)\r\n  if not line then \r\n    line = 0\r\n    --print(debug.traceback \"line == nil\")\r\n  end\r\n  local f = fs.f\r\n\r\n  do -- print it\r\n    local params = { }\r\n    for _,x in ipairs{\"A\",\"B\",\"Bx\", \"sBx\", \"C\"} do\r\n      if i[x] then table.insert (params, string.format (\"%s=%i\", x, i[x])) end\r\n    end\r\n    debugf (\"[code:\\t%s\\t%s]\", luaP.opnames[i.OP], table.concat (params, \", \"))\r\n  end\r\n\r\n  self:dischargejpc(fs)  -- 'pc' will change\r\n\r\n  f.code[fs.pc] = i\r\n  f.lineinfo[fs.pc] = line\r\n\r\n  if line == 0 then\r\n    f.lineinfo[fs.pc] = fs.lastline\r\n    if fs.lastline == 0 then\r\n      --print(debug.traceback())\r\n    end    \r\n  end\r\n\r\n  if f.lineinfo[fs.pc] == 0 then\r\n    f.lineinfo[fs.pc] = 42\r\n  end\r\n\r\n  local pc = fs.pc\r\n  fs.pc = fs.pc + 1\r\n  return pc\r\nend",
+    "type": "function"
+  }, {
+    "id": 410,
+    "text": "if not line then \r\n    line = 0\r\n    --print(debug.traceback \"line == nil\")\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 411,
+    "text": "line = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 412,
+    "text": "do -- print it\r\n    local params = { }\r\n    for _,x in ipairs{\"A\",\"B\",\"Bx\", \"sBx\", \"C\"} do\r\n      if i[x] then table.insert (params, string.format (\"%s=%i\", x, i[x])) end\r\n    end\r\n    debugf (\"[code:\\t%s\\t%s]\", luaP.opnames[i.OP], table.concat (params, \", \"))\r\n  end",
+    "type": "statement:do"
+  }, {
+    "id": 413,
+    "text": "local params = { }",
+    "type": "statement:localassign"
+  }, {
+    "id": 414,
+    "text": "for _,x in ipairs{\"A\",\"B\",\"Bx\", \"sBx\", \"C\"} do\r\n      if i[x] then table.insert (params, string.format (\"%s=%i\", x, i[x])) end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 415,
+    "text": "if i[x] then table.insert (params, string.format (\"%s=%i\", x, i[x])) end",
+    "type": "statement:if"
+  }, {
+    "id": 416,
+    "text": "table.insert (params, string.format (\"%s=%i\", x, i[x]))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 417,
+    "text": "debugf (\"[code:\\t%s\\t%s]\", luaP.opnames[i.OP], table.concat (params, \", \"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 418,
+    "text": "self:dischargejpc(fs)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 419,
+    "text": "f.code[fs.pc] = i",
+    "type": "statement:assign"
+  }, {
+    "id": 420,
+    "text": "f.lineinfo[fs.pc] = line",
+    "type": "statement:assign"
+  }, {
+    "id": 421,
+    "text": "if line == 0 then\r\n    f.lineinfo[fs.pc] = fs.lastline\r\n    if fs.lastline == 0 then\r\n      --print(debug.traceback())\r\n    end    \r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 422,
+    "text": "f.lineinfo[fs.pc] = fs.lastline",
+    "type": "statement:assign"
+  }, {
+    "id": 423,
+    "text": "if fs.lastline == 0 then\r\n      --print(debug.traceback())\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 424,
+    "text": "if f.lineinfo[fs.pc] == 0 then\r\n    f.lineinfo[fs.pc] = 42\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 425,
+    "text": "f.lineinfo[fs.pc] = 42",
+    "type": "statement:assign"
+  }, {
+    "id": 426,
+    "text": "local pc = fs.pc",
+    "type": "statement:localassign"
+  }, {
+    "id": 427,
+    "text": "fs.pc = fs.pc + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 428,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 429,
+    "text": "function luaK:codeABC(fs, o, a, b, c)\r\n  assert(luaP:getOpMode(o) == \"iABC\", o..\" is not an ABC operation\")\r\n  --assert getbmode(o) ~= opargn or b == 0\r\n  --assert getcmode(o) ~= opargn or c == 0\r\n  --FF\r\n  --return self:code(fs, luaP:CREATE_ABC(o, a, b, c), fs.ls.lastline)\r\n  return self:code(fs, luaP:CREATE_ABC(o, a, b, c), fs.lastline)\r\nend",
+    "type": "function"
+  }, {
+    "id": 430,
+    "text": "assert(luaP:getOpMode(o) == \"iABC\", o..\" is not an ABC operation\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 431,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 432,
+    "text": "function luaK:codeABx(fs, o, a, bc)\r\n  assert(luaP:getOpMode(o) == \"iABx\" or luaP:getOpMode(o) == \"iAsBx\")\r\n  --assert getcmode(o) == opargn\r\n  --FF\r\n  --return self:code(fs, luaP:CREATE_ABx(o, a, bc), fs.ls.lastline)\r\n  return self:code(fs, luaP:CREATE_ABx(o, a, bc), fs.lastline)\r\nend",
+    "type": "function"
+  }, {
+    "id": 433,
+    "text": "assert(luaP:getOpMode(o) == \"iABx\" or luaP:getOpMode(o) == \"iAsBx\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 434,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 435,
+    "text": "function luaK:setlist (fs, base, nelems, tostore)\r\n   local c = math.floor ((nelems-1) / luaP.LFIELDS_PER_FLUSH + 1)\r\n   local b = tostore == self.LUA_MULTRET and 0 or tostore\r\n   assert (tostore ~= 0)\r\n   if c <= luaP.MAXARG_C then self:codeABC (fs, \"OP_SETLIST\", base, b, c)\r\n   else\r\n      self:codeABC (fs, \"OP_SETLIST\", base, b, 0)\r\n      self:code (fs, c, fs.lastline)--FIXME\r\n   end\r\n   fs.freereg = base + 1\r\nend",
+    "type": "function"
+  }, {
+    "id": 436,
+    "text": "local c = math.floor ((nelems-1) / luaP.LFIELDS_PER_FLUSH + 1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 437,
+    "text": "local b = tostore == self.LUA_MULTRET and 0 or tostore",
+    "type": "statement:localassign"
+  }, {
+    "id": 438,
+    "text": "assert (tostore ~= 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 439,
+    "text": "if c <= luaP.MAXARG_C then self:codeABC (fs, \"OP_SETLIST\", base, b, c)\r\n   else\r\n      self:codeABC (fs, \"OP_SETLIST\", base, b, 0)\r\n      self:code (fs, c, fs.lastline)--FIXME\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 440,
+    "text": "self:codeABC (fs, \"OP_SETLIST\", base, b, c)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 441,
+    "text": "self:codeABC (fs, \"OP_SETLIST\", base, b, 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 442,
+    "text": "self:code (fs, c, fs.lastline)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 443,
+    "text": "fs.freereg = base + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 444,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 445,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 446,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 447,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 448,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 449,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 450,
+    "text": "floor",
+    "type": "global function"
+  }, {
+    "id": 451,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 452,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 453,
+    "text": "abs",
+    "type": "global function"
+  }, {
+    "id": 454,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 455,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 456,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 457,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 458,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 459,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 460,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 461,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 462,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 463,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 464,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 465,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 466,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 467,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 468,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 469,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 470,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 471,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

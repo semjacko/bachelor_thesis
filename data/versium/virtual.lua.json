@@ -1,0 +1,601 @@
+{
+  "_filename": "virtual.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/versium/lua/versium/virtual.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 61
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "initializes",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "assigns",
+    "to": 64
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "virtual",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function VirtualVersiumStorage:new(params, versium)\r\n   local obj = {}\r\n   setmetatable(obj, self)\r\n   self.__index = self\r\n\r\n   -- Establish the table used for node storage\r\n   obj.store = {\r\n      nodes = {},\r\n      index = {},\r\n   }\r\n   return obj \r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local obj = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "setmetatable(obj, self)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "self.__index = self",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "obj.store = {\r\n      nodes = {},\r\n      index = {},\r\n   }",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function VirtualVersiumStorage:get_node(id, version)\r\n   local history = self:get_node_history(id) or {}\r\n   if not history or #history == 0 then\r\n      versium.storage_error(versium.errors.NODE_DOES_NOT_EXIST, tostring(id))\r\n   end\r\n   local node\r\n   if version and tonumber(version) then\r\n      node = history[#history-tonumber(version)+1]  -- version \"0\" is listed _last_ in history\r\n   else\r\n      node = history[1] -- i.e., the _latest_ version\r\n   end\r\n   assert(node.version) -- should come from history\r\n   node.id = id\r\n   node.data = self.store.nodes[id][node.version]\r\n   return node\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local history = self:get_node_history(id) or {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "if not history or #history == 0 then\r\n      versium.storage_error(versium.errors.NODE_DOES_NOT_EXIST, tostring(id))\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "versium.storage_error(versium.errors.NODE_DOES_NOT_EXIST, tostring(id))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "local node",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "if version and tonumber(version) then\r\n      node = history[#history-tonumber(version)+1]  -- version \"0\" is listed _last_ in history\r\n   else\r\n      node = history[1] -- i.e., the _latest_ version\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "node = history[#history-tonumber(version)+1]",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "node = history[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "assert(node.version)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "node.id = id",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "node.data = self.store.nodes[id][node.version]",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function VirtualVersiumStorage:get_stub(id)\r\n   return {\r\n      version = \"000000\",\r\n      data = \"\",\r\n      id = id,\r\n   }\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function VirtualVersiumStorage:node_exists(id)\r\n   assert(id)\r\n   return self.store.nodes[id] ~= nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "assert(id)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function VirtualVersiumStorage:get_node_info(id)\r\n   assert(id)\r\n   return self:get_node_history(id)[1]\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function VirtualVersiumStorage:get_node_ids()\r\n   local ids = {} \r\n   for id, _ in pairs(self.store.nodes) do\r\n      ids[#ids+1] = id\r\n   end\r\n   return ids\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "local ids = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "for id, _ in pairs(self.store.nodes) do\r\n      ids[#ids+1] = id\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 31,
+    "text": "ids[#ids+1] = id",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "function VirtualVersiumStorage:save_version(id, data, author, comment, extra, timestamp)\r\n   assert(id)\r\n   assert(data)\r\n   assert(author)\r\n   -- load history, figure out what the new revision ID would be, write data to file\r\n   local history, raw_history = self:get_node_history(id)\r\n   local new_version_id = string.format(\"%06d\", #history + 1)\r\n\r\n   if not self.store.nodes[id] then\r\n      self.store.nodes[id] = {}\r\n      self.store.index[id] = {}\r\n   end\r\n\r\n   self.store.nodes[id][new_version_id] = data\r\n\r\n   -- generate and save the new index\r\n   local t = os.date(\"*t\")\r\n   timestamp = timestamp or string.format(\"%02d-%02d-%02d %02d:%02d:%02d\", \r\n                                          t.year, t.month, t.day, t.hour, t.min, t.sec)\r\n\r\n   -- store the history in the index table by inserting it at the beginning\r\n   table.insert(self.store.index[id], 1, {\r\n      id = id,\r\n      version = new_version_id,\r\n      timestamp = timestamp,\r\n      author = author,\r\n      comment = comment,\r\n   })\r\n\r\n   return new_version_id\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "assert(data)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "assert(author)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 36,
+    "text": "local history, raw_history = self:get_node_history(id)",
+    "type": "statement:localassign"
+  }, {
+    "id": 37,
+    "text": "local new_version_id = string.format(\"%06d\", #history + 1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 38,
+    "text": "if not self.store.nodes[id] then\r\n      self.store.nodes[id] = {}\r\n      self.store.index[id] = {}\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "self.store.nodes[id] = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "self.store.index[id] = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "self.store.nodes[id][new_version_id] = data",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "local t = os.date(\"*t\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 43,
+    "text": "timestamp = timestamp or string.format(\"%02d-%02d-%02d %02d:%02d:%02d\", \r\n                                          t.year, t.month, t.day, t.hour, t.min, t.sec)",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "table.insert(self.store.index[id], 1, {\r\n      id = id,\r\n      version = new_version_id,\r\n      timestamp = timestamp,\r\n      author = author,\r\n      comment = comment,\r\n   })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 46,
+    "text": "function VirtualVersiumStorage:get_node_history(id, prefix)\r\n   assert(id)\r\n   return self.store.index[id] or {}\r\nend",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 48,
+    "text": "function open(params, versium)\r\n   return VirtualVersiumStorage:new(params, versium)\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 51,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "date",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "storage_error",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

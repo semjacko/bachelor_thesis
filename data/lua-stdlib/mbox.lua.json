@@ -1,0 +1,385 @@
+{
+  "_filename": "mbox.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-stdlib/src/mbox.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "mbox",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function headers (s)\r\n  local header = {}\r\n  s = \"\\n\" .. s .. \"$$$:\\n\"\r\n  local i, j = 1, 1\r\n  while true do\r\n    j = string.find (s, \"\\n%S-:\", i + 1)\r\n    if not j then\r\n      break\r\n    end\r\n    local _, _, name, val = string.find (string.sub (s, i + 1, j - 1),\r\n                                         \"(%S-):(.*)\")\r\n    val = string.gsub (val or \"\", \"\\r\\n\", \"\\n\")\r\n    val = string.gsub (val, \"\\n%s*\", \" \")\r\n    name = string.lower (name)\r\n    if header[name] then\r\n      header[name] = header[name] .. \", \" ..  val\r\n    else\r\n      header[name] = val\r\n    end\r\n    i, j = j, i\r\n  end\r\n  header[\"$$$\"] = nil\r\n  return header\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local header = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "s = \"\\n\" .. s .. \"$$$:\\n\"",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "local i, j = 1, 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "while true do\r\n    j = string.find (s, \"\\n%S-:\", i + 1)\r\n    if not j then\r\n      break\r\n    end\r\n    local _, _, name, val = string.find (string.sub (s, i + 1, j - 1),\r\n                                         \"(%S-):(.*)\")\r\n    val = string.gsub (val or \"\", \"\\r\\n\", \"\\n\")\r\n    val = string.gsub (val, \"\\n%s*\", \" \")\r\n    name = string.lower (name)\r\n    if header[name] then\r\n      header[name] = header[name] .. \", \" ..  val\r\n    else\r\n      header[name] = val\r\n    end\r\n    i, j = j, i\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 7,
+    "text": "j = string.find (s, \"\\n%S-:\", i + 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "if not j then\r\n      break\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "local _, _, name, val = string.find (string.sub (s, i + 1, j - 1),\r\n                                         \"(%S-):(.*)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "val = string.gsub (val or \"\", \"\\r\\n\", \"\\n\")",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "val = string.gsub (val, \"\\n%s*\", \" \")",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "name = string.lower (name)",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "if header[name] then\r\n      header[name] = header[name] .. \", \" ..  val\r\n    else\r\n      header[name] = val\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "header[name] = header[name] .. \", \" ..  val",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "header[name] = val",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "i, j = j, i",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "header[\"$$$\"] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "local function message (s)\r\n  s = string.gsub (s, \"^.-\\n\", \"\")\r\n  local _, s, body\r\n  _, _, s, body = string.find(s, \"^(.-\\n)\\n(.*)\")\r\n  return {header = headers (s or \"\"), body = body or \"\"}\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "s = string.gsub (s, \"^.-\\n\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "local _, s, body",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "_, _, s, body = string.find(s, \"^(.-\\n)\\n(.*)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function parse (s)\r\n  local mbox = {}\r\n  s = \"\\n\" .. s .. \"\\nFrom \"\r\n  local i, j = 1, 1\r\n  while true do\r\n    j = string.find (s, \"\\nFrom \", i + 1)\r\n    if not j then\r\n      break\r\n    end\r\n    table.insert (mbox, message (string.sub (s, i + 1, j - 1)))\r\n    i, j = j, i\r\n  end\r\n  return mbox\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "local mbox = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "s = \"\\n\" .. s .. \"\\nFrom \"",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "while true do\r\n    j = string.find (s, \"\\nFrom \", i + 1)\r\n    if not j then\r\n      break\r\n    end\r\n    table.insert (mbox, message (string.sub (s, i + 1, j - 1)))\r\n    i, j = j, i\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 29,
+    "text": "j = string.find (s, \"\\nFrom \", i + 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "table.insert (mbox, message (string.sub (s, i + 1, j - 1)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 33,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "lower",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require container"
+  } ]
+}

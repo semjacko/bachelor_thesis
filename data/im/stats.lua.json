@@ -1,0 +1,217 @@
+{
+  "_filename": "stats.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/im/doc/html/examples/stats.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 17
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "stats",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function myPrintStats(image)\r\n  local stats = im.CalcImageStatistics(image)\r\n  if (image:Depth() == 1) then\r\n    print(\"min:\", stats.min)\r\n    print(\"mean:\", stats.mean )\r\n    print(\"max:\", stats.max)\r\n  else\r\n    print(\"min:\", stats[0].min, stats[1].min, stats[2].min)\r\n    print(\"mean:\", stats[0].mean, stats[1].mean, stats[2].mean )\r\n    print(\"max:\", stats[0].max, stats[1].max, stats[2].max)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local stats = im.CalcImageStatistics(image)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "if (image:Depth() == 1) then\r\n    print(\"min:\", stats.min)\r\n    print(\"mean:\", stats.mean )\r\n    print(\"max:\", stats.max)\r\n  else\r\n    print(\"min:\", stats[0].min, stats[1].min, stats[2].min)\r\n    print(\"mean:\", stats[0].mean, stats[1].mean, stats[2].mean )\r\n    print(\"max:\", stats[0].max, stats[1].max, stats[2].max)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "print(\"min:\", stats.min)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "print(\"mean:\", stats.mean )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "print(\"max:\", stats.max)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "print(\"min:\", stats[0].min, stats[1].min, stats[2].min)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "print(\"mean:\", stats[0].mean, stats[1].mean, stats[2].mean )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "print(\"max:\", stats[0].max, stats[1].max, stats[2].max)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "CalcImageStatistics",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "FileImageLoad",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

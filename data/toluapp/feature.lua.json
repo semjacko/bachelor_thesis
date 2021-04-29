@@ -1,0 +1,681 @@
+{
+  "_filename": "feature.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/toluapp/src/bin/lua/feature.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 49
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 51
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 53
+  }, {
+    "from": 63,
+    "label": "declares",
+    "to": 55
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 70
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "assigns",
+    "to": 73
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "assigns",
+    "to": 75
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "feature",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function classFeature:supcode ()\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 4,
+    "text": "function classFeature:decltype ()\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function classFeature:register (pre)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function classFeature:preamble ()\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function classFeature:isvariable ()\r\n return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function classFeature:requirecollection (t)\r\n return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function classFeature:buildnames ()\r\n if self.name and self.name~='' then\r\n  local n = split(self.name,'@')\r\n  self.name = n[1]\r\n  self.name = string.gsub(self.name, \":%d*$\", \"\")\r\n  if not n[2] then\r\n   n[2] = applyrenaming(n[1])\r\n  end\r\n  self.lname = n[2] or gsub(n[1],\"%[.-%]\",\"\")\r\n  self.lname = string.gsub(self.lname, \":%d*$\", \"\")\r\n  self.original_name = self.name\r\n  self.lname = clean_template(self.lname)\r\n end\r\n if not self.is_parameter then\r\n\t self.name = getonlynamespace() .. self.name\r\n end\r\n\r\n local parent = classContainer.curr\r\n if parent then\r\n \tself.access = parent.curr_member_access\r\n\tself.global_access = self:check_public_access()\r\n else\r\n end\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "if self.name and self.name~='' then\r\n  local n = split(self.name,'@')\r\n  self.name = n[1]\r\n  self.name = string.gsub(self.name, \":%d*$\", \"\")\r\n  if not n[2] then\r\n   n[2] = applyrenaming(n[1])\r\n  end\r\n  self.lname = n[2] or gsub(n[1],\"%[.-%]\",\"\")\r\n  self.lname = string.gsub(self.lname, \":%d*$\", \"\")\r\n  self.original_name = self.name\r\n  self.lname = clean_template(self.lname)\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "local n = split(self.name,'@')",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "self.name = n[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "self.name = string.gsub(self.name, \":%d*$\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "if not n[2] then\r\n   n[2] = applyrenaming(n[1])\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "n[2] = applyrenaming(n[1])",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "self.lname = n[2] or gsub(n[1],\"%[.-%]\",\"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "self.lname = string.gsub(self.lname, \":%d*$\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "self.original_name = self.name",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "self.lname = clean_template(self.lname)",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "if not self.is_parameter then\r\n\t self.name = getonlynamespace() .. self.name\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "self.name = getonlynamespace() .. self.name",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "local parent = classContainer.curr",
+    "type": "statement:localassign"
+  }, {
+    "id": 29,
+    "text": "if parent then\r\n \tself.access = parent.curr_member_access\r\n\tself.global_access = self:check_public_access()\r\n else\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "self.access = parent.curr_member_access",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "self.global_access = self:check_public_access()",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "function classFeature:check_public_access()\r\n\r\n\tif type(self.global_access) == \"boolean\" then\r\n\t\treturn self.global_access\r\n\tend\r\n\r\n\tif self.access and self.access ~= 0 then\r\n\t\treturn false\r\n\tend\r\n\r\n\tlocal parent = classContainer.curr\r\n\twhile parent do\r\n\t\tif parent.access and parent.access ~= 0 then\r\n\t\t\treturn false\r\n\t\tend\r\n\t\tparent = parent.prox\r\n\tend\r\n\treturn true\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "if type(self.global_access) == \"boolean\" then\r\n\t\treturn self.global_access\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "if self.access and self.access ~= 0 then\r\n\t\treturn false\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "while parent do\r\n\t\tif parent.access and parent.access ~= 0 then\r\n\t\t\treturn false\r\n\t\tend\r\n\t\tparent = parent.prox\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 37,
+    "text": "if parent.access and parent.access ~= 0 then\r\n\t\t\treturn false\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "parent = parent.prox",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "function clean_template(t)\r\n\r\n\treturn string.gsub(t, \"[<>:, %*]\", \"_\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function classFeature:incontainer (which)\r\n if self.parent then\r\n  local parent = self.parent\r\n  while parent do\r\n   if parent.classtype == which then\r\n    return parent.name\r\n   end\r\n   parent = parent.parent\r\n  end\r\n end\r\n return nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "if self.parent then\r\n  local parent = self.parent\r\n  while parent do\r\n   if parent.classtype == which then\r\n    return parent.name\r\n   end\r\n   parent = parent.parent\r\n  end\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 44,
+    "text": "local parent = self.parent",
+    "type": "statement:localassign"
+  }, {
+    "id": 45,
+    "text": "while parent do\r\n   if parent.classtype == which then\r\n    return parent.name\r\n   end\r\n   parent = parent.parent\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 46,
+    "text": "if parent.classtype == which then\r\n    return parent.name\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "parent = parent.parent",
+    "type": "statement:assign"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 49,
+    "text": "function classFeature:inclass ()\r\n return self:incontainer('class')\r\nend",
+    "type": "function"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 51,
+    "text": "function classFeature:inmodule ()\r\n return self:incontainer('module')\r\nend",
+    "type": "function"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 53,
+    "text": "function classFeature:innamespace ()\r\n return self:incontainer('namespace')\r\nend",
+    "type": "function"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 55,
+    "text": "function classFeature:cfuncname (n)\r\n\r\n if self.parent then\r\n  n = self.parent:cfuncname(n)\r\n end\r\n\r\n local fname = self.lname\r\n if not fname or fname == '' then\r\n \tfname = self.name\r\n end\r\n  n = string.gsub(n..'_'.. (fname), \"[<>:, \\.%*&]\", \"_\")\r\n\r\n  return n\r\nend",
+    "type": "function"
+  }, {
+    "id": 56,
+    "text": "if self.parent then\r\n  n = self.parent:cfuncname(n)\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 57,
+    "text": "n = self.parent:cfuncname(n)",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "local fname = self.lname",
+    "type": "statement:localassign"
+  }, {
+    "id": 59,
+    "text": "if not fname or fname == '' then\r\n \tfname = self.name\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 60,
+    "text": "fname = self.name",
+    "type": "statement:assign"
+  }, {
+    "id": 61,
+    "text": "n = string.gsub(n..'_'.. (fname), \"[<>:, \\.%*&]\", \"_\")",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 64,
+    "text": "applyrenaming",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "getonlynamespace",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "split",
+    "type": "global function"
+  }, {
+    "id": 68,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 69,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

@@ -1,0 +1,193 @@
+{
+  "_filename": "defaults.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io/defaults.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "assigns",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "represents",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "provides",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 15,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 15,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 15,
+    "label": "contains",
+    "to": 8
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "defaults",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function defaults.width(n)\r\n    assert(tonumber(n), \"format requires a width\")\r\n    return tonumber(n)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "assert(tonumber(n), \"format requires a width\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function defaults.validate()\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function defaults.hasvalue()\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

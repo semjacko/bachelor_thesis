@@ -1,0 +1,557 @@
+{
+  "_filename": "init.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/init.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "assigns",
+    "to": 43
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "assigns",
+    "to": 45
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "assigns",
+    "to": 47
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "assigns",
+    "to": 49
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "assigns",
+    "to": 51
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "assigns",
+    "to": 53
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "assigns",
+    "to": 55
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 56
+  }, {
+    "from": 56,
+    "label": "assigns",
+    "to": 57
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 58
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 59
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "provides",
+    "to": 62
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ast",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "init",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function math.trunc(n)\r\n\t\tif n < 0 then\r\n\t\t\treturn math.ceil(n)\r\n\t\telse\r\n\t\t\treturn math.floor(n)\r\n\t\tend\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "if n < 0 then\r\n\t\t\treturn math.ceil(n)\r\n\t\telse\r\n\t\t\treturn math.floor(n)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function explode(int, size)\r\n    assert(int, \"vstruct.explode: missing argument\")\r\n    size = size or 0\r\n    \r\n    local mask = {}\r\n    while int ~= 0 or #mask < size do\r\n        table.insert(mask, int % 2 ~= 0)\r\n        int = math.trunc(int/2)\r\n    end\r\n    return mask\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "assert(int, \"vstruct.explode: missing argument\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "size = size or 0",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "local mask = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "while int ~= 0 or #mask < size do\r\n        table.insert(mask, int % 2 ~= 0)\r\n        int = math.trunc(int/2)\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 12,
+    "text": "table.insert(mask, int % 2 ~= 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "int = math.trunc(int/2)",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function implode(mask, size)\r\n    size = size or #mask\r\n    \r\n    local int = 0\r\n    for i=size,1,-1 do\r\n        int = int*2 + ((mask[i] and 1) or 0)\r\n    end\r\n    return int\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "size = size or #mask",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "local int = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "for i=size,1,-1 do\r\n        int = int*2 + ((mask[i] and 1) or 0)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 19,
+    "text": "int = int*2 + ((mask[i] and 1) or 0)",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function unpack(fmt, ...)\r\n    assert(type(fmt) == \"string\", \"invalid first argument to vstruct.unpack\")\r\n    \r\n    local t = ast.parse(fmt)\r\n    return t.unpack(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "assert(type(fmt) == \"string\", \"invalid first argument to vstruct.unpack\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "local t = ast.parse(fmt)",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function pack(fmt, ...)\r\n    local t = ast.parse(fmt)\r\n    return t.pack(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function compile(fmt)\r\n\treturn ast.parse(fmt)\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 30,
+    "text": "parse",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "ceil",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "pack",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "floor",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "interface"
+  } ]
+}

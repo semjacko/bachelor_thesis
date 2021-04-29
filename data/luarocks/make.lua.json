@@ -1,0 +1,657 @@
+{
+  "_filename": "make.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/make.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 52
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 53
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 54
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 59
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 60
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 61
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 62
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 63
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "requires",
+    "to": 58
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "requires",
+    "to": 49
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "requires",
+    "to": 47
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "requires",
+    "to": 46
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "requires",
+    "to": 48
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "requires",
+    "to": 55
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "requires",
+    "to": 57
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 71
+  }, {
+    "from": 71,
+    "label": "requires",
+    "to": 56
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "make",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function make_pass(make_cmd, pass, target, variables)\r\n   assert(type(pass) == \"boolean\")\r\n   assert(type(target) == \"string\")\r\n   assert(type(variables) == \"table\")\r\n\r\n   local assignments = {}\r\n   for k,v in pairs(variables) do\r\n      table.insert(assignments, k..\"=\"..v)\r\n   end\r\n   if pass then\r\n      return fs.execute(make_cmd..\" \"..target, unpack(assignments))\r\n   else\r\n      return true\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function run(rockspec)\r\n   assert(type(rockspec) == \"table\")\r\n\r\n   local build = rockspec.build\r\n   \r\n   if build.build_pass == nil then build.build_pass = true end\r\n   if build.install_pass == nil then build.install_pass = true end\r\n   build.build_variables = build.build_variables or {}\r\n   build.install_variables = build.install_variables or {}\r\n   build.build_target = build.build_target or \"\"\r\n   build.install_target = build.install_target or \"install\"\r\n   local makefile = build.makefile or cfg.makefile\r\n   if makefile then\r\n      -- Assumes all make's accept -f. True for POSIX make, GNU make and Microsoft nmake.\r\n      build.build_target = \"-f \"..makefile..\" \"..build.build_target\r\n      build.install_target = \"-f \"..makefile..\" \"..build.install_target\r\n   end\r\n\r\n   if build.variables then   \r\n      for var, val in pairs(build.variables) do\r\n         build.build_variables[var] = val \r\n         build.install_variables[var] = val\r\n      end\r\n   end\r\n\r\n   util.warn_if_not_used(build.build_variables, { CFLAGS=true }, \"variable %s was not passed in build_variables\")\r\n\r\n   util.variable_substitutions(build.build_variables, rockspec.variables)\r\n   util.variable_substitutions(build.install_variables, rockspec.variables)\r\n   \r\n   local auto_variables = { \"CC\" }\r\n   \r\n   for _, variable in pairs(auto_variables) do\r\n      if not build.build_variables[variable] then\r\n         build.build_variables[variable] = rockspec.variables[variable]\r\n      end\r\n      if not build.install_variables[variable] then\r\n         build.install_variables[variable] = rockspec.variables[variable]\r\n      end\r\n   end\r\n\r\n   -- backwards compatibility \r\n   local make_cmd = cfg.make or rockspec.variables.MAKE\r\n\r\n   local ok = make_pass(make_cmd, build.build_pass, build.build_target, build.build_variables)\r\n   if not ok then\r\n      return nil, \"Failed building.\"\r\n   end\r\n   ok = make_pass(make_cmd, build.install_pass, build.install_target, build.install_variables)\r\n   if not ok then\r\n      return nil, \"Failed installing.\"\r\n   end\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "function build_rockspec(rockspec_file, need_to_fetch, minimal_mode, deps_mode)\r\n   assert(type(rockspec_file) == \"string\")\r\n   assert(type(need_to_fetch) == \"boolean\")\r\n\r\n   local rockspec, err, errcode = fetch.load_rockspec(rockspec_file)\r\n   if err then\r\n      return nil, err, errcode\r\n   elseif not rockspec.build then\r\n      return nil, \"Rockspec error: build table not specified\"\r\n   elseif not rockspec.build.type then\r\n      return nil, \"Rockspec error: build type not specified\"\r\n   end\r\n\r\n   if deps_mode == \"none\" then\r\n      util.printerr(\"Warning: skipping dependency checks.\")\r\n   else\r\n      local ok, err, errcode = deps.fulfill_dependencies(rockspec, deps_mode)\r\n      if err then\r\n         return nil, err, errcode\r\n      end\r\n   end\r\n\r\n   local ok, err, errcode = deps.check_external_deps(rockspec, \"build\")\r\n   if err then\r\n      return nil, err, errcode\r\n   end\r\n\r\n   local name, version = rockspec.name, rockspec.version\r\n   if repos.is_installed(name, version) then\r\n      repos.delete_version(name, version)\r\n   end\r\n\r\n   if not minimal_mode then\r\n      local _, source_dir\r\n      if need_to_fetch then\r\n         ok, source_dir, errcode = fetch.fetch_sources(rockspec, true)\r\n         if not ok then\r\n            return nil, source_dir, errcode\r\n         end\r\n         local ok, err = fs.change_dir(source_dir)\r\n         if not ok then return nil, err end\r\n      elseif rockspec.source.file then\r\n         local ok, err = fs.unpack_archive(rockspec.source.file)\r\n         if not ok then\r\n            return nil, err\r\n         end\r\n      end\r\n      fs.change_dir(rockspec.source.dir)\r\n   end\r\n   \r\n   local dirs = {\r\n      lua = { name = path.lua_dir(name, version), is_module_path = true },\r\n      lib = { name = path.lib_dir(name, version), is_module_path = true },\r\n      conf = { name = path.conf_dir(name, version), is_module_path = false },\r\n      bin = { name = path.bin_dir(name, version), is_module_path = false },\r\n   }\r\n   \r\n   for _, d in pairs(dirs) do\r\n      local ok, err = fs.make_dir(d.name)\r\n      if not ok then return nil, err end\r\n   end\r\n   local rollback = util.schedule_function(function()\r\n      fs.delete(path.install_dir(name, version))\r\n      fs.remove_dir_if_empty(path.versions_dir(name))\r\n   end)\r\n\r\n   local build = rockspec.build\r\n   \r\n   if not minimal_mode then\r\n      ok, err = apply_patches(rockspec)\r\n      if err then\r\n         return nil, err\r\n      end\r\n   end\r\n   \r\n   if build.type ~= \"none\" then\r\n\r\n      -- Temporary compatibility\r\n      if build.type == \"module\" then\r\n         util.printout(\"Do not use 'module' as a build type. Use 'builtin' instead.\")\r\n         build.type = \"builtin\"\r\n      end\r\n\r\n      if cfg.accepted_build_types and util.array_contains(cfg.accepted_build_types, build.type) then\r\n         return nil, \"This rockspec uses the '\"..build.type..\"' build type, which is blocked by the 'accepted_build_types' setting in your LuaRocks configuration.\"\r\n      end\r\n\r\n      local build_type\r\n      ok, build_type = pcall(require, \"luarocks.build.\" .. build.type)\r\n      if not ok or not type(build_type) == \"table\" then\r\n         return nil, \"Failed initializing build back-end for build type '\"..build.type..\"': \"..build_type\r\n      end\r\n  \r\n      ok, err = build_type.run(rockspec)\r\n      if not ok then\r\n         return nil, \"Build error: \" .. err\r\n      end\r\n   end\r\n\r\n   if build.install then\r\n      for id, install_dir in pairs(dirs) do\r\n         ok, err = install_files(build.install[id], install_dir.name, install_dir.is_module_path)\r\n         if not ok then \r\n            return nil, err\r\n         end\r\n      end\r\n   end\r\n   \r\n   local copy_directories = build.copy_directories\r\n   local copying_default = false\r\n   if not copy_directories then\r\n      copy_directories = {\"doc\"}\r\n      copying_default = true\r\n   end\r\n\r\n   for _, copy_dir in pairs(copy_directories) do\r\n      if fs.is_dir(copy_dir) then\r\n         local dest = dir.path(path.install_dir(name, version), copy_dir)\r\n         fs.make_dir(dest)\r\n         fs.copy_contents(copy_dir, dest)\r\n      else\r\n         if not copying_default then\r\n            return nil, \"Directory '\"..copy_dir..\"' not found\"\r\n         end\r\n      end\r\n   end\r\n\r\n   for _, d in pairs(dirs) do\r\n      fs.remove_dir_if_empty(d.name)\r\n   end\r\n\r\n   fs.pop_dir()\r\n   \r\n   fs.copy(rockspec.local_filename, path.rockspec_file(name, version))\r\n   if need_to_fetch then\r\n      fs.pop_dir()\r\n   end\r\n\r\n   ok, err = manif.make_rock_manifest(name, version)\r\n   if err then return nil, err end\r\n\r\n   ok, err = repos.deploy_files(name, version, repos.should_wrap_bin_scripts(rockspec))\r\n   if err then return nil, err end\r\n   \r\n   util.remove_scheduled_function(rollback)\r\n   rollback = util.schedule_function(function()\r\n      repos.delete_version(name, version)\r\n   end)\r\n\r\n   ok, err = repos.run_hook(rockspec, \"post_install\")\r\n   if err then return nil, err end\r\n\r\n   ok, err = manif.update_manifest(name, version, nil, deps_mode)\r\n   if err then return nil, err end\r\n\r\n   local license = \"\"\r\n   if rockspec.description and rockspec.description.license then\r\n      license = (\"(license: \"..rockspec.description.license..\")\")\r\n   end\r\n\r\n   local root_dir = path.root_dir(cfg.rocks_dir)\r\n   util.printout()\r\n   util.printout(name..\" \"..version..\" is now built and installed in \"..root_dir..\" \"..license)\r\n   \r\n   util.remove_scheduled_function(rollback)\r\n   return name, version\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function get_deps_mode(flags)\r\n   if flags[\"deps-mode\"] then\r\n      return flags[\"deps-mode\"]\r\n   else\r\n      return cfg.deps_mode\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function load_rockspec(filename, location)\r\n   assert(type(filename) == \"string\")\r\n\r\n   local name\r\n   local basename = dir.base_name(filename)\r\n   if basename == \"rockspec\" then\r\n      name = \"rockspec\"\r\n   else\r\n      name = basename:match(\"(.*)%.rockspec\")\r\n      if not name then\r\n         return nil, \"Filename '\"..filename..\"' does not look like a rockspec.\"\r\n      end\r\n   end\r\n   \r\n   local err, errcode\r\n   if location then\r\n      local ok, err = fs.change_dir(location)\r\n      if not ok then return nil, err end\r\n      filename, err = fetch_url(filename)\r\n      fs.pop_dir()\r\n   else\r\n      filename, err, errcode = fetch_url_at_temp_dir(filename,\"luarocks-rockspec-\"..name)\r\n   end\r\n   if not filename then\r\n      return nil, err, errcode\r\n   end\r\n\r\n   return load_local_rockspec(filename)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function current_dir()\r\n   return lfs.currentdir()\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function list_dir(at)\r\n   assert(type(at) == \"string\" or not at)\r\n   if not at then\r\n      at = fs.current_dir()\r\n   end\r\n   at = dir.normalize(at)\r\n   if not fs.is_dir(at) then\r\n      return {}\r\n   end\r\n   local result = {}\r\n   for file in lfs.dir(at) do\r\n      if file ~= \".\" and file ~= \"..\" then\r\n         table.insert(result, file)\r\n      end\r\n   end\r\n   return result\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function check_command_permissions(flags)\r\n   local root_dir = path.root_dir(cfg.rocks_dir)\r\n   local ok = true\r\n   local err = \"\"\r\n   for _, dir in ipairs { cfg.rocks_dir, root_dir } do\r\n      if fs.exists(dir) and not fs.is_writable(dir) then\r\n         ok = false\r\n         err = \"Your user does not have write permissions in \" .. dir\r\n         break\r\n      end\r\n   end\r\n   local root_parent = dir.dir_name(root_dir)\r\n   if ok and not fs.exists(root_dir) and not fs.is_writable(root_parent) then\r\n      ok = false\r\n      err = root_dir..\" does not exist and your user does not have write permissions in \" .. root_parent\r\n   end\r\n   if ok then\r\n      return true\r\n   else\r\n      if flags[\"local\"] then\r\n         err = err .. \" \\n-- please check your permissions.\"\r\n      else\r\n         err = err .. \" \\n-- you may want to run as a privileged user or use your local tree with --local.\"\r\n      end\r\n      return nil, err\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function run(...)\r\n   local flags, rockspec = util.parse_flags(...)\r\n   assert(type(rockspec) == \"string\" or not rockspec)\r\n   \r\n   if not rockspec then\r\n      local files = fs.list_dir(fs.current_dir())\r\n      for _, file in pairs(files) do\r\n         if file:match(\"rockspec$\") then\r\n            if rockspec then\r\n               return nil, \"Please specify which rockspec file to use.\"\r\n            else\r\n               rockspec = file\r\n            end\r\n         end\r\n      end\r\n      if not rockspec then\r\n         return nil, \"Argument missing: please specify a rockspec to use on current directory.\"\r\n      end\r\n   end\r\n   if not rockspec:match(\"rockspec$\") then\r\n      return nil, \"Invalid argument: 'make' takes a rockspec as a parameter. \"..util.see_help(\"make\")\r\n   end\r\n\r\n   if flags[\"pack-binary-rock\"] then\r\n      local rspec, err, errcode = fetch.load_rockspec(rockspec)\r\n      if not rspec then\r\n         return nil, err\r\n      end\r\n      return pack.pack_binary_rock(rspec.name, rspec.version, build.build_rockspec, rockspec, false, true, deps.get_deps_mode(flags))\r\n   else\r\n      local ok, err = fs.check_command_permissions(flags)\r\n      if not ok then return nil, err, cfg.errorcodes.PERMISSIONDENIED end\r\n      ok, err = build.build_rockspec(rockspec, false, true, deps.get_deps_mode(flags))\r\n      if not ok then return nil, err end\r\n      local name, version = ok, err\r\n      if (not flags[\"keep\"]) and not cfg.keep_other_versions then\r\n         local ok, err = remove.remove_other_versions(name, version, flags[\"force\"])\r\n         if not ok then util.printerr(err) end\r\n      end\r\n      return name, version\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "local flags, rockspec = util.parse_flags(...)",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "assert(type(rockspec) == \"string\" or not rockspec)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "if not rockspec then\r\n      local files = fs.list_dir(fs.current_dir())\r\n      for _, file in pairs(files) do\r\n         if file:match(\"rockspec$\") then\r\n            if rockspec then\r\n               return nil, \"Please specify which rockspec file to use.\"\r\n            else\r\n               rockspec = file\r\n            end\r\n         end\r\n      end\r\n      if not rockspec then\r\n         return nil, \"Argument missing: please specify a rockspec to use on current directory.\"\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "local files = fs.list_dir(fs.current_dir())",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "for _, file in pairs(files) do\r\n         if file:match(\"rockspec$\") then\r\n            if rockspec then\r\n               return nil, \"Please specify which rockspec file to use.\"\r\n            else\r\n               rockspec = file\r\n            end\r\n         end\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 17,
+    "text": "if file:match(\"rockspec$\") then\r\n            if rockspec then\r\n               return nil, \"Please specify which rockspec file to use.\"\r\n            else\r\n               rockspec = file\r\n            end\r\n         end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "if rockspec then\r\n               return nil, \"Please specify which rockspec file to use.\"\r\n            else\r\n               rockspec = file\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "rockspec = file",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "if not rockspec then\r\n         return nil, \"Argument missing: please specify a rockspec to use on current directory.\"\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 22,
+    "text": "if not rockspec:match(\"rockspec$\") then\r\n      return nil, \"Invalid argument: 'make' takes a rockspec as a parameter. \"..util.see_help(\"make\")\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 23,
+    "text": "if flags[\"pack-binary-rock\"] then\r\n      local rspec, err, errcode = fetch.load_rockspec(rockspec)\r\n      if not rspec then\r\n         return nil, err\r\n      end\r\n      return pack.pack_binary_rock(rspec.name, rspec.version, build.build_rockspec, rockspec, false, true, deps.get_deps_mode(flags))\r\n   else\r\n      local ok, err = fs.check_command_permissions(flags)\r\n      if not ok then return nil, err, cfg.errorcodes.PERMISSIONDENIED end\r\n      ok, err = build.build_rockspec(rockspec, false, true, deps.get_deps_mode(flags))\r\n      if not ok then return nil, err end\r\n      local name, version = ok, err\r\n      if (not flags[\"keep\"]) and not cfg.keep_other_versions then\r\n         local ok, err = remove.remove_other_versions(name, version, flags[\"force\"])\r\n         if not ok then util.printerr(err) end\r\n      end\r\n      return name, version\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "local rspec, err, errcode = fetch.load_rockspec(rockspec)",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "if not rspec then\r\n         return nil, err\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "local ok, err = fs.check_command_permissions(flags)",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "if not ok then return nil, err, cfg.errorcodes.PERMISSIONDENIED end",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "ok, err = build.build_rockspec(rockspec, false, true, deps.get_deps_mode(flags))",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "if not ok then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "local name, version = ok, err",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "if (not flags[\"keep\"]) and not cfg.keep_other_versions then\r\n         local ok, err = remove.remove_other_versions(name, version, flags[\"force\"])\r\n         if not ok then util.printerr(err) end\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "local ok, err = remove.remove_other_versions(name, version, flags[\"force\"])",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "if not ok then util.printerr(err) end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "util.printerr(err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "function pack_binary_rock(name, version, cmd, ...)\r\n\r\n   -- The --pack-binary-rock option for \"luarocks build\" basically performs\r\n   -- \"luarocks build\" on a temporary tree and then \"luarocks pack\". The\r\n   -- alternative would require refactoring parts of luarocks.build and\r\n   -- luarocks.pack, which would save a few file operations: the idea would be\r\n   -- to shave off the final deploy steps from the build phase and the initial\r\n   -- collect steps from the pack phase.\r\n\r\n   local temp_dir, err = fs.make_temp_dir(\"luarocks-build-pack-\"..dir.base_name(name))\r\n   if not temp_dir then\r\n      return nil, \"Failed creating temporary directory: \"..err\r\n   end\r\n   util.schedule_function(fs.delete, temp_dir)\r\n\r\n   path.use_tree(temp_dir)\r\n   local ok, err = cmd(...)\r\n   if not ok then\r\n      return nil, err\r\n   end\r\n   local rname, rversion = path.parse_name(name)\r\n   if not rname then\r\n      rname, rversion = name, version\r\n   end\r\n   return do_pack_binary_rock(rname, rversion)\r\nend",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "function remove_other_versions(name, version, force)\r\n   local results = {}\r\n   search.manifest_search(results, cfg.rocks_dir, { name = name, exact_name = true, constraints = {{ op = \"~=\", version = version}} })\r\n   if results[name] then\r\n      return remove_search_results(results, name, cfg.deps_mode, force)\r\n   end\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "function parse_flags(...)\r\n   local args = {...}\r\n   local flags = {}\r\n   for i = #args, 1, -1 do\r\n      local flag = args[i]:match(\"^%-%-(.*)\")\r\n      if flag then\r\n         local var,val = flag:match(\"([a-z_%-]*)=(.*)\")\r\n         if val then\r\n            flags[var] = val\r\n         else\r\n            flags[flag] = true\r\n         end\r\n         table.remove(args, i)\r\n      end\r\n   end\r\n   return flags, unpack(args)\r\nend",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "function printerr(...)\r\n   io.stderr:write(table.concat({...},\"\\t\"))\r\n   io.stderr:write(\"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 40,
+    "text": "function see_help(command, program)\r\n   return \"See '\"..this_program(program or \"luarocks\")..' help '..command..\"'.\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "cfg)",
+    "type": "module"
+  }, {
+    "id": 47,
+    "text": "util)",
+    "type": "module"
+  }, {
+    "id": 48,
+    "text": "fetch)",
+    "type": "module"
+  }, {
+    "id": 49,
+    "text": "fs)",
+    "type": "module"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 55,
+    "text": "pack)",
+    "type": "module"
+  }, {
+    "id": 56,
+    "text": "deps)",
+    "type": "module"
+  }, {
+    "id": 57,
+    "text": "remove)",
+    "type": "module"
+  }, {
+    "id": 58,
+    "text": "build)",
+    "type": "module"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

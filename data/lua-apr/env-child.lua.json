@@ -1,0 +1,161 @@
+{
+  "_filename": "env-child.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-apr/test/env-child.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "assigns",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "assigns",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "assigns",
+    "to": 17
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "env-child",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "sleep",
+    "type": "global function"
+  }, {
+    "id": 4,
+    "text": "env_get",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "string"
+  } ]
+}

@@ -1,0 +1,729 @@
+{
+  "_filename": "urlcode.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/cgilua/src/cgilua/urlcode.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 51
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 55
+  }, {
+    "from": 62,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 61,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 61,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 63
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 64
+  }, {
+    "from": 63,
+    "label": "initializes",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "assigns",
+    "to": 66
+  }, {
+    "from": 63,
+    "label": "initializes",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "assigns",
+    "to": 68
+  }, {
+    "from": 63,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "assigns",
+    "to": 70
+  }, {
+    "from": 63,
+    "label": "initializes",
+    "to": 71
+  }, {
+    "from": 71,
+    "label": "assigns",
+    "to": 72
+  }, {
+    "from": 63,
+    "label": "initializes",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "assigns",
+    "to": 74
+  }, {
+    "from": 63,
+    "label": "initializes",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "assigns",
+    "to": 76
+  }, {
+    "from": 63,
+    "label": "initializes",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "assigns",
+    "to": 78
+  }, {
+    "from": 28,
+    "label": "hasArgument",
+    "to": 42
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "urlcode",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function redirect (url, args)\r\n        if strfind(url,\"^https?:\") then\r\n                local params=\"\"\r\n                if args then\r\n                        params = \"?\"..urlcode.encodetable(args)\r\n                end\r\n                return SAPI.Response.redirect(url..params)\r\n        else\r\n                return SAPI.Response.redirect(mkabsoluteurl(mkurlpath(url,args)))\r\n        end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function mkurlpath (script, args)\r\n        -- URL-encode the parameters to be passed do the script\r\n        local params = \"\"\r\n        if args then\r\n                params = \"?\"..urlcode.encodetable(args)\r\n        end\r\n        if strsub(script,1,1) == \"/\" then\r\n                return script .. params\r\n        else\r\n                return script_vdir .. script .. params\r\n        end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local function getparams ()\r\n    requestmethod = servervariable\"REQUEST_METHOD\"\r\n        -- Fill in the POST table.\r\n        POST = {}\r\n        if  requestmethod == \"POST\" then\r\n                post.parsedata {\r\n                        read = SAPI.Request.getpostdata,\r\n                        discardinput = ap and ap.discard_request_body,\r\n                        content_type = servervariable\"CONTENT_TYPE\",\r\n                        content_length = servervariable\"CONTENT_LENGTH\",\r\n                        maxinput = _maxinput,\r\n                        maxfilesize = _maxfilesize,\r\n                        args = POST,\r\n                }\r\n        end\r\n        -- Fill in the QUERY table.\r\n        QUERY = {}\r\n        urlcode.parsequery (servervariable\"QUERY_STRING\", QUERY)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function unescape (str)\r\n\tstr = string.gsub (str, \"+\", \" \")\r\n\tstr = string.gsub (str, \"%%(%x%x)\", function(h) return string.char(tonumber(h,16)) end)\r\n\tstr = string.gsub (str, \"\\r\\n\", \"\\n\")\r\n\treturn str\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "str = string.gsub (str, \"+\", \" \")",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "str = string.gsub (str, \"%%(%x%x)\", function(h) return string.char(tonumber(h,16)) end)",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "str = string.gsub (str, \"\\r\\n\", \"\\n\")",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function escape (str)\r\n\tstr = string.gsub (str, \"\\n\", \"\\r\\n\")\r\n\tstr = string.gsub (str, \"([^0-9a-zA-Z ])\", -- locale independent\r\n\t\tfunction (c) return string.format (\"%%%02X\", string.byte(c)) end)\r\n\tstr = string.gsub (str, \" \", \"+\")\r\n\treturn str\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "str = string.gsub (str, \"\\n\", \"\\r\\n\")",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "str = string.gsub (str, \"([^0-9a-zA-Z ])\", -- locale independent\r\n\t\tfunction (c) return string.format (\"%%%02X\", string.byte(c)) end)",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "str = string.gsub (str, \" \", \"+\")",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function insertfield (args, name, value)\r\n\tif not args[name] then\r\n\t\targs[name] = value\r\n\telse\r\n\t\tlocal t = type (args[name])\r\n\t\tif t == \"string\" then\r\n\t\t\targs[name] = {\r\n\t\t\t\targs[name],\r\n\t\t\t\tvalue,\r\n\t\t\t}\r\n\t\telseif t == \"table\" then\r\n\t\t\ttable.insert (args[name], value)\r\n\t\telse\r\n\t\t\terror (\"CGILua fatal error (invalid args table)!\")\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "if not args[name] then\r\n\t\targs[name] = value\r\n\telse\r\n\t\tlocal t = type (args[name])\r\n\t\tif t == \"string\" then\r\n\t\t\targs[name] = {\r\n\t\t\t\targs[name],\r\n\t\t\t\tvalue,\r\n\t\t\t}\r\n\t\telseif t == \"table\" then\r\n\t\t\ttable.insert (args[name], value)\r\n\t\telse\r\n\t\t\terror (\"CGILua fatal error (invalid args table)!\")\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "args[name] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "local t = type (args[name])",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "if t == \"string\" then\r\n\t\t\targs[name] = {\r\n\t\t\t\targs[name],\r\n\t\t\t\tvalue,\r\n\t\t\t}\r\n\t\telseif t == \"table\" then\r\n\t\t\ttable.insert (args[name], value)\r\n\t\telse\r\n\t\t\terror (\"CGILua fatal error (invalid args table)!\")\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "args[name] = {\r\n\t\t\t\targs[name],\r\n\t\t\t\tvalue,\r\n\t\t\t}",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "table.insert (args[name], value)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "error (\"CGILua fatal error (invalid args table)!\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function parsequery (query, args)\r\n\tif type(query) == \"string\" then\r\n\t\tlocal insertfield, unescape = insertfield, unescape\r\n\t\tstring.gsub (query, \"([^&=]+)=([^&=]*)&?\",\r\n\t\t\tfunction (key, val)\r\n\t\t\t\tinsertfield (args, unescape(key), unescape(val))\r\n\t\t\tend)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "if type(query) == \"string\" then\r\n\t\tlocal insertfield, unescape = insertfield, unescape\r\n\t\tstring.gsub (query, \"([^&=]+)=([^&=]*)&?\",\r\n\t\t\tfunction (key, val)\r\n\t\t\t\tinsertfield (args, unescape(key), unescape(val))\r\n\t\t\tend)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "local insertfield, unescape = insertfield, unescape",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "string.gsub (query, \"([^&=]+)=([^&=]*)&?\",\r\n\t\t\tfunction (key, val)\r\n\t\t\t\tinsertfield (args, unescape(key), unescape(val))\r\n\t\t\tend)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "insertfield (args, unescape(key), unescape(val))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function encodetable (args)\r\n  if args == nil or next(args) == nil then   -- no args or empty args?\r\n    return \"\"\r\n  end\r\n  local strp = \"\"\r\n for key, vals in pairs(args) do\r\n    if type(vals) ~= \"table\" then\r\n      vals = {vals}\r\n    end\r\n    for i,val in ipairs(vals) do\r\n      strp = strp..\"&\"..escape(key)..\"=\"..escape(val)\r\n    end\r\n  end\r\n  -- remove first & \r\n  return string.sub(strp,2)\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "if args == nil or next(args) == nil then   -- no args or empty args?\r\n    return \"\"\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "local strp = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "for key, vals in pairs(args) do\r\n    if type(vals) ~= \"table\" then\r\n      vals = {vals}\r\n    end\r\n    for i,val in ipairs(vals) do\r\n      strp = strp..\"&\"..escape(key)..\"=\"..escape(val)\r\n    end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 35,
+    "text": "if type(vals) ~= \"table\" then\r\n      vals = {vals}\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "vals = {vals}",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "for i,val in ipairs(vals) do\r\n      strp = strp..\"&\"..escape(key)..\"=\"..escape(val)\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 38,
+    "text": "strp = strp..\"&\"..escape(key)..\"=\"..escape(val)",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "function(h) return string.char(tonumber(h,16)) end",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "function (c) return string.format (\"%%%02X\", string.byte(c)) end",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "function (key, val)\r\n\t\t\t\tinsertfield (args, unescape(key), unescape(val))\r\n\t\t\tend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 45,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "parsequery",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "encodetable",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "next",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "insertfield",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "byte",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

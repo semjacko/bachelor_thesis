@@ -1,0 +1,197 @@
+{
+  "_filename": "tst_plasma.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luacom/demo/comm/tst_plasma.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "tst_plasma",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function(buf)\r\n   if buf and type(buf) == \"string\" then\r\n      local n = strlen(buf)\r\n      local code = \"\"\r\n      local i = 1\r\n      while i <= n do\r\n         local hexa = format(\"%02x\",strbyte(buf,i))\r\n         code = code .. hexa\r\n         i = i + 1\r\n      end\r\n      return code\r\n   else\r\n      return \"\"\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "if buf and type(buf) == \"string\" then\r\n      local n = strlen(buf)\r\n      local code = \"\"\r\n      local i = 1\r\n      while i <= n do\r\n         local hexa = format(\"%02x\",strbyte(buf,i))\r\n         code = code .. hexa\r\n         i = i + 1\r\n      end\r\n      return code\r\n   else\r\n      return \"\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 4,
+    "text": "local n = strlen(buf)",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local code = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local i = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "while i <= n do\r\n         local hexa = format(\"%02x\",strbyte(buf,i))\r\n         code = code .. hexa\r\n         i = i + 1\r\n      end",
+    "type": "statement:while"
+  }, {
+    "id": 8,
+    "text": "local hexa = format(\"%02x\",strbyte(buf,i))",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "code = code .. hexa",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "i = i + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 14,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "strlen",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "dofile",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "strbyte",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "strfind",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  } ]
+}

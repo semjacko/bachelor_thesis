@@ -1,0 +1,189 @@
+{
+  "_filename": "param1.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/abelhas/examples/param1.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "assigns",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "requires",
+    "to": 12
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "param1",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function (x, y)\r\n    return math.cos(x^2 + y^2) - x^2/5 - y^2/5\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "cos",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "randomseed",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "time",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "(pso)",
+    "type": "module"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

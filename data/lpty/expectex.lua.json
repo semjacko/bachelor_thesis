@@ -1,0 +1,429 @@
+{
+  "_filename": "expectex.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lpty/samples/expectex.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "requires",
+    "to": 34
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "expectex",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function start(...)\r\n\tlocal p = lpty.new()\r\n\tp:startproc(...)\r\n\twhile p:hasproc() and not p:readok() do end\r\n\tif not p:hasproc() then\r\n\t\tlocal what, code = p:exitstatus()\r\n\t\terror(\"start failed: child process terminated because of \" .. tostring(what) .. \" \" ..tostring(code))\r\n\tend\r\n\treturn p\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local p = lpty.new()",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "p:startproc(...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "while p:hasproc() and not p:readok() do end",
+    "type": "statement:while"
+  }, {
+    "id": 6,
+    "text": "if not p:hasproc() then\r\n\t\tlocal what, code = p:exitstatus()\r\n\t\terror(\"start failed: child process terminated because of \" .. tostring(what) .. \" \" ..tostring(code))\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "local what, code = p:exitstatus()",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "error(\"start failed: child process terminated because of \" .. tostring(what) .. \" \" ..tostring(code))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "local function expect(p, what, plain, timeout)\r\n\tif not p:hasproc() then return nil, \"no running process.\" end\r\n\tlocal res = \"\"\r\n\tlocal found = false\r\n\r\n\t-- consume all output from client while searching for our pattern\r\n\twhile not found do\r\n\t\tlocal r, why = p:read(timeout)\r\n\t\tif r ~= nil then\r\n\t\t\tres = res .. r\r\n\t\t\tlocal first, last, capture = string.find(res, what, 1, plain)\r\n\t\t\tif first then\r\n\t\t\t\tif capture then\r\n\t\t\t\t\tfound = capture\r\n\t\t\t\telse\r\n\t\t\t\t\tfound = string.sub(res, first, last)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tif why then\r\n\t\t\t\terror(\"read failed: \" .. why)\r\n\t\t\telse\r\n\t\t\t\tlocal what, code = p:exitstatus()\r\n\t\t\t\tif what then\r\n\t\t\t\t\terror(\"read failed: child process terminated because of \" .. tostring(what) .. \" \" ..tostring(code))\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\treturn found\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "if not p:hasproc() then return nil, \"no running process.\" end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "local res = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local found = false",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "while not found do\r\n\t\tlocal r, why = p:read(timeout)\r\n\t\tif r ~= nil then\r\n\t\t\tres = res .. r\r\n\t\t\tlocal first, last, capture = string.find(res, what, 1, plain)\r\n\t\t\tif first then\r\n\t\t\t\tif capture then\r\n\t\t\t\t\tfound = capture\r\n\t\t\t\telse\r\n\t\t\t\t\tfound = string.sub(res, first, last)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tif why then\r\n\t\t\t\terror(\"read failed: \" .. why)\r\n\t\t\telse\r\n\t\t\t\tlocal what, code = p:exitstatus()\r\n\t\t\t\tif what then\r\n\t\t\t\t\terror(\"read failed: child process terminated because of \" .. tostring(what) .. \" \" ..tostring(code))\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 16,
+    "text": "local r, why = p:read(timeout)",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "if r ~= nil then\r\n\t\t\tres = res .. r\r\n\t\t\tlocal first, last, capture = string.find(res, what, 1, plain)\r\n\t\t\tif first then\r\n\t\t\t\tif capture then\r\n\t\t\t\t\tfound = capture\r\n\t\t\t\telse\r\n\t\t\t\t\tfound = string.sub(res, first, last)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tif why then\r\n\t\t\t\terror(\"read failed: \" .. why)\r\n\t\t\telse\r\n\t\t\t\tlocal what, code = p:exitstatus()\r\n\t\t\t\tif what then\r\n\t\t\t\t\terror(\"read failed: child process terminated because of \" .. tostring(what) .. \" \" ..tostring(code))\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "res = res .. r",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "local first, last, capture = string.find(res, what, 1, plain)",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "if first then\r\n\t\t\t\tif capture then\r\n\t\t\t\t\tfound = capture\r\n\t\t\t\telse\r\n\t\t\t\t\tfound = string.sub(res, first, last)\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "if capture then\r\n\t\t\t\t\tfound = capture\r\n\t\t\t\telse\r\n\t\t\t\t\tfound = string.sub(res, first, last)\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "found = capture",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "found = string.sub(res, first, last)",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "if why then\r\n\t\t\t\terror(\"read failed: \" .. why)\r\n\t\t\telse\r\n\t\t\t\tlocal what, code = p:exitstatus()\r\n\t\t\t\tif what then\r\n\t\t\t\t\terror(\"read failed: child process terminated because of \" .. tostring(what) .. \" \" ..tostring(code))\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "error(\"read failed: \" .. why)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "if what then\r\n\t\t\t\t\terror(\"read failed: child process terminated because of \" .. tostring(what) .. \" \" ..tostring(code))\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "error(\"read failed: child process terminated because of \" .. tostring(what) .. \" \" ..tostring(code))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "local function send(p, what)\r\n\tlocal s = p:send(what)\r\n\t-- wait for reply\r\n\twhile not p:readok() and p:hasproc() do end\r\n\treturn s\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "local s = p:send(what)",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "while not p:readok() and p:hasproc() do end",
+    "type": "statement:while"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 34,
+    "text": "lpty",
+    "type": "module"
+  }, {
+    "id": 35,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

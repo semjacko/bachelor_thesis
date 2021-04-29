@@ -1,0 +1,521 @@
+{
+  "_filename": "io.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 24,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 25,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 26,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 28,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 31,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 32,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 33,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 34,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 35,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "assigns",
+    "to": 42
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "assigns",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "assigns",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "assigns",
+    "to": 46
+  }, {
+    "from": 44,
+    "label": "assigns",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "assigns",
+    "to": 48
+  }, {
+    "from": 44,
+    "label": "assigns",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "assigns",
+    "to": 50
+  }, {
+    "from": 44,
+    "label": "assigns",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "assigns",
+    "to": 52
+  }, {
+    "from": 44,
+    "label": "assigns",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "assigns",
+    "to": 54
+  }, {
+    "from": 44,
+    "label": "assigns",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "assigns",
+    "to": 56
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "provides",
+    "to": 59
+  }, {
+    "from": 60,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 61,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "defaults",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function iorequire(format)\r\n    local r,v = pcall(require, \"vstruct.io.\"..format)\r\n\r\n    if not r then\r\n        error(\"vstruct: no support for format '\"..format..\"':\\n\"..tostring(v))\r\n    end\r\n    \r\n    return v                   \r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local r,v = pcall(require, \"vstruct.io.\"..format)",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if not r then\r\n        error(\"vstruct: no support for format '\"..format..\"':\\n\"..tostring(v))\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "error(\"vstruct: no support for format '\"..format..\"':\\n\"..tostring(v))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function() return iorequire(name) end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function(format, method, ...)\r\n    local fmt = formats[format]\r\n        or setmetatable(iorequire(format), { __index = defaults })\r\n    \r\n    assert(fmt[method], \"No support for method '\"..tostring(method)..\"' in IO module '\"..format..\"'\")\r\n    \r\n    return fmt[method](...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local fmt = formats[format]\r\n        or setmetatable(iorequire(format), { __index = defaults })",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "assert(fmt[method], \"No support for method '\"..tostring(method)..\"' in IO module '\"..format..\"'\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "fmt[method]",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

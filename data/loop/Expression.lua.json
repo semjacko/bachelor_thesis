@@ -1,0 +1,1449 @@
+{
+  "_filename": "Expression.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/compiler/Expression.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 112,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 112,
+    "label": "has",
+    "to": 114
+  }, {
+    "from": 112,
+    "label": "has",
+    "to": 115
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 118
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 120
+  }, {
+    "from": 120,
+    "label": "has",
+    "to": 121
+  }, {
+    "from": 120,
+    "label": "has",
+    "to": 122
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 123
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 124
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 127
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 128
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 129
+  }, {
+    "from": 129,
+    "label": "has",
+    "to": 130
+  }, {
+    "from": 129,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 129,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 125,
+    "label": "has",
+    "to": 132
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 139
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 137
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 140
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 140
+  }, {
+    "from": 84,
+    "label": "calls",
+    "to": 140
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 136
+  }, {
+    "from": 84,
+    "label": "calls",
+    "to": 142
+  }, {
+    "from": 133,
+    "label": "calls",
+    "to": 138
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 135
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 144
+  }, {
+    "from": 133,
+    "label": "calls",
+    "to": 141
+  }, {
+    "from": 133,
+    "label": "calls",
+    "to": 141
+  }, {
+    "from": 133,
+    "label": "calls",
+    "to": 141
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 143
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 133
+  }, {
+    "from": 133,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 133,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 133,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 133,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 133,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 133,
+    "label": "declares",
+    "to": 50
+  }, {
+    "from": 133,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 133,
+    "label": "declares",
+    "to": 57
+  }, {
+    "from": 133,
+    "label": "declares",
+    "to": 62
+  }, {
+    "from": 133,
+    "label": "declares",
+    "to": 84
+  }, {
+    "from": 133,
+    "label": "declares",
+    "to": 106
+  }, {
+    "from": 133,
+    "label": "declares",
+    "to": 125
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 145
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 146
+  }, {
+    "from": 145,
+    "label": "initializes",
+    "to": 147
+  }, {
+    "from": 147,
+    "label": "assigns",
+    "to": 148
+  }, {
+    "from": 145,
+    "label": "initializes",
+    "to": 149
+  }, {
+    "from": 149,
+    "label": "assigns",
+    "to": 150
+  }, {
+    "from": 145,
+    "label": "initializes",
+    "to": 151
+  }, {
+    "from": 151,
+    "label": "assigns",
+    "to": 152
+  }, {
+    "from": 145,
+    "label": "initializes",
+    "to": 153
+  }, {
+    "from": 153,
+    "label": "assigns",
+    "to": 154
+  }, {
+    "from": 145,
+    "label": "initializes",
+    "to": 155
+  }, {
+    "from": 155,
+    "label": "assigns",
+    "to": 156
+  }, {
+    "from": 145,
+    "label": "initializes",
+    "to": 157
+  }, {
+    "from": 157,
+    "label": "assigns",
+    "to": 158
+  }, {
+    "from": 145,
+    "label": "initializes",
+    "to": 159
+  }, {
+    "from": 159,
+    "label": "assigns",
+    "to": 160
+  }, {
+    "from": 145,
+    "label": "initializes",
+    "to": 161
+  }, {
+    "from": 145,
+    "label": "initializes",
+    "to": 162
+  }, {
+    "from": 145,
+    "label": "initializes",
+    "to": 163
+  }, {
+    "from": 163,
+    "label": "assigns",
+    "to": 164
+  }, {
+    "from": 146,
+    "label": "initializes",
+    "to": 165
+  }, {
+    "from": 165,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 146,
+    "label": "initializes",
+    "to": 166
+  }, {
+    "from": 166,
+    "label": "requires",
+    "to": 167
+  }, {
+    "from": 146,
+    "label": "initializes",
+    "to": 168
+  }, {
+    "from": 168,
+    "label": "requires",
+    "to": 134
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Expression",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function __init(self, object)\r\n\tself = oo.rawnew(self, object)\r\n\r\n\tif not self.operands and self.values then\r\n\t\tlocal operands = {}\r\n\t\tfor kind, spec in pairs(self.values) do\r\n\t\t\toperands[kind] = pattern:format(spec)\r\n\t\tend\r\n\t\tself.operands = operands\r\n\tend\r\n\t\r\n\tif not self.format and self.operators then\r\n\t\tlocal opformat = {}\r\n\t\tfor name, spec in pairs(self.operators) do\r\n\t\t\tlocal format = {}\r\n\t\t\tlocal pos = 1\r\n\t\t\twhile pos <= #spec do\r\n\t\t\t\tif spec:find(\"^ \", pos) then\r\n\t\t\t\t\tformat[#format+1] = true\r\n\t\t\t\t\tpos = pos + 1\r\n\t\t\t\telse\r\n\t\t\t\t\tlocal keyword = spec:match(\"^[^ ]+\", pos)\r\n\t\t\t\t\tformat[#format+1] = keyword\r\n\t\t\t\t\tpos = pos + #keyword\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\topformat[name] = format\r\n\t\tend\r\n\t\tself.format = opformat\r\n\tend\r\n\r\n\tself.values = self.values or {}\r\n\t\r\n\treturn self\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "self = oo.rawnew(self, object)",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "if not self.operands and self.values then\r\n\t\tlocal operands = {}\r\n\t\tfor kind, spec in pairs(self.values) do\r\n\t\t\toperands[kind] = pattern:format(spec)\r\n\t\tend\r\n\t\tself.operands = operands\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "local operands = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "for kind, spec in pairs(self.values) do\r\n\t\t\toperands[kind] = pattern:format(spec)\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 8,
+    "text": "operands[kind] = pattern:format(spec)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "self.operands = operands",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "if not self.format and self.operators then\r\n\t\tlocal opformat = {}\r\n\t\tfor name, spec in pairs(self.operators) do\r\n\t\t\tlocal format = {}\r\n\t\t\tlocal pos = 1\r\n\t\t\twhile pos <= #spec do\r\n\t\t\t\tif spec:find(\"^ \", pos) then\r\n\t\t\t\t\tformat[#format+1] = true\r\n\t\t\t\t\tpos = pos + 1\r\n\t\t\t\telse\r\n\t\t\t\t\tlocal keyword = spec:match(\"^[^ ]+\", pos)\r\n\t\t\t\t\tformat[#format+1] = keyword\r\n\t\t\t\t\tpos = pos + #keyword\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\topformat[name] = format\r\n\t\tend\r\n\t\tself.format = opformat\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "local opformat = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "for name, spec in pairs(self.operators) do\r\n\t\t\tlocal format = {}\r\n\t\t\tlocal pos = 1\r\n\t\t\twhile pos <= #spec do\r\n\t\t\t\tif spec:find(\"^ \", pos) then\r\n\t\t\t\t\tformat[#format+1] = true\r\n\t\t\t\t\tpos = pos + 1\r\n\t\t\t\telse\r\n\t\t\t\t\tlocal keyword = spec:match(\"^[^ ]+\", pos)\r\n\t\t\t\t\tformat[#format+1] = keyword\r\n\t\t\t\t\tpos = pos + #keyword\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\topformat[name] = format\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 13,
+    "text": "local format = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local pos = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "while pos <= #spec do\r\n\t\t\t\tif spec:find(\"^ \", pos) then\r\n\t\t\t\t\tformat[#format+1] = true\r\n\t\t\t\t\tpos = pos + 1\r\n\t\t\t\telse\r\n\t\t\t\t\tlocal keyword = spec:match(\"^[^ ]+\", pos)\r\n\t\t\t\t\tformat[#format+1] = keyword\r\n\t\t\t\t\tpos = pos + #keyword\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:while"
+  }, {
+    "id": 16,
+    "text": "if spec:find(\"^ \", pos) then\r\n\t\t\t\t\tformat[#format+1] = true\r\n\t\t\t\t\tpos = pos + 1\r\n\t\t\t\telse\r\n\t\t\t\t\tlocal keyword = spec:match(\"^[^ ]+\", pos)\r\n\t\t\t\t\tformat[#format+1] = keyword\r\n\t\t\t\t\tpos = pos + #keyword\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "format[#format+1] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "pos = pos + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "local keyword = spec:match(\"^[^ ]+\", pos)",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "format[#format+1] = keyword",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "pos = pos + #keyword",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "opformat[name] = format",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "self.format = opformat",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "self.values = self.values or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function push(self, kind, value)\r\n\tself[#self+1] = kind\r\n\tif kind == true then\r\n\t\tself.count = self.count + 1\r\n\t\tself.values[self.count] = value\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "self[#self+1] = kind",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "if kind == true then\r\n\t\tself.count = self.count + 1\r\n\t\tself.values[self.count] = value\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "self.count = self.count + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "self.values[self.count] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "function pop(self)\r\n\tlocal kind = self[#self]\r\n\tself[#self] = nil\r\n\tlocal value\r\n\tif kind == true then\r\n\t\tvalue = self.values[self.count]\r\n\t\tself.count = self.count - 1\r\n\tend\r\n\treturn kind, value\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "local kind = self[#self]",
+    "type": "statement:localassign"
+  }, {
+    "id": 35,
+    "text": "self[#self] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "local value",
+    "type": "statement:localassign"
+  }, {
+    "id": 37,
+    "text": "if kind == true then\r\n\t\tvalue = self.values[self.count]\r\n\t\tself.count = self.count - 1\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "value = self.values[self.count]",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "self.count = self.count - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 41,
+    "text": "function get(self, count)\r\n\tlocal nvals = 0\r\n\tfor _=1, count do\r\n\t\tif self[#self] == true then\r\n\t\t\tnvals = nvals + 1\r\n\t\tend\r\n\t\tself[#self] = nil\r\n\tend\r\n\tself.count = self.count - nvals\r\n\treturn unpack(self.values, self.count + 1, self.count + nvals)\r\nend",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "local nvals = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 43,
+    "text": "for _=1, count do\r\n\t\tif self[#self] == true then\r\n\t\t\tnvals = nvals + 1\r\n\t\tend\r\n\t\tself[#self] = nil\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 44,
+    "text": "if self[#self] == true then\r\n\t\t\tnvals = nvals + 1\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 45,
+    "text": "nvals = nvals + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "self.count = self.count - nvals",
+    "type": "statement:assign"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 48,
+    "text": "function error(self, msg)\r\n\treturn luaerror(errmsg:format(msg, self.pos))\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 50,
+    "text": "function done(self)\r\n\treturn (self.text:match(\"^%s*$\", self.pos))\r\nend",
+    "type": "function"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "function token(self, token)\r\n\tlocal pos = select(2, self.text:find(\"^%s*[^%s]\", self.pos))\r\n\tif pos and (self.text:find(token, pos, true) == pos) then\r\n\t\tself.pos = pos + #token\r\n\t\treturn true\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "local pos = select(2, self.text:find(\"^%s*[^%s]\", self.pos))",
+    "type": "statement:localassign"
+  }, {
+    "id": 54,
+    "text": "if pos and (self.text:find(token, pos, true) == pos) then\r\n\t\tself.pos = pos + #token\r\n\t\treturn true\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 55,
+    "text": "self.pos = pos + #token",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 57,
+    "text": "function match(self, pattern)\r\n\tlocal first, last, value = self.text:find(pattern, self.pos)\r\n\tif first then\r\n\t\tself.pos = last + 1\r\n\t\treturn value\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 58,
+    "text": "local first, last, value = self.text:find(pattern, self.pos)",
+    "type": "statement:localassign"
+  }, {
+    "id": 59,
+    "text": "if first then\r\n\t\tself.pos = last + 1\r\n\t\treturn value\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 60,
+    "text": "self.pos = last + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 62,
+    "text": "function operator(self, name, level, start)\r\n\tlocal format = self.format[name]\r\n\tfor index, kind in ipairs(format) do\r\n\t\tlocal parsed = self[start + index]\r\n\t\tif parsed then\r\n\t\t\tif parsed ~= kind then                                                    --[[VERBOSE]] verbose:operator(\"parsed value mismatch, got '\",parsed,\"' ('\",kind,\"' expected)\")\r\n\t\t\t\treturn false                                                            --[[VERBOSE]] else verbose:operator(\"parsed value matched, got '\",parsed,\"'\")\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tif kind == true then                                                      --[[VERBOSE]] verbose:operator(true, \"operand expected, parsing...\")\r\n\t\t\t\tif not self:parse(level + 1, #self) then                                --[[VERBOSE]] verbose:operator(false, \"operand parsing failed\")\r\n\t\t\t\t\treturn false\r\n\t\t\t\tend                                                                     --[[VERBOSE]] verbose:operator(false, \"operand parsed successfully\")\r\n\t\t\telse                                                                      --[[VERBOSE]] verbose:operator(\"token \",kind,\" expected\")\r\n\t\t\t\tif self:token(kind) then                                                --[[VERBOSE]] verbose:operator(\"token found successfully\")\r\n\t\t\t\t\tself:push(kind)\r\n\t\t\t\telse                                                                    --[[VERBOSE]] verbose:operator(\"token not found\")\r\n\t\t\t\t\treturn false\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\tend                                                                           --[[VERBOSE]] verbose:operator(true, \"operator \",name,\" matched\")\r\n\tself:push(true, self[name](self, self:get(#format)))                          --[[VERBOSE]] verbose:operator(false, \"operator \",name,\" callback called\")\r\n\treturn true\r\nend",
+    "type": "function"
+  }, {
+    "id": 63,
+    "text": "local format = self.format[name]",
+    "type": "statement:localassign"
+  }, {
+    "id": 64,
+    "text": "for index, kind in ipairs(format) do\r\n\t\tlocal parsed = self[start + index]\r\n\t\tif parsed then\r\n\t\t\tif parsed ~= kind then                                                    --[[VERBOSE]] verbose:operator(\"parsed value mismatch, got '\",parsed,\"' ('\",kind,\"' expected)\")\r\n\t\t\t\treturn false                                                            --[[VERBOSE]] else verbose:operator(\"parsed value matched, got '\",parsed,\"'\")\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tif kind == true then                                                      --[[VERBOSE]] verbose:operator(true, \"operand expected, parsing...\")\r\n\t\t\t\tif not self:parse(level + 1, #self) then                                --[[VERBOSE]] verbose:operator(false, \"operand parsing failed\")\r\n\t\t\t\t\treturn false\r\n\t\t\t\tend                                                                     --[[VERBOSE]] verbose:operator(false, \"operand parsed successfully\")\r\n\t\t\telse                                                                      --[[VERBOSE]] verbose:operator(\"token \",kind,\" expected\")\r\n\t\t\t\tif self:token(kind) then                                                --[[VERBOSE]] verbose:operator(\"token found successfully\")\r\n\t\t\t\t\tself:push(kind)\r\n\t\t\t\telse                                                                    --[[VERBOSE]] verbose:operator(\"token not found\")\r\n\t\t\t\t\treturn false\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 65,
+    "text": "local parsed = self[start + index]",
+    "type": "statement:localassign"
+  }, {
+    "id": 66,
+    "text": "if parsed then\r\n\t\t\tif parsed ~= kind then                                                    --[[VERBOSE]] verbose:operator(\"parsed value mismatch, got '\",parsed,\"' ('\",kind,\"' expected)\")\r\n\t\t\t\treturn false                                                            --[[VERBOSE]] else verbose:operator(\"parsed value matched, got '\",parsed,\"'\")\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tif kind == true then                                                      --[[VERBOSE]] verbose:operator(true, \"operand expected, parsing...\")\r\n\t\t\t\tif not self:parse(level + 1, #self) then                                --[[VERBOSE]] verbose:operator(false, \"operand parsing failed\")\r\n\t\t\t\t\treturn false\r\n\t\t\t\tend                                                                     --[[VERBOSE]] verbose:operator(false, \"operand parsed successfully\")\r\n\t\t\telse                                                                      --[[VERBOSE]] verbose:operator(\"token \",kind,\" expected\")\r\n\t\t\t\tif self:token(kind) then                                                --[[VERBOSE]] verbose:operator(\"token found successfully\")\r\n\t\t\t\t\tself:push(kind)\r\n\t\t\t\telse                                                                    --[[VERBOSE]] verbose:operator(\"token not found\")\r\n\t\t\t\t\treturn false\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 67,
+    "text": "if parsed ~= kind then                                                    --[[VERBOSE]] verbose:operator(\"parsed value mismatch, got '\",parsed,\"' ('\",kind,\"' expected)\")\r\n\t\t\t\treturn false                                                            --[[VERBOSE]] else verbose:operator(\"parsed value matched, got '\",parsed,\"'\")\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 68,
+    "text": "verbose:operator(\"parsed value mismatch, got '\",parsed,\"' ('\",kind,\"' expected)\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 69,
+    "text": "verbose:operator(\"parsed value matched, got '\",parsed,\"'\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 70,
+    "text": "if kind == true then                                                      --[[VERBOSE]] verbose:operator(true, \"operand expected, parsing...\")\r\n\t\t\t\tif not self:parse(level + 1, #self) then                                --[[VERBOSE]] verbose:operator(false, \"operand parsing failed\")\r\n\t\t\t\t\treturn false\r\n\t\t\t\tend                                                                     --[[VERBOSE]] verbose:operator(false, \"operand parsed successfully\")\r\n\t\t\telse                                                                      --[[VERBOSE]] verbose:operator(\"token \",kind,\" expected\")\r\n\t\t\t\tif self:token(kind) then                                                --[[VERBOSE]] verbose:operator(\"token found successfully\")\r\n\t\t\t\t\tself:push(kind)\r\n\t\t\t\telse                                                                    --[[VERBOSE]] verbose:operator(\"token not found\")\r\n\t\t\t\t\treturn false\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 71,
+    "text": "verbose:operator(true, \"operand expected, parsing...\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 72,
+    "text": "if not self:parse(level + 1, #self) then                                --[[VERBOSE]] verbose:operator(false, \"operand parsing failed\")\r\n\t\t\t\t\treturn false\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 73,
+    "text": "verbose:operator(false, \"operand parsing failed\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 74,
+    "text": "verbose:operator(false, \"operand parsed successfully\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 75,
+    "text": "verbose:operator(\"token \",kind,\" expected\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 76,
+    "text": "if self:token(kind) then                                                --[[VERBOSE]] verbose:operator(\"token found successfully\")\r\n\t\t\t\t\tself:push(kind)\r\n\t\t\t\telse                                                                    --[[VERBOSE]] verbose:operator(\"token not found\")\r\n\t\t\t\t\treturn false\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 77,
+    "text": "verbose:operator(\"token found successfully\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 78,
+    "text": "self:push(kind)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 79,
+    "text": "verbose:operator(\"token not found\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 80,
+    "text": "verbose:operator(true, \"operator \",name,\" matched\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 81,
+    "text": "self:push(true, self[name](self, self:get(#format)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 82,
+    "text": "verbose:operator(false, \"operator \",name,\" callback called\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 84,
+    "text": "function value(self)\r\n\tif self:token(\"(\") then                                                       --[[VERBOSE]] verbose:value(true, \"'(' found at \",self.pos)\r\n\t\tlocal start = #self\r\n\t\tif not self:parse(1, start) then                                            --[[VERBOSE]] verbose:value(false, \"error in enclosed expression\")\r\n\t\t\tself:error(\"value expected\")\r\n\t\telseif #self ~= start + 1 or self[#self] ~= true then                       --[[VERBOSE]] verbose:value(false, \"enclosed expression incomplete (too many parsed values left)\")\r\n\t\t\tself:error(\"incomplete expression\")\r\n\t\telseif not self:token(\")\") then                                             --[[VERBOSE]] verbose:value(false, \"')' not found\")\r\n\t\t\tself:error(\"')' expected\")\r\n\t\tend                                                                         --[[VERBOSE]] verbose:value(false, \"matching ')' found\")\r\n\t\treturn true\r\n\telse                                                                          --[[VERBOSE]] verbose:value(true, \"parsing value at \",self.pos)\r\n\t\tfor kind, pattern in pairs(self.operands) do                                --[[VERBOSE]] verbose:value(\"attempt to match value as \",kind)\r\n\t\t\tlocal value = self:match(pattern)\r\n\t\t\tif value then                                                             --[[VERBOSE]] verbose:value(true, \"value found as \",kind)\r\n\t\t\t\tself:push(true, self[kind](self, value))                                --[[VERBOSE]] verbose:value(false, \"value evaluated to \",self.values[self.count])\r\n\t\t\t\treturn true                                                             --[[VERBOSE]],verbose:value(false)\r\n\t\t\tend\r\n\t\tend                                                                         --[[VERBOSE]] verbose:value(false, \"no value found at \",self.pos)\r\n\t\treturn false\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 85,
+    "text": "if self:token(\"(\") then                                                       --[[VERBOSE]] verbose:value(true, \"'(' found at \",self.pos)\r\n\t\tlocal start = #self\r\n\t\tif not self:parse(1, start) then                                            --[[VERBOSE]] verbose:value(false, \"error in enclosed expression\")\r\n\t\t\tself:error(\"value expected\")\r\n\t\telseif #self ~= start + 1 or self[#self] ~= true then                       --[[VERBOSE]] verbose:value(false, \"enclosed expression incomplete (too many parsed values left)\")\r\n\t\t\tself:error(\"incomplete expression\")\r\n\t\telseif not self:token(\")\") then                                             --[[VERBOSE]] verbose:value(false, \"')' not found\")\r\n\t\t\tself:error(\"')' expected\")\r\n\t\tend                                                                         --[[VERBOSE]] verbose:value(false, \"matching ')' found\")\r\n\t\treturn true\r\n\telse                                                                          --[[VERBOSE]] verbose:value(true, \"parsing value at \",self.pos)\r\n\t\tfor kind, pattern in pairs(self.operands) do                                --[[VERBOSE]] verbose:value(\"attempt to match value as \",kind)\r\n\t\t\tlocal value = self:match(pattern)\r\n\t\t\tif value then                                                             --[[VERBOSE]] verbose:value(true, \"value found as \",kind)\r\n\t\t\t\tself:push(true, self[kind](self, value))                                --[[VERBOSE]] verbose:value(false, \"value evaluated to \",self.values[self.count])\r\n\t\t\t\treturn true                                                             --[[VERBOSE]],verbose:value(false)\r\n\t\t\tend\r\n\t\tend                                                                         --[[VERBOSE]] verbose:value(false, \"no value found at \",self.pos)\r\n\t\treturn false\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 86,
+    "text": "verbose:value(true, \"'(' found at \",self.pos)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 87,
+    "text": "local start = #self",
+    "type": "statement:localassign"
+  }, {
+    "id": 88,
+    "text": "if not self:parse(1, start) then                                            --[[VERBOSE]] verbose:value(false, \"error in enclosed expression\")\r\n\t\t\tself:error(\"value expected\")\r\n\t\telseif #self ~= start + 1 or self[#self] ~= true then                       --[[VERBOSE]] verbose:value(false, \"enclosed expression incomplete (too many parsed values left)\")\r\n\t\t\tself:error(\"incomplete expression\")\r\n\t\telseif not self:token(\")\") then                                             --[[VERBOSE]] verbose:value(false, \"')' not found\")\r\n\t\t\tself:error(\"')' expected\")\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 89,
+    "text": "verbose:value(false, \"error in enclosed expression\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 90,
+    "text": "self:error(\"value expected\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 91,
+    "text": "verbose:value(false, \"enclosed expression incomplete (too many parsed values left)\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 92,
+    "text": "self:error(\"incomplete expression\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 93,
+    "text": "verbose:value(false, \"')' not found\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 94,
+    "text": "self:error(\"')' expected\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 95,
+    "text": "verbose:value(false, \"matching ')' found\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 96,
+    "text": "verbose:value(true, \"parsing value at \",self.pos)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 97,
+    "text": "for kind, pattern in pairs(self.operands) do                                --[[VERBOSE]] verbose:value(\"attempt to match value as \",kind)\r\n\t\t\tlocal value = self:match(pattern)\r\n\t\t\tif value then                                                             --[[VERBOSE]] verbose:value(true, \"value found as \",kind)\r\n\t\t\t\tself:push(true, self[kind](self, value))                                --[[VERBOSE]] verbose:value(false, \"value evaluated to \",self.values[self.count])\r\n\t\t\t\treturn true                                                             --[[VERBOSE]],verbose:value(false)\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 98,
+    "text": "verbose:value(\"attempt to match value as \",kind)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 99,
+    "text": "local value = self:match(pattern)",
+    "type": "statement:localassign"
+  }, {
+    "id": 100,
+    "text": "if value then                                                             --[[VERBOSE]] verbose:value(true, \"value found as \",kind)\r\n\t\t\t\tself:push(true, self[kind](self, value))                                --[[VERBOSE]] verbose:value(false, \"value evaluated to \",self.values[self.count])\r\n\t\t\t\treturn true                                                             --[[VERBOSE]],verbose:value(false)\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 101,
+    "text": "verbose:value(true, \"value found as \",kind)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 102,
+    "text": "self:push(true, self[kind](self, value))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 103,
+    "text": "verbose:value(false, \"value evaluated to \",self.values[self.count])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 104,
+    "text": "verbose:value(false, \"no value found at \",self.pos)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 106,
+    "text": "function parse(self, level, start)\r\n\tif not self:done() then\r\n\t\tlocal ops = self.precedence[level]\r\n\t\tif ops then                                                                 --[[VERBOSE]] verbose:parse(true, \"parsing operators of level \",level)\r\n\t\t\tlocal i = 1\r\n\t\t\twhile ops[i] do\r\n\t\t\t\tlocal op = ops[i]                                                       --[[VERBOSE]] verbose:parse(true, \"attempt to match operator \",op)\r\n\t\t\t\tif self:operator(ops[i], level, start) then                             --[[VERBOSE]] verbose:parse(false, \"operator \",op,\" successfully matched\")\r\n\t\t\t\t\ti = 1\r\n\t\t\t\telse                                                                    --[[VERBOSE]] verbose:parse(false, \"operator \",op,\" not matched\")\r\n\t\t\t\t\ti = i + 1\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tif #self == start then                                                    --[[VERBOSE]] verbose:parse(false, \"no value evaluated by operators of level \",level)\r\n\t\t\t\treturn self:parse(level + 1, start)\r\n\t\t\telseif self[start + 1] == true then                                       --[[VERBOSE]] verbose:parse(false, \"values evaluated by operators of level \",level)\r\n\t\t\t\treturn true\r\n\t\t\tend\r\n\t\telse                                                                        --[[VERBOSE]] verbose:parse(true, \"parsing value\")\r\n\t\t\treturn self:value()                                                       --[[VERBOSE]] ,verbose:parse(false)\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 107,
+    "text": "if not self:done() then\r\n\t\tlocal ops = self.precedence[level]\r\n\t\tif ops then                                                                 --[[VERBOSE]] verbose:parse(true, \"parsing operators of level \",level)\r\n\t\t\tlocal i = 1\r\n\t\t\twhile ops[i] do\r\n\t\t\t\tlocal op = ops[i]                                                       --[[VERBOSE]] verbose:parse(true, \"attempt to match operator \",op)\r\n\t\t\t\tif self:operator(ops[i], level, start) then                             --[[VERBOSE]] verbose:parse(false, \"operator \",op,\" successfully matched\")\r\n\t\t\t\t\ti = 1\r\n\t\t\t\telse                                                                    --[[VERBOSE]] verbose:parse(false, \"operator \",op,\" not matched\")\r\n\t\t\t\t\ti = i + 1\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tif #self == start then                                                    --[[VERBOSE]] verbose:parse(false, \"no value evaluated by operators of level \",level)\r\n\t\t\t\treturn self:parse(level + 1, start)\r\n\t\t\telseif self[start + 1] == true then                                       --[[VERBOSE]] verbose:parse(false, \"values evaluated by operators of level \",level)\r\n\t\t\t\treturn true\r\n\t\t\tend\r\n\t\telse                                                                        --[[VERBOSE]] verbose:parse(true, \"parsing value\")\r\n\t\t\treturn self:value()                                                       --[[VERBOSE]] ,verbose:parse(false)\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 108,
+    "text": "local ops = self.precedence[level]",
+    "type": "statement:localassign"
+  }, {
+    "id": 109,
+    "text": "if ops then                                                                 --[[VERBOSE]] verbose:parse(true, \"parsing operators of level \",level)\r\n\t\t\tlocal i = 1\r\n\t\t\twhile ops[i] do\r\n\t\t\t\tlocal op = ops[i]                                                       --[[VERBOSE]] verbose:parse(true, \"attempt to match operator \",op)\r\n\t\t\t\tif self:operator(ops[i], level, start) then                             --[[VERBOSE]] verbose:parse(false, \"operator \",op,\" successfully matched\")\r\n\t\t\t\t\ti = 1\r\n\t\t\t\telse                                                                    --[[VERBOSE]] verbose:parse(false, \"operator \",op,\" not matched\")\r\n\t\t\t\t\ti = i + 1\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tif #self == start then                                                    --[[VERBOSE]] verbose:parse(false, \"no value evaluated by operators of level \",level)\r\n\t\t\t\treturn self:parse(level + 1, start)\r\n\t\t\telseif self[start + 1] == true then                                       --[[VERBOSE]] verbose:parse(false, \"values evaluated by operators of level \",level)\r\n\t\t\t\treturn true\r\n\t\t\tend\r\n\t\telse                                                                        --[[VERBOSE]] verbose:parse(true, \"parsing value\")\r\n\t\t\treturn self:value()                                                       --[[VERBOSE]] ,verbose:parse(false)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 110,
+    "text": "verbose:parse(true, \"parsing operators of level \",level)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 111,
+    "text": "local i = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 112,
+    "text": "while ops[i] do\r\n\t\t\t\tlocal op = ops[i]                                                       --[[VERBOSE]] verbose:parse(true, \"attempt to match operator \",op)\r\n\t\t\t\tif self:operator(ops[i], level, start) then                             --[[VERBOSE]] verbose:parse(false, \"operator \",op,\" successfully matched\")\r\n\t\t\t\t\ti = 1\r\n\t\t\t\telse                                                                    --[[VERBOSE]] verbose:parse(false, \"operator \",op,\" not matched\")\r\n\t\t\t\t\ti = i + 1\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:while"
+  }, {
+    "id": 113,
+    "text": "local op = ops[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 114,
+    "text": "verbose:parse(true, \"attempt to match operator \",op)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 115,
+    "text": "if self:operator(ops[i], level, start) then                             --[[VERBOSE]] verbose:parse(false, \"operator \",op,\" successfully matched\")\r\n\t\t\t\t\ti = 1\r\n\t\t\t\telse                                                                    --[[VERBOSE]] verbose:parse(false, \"operator \",op,\" not matched\")\r\n\t\t\t\t\ti = i + 1\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 116,
+    "text": "verbose:parse(false, \"operator \",op,\" successfully matched\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 117,
+    "text": "i = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 118,
+    "text": "verbose:parse(false, \"operator \",op,\" not matched\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 119,
+    "text": "i = i + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 120,
+    "text": "if #self == start then                                                    --[[VERBOSE]] verbose:parse(false, \"no value evaluated by operators of level \",level)\r\n\t\t\t\treturn self:parse(level + 1, start)\r\n\t\t\telseif self[start + 1] == true then                                       --[[VERBOSE]] verbose:parse(false, \"values evaluated by operators of level \",level)\r\n\t\t\t\treturn true\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 121,
+    "text": "verbose:parse(false, \"no value evaluated by operators of level \",level)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 122,
+    "text": "verbose:parse(false, \"values evaluated by operators of level \",level)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 123,
+    "text": "verbose:parse(true, \"parsing value\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 125,
+    "text": "function evaluate(self, text, pos)\r\n\tif text then\r\n\t\tself.text = text\r\n\t\tself.pos = pos\r\n\tend\r\n\tif not self:parse(1, 0) then\r\n\t\tself:error(\"parsing failed\")\r\n\telseif not self:done() then\r\n\t\tself:error(\"malformed expression\")\r\n\telseif #self ~= 1 or self[1] ~= true then\r\n\t\tself:error(\"incomplete expression\")\r\n\tend\r\n\treturn self:get(1)\r\nend",
+    "type": "function"
+  }, {
+    "id": 126,
+    "text": "if text then\r\n\t\tself.text = text\r\n\t\tself.pos = pos\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 127,
+    "text": "self.text = text",
+    "type": "statement:assign"
+  }, {
+    "id": 128,
+    "text": "self.pos = pos",
+    "type": "statement:assign"
+  }, {
+    "id": 129,
+    "text": "if not self:parse(1, 0) then\r\n\t\tself:error(\"parsing failed\")\r\n\telseif not self:done() then\r\n\t\tself:error(\"malformed expression\")\r\n\telseif #self ~= 1 or self[1] ~= true then\r\n\t\tself:error(\"incomplete expression\")\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 130,
+    "text": "self:error(\"parsing failed\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 131,
+    "text": "self:error(\"malformed expression\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 132,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 133,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 134,
+    "text": "string",
+    "type": "module"
+  }, {
+    "id": 135,
+    "text": "rawnew",
+    "type": "global function"
+  }, {
+    "id": 136,
+    "text": "self[name]",
+    "type": "global function"
+  }, {
+    "id": 137,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 138,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 139,
+    "text": "luaerror",
+    "type": "global function"
+  }, {
+    "id": 140,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 141,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 142,
+    "text": "self[kind]",
+    "type": "global function"
+  }, {
+    "id": 143,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 144,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 145,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 146,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 147,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 148,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 149,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 150,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 151,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 152,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 153,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 154,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 155,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 156,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 157,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 158,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 159,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 160,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 161,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 162,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 163,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 164,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 165,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 166,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 167,
+    "text": "Verbose)",
+    "type": "module"
+  }, {
+    "id": 168,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

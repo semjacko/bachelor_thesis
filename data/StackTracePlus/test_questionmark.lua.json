@@ -1,0 +1,265 @@
+{
+  "_filename": "test_questionmark.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/StackTracePlus/test/test_questionmark.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "assigns",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "assigns",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "requires",
+    "to": 31
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test_questionmark",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function bla()\r\n   error(\"oops\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "error(\"oops\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "local function foo()\r\n   bla()\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "bla()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function main()\r\n   local p = {}\r\n   setmetatable(p, { __index = Page })\r\n   local x = \"render\"\r\n   p[x]()\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local p = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "setmetatable(p, { __index = Page })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "local x = \"render\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "p[x]()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function() print(STP.stacktrace()) end",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "print(STP.stacktrace())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 17,
+    "text": "stacktrace",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "xpcall",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "p[x]",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 31,
+    "text": "(StackTracePlus)",
+    "type": "module"
+  } ]
+}

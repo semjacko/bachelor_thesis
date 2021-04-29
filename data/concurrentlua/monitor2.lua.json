@@ -1,0 +1,401 @@
+{
+  "_filename": "monitor2.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/concurrentlua/test/concurrent/monitor2.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "assigns",
+    "to": 39
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "assigns",
+    "to": 41
+  }, {
+    "from": 37,
+    "label": "initializes",
+    "to": 35
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "monitor2",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function leaf(n)\r\n    for i = 1, n do\r\n        local msg  = concurrent.receive()\r\n        print('leaf received message from internal')\r\n    end\r\n    print('leaf exiting')\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "for i = 1, n do\r\n        local msg  = concurrent.receive()\r\n        print('leaf received message from internal')\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 4,
+    "text": "local msg  = concurrent.receive()",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "print('leaf received message from internal')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "print('leaf exiting')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function internal(pid)\r\n    concurrent.monitor(pid)\r\n    while true do\r\n        local msg = concurrent.receive(1000)\r\n        if msg and msg.signal == 'DOWN' then break end\r\n        print('internal received message from root')\r\n\r\n        concurrent.send(pid, { from = concurrent.self(), body = 'ping' })\r\n        print('internal sent message to leaf')\r\n    end\r\n    print('internal received DOWN and exiting')\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "concurrent.monitor(pid)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "while true do\r\n        local msg = concurrent.receive(1000)\r\n        if msg and msg.signal == 'DOWN' then break end\r\n        print('internal received message from root')\r\n\r\n        concurrent.send(pid, { from = concurrent.self(), body = 'ping' })\r\n        print('internal sent message to leaf')\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 11,
+    "text": "local msg = concurrent.receive(1000)",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "if msg and msg.signal == 'DOWN' then break end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "print('internal received message from root')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "concurrent.send(pid, { from = concurrent.self(), body = 'ping' })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "print('internal sent message to leaf')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "print('internal received DOWN and exiting')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function root(pid)\r\n    concurrent.monitor(pid)\r\n    local self = concurrent.self()\r\n    while true do\r\n        concurrent.send(pid, { from = self, body = 'ping' })\r\n        print('root sent message to internal')\r\n\r\n        local msg = concurrent.receive(10)\r\n        if msg and msg.signal == 'DOWN' then break end\r\n    end\r\n    print('root received DOWN and exiting')\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "local self = concurrent.self()",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "while true do\r\n        concurrent.send(pid, { from = self, body = 'ping' })\r\n        print('root sent message to internal')\r\n\r\n        local msg = concurrent.receive(10)\r\n        if msg and msg.signal == 'DOWN' then break end\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 21,
+    "text": "concurrent.send(pid, { from = self, body = 'ping' })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "print('root sent message to internal')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "local msg = concurrent.receive(10)",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "print('root received DOWN and exiting')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 27,
+    "text": "spawn",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "receive",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "send",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "loop",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "monitor",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "self",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

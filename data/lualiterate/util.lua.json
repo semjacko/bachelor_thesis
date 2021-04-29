@@ -1,0 +1,329 @@
+{
+  "_filename": "util.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lualiterate/src/literate/util.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 34,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 36
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "util",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function ASTtoHTML(ast)\r\n\r\n    --[[\r\n    Process table with split code and documentation and outputs final HTML code.\r\n    --]]\r\n\r\n    local html\r\n    local class\r\n    local fullwidth = true\r\n    extractCodeNodes(ast)\r\n    html = \"<table>\"\r\n    for _,v in ipairs(doc_blocks) do\r\n        --_ Special processing for start of block comments and Markdown formatted comments.\r\n        if v.doc.type == \"startblock\" then\r\n            block_comments_count = block_comments_count + 1\r\n            table.insert(block_comments_stack, block_comments_count)\r\n            html = html .. '<tr class=\"folder '..blockCommentsClass()..'\"><td class=\"docs\">~v~ hidden block ~v~</td><td class=\"code\"></td></tr>'\r\n        elseif v.doc.type == \"markdown\" then\r\n            v.doc.str = markdown(v.doc.str)\r\n        end\r\n\r\n        util.trimCodeBlock(v.code)\r\n        if #v.code == 0 and fullwidth then\r\n            if v.doc.type == \"api\" then\r\n                html = html .. '<tr class=\"api\"><td class=\"docs\" colspan=\"2\">'\r\n            else\r\n                html = html .. '<tr><td class=\"docs\" colspan=\"2\">'\r\n            end\r\n            html = html .. (v.doc.str or \"\")\r\n            html = html .. \"</td></tr>\"\r\n        else\r\n            fullwidth = false\r\n            class = blockCommentsClass()\r\n            --_ If class variable is not empty (we are inside of block comment), put it into table row's class attribute.\r\n            if class then\r\n                html = html .. '<tr class=\"'.. class ..'\"><td class=\"docs\">'\r\n            elseif v.doc.type == \"api\" then\r\n                html = html .. '<tr class=\"api\"><td class=\"docs\">'\r\n            else\r\n                html = html .. '<tr><td class=\"docs\">'\r\n            end\r\n            html = html .. (v.doc.str or \"\")\r\n            html = html .. '</td><td class=\"code\">'\r\n            html = html .. \"<pre class=\\\"highlighted_code\\\">\"\r\n\r\n            for _,v in ipairs(v.code) do\r\n                if type(v) == \"table\" then\r\n                    -- v = encapsulateNode(v)\r\n                    --[[\r\n                    Use highlighter module to convert code node from metrics AST\r\n                    to highlighter compatible node, highlight and print it out.\r\n                    --]]\r\n                    local tree = ast_helper.metrics_to_highlighter(v)\r\n                    local text, tree = highlighter.highlight_text(\"\",tree)\r\n                    html = html .. highlighter.assemble_table(tree)\r\n                else\r\n                    html = html .. v\r\n                end\r\n            end\r\n            html = html .. \"</pre>\"\r\n            html = html .. \"</td></tr>\"\r\n        end\r\n\r\n        --_ At the end of block comment, pop value from stack, which is used for marking nested block comments.\r\n        if v.doc.type == \"endblock\" then\r\n            table.remove(block_comments_stack)\r\n        end\r\n    end\r\n    html = html .. \"</table>\"\r\n\r\n    return html\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function trimCodeBlock(block)\r\n\r\n    --[[\r\n    This function trims code block by removing newlines from the begin and the end of block.\r\n    --]]\r\n\r\n    for i,v in ipairs(block) do\r\n        if v.key == \"NEWLINE\" then\r\n            table.remove(block,i)\r\n        else\r\n            break\r\n        end\r\n    end\r\n\r\n    for i = #block, 1, -1 do\r\n        if block[i].key == \"SPACE\" or block[i].key == \"NEWLINE\" then\r\n            table.remove(block,i)\r\n        else\r\n            break\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "for i,v in ipairs(block) do\r\n        if v.key == \"NEWLINE\" then\r\n            table.remove(block,i)\r\n        else\r\n            break\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 5,
+    "text": "if v.key == \"NEWLINE\" then\r\n            table.remove(block,i)\r\n        else\r\n            break\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "table.remove(block,i)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "for i = #block, 1, -1 do\r\n        if block[i].key == \"SPACE\" or block[i].key == \"NEWLINE\" then\r\n            table.remove(block,i)\r\n        else\r\n            break\r\n        end\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 8,
+    "text": "if block[i].key == \"SPACE\" or block[i].key == \"NEWLINE\" then\r\n            table.remove(block,i)\r\n        else\r\n            break\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function dumpTree(ast, depth)\r\n\r\n\t--[[\r\n\tThis function dumps AST created by luametrics module.\r\n\t--]]\r\n\r\n    --print(\"Node size: \"..#ast)\r\n    if ast == nil then return nil end\r\n    if depth==nil then\r\n        depth = 0\r\n    end\r\n    \r\n    local indent = \"\"\r\n    for i=1,depth do\r\n        indent = indent .. \"--\"\r\n    end\r\n    for k,v in pairs(ast) do\r\n        if type(v)~=\"table\" then\r\n            if type(v) ~= \"string\" then\r\n                print(indent..k)\r\n            else\r\n                print(indent..k..\" = \"..v)\r\n            end\r\n        else\r\n            print(indent..k..\" = \")\r\n            if k == \"data\" or type(k)==\"number\" then\r\n                dumpTree(v,depth+1)\r\n            end\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "if ast == nil then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 13,
+    "text": "if depth==nil then\r\n        depth = 0\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "depth = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "local indent = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "for i=1,depth do\r\n        indent = indent .. \"--\"\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 17,
+    "text": "indent = indent .. \"--\"",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "for k,v in pairs(ast) do\r\n        if type(v)~=\"table\" then\r\n            if type(v) ~= \"string\" then\r\n                print(indent..k)\r\n            else\r\n                print(indent..k..\" = \"..v)\r\n            end\r\n        else\r\n            print(indent..k..\" = \")\r\n            if k == \"data\" or type(k)==\"number\" then\r\n                dumpTree(v,depth+1)\r\n            end\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 19,
+    "text": "if type(v)~=\"table\" then\r\n            if type(v) ~= \"string\" then\r\n                print(indent..k)\r\n            else\r\n                print(indent..k..\" = \"..v)\r\n            end\r\n        else\r\n            print(indent..k..\" = \")\r\n            if k == \"data\" or type(k)==\"number\" then\r\n                dumpTree(v,depth+1)\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "if type(v) ~= \"string\" then\r\n                print(indent..k)\r\n            else\r\n                print(indent..k..\" = \"..v)\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "print(indent..k)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "print(indent..k..\" = \"..v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "print(indent..k..\" = \")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "if k == \"data\" or type(k)==\"number\" then\r\n                dumpTree(v,depth+1)\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "dumpTree(v,depth+1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 28,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require container"
+  } ]
+}

@@ -1,0 +1,217 @@
+{
+  "_filename": "a.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io/a.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "assigns",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 22
+  }, {
+    "from": 17,
+    "label": "represents",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "provides",
+    "to": 23
+  }, {
+    "from": 17,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 17,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 17,
+    "label": "contains",
+    "to": 8
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "a",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function a.hasvalue()\r\n    return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function a.width()\r\n    return nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function a.unpack(fd, _, align)\r\n    local cur = fd:seek()\r\n    \r\n    if cur % align ~= 0 then\r\n        fd:seek(\"cur\", align - (cur % align))\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local cur = fd:seek()",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if cur % align ~= 0 then\r\n        fd:seek(\"cur\", align - (cur % align))\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "fd:seek(\"cur\", align - (cur % align))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 14,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "interface"
+  } ]
+}

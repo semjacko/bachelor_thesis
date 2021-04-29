@@ -1,0 +1,501 @@
+{
+  "_filename": "Cache.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-spore/src/Spore/Middleware/Cache.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "assigns",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 36
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "assigns",
+    "to": 38
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "assigns",
+    "to": 40
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 42
+  }, {
+    "from": 23,
+    "label": "represents",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "provides",
+    "to": 43
+  }, {
+    "from": 37,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 37,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 37,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 37,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 23,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 24,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 25,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 27,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 28,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 29,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 30,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 37,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 44,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 45,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 46,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 47,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 48,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 50,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 51,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 53,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 54,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 55,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 56,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 57,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 58,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 37,
+    "label": "contains",
+    "to": 20
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Cache",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function m.new_from_discovery (api, opts)\r\n    opts = opts or {}\r\n    checktype('new_from_discovery', 2, opts, 'table')\r\n    if type(api) == 'string' then\r\n        local content = slurp(api)\r\n        return new_from_lua(convert(decode(content)), opts)\r\n    end\r\n    if type(api) == 'table' then\r\n        local discovery = new_from_lua {\r\n            base_url = 'https://www.googleapis.com/discovery/v1/',\r\n            methods = {\r\n                get = {\r\n                    path = 'apis/:api/:version/rest',\r\n                    method = 'GET',\r\n                    required_params = { 'api', 'version' },\r\n                    expected_status = { 200 },\r\n                },\r\n            },\r\n        }\r\n        discovery:enable 'Format.JSON'\r\n        local r = discovery:get(api)\r\n        return new_from_lua(convert(r.body), opts)\r\n    end\r\n    error(\"bad argument #1 to new_from_discovery (string or table expected, got \"\r\n          .. type(api) .. \")\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function m.generate_nonce ()\r\n    return format('%08x', time())\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function m.generate_timestamp ()\r\n    return tostring(time())\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function m.generate_nonce ()\r\n    return digest('sha1', tostring(random()) .. 'random' .. tostring(time()), 'keyyyy')\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function m.reset ()\r\n    collectgarbage 'collect'\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "collectgarbage 'collect'",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function m:call (req)\r\n    req:finalize()\r\n    local key = req.url\r\n    local res = cache[key]\r\n    if res then\r\n        return res\r\n    else\r\n        return  function (res)\r\n                    cache[key] = res\r\n                    return res\r\n                end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "req:finalize()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "local key = req.url",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local res = cache[key]",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "if res then\r\n        return res\r\n    else\r\n        return  function (res)\r\n                    cache[key] = res\r\n                    return res\r\n                end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "cache[key] = res",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function (res)\r\n                    cache[key] = res\r\n                    return res\r\n                end",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 20,
+    "text": "function m.new (env)\r\n    local obj = {\r\n        env = env,\r\n        redirect = m.redirect,\r\n        headers = {\r\n            ['user-agent'] = env.HTTP_USER_AGENT,\r\n        },\r\n    }\r\n    return setmetatable(obj, {\r\n        __index = m,\r\n    })\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "collectgarbage",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "local variable"
+  } ]
+}

@@ -1,0 +1,401 @@
+{
+  "_filename": "cursor.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/cursor.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 38
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "assigns",
+    "to": 41
+  }, {
+    "from": 38,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "assigns",
+    "to": 43
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 44
+  }, {
+    "from": 40,
+    "label": "represents",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "provides",
+    "to": 45
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cursor",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function cursor:seek(whence, offset)\r\n\twhence = whence or \"cur\"\r\n\toffset = offset or 0\r\n\t\r\n\tif whence == \"set\" then\r\n\t\tself.pos = offset\r\n\telseif whence == \"cur\" then\r\n\t\tself.pos = self.pos + offset\r\n\telseif whence == \"end\" then\r\n\t\tself.pos = #self.str + offset\r\n\telse\r\n\t\terror \"bad argument #1 to seek\"\r\n\tend\r\n\t\r\n\tif self.pos < 0 then\r\n\t\tself.pos = 0\r\n\t\treturn nil,\"attempt to seek prior to start of file\"\r\n\tend\r\n\t\r\n\treturn self.pos\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "whence = whence or \"cur\"",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "offset = offset or 0",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "if whence == \"set\" then\r\n\t\tself.pos = offset\r\n\telseif whence == \"cur\" then\r\n\t\tself.pos = self.pos + offset\r\n\telseif whence == \"end\" then\r\n\t\tself.pos = #self.str + offset\r\n\telse\r\n\t\terror \"bad argument #1 to seek\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "self.pos = offset",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "self.pos = self.pos + offset",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "self.pos = #self.str + offset",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "error \"bad argument #1 to seek\"",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "if self.pos < 0 then\r\n\t\tself.pos = 0\r\n\t\treturn nil,\"attempt to seek prior to start of file\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "self.pos = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function cursor:read(n)\r\n\tif self.pos >= #self.str then\r\n\t\treturn nil,\"eof\"\r\n\tend\r\n\t\r\n    if n == \"*a\" then\r\n        n = #self.str\r\n    end\r\n    \r\n\tlocal buf = self.str:sub(self.pos+1, self.pos + n)\r\n\tself.pos = math.min(self.pos + n, #self.str)\r\n\t\r\n\treturn buf\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "if self.pos >= #self.str then\r\n\t\treturn nil,\"eof\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "if n == \"*a\" then\r\n        n = #self.str\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "n = #self.str",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "local buf = self.str:sub(self.pos+1, self.pos + n)",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "self.pos = math.min(self.pos + n, #self.str)",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function cursor:write(buf)\r\n\tif self.pos > #self.str then\r\n\t\tself.str = self.str .. string.char(0):rep(self.pos - #self.str)\r\n\tend\r\n\r\n\tself.str = self.str:sub(1, self.pos)\r\n\t\t.. buf\r\n\t\t.. self.str:sub(self.pos + #buf + 1, -1)\r\n\tself.pos = self.pos + #buf\r\n\r\n\treturn self\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "if self.pos > #self.str then\r\n\t\tself.str = self.str .. string.char(0):rep(self.pos - #self.str)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 23,
+    "text": "self.str = self.str .. string.char(0):rep(self.pos - #self.str)",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "self.str = self.str:sub(1, self.pos)\r\n\t\t.. buf\r\n\t\t.. self.str:sub(self.pos + #buf + 1, -1)",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "self.pos = self.pos + #buf",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function(self, source)\r\n    \tassert(type(source) == \"string\", \"invalid first argument to cursor()\")\r\n        return setmetatable(\r\n\t    \t{ str = source, pos = 0 },\r\n            cursor)\r\n    end",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "assert(type(source) == \"string\", \"invalid first argument to cursor()\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 31,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "min",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "interface"
+  } ]
+}

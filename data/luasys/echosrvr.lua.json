@@ -1,0 +1,641 @@
+{
+  "_filename": "echosrvr.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasys/test/sock/echosrvr.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 53,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 53,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 53,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 53,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 53,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 53,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 68
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "initializes",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "requires",
+    "to": 54
+  }, {
+    "from": 69,
+    "label": "initializes",
+    "to": 71
+  }, {
+    "from": 71,
+    "label": "requires",
+    "to": 67
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "echosrvr",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function()\r\n\tlocal n = pool.n\r\n\tlocal fd = pool[n]\r\n\tif not fd then\r\n\t    fd = sock.handle()\r\n\t    n = 1\r\n\tend\r\n\tpool.n = n - 1\r\n\treturn fd\r\n    end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local n = pool.n",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local fd = pool[n]",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if not fd then\r\n\t    fd = sock.handle()\r\n\t    n = 1\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "fd = sock.handle()",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "n = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "pool.n = n - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function(fd)\r\n\tlocal n = pool.n + 1\r\n\tpool.n, pool[n] = n, fd\r\n    end",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "local n = pool.n + 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "pool.n, pool[n] = n, fd",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function(evq, fd, cb, timeout)\r\n\tif not evq:add_socket(fd, 'r', cb, timeout) then\r\n\t    error(errorMessage)\r\n\tend\r\n\t--fd:nonblocking(true)\r\n\r\n\tif DEBUG then\r\n\t    nskt = nskt + 1\r\n\t    stderr:write(\"+ Insert in set (\", nskt, \")\\n\")\r\n\tend\r\n    end",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "if not evq:add_socket(fd, 'r', cb, timeout) then\r\n\t    error(errorMessage)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "error(errorMessage)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "if DEBUG then\r\n\t    nskt = nskt + 1\r\n\t    stderr:write(\"+ Insert in set (\", nskt, \")\\n\")\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "nskt = nskt + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "stderr:write(\"+ Insert in set (\", nskt, \")\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function(evq, evid, fd)\r\n\tevq:del(evid)\r\n\tfd:close()\r\n\tsocket_put(fd)\r\n\r\n\tif DEBUG then\r\n\t    nskt = nskt - 1\r\n\t    stderr:write(\"- Remove from set (\", nskt, \")\\n\")\r\n\tend\r\n    end",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "evq:del(evid)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "fd:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "socket_put(fd)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "if DEBUG then\r\n\t    nskt = nskt - 1\r\n\t    stderr:write(\"- Remove from set (\", nskt, \")\\n\")\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "nskt = nskt - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "stderr:write(\"- Remove from set (\", nskt, \")\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "local function process(evq, evid, fd, _, _, _, eof)\r\n    local line\r\n    if not eof then\r\n\tline = fd:read()\r\n    end\r\n    if line then\r\n\tline = fd:write(line)\r\n\tif ONE_SHOT_CLIENT then\r\n\t    fd:shutdown()\r\n\tend\r\n    end\r\n    if not line then\r\n\tchan_remove(evq, evid, fd)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "local line",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "if not eof then\r\n\tline = fd:read()\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "line = fd:read()",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "if line then\r\n\tline = fd:write(line)\r\n\tif ONE_SHOT_CLIENT then\r\n\t    fd:shutdown()\r\n\tend\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "line = fd:write(line)",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "if ONE_SHOT_CLIENT then\r\n\t    fd:shutdown()\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 37,
+    "text": "fd:shutdown()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 38,
+    "text": "if not line then\r\n\tchan_remove(evq, evid, fd)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "chan_remove(evq, evid, fd)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 41,
+    "text": "local function accept(evq, evid, fd)\r\n    local peer\r\n    if DEBUG then\r\n\tpeer = sock.addr_in()\r\n    end\r\n    local newfd = socket_get()\r\n\r\n    if fd:accept(newfd, peer) then\r\n\tchan_insert(evq, newfd, process)\r\n\r\n\tif DEBUG then\r\n\t    local port, addr = sock.addr_in(peer)\r\n\t    stderr:write(\"Peer: \", sock.inet_ntoa(addr), \":\", port, \"\\n\")\r\n\tend\r\n    else\r\n\tstderr:write(\"accept: \", errorMessage, \"\\n\")\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "local peer",
+    "type": "statement:localassign"
+  }, {
+    "id": 43,
+    "text": "if DEBUG then\r\n\tpeer = sock.addr_in()\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 44,
+    "text": "peer = sock.addr_in()",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "local newfd = socket_get()",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "if fd:accept(newfd, peer) then\r\n\tchan_insert(evq, newfd, process)\r\n\r\n\tif DEBUG then\r\n\t    local port, addr = sock.addr_in(peer)\r\n\t    stderr:write(\"Peer: \", sock.inet_ntoa(addr), \":\", port, \"\\n\")\r\n\tend\r\n    else\r\n\tstderr:write(\"accept: \", errorMessage, \"\\n\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "chan_insert(evq, newfd, process)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 48,
+    "text": "if DEBUG then\r\n\t    local port, addr = sock.addr_in(peer)\r\n\t    stderr:write(\"Peer: \", sock.inet_ntoa(addr), \":\", port, \"\\n\")\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 49,
+    "text": "local port, addr = sock.addr_in(peer)",
+    "type": "statement:localassign"
+  }, {
+    "id": 50,
+    "text": "stderr:write(\"Peer: \", sock.inet_ntoa(addr), \":\", port, \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 51,
+    "text": "stderr:write(\"accept: \", errorMessage, \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 54,
+    "text": "sys",
+    "type": "module"
+  }, {
+    "id": 55,
+    "text": "addr_in",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "inet_ntoa",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "inet_pton",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "addr",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "event_queue",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "handle",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "sock",
+    "type": "module"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,189 @@
+{
+  "_filename": "recursive.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lanes/tests/recursive.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "assigns",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lanes",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "recursive",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function( ...)\r\n\t-- aggregrate all strings together, separated by \",\" as well as tables\r\n\t-- the strings are a list of libraries to open\r\n\t-- the tables contain the lane options\r\n\tlocal opt = {}\r\n\tlocal libs = nil\r\n\r\n\tlocal n = select( '#', ...)\r\n\r\n\t-- we need at least a function\r\n\tif n == 0 then\r\n\t\terror( \"No parameters!\", 2)\r\n\tend\r\n\r\n\t-- all arguments but the last must be nil, strings, or tables\r\n\tfor i = 1, n - 1 do\r\n\t\tlocal v = select( i, ...)\r\n\t\tlocal tv = type( v)\r\n\t\tif tv == \"string\" then\r\n\t\t\tlibs = libs and libs .. \",\" .. v or v\r\n\t\telseif tv == \"table\" then\r\n\t\t\tfor k, vv in pairs( v) do\r\n\t\t\t\topt[k]= vv\r\n\t\t\tend\r\n\t\telseif v == nil then\r\n\t\t\t-- skip\r\n\t\telse\r\n\t\t\terror( \"Bad parameter \" .. i .. \": \" .. tv .. \" \" .. string_format( \"%q\", tostring( v)), 2)\r\n\t\tend\r\n\tend\r\n\r\n\t-- the last argument should be a function or a string\r\n\tlocal func = select( n, ...)\r\n\tlocal functype = type( func)\r\n\tif functype ~= \"function\" and functype ~= \"string\" then\r\n\t\terror( \"Last parameter not function or string: \" .. functype .. \" \" .. string_format( \"%q\", tostring( func)), 2)\r\n\tend\r\n\r\n\t-- check that the caller only provides reserved library names, and those only once\r\n\t-- \"*\" is a special case that doesn't require individual checking\r\n\tif libs and libs ~= \"*\" then\r\n\t\tlocal found = {}\r\n\t\tfor s in string_gmatch(libs, \"[%a%d.]+\") do\r\n\t\t\tif not valid_libs[s] then\r\n\t\t\t\terror( \"Bad library name: \" .. s, 2)\r\n\t\t\telse\r\n\t\t\t\tfound[s] = (found[s] or 0) + 1\r\n\t\t\t\tif found[s] > 1 then\r\n\t\t\t\t\terror( \"libs specification contains '\" .. s .. \"' more than once\", 2)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\r\n\t-- validate that each option is known and properly valued\r\n\tfor k, v in pairs( opt) do\r\n\t\tlocal validator = opt_validators[k]\r\n\t\tif not validator then\r\n\t\t\terror( (type( k) == \"number\" and \"Unkeyed option: \" .. type( v) .. \" \" .. string_format( \"%q\", tostring( v)) or \"Bad '\" .. tostring( k) .. \"' option\"), 2)\r\n\t\telse\r\n\t\t\topt[k] = validator( v)\r\n\t\tend\r\n\tend\r\n\r\n\tlocal cancelstep, priority, globals, package, required, gc_cb = opt.cancelstep, opt.priority, opt.globals, opt.package or package, opt.required, opt.gc_cb\r\n\treturn function( ...)\r\n\t\t-- must pass functions args last else they will be truncated to the first one\r\n\t\treturn core_lane_new( func, libs, cancelstep, priority, globals, package, required, gc_cb, ...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local function func( depth )\r\n    io.stderr:write(\" \" .. depth)\r\n    if depth > 10 then\r\n        return \"done!\"\r\n    end\r\n\r\n    local lanes = require \"lanes\"\r\n    -- lanes.configure() is available only at the first require()\r\n    if lanes.configure then\r\n\t\t\tlanes = lanes.configure{with_timers = false}\r\n\t\tend\r\n    local lane= lanes.gen(\"*\", func)( depth+1 )\r\n    return lane[1]\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "io.stderr:write(\" \" .. depth)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "if depth > 10 then\r\n        return \"done!\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "local lanes = require \"lanes\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "if lanes.configure then\r\n\t\t\tlanes = lanes.configure{with_timers = false}\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "lanes = lanes.configure{with_timers = false}",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "local lane= lanes.gen(\"*\", func)( depth+1 )",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 14,
+    "text": "configure",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

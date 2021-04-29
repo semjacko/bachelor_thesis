@@ -1,0 +1,721 @@
+{
+  "_filename": "cache.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/cache.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 61,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 61,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 61,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 75
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 76
+  }, {
+    "from": 76,
+    "label": "initializes",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "requires",
+    "to": 74
+  }, {
+    "from": 76,
+    "label": "initializes",
+    "to": 78
+  }, {
+    "from": 78,
+    "label": "requires",
+    "to": 71
+  }, {
+    "from": 76,
+    "label": "initializes",
+    "to": 79
+  }, {
+    "from": 79,
+    "label": "requires",
+    "to": 73
+  }, {
+    "from": 76,
+    "label": "initializes",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "requires",
+    "to": 72
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cache",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function add_files_to_server(refresh, rockfiles, server, upload_server)\r\n   assert(type(refresh) == \"boolean\" or not refresh)\r\n   assert(type(rockfiles) == \"table\")\r\n   assert(type(server) == \"string\")\r\n   assert(type(upload_server) == \"table\" or not upload_server)\r\n   \r\n   local download_url, login_url = cache.get_server_urls(server, upload_server)\r\n   local at = fs.current_dir()\r\n   local refresh_fn = refresh and cache.refresh_local_cache or cache.split_server_url\r\n   \r\n   local local_cache, protocol, server_path, user, password = refresh_fn(server, download_url, cfg.upload_user, cfg.upload_password)\r\n   if not local_cache then\r\n      return nil, protocol\r\n   end\r\n   if protocol == \"file\" then\r\n      return nil, \"Server \"..server..\" is not recognized, check your configuration.\"\r\n   end\r\n   \r\n   if not login_url then\r\n      login_url = protocol..\"://\"..server_path\r\n   end\r\n   \r\n   local ok, err = fs.change_dir(at)\r\n   if not ok then return nil, err end\r\n   \r\n   local files = {}\r\n   for i, rockfile in ipairs(rockfiles) do\r\n      if fs.exists(rockfile) then\r\n         util.printout(\"Copying file \"..rockfile..\" to \"..local_cache..\"...\")\r\n         local absolute = fs.absolute_name(rockfile)\r\n         fs.copy(absolute, local_cache)\r\n         table.insert(files, dir.base_name(absolute))\r\n      else\r\n         util.printerr(\"File \"..rockfile..\" not found\")\r\n      end\r\n   end\r\n   if #files == 0 then\r\n      return nil, \"No files found\"\r\n   end\r\n\r\n   local ok, err = fs.change_dir(local_cache)\r\n   if not ok then return nil, err end\r\n\r\n   util.printout(\"Updating manifest...\")\r\n   manif.make_manifest(local_cache, \"one\", true)\r\n   \r\n   manif.zip_manifests()\r\n   \r\n   util.printout(\"Updating index.html...\")\r\n   index.make_index(local_cache)\r\n\r\n   local login_info = \"\"\r\n   if user then login_info = \" -u \"..user end\r\n   if password then login_info = login_info..\":\"..password end\r\n   if not login_url:match(\"/$\") then\r\n      login_url = login_url .. \"/\"\r\n   end\r\n\r\n   table.insert(files, \"index.html\")\r\n   table.insert(files, \"manifest\")\r\n   for ver in util.lua_versions() do\r\n      table.insert(files, \"manifest-\"..ver)\r\n      table.insert(files, \"manifest-\"..ver..\".zip\")\r\n   end\r\n\r\n   -- TODO abstract away explicit 'curl' call\r\n\r\n   local cmd\r\n   if protocol == \"rsync\" then\r\n      local srv, path = server_path:match(\"([^/]+)(/.+)\")\r\n      cmd = cfg.variables.RSYNC..\" \"..cfg.variables.RSYNCFLAGS..\" -e ssh \"..local_cache..\"/ \"..user..\"@\"..srv..\":\"..path..\"/\"\r\n   elseif upload_server and upload_server.sftp then\r\n      local part1, part2 = upload_server.sftp:match(\"^([^/]*)/(.*)$\")\r\n      cmd = cfg.variables.SCP..\" \"..table.concat(files, \" \")..\" \"..user..\"@\"..part1..\":/\"..part2\r\n   else\r\n      cmd = cfg.variables.CURL..\" \"..login_info..\" -T '{\"..table.concat(files, \",\")..\"}' \"..login_url\r\n   end\r\n\r\n   util.printout(cmd)\r\n   fs.execute(cmd)\r\n\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function run(...)\r\n   local files = { util.parse_flags(...) }\r\n   local flags = table.remove(files, 1)\r\n   if #files < 1 then\r\n      return nil, \"Argument missing. \"..util.see_help(\"add\", \"luarocks-admin\")\r\n   end\r\n   local server, server_table = cache.get_upload_server(flags[\"server\"])\r\n   if not server then return nil, server_table end\r\n   return add_files_to_server(not flags[\"no-refresh\"], files, server, server_table)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local function remove_files_from_server(refresh, rockfiles, server, upload_server)\r\n   assert(type(refresh) == \"boolean\" or not refresh)\r\n   assert(type(rockfiles) == \"table\")\r\n   assert(type(server) == \"string\")\r\n   assert(type(upload_server) == \"table\" or not upload_server)\r\n\r\n   local download_url, login_url = cache.get_server_urls(server, upload_server)\r\n   local at = fs.current_dir()\r\n   local refresh_fn = refresh and cache.refresh_local_cache or cache.split_server_url\r\n   \r\n   local local_cache, protocol, server_path, user, password = refresh_fn(server, download_url, cfg.upload_user, cfg.upload_password)\r\n   if not local_cache then\r\n      return nil, protocol\r\n   end\r\n   if protocol ~= \"rsync\" then\r\n      return nil, \"This command requires 'rsync', check your configuration.\"\r\n   end\r\n   \r\n   local ok, err = fs.change_dir(at)\r\n   if not ok then return nil, err end\r\n   \r\n   local nr_files = 0\r\n   for i, rockfile in ipairs(rockfiles) do\r\n      local basename = dir.base_name(rockfile)\r\n      local file = dir.path(local_cache, basename)\r\n      util.printout(\"Removing file \"..file..\"...\")\r\n      fs.delete(file)\r\n      if not fs.exists(file) then\r\n         nr_files = nr_files + 1\r\n      else\r\n         util.printerr(\"Failed removing \"..file)\r\n      end\r\n   end\r\n   if nr_files == 0 then\r\n      return nil, \"No files removed.\"\r\n   end\r\n\r\n   local ok, err = fs.change_dir(local_cache)\r\n   if not ok then return nil, err end\r\n\r\n   util.printout(\"Updating manifest...\")\r\n   manif.make_manifest(local_cache, \"one\", true)\r\n   util.printout(\"Updating index.html...\")\r\n   index.make_index(local_cache)\r\n\r\n   local srv, path = server_path:match(\"([^/]+)(/.+)\")\r\n   local cmd = cfg.variables.RSYNC..\" \"..cfg.variables.RSYNCFLAGS..\" --delete -e ssh \"..local_cache..\"/ \"..user..\"@\"..srv..\":\"..path..\"/\"\r\n\r\n   util.printout(cmd)\r\n   fs.execute(cmd)\r\n\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function run(...)\r\n   local files = { util.parse_flags(...) }\r\n   local flags = table.remove(files, 1)\r\n   if #files < 1 then\r\n      return nil, \"Argument missing. \"..util.see_help(\"remove\", \"luarocks-admin\")\r\n   end\r\n   local server, server_table = cache.get_upload_server(flags[\"server\"])\r\n   if not server then return nil, server_table end\r\n   return remove_files_from_server(not flags[\"no-refresh\"], files, server, server_table)\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function get_upload_server(server)\r\n   if not server then server = cfg.upload_server end\r\n   if not server then\r\n      return nil, \"No server specified and no default configured with upload_server.\"\r\n   end\r\n   return server, cfg.upload_servers and cfg.upload_servers[server]\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "if not server then server = cfg.upload_server end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "server = cfg.upload_server",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "if not server then\r\n      return nil, \"No server specified and no default configured with upload_server.\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function get_server_urls(server, upload_server)\r\n   local download_url = server\r\n   local login_url = nil\r\n   if upload_server then\r\n      if upload_server.rsync then download_url = \"rsync://\"..upload_server.rsync\r\n      elseif upload_server.http then download_url = \"http://\"..upload_server.http\r\n      elseif upload_server.ftp then download_url = \"ftp://\"..upload_server.ftp\r\n      end\r\n      \r\n      if upload_server.ftp then login_url = \"ftp://\"..upload_server.ftp\r\n      elseif upload_server.sftp then login_url = \"sftp://\"..upload_server.sftp\r\n      end\r\n   end\r\n   return download_url, login_url\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "local download_url = server",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local login_url = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "if upload_server then\r\n      if upload_server.rsync then download_url = \"rsync://\"..upload_server.rsync\r\n      elseif upload_server.http then download_url = \"http://\"..upload_server.http\r\n      elseif upload_server.ftp then download_url = \"ftp://\"..upload_server.ftp\r\n      end\r\n      \r\n      if upload_server.ftp then login_url = \"ftp://\"..upload_server.ftp\r\n      elseif upload_server.sftp then login_url = \"sftp://\"..upload_server.sftp\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "if upload_server.rsync then download_url = \"rsync://\"..upload_server.rsync\r\n      elseif upload_server.http then download_url = \"http://\"..upload_server.http\r\n      elseif upload_server.ftp then download_url = \"ftp://\"..upload_server.ftp\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "download_url = \"rsync://\"..upload_server.rsync",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "download_url = \"http://\"..upload_server.http",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "download_url = \"ftp://\"..upload_server.ftp",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "if upload_server.ftp then login_url = \"ftp://\"..upload_server.ftp\r\n      elseif upload_server.sftp then login_url = \"sftp://\"..upload_server.sftp\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "login_url = \"ftp://\"..upload_server.ftp",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "login_url = \"sftp://\"..upload_server.sftp",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function split_server_url(server, url, user, password)\r\n   local protocol, server_path = dir.split_url(url)\r\n   if server_path:match(\"@\") then\r\n      local credentials\r\n      credentials, server_path = server_path:match(\"([^@]*)@(.*)\")\r\n      if credentials:match(\":\") then\r\n         user, password = credentials:match(\"([^:]*):(.*)\")\r\n      else\r\n         user = credentials\r\n      end\r\n   end\r\n   local local_cache\r\n   if cfg.local_cache then\r\n      local_cache = cfg.local_cache .. \"/\" .. server\r\n   end\r\n   return local_cache, protocol, server_path, user, password\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "local protocol, server_path = dir.split_url(url)",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if server_path:match(\"@\") then\r\n      local credentials\r\n      credentials, server_path = server_path:match(\"([^@]*)@(.*)\")\r\n      if credentials:match(\":\") then\r\n         user, password = credentials:match(\"([^:]*):(.*)\")\r\n      else\r\n         user = credentials\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "local credentials",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "credentials, server_path = server_path:match(\"([^@]*)@(.*)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "if credentials:match(\":\") then\r\n         user, password = credentials:match(\"([^:]*):(.*)\")\r\n      else\r\n         user = credentials\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "user, password = credentials:match(\"([^:]*):(.*)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "user = credentials",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "local local_cache",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "if cfg.local_cache then\r\n      local_cache = cfg.local_cache .. \"/\" .. server\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "local_cache = cfg.local_cache .. \"/\" .. server",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "function refresh_local_cache(server, url, user, password)\r\n   local local_cache, protocol, server_path, user, password = split_server_url(server, url, user, password)\r\n\r\n   local ok, err = fs.make_dir(cfg.local_cache)\r\n   if not ok then return nil, err end\r\n\r\n   local tmp_cache = false\r\n   if not local_cache then\r\n      local err\r\n      local_cache, err = fs.make_temp_dir(\"local_cache\")\r\n      tmp_cache = true\r\n   end\r\n   local ok, err = fs.make_dir(local_cache)\r\n   if not ok then\r\n      return nil, \"Failed creating local cache dir: \"..err\r\n   end\r\n   fs.change_dir(local_cache)\r\n   if not ok then return nil, err end\r\n   util.printout(\"Refreshing cache \"..local_cache..\"...\")\r\n\r\n   -- TODO abstract away explicit 'wget' call\r\n   local ok = false\r\n   if protocol == \"rsync\" then\r\n      local srv, path = server_path:match(\"([^/]+)(/.+)\")\r\n      ok = fs.execute(cfg.variables.RSYNC..\" \"..cfg.variables.RSYNCFLAGS..\" -e ssh \"..user..\"@\"..srv..\":\"..path..\"/ \"..local_cache..\"/\")\r\n   else \r\n      local login_info = \"\"\r\n      if user then login_info = \" --user=\"..user end\r\n      if password then login_info = login_info .. \" --password=\"..password end\r\n      ok = fs.execute(cfg.variables.WGET..\" --no-cache -q -m -np -nd \"..protocol..\"://\"..server_path..login_info)\r\n   end\r\n   if not ok then\r\n      return nil, \"Failed downloading cache.\"\r\n   end\r\n   return local_cache, protocol, server_path, user, password\r\nend",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "local local_cache, protocol, server_path, user, password = split_server_url(server, url, user, password)",
+    "type": "statement:localassign"
+  }, {
+    "id": 38,
+    "text": "local ok, err = fs.make_dir(cfg.local_cache)",
+    "type": "statement:localassign"
+  }, {
+    "id": 39,
+    "text": "if not ok then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 40,
+    "text": "local tmp_cache = false",
+    "type": "statement:localassign"
+  }, {
+    "id": 41,
+    "text": "if not local_cache then\r\n      local err\r\n      local_cache, err = fs.make_temp_dir(\"local_cache\")\r\n      tmp_cache = true\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 42,
+    "text": "local err",
+    "type": "statement:localassign"
+  }, {
+    "id": 43,
+    "text": "local_cache, err = fs.make_temp_dir(\"local_cache\")",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "tmp_cache = true",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "local ok, err = fs.make_dir(local_cache)",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "if not ok then\r\n      return nil, \"Failed creating local cache dir: \"..err\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "fs.change_dir(local_cache)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 48,
+    "text": "util.printout(\"Refreshing cache \"..local_cache..\"...\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 49,
+    "text": "local ok = false",
+    "type": "statement:localassign"
+  }, {
+    "id": 50,
+    "text": "if protocol == \"rsync\" then\r\n      local srv, path = server_path:match(\"([^/]+)(/.+)\")\r\n      ok = fs.execute(cfg.variables.RSYNC..\" \"..cfg.variables.RSYNCFLAGS..\" -e ssh \"..user..\"@\"..srv..\":\"..path..\"/ \"..local_cache..\"/\")\r\n   else \r\n      local login_info = \"\"\r\n      if user then login_info = \" --user=\"..user end\r\n      if password then login_info = login_info .. \" --password=\"..password end\r\n      ok = fs.execute(cfg.variables.WGET..\" --no-cache -q -m -np -nd \"..protocol..\"://\"..server_path..login_info)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "local srv, path = server_path:match(\"([^/]+)(/.+)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "ok = fs.execute(cfg.variables.RSYNC..\" \"..cfg.variables.RSYNCFLAGS..\" -e ssh \"..user..\"@\"..srv..\":\"..path..\"/ \"..local_cache..\"/\")",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "local login_info = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 54,
+    "text": "if user then login_info = \" --user=\"..user end",
+    "type": "statement:if"
+  }, {
+    "id": 55,
+    "text": "login_info = \" --user=\"..user",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "if password then login_info = login_info .. \" --password=\"..password end",
+    "type": "statement:if"
+  }, {
+    "id": 57,
+    "text": "login_info = login_info .. \" --password=\"..password",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "ok = fs.execute(cfg.variables.WGET..\" --no-cache -q -m -np -nd \"..protocol..\"://\"..server_path..login_info)",
+    "type": "statement:assign"
+  }, {
+    "id": 59,
+    "text": "if not ok then\r\n      return nil, \"Failed downloading cache.\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 62,
+    "text": "function split_url(url)\r\n   assert(type(url) == \"string\")\r\n   \r\n   local protocol, pathname = url:match(\"^([^:]*)://(.*)\")\r\n   if not protocol then\r\n      protocol = \"file\"\r\n      pathname = url\r\n   end\r\n   return protocol, pathname\r\nend",
+    "type": "function"
+  }, {
+    "id": 63,
+    "text": "function make_temp_dir(name)\r\n   assert(type(name) == \"string\")\r\n   name = dir.normalize(name)\r\n\r\n   local temp_dir = (os.getenv(\"TMP\") or \"/tmp\") .. \"/luarocks_\" .. name:gsub(dir.separator, \"_\") .. \"-\" .. tostring(math.floor(math.random() * 10000))\r\n   local ok, err = fs.make_dir(temp_dir)\r\n   if ok then\r\n      return temp_dir\r\n   else\r\n      return nil, err\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 64,
+    "text": "function execute(command, ...)\r\n   assert(type(command) == \"string\")\r\n   return fs.execute_string(quote_args(command, ...))\r\nend",
+    "type": "function"
+  }, {
+    "id": 65,
+    "text": "function change_dir(d)\r\n   table.insert(dir_stack, lfs.currentdir())\r\n   d = dir.normalize(d)\r\n   return lfs.chdir(d)\r\nend",
+    "type": "function"
+  }, {
+    "id": 66,
+    "text": "function make_dir(directory)\r\n   assert(type(directory) == \"string\")\r\n   directory = dir.normalize(directory)\r\n   local path = nil\r\n   if directory:sub(2, 2) == \":\" then\r\n     path = directory:sub(1, 2)\r\n     directory = directory:sub(4)\r\n   else\r\n     if directory:match(\"^/\") then\r\n        path = \"\"\r\n     end\r\n   end\r\n   for d in directory:gmatch(\"([^\"..dir.separator..\"]+)\"..dir.separator..\"*\") do\r\n      path = path and path .. dir.separator .. d or d\r\n      local mode = lfs.attributes(path, \"mode\")\r\n      if not mode then\r\n         local ok, err = lfs.mkdir(path)\r\n         if not ok then\r\n            return false, err\r\n         end\r\n      elseif mode ~= \"directory\" then\r\n         return false, path..\" is not a directory\"\r\n      end\r\n   end\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 67,
+    "text": "function run(...)\r\n   local flags = util.parse_flags(...)\r\n   local server, upload_server = cache.get_upload_server(flags[\"server\"])\r\n   if not server then return nil, upload_server end\r\n   local download_url = cache.get_server_urls(server, upload_server)\r\n   \r\n   local ok, err = cache.refresh_local_cache(server, download_url, cfg.upload_user, cfg.upload_password)\r\n   if not ok then\r\n      return nil, err\r\n   else\r\n      return true\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 68,
+    "text": "function printout(...)\r\n   io.stdout:write(table.concat({...},\"\\t\"))\r\n   io.stdout:write(\"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 69,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 70,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 71,
+    "text": "cfg)",
+    "type": "module"
+  }, {
+    "id": 72,
+    "text": "util)",
+    "type": "module"
+  }, {
+    "id": 73,
+    "text": "dir)",
+    "type": "module"
+  }, {
+    "id": 74,
+    "text": "fs)",
+    "type": "module"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

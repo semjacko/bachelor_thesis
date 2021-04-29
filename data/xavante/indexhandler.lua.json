@@ -1,0 +1,189 @@
+{
+  "_filename": "indexhandler.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/xavante/src/xavante/indexhandler.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 18,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "indexhandler",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function indexhandler (req, res, indexname)\r\n\tlocal indexUrl = string.gsub (req.cmd_url, \"/[^/]*$\", indexname)\r\n\tindexUrl = string.format (\"http://%s%s\", req.headers.host or \"\", indexUrl)\r\n\t\r\n\tres:add_header (\"Location\", indexUrl)\r\n\tres.statusline = \"HTTP/1.1 302 Found\"\r\n\tres.content = \"redirect\"\r\n\r\n\tres:send_headers()\r\n\treturn res\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local indexUrl = string.gsub (req.cmd_url, \"/[^/]*$\", indexname)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "indexUrl = string.format (\"http://%s%s\", req.headers.host or \"\", indexUrl)",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "res:add_header (\"Location\", indexUrl)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "res.statusline = \"HTTP/1.1 302 Found\"",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "res.content = \"redirect\"",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "res:send_headers()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function xavante.indexhandler (indexname)\r\n\treturn function (req, res)\r\n\t\treturn indexhandler (req, res, indexname)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function (req, res)\r\n\t\treturn indexhandler (req, res, indexname)\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 16,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require container"
+  } ]
+}

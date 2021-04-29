@@ -1,0 +1,125 @@
+{
+  "_filename": "start.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/mobdebug/examples/start.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "assigns",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "initializes",
+    "to": 8
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "start",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function bar()\r\n    print(\"In bar\")\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "print(\"In bar\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "number"
+  } ]
+}

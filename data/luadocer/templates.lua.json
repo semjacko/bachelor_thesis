@@ -1,0 +1,433 @@
+{
+  "_filename": "templates.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luadocer/src/luadocer/doclet/templates.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 43
+  }, {
+    "from": 3,
+    "label": "represents",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "provides",
+    "to": 44
+  }, {
+    "from": 19,
+    "label": "represents",
+    "to": 45
+  }, {
+    "from": 43,
+    "label": "provides",
+    "to": 45
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "templates",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function start (doc)\r\n\t-- store global template helper functions in the doc object\r\n\t---------------\r\n\t-- Convert special charecters into HTML entities, this fixes MANY html-injection bugs on many pages\r\n\t-- @author Viliam Kubis\r\n\tdoc.sh=function (text)\r\n\r\n\t\tif text~= nil then\r\n\t\t\ttext = text:gsub(lfs.currentdir(), \"\")\r\n\t\tend\r\n\t\tif(text==nil) then\r\n\t\t\treturn nil;\r\n\t\tend\r\n\t\tif(type(text)~=\"string\") then\r\n\t\t\treturn text;\r\n\t\tend\r\n\t\ttext=text:gsub(\"&\",\"&amp;\");\r\n\t  \ttext=text:gsub(\"&#\",\"&#38;&#35;\");\r\n\t\ttext=text:gsub(\"<\",\"&lt;\");\r\n\t\ttext=text:gsub(\">\",\"&gt;\");\r\n\t\ttext=text:gsub(\"\\\"\",\"&#34;\");\r\n\t\ttext=text:gsub(\"'\",\"&#39;\");\r\n\t\treturn text;\r\n\tend;\r\n--KOSA\r\n---\r\n-- Helper for indexOfFunctions/Tables\r\n\tdoc.pathprefix=function(paths)\r\n\t\tlocal prefix\r\n\t\tlocal newpref=''\r\n\t\tfor k,v in pairs(paths) do\t\r\n\t\t\tv.path = v.path:gsub(lfs.currentdir(), \"\")\r\n\t\t--OKA\r\n\t\t\tif(prefix==nil)then\r\n\t\t\t\t\r\n\t\t\telseif(prefix~=v.path)then\r\n\t\t\t\tlocal split1 = {}\r\n\t\t\t\tlocal split2 = {}\r\n\t\t\t\tfor _,split in pairs(strsplit('/',prefix))do\r\n\t\t\t\t\ttable.insert(split1,split)\r\n\t\t\t\tend\r\n\t\t\t\tfor _,split in pairs(strsplit('/',v.path))do\r\n\t\t\t\t\ttable.insert(split2,split)\r\n\t\t\t\tend\r\n\t\t\t\tif(#split1 > #split2)then\r\n\t\t\t\t\tfor index,str in pairs(split2) do\r\n\t\t\t\t\t\tif(split1[index]==str)then\r\n\t\t\t\t\t\t\tif(newpref=='')then\r\n\t\t\t\t\t\t\t\tnewpref = '/' .. str\r\n\t\t\t\t\t\t\telse\r\n\t\t\t\t\t\t\t\tnewpref = newpref  .. '/' .. str\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\telse\r\n\t\t\t\t\t\t\tbreak\r\n\t\t\t\t\t\tend\r\n\t\t\t\t\tend\r\n\t\t\t\telse\r\n\t\t\t\t\tfor index,str in pairs(split1) do\r\n\t\t\t\t\t\tif(split2[index]==str)then\r\n\t\t\t\t\t\t\tif(newpref=='')then\r\n\t\t\t\t\t\t\t\tnewpref = '/' .. str\r\n\t\t\t\t\t\t\telse\r\n\t\t\t\t\t\t\t\tnewpref = newpref  .. '/' ..  str\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\telse\r\n\t\t\t\t\t\t\tbreak\r\n\t\t\t\t\t\tend\r\n\t\t\t\t\tend\r\n\t\t\t\t\r\n\t\t\t\tend\r\n\t\t\t\tprefix = newpref\t\t\t\r\n\t\t\t\tnewpref=''\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\treturn prefix\r\n\tend;\r\n---\r\n-- Helper for indexOfFunctions/\t\r\n\tdoc.pathsuffix=function(common,full)\r\n\t\tlocal suffix\r\n\t\tif(full == common or common==nil)then\r\n\t\t\treturn ''\r\n\t\tend\r\n\t\tsuffix = string.sub(full,string.len(common)+1)\r\n\t\treturn suffix\r\n\tend;\r\n-------------------------------------------------------------------\t\r\n\t-- Generate index file\r\n\tif (#doc.files > 0 or #doc.modules > 0) and (not options.noindexpage) then\r\n\r\n\t\t-- KARASEK\r\n\t\tif options.plantuml_path ~= nil then \r\n\t\t\tdoc.diagram = 1 \t\t\t\t\t-- add 'UML diagrams' option to menu \r\n\t\tend\r\n\r\n\t\tif options.syntax_check == \"write\" then\r\n\t\t\tdoc.check = 1 \t\t\t\t\t-- add 'Static analysis' option to menu \r\n\t\tend\r\n\t\t\r\n\t\tlocal filename = options.output_dir..\"index.html\"\r\n\t\tlogger:info(string.format(\"generating file `%s'\", filename))\r\n\t\tlocal f = lfs.open(filename, \"w\")\r\n\t\tassert(f, string.format(\"could not open `%s' for writing\", filename))\r\n\t\tio.output(f)\r\n\t\tinclude(\"index.lp\", { doc = doc, os=os })\r\n\t\tf:close()\r\n\tend\r\n\t\r\n\t-- Generate list of modules (will not be accesible when nomodules=on)\r\n\tlocal filename = options.output_dir..\"list_of_modules.html\"\r\n\tlogger:info(string.format(\"generating file `%s'\", filename))\r\n\tlocal f = lfs.open(filename, \"w\")\r\n\tassert(f, string.format(\"could not open `%s' for writing\", filename))\r\n\tio.output(f)\r\n\tinclude(\"list_of_modules.lp\", { doc = doc })\r\n\tf:close()\r\n\t\r\n\t-- Generate list of files (will not be accesible when nofiles=on)\r\n\tlocal filename = options.output_dir..\"list_of_files.html\"\r\n\tlogger:info(string.format(\"generating file `%s'\", filename))\r\n\tlocal f = lfs.open(filename, \"w\")\r\n\tassert(f, string.format(\"could not open `%s' for writing\", filename))\r\n\tio.output(f)\r\n\tinclude(\"list_of_files.lp\", { doc = doc })\r\n\tf:close()\r\n\r\n\t-- generate module hierarchy\r\n\tlocal module_hierarchy={};\r\n\tfor _, modulename in ipairs(doc.modules) do\r\n\t\tlocal last=modulename:gsub(\"%..+$\",\"\");\r\n\t\tif(last~=modulename) then --nazov s bodkou\r\n\t\t\tlocal key=modulename:match(\"(.+)%..+$\");\r\n\t\t\tif(not module_hierarchy[key]) then\r\n\t\t\t\tmodule_hierarchy[key]={modulename:match(\"[^.]+$\")};\r\n\t\t\telse\r\n\t\t\t\ttable.insert(module_hierarchy[key],modulename:match(\"[^.]+$\"));\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\tfor k,v in pairs(module_hierarchy) do\r\n\t\tlocal filename = options.output_dir..\"module_hierarchy/\"..k..\".html\" -- WARNING: might not be safe! Module name could contain special characters..\r\n\t\tlogger:info(string.format(\"generating file `%s'\", filename))\r\n\t\tlocal f = lfs.open(filename, \"w\")\r\n\t\tassert(f, string.format(\"could not open `%s' for writing\", filename))\r\n\t\tio.output(f)\r\n\t\tinclude(\"module_hierarchy.lp\", { doc = doc, modname=k, hierarchy=v })\r\n\t\tf:close()\r\n\tend\r\n\tmodule_hierarchy=nil;\r\n\t\r\n\t-- generate file listing for each subdirectory in the project\r\n\tlocal file_hierarchy={};\r\n\tfor _, filename in ipairs(doc.files) do\r\n\t\tlocal last=filename:gsub(\"/.+$\",\"\");\r\n\r\n\t\tif(last~=filename) then --nazov v adresari\r\n\t\t\tlocal key=filename:match(\"(.+)/.+$\");\r\n\t\t\tif(not file_hierarchy[key]) then\r\n\t\t\t\tfile_hierarchy[key]={filename:match(\"[^/]+$\")};\r\n\t\t\telse\r\n\t\t\t\ttable.insert(file_hierarchy[key],filename:match(\"[^/]+$\"));\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\t\r\n\tfor k,v in pairs(file_hierarchy) do\r\n\t\tk = k:gsub(lfs.currentdir(), \"\")\r\n    k = cutPathToSources(k)\r\n\t\tlocal filename = options.output_dir..\"files\"..k..\"/file_listing.lua.lua.lua.html\";  -- NOT OK if the directory contains file named file_listing.lua.lua.lua.lua -> becomes file_listing.lua.lua.lua.html -> TODO: generate unique filename somehow or store in a different folder (e.g listings/)\r\n\r\n\t\tlogger:info(string.format(\"generating file `%s'\", filename))\r\n\t\tlocal f = lfs.open(filename, \"w\")\r\n\t\tassert(f, string.format(\"could not open `%s' for writing\", filename))\r\n\t\tio.output(f)\r\n\t\tinclude(\"file_listing.lp\", { doc = doc, fname=k, hierarchy=v })\r\n\t\tf:close()\r\n\tend\r\n\r\n\t-- KARASEK\r\n\t-- static check\r\n\tif options.syntax_check == \"print\" then  \t\t-- if 'print' was on stdin then just print to stdout \r\n\t\tprint(\"Start syntax analysis...\");\r\n\r\n\t\tfor _, filepath in ipairs(doc.files) do\t\r\n\t\t\tos.execute(\"luacheck \" .. filepath)\r\n\t\tend\r\n\tend\r\n\r\n\tlocal analysis_results = {}\r\n\tif options.syntax_check == \"write\" then \r\n\t\tio.stdout:write(\"Syntax analysis...\\r\")\r\n\t\tio.stdout:flush()\r\n\t\t\r\n\t\tfor _, filepath in ipairs(doc.files) do\r\n\r\n\t\t\tlocal temp_file = filepath:gsub('.%w*$', '') .. \"_checking\" \t\t\t-- we need make temporary file of luacheck report\r\n\t\t\tos.execute(\"luacheck --no-color \" .. filepath .. \" > \" .. temp_file) \t-- execute analysis\r\n\t\t\t\r\n\t\t\tlocal result = pkio.ReadFile(temp_file) \t-- add analysis to table\r\n\t\t\tanalysis_results[#analysis_results+1] = {}\r\n\t\t\t\r\n\t\t\tif (string.match(result, \"Failure\")) then \t\t\t\t\t\t-- if we find \"Failure\" in result text it has warnings or errors\r\n\t\t\t\tanalysis_results[#analysis_results].name = filepath:gsub(lfs.currentdir(), \"\")\r\n\t\t\t\tanalysis_results[#analysis_results].status = 'Failure'\r\n\t\t\t\t\r\n\t\t\t\tlocal temp_result = result:gsub('^Checking(.+)Failure(.+)Total:(.+)', '%2')\r\n\t\t\t\ttemp_result = temp_result:gsub(filepath .. \":\", \"\")\r\n\r\n\t\t\t\tanalysis_results[#analysis_results].result = temp_result:gsub(\"%s%s+\",'\\n')\r\n\t\t\t\tanalysis_results[#analysis_results].info = result:gsub('^.+Total:', 'Total:')\r\n\t\t\telse -- if not then it's OK\r\n\t\t\t\tanalysis_results[#analysis_results].name = filepath:gsub(lfs.currentdir(), \"\")\r\n\t\t\tend\r\n\t\t\tos.remove(temp_file) \t\t\t\t\t\t\t\t\t\t\t\t\t-- remove that temporary file\r\n\t\tend\r\n\r\n\t\t-- DEBUG PRINT\r\n\t\t-- for k,v in ipairs(analysis_results) do\r\n\t\t-- \tprint(analysis_results[k])\r\n\t\t-- end\r\n\t\t\t\r\n\t\tio.stdout:write(\"Start syntax analysis...\\tOK\\n\")\r\n\t\tio.stdout:flush()\r\n\tend\r\n\r\n\t-- generate diagrams\r\n\tlocal diagram_results = {}\r\n\tlocal settings = {}\t\r\n\r\n\tif options.plantuml_path ~= nil then \r\n\t\tio.stdout:write(\"Generating diagrams... \\r\")\r\n\t\tio.stdout:flush()\r\n\r\n\t\tfor _, filepath in ipairs(doc.files) do\t\r\n\t\t\t\r\n\t\t\tlocal text = pkio.ReadFile(filepath)\r\n\t\t\tsettings.plantuml_path = options.plantuml_path .. \" %s\"\r\n\t\t\tsettings.dir_path = util.getabsolutepath(options.output_dir) .. '/'\r\n\t\t\tsettings.current_file = filepath\r\n      \r\n      settings.extended_path = cutPathToSources(filepath)\r\n      \r\n\t\t\t-- parse extended_path\r\n\t\t\tsettings.extended_path = settings.extended_path:gsub(\"^(.+)/.-$\",\"%1/\")\r\n\t\t\tsettings.extended_path = settings.extended_path:gsub(\"^\\/\",\"\")\r\n\t\t\t\r\n\t\t\tsettings.file_format = \"svg\"\r\n\t\t\tdiagram_results = luaplantuml.process_text(text, settings)\r\n\t\tend\r\n\t\t-- DEBUG PRINT\r\n\t\t-- for _, v in ipairs(diagram_results) do\r\n\t\t-- \tprint(v.name .. ' CESTA: ' .. v.path .. '  STRING: ' .. v.uml_string)\r\n\t\t-- end\r\n\t\tio.stdout:write(\"Generating diagrams...\\t\\tOK\\n\")\r\n\t\tio.stdout:flush()\r\n\tend\r\n\r\n\t--MODIFICATION \\\\\\ (Ivan Simko) pridane globalne metriky ... a metriky ulozene do kazdej file_doc tabulky\r\n\tio.stdout:write(\"Generating metrics...\\r\")\r\n\tio.stdout:flush()\r\n\r\n\t--MODIFIED BY: Martin Nagy - edited global metrics generation (through metrics.templates)\r\n\tlocal fileList = {} --Created file list to generate metrics\r\n\r\n\tfor _, filepath in ipairs(doc.files) do\r\n\t\ttable.insert(fileList, filepath)\r\n\tend\r\n\r\n\t--Generate metrics to globalMetrics\r\n\tlocal globalMetrics = template.createASTAndMerge(fileList, options.files)\r\n\r\n\t--Loop to extend AST with literate module\r\n\tfor _, filepath in ipairs(doc.files) do\r\n\t    \r\n\t    local text = pkio.ReadFile(filepath)\r\n\t    local formatted_text = formatter.format_text(text);\r\n\r\n\t    -- potrebne nahradit windows newlines za unix newlines, inak dvojite nove riadky!! [LEG zoberie ako SPACE separatne \\r aj \\n, moderne browsery ciste \\r interpretuju ako newline -> dvojite nove riadky]\r\n\t    formatted_text = formatted_text:gsub(\"\\r\\n\",\"\\n\");\r\n\t    \r\n\t    local AST = globalMetrics.file_AST_list[cutPathToSources(filepath)] --Using generated AST instead of creating new one\r\n      \r\n\t    local file_doc = doc.files[filepath]\r\n\t    file_doc.metricsAST = AST\r\n\t    file_doc.formatted_text = formatted_text;\r\n\r\n\t    comments.extendAST(AST) --MODIFIED BY: Michal Juranyi\r\n\tend\r\n   \r\n        --MODIFIED BY: Michal Juranyi\r\n\t--_ listOfFunctions is globalMetrics.functionDefinitions table converted to associative array\r\n\tlocal listOfFunctions = {}\r\n\r\n\tfor _,fun in ipairs(globalMetrics.functionDefinitions) do\r\n\t\tfun.docstring = comments.findDocstring(fun)\r\n\t\tlistOfFunctions[fun.name] = fun\r\n\tend\r\n\r\n\tliterate.functions = listOfFunctions\r\n        --END OF MODIFICATION BY MJ\r\n\r\n\t-- Process modules\r\n\tif not options.nomodules then\r\n\t\tfor _, modulename in ipairs(doc.modules) do\r\n\t\t\tlocal module_doc = doc.modules[modulename]\r\n\r\n\t\t\t-- assembly the filename\r\n\t\t\tlocal filename = out_module(modulename)\r\n\t\t\tlogger:info(string.format(\"generating file `%s'\", filename))\r\n\t\t\t\r\n\t\t\tlocal f = lfs.open(filename, \"w\")\r\n\t\t\tassert(f, string.format(\"could not open `%s' for writing\", filename))\r\n\t\t\tio.output(f)\r\n\t\t\tinclude(\"module.lp\", { doc = doc, module_doc = module_doc, globalMetrics= globalMetrics} )\r\n\t\t\tf:close()\r\n\t\tend\r\n\t\tio.stdout:write(\"Generating metrics...\\t\\tOK\\n\")\r\n\t\tio.stdout:flush()\r\n\tend\r\n\t\r\n\t-- MODIF (Ivan Simko) - odstranene ! -> tableofFunctions a tableOfMetrics\r\n\t\r\n\t-- Process files\r\n\tif not options.nofiles then\r\n\t\tfor _, filepath in ipairs(doc.files) do\r\n\t\t\tdoc.files[filepath].name = doc.files[filepath].name:gsub(lfs.currentdir(), \"\")\r\n\t\t\tlocal file_doc = doc.files[filepath]\r\n\t\t\tfile_doc.file_name=file_doc.name:match(\"[^/]+$\");\r\n\t\t\tfile_doc.name = file_doc.name:gsub(lfs.currentdir(), \"\")\r\n      file_doc.name = cutPathToSources(file_doc.name)\r\n\t\t\t--MODIFICATION \\\\\\ (Ivan Simko) -> variables formatted_text and metricsAST are taken from file_doc\r\n\t\t\tlocal highlighter_pt=nil;\r\n\t\t\tif(file_doc.formatted_text) then\r\n\t\t\t\t-- convert the metrics parse tree to highlighter-compatible parse tree and pass the result as the parse tree to use during the highlighting process\r\n\t\t\t\tfile_doc.prettyprint, highlighter_pt = highlighter.highlight_text(file_doc.formatted_text,ast_helper.metrics_to_highlighter(file_doc.metricsAST)) -- set prettyprinted text of file_doc (the whole file)\r\n\t\t\t\t-- highlighter_pt now contains modified compatible parse-tree\r\n\t\t\t\t\r\n\t\t\t\t-- VYTVORIT PRETTYPRINT PRE KAZDU FUNKCIU SEPARATNE!\r\n\t\t\t\t-- crazy tabulka.. numericke kluce maju textove hodnoty, ktore su textove kluce do tej istej tabulky.. v ktorych je samotna dokumentacia funkcie\r\n\t\t\t\t-- tiez vytvorit separatnu dokumentacnu stranku pre kazdu funkciu!\r\n\t\t\t\tfor pos, func_name in ipairs(file_doc.functions) do\r\n\t\t\t\t\tlocal functionNode = ast_helper.metrics_to_highlighter(file_doc.metricsAST.luaDoc_functions[func_name]) or {}\r\n\t\t\t\t\t--file_doc['functions'][func_name]['prettyprint']=highlighter.assemble_table(ast_helper.getfunctionnode(highlighter_pt,func_name) or {});\r\n\t\t\t\t\tfile_doc['functions'][func_name]['prettyprint']=highlighter.assemble_table(functionNode);\r\n\t\t\t\t\t-- vygenerujeme unikatny nazov suboru pre tuto funkciu\r\n\r\n\t\t\t\t\tlocal filename = out_function(file_doc.name,func_name,pos);\r\n\t\t\t\t\tfile_doc['functions'][func_name]['detail_link']=filename;\r\n\r\n\t\t\t\t\t-- KARASEK\r\n\t\t\t\t\tif options.plantuml_path ~= nil then \r\n\t\t\t\t\t\tfor _, v in ipairs(diagram_results) do\r\n\r\n\t\t\t\t\t\t\tif v.name == \"global\" then \t\t-- add global UML path\r\n\t\t\t\t\t\t\t\tfile_doc.uml = v.path\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\tif v.name == func_name then \t-- add function UML path\r\n\t\t\t\t\t\t\t\tfile_doc['functions'][func_name]['uml']=v.path;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\tend\r\n\t\t\t\t\tend\r\n\r\n\t\t\t\t\tlogger:info(string.format(\"generating function detail: file `%s'\", filename))\r\n      \r\n\t\t\t\t\tlocal f = lfs.open(options.output_dir:gsub(\"/+\",\"/\")..\"files\"..file_doc.name:gsub(\"[^\\/]+$\",\"\")..filename, \"w\")\r\n\t\t\t\t\t\r\n\t\t\t\t\tassert(f, string.format(\"could not open `%s' for writing\", filename))\r\n\t\t\t\t\tio.output(f)\r\n\r\n\t\t\t\t\tinclude(\"function_detail.lp\", { doc = doc, file_doc = file_doc, func=file_doc['functions'][func_name], metricsAST = file_doc.metricsAST, globalMetrics = globalMetrics} )\r\n\t\t\t\t\tf:close()\r\n\t\t\t\tend\r\n\t\t\tend\r\n\r\n                        --MODIFIED BY:  Michal Juranyi\r\n\t\t\tliterate.filename = file_doc.name\r\n                        file_doc.literate = literate.literate(file_doc.metricsAST)\r\n                        --END OF MODIFICATION BY MJ\r\n\t\t\t\r\n\t\t\tfor _, funcinfo in pairs({}) do -- not working!! functionlister.getTableOfFunctions(text,true)) do\t\t-- appendinf function informations to the tableOfFunctions\r\n\t\t\t\tfuncinfo.path = filepath:gsub(lfs.currentdir(), \"\")\t\t\t\t\t\t\t\t\t\t\t\t\t-- set path\r\n\r\n\t\t\t\tmetricinfo.NOF = metricinfo.NOF + 1\t\t\t\t\t\t\t\t\t\t\t-- set metrics about functions\r\n\t\t\t\tif funcinfo.fcntype == \"global\" then metricinfo.NOGF = metricinfo.NOGF + 1 end\r\n\t\t\t\tif funcinfo.fcntype == \"local\"  then metricinfo.NOLF = metricinfo.NOLF + 1 end\r\n\t\t\tend\r\n\t\t\t--print(\"processing: \"..filepath) --TODO DELETE STATIC LOG PRINT\r\n\t\t\t--MODIFICATION ///\r\n      \r\n      local fname = cutPathToSources(file_doc.name)\r\n\t\t\t\r\n\t\t\t-- assembly the filename\r\n\t\t\tlocal filename = out_file(fname:gsub(lfs.currentdir(), \"\"))\r\n\r\n\t\t\tlogger:info(string.format(\"generating file `%s'\", filename))\r\n      \r\n\t\t\tlocal f = lfs.open(filename, \"w\")\r\n\t\t\tassert(f, string.format(\"could not open `%s' for writing\", filename))\r\n\t\t\tio.output(f)\r\n\t\t\t-- call the file template)\r\n\t\t\tinclude(\"file.lp\", {doc = doc, file_doc = file_doc, globalMetrics = globalMetrics} )\r\n\t\t\tf:close()\r\n\t\tend\r\n\tend\r\n\t\r\n\t-- /// MODIFICATION \\\\\\\r\n\t-- FUNCTIONS\r\n\t-- MODIF (Ivan Simko) - removed ! ->   table.sort(tableOfFunctions,functionlister.comparator)\r\n\tlocal functions = { name = \"index.html\" }\r\n\tlocal f = lfs.open(options.output_dir..\"functionlist/index.html\", \"w\")\r\n\tassert(f, string.format(\"could not open functionlist/index.html for writing\"))\r\n\tio.output(f)\r\n\r\n\t--Create parameter list to make documentation (parameters represents templates)\r\n\tlocal functionsParam = {\r\n\t\tdoc = doc,\r\n\t\tfunctionList = funcTableTemplate.createFunctionTableList(globalMetrics, \"functionDefinitions\", false),\r\n\t\tdocFunctionList = funcTableTemplate.createDocumentedFunctionTableList(globalMetrics, \"functionDefinitions\", 1, false),\r\n\t\tnDocFunctionList = funcTableTemplate.createDocumentedFunctionTableList(globalMetrics, \"functionDefinitions\", 0, false)\r\n\t}\r\n\r\n\t--Adding links to templates to make documentation interactive\r\n\tfunctionsParam.functionList = addLinksToTemplate(functionsParam.functionList)\r\n\tfunctionsParam.docFunctionList = addLinksToTemplate(functionsParam.docFunctionList)\r\n\tfunctionsParam.nDocFunctionList = addLinksToTemplate(functionsParam.nDocFunctionList)\r\n\r\n\tinclude(\"indexOfFunctions.lp\", functionsParam) -- -- MODIF (Ivan Simko) - added globalMetrics\r\n\tf:close()\r\n\t\r\n\t-- METRICS\r\n\tlocal metrics = { name = \"index.html\" }\r\n\tlocal f = lfs.open(options.output_dir..\"metrics/index.html\", \"w\")\r\n\tassert(f, string.format(\"could not open metrics/index.html for writing\"))\r\n\tio.output(f)\r\n\r\n\t--Create parameter list to make documentation (parameters represents templates)\r\n\tlocal metricsParam = {\r\n\t\tdoc = doc,\r\n\t\tLOCTable = docTemplates.createLOCTable(globalMetrics.LOC, globalMetrics.fileNum, globalMetrics.moduleNum),\r\n\t\tdocMetricsTable = docTemplates.createDocMetricsTable(globalMetrics.documentMetrics),\r\n\t\thalsteadTable = docTemplates.createHalsteadTable(globalMetrics.halstead),\r\n\t\tstatementsTable = docTemplates.createStatementsTable(globalMetrics.statements),\r\n\t\tfunctionsTable = docTemplates.createFunctionsTable(globalMetrics, globalMetrics.fileNum),\r\n\t\tmoduleLenGraph = docTemplates.createModuleLenGraph(globalMetrics, false),\r\n\t\tfileLenGraph = docTemplates.createFileLenGraph(globalMetrics, false),\r\n\t\tcouplingTable = docTemplates.createCouplingTable(globalMetrics)\r\n\t}\r\n\r\n\tinclude(\"indexOfMetrics.lp\", metricsParam ) -- MODIF (Ivan Simko) - added globalMetrics\r\n\tf:close()\r\n\t-- \\\\\\ MODIFICATION ///\r\n  \r\n  -- SMELLS - Martin Nagy  \r\n\tlocal f = lfs.open(options.output_dir..\"smells/index.html\", \"w\")\r\n\tassert(f, string.format(\"could not open smells/index.html for writing\"))\r\n\tio.output(f)\r\n\r\n\t--Create parameter list to make documentation (parameters represents templates)\r\n\tlocal smellsParam = {\r\n\t\tdoc = doc,\r\n\t\tlongMethodTable = smellTemplates.createLongMethodTable(globalMetrics),\r\n\t\tcycloTable = smellTemplates.createCycloTable(globalMetrics),\r\n\t\tmanyParamsTable = smellTemplates.createManyParamsTable(globalMetrics),\r\n\t\tmoduleTables = smellTemplates.createModuleTables(globalMetrics),\r\n\t\tMITable = smellTemplates.createMITable(globalMetrics),\r\n\t\tlongLinesTable = smellTemplates.createLongLinesTable(globalMetrics),\r\n\t\ttablesWithManyFieldsTable = smellTemplates.createTablesWithManyFieldsTable(globalMetrics),\r\n\t\tfunctionDepthTable = smellTemplates.createFunctionDepthTable(globalMetrics),\r\n\t\ttableDepthTable = smellTemplates.createTableDepthTable(globalMetrics),\r\n\t\tupvaluesTable = smellTemplates.createUpvaluesTable(globalMetrics),\r\n\r\n\t\tlongMethodGraph = smellTemplates.createLongMethodGraph(globalMetrics, false),\r\n\t\tcycloGraph = smellTemplates.createCycloGraph(globalMetrics, false),\r\n\t\tmanyParamsGraph = smellTemplates.createManyParamsGraph(globalMetrics, false),\r\n\t\tlongLinesGraph = smellTemplates.createLongLinesGraph(globalMetrics, false),\r\n\t\ttablesWithManyFieldsGraph = smellTemplates.createTablesWithManyFieldsGraph(globalMetrics, false),\r\n\t\tfunctionDepthGraph = smellTemplates.createFunctionDepthGraph(globalMetrics, false),\r\n\t\ttableDepthGraph = smellTemplates.createTableDepthGraph(globalMetrics, false),\r\n\t\tupvaluesGraph = smellTemplates.createUpvaluesGraph(globalMetrics, false),\r\n\t}\r\n\r\n\tinclude(\"indexOfSmells.lp\", smellsParam ) \r\n\tf:close()\r\n  -- END OF SMELLS\r\n\r\n\r\n\t-- /// MODIFICATION \\\\\\\r\n\t-- TABLES\r\n\tlocal tables = { name = \"index.html\" }\r\n\tlocal f = lfs.open(options.output_dir..\"tablelist/index.html\", \"w\")\r\n\tassert(f, string.format(\"could not open tablelist/index.html for writing\"))\r\n\tio.output(f)\r\n\r\n\t--Create parameter list to make documentation (parameters represents templates)\r\n\tlocal tableParam = {\r\n\t\tdoc = doc,\r\n\t\ttableList = funcTableTemplate.createFunctionTableList(globalMetrics, \"tables\", false),\r\n\t\tdocTableList = funcTableTemplate.createDocumentedFunctionTableList(globalMetrics, \"tables\", 1, false),\r\n\t\tnDocTableList = funcTableTemplate.createDocumentedFunctionTableList(globalMetrics, \"tables\", 0, false)\r\n\t} \r\n\r\n\ttableParam.tableList = addLinksToTemplate(tableParam.tableList)\r\n\ttableParam.docTableList = addLinksToTemplate(tableParam.docTableList)\r\n\ttableParam.nDocTableList = addLinksToTemplate(tableParam.nDocTableList)\r\n\r\n\tinclude(\"indexOfTables.lp\", tableParam)\r\n\tf:close()\r\n\t-- \\\\\\ MODIFICATION ///\r\n\r\n--KOSA\r\n\t-- custom comments\r\n\tlocal tables = { name = \"customs.html\" }\r\n\tlocal f = lfs.open(options.output_dir..\"customcommentlist/customs.html\", \"w\")\r\n\tassert(f, string.format(\"could not open customcommentlist/customs.html for writing\"))\r\n\tio.output(f)\r\n\r\n\t--Create parameter list to make documentation (parameters represents templates)\r\n\tlocal customParam = {\r\n\t\tdoc = doc,\r\n\t\ttodoComments = luadocerTemplates.createCustomCommentList(doc, \"todo\", file_link),\r\n\t\tbugComments = luadocerTemplates.createCustomCommentList(doc, \"bug\", file_link),\r\n\t\tquestionComments = luadocerTemplates.createCustomCommentList(doc, \"question\", file_link),\r\n\t\tfixmeComments = luadocerTemplates.createCustomCommentList(doc, \"fixme\", file_link),\r\n\t\tinfoComments = luadocerTemplates.createCustomCommentList(doc, \"info\", file_link),\r\n\t\thowComments = luadocerTemplates.createCustomCommentList(doc, \"how\", file_link)\r\n\t}\r\n\r\n\tinclude(\"custom.lp\", customParam)\r\n\tf:close()\r\n\t-- \\\\\\ MODIFICATION ///\r\n\r\n--KARASEK\r\n\t--CHECK\r\n\tlocal checks = { name = \"index.html\" }\r\n\tlocal f = lfs.open(options.output_dir..\"check/index.html\", \"w\")\r\n\tassert(f, string.format(\"could not open diagram/index.html for writing\"))\r\n\tio.output(f)\r\n\tinclude(\"indexOfChecks.lp\", { doc = doc, checks = analysis_results} ) -- -- MODIF (Ivan Simko) - added globalMetrics\r\n\tf:close()\r\n\r\n\t--DIAGRAMS\r\n\tlocal diagrams = { name = \"index.html\" }\r\n\tlocal f = lfs.open(options.output_dir..\"diagram/index.html\", \"w\")\r\n\tassert(f, string.format(\"could not open diagram/index.html for writing\"))\r\n\tio.output(f)\r\n\r\n\t--Create parameter list to make documentation (parameters represents templates)\r\n\tlocal diagramParam = {\r\n\t\tdoc = doc,\r\n\t\tglobalDiagram = luadocerTemplates.createUMLDiagrams(diagram_results, true, link),\r\n\t\tfunctionDiagram = luadocerTemplates.createUMLDiagrams(diagram_results, false, link)\r\n\t}\r\n\r\n\tinclude(\"indexOfDiagrams.lp\", diagramParam ) -- -- MODIF (Ivan Simko) - added globalMetrics\r\n\tf:close()\r\n\r\n\r\n\t-- copy extra files\r\n\tfile_copy(\"literate.js\") --MODIFIED BY: Michal Juranyi\r\n\tfile_copy(\"luadoc.css\");\r\n\tfile_copy(\"jquery.js\");\r\n\tfile_copy(\"prettyprint.js\");\r\n\tfile_copy(\"menu.js\");\r\n\tfile_copy(\"highcharts.js\")\r\n\tfile_copy(\"jquery-ui.min.js\")\r\n\tfile_copy(\"indexOfFunctions.css\")\r\n\tfile_copy(\"jquery-ui-1.8.11.custom.css\")\t\r\n\tfile_copy(\"fileIcon.jpg\")\t\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local function createCustomCommentList(doc, commentType, fileLink)\r\n  \r\n  local commentTable = \"<ul>\"\r\n  local typeCompare = commentType .. \"s\"\r\n  local from = \"customcommentlist/custom.lp\" --File from where links will be created\r\n\r\n  for k,file in pairs(doc.files) do \r\n\r\n\tif(type(file) == \"table\") then --Looping through file tables\r\n\r\n\t  if(file.metricsAST) then --For file AST list\r\n\r\n\t\tif(#file.metricsAST.metrics.documentMetrics[typeCompare] > 0) then --If custom comments exists in file\r\n\r\n\t\t  --Add link to file where comments appear\r\n\t\t  commentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) .. \"'>.\" ..\r\n\t\t\tfile.name .. \"</a><br><ol>\"\r\n\r\n\t\t  for k,v in pairs(file.metricsAST.metrics.documentMetrics) do\r\n\r\n\t\t\tif(k == typeCompare and #v > 0)then\r\n\r\n\t\t\t  for i, comment in ipairs(v) do\r\n\r\n\t\t\t\t--Add all custom comments entries of type\r\n\t\t\t\tcommentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) ..\r\n\t\t\t\t  \"#\" .. commentType .. i .. \"'>\" .. comment.parsed.text .. \"</a></li>\"\r\n\r\n\t\t\t  end\r\n\t\t\tend\r\n\t\t  end\r\n\r\n\t\t  --Close table entry\r\n\t\t  commentTable = commentTable .. \"</ol><br /></li>\"\r\n\r\n\t\tend\r\n\t  end\r\n\tend\r\n  end\r\n\r\n  return commentTable .. \"</ul>\"\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local commentTable = \"<ul>\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local typeCompare = commentType .. \"s\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local from = \"customcommentlist/custom.lp\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "for k,file in pairs(doc.files) do \r\n\r\n\tif(type(file) == \"table\") then --Looping through file tables\r\n\r\n\t  if(file.metricsAST) then --For file AST list\r\n\r\n\t\tif(#file.metricsAST.metrics.documentMetrics[typeCompare] > 0) then --If custom comments exists in file\r\n\r\n\t\t  --Add link to file where comments appear\r\n\t\t  commentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) .. \"'>.\" ..\r\n\t\t\tfile.name .. \"</a><br><ol>\"\r\n\r\n\t\t  for k,v in pairs(file.metricsAST.metrics.documentMetrics) do\r\n\r\n\t\t\tif(k == typeCompare and #v > 0)then\r\n\r\n\t\t\t  for i, comment in ipairs(v) do\r\n\r\n\t\t\t\t--Add all custom comments entries of type\r\n\t\t\t\tcommentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) ..\r\n\t\t\t\t  \"#\" .. commentType .. i .. \"'>\" .. comment.parsed.text .. \"</a></li>\"\r\n\r\n\t\t\t  end\r\n\t\t\tend\r\n\t\t  end\r\n\r\n\t\t  --Close table entry\r\n\t\t  commentTable = commentTable .. \"</ol><br /></li>\"\r\n\r\n\t\tend\r\n\t  end\r\n\tend\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 8,
+    "text": "if(type(file) == \"table\") then --Looping through file tables\r\n\r\n\t  if(file.metricsAST) then --For file AST list\r\n\r\n\t\tif(#file.metricsAST.metrics.documentMetrics[typeCompare] > 0) then --If custom comments exists in file\r\n\r\n\t\t  --Add link to file where comments appear\r\n\t\t  commentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) .. \"'>.\" ..\r\n\t\t\tfile.name .. \"</a><br><ol>\"\r\n\r\n\t\t  for k,v in pairs(file.metricsAST.metrics.documentMetrics) do\r\n\r\n\t\t\tif(k == typeCompare and #v > 0)then\r\n\r\n\t\t\t  for i, comment in ipairs(v) do\r\n\r\n\t\t\t\t--Add all custom comments entries of type\r\n\t\t\t\tcommentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) ..\r\n\t\t\t\t  \"#\" .. commentType .. i .. \"'>\" .. comment.parsed.text .. \"</a></li>\"\r\n\r\n\t\t\t  end\r\n\t\t\tend\r\n\t\t  end\r\n\r\n\t\t  --Close table entry\r\n\t\t  commentTable = commentTable .. \"</ol><br /></li>\"\r\n\r\n\t\tend\r\n\t  end\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "if(file.metricsAST) then --For file AST list\r\n\r\n\t\tif(#file.metricsAST.metrics.documentMetrics[typeCompare] > 0) then --If custom comments exists in file\r\n\r\n\t\t  --Add link to file where comments appear\r\n\t\t  commentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) .. \"'>.\" ..\r\n\t\t\tfile.name .. \"</a><br><ol>\"\r\n\r\n\t\t  for k,v in pairs(file.metricsAST.metrics.documentMetrics) do\r\n\r\n\t\t\tif(k == typeCompare and #v > 0)then\r\n\r\n\t\t\t  for i, comment in ipairs(v) do\r\n\r\n\t\t\t\t--Add all custom comments entries of type\r\n\t\t\t\tcommentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) ..\r\n\t\t\t\t  \"#\" .. commentType .. i .. \"'>\" .. comment.parsed.text .. \"</a></li>\"\r\n\r\n\t\t\t  end\r\n\t\t\tend\r\n\t\t  end\r\n\r\n\t\t  --Close table entry\r\n\t\t  commentTable = commentTable .. \"</ol><br /></li>\"\r\n\r\n\t\tend\r\n\t  end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "if(#file.metricsAST.metrics.documentMetrics[typeCompare] > 0) then --If custom comments exists in file\r\n\r\n\t\t  --Add link to file where comments appear\r\n\t\t  commentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) .. \"'>.\" ..\r\n\t\t\tfile.name .. \"</a><br><ol>\"\r\n\r\n\t\t  for k,v in pairs(file.metricsAST.metrics.documentMetrics) do\r\n\r\n\t\t\tif(k == typeCompare and #v > 0)then\r\n\r\n\t\t\t  for i, comment in ipairs(v) do\r\n\r\n\t\t\t\t--Add all custom comments entries of type\r\n\t\t\t\tcommentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) ..\r\n\t\t\t\t  \"#\" .. commentType .. i .. \"'>\" .. comment.parsed.text .. \"</a></li>\"\r\n\r\n\t\t\t  end\r\n\t\t\tend\r\n\t\t  end\r\n\r\n\t\t  --Close table entry\r\n\t\t  commentTable = commentTable .. \"</ol><br /></li>\"\r\n\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "commentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) .. \"'>.\" ..\r\n\t\t\tfile.name .. \"</a><br><ol>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "for k,v in pairs(file.metricsAST.metrics.documentMetrics) do\r\n\r\n\t\t\tif(k == typeCompare and #v > 0)then\r\n\r\n\t\t\t  for i, comment in ipairs(v) do\r\n\r\n\t\t\t\t--Add all custom comments entries of type\r\n\t\t\t\tcommentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) ..\r\n\t\t\t\t  \"#\" .. commentType .. i .. \"'>\" .. comment.parsed.text .. \"</a></li>\"\r\n\r\n\t\t\t  end\r\n\t\t\tend\r\n\t\t  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 13,
+    "text": "if(k == typeCompare and #v > 0)then\r\n\r\n\t\t\t  for i, comment in ipairs(v) do\r\n\r\n\t\t\t\t--Add all custom comments entries of type\r\n\t\t\t\tcommentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) ..\r\n\t\t\t\t  \"#\" .. commentType .. i .. \"'>\" .. comment.parsed.text .. \"</a></li>\"\r\n\r\n\t\t\t  end\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "for i, comment in ipairs(v) do\r\n\r\n\t\t\t\t--Add all custom comments entries of type\r\n\t\t\t\tcommentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) ..\r\n\t\t\t\t  \"#\" .. commentType .. i .. \"'>\" .. comment.parsed.text .. \"</a></li>\"\r\n\r\n\t\t\t  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 15,
+    "text": "commentTable = commentTable .. \"<li><a href='\" .. doc.sh(fileLink(file.name,from)) ..\r\n\t\t\t\t  \"#\" .. commentType .. i .. \"'>\" .. comment.parsed.text .. \"</a></li>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "commentTable = commentTable .. \"</ol><br /></li>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "local function createUMLDiagrams(diagrams, global, link)\r\n  \r\n  local diagram = \"\"\r\n  local globVal = nil --Default is not global\r\n\r\n  if global then globVal = \"global\" end --If global is set overwrite value\r\n\r\n  for _, v in ipairs(diagrams) do --For each entry in diagram list\r\n\r\n\tif (v.name:match(\"global\") == globVal) then --If diagram is global or local (based to parameter)\r\n\r\n\t\t--Diagram CSS styles\r\n\t\tdiagram = diagram .. \"<pre style='text-decoration: underline;font-size: 150%;'>\"\r\n\r\n\t\t--Add diagram title\r\n\t\tif v.name == \"global\" then\r\n\t\t\tdiagram = diagram .. \"Global diagram</pre>\"\r\n\t\telse\r\n\t\t\tdiagram = diagram .. \"Function \" .. v.name .. \" diagram</pre>\"\r\n\t\tend\r\n\r\n\t\t--Add diagram with link to picture\r\n\t\tdiagram = diagram .. \"<a href = '\" .. link((v.path:gsub(\"^/\",\"../\")),\"diagram/index.html\") .. \"'>\" ..\r\n\t\t\t\"<img src='\" .. link((v.path:gsub(\"^/\",\"../\")),\"diagram/index.html\") .. \"'  width=auto> </a><br>\"\r\n\r\n\t\t--Add posibility to show PlantUML syntax\r\n\t\tdiagram = diagram .. \"<a href='#' class='toggle_source' \" ..\r\n\t\t\t\"onclick='$(this).next().slideToggle(); return false;'><h2>Show / Hide PlantUML syntax</h2>\" ..\r\n\t\t\t\"</a><div class='syntax' style='display: none'><pre>\" .. v.uml_string .. \"</pre></div><br>\"\r\n\r\n\tend\r\n  end\r\n\r\n  --Return all local / global diagrams\r\n  return diagram\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "local diagram = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "local globVal = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "if global then globVal = \"global\" end",
+    "type": "statement:if"
+  }, {
+    "id": 23,
+    "text": "globVal = \"global\"",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "for _, v in ipairs(diagrams) do --For each entry in diagram list\r\n\r\n\tif (v.name:match(\"global\") == globVal) then --If diagram is global or local (based to parameter)\r\n\r\n\t\t--Diagram CSS styles\r\n\t\tdiagram = diagram .. \"<pre style='text-decoration: underline;font-size: 150%;'>\"\r\n\r\n\t\t--Add diagram title\r\n\t\tif v.name == \"global\" then\r\n\t\t\tdiagram = diagram .. \"Global diagram</pre>\"\r\n\t\telse\r\n\t\t\tdiagram = diagram .. \"Function \" .. v.name .. \" diagram</pre>\"\r\n\t\tend\r\n\r\n\t\t--Add diagram with link to picture\r\n\t\tdiagram = diagram .. \"<a href = '\" .. link((v.path:gsub(\"^/\",\"../\")),\"diagram/index.html\") .. \"'>\" ..\r\n\t\t\t\"<img src='\" .. link((v.path:gsub(\"^/\",\"../\")),\"diagram/index.html\") .. \"'  width=auto> </a><br>\"\r\n\r\n\t\t--Add posibility to show PlantUML syntax\r\n\t\tdiagram = diagram .. \"<a href='#' class='toggle_source' \" ..\r\n\t\t\t\"onclick='$(this).next().slideToggle(); return false;'><h2>Show / Hide PlantUML syntax</h2>\" ..\r\n\t\t\t\"</a><div class='syntax' style='display: none'><pre>\" .. v.uml_string .. \"</pre></div><br>\"\r\n\r\n\tend\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 25,
+    "text": "if (v.name:match(\"global\") == globVal) then --If diagram is global or local (based to parameter)\r\n\r\n\t\t--Diagram CSS styles\r\n\t\tdiagram = diagram .. \"<pre style='text-decoration: underline;font-size: 150%;'>\"\r\n\r\n\t\t--Add diagram title\r\n\t\tif v.name == \"global\" then\r\n\t\t\tdiagram = diagram .. \"Global diagram</pre>\"\r\n\t\telse\r\n\t\t\tdiagram = diagram .. \"Function \" .. v.name .. \" diagram</pre>\"\r\n\t\tend\r\n\r\n\t\t--Add diagram with link to picture\r\n\t\tdiagram = diagram .. \"<a href = '\" .. link((v.path:gsub(\"^/\",\"../\")),\"diagram/index.html\") .. \"'>\" ..\r\n\t\t\t\"<img src='\" .. link((v.path:gsub(\"^/\",\"../\")),\"diagram/index.html\") .. \"'  width=auto> </a><br>\"\r\n\r\n\t\t--Add posibility to show PlantUML syntax\r\n\t\tdiagram = diagram .. \"<a href='#' class='toggle_source' \" ..\r\n\t\t\t\"onclick='$(this).next().slideToggle(); return false;'><h2>Show / Hide PlantUML syntax</h2>\" ..\r\n\t\t\t\"</a><div class='syntax' style='display: none'><pre>\" .. v.uml_string .. \"</pre></div><br>\"\r\n\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "diagram = diagram .. \"<pre style='text-decoration: underline;font-size: 150%;'>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "if v.name == \"global\" then\r\n\t\t\tdiagram = diagram .. \"Global diagram</pre>\"\r\n\t\telse\r\n\t\t\tdiagram = diagram .. \"Function \" .. v.name .. \" diagram</pre>\"\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "diagram = diagram .. \"Global diagram</pre>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "diagram = diagram .. \"Function \" .. v.name .. \" diagram</pre>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "diagram = diagram .. \"<a href = '\" .. link((v.path:gsub(\"^/\",\"../\")),\"diagram/index.html\") .. \"'>\" ..\r\n\t\t\t\"<img src='\" .. link((v.path:gsub(\"^/\",\"../\")),\"diagram/index.html\") .. \"'  width=auto> </a><br>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "diagram = diagram .. \"<a href='#' class='toggle_source' \" ..\r\n\t\t\t\"onclick='$(this).next().slideToggle(); return false;'><h2>Show / Hide PlantUML syntax</h2>\" ..\r\n\t\t\t\"</a><div class='syntax' style='display: none'><pre>\" .. v.uml_string .. \"</pre></div><br>\"",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 34,
+    "text": "sh",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "link",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "fileLink",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "interface"
+  } ]
+}

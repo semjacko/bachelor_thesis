@@ -1,0 +1,989 @@
+{
+  "_filename": "generate_uml.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-plantuml/src/luaplantuml/generate_uml.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 84
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 84
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 84
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 85
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 82
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 82
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 82
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 90
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 93
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 96
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 81
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 49
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 64
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 79,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 79,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 99
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 100
+  }, {
+    "from": 99,
+    "label": "initializes",
+    "to": 101
+  }, {
+    "from": 101,
+    "label": "assigns",
+    "to": 102
+  }, {
+    "from": 99,
+    "label": "initializes",
+    "to": 103
+  }, {
+    "from": 99,
+    "label": "initializes",
+    "to": 104
+  }, {
+    "from": 104,
+    "label": "assigns",
+    "to": 105
+  }, {
+    "from": 99,
+    "label": "initializes",
+    "to": 106
+  }, {
+    "from": 100,
+    "label": "initializes",
+    "to": 107
+  }, {
+    "from": 107,
+    "label": "requires",
+    "to": 80
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 108
+  }, {
+    "from": 64,
+    "label": "represents",
+    "to": 109
+  }, {
+    "from": 108,
+    "label": "provides",
+    "to": 109
+  }, {
+    "from": 2,
+    "label": "represents",
+    "to": 110
+  }, {
+    "from": 108,
+    "label": "provides",
+    "to": 110
+  }, {
+    "from": 111,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "generate_uml",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function get_uml_string(comment, start_position, end_position)\r\n\tlocal uml_string = string.sub(comment, start_position, end_position) -- UML definition text\r\n\treturn uml_string\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local uml_string = string.sub(comment, start_position, end_position)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "local function generate_uml(uml_string, paths_to_diagram, settings)\r\n\tlocal final_path = final_path_temp\r\n\tlocal file_name = nil\r\n\tlocal uml_filename_temp = nil\r\n\t\r\n\tlocal plantuml_path = settings.plantuml_path \t--_ set up path for PlantUML generator\r\n\tlocal fileType = settings.file_format\t\t\t\t--_ set up file format\r\n\t\r\n\tlocal save_temp = settings.del_temp\t\t\t--_ '-t' for store temporary files, nil for delete temporary files\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t--TODO maybe make some names for temporary files\r\n\t\t\r\n\t--_ set path for temporary files\r\n\tlocal temp_file_path = os.tmpname()\t--_ generate temporary file where we write one uml syntax string (e.g. \"/tmp/lua_rDKO80\")\r\n\tlocal temp_file = string.sub(temp_file_path, 6)\r\n\ttemp_file_path = settings.dir_path .. \"uml_files/\" .. temp_file\r\n\r\n\r\n\t--_ optional attributes in a \"json\" format comment\r\n\tif string.sub(uml_string, 10,10) == \"{\" then\r\n\t\tlocal optional_comment = string.match( uml_string, \".*{(.*)}\" )\r\n\r\n\t\t--_ remove the {...} from UML string\r\n\t\tuml_string = string.gsub( uml_string, \".*}\", \"@startuml\" )\r\n\t\t\t\r\n\t\t--_ this defines a different file type svg(default) / png / atxt / utxt\r\n\t\tfileType = string.match(optional_comment, '.-\"fileType\"%s-:%s-\"(.-)\".-') or fileType\r\n\r\n\t\t--_ check if file name is given \"fileName\":\"path\"\r\n\t\tfile_name = string.match(optional_comment, '.-\"fileName\"%s-:%s-\"(.-)\".-')\r\n\r\n\t\t--_ check if the temporary file path is given\r\n\t\t--temp_file_path = string.match(optional_comment, '.-\"tempfileName\"%s-:%s-\"(.-)\".-') or temp_file_path\r\n\tend\r\n\r\n\t--_ update PlantUML path for miscellaneous file formats\t\r\n\tif(fileType == \"svg\") then\r\n\t\tplantuml_path = plantuml_path .. \" -tsvg\"\r\n\tend\r\n\t\t\t\r\n\tif(fileType == \"atxt\") then\r\n\t\tplantuml_path = plantuml_path .. \" -txt\"\r\n\tend\r\n\r\n\tif(fileType == \"utxt\") then\r\n\t\tplantuml_path = plantuml_path .. \" -utxt\"\r\n\tend\r\n\r\n\tif(fileType == \"latex\") then\r\n\t\tplantuml_path = plantuml_path .. \" -tlatex\"\r\n\tend\r\n\r\n\t--_ open temporary file to write PlantUML syntax\r\n\tlocal write_temp_file = io.open(temp_file_path, \"w\")\r\n\t\r\n\t--_ make path for images with name or with generated temporary names\r\n\tif file_name then\r\n\t\tfinal_path = final_path .. file_name\t--_ name found in \"json\" comment, concat it to path\r\n\telse\r\n\t\tfinal_path = final_path .. string.format(\"%s.%s\", temp_file, fileType)\r\n\tend\r\n\r\n\t--_ set paths and uml syntax to diagrams for function names in table 'paths_to_diagram'\r\n\tfor _, v in ipairs(paths_to_diagram) do\r\n\t\tif v.path == nil then\r\n\t\t\tv.path = final_path\r\n\t\t\tv.uml_string = uml_string\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\n\r\n\t--_ generate UML diagram image from temporary file\r\n\tif write_temp_file then\r\n\t\t\r\n\t\tlocal temp_path_save\t \t\t\t\t--_ path to temporary file\r\n\t\twrite_temp_file:write( uml_string ) \t--_ write the pure PlantUML syntax to a file\r\n\t\twrite_temp_file:close()\r\n\r\n\r\n\r\n\t\t--_ this will generate image\r\n\t\tos.execute( string.format(\"java -jar %s %s\", plantuml_path, temp_file_path ) )\r\n\r\n\t\ttemp_path_save = string.format(\"%s.%s\", temp_file_path, fileType)\r\n\r\n\t\t--_ move image from tmp folder to our destination\r\n\t\tos.rename( temp_path_save, final_path)\r\n\t\t\r\n\t\tif save_temp == nil then\t\t\t\t--_ remove temp file if '-t' options was NOT typed\r\n\t\t\tos.remove(temp_file_path)\r\n\t\tend\r\n\telse\r\n\t\tlocal errStr = \"Error creating UML temp file\"\r\n\t\tprint(errStr)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local final_path = final_path_temp",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local file_name = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "local uml_filename_temp = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "local plantuml_path = settings.plantuml_path",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local fileType = settings.file_format",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local save_temp = settings.del_temp",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local temp_file_path = os.tmpname()",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local temp_file = string.sub(temp_file_path, 6)",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "temp_file_path = settings.dir_path .. \"uml_files/\" .. temp_file",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "if string.sub(uml_string, 10,10) == \"{\" then\r\n\t\tlocal optional_comment = string.match( uml_string, \".*{(.*)}\" )\r\n\r\n\t\t--_ remove the {...} from UML string\r\n\t\tuml_string = string.gsub( uml_string, \".*}\", \"@startuml\" )\r\n\t\t\t\r\n\t\t--_ this defines a different file type svg(default) / png / atxt / utxt\r\n\t\tfileType = string.match(optional_comment, '.-\"fileType\"%s-:%s-\"(.-)\".-') or fileType\r\n\r\n\t\t--_ check if file name is given \"fileName\":\"path\"\r\n\t\tfile_name = string.match(optional_comment, '.-\"fileName\"%s-:%s-\"(.-)\".-')\r\n\r\n\t\t--_ check if the temporary file path is given\r\n\t\t--temp_file_path = string.match(optional_comment, '.-\"tempfileName\"%s-:%s-\"(.-)\".-') or temp_file_path\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "local optional_comment = string.match( uml_string, \".*{(.*)}\" )",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "uml_string = string.gsub( uml_string, \".*}\", \"@startuml\" )",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "fileType = string.match(optional_comment, '.-\"fileType\"%s-:%s-\"(.-)\".-') or fileType",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "file_name = string.match(optional_comment, '.-\"fileName\"%s-:%s-\"(.-)\".-')",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "if(fileType == \"svg\") then\r\n\t\tplantuml_path = plantuml_path .. \" -tsvg\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "plantuml_path = plantuml_path .. \" -tsvg\"",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "if(fileType == \"atxt\") then\r\n\t\tplantuml_path = plantuml_path .. \" -txt\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "plantuml_path = plantuml_path .. \" -txt\"",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "if(fileType == \"utxt\") then\r\n\t\tplantuml_path = plantuml_path .. \" -utxt\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "plantuml_path = plantuml_path .. \" -utxt\"",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "if(fileType == \"latex\") then\r\n\t\tplantuml_path = plantuml_path .. \" -tlatex\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "plantuml_path = plantuml_path .. \" -tlatex\"",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "local write_temp_file = io.open(temp_file_path, \"w\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "if file_name then\r\n\t\tfinal_path = final_path .. file_name\t--_ name found in \"json\" comment, concat it to path\r\n\telse\r\n\t\tfinal_path = final_path .. string.format(\"%s.%s\", temp_file, fileType)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "final_path = final_path .. file_name",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "final_path = final_path .. string.format(\"%s.%s\", temp_file, fileType)",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "for _, v in ipairs(paths_to_diagram) do\r\n\t\tif v.path == nil then\r\n\t\t\tv.path = final_path\r\n\t\t\tv.uml_string = uml_string\r\n\t\t\tbreak\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 34,
+    "text": "if v.path == nil then\r\n\t\t\tv.path = final_path\r\n\t\t\tv.uml_string = uml_string\r\n\t\t\tbreak\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "v.path = final_path",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "v.uml_string = uml_string",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "if write_temp_file then\r\n\t\t\r\n\t\tlocal temp_path_save\t \t\t\t\t--_ path to temporary file\r\n\t\twrite_temp_file:write( uml_string ) \t--_ write the pure PlantUML syntax to a file\r\n\t\twrite_temp_file:close()\r\n\r\n\r\n\r\n\t\t--_ this will generate image\r\n\t\tos.execute( string.format(\"java -jar %s %s\", plantuml_path, temp_file_path ) )\r\n\r\n\t\ttemp_path_save = string.format(\"%s.%s\", temp_file_path, fileType)\r\n\r\n\t\t--_ move image from tmp folder to our destination\r\n\t\tos.rename( temp_path_save, final_path)\r\n\t\t\r\n\t\tif save_temp == nil then\t\t\t\t--_ remove temp file if '-t' options was NOT typed\r\n\t\t\tos.remove(temp_file_path)\r\n\t\tend\r\n\telse\r\n\t\tlocal errStr = \"Error creating UML temp file\"\r\n\t\tprint(errStr)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "local temp_path_save",
+    "type": "statement:localassign"
+  }, {
+    "id": 39,
+    "text": "write_temp_file:write( uml_string )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "write_temp_file:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "os.execute( string.format(\"java -jar %s %s\", plantuml_path, temp_file_path ) )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 42,
+    "text": "temp_path_save = string.format(\"%s.%s\", temp_file_path, fileType)",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "os.rename( temp_path_save, final_path)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "if save_temp == nil then\t\t\t\t--_ remove temp file if '-t' options was NOT typed\r\n\t\t\tos.remove(temp_file_path)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 45,
+    "text": "os.remove(temp_file_path)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 46,
+    "text": "local errStr = \"Error creating UML temp file\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 47,
+    "text": "print(errStr)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 49,
+    "text": "local function process(comment, paths_to_diagram, settings)\r\n\tlocal end_position\r\n\r\n\t--_ move to start of PlantUML comment\r\n\tlocal start_position = string.find(comment, \"@startuml\")\r\n\tif start_position then\r\n\t\t_, end_position = string.find(comment, \"@enduml\", start_position+1)\r\n\tend\r\n\r\n\twhile start_position and end_position do\r\n\t\t--_ set to first PlantUML syntax\r\n\t\tlocal preStr = string.sub(comment, 1, start_position-1)\r\n\t\tlocal postStr = string.sub(comment, end_position+1)\r\n\r\n\t\tlocal uml_string = get_uml_string(comment, start_position, end_position)\r\n\t\tgenerate_uml(uml_string, paths_to_diagram, settings)\r\n\r\n\t\t--_ move to next PlantUML commet\r\n\t\tcomment = preStr .. postStr\r\n\t\t\t\r\n\t\tstart_position = string.find(comment, \"@startuml\", #preStr+1)\r\n\t\tif start_position then\r\n\t\t\t_, end_position = string.find(comment, \"@enduml\",start_position+1)\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 50,
+    "text": "local end_position",
+    "type": "statement:localassign"
+  }, {
+    "id": 51,
+    "text": "local start_position = string.find(comment, \"@startuml\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "if start_position then\r\n\t\t_, end_position = string.find(comment, \"@enduml\", start_position+1)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 53,
+    "text": "_, end_position = string.find(comment, \"@enduml\", start_position+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "while start_position and end_position do\r\n\t\t--_ set to first PlantUML syntax\r\n\t\tlocal preStr = string.sub(comment, 1, start_position-1)\r\n\t\tlocal postStr = string.sub(comment, end_position+1)\r\n\r\n\t\tlocal uml_string = get_uml_string(comment, start_position, end_position)\r\n\t\tgenerate_uml(uml_string, paths_to_diagram, settings)\r\n\r\n\t\t--_ move to next PlantUML commet\r\n\t\tcomment = preStr .. postStr\r\n\t\t\t\r\n\t\tstart_position = string.find(comment, \"@startuml\", #preStr+1)\r\n\t\tif start_position then\r\n\t\t\t_, end_position = string.find(comment, \"@enduml\",start_position+1)\r\n\t\tend\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 55,
+    "text": "local preStr = string.sub(comment, 1, start_position-1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 56,
+    "text": "local postStr = string.sub(comment, end_position+1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 57,
+    "text": "local uml_string = get_uml_string(comment, start_position, end_position)",
+    "type": "statement:localassign"
+  }, {
+    "id": 58,
+    "text": "generate_uml(uml_string, paths_to_diagram, settings)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 59,
+    "text": "comment = preStr .. postStr",
+    "type": "statement:assign"
+  }, {
+    "id": 60,
+    "text": "start_position = string.find(comment, \"@startuml\", #preStr+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 61,
+    "text": "if start_position then\r\n\t\t\t_, end_position = string.find(comment, \"@enduml\",start_position+1)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 62,
+    "text": "_, end_position = string.find(comment, \"@enduml\",start_position+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 64,
+    "text": "local function generate_prepare(comment, paths_to_diagram, settings)\r\n\r\n\t--_ set up where generated UML diagrams will be stored\r\n\tif (settings.dir_path ~= nil) then\r\n\r\n\t\tlfs.mkdir(settings.dir_path .. \"uml_files/\")\r\n\t\tfinal_path_temp = settings.dir_path .. \"uml_files/\"\r\n\r\n\t\tlocal temp = lfs.currentdir()\r\n\t\tlfs.chdir( final_path_temp )\r\n\r\n\t\t--_ create directories in output dir\r\n\t\tfor text in settings.extended_path:gmatch( \"[^/]+\" ) do\r\n\t\t\tlfs.mkdir( text ) \r\n\t\t\tlfs.chdir( text )\r\n\t\tend\r\n\r\n\t\tfinal_path_temp = final_path_temp .. settings.extended_path\r\n\t\tlfs.chdir(temp)\r\n\tend\r\n\r\n\tprocess(comment, paths_to_diagram, settings)\r\n-- for _, v in ipairs(paths_to_diagram) do\r\n-- \t\t\tprint(' CESTA: ' .. v.path .. '  STRING: ' .. v.uml_string)\r\n-- \t\tend\r\nreturn paths_to_diagram\r\nend",
+    "type": "function"
+  }, {
+    "id": 65,
+    "text": "if (settings.dir_path ~= nil) then\r\n\r\n\t\tlfs.mkdir(settings.dir_path .. \"uml_files/\")\r\n\t\tfinal_path_temp = settings.dir_path .. \"uml_files/\"\r\n\r\n\t\tlocal temp = lfs.currentdir()\r\n\t\tlfs.chdir( final_path_temp )\r\n\r\n\t\t--_ create directories in output dir\r\n\t\tfor text in settings.extended_path:gmatch( \"[^/]+\" ) do\r\n\t\t\tlfs.mkdir( text ) \r\n\t\t\tlfs.chdir( text )\r\n\t\tend\r\n\r\n\t\tfinal_path_temp = final_path_temp .. settings.extended_path\r\n\t\tlfs.chdir(temp)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 66,
+    "text": "lfs.mkdir(settings.dir_path .. \"uml_files/\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 67,
+    "text": "final_path_temp = settings.dir_path .. \"uml_files/\"",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "local temp = lfs.currentdir()",
+    "type": "statement:localassign"
+  }, {
+    "id": 69,
+    "text": "lfs.chdir( final_path_temp )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 70,
+    "text": "for text in settings.extended_path:gmatch( \"[^/]+\" ) do\r\n\t\t\tlfs.mkdir( text ) \r\n\t\t\tlfs.chdir( text )\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 71,
+    "text": "lfs.mkdir( text )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 72,
+    "text": "lfs.chdir( text )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 73,
+    "text": "final_path_temp = final_path_temp .. settings.extended_path",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "lfs.chdir(temp)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 75,
+    "text": "process(comment, paths_to_diagram, settings)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 78,
+    "text": "local function process_text(file, settings)\r\n\tlocal parsed = parse_util(metrics.processText(file), 0)\t\t--_ parse PlantUML syntax from files\r\n\tfinal_syntax = \"\"  \t\t\t\t--_ clear if reading more files else we will be generating same diagrams over and over again\r\n\r\n\tif parsed ~= nil and settings.wsd ~= nil then\r\n\t\tlocal wsd_file=io.open(string.gsub(settings.current_file, '.%w*$', '.wsd'), \"w+\") \t--_ create file with parsed PlantUML syntax, \"w+\" clear if exists\r\n\r\n\t\twsd_file:write(parsed)\t--_ write that syntax to file\r\n\t\twsd_file:close()\r\n\tend\r\n\r\n\t--_ go to do main functions to generate images and full main table 'paths_to_diagram'\r\n\tluaplantuml.generate_prepare(parsed, paths_to_diagram, settings)\r\n\t\r\n\treturn paths_to_diagram\r\nend",
+    "type": "function"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 80,
+    "text": "lfs",
+    "type": "module"
+  }, {
+    "id": 81,
+    "text": "currentdir",
+    "type": "global function"
+  }, {
+    "id": 82,
+    "text": "chdir",
+    "type": "global function"
+  }, {
+    "id": 83,
+    "text": "mkdir",
+    "type": "global function"
+  }, {
+    "id": 84,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 85,
+    "text": "tmpname",
+    "type": "global function"
+  }, {
+    "id": 86,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 87,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 88,
+    "text": "rename",
+    "type": "global function"
+  }, {
+    "id": 89,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 90,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 91,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 92,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 93,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 94,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 95,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 96,
+    "text": "execute",
+    "type": "global function"
+  }, {
+    "id": 97,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 98,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 99,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 102,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 103,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 104,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "keyword"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

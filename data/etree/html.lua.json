@@ -1,0 +1,265 @@
+{
+  "_filename": "html.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/etree/doc/html.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "requires",
+    "to": 30
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "html",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "etree",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function main()\r\n\r\n  require \"etree\"\r\n\r\n  os.execute(MARKDOWN .. \" \" .. SOURCE .. \" > _manual.html 2>/dev/null\")\r\n  file = io.open(\"_manual.html\")\r\n  body = etree.fromstring(\"<body>\"..file:read(\"*a\")..\"</body>\")\r\n  file:close()\r\n\r\n  head = etree.fromstring([[\r\n  <head>\r\n  <title>Lua Element Tree</title>\r\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" />\r\n  </head>\r\n  ]])\r\n\r\n  html = {tag=\"html\", head, body}\r\n  html.attr = {\r\n                xmlns=\"http://www.w3.org/1999/xhtml\",\r\n                [\"xml:lang\"]=\"en\",\r\n                lang=\"en\"\r\n              }\r\n\r\n  doctype = [[\r\n  <!DOCTYPE html \r\n      PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\r\n      \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n  ]]\r\n\r\n  output = io.open(OUTPUT, \"w\")\r\n  output:write(doctype)\r\n  tree = etree.ElementTree(html, {decl=false})\r\n  tree:write(output)\r\n\r\n  os.execute(\"rm _manual.html 2>/dev/null\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "require \"etree\"",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "os.execute(MARKDOWN .. \" \" .. SOURCE .. \" > _manual.html 2>/dev/null\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "file = io.open(\"_manual.html\")",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "body = etree.fromstring(\"<body>\"..file:read(\"*a\")..\"</body>\")",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "file:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "head = etree.fromstring([[\r\n  <head>\r\n  <title>Lua Element Tree</title>\r\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" />\r\n  </head>\r\n  ]])",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "html = {tag=\"html\", head, body}",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "html.attr = {\r\n                xmlns=\"http://www.w3.org/1999/xhtml\",\r\n                [\"xml:lang\"]=\"en\",\r\n                lang=\"en\"\r\n              }",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "doctype = [[\r\n  <!DOCTYPE html \r\n      PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\r\n      \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n  ]]",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "output = io.open(OUTPUT, \"w\")",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "output:write(doctype)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "tree = etree.ElementTree(html, {decl=false})",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "tree:write(output)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "os.execute(\"rm _manual.html 2>/dev/null\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 20,
+    "text": "fromstring",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "ElementTree",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "execute",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 30,
+    "text": "lom",
+    "type": "module"
+  } ]
+}

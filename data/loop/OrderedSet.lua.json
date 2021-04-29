@@ -1,0 +1,917 @@
+{
+  "_filename": "OrderedSet.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/collection/OrderedSet.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 68,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 68,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 68,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 68,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 63,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 51
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 57
+  }, {
+    "from": 68,
+    "label": "declares",
+    "to": 63
+  }, {
+    "from": 72,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 73
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 74
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "assigns",
+    "to": 76
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "assigns",
+    "to": 78
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 79
+  }, {
+    "from": 79,
+    "label": "assigns",
+    "to": 80
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 81
+  }, {
+    "from": 81,
+    "label": "assigns",
+    "to": 82
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 83
+  }, {
+    "from": 83,
+    "label": "assigns",
+    "to": 84
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "assigns",
+    "to": 86
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 87
+  }, {
+    "from": 87,
+    "label": "assigns",
+    "to": 88
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "assigns",
+    "to": 90
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 91
+  }, {
+    "from": 91,
+    "label": "assigns",
+    "to": 92
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 93
+  }, {
+    "from": 93,
+    "label": "assigns",
+    "to": 94
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 95
+  }, {
+    "from": 95,
+    "label": "assigns",
+    "to": 96
+  }, {
+    "from": 74,
+    "label": "initializes",
+    "to": 97
+  }, {
+    "from": 97,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 98,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 99,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 100,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "OrderedSet",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function iterator(self, previous)\r\n\treturn self[previous], previous\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function sequence(self)\r\n\treturn iterator, self, FIRST\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function contains(self, element)\r\n\treturn element ~= nil and (self[element] ~= nil or element == self[LAST])\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function first(self)\r\n\treturn self[FIRST]\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function last(self)\r\n\treturn self[LAST]\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function empty(self)\r\n\treturn self[FIRST] == nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function insert(self, element, previous)\r\n\tif element ~= nil and not contains(self, element) then\r\n\t\tif previous == nil then\r\n\t\t\tprevious = self[LAST]\r\n\t\t\tif previous == nil then\r\n\t\t\t\tprevious = FIRST\r\n\t\t\tend\r\n\t\telseif not contains(self, previous) and previous ~= FIRST then\r\n\t\t\treturn\r\n\t\tend\r\n\t\tif self[previous] == nil\r\n\t\t\tthen self[LAST] = element\r\n\t\t\telse self[element] = self[previous]\r\n\t\tend\r\n\t\tself[previous] = element\r\n\t\treturn element\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "if element ~= nil and not contains(self, element) then\r\n\t\tif previous == nil then\r\n\t\t\tprevious = self[LAST]\r\n\t\t\tif previous == nil then\r\n\t\t\t\tprevious = FIRST\r\n\t\t\tend\r\n\t\telseif not contains(self, previous) and previous ~= FIRST then\r\n\t\t\treturn\r\n\t\tend\r\n\t\tif self[previous] == nil\r\n\t\t\tthen self[LAST] = element\r\n\t\t\telse self[element] = self[previous]\r\n\t\tend\r\n\t\tself[previous] = element\r\n\t\treturn element\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "if previous == nil then\r\n\t\t\tprevious = self[LAST]\r\n\t\t\tif previous == nil then\r\n\t\t\t\tprevious = FIRST\r\n\t\t\tend\r\n\t\telseif not contains(self, previous) and previous ~= FIRST then\r\n\t\t\treturn\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "previous = self[LAST]",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "if previous == nil then\r\n\t\t\t\tprevious = FIRST\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "previous = FIRST",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "if self[previous] == nil\r\n\t\t\tthen self[LAST] = element\r\n\t\t\telse self[element] = self[previous]\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 23,
+    "text": "self[LAST] = element",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "self[element] = self[previous]",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "self[previous] = element",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function previous(self, element, start)\r\n\tif contains(self, element) then\r\n\t\tlocal previous = (start == nil and FIRST or start)\r\n\t\trepeat\r\n\t\t\tif self[previous] == element then\r\n\t\t\t\treturn previous\r\n\t\t\tend\r\n\t\t\tprevious = self[previous]\r\n\t\tuntil previous == nil\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "if contains(self, element) then\r\n\t\tlocal previous = (start == nil and FIRST or start)\r\n\t\trepeat\r\n\t\t\tif self[previous] == element then\r\n\t\t\t\treturn previous\r\n\t\t\tend\r\n\t\t\tprevious = self[previous]\r\n\t\tuntil previous == nil\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "local previous = (start == nil and FIRST or start)",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "repeat\r\n\t\t\tif self[previous] == element then\r\n\t\t\t\treturn previous\r\n\t\t\tend\r\n\t\t\tprevious = self[previous]\r\n\t\tuntil previous == nil",
+    "type": "statement:repeat"
+  }, {
+    "id": 31,
+    "text": "if self[previous] == element then\r\n\t\t\t\treturn previous\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "previous = self[previous]",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "function remove(self, element, start)\r\n\tlocal prev = previous(self, element, start)\r\n\tif prev ~= nil then\r\n\t\tself[prev] = self[element]\r\n\t\tif self[LAST] == element\r\n\t\t\tthen self[LAST] = prev\r\n\t\t\telse self[element] = nil\r\n\t\tend\r\n\t\treturn element, prev\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "local prev = previous(self, element, start)",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "if prev ~= nil then\r\n\t\tself[prev] = self[element]\r\n\t\tif self[LAST] == element\r\n\t\t\tthen self[LAST] = prev\r\n\t\t\telse self[element] = nil\r\n\t\tend\r\n\t\treturn element, prev\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 37,
+    "text": "self[prev] = self[element]",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "if self[LAST] == element\r\n\t\t\tthen self[LAST] = prev\r\n\t\t\telse self[element] = nil\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "self[LAST] = prev",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "self[element] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function replace(self, old, new, start)\r\n\tlocal prev = previous(self, old, start)\r\n\tif prev ~= nil and new ~= nil and not contains(self, new) then\r\n\t\tself[prev] = new\r\n\t\tself[new] = self[old]\r\n\t\tif old == self[LAST]\r\n\t\t\tthen self[LAST] = new\r\n\t\t\telse self[old] = nil\r\n\t\tend\r\n\t\treturn old, prev\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "local prev = previous(self, old, start)",
+    "type": "statement:localassign"
+  }, {
+    "id": 44,
+    "text": "if prev ~= nil and new ~= nil and not contains(self, new) then\r\n\t\tself[prev] = new\r\n\t\tself[new] = self[old]\r\n\t\tif old == self[LAST]\r\n\t\t\tthen self[LAST] = new\r\n\t\t\telse self[old] = nil\r\n\t\tend\r\n\t\treturn old, prev\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 45,
+    "text": "self[prev] = new",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "self[new] = self[old]",
+    "type": "statement:assign"
+  }, {
+    "id": 47,
+    "text": "if old == self[LAST]\r\n\t\t\tthen self[LAST] = new\r\n\t\t\telse self[old] = nil\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 48,
+    "text": "self[LAST] = new",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "self[old] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 51,
+    "text": "function pushfront(self, element)\r\n\tif element ~= nil and not contains(self, element) then\r\n\t\tif self[FIRST] ~= nil\r\n\t\t\tthen self[element] = self[FIRST]\r\n\t\t\telse self[LAST] = element\r\n\t\tend\r\n\t\tself[FIRST] = element\r\n\t\treturn element\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 52,
+    "text": "if element ~= nil and not contains(self, element) then\r\n\t\tif self[FIRST] ~= nil\r\n\t\t\tthen self[element] = self[FIRST]\r\n\t\t\telse self[LAST] = element\r\n\t\tend\r\n\t\tself[FIRST] = element\r\n\t\treturn element\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 53,
+    "text": "if self[FIRST] ~= nil\r\n\t\t\tthen self[element] = self[FIRST]\r\n\t\t\telse self[LAST] = element\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 54,
+    "text": "self[element] = self[FIRST]",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "self[FIRST] = element",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 57,
+    "text": "function popfront(self)\r\n\tlocal element = self[FIRST]\r\n\tself[FIRST] = self[element]\r\n\tif self[FIRST] ~= nil\r\n\t\tthen self[element] = nil\r\n\t\telse self[LAST] = nil\r\n\tend\r\n\treturn element\r\nend",
+    "type": "function"
+  }, {
+    "id": 58,
+    "text": "local element = self[FIRST]",
+    "type": "statement:localassign"
+  }, {
+    "id": 59,
+    "text": "self[FIRST] = self[element]",
+    "type": "statement:assign"
+  }, {
+    "id": 60,
+    "text": "if self[FIRST] ~= nil\r\n\t\tthen self[element] = nil\r\n\t\telse self[LAST] = nil\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 61,
+    "text": "self[LAST] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 63,
+    "text": "function pushback(self, element)\r\n\tif element ~= nil and not contains(self, element) then\r\n\t\tif self[LAST] ~= nil\r\n\t\t\tthen self[ self[LAST] ] = element\r\n\t\t\telse self[FIRST] = element\r\n\t\tend\r\n\t\tself[LAST] = element\r\n\t\treturn element\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 64,
+    "text": "if element ~= nil and not contains(self, element) then\r\n\t\tif self[LAST] ~= nil\r\n\t\t\tthen self[ self[LAST] ] = element\r\n\t\t\telse self[FIRST] = element\r\n\t\tend\r\n\t\tself[LAST] = element\r\n\t\treturn element\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 65,
+    "text": "if self[LAST] ~= nil\r\n\t\t\tthen self[ self[LAST] ] = element\r\n\t\t\telse self[FIRST] = element\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 66,
+    "text": "self[ self[LAST] ] = element",
+    "type": "statement:assign"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 69,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 70,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 71,
+    "text": "newproxy",
+    "type": "global function"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 90,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 97,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 99,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

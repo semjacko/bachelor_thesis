@@ -1,0 +1,317 @@
+{
+  "_filename": "vms.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasys/test/thread/vms.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "requires",
+    "to": 18
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "requires",
+    "to": 18
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "requires",
+    "to": 18
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "vms",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function consume(master)\r\n\tlocal sys = require\"sys\"\r\n\tlocal thread = sys.thread\r\n\r\n\twhile true do\r\n\t    local producer, i, s = thread.msg_recv(200)\r\n\t    if not producer then break end\r\n\t    print(i, s)\r\n\t    thread.sleep(200)\r\n\tend\r\n\tthread.msg_send(master, \"end\")\r\n    end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local sys = require\"sys\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local thread = sys.thread",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "while true do\r\n\t    local producer, i, s = thread.msg_recv(200)\r\n\t    if not producer then break end\r\n\t    print(i, s)\r\n\t    thread.sleep(200)\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 6,
+    "text": "local producer, i, s = thread.msg_recv(200)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if not producer then break end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "print(i, s)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "thread.sleep(200)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "thread.msg_send(master, \"end\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "local function produce(master, consumer)\r\n\tlocal sys = require\"sys\"\r\n\tlocal thread = sys.thread\r\n\r\n\tfor i = 1, 10 do\r\n\t    thread.msg_send(consumer, i, (i % 2 == 0) and \"even\" or \"odd\")\r\n\t    thread.sleep(100)\r\n\tend\r\n    end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "for i = 1, 10 do\r\n\t    thread.msg_send(consumer, i, (i % 2 == 0) and \"even\" or \"odd\")\r\n\t    thread.sleep(100)\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 14,
+    "text": "thread.msg_send(consumer, i, (i % 2 == 0) and \"even\" or \"odd\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "thread.sleep(100)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 18,
+    "text": "sys",
+    "type": "module"
+  }, {
+    "id": 19,
+    "text": "msg_recv",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "dump",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "msg_send",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "sleep",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "runvm",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

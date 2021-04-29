@@ -1,0 +1,329 @@
+{
+  "_filename": "list.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/list.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "requires",
+    "to": 29
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 26
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 27
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 28
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "list",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function run(...)\r\n   local flags, filter, version = util.parse_flags(...)\r\n   local results = {}\r\n   local query = search.make_query(filter and filter:lower() or \"\", version)\r\n   query.exact_name = false\r\n   local trees = cfg.rocks_trees\r\n   if flags[\"tree\"] then\r\n      trees = { flags[\"tree\"] }\r\n   end\r\n   for _, tree in ipairs(trees) do\r\n      search.manifest_search(results, path.rocks_dir(tree), query)\r\n   end\r\n   util.title(\"Installed rocks:\", flags[\"porcelain\"])\r\n   search.print_results(results, flags[\"porcelain\"])\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local flags, filter, version = util.parse_flags(...)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local results = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local query = search.make_query(filter and filter:lower() or \"\", version)",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "query.exact_name = false",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "local trees = cfg.rocks_trees",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "if flags[\"tree\"] then\r\n      trees = { flags[\"tree\"] }\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "trees = { flags[\"tree\"] }",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "for _, tree in ipairs(trees) do\r\n      search.manifest_search(results, path.rocks_dir(tree), query)\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 11,
+    "text": "search.manifest_search(results, path.rocks_dir(tree), query)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "util.title(\"Installed rocks:\", flags[\"porcelain\"])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "search.print_results(results, flags[\"porcelain\"])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 17,
+    "text": "function rocks_dir(tree)\r\n   if type(tree) == \"string\" then\r\n      return dir.path(tree, cfg.rocks_subdir)\r\n   else\r\n      assert(type(tree) == \"table\")\r\n      return tree.rocks_dir or dir.path(tree.root, cfg.rocks_subdir)\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function manifest_search(results, repo, query)\r\n   assert(type(results) == \"table\")\r\n   assert(type(repo) == \"string\")\r\n   assert(type(query) == \"table\")\r\n   \r\n   query_arch_as_table(query)\r\n   local manifest, err = manif.load_manifest(repo)\r\n   if not manifest then\r\n      return nil, \"Failed loading manifest: \"..err\r\n   end\r\n   for name, versions in pairs(manifest.repository) do\r\n      for version, items in pairs(versions) do\r\n         for _, item in ipairs(items) do\r\n            store_if_match(results, repo, name, version, item.arch, query)\r\n         end\r\n      end\r\n   end\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "function make_query(name, version)\r\n   assert(type(name) == \"string\")\r\n   assert(type(version) == \"string\" or not version)\r\n   \r\n   local query = {\r\n      name = name,\r\n      constraints = {}\r\n   }\r\n   if version then\r\n      table.insert(query.constraints, { op = \"==\", version = deps.parse_version(version)})\r\n   end\r\n   return query\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "function print_results(results, porcelain)\r\n   assert(type(results) == \"table\")\r\n   assert(type(porcelain) == \"boolean\" or not porcelain)\r\n   \r\n   for package, versions in util.sortedpairs(results) do\r\n      if not porcelain then\r\n         util.printout(package)\r\n      end\r\n      for version, repos in util.sortedpairs(versions, deps.compare_versions) do\r\n         for _, repo in ipairs(repos) do\r\n            repo.repo = dir.normalize(repo.repo)\r\n            if porcelain then\r\n               util.printout(package, version, repo.arch, repo.repo)\r\n            else\r\n               util.printout(\"   \"..version..\" (\"..repo.arch..\") - \"..repo.repo)\r\n            end\r\n         end\r\n      end\r\n      if not porcelain then\r\n         util.printout()\r\n      end\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "function parse_flags(...)\r\n   local args = {...}\r\n   local flags = {}\r\n   for i = #args, 1, -1 do\r\n      local flag = args[i]:match(\"^%-%-(.*)\")\r\n      if flag then\r\n         local var,val = flag:match(\"([a-z_%-]*)=(.*)\")\r\n         if val then\r\n            flags[var] = val\r\n         else\r\n            flags[flag] = true\r\n         end\r\n         table.remove(args, i)\r\n      end\r\n   end\r\n   return flags, unpack(args)\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "function title(msg, porcelain, underline)\r\n   if porcelain then return end\r\n   printout()\r\n   printout(msg)\r\n   printout((underline or \"-\"):rep(#msg))\r\n   printout()\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "cfg)",
+    "type": "module"
+  }, {
+    "id": 27,
+    "text": "util)",
+    "type": "module"
+  }, {
+    "id": 28,
+    "text": "path)",
+    "type": "module"
+  }, {
+    "id": 29,
+    "text": "search)",
+    "type": "module"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

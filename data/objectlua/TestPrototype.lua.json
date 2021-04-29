@@ -1,0 +1,501 @@
+{
+  "_filename": "TestPrototype.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/objectlua/test/TestPrototype.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 44,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 49,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "initializes",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "assigns",
+    "to": 53
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Prototype",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "TestPrototype",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function TestPrototype:testInitializationAndDelegatesTo()\r\n    local namedObject = Prototype:delegated()\r\n    function namedObject:initialize(name)\r\n        self.name = name\r\n    end\r\n\r\n    local person = namedObject:delegated()\r\n\r\n    local bob = person:spawn('Bob')\r\n    local john = person:spawn('John')\r\n\r\n    assertEquals(bob.name, 'Bob')\r\n    assertEquals(john.name, 'John')\r\n\r\n    local otherJohn = john:delegated()\r\n    assertEquals(otherJohn.name, 'John')\r\n    assert(otherJohn:delegatesTo(Prototype))\r\n    assert(otherJohn:delegatesTo(john))\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local namedObject = Prototype:delegated()",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "function namedObject:initialize(name)\r\n        self.name = name\r\n    end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 6,
+    "text": "self.name = name",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "local person = namedObject:delegated()",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local bob = person:spawn('Bob')",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "local john = person:spawn('John')",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "assertEquals(bob.name, 'Bob')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "assertEquals(john.name, 'John')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "local otherJohn = john:delegated()",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "assertEquals(otherJohn.name, 'John')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "assert(otherJohn:delegatesTo(Prototype))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "assert(otherJohn:delegatesTo(john))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function namedObject:initialize(name)\r\n        self.name = name\r\n    end",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "function TestPrototype:testClone()\r\n    local bob = Prototype:delegated()\r\n    function bob:getName()\r\n        return 'X'\r\n    end\r\n\r\n    local john = bob:clone()\r\n\r\n    function bob:getName()\r\n        return 'Bob'\r\n    end\r\n\r\n    assertEquals(bob:getName(), 'Bob')\r\n    assertEquals(john:getName(), 'X')\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "local bob = Prototype:delegated()",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "function bob:getName()\r\n        return 'X'\r\n    end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 22,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 23,
+    "text": "local john = bob:clone()",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "function bob:getName()\r\n        return 'Bob'\r\n    end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 25,
+    "text": "assertEquals(bob:getName(), 'Bob')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "assertEquals(john:getName(), 'X')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function bob:getName()\r\n        return 'X'\r\n    end",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function bob:getName()\r\n        return 'Bob'\r\n    end",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function TestPrototype:testSuper()\r\n    local base = Prototype:delegated()\r\n    function base:getName()\r\n        return 'Base'\r\n    end\r\n    local derived = base:delegated()\r\n    function derived:getName()\r\n        return super(self)..'>>Derived'\r\n    end\r\n\r\n    local john = derived:spawn()\r\n    assertEquals(john:getName(), 'Base>>Derived')\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "local base = Prototype:delegated()",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "function base:getName()\r\n        return 'Base'\r\n    end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 35,
+    "text": "local derived = base:delegated()",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "function derived:getName()\r\n        return super(self)..'>>Derived'\r\n    end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 37,
+    "text": "local john = derived:spawn()",
+    "type": "statement:localassign"
+  }, {
+    "id": 38,
+    "text": "assertEquals(john:getName(), 'Base>>Derived')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "function base:getName()\r\n        return 'Base'\r\n    end",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function derived:getName()\r\n        return super(self)..'>>Derived'\r\n    end",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 45,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "super",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "assertEquals",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

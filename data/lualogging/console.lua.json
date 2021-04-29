@@ -1,0 +1,177 @@
+{
+  "_filename": "console.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lualogging/src/logging/console.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "provides",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "console",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "logging",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function logging.console(logPattern)\r\n\treturn logging.new( function(self, level, message)\r\n\t\tio.stdout:write(logging.prepareLogMsg(logPattern, os.date(), level, message))\r\n\t\treturn true\r\n\tend)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "io.stdout:write(logging.prepareLogMsg(logPattern, os.date(), level, message))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function(self, level, message)\r\n\t\tio.stdout:write(logging.prepareLogMsg(logPattern, os.date(), level, message))\r\n\t\treturn true\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 10,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "prepareLogMsg",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "date",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

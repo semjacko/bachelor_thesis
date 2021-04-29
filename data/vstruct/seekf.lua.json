@@ -1,0 +1,257 @@
+{
+  "_filename": "seekf.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io/seekf.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "assigns",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "represents",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "provides",
+    "to": 25
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 17,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 17,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 17,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 16
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "seekf",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function seek.hasvalue()\r\n    return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function seek.width()\r\n    return nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function seek.unpack(fd, _, offset)\r\n    fd:seek(\"cur\", -offset)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function seek.hasvalue()\r\n    return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function seek.width()\r\n    return nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function seek.unpack(fd, _, offset)\r\n    fd:seek(\"cur\", offset)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "fd:seek(\"cur\", offset)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 14,
+    "text": "function seek.hasvalue()\r\n    return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function seek.width()\r\n    return nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function seek.unpack(fd, _, offset)\r\n    fd:seek(\"set\", offset)\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  } ]
+}

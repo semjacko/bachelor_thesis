@@ -1,0 +1,213 @@
+{
+  "_filename": "songs.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/kepler/web/orbit/songs/songs.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "requires",
+    "to": 9
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 12
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "songs",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function songs.index(web)\r\n   local songlist = {\r\n      \"Sgt. Pepper's Lonely Hearts Club Band\",\r\n      \"With a Little Help from My Friends\",\r\n      \"Lucy in the Sky with Diamonds\",\r\n      \"Getting Better\",\r\n      \"Fixing a Hole\",\r\n      \"She's Leaving Home\",\r\n      \"Being for the Benefit of Mr. Kite!\",\r\n      \"Within You Without You\",\r\n      \"When I'm Sixty-Four\",\r\n      \"Lovely Rita\",\r\n      \"Good Morning Good Morning\",\r\n      \"Sgt. Pepper's Lonely Hearts Club Band (Reprise)\",\r\n      \"A Day in the Life\"\r\n   }\r\n   return songs.layout(songs.render_index({ songs = songlist }))\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local songlist = {\r\n      \"Sgt. Pepper's Lonely Hearts Club Band\",\r\n      \"With a Little Help from My Friends\",\r\n      \"Lucy in the Sky with Diamonds\",\r\n      \"Getting Better\",\r\n      \"Fixing a Hole\",\r\n      \"She's Leaving Home\",\r\n      \"Being for the Benefit of Mr. Kite!\",\r\n      \"Within You Without You\",\r\n      \"When I'm Sixty-Four\",\r\n      \"Lovely Rita\",\r\n      \"Good Morning Good Morning\",\r\n      \"Sgt. Pepper's Lonely Hearts Club Band (Reprise)\",\r\n      \"A Day in the Life\"\r\n   }",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function songs.layout(inner_html)\r\n  return html{\r\n    head{ title\"Song List\" },\r\n    body{ inner_html }\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 9,
+    "text": "orbit",
+    "type": "module"
+  }, {
+    "id": 10,
+    "text": "htmlify",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "cosmo",
+    "type": "module"
+  }, {
+    "id": 13,
+    "text": "compile",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "head",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "body",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "render_index",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "html",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "title",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

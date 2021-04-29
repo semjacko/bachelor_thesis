@@ -1,0 +1,153 @@
+{
+  "_filename": "sample.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/rings/tests/sample.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "initializes",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "assigns",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "initializes",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "assigns",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "sample",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "rings",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require container"
+  } ]
+}

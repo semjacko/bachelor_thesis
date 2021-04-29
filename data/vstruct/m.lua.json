@@ -1,0 +1,465 @@
+{
+  "_filename": "m.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io/m.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 34,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 34,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 34,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 43
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "assigns",
+    "to": 46
+  }, {
+    "from": 44,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "requires",
+    "to": 35
+  }, {
+    "from": 44,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 49
+  }, {
+    "from": 45,
+    "label": "represents",
+    "to": 50
+  }, {
+    "from": 49,
+    "label": "provides",
+    "to": 50
+  }, {
+    "from": 45,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 45,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 45,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 45,
+    "label": "contains",
+    "to": 30
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "m",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function m.unpack(_, buf, width)\r\n    local mask = {}\r\n    local e = io(\"endianness\", \"get\")\r\n    \r\n    local sof,eof,step\r\n    if e == \"big\" then\r\n        sof,eof,step = #buf,1,-1\r\n    else\r\n        sof,eof,step = 1,#buf,1\r\n    end\r\n    \r\n\tfor i=sof,eof,step do\r\n\t\tlocal byte = buf:byte(i)\r\n        for i=1,8 do\r\n            mask[#mask+1] = (byte % 2 == 1) and true or false\r\n            byte = math.floor(byte/2)\r\n        end\r\n\tend\r\n    \r\n    return mask\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local mask = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local e = io(\"endianness\", \"get\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local sof,eof,step",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if e == \"big\" then\r\n        sof,eof,step = #buf,1,-1\r\n    else\r\n        sof,eof,step = 1,#buf,1\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "sof,eof,step = #buf,1,-1",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "sof,eof,step = 1,#buf,1",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "for i=sof,eof,step do\r\n\t\tlocal byte = buf:byte(i)\r\n        for i=1,8 do\r\n            mask[#mask+1] = (byte % 2 == 1) and true or false\r\n            byte = math.floor(byte/2)\r\n        end\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 11,
+    "text": "local byte = buf:byte(i)",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "for i=1,8 do\r\n            mask[#mask+1] = (byte % 2 == 1) and true or false\r\n            byte = math.floor(byte/2)\r\n        end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 13,
+    "text": "mask[#mask+1] = (byte % 2 == 1) and true or false",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "byte = math.floor(byte/2)",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function m.unpackbits(bit, width)\r\n    local mask = {}\r\n    for i=1,width do\r\n        mask[i] = bit() == 1 and true or false\r\n    end\r\n    return mask\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "for i=1,width do\r\n        mask[i] = bit() == 1 and true or false\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 19,
+    "text": "mask[i] = bit() == 1 and true or false",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function m.pack(fd, data, width)\r\n\tlocal buf = \"\"\r\n    local e = io(\"endianness\", \"get\")\r\n\t\r\n\tfor i=1,width*8,8 do\r\n\t\tlocal bits = { unpack(data, i, i+7) }\r\n\t\tlocal byte = string.char(struct.implode(bits, 8))\r\n\t\tif e == \"big\" then\r\n\t\t\tbuf = byte..buf\r\n\t\telse\r\n\t\t\tbuf = buf..byte\r\n\t\tend\r\n\tend\r\n\treturn io(\"s\", \"pack\", fd, buf, width)\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "local buf = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "for i=1,width*8,8 do\r\n\t\tlocal bits = { unpack(data, i, i+7) }\r\n\t\tlocal byte = string.char(struct.implode(bits, 8))\r\n\t\tif e == \"big\" then\r\n\t\t\tbuf = byte..buf\r\n\t\telse\r\n\t\t\tbuf = buf..byte\r\n\t\tend\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 24,
+    "text": "local bits = { unpack(data, i, i+7) }",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "local byte = string.char(struct.implode(bits, 8))",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if e == \"big\" then\r\n\t\t\tbuf = byte..buf\r\n\t\telse\r\n\t\t\tbuf = buf..byte\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "buf = byte..buf",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "buf = buf..byte",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function m.packbits(bit, data, width)\r\n    for i=1,width do\r\n        bit(data[i] and 1 or 0)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "for i=1,width do\r\n        bit(data[i] and 1 or 0)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 32,
+    "text": "bit(data[i] and 1 or 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 35,
+    "text": "vstruct",
+    "type": "module"
+  }, {
+    "id": 36,
+    "text": "implode",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "io",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "floor",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "bit",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "interface"
+  } ]
+}

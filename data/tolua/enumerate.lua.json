@@ -1,0 +1,525 @@
+{
+  "_filename": "enumerate.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/tolua/src/bin/lua/enumerate.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 42,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 42,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 42,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 53
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 54
+  }, {
+    "from": 53,
+    "label": "initializes",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "assigns",
+    "to": 56
+  }, {
+    "from": 53,
+    "label": "initializes",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "assigns",
+    "to": 58
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "enumerate",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function classEnumerate:register ()\r\n local nspace = getnamespace(classContainer.curr)\r\n local i=1\r\n while self[i] do\r\n  output(' tolua_constant(tolua_S,\"'..self.lnames[i]..'\",'..nspace..self[i]..');')\r\n  i = i+1\r\n end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local nspace = getnamespace(classContainer.curr)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local i=1",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "while self[i] do\r\n  output(' tolua_constant(tolua_S,\"'..self.lnames[i]..'\",'..nspace..self[i]..');')\r\n  i = i+1\r\n end",
+    "type": "statement:while"
+  }, {
+    "id": 6,
+    "text": "output(' tolua_constant(tolua_S,\"'..self.lnames[i]..'\",'..nspace..self[i]..');')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "i = i+1",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function classEnumerate:print (ident,close)\r\n print(ident..\"Enumerate{\")\r\n print(ident..\" name = \"..self.name)\r\n local i=1\r\n while self[i] do\r\n  print(ident..\" '\"..self[i]..\"'(\"..self.lnames[i]..\"),\")\r\n  i = i+1\r\n end\r\n print(ident..\"}\"..close)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "print(ident..\"Enumerate{\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "print(ident..\" name = \"..self.name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "while self[i] do\r\n  print(ident..\" '\"..self[i]..\"'(\"..self.lnames[i]..\"),\")\r\n  i = i+1\r\n end",
+    "type": "statement:while"
+  }, {
+    "id": 13,
+    "text": "print(ident..\" '\"..self[i]..\"'(\"..self.lnames[i]..\"),\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "print(ident..\"}\"..close)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function _Enumerate (t)\r\n setmetatable(t,classEnumerate)\r\n append(t)\r\n appendenum(t)\r\n return t\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "setmetatable(t,classEnumerate)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "append(t)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "appendenum(t)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function Enumerate (n,b)\r\n local t = split(strsub(b,2,-2),',') -- eliminate braces\r\n local i = 1\r\n local e = {n=0}\r\n while t[i] do\r\n  local tt = split(t[i],'=')  -- discard initial value\r\n  e.n = e.n + 1\r\n  e[e.n] = tt[1]\r\n  i = i+1\r\n end\r\n -- set lua names\r\n i  = 1\r\n e.lnames = {}\r\n while e[i] do\r\n  local t = split(e[i],'@')\r\n  e[i] = t[1]\r\n\t\tif not t[2] then\r\n\t\t t[2] = applyrenaming(t[1])\r\n\t\tend\r\n  e.lnames[i] = t[2] or t[1]\r\n  i = i+1\r\n end \r\n e.name = n\r\n if n~=\"\" then\r\n \tTypedef(\"int \"..n)\r\n end\r\n return _Enumerate(e)\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "local t = split(strsub(b,2,-2),',')",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "local i = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "local e = {n=0}",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "while t[i] do\r\n  local tt = split(t[i],'=')  -- discard initial value\r\n  e.n = e.n + 1\r\n  e[e.n] = tt[1]\r\n  i = i+1\r\n end",
+    "type": "statement:while"
+  }, {
+    "id": 27,
+    "text": "local tt = split(t[i],'=')",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "e.n = e.n + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "e[e.n] = tt[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "i  = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "e.lnames = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "while e[i] do\r\n  local t = split(e[i],'@')\r\n  e[i] = t[1]\r\n\t\tif not t[2] then\r\n\t\t t[2] = applyrenaming(t[1])\r\n\t\tend\r\n  e.lnames[i] = t[2] or t[1]\r\n  i = i+1\r\n end",
+    "type": "statement:while"
+  }, {
+    "id": 33,
+    "text": "local t = split(e[i],'@')",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "e[i] = t[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "if not t[2] then\r\n\t\t t[2] = applyrenaming(t[1])\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "t[2] = applyrenaming(t[1])",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "e.lnames[i] = t[2] or t[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "e.name = n",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "if n~=\"\" then\r\n \tTypedef(\"int \"..n)\r\n end",
+    "type": "statement:if"
+  }, {
+    "id": 40,
+    "text": "Typedef(\"int \"..n)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 43,
+    "text": "Typedef",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "append",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "strsub",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "split",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "getnamespace",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "applyrenaming",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "appendenum",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "output",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

@@ -1,0 +1,333 @@
+{
+  "_filename": "cl_output_handler.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/cl_output_handler.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "requires",
+    "to": 30
+  }, {
+    "from": 3,
+    "label": "provides",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "provides",
+    "to": 37
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "busted",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "cl_output_handler",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function(element, parent, status, debug)\r\n    local showTime = cliArgs.time\r\n    local timeFormat = cliArgs['time-format']\r\n    local timestamp = showTime and ('[' .. os.date(timeFormat, 123456) .. '] ') or ''\r\n\r\n    print(string.format(\"%s[%8s] %s\", timestamp, status, handler.getFullName(element)))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local showTime = cliArgs.time",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local timeFormat = cliArgs['time-format']",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local timestamp = showTime and ('[' .. os.date(timeFormat, 123456) .. '] ') or ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "print(string.format(\"%s[%8s] %s\", timestamp, status, handler.getFullName(element)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function(options)\r\n  local busted = require 'busted'\r\n  local handler = require 'busted.outputHandlers.base'()\r\n  local cli = require 'cliargs'\r\n  local args = options.arguments\r\n\r\n  cli:set_name('cl_output_handler')\r\n  cli:flag('--time', 'show timestamps')\r\n  cli:option('--time-format=FORMAT', 'format string according to strftime', '!%a %b %d %H:%M:%S %Y')\r\n\r\n  local cliArgs = cli:parse(args)\r\n\r\n  handler.testEnd = function(element, parent, status, debug)\r\n    local showTime = cliArgs.time\r\n    local timeFormat = cliArgs['time-format']\r\n    local timestamp = showTime and ('[' .. os.date(timeFormat, 123456) .. '] ') or ''\r\n\r\n    print(string.format(\"%s[%8s] %s\", timestamp, status, handler.getFullName(element)))\r\n  end\r\n\r\n  busted.subscribe({ 'test', 'end' }, handler.testEnd, { predicate = handler.cancelOnPending })\r\n\r\n  return handler\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local busted = require 'busted'",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local handler = require 'busted.outputHandlers.base'()",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local cli = require 'cliargs'",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local args = options.arguments",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "cli:set_name('cl_output_handler')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "cli:flag('--time', 'show timestamps')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "cli:option('--time-format=FORMAT', 'format string according to strftime', '!%a %b %d %H:%M:%S %Y')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "local cliArgs = cli:parse(args)",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "handler.testEnd = function(element, parent, status, debug)\r\n    local showTime = cliArgs.time\r\n    local timeFormat = cliArgs['time-format']\r\n    local timestamp = showTime and ('[' .. os.date(timeFormat, 123456) .. '] ') or ''\r\n\r\n    print(string.format(\"%s[%8s] %s\", timestamp, status, handler.getFullName(element)))\r\n  end",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "busted.subscribe({ 'test', 'end' }, handler.testEnd, { predicate = handler.cancelOnPending })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 24,
+    "text": "getFullName",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "subscribe",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "date",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "cliargs",
+    "type": "module"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "interface"
+  } ]
+}

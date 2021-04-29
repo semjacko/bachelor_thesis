@@ -1,0 +1,125 @@
+{
+  "_filename": "template.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-stdlib/template.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "requires",
+    "to": 14
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "template",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function main (file, number)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "dieWithUsage",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "getn",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "processFiles",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "Option",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "processArgs",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 14,
+    "text": "std",
+    "type": "module"
+  } ]
+}

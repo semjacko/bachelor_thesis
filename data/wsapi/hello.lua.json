@@ -1,0 +1,201 @@
+{
+  "_filename": "hello.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wsapi/samples/hello.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "hello",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function run(wsapi_env)\r\n  local headers = { [\"Content-type\"] = \"text/html\" }\r\n\r\n  local function hello_text()\r\n    coroutine.yield(\"<html><body>\")\r\n    coroutine.yield(\"<p>Hello Wsapi!</p>\")\r\n    coroutine.yield(\"<p>PATH_INFO: \" .. wsapi_env.PATH_INFO .. \"</p>\")\r\n    coroutine.yield(\"<p>SCRIPT_NAME: \" .. wsapi_env.SCRIPT_NAME .. \"</p>\")\r\n    coroutine.yield(\"</body></html>\")\r\n  end\r\n\r\n  return 200, headers, coroutine.wrap(hello_text)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local headers = { [\"Content-type\"] = \"text/html\" }",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local function hello_text()\r\n    coroutine.yield(\"<html><body>\")\r\n    coroutine.yield(\"<p>Hello Wsapi!</p>\")\r\n    coroutine.yield(\"<p>PATH_INFO: \" .. wsapi_env.PATH_INFO .. \"</p>\")\r\n    coroutine.yield(\"<p>SCRIPT_NAME: \" .. wsapi_env.SCRIPT_NAME .. \"</p>\")\r\n    coroutine.yield(\"</body></html>\")\r\n  end",
+    "type": "statement:localfunction"
+  }, {
+    "id": 5,
+    "text": "coroutine.yield(\"<html><body>\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "coroutine.yield(\"<p>Hello Wsapi!</p>\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "coroutine.yield(\"<p>PATH_INFO: \" .. wsapi_env.PATH_INFO .. \"</p>\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "coroutine.yield(\"<p>SCRIPT_NAME: \" .. wsapi_env.SCRIPT_NAME .. \"</p>\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "coroutine.yield(\"</body></html>\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "local function hello_text()\r\n    coroutine.yield(\"<html><body>\")\r\n    coroutine.yield(\"<p>Hello Wsapi!</p>\")\r\n    coroutine.yield(\"<p>PATH_INFO: \" .. wsapi_env.PATH_INFO .. \"</p>\")\r\n    coroutine.yield(\"<p>SCRIPT_NAME: \" .. wsapi_env.SCRIPT_NAME .. \"</p>\")\r\n    coroutine.yield(\"</body></html>\")\r\n  end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "yield",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "wrap",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require container"
+  } ]
+}

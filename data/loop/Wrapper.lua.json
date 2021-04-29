@@ -1,0 +1,301 @@
+{
+  "_filename": "Wrapper.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/object/Wrapper.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "assigns",
+    "to": 29
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 32,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ObjectCache",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "Wrapper",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function __init(self, ...)\r\n\tself = oo.rawnew(self, ...)\r\n\tself.__methods = ObjectCache()\r\n\tfunction self.__methods.retrieve(_, method)\r\n\t\treturn function(_, ...)\r\n\t\t\treturn method(self.__object, ...)\r\n\t\tend\r\n\tend\r\n\treturn self\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "self = oo.rawnew(self, ...)",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "self.__methods = ObjectCache()",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "function self.__methods.retrieve(_, method)\r\n\t\treturn function(_, ...)\r\n\t\t\treturn method(self.__object, ...)\r\n\t\tend\r\n\tend",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function self.__methods.retrieve(_, method)\r\n\t\treturn function(_, ...)\r\n\t\t\treturn method(self.__object, ...)\r\n\t\tend\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function __index(self, key)\r\n\tlocal value = self.__object[key]\r\n\tif type(value) == \"function\"\r\n\t\tthen return self.__methods[value]\r\n\t\telse return value\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "local value = self.__object[key]",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "if type(value) == \"function\"\r\n\t\tthen return self.__methods[value]\r\n\t\telse return value\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function(_, ...)\r\n\t\t\treturn method(self.__object, ...)\r\n\t\tend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 19,
+    "text": "rawnew",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "ObjectCache",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "method",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "__init",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

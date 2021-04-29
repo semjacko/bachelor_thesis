@@ -1,0 +1,201 @@
+{
+  "_filename": "UnorderedArray.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/collection/UnorderedArray.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 19,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "UnorderedArray",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function removeat(self, index)\r\n\tself[ self[index] ] = nil\r\n\treturn UnorderedArray.remove(self, index)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function remove(self, element, previous)\r\n\treturn removepriority(self, OrderedSet.remove(self, element, previous))\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function add(self, value)\r\n\tself[#self + 1] = value\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "self[#self + 1] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function remove(self, index)\r\n\tlocal size = #self\r\n\tif index == size then\r\n\t\tself[size] = nil\r\n\telseif (index > 0) and (index < size) then\r\n\t\tself[index], self[size] = self[size], nil\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local size = #self",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "if index == size then\r\n\t\tself[size] = nil\r\n\telseif (index > 0) and (index < size) then\r\n\t\tself[index], self[size] = self[size], nil\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "self[size] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "self[index], self[size] = self[size], nil",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 16,
+    "text": "function remove(self, routine)\r\n\treturn handleremoved(self, routine, Scheduler.remove(self, routine))\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

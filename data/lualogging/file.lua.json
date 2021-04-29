@@ -1,0 +1,389 @@
+{
+  "_filename": "file.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lualogging/src/logging/file.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "provides",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "file",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "logging",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function (filename, datePattern)\r\n\tlocal filename = string.format(filename, os.date(datePattern))\r\n\tif (lastFileNameDatePattern ~= filename) then\r\n\t\tlocal f = io.open(filename, \"a\")\r\n\t\tif (f) then\r\n\t\t\tf:setvbuf (\"line\")\r\n\t\t\tlastFileNameDatePattern = filename\r\n\t\t\tlastFileHandler = f\r\n\t\t\treturn f\r\n\t\telse\r\n\t\t\treturn nil, string.format(\"file `%s' could not be opened for writing\", filename)\r\n\t\tend\r\n\telse\r\n\t\treturn lastFileHandler\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local filename = string.format(filename, os.date(datePattern))",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if (lastFileNameDatePattern ~= filename) then\r\n\t\tlocal f = io.open(filename, \"a\")\r\n\t\tif (f) then\r\n\t\t\tf:setvbuf (\"line\")\r\n\t\t\tlastFileNameDatePattern = filename\r\n\t\t\tlastFileHandler = f\r\n\t\t\treturn f\r\n\t\telse\r\n\t\t\treturn nil, string.format(\"file `%s' could not be opened for writing\", filename)\r\n\t\tend\r\n\telse\r\n\t\treturn lastFileHandler\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "local f = io.open(filename, \"a\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if (f) then\r\n\t\t\tf:setvbuf (\"line\")\r\n\t\t\tlastFileNameDatePattern = filename\r\n\t\t\tlastFileHandler = f\r\n\t\t\treturn f\r\n\t\telse\r\n\t\t\treturn nil, string.format(\"file `%s' could not be opened for writing\", filename)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "f:setvbuf (\"line\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "lastFileNameDatePattern = filename",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "lastFileHandler = f",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function logging.file(filename, datePattern, logPattern)\r\n\tif type(filename) ~= \"string\" then\r\n\t\tfilename = \"lualogging.log\"\r\n\tend\r\n\r\n\treturn logging.new( function(self, level, message)\r\n\t\tlocal f, msg = openFileLogger(filename, datePattern)\r\n\t\tif not f then\r\n\t\t\treturn nil, msg\r\n\t\tend\r\n\t\tlocal s = logging.prepareLogMsg(logPattern, os.date(), level, message)\r\n\t\tf:write(s)\r\n\t\treturn true\r\n\tend)\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "if type(filename) ~= \"string\" then\r\n\t\tfilename = \"lualogging.log\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "filename = \"lualogging.log\"",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "local f, msg = openFileLogger(filename, datePattern)",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "if not f then\r\n\t\t\treturn nil, msg\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "local s = logging.prepareLogMsg(logPattern, os.date(), level, message)",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "f:write(s)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function(self, level, message)\r\n\t\tlocal f, msg = openFileLogger(filename, datePattern)\r\n\t\tif not f then\r\n\t\t\treturn nil, msg\r\n\t\tend\r\n\t\tlocal s = logging.prepareLogMsg(logPattern, os.date(), level, message)\r\n\t\tf:write(s)\r\n\t\treturn true\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 24,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "prepareLogMsg",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "date",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

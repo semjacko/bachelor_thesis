@@ -1,0 +1,153 @@
+{
+  "_filename": "rtspu.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/rtspu.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "initializes",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "assigns",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "assigns",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "assigns",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 16
+  }, {
+    "from": 7,
+    "label": "represents",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "provides",
+    "to": 17
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "rtsp",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "rtspu",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "subclass_of",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "interface"
+  } ]
+}

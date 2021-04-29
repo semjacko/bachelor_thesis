@@ -1,0 +1,3021 @@
+{
+  "_filename": "Builder.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-testmore/src/Test/Builder.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 105,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 108,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 114
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 118
+  }, {
+    "from": 118,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 118,
+    "label": "has",
+    "to": 120
+  }, {
+    "from": 118,
+    "label": "has",
+    "to": 121
+  }, {
+    "from": 118,
+    "label": "has",
+    "to": 122
+  }, {
+    "from": 118,
+    "label": "has",
+    "to": 123
+  }, {
+    "from": 118,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 118,
+    "label": "has",
+    "to": 124
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 125
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 127
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 128
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 129
+  }, {
+    "from": 129,
+    "label": "has",
+    "to": 130
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 132
+  }, {
+    "from": 132,
+    "label": "has",
+    "to": 133
+  }, {
+    "from": 132,
+    "label": "has",
+    "to": 134
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 135,
+    "label": "has",
+    "to": 136
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 137
+  }, {
+    "from": 137,
+    "label": "has",
+    "to": 138
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 139
+  }, {
+    "from": 139,
+    "label": "has",
+    "to": 138
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 140
+  }, {
+    "from": 141,
+    "label": "has",
+    "to": 142
+  }, {
+    "from": 141,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 141,
+    "label": "has",
+    "to": 143
+  }, {
+    "from": 141,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 141,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 141,
+    "label": "has",
+    "to": 144
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 146
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 147
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 148
+  }, {
+    "from": 148,
+    "label": "has",
+    "to": 149
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 150
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 151
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 153
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 154
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 155
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 138
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 156
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 158
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 159
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 138
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 160
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 161
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 162
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 163
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 164
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 165
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 166
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 168
+  }, {
+    "from": 168,
+    "label": "has",
+    "to": 169
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 170
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 171
+  }, {
+    "from": 171,
+    "label": "has",
+    "to": 172
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 173
+  }, {
+    "from": 173,
+    "label": "has",
+    "to": 174
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 175
+  }, {
+    "from": 175,
+    "label": "has",
+    "to": 176
+  }, {
+    "from": 175,
+    "label": "has",
+    "to": 177
+  }, {
+    "from": 175,
+    "label": "has",
+    "to": 178
+  }, {
+    "from": 178,
+    "label": "has",
+    "to": 179
+  }, {
+    "from": 178,
+    "label": "has",
+    "to": 180
+  }, {
+    "from": 178,
+    "label": "has",
+    "to": 181
+  }, {
+    "from": 178,
+    "label": "has",
+    "to": 182
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 183
+  }, {
+    "from": 183,
+    "label": "has",
+    "to": 138
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 184
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 185
+  }, {
+    "from": 186,
+    "label": "has",
+    "to": 187
+  }, {
+    "from": 186,
+    "label": "has",
+    "to": 188
+  }, {
+    "from": 188,
+    "label": "has",
+    "to": 189
+  }, {
+    "from": 186,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 186,
+    "label": "has",
+    "to": 190
+  }, {
+    "from": 186,
+    "label": "has",
+    "to": 191
+  }, {
+    "from": 192,
+    "label": "has",
+    "to": 193
+  }, {
+    "from": 193,
+    "label": "has",
+    "to": 194
+  }, {
+    "from": 192,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 192,
+    "label": "has",
+    "to": 195
+  }, {
+    "from": 196,
+    "label": "has",
+    "to": 197
+  }, {
+    "from": 196,
+    "label": "has",
+    "to": 198
+  }, {
+    "from": 196,
+    "label": "has",
+    "to": 199
+  }, {
+    "from": 196,
+    "label": "has",
+    "to": 200
+  }, {
+    "from": 201,
+    "label": "has",
+    "to": 202
+  }, {
+    "from": 201,
+    "label": "has",
+    "to": 203
+  }, {
+    "from": 203,
+    "label": "has",
+    "to": 204
+  }, {
+    "from": 201,
+    "label": "has",
+    "to": 205
+  }, {
+    "from": 201,
+    "label": "has",
+    "to": 206
+  }, {
+    "from": 207,
+    "label": "has",
+    "to": 208
+  }, {
+    "from": 207,
+    "label": "has",
+    "to": 203
+  }, {
+    "from": 203,
+    "label": "has",
+    "to": 204
+  }, {
+    "from": 207,
+    "label": "has",
+    "to": 209
+  }, {
+    "from": 207,
+    "label": "has",
+    "to": 210
+  }, {
+    "from": 211,
+    "label": "has",
+    "to": 212
+  }, {
+    "from": 212,
+    "label": "has",
+    "to": 213
+  }, {
+    "from": 211,
+    "label": "has",
+    "to": 214
+  }, {
+    "from": 215,
+    "label": "has",
+    "to": 216
+  }, {
+    "from": 215,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 215,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 215,
+    "label": "has",
+    "to": 217
+  }, {
+    "from": 218,
+    "label": "has",
+    "to": 219
+  }, {
+    "from": 218,
+    "label": "has",
+    "to": 220
+  }, {
+    "from": 221,
+    "label": "has",
+    "to": 222
+  }, {
+    "from": 221,
+    "label": "has",
+    "to": 223
+  }, {
+    "from": 224,
+    "label": "has",
+    "to": 225
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 226
+  }, {
+    "from": 224,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 224,
+    "label": "has",
+    "to": 227
+  }, {
+    "from": 228,
+    "label": "has",
+    "to": 229
+  }, {
+    "from": 229,
+    "label": "has",
+    "to": 230
+  }, {
+    "from": 228,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 228,
+    "label": "has",
+    "to": 231
+  }, {
+    "from": 232,
+    "label": "has",
+    "to": 233
+  }, {
+    "from": 233,
+    "label": "has",
+    "to": 234
+  }, {
+    "from": 232,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 232,
+    "label": "has",
+    "to": 235
+  }, {
+    "from": 236,
+    "label": "has",
+    "to": 237
+  }, {
+    "from": 236,
+    "label": "has",
+    "to": 238
+  }, {
+    "from": 236,
+    "label": "has",
+    "to": 239
+  }, {
+    "from": 236,
+    "label": "has",
+    "to": 240
+  }, {
+    "from": 241,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 241,
+    "label": "has",
+    "to": 242
+  }, {
+    "from": 243,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 243,
+    "label": "has",
+    "to": 244
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 276
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 276
+  }, {
+    "from": 145,
+    "label": "calls",
+    "to": 274
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 274
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 280
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 282
+  }, {
+    "from": 157,
+    "label": "calls",
+    "to": 282
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 284
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 284
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 284
+  }, {
+    "from": 75,
+    "label": "calls",
+    "to": 284
+  }, {
+    "from": 104,
+    "label": "calls",
+    "to": 284
+  }, {
+    "from": 115,
+    "label": "calls",
+    "to": 284
+  }, {
+    "from": 115,
+    "label": "calls",
+    "to": 284
+  }, {
+    "from": 115,
+    "label": "calls",
+    "to": 284
+  }, {
+    "from": 145,
+    "label": "calls",
+    "to": 284
+  }, {
+    "from": 145,
+    "label": "calls",
+    "to": 284
+  }, {
+    "from": 157,
+    "label": "calls",
+    "to": 284
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 285
+  }, {
+    "from": 104,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 157,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 218,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 221,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 157,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 157,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 157,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 215,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 281
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 115,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 126,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 145,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 157,
+    "label": "calls",
+    "to": 279
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 286
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 289
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 289
+  }, {
+    "from": 157,
+    "label": "calls",
+    "to": 152
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 287
+  }, {
+    "from": 115,
+    "label": "calls",
+    "to": 287
+  }, {
+    "from": 115,
+    "label": "calls",
+    "to": 287
+  }, {
+    "from": 245,
+    "label": "calls",
+    "to": 288
+  }, {
+    "from": 245,
+    "label": "calls",
+    "to": 288
+  }, {
+    "from": 245,
+    "label": "calls",
+    "to": 288
+  }, {
+    "from": 245,
+    "label": "calls",
+    "to": 288
+  }, {
+    "from": 218,
+    "label": "calls",
+    "to": 215
+  }, {
+    "from": 152,
+    "label": "calls",
+    "to": 283
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 245
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 35
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 45
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 58
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 60
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 75
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 88
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 104
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 115
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 126
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 141
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 145
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 152
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 157
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 186
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 192
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 196
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 201
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 207
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 211
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 215
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 218
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 221
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 224
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 228
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 232
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 236
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 241
+  }, {
+    "from": 245,
+    "label": "declares",
+    "to": 243
+  }, {
+    "from": 291,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 292,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 294,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 296,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 297
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 298
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 299
+  }, {
+    "from": 299,
+    "label": "assigns",
+    "to": 300
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 301
+  }, {
+    "from": 301,
+    "label": "assigns",
+    "to": 302
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 303
+  }, {
+    "from": 303,
+    "label": "assigns",
+    "to": 304
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 305
+  }, {
+    "from": 305,
+    "label": "assigns",
+    "to": 306
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 307
+  }, {
+    "from": 307,
+    "label": "assigns",
+    "to": 308
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 309
+  }, {
+    "from": 309,
+    "label": "assigns",
+    "to": 310
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 311
+  }, {
+    "from": 311,
+    "label": "assigns",
+    "to": 312
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 313
+  }, {
+    "from": 313,
+    "label": "assigns",
+    "to": 314
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 315
+  }, {
+    "from": 315,
+    "label": "assigns",
+    "to": 316
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 317
+  }, {
+    "from": 317,
+    "label": "assigns",
+    "to": 318
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 319
+  }, {
+    "from": 319,
+    "label": "assigns",
+    "to": 320
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 321
+  }, {
+    "from": 321,
+    "label": "assigns",
+    "to": 322
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 323
+  }, {
+    "from": 297,
+    "label": "initializes",
+    "to": 324
+  }, {
+    "from": 298,
+    "label": "initializes",
+    "to": 325
+  }, {
+    "from": 325,
+    "label": "requires",
+    "to": 278
+  }, {
+    "from": 298,
+    "label": "initializes",
+    "to": 326
+  }, {
+    "from": 326,
+    "label": "requires",
+    "to": 277
+  }, {
+    "from": 298,
+    "label": "initializes",
+    "to": 327
+  }, {
+    "from": 327,
+    "label": "requires",
+    "to": 273
+  }, {
+    "from": 298,
+    "label": "initializes",
+    "to": 328
+  }, {
+    "from": 328,
+    "label": "requires",
+    "to": 275
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 329
+  }, {
+    "from": 290,
+    "label": "represents",
+    "to": 330
+  }, {
+    "from": 329,
+    "label": "provides",
+    "to": 330
+  }, {
+    "from": 332,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 290,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 293,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 295,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 331,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 290,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 293,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 295,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 331,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 290,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 293,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 295,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 331,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 246
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 247
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 248
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 249
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 250
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 251
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 252
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 253
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 254
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 255
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 256
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 257
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 258
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 259
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 260
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 261
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 262
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 263
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 264
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 265
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 266
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 267
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 268
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 269
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 270
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 271
+  }, {
+    "from": 317,
+    "label": "contains",
+    "to": 272
+  }, {
+    "from": 37,
+    "label": "hasArgument",
+    "to": 241
+  }, {
+    "from": 37,
+    "label": "hasArgument",
+    "to": 243
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Builder",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function m.create ()\r\n    local tb = require 'Test.Builder'.create()\r\n    tb:output(io.tmpfile())\r\n    tb:failure_output(io.tmpfile())\r\n    tb:todo_output(io.tmpfile())\r\n\r\n    function tb:read (stream)\r\n        if     stream == 'out' then\r\n            local f = self:output()\r\n            f:seek 'set'\r\n            local out = f:read '*a'\r\n            f:close()\r\n            self:output(io.tmpfile())\r\n            return out\r\n        elseif stream == 'err' then\r\n            local f = self:failure_output()\r\n            f:seek 'set'\r\n            local out = f:read '*a'\r\n            f:close()\r\n            self:failure_output(io.tmpfile())\r\n            return out\r\n        elseif stream == 'todo' then\r\n            local f = self:todo_output()\r\n            f:seek 'set'\r\n            local out = f:read '*a'\r\n            f:close()\r\n            self:todo_output(io.tmpfile())\r\n            return out\r\n        else\r\n            self:output():close()\r\n            self:output(io.tmpfile())\r\n            self:failure_output():close()\r\n            self:failure_output(io.tmpfile())\r\n            self:todo_output():close()\r\n            self:todo_output(io.tmpfile())\r\n        end\r\n    end\r\n\r\n    return tb\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function m.init (sock)\r\n    tb:output(sock)\r\n    tb:failure_output(sock)\r\n    tb:todo_output(sock)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function m.puts (sock, str)\r\n    assert(sock:send(str))\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function m.new (_type)\r\n    local o = setmetatable({ type = _type }, { __index = m })\r\n    o:reset()\r\n    return o\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function m.test_out (...)\r\n    if not testing then\r\n        _start_testing()\r\n    end\r\n    out:expect(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function m.test_err (...)\r\n    if not testing then\r\n        _start_testing()\r\n    end\r\n    err:expect(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function m.test_fail (offset)\r\n    offset = offset or 0\r\n    if not testing then\r\n        _start_testing()\r\n    end\r\n    local info = debug.getinfo(2)\r\n    local prog = info.short_src\r\n    local line = info.currentline + offset\r\n    err:expect(\"#     Failed test (\" .. prog .. \" at line \" .. line .. \")\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function m.test_diag (...)\r\n    local arg = {...}\r\n    if not testing then\r\n        _start_testing()\r\n    end\r\n    for i = 1, #arg do\r\n        err:expect(\"# \" .. arg[i])\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function m.test_test (args)\r\n    local mess\r\n    if type(args) == 'table' then\r\n        mess = args[1]\r\n    else\r\n        mess = args\r\n        args = {}\r\n    end\r\n\r\n    if not testing then\r\n        error \"Not testing.  You must declare output with a test function first.\"\r\n    end\r\n\r\n    -- okay, reconnect the test suite back to the saved handles\r\n    tb:output(original_output_handle)\r\n    tb:failure_output(original_failure_handle)\r\n    tb:todo_output(original_todo_handle)\r\n\r\n    -- restore the test no, etc, back to the original point\r\n    tb:current_test(testing_num)\r\n    testing = false\r\n\r\n    -- check the output we've stashed\r\n    local pass = (args.skip_out or out:check())\r\n             and (args.skip_err or err:check())\r\n    tb:ok(pass, mess)\r\n    if not pass then\r\n        -- print out the diagnostic information about why this\r\n        -- test failed\r\n        if not out:check() then\r\n            tb:diag(out:complaint())\r\n        end\r\n        if not err:check() then\r\n            tb:diag(err:complaint())\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function m.line_num ()\r\n    return debug.getinfo(2).currentline\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function m.puts (f, str)\r\n    f:write(str)\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "f:write(str)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "local function _print_to_fh (self, f, ...)\r\n    if f then\r\n        local msg = table.concat({...})\r\n        msg:gsub(\"\\n\", \"\\n\" .. self.indent)\r\n        m.puts(f, self.indent .. msg .. \"\\n\")\r\n    else\r\n        print(self.indent, ...)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "if f then\r\n        local msg = table.concat({...})\r\n        msg:gsub(\"\\n\", \"\\n\" .. self.indent)\r\n        m.puts(f, self.indent .. msg .. \"\\n\")\r\n    else\r\n        print(self.indent, ...)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "local msg = table.concat({...})",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "msg:gsub(\"\\n\", \"\\n\" .. self.indent)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "m.puts(f, self.indent .. msg .. \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "print(self.indent, ...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "local function _print (self, ...)\r\n    _print_to_fh(self, self:output(), ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "_print_to_fh(self, self:output(), ...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "local function print_comment (self, f, ...)\r\n    local arg = {...}\r\n    for k, v in pairs(arg) do\r\n        arg[k] = tostring(v)\r\n    end\r\n    local msg = table.concat(arg)\r\n    msg = msg:gsub(\"\\n\", \"\\n# \")\r\n    msg = msg:gsub(\"\\n# \\n\", \"\\n#\\n\")\r\n    msg = msg:gsub(\"\\n# $\", '')\r\n    _print_to_fh(self, f, \"# \", msg)\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "local arg = {...}",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "for k, v in pairs(arg) do\r\n        arg[k] = tostring(v)\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 28,
+    "text": "arg[k] = tostring(v)",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "local msg = table.concat(arg)",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "msg = msg:gsub(\"\\n\", \"\\n# \")",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "msg = msg:gsub(\"\\n# \\n\", \"\\n#\\n\")",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "msg = msg:gsub(\"\\n# $\", '')",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "_print_to_fh(self, f, \"# \", msg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 35,
+    "text": "function m.create ()\r\n    local o = {\r\n        data = setmetatable({}, { __index = m }),\r\n    }\r\n    setmetatable(o, {\r\n        __index = function (t, k)\r\n                        return rawget(t, 'data')[k]\r\n                  end,\r\n        __newindex = function (t, k, v)\r\n                        rawget(o, 'data')[k] = v\r\n                  end,\r\n    })\r\n    o:reset()\r\n    return o\r\nend",
+    "type": "function"
+  }, {
+    "id": 36,
+    "text": "local o = {\r\n        data = setmetatable({}, { __index = m }),\r\n    }",
+    "type": "statement:localassign"
+  }, {
+    "id": 37,
+    "text": "setmetatable(o, {\r\n        __index = function (t, k)\r\n                        return rawget(t, 'data')[k]\r\n                  end,\r\n        __newindex = function (t, k, v)\r\n                        rawget(o, 'data')[k] = v\r\n                  end,\r\n    })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 38,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 39,
+    "text": "rawget(o, 'data')[k] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "o:reset()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function m.new ()\r\n    test = test or m.create()\r\n    return test\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "test = test or m.create()",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 45,
+    "text": "local function in_todo (self)\r\n    return self.todo_upto >= self.curr_test\r\nend",
+    "type": "function"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 47,
+    "text": "function m:child (name)\r\n    if self.child_name then\r\n        error(\"You already have a child named (\" .. self.child_name .. \" running\")\r\n    end\r\n    local child = m.create()\r\n    child.indent    = self.indent .. '    '\r\n    child.out_file  = self.out_file\r\n    child.fail_file = in_todo(self) and self.todo_file or self.fail_file\r\n    child.todo_file = self.todo_file\r\n    child.parent    = self\r\n    self.child_name = name\r\n    return child\r\nend",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "if self.child_name then\r\n        error(\"You already have a child named (\" .. self.child_name .. \" running\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 49,
+    "text": "error(\"You already have a child named (\" .. self.child_name .. \" running\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 50,
+    "text": "local child = m.create()",
+    "type": "statement:localassign"
+  }, {
+    "id": 51,
+    "text": "child.indent    = self.indent .. '    '",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "child.out_file  = self.out_file",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "child.fail_file = in_todo(self) and self.todo_file or self.fail_file",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "child.todo_file = self.todo_file",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "child.parent    = self",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "self.child_name = name",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 58,
+    "text": "local function plan_handled (self)\r\n    return self.have_plan or self.no_plan or self._skip_all\r\nend",
+    "type": "function"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 60,
+    "text": "function m:subtest (name, func)\r\n    if type(func) ~= 'function' then\r\n        error(\"subtest()'s second argument must be a function\")\r\n    end\r\n    local child = self:child(name)\r\n    local parent = self.data\r\n    self.data = child.data\r\n    local r, msg = pcall(func)\r\n    child.data = self.data\r\n    self.data = parent\r\n    if not r and not child._skip_all then\r\n        error(msg, 0)\r\n    end\r\n    if not plan_handled(child) then\r\n        child:done_testing()\r\n    end\r\n    child:finalize()\r\nend",
+    "type": "function"
+  }, {
+    "id": 61,
+    "text": "if type(func) ~= 'function' then\r\n        error(\"subtest()'s second argument must be a function\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 62,
+    "text": "error(\"subtest()'s second argument must be a function\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 63,
+    "text": "local child = self:child(name)",
+    "type": "statement:localassign"
+  }, {
+    "id": 64,
+    "text": "local parent = self.data",
+    "type": "statement:localassign"
+  }, {
+    "id": 65,
+    "text": "self.data = child.data",
+    "type": "statement:assign"
+  }, {
+    "id": 66,
+    "text": "local r, msg = pcall(func)",
+    "type": "statement:localassign"
+  }, {
+    "id": 67,
+    "text": "child.data = self.data",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "self.data = parent",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "if not r and not child._skip_all then\r\n        error(msg, 0)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 70,
+    "text": "error(msg, 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 71,
+    "text": "if not plan_handled(child) then\r\n        child:done_testing()\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 72,
+    "text": "child:done_testing()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 73,
+    "text": "child:finalize()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 75,
+    "text": "function m:finalize ()\r\n    if not self.parent then\r\n        return\r\n    end\r\n    if self.child_name then\r\n        error(\"Can't call finalize() with child (\" .. self.child_name .. \" active\")\r\n    end\r\n    local parent = self.parent\r\n    local name = parent.child_name\r\n    parent.child_name = nil\r\n    if self._skip_all then\r\n        parent:skip(self._skip_all)\r\n    elseif self.curr_test == 0 then\r\n        parent:ok(false, \"No tests run for subtest \\\"\" .. name .. \"\\\"\", 2)\r\n    else\r\n        parent:ok(self.is_passing, name, 2)\r\n    end\r\n    self.parent = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 76,
+    "text": "if not self.parent then\r\n        return\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 77,
+    "text": "if self.child_name then\r\n        error(\"Can't call finalize() with child (\" .. self.child_name .. \" active\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 78,
+    "text": "error(\"Can't call finalize() with child (\" .. self.child_name .. \" active\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 79,
+    "text": "local parent = self.parent",
+    "type": "statement:localassign"
+  }, {
+    "id": 80,
+    "text": "local name = parent.child_name",
+    "type": "statement:localassign"
+  }, {
+    "id": 81,
+    "text": "parent.child_name = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 82,
+    "text": "if self._skip_all then\r\n        parent:skip(self._skip_all)\r\n    elseif self.curr_test == 0 then\r\n        parent:ok(false, \"No tests run for subtest \\\"\" .. name .. \"\\\"\", 2)\r\n    else\r\n        parent:ok(self.is_passing, name, 2)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 83,
+    "text": "parent:skip(self._skip_all)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 84,
+    "text": "parent:ok(false, \"No tests run for subtest \\\"\" .. name .. \"\\\"\", 2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 85,
+    "text": "parent:ok(self.is_passing, name, 2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 86,
+    "text": "self.parent = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 88,
+    "text": "function m:reset ()\r\n    self.curr_test = 0\r\n    self._done_testing = false\r\n    self.expected_tests = 0\r\n    self.is_passing = true\r\n    self.todo_upto = -1\r\n    self.todo_reason = nil\r\n    self.have_plan = false\r\n    self.no_plan = false\r\n    self._skip_all = false\r\n    self.have_output_plan = false\r\n    self.indent = ''\r\n    self.parent = false\r\n    self.child_name = false\r\n    self:reset_outputs()\r\nend",
+    "type": "function"
+  }, {
+    "id": 89,
+    "text": "self.curr_test = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 90,
+    "text": "self._done_testing = false",
+    "type": "statement:assign"
+  }, {
+    "id": 91,
+    "text": "self.expected_tests = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 92,
+    "text": "self.is_passing = true",
+    "type": "statement:assign"
+  }, {
+    "id": 93,
+    "text": "self.todo_upto = -1",
+    "type": "statement:assign"
+  }, {
+    "id": 94,
+    "text": "self.todo_reason = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 95,
+    "text": "self.have_plan = false",
+    "type": "statement:assign"
+  }, {
+    "id": 96,
+    "text": "self.no_plan = false",
+    "type": "statement:assign"
+  }, {
+    "id": 97,
+    "text": "self._skip_all = false",
+    "type": "statement:assign"
+  }, {
+    "id": 98,
+    "text": "self.have_output_plan = false",
+    "type": "statement:assign"
+  }, {
+    "id": 99,
+    "text": "self.indent = ''",
+    "type": "statement:assign"
+  }, {
+    "id": 100,
+    "text": "self.parent = false",
+    "type": "statement:assign"
+  }, {
+    "id": 101,
+    "text": "self.child_name = false",
+    "type": "statement:assign"
+  }, {
+    "id": 102,
+    "text": "self:reset_outputs()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 103,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 104,
+    "text": "local function _output_plan (self, max, directive, reason)\r\n    if self.have_output_plan then\r\n        error(\"The plan was already output\")\r\n    end\r\n    local out = \"1..\" .. max\r\n    if directive then\r\n        out = out .. \" # \" .. directive\r\n    end\r\n    if reason then\r\n        out = out .. \" \" .. reason\r\n    end\r\n    _print(self, out)\r\n    self.have_output_plan = true\r\nend",
+    "type": "function"
+  }, {
+    "id": 105,
+    "text": "if self.have_output_plan then\r\n        error(\"The plan was already output\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 106,
+    "text": "error(\"The plan was already output\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 107,
+    "text": "local out = \"1..\" .. max",
+    "type": "statement:localassign"
+  }, {
+    "id": 108,
+    "text": "if directive then\r\n        out = out .. \" # \" .. directive\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 109,
+    "text": "out = out .. \" # \" .. directive",
+    "type": "statement:assign"
+  }, {
+    "id": 110,
+    "text": "if reason then\r\n        out = out .. \" \" .. reason\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 111,
+    "text": "out = out .. \" \" .. reason",
+    "type": "statement:assign"
+  }, {
+    "id": 112,
+    "text": "_print(self, out)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 113,
+    "text": "self.have_output_plan = true",
+    "type": "statement:assign"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 115,
+    "text": "function m:plan (arg)\r\n    if self.have_plan then\r\n        error(\"You tried to plan twice\")\r\n    end\r\n    if type(arg) == 'string' and arg == 'no_plan' then\r\n        self.have_plan = true\r\n        self.no_plan = true\r\n        return true\r\n    elseif type(arg) ~= 'number' then\r\n        error(\"Need a number of tests\")\r\n    elseif arg < 0 then\r\n        error(\"Number of tests must be a positive integer.  You gave it '\" .. arg ..\"'.\")\r\n    else\r\n        self.expected_tests = arg\r\n        self.have_plan = true\r\n        _output_plan(self, arg)\r\n        return arg\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 116,
+    "text": "if self.have_plan then\r\n        error(\"You tried to plan twice\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 117,
+    "text": "error(\"You tried to plan twice\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 118,
+    "text": "if type(arg) == 'string' and arg == 'no_plan' then\r\n        self.have_plan = true\r\n        self.no_plan = true\r\n        return true\r\n    elseif type(arg) ~= 'number' then\r\n        error(\"Need a number of tests\")\r\n    elseif arg < 0 then\r\n        error(\"Number of tests must be a positive integer.  You gave it '\" .. arg ..\"'.\")\r\n    else\r\n        self.expected_tests = arg\r\n        self.have_plan = true\r\n        _output_plan(self, arg)\r\n        return arg\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 119,
+    "text": "self.have_plan = true",
+    "type": "statement:assign"
+  }, {
+    "id": 120,
+    "text": "self.no_plan = true",
+    "type": "statement:assign"
+  }, {
+    "id": 121,
+    "text": "error(\"Need a number of tests\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 122,
+    "text": "error(\"Number of tests must be a positive integer.  You gave it '\" .. arg ..\"'.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 123,
+    "text": "self.expected_tests = arg",
+    "type": "statement:assign"
+  }, {
+    "id": 124,
+    "text": "_output_plan(self, arg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 126,
+    "text": "function m:done_testing (num_tests)\r\n    if num_tests then\r\n        self.no_plan = false\r\n    end\r\n    num_tests = num_tests or self.curr_test\r\n    if self._done_testing then\r\n        tb:ok(false, \"done_testing() was already called\")\r\n        return\r\n    end\r\n    self._done_testing = true\r\n    if self.expected_tests > 0 and num_tests ~= self.expected_tests then\r\n        self:ok(false, \"planned to run \" .. self.expected_tests\r\n                    .. \" but done_testing() expects \" .. num_tests)\r\n    else\r\n        self.expected_tests = num_tests\r\n    end\r\n    if not self.have_output_plan then\r\n        _output_plan(self, num_tests)\r\n    end\r\n    self.have_plan = true\r\n    -- The wrong number of tests were run\r\n    if self.expected_tests ~= self.curr_test then\r\n        self.is_passing = false\r\n    end\r\n    -- No tests were run\r\n    if self.curr_test == 0 then\r\n        self.is_passing = false\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 127,
+    "text": "if num_tests then\r\n        self.no_plan = false\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 128,
+    "text": "num_tests = num_tests or self.curr_test",
+    "type": "statement:assign"
+  }, {
+    "id": 129,
+    "text": "if self._done_testing then\r\n        tb:ok(false, \"done_testing() was already called\")\r\n        return\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 130,
+    "text": "tb:ok(false, \"done_testing() was already called\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 131,
+    "text": "self._done_testing = true",
+    "type": "statement:assign"
+  }, {
+    "id": 132,
+    "text": "if self.expected_tests > 0 and num_tests ~= self.expected_tests then\r\n        self:ok(false, \"planned to run \" .. self.expected_tests\r\n                    .. \" but done_testing() expects \" .. num_tests)\r\n    else\r\n        self.expected_tests = num_tests\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 133,
+    "text": "self:ok(false, \"planned to run \" .. self.expected_tests\r\n                    .. \" but done_testing() expects \" .. num_tests)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 134,
+    "text": "self.expected_tests = num_tests",
+    "type": "statement:assign"
+  }, {
+    "id": 135,
+    "text": "if not self.have_output_plan then\r\n        _output_plan(self, num_tests)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 136,
+    "text": "_output_plan(self, num_tests)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 137,
+    "text": "if self.expected_tests ~= self.curr_test then\r\n        self.is_passing = false\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 138,
+    "text": "self.is_passing = false",
+    "type": "statement:assign"
+  }, {
+    "id": 139,
+    "text": "if self.curr_test == 0 then\r\n        self.is_passing = false\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 140,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 141,
+    "text": "function m:has_plan ()\r\n    if self.expected_tests > 0 then\r\n        return self.expected_tests\r\n    end\r\n    if self.no_plan then\r\n        return 'no_plan'\r\n    end\r\n    return nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 142,
+    "text": "if self.expected_tests > 0 then\r\n        return self.expected_tests\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 143,
+    "text": "if self.no_plan then\r\n        return 'no_plan'\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 144,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 145,
+    "text": "function m:skip_all (reason)\r\n    if self.have_plan then\r\n        error(\"You tried to plan twice\")\r\n    end\r\n    self._skip_all = reason\r\n    _output_plan(self, 0, 'SKIP', reason)\r\n    if self.parent then\r\n        error(\"skip_all in child\", 0)\r\n    end\r\n    os.exit(0)\r\nend",
+    "type": "function"
+  }, {
+    "id": 146,
+    "text": "self._skip_all = reason",
+    "type": "statement:assign"
+  }, {
+    "id": 147,
+    "text": "_output_plan(self, 0, 'SKIP', reason)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 148,
+    "text": "if self.parent then\r\n        error(\"skip_all in child\", 0)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 149,
+    "text": "error(\"skip_all in child\", 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 150,
+    "text": "os.exit(0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 151,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 152,
+    "text": "local function _check_is_passing_plan (self)\r\n    local plan = self:has_plan()\r\n    if not plan or not tonumber(plan) then\r\n        return\r\n    end\r\n    if plan < self.curr_test then\r\n        self.is_passing = false\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 153,
+    "text": "local plan = self:has_plan()",
+    "type": "statement:localassign"
+  }, {
+    "id": 154,
+    "text": "if not plan or not tonumber(plan) then\r\n        return\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 155,
+    "text": "if plan < self.curr_test then\r\n        self.is_passing = false\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 156,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 157,
+    "text": "function m:ok (test, name, level)\r\n    if self.child_name then\r\n        name = name or 'unnamed test'\r\n        self.is_passing = false\r\n        error(\"Cannot run test (\" .. name .. \") with active children\")\r\n    end\r\n    name = name or ''\r\n    level = level or 0\r\n    self.curr_test = self.curr_test + 1\r\n    name = tostring(name)\r\n    if name:match('^[%d%s]+$') then\r\n        self:diag(\"    You named your test '\" .. name ..\"'.  You shouldn't use numbers for your test names.\"\r\n        .. \"\\n    Very confusing.\")\r\n    end\r\n    local out = ''\r\n    if not test then\r\n        out = \"not \"\r\n    end\r\n    out = out .. \"ok \" .. self.curr_test\r\n    if name ~= '' then\r\n        out = out .. \" - \" .. name\r\n    end\r\n    if self.todo_reason and in_todo(self) then\r\n        out = out .. \" # TODO \" .. self.todo_reason\r\n    end\r\n    _print(self, out)\r\n    if not test then\r\n        local msg = in_todo(self) and \"Failed (TODO)\" or \"Failed\"\r\n        local info = debug and debug.getinfo(3 + level)\r\n        if info then\r\n            local file = info.short_src\r\n            local line = info.currentline\r\n            self:diag(\"    \" .. msg .. \" test (\" .. file .. \" at line \" .. line .. \")\")\r\n        else\r\n            self:diag(\"    \" .. msg .. \" test\")\r\n        end\r\n    end\r\n    if not test and not in_todo(self) then\r\n        self.is_passing = false\r\n    end\r\n    _check_is_passing_plan(self)\r\nend",
+    "type": "function"
+  }, {
+    "id": 158,
+    "text": "if self.child_name then\r\n        name = name or 'unnamed test'\r\n        self.is_passing = false\r\n        error(\"Cannot run test (\" .. name .. \") with active children\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 159,
+    "text": "name = name or 'unnamed test'",
+    "type": "statement:assign"
+  }, {
+    "id": 160,
+    "text": "error(\"Cannot run test (\" .. name .. \") with active children\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 161,
+    "text": "name = name or ''",
+    "type": "statement:assign"
+  }, {
+    "id": 162,
+    "text": "level = level or 0",
+    "type": "statement:assign"
+  }, {
+    "id": 163,
+    "text": "self.curr_test = self.curr_test + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 164,
+    "text": "name = tostring(name)",
+    "type": "statement:assign"
+  }, {
+    "id": 165,
+    "text": "if name:match('^[%d%s]+$') then\r\n        self:diag(\"    You named your test '\" .. name ..\"'.  You shouldn't use numbers for your test names.\"\r\n        .. \"\\n    Very confusing.\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 166,
+    "text": "self:diag(\"    You named your test '\" .. name ..\"'.  You shouldn't use numbers for your test names.\"\r\n        .. \"\\n    Very confusing.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 167,
+    "text": "local out = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 168,
+    "text": "if not test then\r\n        out = \"not \"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 169,
+    "text": "out = \"not \"",
+    "type": "statement:assign"
+  }, {
+    "id": 170,
+    "text": "out = out .. \"ok \" .. self.curr_test",
+    "type": "statement:assign"
+  }, {
+    "id": 171,
+    "text": "if name ~= '' then\r\n        out = out .. \" - \" .. name\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 172,
+    "text": "out = out .. \" - \" .. name",
+    "type": "statement:assign"
+  }, {
+    "id": 173,
+    "text": "if self.todo_reason and in_todo(self) then\r\n        out = out .. \" # TODO \" .. self.todo_reason\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 174,
+    "text": "out = out .. \" # TODO \" .. self.todo_reason",
+    "type": "statement:assign"
+  }, {
+    "id": 175,
+    "text": "if not test then\r\n        local msg = in_todo(self) and \"Failed (TODO)\" or \"Failed\"\r\n        local info = debug and debug.getinfo(3 + level)\r\n        if info then\r\n            local file = info.short_src\r\n            local line = info.currentline\r\n            self:diag(\"    \" .. msg .. \" test (\" .. file .. \" at line \" .. line .. \")\")\r\n        else\r\n            self:diag(\"    \" .. msg .. \" test\")\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 176,
+    "text": "local msg = in_todo(self) and \"Failed (TODO)\" or \"Failed\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 177,
+    "text": "local info = debug and debug.getinfo(3 + level)",
+    "type": "statement:localassign"
+  }, {
+    "id": 178,
+    "text": "if info then\r\n            local file = info.short_src\r\n            local line = info.currentline\r\n            self:diag(\"    \" .. msg .. \" test (\" .. file .. \" at line \" .. line .. \")\")\r\n        else\r\n            self:diag(\"    \" .. msg .. \" test\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 179,
+    "text": "local file = info.short_src",
+    "type": "statement:localassign"
+  }, {
+    "id": 180,
+    "text": "local line = info.currentline",
+    "type": "statement:localassign"
+  }, {
+    "id": 181,
+    "text": "self:diag(\"    \" .. msg .. \" test (\" .. file .. \" at line \" .. line .. \")\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 182,
+    "text": "self:diag(\"    \" .. msg .. \" test\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 183,
+    "text": "if not test and not in_todo(self) then\r\n        self.is_passing = false\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 184,
+    "text": "_check_is_passing_plan(self)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 185,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 186,
+    "text": "function m:BAIL_OUT (reason)\r\n    local out = \"Bail out!\"\r\n    if reason then\r\n        out = out .. \"  \" .. reason\r\n    end\r\n    _print(self, out)\r\n    os.exit(255)\r\nend",
+    "type": "function"
+  }, {
+    "id": 187,
+    "text": "local out = \"Bail out!\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 188,
+    "text": "if reason then\r\n        out = out .. \"  \" .. reason\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 189,
+    "text": "out = out .. \"  \" .. reason",
+    "type": "statement:assign"
+  }, {
+    "id": 190,
+    "text": "os.exit(255)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 191,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 192,
+    "text": "function m:current_test (num)\r\n    if num then\r\n        self.curr_test = num\r\n    end\r\n    return self.curr_test\r\nend",
+    "type": "function"
+  }, {
+    "id": 193,
+    "text": "if num then\r\n        self.curr_test = num\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 194,
+    "text": "self.curr_test = num",
+    "type": "statement:assign"
+  }, {
+    "id": 195,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 196,
+    "text": "function m:todo (reason, count)\r\n    count = count or 1\r\n    self.todo_upto = self.curr_test + count\r\n    self.todo_reason = reason\r\nend",
+    "type": "function"
+  }, {
+    "id": 197,
+    "text": "count = count or 1",
+    "type": "statement:assign"
+  }, {
+    "id": 198,
+    "text": "self.todo_upto = self.curr_test + count",
+    "type": "statement:assign"
+  }, {
+    "id": 199,
+    "text": "self.todo_reason = reason",
+    "type": "statement:assign"
+  }, {
+    "id": 200,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 201,
+    "text": "function m:skip (reason)\r\n    local name = \"# skip\"\r\n    if reason then\r\n        name = name .. \" \" .. reason\r\n    end\r\n    self:ok(true, name, 1)\r\nend",
+    "type": "function"
+  }, {
+    "id": 202,
+    "text": "local name = \"# skip\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 203,
+    "text": "if reason then\r\n        name = name .. \" \" .. reason\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 204,
+    "text": "name = name .. \" \" .. reason",
+    "type": "statement:assign"
+  }, {
+    "id": 205,
+    "text": "self:ok(true, name, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 206,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 207,
+    "text": "function m:todo_skip (reason)\r\n    local name = \"# TODO & SKIP\"\r\n    if reason then\r\n        name = name .. \" \" .. reason\r\n    end\r\n    self:ok(false, name, 1)\r\nend",
+    "type": "function"
+  }, {
+    "id": 208,
+    "text": "local name = \"# TODO & SKIP\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 209,
+    "text": "self:ok(false, name, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 210,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 211,
+    "text": "function m:skip_rest (reason)\r\n    for i = self.curr_test, self.expected_tests do\r\n        tb:skip(reason)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 212,
+    "text": "for i = self.curr_test, self.expected_tests do\r\n        tb:skip(reason)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 213,
+    "text": "tb:skip(reason)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 214,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 215,
+    "text": "local function diag_file (self)\r\n    if in_todo(self) then\r\n        return self:todo_output()\r\n    else\r\n        return self:failure_output()\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 216,
+    "text": "if in_todo(self) then\r\n        return self:todo_output()\r\n    else\r\n        return self:failure_output()\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 217,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 218,
+    "text": "function m:diag (...)\r\n    print_comment(self, diag_file(self), ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 219,
+    "text": "print_comment(self, diag_file(self), ...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 220,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 221,
+    "text": "function m:note (...)\r\n    print_comment(self, self:output(), ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 222,
+    "text": "print_comment(self, self:output(), ...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 223,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 224,
+    "text": "function m:output (f)\r\n    if f then\r\n        self.out_file = f\r\n    end\r\n    return self.out_file\r\nend",
+    "type": "function"
+  }, {
+    "id": 225,
+    "text": "if f then\r\n        self.out_file = f\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 226,
+    "text": "self.out_file = f",
+    "type": "statement:assign"
+  }, {
+    "id": 227,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 228,
+    "text": "function m:failure_output (f)\r\n    if f then\r\n        self.fail_file = f\r\n    end\r\n    return self.fail_file\r\nend",
+    "type": "function"
+  }, {
+    "id": 229,
+    "text": "if f then\r\n        self.fail_file = f\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 230,
+    "text": "self.fail_file = f",
+    "type": "statement:assign"
+  }, {
+    "id": 231,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 232,
+    "text": "function m:todo_output (f)\r\n    if f then\r\n        self.todo_file = f\r\n    end\r\n    return self.todo_file\r\nend",
+    "type": "function"
+  }, {
+    "id": 233,
+    "text": "if f then\r\n        self.todo_file = f\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 234,
+    "text": "self.todo_file = f",
+    "type": "statement:assign"
+  }, {
+    "id": 235,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 236,
+    "text": "function m:reset_outputs ()\r\n    self:output(testout)\r\n    self:failure_output(testerr)\r\n    self:todo_output(testout)\r\nend",
+    "type": "function"
+  }, {
+    "id": 237,
+    "text": "self:output(testout)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 238,
+    "text": "self:failure_output(testerr)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 239,
+    "text": "self:todo_output(testout)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 240,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 241,
+    "text": "function (t, k)\r\n                        return rawget(t, 'data')[k]\r\n                  end",
+    "type": "function"
+  }, {
+    "id": 242,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 243,
+    "text": "function (t, k, v)\r\n                        rawget(o, 'data')[k] = v\r\n                  end",
+    "type": "function"
+  }, {
+    "id": 244,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 245,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 246,
+    "text": "function m.plan (arg)\r\n    tb:plan(arg)\r\nend",
+    "type": "function"
+  }, {
+    "id": 247,
+    "text": "function m.done_testing (num_tests)\r\n    tb:done_testing(num_tests)\r\nend",
+    "type": "function"
+  }, {
+    "id": 248,
+    "text": "function m.skip_all (reason)\r\n    tb:skip_all(reason)\r\nend",
+    "type": "function"
+  }, {
+    "id": 249,
+    "text": "function m.BAIL_OUT (reason)\r\n    tb:BAIL_OUT(reason)\r\nend",
+    "type": "function"
+  }, {
+    "id": 250,
+    "text": "function m.ok (test, name)\r\n    tb:ok(test, name)\r\nend",
+    "type": "function"
+  }, {
+    "id": 251,
+    "text": "function m.nok (test, name)\r\n    tb:ok(not test, name)\r\nend",
+    "type": "function"
+  }, {
+    "id": 252,
+    "text": "function m.is (got, expected, name)\r\n    local pass = got == expected\r\n    tb:ok(pass, name)\r\n    if not pass then\r\n        tb:diag(\"         got: \" .. tostring(got)\r\n           .. \"\\n    expected: \" .. tostring(expected))\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 253,
+    "text": "function m.isnt (got, expected, name)\r\n    local pass = got ~= expected\r\n    tb:ok(pass, name)\r\n    if not pass then\r\n        tb:diag(\"         got: \" .. tostring(got)\r\n           .. \"\\n    expected: anything else\")\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 254,
+    "text": "function m.like (got, pattern, name)\r\n    if type(pattern) ~= 'string' then\r\n        tb:ok(false, name)\r\n        tb:diag(\"pattern isn't a string : \" .. tostring(pattern))\r\n        return\r\n    end\r\n    got = tostring(got)\r\n    local pass = got:match(pattern)\r\n    tb:ok(pass, name)\r\n    if not pass then\r\n        tb:diag(\"                  '\" .. got .. \"'\"\r\n           .. \"\\n    doesn't match '\" .. pattern .. \"'\")\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 255,
+    "text": "function m.unlike (got, pattern, name)\r\n    if type(pattern) ~= 'string' then\r\n        tb:ok(false, name)\r\n        tb:diag(\"pattern isn't a string : \" .. tostring(pattern))\r\n        return\r\n    end\r\n    got = tostring(got)\r\n    local pass = not got:match(pattern)\r\n    tb:ok(pass, name)\r\n    if not pass then\r\n        tb:diag(\"                  '\" .. got .. \"'\"\r\n           .. \"\\n          matches '\" .. pattern .. \"'\")\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 256,
+    "text": "function m.cmp_ok (this, op, that, name)\r\n    local f = cmp[op]\r\n    if not f then\r\n        tb:ok(false, name)\r\n        tb:diag(\"unknown operator : \" .. tostring(op))\r\n        return\r\n    end\r\n    local pass = f(this, that)\r\n    tb:ok(pass, name)\r\n    if not pass then\r\n        tb:diag(\"    \" .. tostring(this)\r\n           .. \"\\n        \" .. op\r\n           .. \"\\n    \" .. tostring(that))\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 257,
+    "text": "function m.type_ok (val, t, name)\r\n    if type(t) ~= 'string' then\r\n        tb:ok(false, name)\r\n        tb:diag(\"type isn't a string : \" .. tostring(t))\r\n        return\r\n    end\r\n    if type(val) == t then\r\n        tb:ok(true, name)\r\n    else\r\n        tb:ok(false, name)\r\n        tb:diag(\"    \" .. tostring(val) .. \" isn't a '\" .. t ..\"' it's a '\" .. type(val) .. \"'\")\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 258,
+    "text": "function m.subtest (name, func)\r\n    tb:subtest(name, func)\r\nend",
+    "type": "function"
+  }, {
+    "id": 259,
+    "text": "function m.pass (name)\r\n    tb:ok(true, name)\r\nend",
+    "type": "function"
+  }, {
+    "id": 260,
+    "text": "function m.fail (name)\r\n    tb:ok(false, name)\r\nend",
+    "type": "function"
+  }, {
+    "id": 261,
+    "text": "function m.require_ok (mod)\r\n    local r, msg = pcall(require, mod)\r\n    tb:ok(r, \"require '\" .. tostring(mod) .. \"'\")\r\n    if not r then\r\n        tb:diag(\"    \" .. msg)\r\n    end\r\n    return r\r\nend",
+    "type": "function"
+  }, {
+    "id": 262,
+    "text": "function m.eq_array (got, expected, name)\r\n    if type(got) ~= 'table' then\r\n        tb:ok(false, name)\r\n        tb:diag(\"got value isn't a table : \" .. tostring(got))\r\n        return\r\n    elseif type(expected) ~= 'table' then\r\n        tb:ok(false, name)\r\n        tb:diag(\"expected value isn't a table : \" .. tostring(expected))\r\n        return\r\n    end\r\n    for i = 1, #expected do\r\n        local v = expected[i]\r\n        local val = got[i]\r\n        if val ~= v then\r\n            tb:ok(false, name)\r\n            tb:diag(\"    at index: \" .. tostring(i)\r\n               .. \"\\n         got: \" .. tostring(val)\r\n               .. \"\\n    expected: \" .. tostring(v))\r\n            return\r\n        end\r\n    end\r\n    local extra = #got - #expected\r\n    if extra ~= 0 then\r\n        tb:ok(false, name)\r\n        tb:diag(\"    \" .. tostring(extra) .. \" unexpected item(s)\")\r\n    else\r\n        tb:ok(true, name)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 263,
+    "text": "function m.is_deeply (got, expected, name)\r\n    if type(got) ~= 'table' then\r\n        tb:ok(false, name)\r\n        tb:diag(\"got value isn't a table : \" .. tostring(got))\r\n        return\r\n    elseif type(expected) ~= 'table' then\r\n        tb:ok(false, name)\r\n        tb:diag(\"expected value isn't a table : \" .. tostring(expected))\r\n        return\r\n    end\r\n    local msg1\r\n    local msg2\r\n    local seen = {}\r\n\r\n    local function deep_eq (t1, t2, key_path)\r\n        if t1 == t2 or seen[t1] then\r\n            return true\r\n        end\r\n        seen[t1] = true\r\n        for k, v2 in pairs(t2) do\r\n            local v1 = t1[k]\r\n            if type(v1) == 'table' and type(v2) == 'table' then\r\n                local r = deep_eq(v1, v2, key_path .. \".\" .. tostring(k))\r\n                if not r then\r\n                    return false\r\n                end\r\n            else\r\n                if v1 ~= v2 then\r\n                    key_path = key_path .. \".\" .. tostring(k)\r\n                    msg1 = \"     got\" .. key_path .. \": \" .. tostring(v1)\r\n                    msg2 = \"expected\" .. key_path .. \": \" .. tostring(v2)\r\n                    return false\r\n                end\r\n            end\r\n        end\r\n        for k in pairs(t1) do\r\n            local v2 = t2[k]\r\n            if v2 == nil then\r\n                key_path = key_path .. \".\" .. tostring(k)\r\n                msg1 = \"     got\" .. key_path .. \": \" .. tostring(t1[k])\r\n                msg2 = \"expected\" .. key_path .. \": \" .. tostring(v2)\r\n                return false\r\n            end\r\n        end\r\n        return true\r\n    end -- deep_eq\r\n\r\n    local pass = deep_eq(got, expected, '')\r\n    tb:ok(pass, name)\r\n    if not pass then\r\n        tb:diag(\"    Tables begin differing at:\")\r\n        tb:diag(\"    \" .. msg1)\r\n        tb:diag(\"    \" .. msg2)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 264,
+    "text": "function m.error_is (code, arg2, arg3, arg4)\r\n    local params, expected, name\r\n    if type(arg2) == 'table' then\r\n        params = arg2\r\n        expected = arg3\r\n        name = arg4\r\n    else\r\n        params = {}\r\n        expected = arg2\r\n        name = arg3\r\n    end\r\n    if type(code) == 'string' then\r\n        local msg\r\n        code, msg = loadstring(code)\r\n        if not code then\r\n            tb:ok(false, name)\r\n            tb:diag(\"    can't compile code :\"\r\n               .. \"\\n    \" .. msg)\r\n            return\r\n        end\r\n    end\r\n    local r, msg = pcall(code, unpack(params))\r\n    if r then\r\n        tb:ok(false, name)\r\n        tb:diag(\"    unexpected success\"\r\n           .. \"\\n    expected: \" .. tostring(expected))\r\n    else\r\n        local pass = msg == expected\r\n        tb:ok(pass, name)\r\n        if not pass then\r\n            tb:diag(\"         got: \" .. msg\r\n               .. \"\\n    expected: \" .. tostring(expected))\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 265,
+    "text": "function m.error_like (code, arg2, arg3, arg4)\r\n    local params, pattern, name\r\n    if type(arg2) == 'table' then\r\n        params = arg2\r\n        pattern = arg3\r\n        name = arg4\r\n    else\r\n        params = {}\r\n        pattern = arg2\r\n        name = arg3\r\n    end\r\n    if type(code) == 'string' then\r\n        local msg\r\n        code, msg = loadstring(code)\r\n        if not code then\r\n            tb:ok(false, name)\r\n            tb:diag(\"    can't compile code :\"\r\n               .. \"\\n    \" .. msg)\r\n            return\r\n        end\r\n    end\r\n    local r, msg = pcall(code, unpack(params))\r\n    if r then\r\n        tb:ok(false, name)\r\n        tb:diag(\"    unexpected success\"\r\n           .. \"\\n    expected: \" .. tostring(pattern))\r\n    else\r\n        if type(pattern) ~= 'string' then\r\n            tb:ok(false, name)\r\n            tb:diag(\"pattern isn't a string : \" .. tostring(pattern))\r\n            return\r\n        end\r\n        local pass = msg:match(pattern)\r\n        tb:ok(pass, name)\r\n        if not pass then\r\n            tb:diag(\"                  '\" .. msg .. \"'\"\r\n               .. \"\\n    doesn't match '\" .. pattern .. \"'\")\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 266,
+    "text": "function m.lives_ok (code, arg2, arg3)\r\n    local params, name\r\n    if type(arg2) == 'table' then\r\n        params = arg2\r\n        name = arg3\r\n    else\r\n        params = {}\r\n        name = arg2\r\n    end\r\n    if type(code) == 'string' then\r\n        local msg\r\n        code, msg = loadstring(code)\r\n        if not code then\r\n            tb:ok(false, name)\r\n            tb:diag(\"    can't compile code :\"\r\n               .. \"\\n    \" .. msg)\r\n            return\r\n        end\r\n    end\r\n    local r, msg = pcall(code, unpack(params))\r\n    tb:ok(r, name)\r\n    if not r then\r\n        tb:diag(\"    \" .. msg)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 267,
+    "text": "function m.diag (msg)\r\n    tb:diag(msg)\r\nend",
+    "type": "function"
+  }, {
+    "id": 268,
+    "text": "function m.note (msg)\r\n    tb:note(msg)\r\nend",
+    "type": "function"
+  }, {
+    "id": 269,
+    "text": "function m.skip (reason, count)\r\n    count = count or 1\r\n    for i = 1, count do\r\n        tb:skip(reason)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 270,
+    "text": "function m.todo_skip (reason, count)\r\n    count = count or 1\r\n    for i = 1, count do\r\n        tb:todo_skip(reason)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 271,
+    "text": "function m.skip_rest (reason)\r\n    tb:skip_rest(reason)\r\nend",
+    "type": "function"
+  }, {
+    "id": 272,
+    "text": "function m.todo (reason, count)\r\n    tb:todo(reason, count)\r\nend",
+    "type": "function"
+  }, {
+    "id": 273,
+    "text": "os",
+    "type": "module"
+  }, {
+    "id": 274,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 275,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 276,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 277,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 278,
+    "text": "debug",
+    "type": "module"
+  }, {
+    "id": 279,
+    "text": "getinfo",
+    "type": "global function"
+  }, {
+    "id": 280,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 281,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 282,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 283,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 284,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 285,
+    "text": "rawget",
+    "type": "global function"
+  }, {
+    "id": 286,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 287,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 288,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 289,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 290,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 291,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 292,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 293,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 294,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 295,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 296,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 297,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 298,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 299,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 300,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 301,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 302,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 303,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 304,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 305,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 306,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 307,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 308,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 309,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 310,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 311,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 312,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 313,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 314,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 315,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 316,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 317,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 318,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 319,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 320,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 321,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 322,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 323,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 324,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 325,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 326,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 327,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 328,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 329,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 330,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 331,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 332,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

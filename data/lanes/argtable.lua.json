@@ -1,0 +1,229 @@
+{
+  "_filename": "argtable.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lanes/tests/argtable.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "assigns",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "represents",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "provides",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "represents",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 25,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 19,
+    "label": "contains",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "argtable",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function m.argtable(...)\r\n    local ret= {}\r\n    for i=1,select('#',...) do\r\n        local v= select(i,...)\r\n        local flag,val= string.match( v, \"^%-+([^=]+)%=?(.*)\" )\r\n        if flag and not tonumber(v) then\r\n            ret[flag]= (val==\"\") and true or tonumber(val) or val\r\n        else\r\n            table.insert( ret, v )  -- 1..N\r\n        end\r\n    end\r\n    return ret\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local ret= {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "for i=1,select('#',...) do\r\n        local v= select(i,...)\r\n        local flag,val= string.match( v, \"^%-+([^=]+)%=?(.*)\" )\r\n        if flag and not tonumber(v) then\r\n            ret[flag]= (val==\"\") and true or tonumber(val) or val\r\n        else\r\n            table.insert( ret, v )  -- 1..N\r\n        end\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 5,
+    "text": "local v= select(i,...)",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local flag,val= string.match( v, \"^%-+([^=]+)%=?(.*)\" )",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if flag and not tonumber(v) then\r\n            ret[flag]= (val==\"\") and true or tonumber(val) or val\r\n        else\r\n            table.insert( ret, v )  -- 1..N\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "ret[flag]= (val==\"\") and true or tonumber(val) or val",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "table.insert( ret, v )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

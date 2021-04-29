@@ -1,0 +1,325 @@
+{
+  "_filename": "test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/cheese/test/test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 3
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "assigns",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "assigns",
+    "to": 26
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "assigns",
+    "to": 29
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cheese",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "string",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "test",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function compile(rules)\r\n  if getmetatable(rules) == rule_mt then\r\n    return compile_rule(rules, {}, {})\r\n  else\r\n    local parsers = {}\r\n    for name, rule in pairs(rules) do\r\n      compile_named(name, rules, parsers)\r\n    end\r\n    return parsers\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function open_grammar(grammar_table)\r\n  local env = getfenv(2)\r\n  local old_mt = getmetatable(env)\r\n  if type(grammar_table) == \"string\" then\r\n    env[grammar_table] = env[grammar_table] or {}\r\n    grammar_table = env[grammar_table]\r\n  end\r\n  local grammar_env = {\r\n    char = char, class = class, digit = digit, any = any,\r\n    plus = plus, star = star, opt = opt, pand = pand, pnot = pnot,\r\n    seq = seq, choice = choice, bind = bind, handle = handle,\r\n    concat = concat, skip = skip, ext = ext, close = close_grammar,\r\n    str = str, ref = ref\r\n  }\r\n  local mt_grammar = { grammar = grammar_table, old_mt = old_mt }\r\n  function mt_grammar.__index(t, k)\r\n    if grammar_env[k] then\r\n      return grammar_env[k]\r\n    elseif old_mt and type(old_mt.__index) == \"table\" and old_mt.__index[k] then\r\n      return old_mt.__index[k]\r\n    elseif old_mt and type(old_mt.__index) == \"function\" and old_mt.__index(t, k) then\r\n      return old_mt.__index(t, k)\r\n    elseif type(k) == \"string\" then\r\n      return ref(k)\r\n    else\r\n      return nil\r\n    end\r\n  end\r\n  function mt_grammar.__newindex(t, k, v)\r\n    if getmetatable(v) == rule_mt then\r\n      mt_grammar.grammar[k] = v\r\n    elseif old_mt and type(old_mt.__newindex) == \"table\" then\r\n      old_mt.__newindex[k] = v\r\n    elseif old_mt and type(old_mt.__newindex) == \"function\" then\r\n      old_mt.__newindex(t, k, v)\r\n    else\r\n      rawset(t, k, v)\r\n    end\r\n  end\r\n  setmetatable(env, mt_grammar)\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function new(str)\r\n  return { str = str, position = 1, line = 1, getc = getc,\r\n\t   backtrack = backtrack, gets = gets, state = state, \r\n           log_error = log_error, errors = {} }\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function (res)\r\n\t    return table.concat(res[1])\r\n\t    \t  end",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "pnot",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "class",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "close",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "join",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "str",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "plus",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,193 @@
+{
+  "_filename": "lpr.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luasocket/samples/lpr.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "requires",
+    "to": 20
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lpr",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function usage()\r\n  print('\\nUsage: lua lpr.lua [filename] [keyword=val...]\\n')\r\n  print('Valid keywords are :')\r\n  print(\r\n     '  host=remote host or IP address (default \"localhost\")\\n' ..\r\n     '  queue=remote queue or printer name (default \"printer\")\\n' ..\r\n     '  port=remote port number (default 515)\\n' ..\r\n     '  user=sending user name\\n' ..\r\n     '  format=[\"binary\" | \"text\" | \"ps\" | \"pr\" | \"fortran\"] (default \"binary\")\\n' ..\r\n     '  banner=true|false\\n' ..\r\n     '  indent=number of columns to indent\\n' ..\r\n     '  mail=email of address to notify when print is complete\\n' ..\r\n     '  title=title to use for \"pr\" format\\n' ..\r\n     '  width=width for \"text\" or \"pr\" formats\\n' ..\r\n     '  class=\\n' ..\r\n     '  job=\\n' ..\r\n     '  name=\\n' ..\r\n     '  localbind=true|false\\n'\r\n     )\r\n  return nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "print('\\nUsage: lua lpr.lua [filename] [keyword=val...]\\n')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "print('Valid keywords are :')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "print(\r\n     '  host=remote host or IP address (default \"localhost\")\\n' ..\r\n     '  queue=remote queue or printer name (default \"printer\")\\n' ..\r\n     '  port=remote port number (default 515)\\n' ..\r\n     '  user=sending user name\\n' ..\r\n     '  format=[\"binary\" | \"text\" | \"ps\" | \"pr\" | \"fortran\"] (default \"binary\")\\n' ..\r\n     '  banner=true|false\\n' ..\r\n     '  indent=number of columns to indent\\n' ..\r\n     '  mail=email of address to notify when print is complete\\n' ..\r\n     '  title=title to use for \"pr\" format\\n' ..\r\n     '  width=width for \"text\" or \"pr\" formats\\n' ..\r\n     '  class=\\n' ..\r\n     '  job=\\n' ..\r\n     '  name=\\n' ..\r\n     '  localbind=true|false\\n'\r\n     )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function(name, value) opt[name] = value end",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "opt[name] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "send",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "query",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 20,
+    "text": "lp)",
+    "type": "module"
+  } ]
+}

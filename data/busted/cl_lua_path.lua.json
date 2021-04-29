@@ -1,0 +1,145 @@
+{
+  "_filename": "cl_lua_path.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/cl_lua_path.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 7,
+    "label": "hasArgument",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cl_lua_path",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function()\r\n    local mod = require('cl_test_module')\r\n    assert.is_equal('test module', mod)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local mod = require('cl_test_module')",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "assert.is_equal('test module', mod)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function()\r\n  it('require test module', function()\r\n    local mod = require('cl_test_module')\r\n    assert.is_equal('test module', mod)\r\n  end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "it('require test module', function()\r\n    local mod = require('cl_test_module')\r\n    assert.is_equal('test module', mod)\r\n  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 10,
+    "text": "it",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "describe",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "is_equal",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require container"
+  } ]
+}

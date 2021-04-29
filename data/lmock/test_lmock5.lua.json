@@ -1,0 +1,245 @@
+{
+  "_filename": "test_lmock5.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lmock/ut/test_lmock5.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "assigns",
+    "to": 26
+  }, {
+    "from": 22,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test_lmock5",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function Testlmock5:testUnderlineMethodNameParseOk()\r\n\tlocal mock = lmock.create()\r\n\t\r\n\tmock:method( \"_m1._func1\" , false )\r\n\t\t:expects( lmock.once() )\r\n\t\t:will( 100 )\r\n\tassertEquals( 100 , _m1._func1() )\r\n\t\r\n\tmock:method( \"_._\" )\r\n\t\t:expects( lmock.once() )\r\n\t\t:will( 3 )\r\n\tassertEquals( 3 , _._() )\r\n\t\r\n\tmock:method( \"m__9.func___a1a\" )\r\n\t\t:expects( lmock.once() )\r\n\t\t:will( 1 )\r\n\tassertEquals( 1 , m__9.func___a1a() )\r\n\t\r\n\tmock:method( \"__m1.func0_5\" )\r\n\t\t:expects( lmock.once() )\r\n\t\t:will( \"mod\" )\r\n\tassertEquals( \"mod\" , __m1.func0_5() )\r\n\t\r\n\tmock:verify()\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local mock = lmock.create()",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "mock:method( \"_m1._func1\" , false )\r\n\t\t:expects( lmock.once() )\r\n\t\t:will( 100 )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "assertEquals( 100 , _m1._func1() )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "mock:method( \"_._\" )\r\n\t\t:expects( lmock.once() )\r\n\t\t:will( 3 )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "assertEquals( 3 , _._() )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "mock:method( \"m__9.func___a1a\" )\r\n\t\t:expects( lmock.once() )\r\n\t\t:will( 1 )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "assertEquals( 1 , m__9.func___a1a() )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "mock:method( \"__m1.func0_5\" )\r\n\t\t:expects( lmock.once() )\r\n\t\t:will( \"mod\" )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "assertEquals( \"mod\" , __m1.func0_5() )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "mock:verify()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "_",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "create",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "func0_5",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "assertEquals",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "_func1",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "func___a1a",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "once",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

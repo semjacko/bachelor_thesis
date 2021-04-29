@@ -1,0 +1,249 @@
+{
+  "_filename": "s.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io/s.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "assigns",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "represents",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "provides",
+    "to": 26
+  }, {
+    "from": 22,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 22,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 22,
+    "label": "contains",
+    "to": 10
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "s",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function s.width(w)\r\n    return tonumber(w)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function s.unpack(fd, buf, width)\r\n    if width then\r\n        assert(#buf == width, \"sanity failure: length of buffer does not match length of string format\")\r\n        return buf\r\n    end\r\n    \r\n    return fd:read('*a')\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "if width then\r\n        assert(#buf == width, \"sanity failure: length of buffer does not match length of string format\")\r\n        return buf\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "assert(#buf == width, \"sanity failure: length of buffer does not match length of string format\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function s.pack(_, data, width)\r\n    width = width or #data\r\n    if width > #data then\r\n        data = data..string.rep(\"\\0\", width - #data)\r\n    end\r\n    return data:sub(1,width)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "width = width or #data",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "if width > #data then\r\n        data = data..string.rep(\"\\0\", width - #data)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "data = data..string.rep(\"\\0\", width - #data)",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 16,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "rep",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "interface"
+  } ]
+}

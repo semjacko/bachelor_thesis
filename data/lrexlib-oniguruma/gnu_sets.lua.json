@@ -1,0 +1,417 @@
+{
+  "_filename": "gnu_sets.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lrexlib-oniguruma/test/gnu_sets.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "assigns",
+    "to": 38
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 34
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "provides",
+    "to": 42
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "gnu_sets",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "luatest",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function norm(a) return a==nil and N or a end",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "local function set_f_gmatch (lib, flg)\r\n  local downcase = {}\r\n  for i = 0, 255 do -- 255 == UCHAR_MAX\r\n    downcase[i] = string.gsub(string.char (i), \".\", function (s) return string.lower(s) end)\r\n  end\r\n  -- gmatch (s, p, [cf], [ef], [tr])\r\n  local function test_gmatch (subj, patt)\r\n    local out, guard = {}, 10\r\n    for a, b in lib.gmatch (subj, patt, nil, nil, downcase) do\r\n      table.insert (out, { norm(a), norm(b) })\r\n      guard = guard - 1\r\n      if guard == 0 then break end\r\n    end\r\n    return unpack (out)\r\n  end\r\n  return {\r\n    Name = \"Function gmatch\",\r\n    Func = test_gmatch,\r\n  --{  subj             patt         results }\r\n    { {\"abA\",           \"a\"},        {{\"a\",N}, {\"A\",N} } },\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "local downcase = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "for i = 0, 255 do -- 255 == UCHAR_MAX\r\n    downcase[i] = string.gsub(string.char (i), \".\", function (s) return string.lower(s) end)\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 8,
+    "text": "downcase[i] = string.gsub(string.char (i), \".\", function (s) return string.lower(s) end)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "local function test_gmatch (subj, patt)\r\n    local out, guard = {}, 10\r\n    for a, b in lib.gmatch (subj, patt, nil, nil, downcase) do\r\n      table.insert (out, { norm(a), norm(b) })\r\n      guard = guard - 1\r\n      if guard == 0 then break end\r\n    end\r\n    return unpack (out)\r\n  end",
+    "type": "statement:localfunction"
+  }, {
+    "id": 10,
+    "text": "local out, guard = {}, 10",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "for a, b in lib.gmatch (subj, patt, nil, nil, downcase) do\r\n      table.insert (out, { norm(a), norm(b) })\r\n      guard = guard - 1\r\n      if guard == 0 then break end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 12,
+    "text": "table.insert (out, { norm(a), norm(b) })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "guard = guard - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "if guard == 0 then break end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "local function test_gmatch (subj, patt)\r\n    local out, guard = {}, 10\r\n    for a, b in lib.gmatch (subj, patt, nil, nil, downcase) do\r\n      table.insert (out, { norm(a), norm(b) })\r\n      guard = guard - 1\r\n      if guard == 0 then break end\r\n    end\r\n    return unpack (out)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "local function set_f_match (lib, flg)\r\nreturn {\r\n  Name = \"Function match\",\r\n  Func = lib.match,\r\n  --{subj,   patt,      st,cf,ef},           { results }\r\n  { {\"abcd\", \".+\",      5},                  { N }    }, -- failing st\r\n  { {\"abc\",  \"^abc\"},                        {\"abc\" } }, -- anchor\r\n  { {\"abc\",  \"^abc\",    N,N,flg.not_bol},    { N }    }, -- anchor + ef\r\n  { {\"abc\",  \"abc$\",    N,N,flg.not_eol},    { N }    }, -- anchor + ef\r\n  { {\"cabcaab\", \"ca+b\", N,N,flg.backward},    {\"caab\" }  }, -- reverse search\r\n}\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function (s) return string.lower(s) end",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "function (libname)\r\n  local lib = require (libname)\r\n  local flags = lib.flags ()\r\n  return {\r\n    set_f_match     (lib, flags),\r\n    set_f_gmatch    (lib),\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "local lib = require (libname)",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "local flags = lib.flags ()",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 26,
+    "text": "lower",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "gmatch",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "flags",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "(libname)",
+    "type": "module"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "interface"
+  } ]
+}

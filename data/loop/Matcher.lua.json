@@ -1,0 +1,1357 @@
+{
+  "_filename": "Matcher.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/debug/Matcher.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 93
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 93
+  }, {
+    "from": 71,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 71,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 92,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 92,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 96
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 96
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 92,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 71,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 71,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 92,
+    "label": "calls",
+    "to": 106
+  }, {
+    "from": 92,
+    "label": "calls",
+    "to": 106
+  }, {
+    "from": 92,
+    "label": "calls",
+    "to": 106
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 71,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 71,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 92
+  }, {
+    "from": 92,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 92,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 92,
+    "label": "declares",
+    "to": 49
+  }, {
+    "from": 92,
+    "label": "declares",
+    "to": 71
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 111
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 112
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 113
+  }, {
+    "from": 113,
+    "label": "assigns",
+    "to": 114
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 115
+  }, {
+    "from": 115,
+    "label": "assigns",
+    "to": 116
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 117
+  }, {
+    "from": 117,
+    "label": "assigns",
+    "to": 118
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 119
+  }, {
+    "from": 119,
+    "label": "assigns",
+    "to": 120
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 121
+  }, {
+    "from": 121,
+    "label": "assigns",
+    "to": 122
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 123
+  }, {
+    "from": 123,
+    "label": "assigns",
+    "to": 124
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 125
+  }, {
+    "from": 125,
+    "label": "assigns",
+    "to": 126
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 127
+  }, {
+    "from": 127,
+    "label": "assigns",
+    "to": 128
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 129
+  }, {
+    "from": 129,
+    "label": "assigns",
+    "to": 130
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 131
+  }, {
+    "from": 131,
+    "label": "assigns",
+    "to": 132
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 133
+  }, {
+    "from": 133,
+    "label": "assigns",
+    "to": 134
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 135
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 136
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 137
+  }, {
+    "from": 137,
+    "label": "assigns",
+    "to": 138
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 139
+  }, {
+    "from": 139,
+    "label": "assigns",
+    "to": 140
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 141
+  }, {
+    "from": 141,
+    "label": "assigns",
+    "to": 142
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 143
+  }, {
+    "from": 143,
+    "label": "assigns",
+    "to": 144
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 145
+  }, {
+    "from": 145,
+    "label": "assigns",
+    "to": 146
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 147
+  }, {
+    "from": 147,
+    "label": "assigns",
+    "to": 148
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 149
+  }, {
+    "from": 149,
+    "label": "assigns",
+    "to": 150
+  }, {
+    "from": 112,
+    "label": "initializes",
+    "to": 151
+  }, {
+    "from": 151,
+    "label": "requires",
+    "to": 94
+  }, {
+    "from": 112,
+    "label": "initializes",
+    "to": 152
+  }, {
+    "from": 152,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 112,
+    "label": "initializes",
+    "to": 153
+  }, {
+    "from": 153,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "Matcher",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function error(self, message)\r\n\tlocal path = { \"value\" }\r\n\tfor i = 2, #self do\r\n\t\tlocal key = self[i]\r\n\t\tif key == metakey then\r\n\t\t\ttable.insert(path, 1, \"getmetatable(\")\r\n\t\t\tkey = \")\"\r\n\t\telseif key == envkey then\r\n\t\t\ttable.insert(path, 1, \"getfenv(\")\r\n\t\t\tkey = \")\"\r\n\t\telseif type(key) == \"string\" then\r\n\t\t\tif key:match(\"^[%a_][%w_]*$\") then\r\n\t\t\t\tkey = \".\"..key\r\n\t\t\telse\r\n\t\t\t\tkey = string.format(\"[%q]\", key)\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tkey = string.format(\"[%s]\", tostring(key))\r\n\t\tend\r\n\t\tpath[#path+1] = key\r\n\tend\r\n\treturn string.format(\"%s: %s\", table.concat(path), message)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local path = { \"value\" }",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "for i = 2, #self do\r\n\t\tlocal key = self[i]\r\n\t\tif key == metakey then\r\n\t\t\ttable.insert(path, 1, \"getmetatable(\")\r\n\t\t\tkey = \")\"\r\n\t\telseif key == envkey then\r\n\t\t\ttable.insert(path, 1, \"getfenv(\")\r\n\t\t\tkey = \")\"\r\n\t\telseif type(key) == \"string\" then\r\n\t\t\tif key:match(\"^[%a_][%w_]*$\") then\r\n\t\t\t\tkey = \".\"..key\r\n\t\t\telse\r\n\t\t\t\tkey = string.format(\"[%q]\", key)\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tkey = string.format(\"[%s]\", tostring(key))\r\n\t\tend\r\n\t\tpath[#path+1] = key\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 7,
+    "text": "local key = self[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "if key == metakey then\r\n\t\t\ttable.insert(path, 1, \"getmetatable(\")\r\n\t\t\tkey = \")\"\r\n\t\telseif key == envkey then\r\n\t\t\ttable.insert(path, 1, \"getfenv(\")\r\n\t\t\tkey = \")\"\r\n\t\telseif type(key) == \"string\" then\r\n\t\t\tif key:match(\"^[%a_][%w_]*$\") then\r\n\t\t\t\tkey = \".\"..key\r\n\t\t\telse\r\n\t\t\t\tkey = string.format(\"[%q]\", key)\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tkey = string.format(\"[%s]\", tostring(key))\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "table.insert(path, 1, \"getmetatable(\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "key = \")\"",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "table.insert(path, 1, \"getfenv(\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "if key:match(\"^[%a_][%w_]*$\") then\r\n\t\t\t\tkey = \".\"..key\r\n\t\t\telse\r\n\t\t\t\tkey = string.format(\"[%q]\", key)\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "key = \".\"..key",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "key = string.format(\"[%q]\", key)",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "key = string.format(\"[%s]\", tostring(key))",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "path[#path+1] = key",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "function matchtable(self, value, other)\r\n\tlocal matched, errmsg = true\r\n\tlocal keysmatched = {}\r\n\tself[value], self[other] = other, value\r\n\tfor key, field in pairs(value) do\r\n\t\tlocal otherfield = other[key]\r\n\t\tif otherfield == nil then\r\n\t\t\tmatched = false\r\n\t\t\tfor otherkey, otherfield in pairs(other) do\r\n\t\t\t\tlocal matcher = setmetatable(table.copy(self), getmetatable(self))\r\n\t\t\t\tmatcher.error = nil\r\n\t\t\t\tif\r\n\t\t\t\t\tmatcher:match(key, otherkey) and\r\n\t\t\t\t\tmatcher:match(field, otherfield)\r\n\t\t\t\tthen\r\n\t\t\t\t\ttable.copy(matcher, self)\r\n\t\t\t\t\tkeysmatched[otherkey] = true\r\n\t\t\t\t\tmatched = true\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tif not matched then\r\n\t\t\t\tself[#self+1] = key\r\n\t\t\t\terrmsg = self:error(\"no match found\")\r\n\t\t\t\tself[#self] = nil\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tself[#self+1] = key\r\n\t\t\tmatched, errmsg = self:match(field, otherfield)\r\n\t\t\tself[#self] = nil\r\n\t\t\tif matched then\r\n\t\t\t\tkeysmatched[key] = true\r\n\t\t\telse\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\tif matched and self.isomorphic then\r\n\t\tfor otherkey, otherfield in pairs(other) do\r\n\t\t\tif not keysmatched[otherkey] then\r\n\t\t\t\tself[#self+1] = otherkey\r\n\t\t\t\tmatched, errmsg = false, self:error(\"missing\")\r\n\t\t\t\tself[#self] = nil\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\tif not matched then self[value], self[other] = nil, nil end\r\n\treturn matched, errmsg\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "local matched, errmsg = true",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "local keysmatched = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "self[value], self[other] = other, value",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "for key, field in pairs(value) do\r\n\t\tlocal otherfield = other[key]\r\n\t\tif otherfield == nil then\r\n\t\t\tmatched = false\r\n\t\t\tfor otherkey, otherfield in pairs(other) do\r\n\t\t\t\tlocal matcher = setmetatable(table.copy(self), getmetatable(self))\r\n\t\t\t\tmatcher.error = nil\r\n\t\t\t\tif\r\n\t\t\t\t\tmatcher:match(key, otherkey) and\r\n\t\t\t\t\tmatcher:match(field, otherfield)\r\n\t\t\t\tthen\r\n\t\t\t\t\ttable.copy(matcher, self)\r\n\t\t\t\t\tkeysmatched[otherkey] = true\r\n\t\t\t\t\tmatched = true\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tif not matched then\r\n\t\t\t\tself[#self+1] = key\r\n\t\t\t\terrmsg = self:error(\"no match found\")\r\n\t\t\t\tself[#self] = nil\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tself[#self+1] = key\r\n\t\t\tmatched, errmsg = self:match(field, otherfield)\r\n\t\t\tself[#self] = nil\r\n\t\t\tif matched then\r\n\t\t\t\tkeysmatched[key] = true\r\n\t\t\telse\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 24,
+    "text": "local otherfield = other[key]",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "if otherfield == nil then\r\n\t\t\tmatched = false\r\n\t\t\tfor otherkey, otherfield in pairs(other) do\r\n\t\t\t\tlocal matcher = setmetatable(table.copy(self), getmetatable(self))\r\n\t\t\t\tmatcher.error = nil\r\n\t\t\t\tif\r\n\t\t\t\t\tmatcher:match(key, otherkey) and\r\n\t\t\t\t\tmatcher:match(field, otherfield)\r\n\t\t\t\tthen\r\n\t\t\t\t\ttable.copy(matcher, self)\r\n\t\t\t\t\tkeysmatched[otherkey] = true\r\n\t\t\t\t\tmatched = true\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tif not matched then\r\n\t\t\t\tself[#self+1] = key\r\n\t\t\t\terrmsg = self:error(\"no match found\")\r\n\t\t\t\tself[#self] = nil\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tself[#self+1] = key\r\n\t\t\tmatched, errmsg = self:match(field, otherfield)\r\n\t\t\tself[#self] = nil\r\n\t\t\tif matched then\r\n\t\t\t\tkeysmatched[key] = true\r\n\t\t\telse\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "matched = false",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "for otherkey, otherfield in pairs(other) do\r\n\t\t\t\tlocal matcher = setmetatable(table.copy(self), getmetatable(self))\r\n\t\t\t\tmatcher.error = nil\r\n\t\t\t\tif\r\n\t\t\t\t\tmatcher:match(key, otherkey) and\r\n\t\t\t\t\tmatcher:match(field, otherfield)\r\n\t\t\t\tthen\r\n\t\t\t\t\ttable.copy(matcher, self)\r\n\t\t\t\t\tkeysmatched[otherkey] = true\r\n\t\t\t\t\tmatched = true\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 28,
+    "text": "local matcher = setmetatable(table.copy(self), getmetatable(self))",
+    "type": "statement:localassign"
+  }, {
+    "id": 29,
+    "text": "matcher.error = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "if\r\n\t\t\t\t\tmatcher:match(key, otherkey) and\r\n\t\t\t\t\tmatcher:match(field, otherfield)\r\n\t\t\t\tthen\r\n\t\t\t\t\ttable.copy(matcher, self)\r\n\t\t\t\t\tkeysmatched[otherkey] = true\r\n\t\t\t\t\tmatched = true\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "table.copy(matcher, self)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "keysmatched[otherkey] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "matched = true",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "if not matched then\r\n\t\t\t\tself[#self+1] = key\r\n\t\t\t\terrmsg = self:error(\"no match found\")\r\n\t\t\t\tself[#self] = nil\r\n\t\t\t\tbreak\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "self[#self+1] = key",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "errmsg = self:error(\"no match found\")",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "self[#self] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "matched, errmsg = self:match(field, otherfield)",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "if matched then\r\n\t\t\t\tkeysmatched[key] = true\r\n\t\t\telse\r\n\t\t\t\tbreak\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 40,
+    "text": "keysmatched[key] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "if matched and self.isomorphic then\r\n\t\tfor otherkey, otherfield in pairs(other) do\r\n\t\t\tif not keysmatched[otherkey] then\r\n\t\t\t\tself[#self+1] = otherkey\r\n\t\t\t\tmatched, errmsg = false, self:error(\"missing\")\r\n\t\t\t\tself[#self] = nil\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 42,
+    "text": "for otherkey, otherfield in pairs(other) do\r\n\t\t\tif not keysmatched[otherkey] then\r\n\t\t\t\tself[#self+1] = otherkey\r\n\t\t\t\tmatched, errmsg = false, self:error(\"missing\")\r\n\t\t\t\tself[#self] = nil\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 43,
+    "text": "if not keysmatched[otherkey] then\r\n\t\t\t\tself[#self+1] = otherkey\r\n\t\t\t\tmatched, errmsg = false, self:error(\"missing\")\r\n\t\t\t\tself[#self] = nil\r\n\t\t\t\tbreak\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 44,
+    "text": "self[#self+1] = otherkey",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "matched, errmsg = false, self:error(\"missing\")",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "if not matched then self[value], self[other] = nil, nil end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "self[value], self[other] = nil, nil",
+    "type": "statement:assign"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 49,
+    "text": "function matchfunction(self, func, other)\r\n\tlocal matched, errmsg = (dump(func) == dump(other))\r\n\tif matched then\r\n\t\tself[func], self[other] = other, func\r\n\t\tlocal upvalue = self.upvalue\r\n\t\tif upvalue then\r\n\t\t\tlocal name, value\r\n\t\t\tlocal up = 1\r\n\t\t\trepeat\r\n\t\t\t\tname, value = upvalue(func, up)\r\n\t\t\t\tif name then\r\n\t\t\t\t\tself[#self+1] = name\r\n\t\t\t\t\tmatched, errmsg = self:match(value, select(2, upvalue(other, up)))\r\n\t\t\t\t\tself[#self] = nil\r\n\t\t\t\t\tif not matched then\r\n\t\t\t\t\t\tself[func], self[other] = nil, nil\r\n\t\t\t\t\t\tbreak\r\n\t\t\t\t\tend\r\n\t\t\t\t\tup = up + 1\r\n\t\t\t\tend\r\n\t\t\tuntil not name\r\n\t\tend\r\n\t\tlocal environment = self.environment\r\n\t\tif matched and environment then\r\n\t\t\tself[#self+1] = envkey\r\n\t\t\tmatched, errmsg = self:match(environment(func), environment(other))\r\n\t\t\tself[#self] = nil\r\n\t\tend\r\n\telse\r\n\t\terrmsg = self:error \"bytecodes not matched\"\r\n\tend\r\n\treturn matched, errmsg\r\nend",
+    "type": "function"
+  }, {
+    "id": 50,
+    "text": "local matched, errmsg = (dump(func) == dump(other))",
+    "type": "statement:localassign"
+  }, {
+    "id": 51,
+    "text": "if matched then\r\n\t\tself[func], self[other] = other, func\r\n\t\tlocal upvalue = self.upvalue\r\n\t\tif upvalue then\r\n\t\t\tlocal name, value\r\n\t\t\tlocal up = 1\r\n\t\t\trepeat\r\n\t\t\t\tname, value = upvalue(func, up)\r\n\t\t\t\tif name then\r\n\t\t\t\t\tself[#self+1] = name\r\n\t\t\t\t\tmatched, errmsg = self:match(value, select(2, upvalue(other, up)))\r\n\t\t\t\t\tself[#self] = nil\r\n\t\t\t\t\tif not matched then\r\n\t\t\t\t\t\tself[func], self[other] = nil, nil\r\n\t\t\t\t\t\tbreak\r\n\t\t\t\t\tend\r\n\t\t\t\t\tup = up + 1\r\n\t\t\t\tend\r\n\t\t\tuntil not name\r\n\t\tend\r\n\t\tlocal environment = self.environment\r\n\t\tif matched and environment then\r\n\t\t\tself[#self+1] = envkey\r\n\t\t\tmatched, errmsg = self:match(environment(func), environment(other))\r\n\t\t\tself[#self] = nil\r\n\t\tend\r\n\telse\r\n\t\terrmsg = self:error \"bytecodes not matched\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 52,
+    "text": "self[func], self[other] = other, func",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "local upvalue = self.upvalue",
+    "type": "statement:localassign"
+  }, {
+    "id": 54,
+    "text": "if upvalue then\r\n\t\t\tlocal name, value\r\n\t\t\tlocal up = 1\r\n\t\t\trepeat\r\n\t\t\t\tname, value = upvalue(func, up)\r\n\t\t\t\tif name then\r\n\t\t\t\t\tself[#self+1] = name\r\n\t\t\t\t\tmatched, errmsg = self:match(value, select(2, upvalue(other, up)))\r\n\t\t\t\t\tself[#self] = nil\r\n\t\t\t\t\tif not matched then\r\n\t\t\t\t\t\tself[func], self[other] = nil, nil\r\n\t\t\t\t\t\tbreak\r\n\t\t\t\t\tend\r\n\t\t\t\t\tup = up + 1\r\n\t\t\t\tend\r\n\t\t\tuntil not name\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 55,
+    "text": "local name, value",
+    "type": "statement:localassign"
+  }, {
+    "id": 56,
+    "text": "local up = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 57,
+    "text": "repeat\r\n\t\t\t\tname, value = upvalue(func, up)\r\n\t\t\t\tif name then\r\n\t\t\t\t\tself[#self+1] = name\r\n\t\t\t\t\tmatched, errmsg = self:match(value, select(2, upvalue(other, up)))\r\n\t\t\t\t\tself[#self] = nil\r\n\t\t\t\t\tif not matched then\r\n\t\t\t\t\t\tself[func], self[other] = nil, nil\r\n\t\t\t\t\t\tbreak\r\n\t\t\t\t\tend\r\n\t\t\t\t\tup = up + 1\r\n\t\t\t\tend\r\n\t\t\tuntil not name",
+    "type": "statement:repeat"
+  }, {
+    "id": 58,
+    "text": "name, value = upvalue(func, up)",
+    "type": "statement:assign"
+  }, {
+    "id": 59,
+    "text": "if name then\r\n\t\t\t\t\tself[#self+1] = name\r\n\t\t\t\t\tmatched, errmsg = self:match(value, select(2, upvalue(other, up)))\r\n\t\t\t\t\tself[#self] = nil\r\n\t\t\t\t\tif not matched then\r\n\t\t\t\t\t\tself[func], self[other] = nil, nil\r\n\t\t\t\t\t\tbreak\r\n\t\t\t\t\tend\r\n\t\t\t\t\tup = up + 1\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 60,
+    "text": "self[#self+1] = name",
+    "type": "statement:assign"
+  }, {
+    "id": 61,
+    "text": "matched, errmsg = self:match(value, select(2, upvalue(other, up)))",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "if not matched then\r\n\t\t\t\t\t\tself[func], self[other] = nil, nil\r\n\t\t\t\t\t\tbreak\r\n\t\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 63,
+    "text": "self[func], self[other] = nil, nil",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "up = up + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 65,
+    "text": "local environment = self.environment",
+    "type": "statement:localassign"
+  }, {
+    "id": 66,
+    "text": "if matched and environment then\r\n\t\t\tself[#self+1] = envkey\r\n\t\t\tmatched, errmsg = self:match(environment(func), environment(other))\r\n\t\t\tself[#self] = nil\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 67,
+    "text": "self[#self+1] = envkey",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "matched, errmsg = self:match(environment(func), environment(other))",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "errmsg = self:error \"bytecodes not matched\"",
+    "type": "statement:assign"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 71,
+    "text": "function match(self, value, other)\r\n\tself[0] = self[0] or other\r\n\tself[1] = self[1] or value\r\n\tlocal matched, errmsg = false\r\n\tlocal kind = type(value)\r\n\tlocal matcher = self[kind]\r\n\tif matcher then\r\n\t\tlocal valuematch = self[value]\r\n\t\tlocal othermatch = self[other]\r\n\t\tmatched = (valuematch == other and othermatch == value)\r\n\t\tif not matched then\r\n\t\t\tif valuematch == nil and othermatch == nil then\r\n\t\t\t\tif value == other then\r\n\t\t\t\t\tmatched = true\r\n\t\t\t\telseif kind == type(other) then\r\n\t\t\t\t\tmatched, errmsg = matcher(self, value, other)\r\n\t\t\t\t\tmatcher = self.metatable\r\n\t\t\t\t\tif matched and matcher then\r\n\t\t\t\t\t\tself[#self+1] = metakey\r\n\t\t\t\t\t\tmatched, errmsg = matcher(self, getmetatable(value), getmetatable(other))\r\n\t\t\t\t\t\tself[#self] = nil\r\n\t\t\t\t\tend\r\n\t\t\t\telse\r\n\t\t\t\t\terrmsg = self:error \"not matched\"\r\n\t\t\t\tend\r\n\t\t\telse\r\n\t\t\t\terrmsg = self:error \"wrong match\"\r\n\t\t\tend\r\n\t\tend\r\n\telseif value == other then\r\n\t\tmatched = true\r\n\telse\r\n\t\terrmsg = self:error \"not matched\"\r\n\tend\r\n\treturn matched, errmsg\r\nend",
+    "type": "function"
+  }, {
+    "id": 72,
+    "text": "self[0] = self[0] or other",
+    "type": "statement:assign"
+  }, {
+    "id": 73,
+    "text": "self[1] = self[1] or value",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "local matched, errmsg = false",
+    "type": "statement:localassign"
+  }, {
+    "id": 75,
+    "text": "local kind = type(value)",
+    "type": "statement:localassign"
+  }, {
+    "id": 76,
+    "text": "local matcher = self[kind]",
+    "type": "statement:localassign"
+  }, {
+    "id": 77,
+    "text": "if matcher then\r\n\t\tlocal valuematch = self[value]\r\n\t\tlocal othermatch = self[other]\r\n\t\tmatched = (valuematch == other and othermatch == value)\r\n\t\tif not matched then\r\n\t\t\tif valuematch == nil and othermatch == nil then\r\n\t\t\t\tif value == other then\r\n\t\t\t\t\tmatched = true\r\n\t\t\t\telseif kind == type(other) then\r\n\t\t\t\t\tmatched, errmsg = matcher(self, value, other)\r\n\t\t\t\t\tmatcher = self.metatable\r\n\t\t\t\t\tif matched and matcher then\r\n\t\t\t\t\t\tself[#self+1] = metakey\r\n\t\t\t\t\t\tmatched, errmsg = matcher(self, getmetatable(value), getmetatable(other))\r\n\t\t\t\t\t\tself[#self] = nil\r\n\t\t\t\t\tend\r\n\t\t\t\telse\r\n\t\t\t\t\terrmsg = self:error \"not matched\"\r\n\t\t\t\tend\r\n\t\t\telse\r\n\t\t\t\terrmsg = self:error \"wrong match\"\r\n\t\t\tend\r\n\t\tend\r\n\telseif value == other then\r\n\t\tmatched = true\r\n\telse\r\n\t\terrmsg = self:error \"not matched\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 78,
+    "text": "local valuematch = self[value]",
+    "type": "statement:localassign"
+  }, {
+    "id": 79,
+    "text": "local othermatch = self[other]",
+    "type": "statement:localassign"
+  }, {
+    "id": 80,
+    "text": "matched = (valuematch == other and othermatch == value)",
+    "type": "statement:assign"
+  }, {
+    "id": 81,
+    "text": "if not matched then\r\n\t\t\tif valuematch == nil and othermatch == nil then\r\n\t\t\t\tif value == other then\r\n\t\t\t\t\tmatched = true\r\n\t\t\t\telseif kind == type(other) then\r\n\t\t\t\t\tmatched, errmsg = matcher(self, value, other)\r\n\t\t\t\t\tmatcher = self.metatable\r\n\t\t\t\t\tif matched and matcher then\r\n\t\t\t\t\t\tself[#self+1] = metakey\r\n\t\t\t\t\t\tmatched, errmsg = matcher(self, getmetatable(value), getmetatable(other))\r\n\t\t\t\t\t\tself[#self] = nil\r\n\t\t\t\t\tend\r\n\t\t\t\telse\r\n\t\t\t\t\terrmsg = self:error \"not matched\"\r\n\t\t\t\tend\r\n\t\t\telse\r\n\t\t\t\terrmsg = self:error \"wrong match\"\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 82,
+    "text": "if valuematch == nil and othermatch == nil then\r\n\t\t\t\tif value == other then\r\n\t\t\t\t\tmatched = true\r\n\t\t\t\telseif kind == type(other) then\r\n\t\t\t\t\tmatched, errmsg = matcher(self, value, other)\r\n\t\t\t\t\tmatcher = self.metatable\r\n\t\t\t\t\tif matched and matcher then\r\n\t\t\t\t\t\tself[#self+1] = metakey\r\n\t\t\t\t\t\tmatched, errmsg = matcher(self, getmetatable(value), getmetatable(other))\r\n\t\t\t\t\t\tself[#self] = nil\r\n\t\t\t\t\tend\r\n\t\t\t\telse\r\n\t\t\t\t\terrmsg = self:error \"not matched\"\r\n\t\t\t\tend\r\n\t\t\telse\r\n\t\t\t\terrmsg = self:error \"wrong match\"\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 83,
+    "text": "if value == other then\r\n\t\t\t\t\tmatched = true\r\n\t\t\t\telseif kind == type(other) then\r\n\t\t\t\t\tmatched, errmsg = matcher(self, value, other)\r\n\t\t\t\t\tmatcher = self.metatable\r\n\t\t\t\t\tif matched and matcher then\r\n\t\t\t\t\t\tself[#self+1] = metakey\r\n\t\t\t\t\t\tmatched, errmsg = matcher(self, getmetatable(value), getmetatable(other))\r\n\t\t\t\t\t\tself[#self] = nil\r\n\t\t\t\t\tend\r\n\t\t\t\telse\r\n\t\t\t\t\terrmsg = self:error \"not matched\"\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 84,
+    "text": "matched, errmsg = matcher(self, value, other)",
+    "type": "statement:assign"
+  }, {
+    "id": 85,
+    "text": "matcher = self.metatable",
+    "type": "statement:assign"
+  }, {
+    "id": 86,
+    "text": "if matched and matcher then\r\n\t\t\t\t\t\tself[#self+1] = metakey\r\n\t\t\t\t\t\tmatched, errmsg = matcher(self, getmetatable(value), getmetatable(other))\r\n\t\t\t\t\t\tself[#self] = nil\r\n\t\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 87,
+    "text": "self[#self+1] = metakey",
+    "type": "statement:assign"
+  }, {
+    "id": 88,
+    "text": "matched, errmsg = matcher(self, getmetatable(value), getmetatable(other))",
+    "type": "statement:assign"
+  }, {
+    "id": 89,
+    "text": "errmsg = self:error \"not matched\"",
+    "type": "statement:assign"
+  }, {
+    "id": 90,
+    "text": "errmsg = self:error \"wrong match\"",
+    "type": "statement:assign"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 93,
+    "text": "function copy(source, destiny)\r\n\tif source then\r\n\t\tif not destiny then destiny = {} end\r\n\t\tfor field, value in pairs(source) do\r\n\t\t\trawset(destiny, field, value)\r\n\t\tend\r\n\tend\r\n\treturn destiny\r\nend",
+    "type": "function"
+  }, {
+    "id": 94,
+    "text": "string",
+    "type": "module"
+  }, {
+    "id": 95,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 96,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 97,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 98,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 99,
+    "text": "matcher",
+    "type": "global function"
+  }, {
+    "id": 100,
+    "text": "upvalue",
+    "type": "global function"
+  }, {
+    "id": 101,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 102,
+    "text": "dump",
+    "type": "global function"
+  }, {
+    "id": 103,
+    "text": "environment",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "getmetatable",
+    "type": "global function"
+  }, {
+    "id": 105,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 106,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 107,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 108,
+    "text": "newproxy",
+    "type": "global function"
+  }, {
+    "id": 109,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 110,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 128,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 129,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 130,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 131,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 132,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 133,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 134,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 135,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 136,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 138,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 139,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 140,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 141,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 142,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 143,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 144,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 145,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 146,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 147,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 148,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 149,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 150,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 151,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 152,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 153,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

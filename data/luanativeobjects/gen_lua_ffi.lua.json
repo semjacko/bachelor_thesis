@@ -1,0 +1,4413 @@
+{
+  "_filename": "gen_lua_ffi.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luanativeobjects/native_objects/gen_lua_ffi.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 98,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 98,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 98,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 114
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 115
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 118
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 120
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 121
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 122
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 123
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 124
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 125
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 128
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 129
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 130
+  }, {
+    "from": 131,
+    "label": "has",
+    "to": 132
+  }, {
+    "from": 131,
+    "label": "has",
+    "to": 133
+  }, {
+    "from": 131,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 131,
+    "label": "has",
+    "to": 134
+  }, {
+    "from": 131,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 131,
+    "label": "has",
+    "to": 136
+  }, {
+    "from": 131,
+    "label": "has",
+    "to": 137
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 139
+  }, {
+    "from": 139,
+    "label": "has",
+    "to": 140
+  }, {
+    "from": 139,
+    "label": "has",
+    "to": 141
+  }, {
+    "from": 139,
+    "label": "has",
+    "to": 142
+  }, {
+    "from": 139,
+    "label": "has",
+    "to": 140
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 143
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 144
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 145
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 146
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 147
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 148
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 149
+  }, {
+    "from": 145,
+    "label": "has",
+    "to": 150
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 151
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 153
+  }, {
+    "from": 153,
+    "label": "has",
+    "to": 154
+  }, {
+    "from": 153,
+    "label": "has",
+    "to": 155
+  }, {
+    "from": 155,
+    "label": "has",
+    "to": 156
+  }, {
+    "from": 153,
+    "label": "has",
+    "to": 157
+  }, {
+    "from": 153,
+    "label": "has",
+    "to": 158
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 159
+  }, {
+    "from": 159,
+    "label": "has",
+    "to": 160
+  }, {
+    "from": 159,
+    "label": "has",
+    "to": 161
+  }, {
+    "from": 159,
+    "label": "has",
+    "to": 162
+  }, {
+    "from": 162,
+    "label": "has",
+    "to": 163
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 164
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 165
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 166
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 168
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 169
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 122
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 170
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 171
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 172
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 173
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 118
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 174
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 136
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 133
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 175
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 136
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 176
+  }, {
+    "from": 177,
+    "label": "has",
+    "to": 178
+  }, {
+    "from": 177,
+    "label": "has",
+    "to": 179
+  }, {
+    "from": 177,
+    "label": "has",
+    "to": 180
+  }, {
+    "from": 177,
+    "label": "has",
+    "to": 181
+  }, {
+    "from": 177,
+    "label": "has",
+    "to": 182
+  }, {
+    "from": 177,
+    "label": "has",
+    "to": 183
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 185
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 186
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 187
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 188
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 189
+  }, {
+    "from": 190,
+    "label": "has",
+    "to": 191
+  }, {
+    "from": 192,
+    "label": "has",
+    "to": 193
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 195
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 196
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 197
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 198
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 199
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 200
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 201
+  }, {
+    "from": 201,
+    "label": "has",
+    "to": 202
+  }, {
+    "from": 202,
+    "label": "has",
+    "to": 203
+  }, {
+    "from": 202,
+    "label": "has",
+    "to": 204
+  }, {
+    "from": 204,
+    "label": "has",
+    "to": 205
+  }, {
+    "from": 204,
+    "label": "has",
+    "to": 206
+  }, {
+    "from": 204,
+    "label": "has",
+    "to": 207
+  }, {
+    "from": 204,
+    "label": "has",
+    "to": 208
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 209
+  }, {
+    "from": 209,
+    "label": "has",
+    "to": 210
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 211
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 212
+  }, {
+    "from": 213,
+    "label": "has",
+    "to": 214
+  }, {
+    "from": 213,
+    "label": "has",
+    "to": 186
+  }, {
+    "from": 213,
+    "label": "has",
+    "to": 215
+  }, {
+    "from": 213,
+    "label": "has",
+    "to": 216
+  }, {
+    "from": 213,
+    "label": "has",
+    "to": 217
+  }, {
+    "from": 218,
+    "label": "has",
+    "to": 219
+  }, {
+    "from": 218,
+    "label": "has",
+    "to": 220
+  }, {
+    "from": 218,
+    "label": "has",
+    "to": 221
+  }, {
+    "from": 218,
+    "label": "has",
+    "to": 222
+  }, {
+    "from": 218,
+    "label": "has",
+    "to": 223
+  }, {
+    "from": 218,
+    "label": "has",
+    "to": 224
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 226
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 227
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 228
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 229
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 230
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 231
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 232
+  }, {
+    "from": 232,
+    "label": "has",
+    "to": 233
+  }, {
+    "from": 232,
+    "label": "has",
+    "to": 234
+  }, {
+    "from": 232,
+    "label": "has",
+    "to": 235
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 236
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 237
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 238
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 239
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 240
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 241
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 186
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 242
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 243
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 244
+  }, {
+    "from": 225,
+    "label": "has",
+    "to": 245
+  }, {
+    "from": 246,
+    "label": "has",
+    "to": 247
+  }, {
+    "from": 246,
+    "label": "has",
+    "to": 248
+  }, {
+    "from": 248,
+    "label": "has",
+    "to": 249
+  }, {
+    "from": 246,
+    "label": "has",
+    "to": 250
+  }, {
+    "from": 246,
+    "label": "has",
+    "to": 251
+  }, {
+    "from": 251,
+    "label": "has",
+    "to": 252
+  }, {
+    "from": 251,
+    "label": "has",
+    "to": 253
+  }, {
+    "from": 251,
+    "label": "has",
+    "to": 254
+  }, {
+    "from": 254,
+    "label": "has",
+    "to": 255
+  }, {
+    "from": 254,
+    "label": "has",
+    "to": 256
+  }, {
+    "from": 254,
+    "label": "has",
+    "to": 257
+  }, {
+    "from": 251,
+    "label": "has",
+    "to": 258
+  }, {
+    "from": 251,
+    "label": "has",
+    "to": 259
+  }, {
+    "from": 259,
+    "label": "has",
+    "to": 260
+  }, {
+    "from": 251,
+    "label": "has",
+    "to": 261
+  }, {
+    "from": 251,
+    "label": "has",
+    "to": 262
+  }, {
+    "from": 246,
+    "label": "has",
+    "to": 263
+  }, {
+    "from": 264,
+    "label": "has",
+    "to": 265
+  }, {
+    "from": 264,
+    "label": "has",
+    "to": 266
+  }, {
+    "from": 267,
+    "label": "has",
+    "to": 268
+  }, {
+    "from": 267,
+    "label": "has",
+    "to": 269
+  }, {
+    "from": 267,
+    "label": "has",
+    "to": 270
+  }, {
+    "from": 270,
+    "label": "has",
+    "to": 271
+  }, {
+    "from": 270,
+    "label": "has",
+    "to": 272
+  }, {
+    "from": 272,
+    "label": "has",
+    "to": 273
+  }, {
+    "from": 272,
+    "label": "has",
+    "to": 274
+  }, {
+    "from": 267,
+    "label": "has",
+    "to": 275
+  }, {
+    "from": 267,
+    "label": "has",
+    "to": 276
+  }, {
+    "from": 267,
+    "label": "has",
+    "to": 277
+  }, {
+    "from": 267,
+    "label": "has",
+    "to": 278
+  }, {
+    "from": 267,
+    "label": "has",
+    "to": 279
+  }, {
+    "from": 267,
+    "label": "has",
+    "to": 280
+  }, {
+    "from": 267,
+    "label": "has",
+    "to": 281
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 133
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 283
+  }, {
+    "from": 283,
+    "label": "has",
+    "to": 284
+  }, {
+    "from": 283,
+    "label": "has",
+    "to": 285
+  }, {
+    "from": 283,
+    "label": "has",
+    "to": 286
+  }, {
+    "from": 283,
+    "label": "has",
+    "to": 287
+  }, {
+    "from": 287,
+    "label": "has",
+    "to": 288
+  }, {
+    "from": 287,
+    "label": "has",
+    "to": 289
+  }, {
+    "from": 289,
+    "label": "has",
+    "to": 290
+  }, {
+    "from": 287,
+    "label": "has",
+    "to": 291
+  }, {
+    "from": 287,
+    "label": "has",
+    "to": 292
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 293
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 294
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 295
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 296
+  }, {
+    "from": 296,
+    "label": "has",
+    "to": 297
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 298
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 299
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 300
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 301
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 302
+  }, {
+    "from": 302,
+    "label": "has",
+    "to": 303
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 304
+  }, {
+    "from": 304,
+    "label": "has",
+    "to": 305
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 306
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 307
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 308
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 309
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 310
+  }, {
+    "from": 310,
+    "label": "has",
+    "to": 311
+  }, {
+    "from": 310,
+    "label": "has",
+    "to": 312
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 313
+  }, {
+    "from": 314,
+    "label": "has",
+    "to": 315
+  }, {
+    "from": 316,
+    "label": "has",
+    "to": 317
+  }, {
+    "from": 316,
+    "label": "has",
+    "to": 318
+  }, {
+    "from": 319,
+    "label": "has",
+    "to": 320
+  }, {
+    "from": 319,
+    "label": "has",
+    "to": 321
+  }, {
+    "from": 319,
+    "label": "has",
+    "to": 322
+  }, {
+    "from": 323,
+    "label": "has",
+    "to": 324
+  }, {
+    "from": 323,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 323,
+    "label": "has",
+    "to": 325
+  }, {
+    "from": 323,
+    "label": "has",
+    "to": 326
+  }, {
+    "from": 323,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 323,
+    "label": "has",
+    "to": 327
+  }, {
+    "from": 323,
+    "label": "has",
+    "to": 328
+  }, {
+    "from": 328,
+    "label": "has",
+    "to": 329
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 330
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 331
+  }, {
+    "from": 329,
+    "label": "has",
+    "to": 332
+  }, {
+    "from": 328,
+    "label": "has",
+    "to": 333
+  }, {
+    "from": 333,
+    "label": "has",
+    "to": 334
+  }, {
+    "from": 328,
+    "label": "has",
+    "to": 335
+  }, {
+    "from": 328,
+    "label": "has",
+    "to": 336
+  }, {
+    "from": 336,
+    "label": "has",
+    "to": 337
+  }, {
+    "from": 336,
+    "label": "has",
+    "to": 338
+  }, {
+    "from": 328,
+    "label": "has",
+    "to": 339
+  }, {
+    "from": 323,
+    "label": "has",
+    "to": 340
+  }, {
+    "from": 340,
+    "label": "has",
+    "to": 341
+  }, {
+    "from": 323,
+    "label": "has",
+    "to": 342
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 344
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 345
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 327
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 346
+  }, {
+    "from": 346,
+    "label": "has",
+    "to": 347
+  }, {
+    "from": 347,
+    "label": "has",
+    "to": 330
+  }, {
+    "from": 347,
+    "label": "has",
+    "to": 348
+  }, {
+    "from": 347,
+    "label": "has",
+    "to": 349
+  }, {
+    "from": 347,
+    "label": "has",
+    "to": 350
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 325
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 351
+  }, {
+    "from": 351,
+    "label": "has",
+    "to": 352
+  }, {
+    "from": 352,
+    "label": "has",
+    "to": 353
+  }, {
+    "from": 351,
+    "label": "has",
+    "to": 354
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 327
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 355
+  }, {
+    "from": 355,
+    "label": "has",
+    "to": 334
+  }, {
+    "from": 355,
+    "label": "has",
+    "to": 356
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 357
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 358
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 359
+  }, {
+    "from": 359,
+    "label": "has",
+    "to": 360
+  }, {
+    "from": 359,
+    "label": "has",
+    "to": 361
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 362
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 363
+  }, {
+    "from": 363,
+    "label": "has",
+    "to": 364
+  }, {
+    "from": 363,
+    "label": "has",
+    "to": 365
+  }, {
+    "from": 363,
+    "label": "has",
+    "to": 366
+  }, {
+    "from": 363,
+    "label": "has",
+    "to": 367
+  }, {
+    "from": 363,
+    "label": "has",
+    "to": 368
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 369
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 370
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 371
+  }, {
+    "from": 371,
+    "label": "has",
+    "to": 372
+  }, {
+    "from": 371,
+    "label": "has",
+    "to": 373
+  }, {
+    "from": 373,
+    "label": "has",
+    "to": 374
+  }, {
+    "from": 374,
+    "label": "has",
+    "to": 375
+  }, {
+    "from": 374,
+    "label": "has",
+    "to": 376
+  }, {
+    "from": 371,
+    "label": "has",
+    "to": 372
+  }, {
+    "from": 371,
+    "label": "has",
+    "to": 377
+  }, {
+    "from": 377,
+    "label": "has",
+    "to": 378
+  }, {
+    "from": 371,
+    "label": "has",
+    "to": 379
+  }, {
+    "from": 371,
+    "label": "has",
+    "to": 380
+  }, {
+    "from": 371,
+    "label": "has",
+    "to": 379
+  }, {
+    "from": 371,
+    "label": "has",
+    "to": 379
+  }, {
+    "from": 343,
+    "label": "has",
+    "to": 381
+  }, {
+    "from": 382,
+    "label": "has",
+    "to": 383
+  }, {
+    "from": 382,
+    "label": "has",
+    "to": 327
+  }, {
+    "from": 382,
+    "label": "has",
+    "to": 384
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 385
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 386
+  }, {
+    "from": 382,
+    "label": "has",
+    "to": 387
+  }, {
+    "from": 388,
+    "label": "has",
+    "to": 389
+  }, {
+    "from": 388,
+    "label": "has",
+    "to": 327
+  }, {
+    "from": 388,
+    "label": "has",
+    "to": 390
+  }, {
+    "from": 388,
+    "label": "has",
+    "to": 391
+  }, {
+    "from": 66,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 401
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 399
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 399
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 399
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 399
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 398
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 398
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 402
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 314
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 192
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 396
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 395
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 395
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 400
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 400
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 393
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 397
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 397
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 392,
+    "label": "calls",
+    "to": 394
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 392
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 62
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 64
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 66
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 77
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 85
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 110
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 127
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 131
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 138
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 152
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 177
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 184
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 190
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 192
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 194
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 213
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 218
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 225
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 246
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 264
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 267
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 282
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 314
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 316
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 319
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 323
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 343
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 382
+  }, {
+    "from": 392,
+    "label": "declares",
+    "to": 388
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 403
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 404
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 405
+  }, {
+    "from": 405,
+    "label": "assigns",
+    "to": 406
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 407
+  }, {
+    "from": 407,
+    "label": "assigns",
+    "to": 408
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 409
+  }, {
+    "from": 409,
+    "label": "assigns",
+    "to": 410
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 411
+  }, {
+    "from": 411,
+    "label": "assigns",
+    "to": 412
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 413
+  }, {
+    "from": 413,
+    "label": "assigns",
+    "to": 414
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 415
+  }, {
+    "from": 415,
+    "label": "assigns",
+    "to": 416
+  }, {
+    "from": 416,
+    "label": "assigns",
+    "to": 417
+  }, {
+    "from": 417,
+    "label": "assigns",
+    "to": 418
+  }, {
+    "from": 416,
+    "label": "assigns",
+    "to": 419
+  }, {
+    "from": 419,
+    "label": "assigns",
+    "to": 420
+  }, {
+    "from": 416,
+    "label": "assigns",
+    "to": 421
+  }, {
+    "from": 421,
+    "label": "assigns",
+    "to": 422
+  }, {
+    "from": 416,
+    "label": "assigns",
+    "to": 423
+  }, {
+    "from": 423,
+    "label": "assigns",
+    "to": 424
+  }, {
+    "from": 416,
+    "label": "assigns",
+    "to": 425
+  }, {
+    "from": 425,
+    "label": "assigns",
+    "to": 426
+  }, {
+    "from": 416,
+    "label": "assigns",
+    "to": 427
+  }, {
+    "from": 427,
+    "label": "assigns",
+    "to": 428
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 429
+  }, {
+    "from": 429,
+    "label": "assigns",
+    "to": 430
+  }, {
+    "from": 430,
+    "label": "assigns",
+    "to": 431
+  }, {
+    "from": 431,
+    "label": "assigns",
+    "to": 432
+  }, {
+    "from": 430,
+    "label": "assigns",
+    "to": 433
+  }, {
+    "from": 433,
+    "label": "assigns",
+    "to": 434
+  }, {
+    "from": 430,
+    "label": "assigns",
+    "to": 435
+  }, {
+    "from": 435,
+    "label": "assigns",
+    "to": 436
+  }, {
+    "from": 430,
+    "label": "assigns",
+    "to": 437
+  }, {
+    "from": 437,
+    "label": "assigns",
+    "to": 438
+  }, {
+    "from": 430,
+    "label": "assigns",
+    "to": 439
+  }, {
+    "from": 439,
+    "label": "assigns",
+    "to": 440
+  }, {
+    "from": 430,
+    "label": "assigns",
+    "to": 441
+  }, {
+    "from": 441,
+    "label": "assigns",
+    "to": 442
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 443
+  }, {
+    "from": 443,
+    "label": "assigns",
+    "to": 444
+  }, {
+    "from": 444,
+    "label": "assigns",
+    "to": 445
+  }, {
+    "from": 445,
+    "label": "assigns",
+    "to": 446
+  }, {
+    "from": 444,
+    "label": "assigns",
+    "to": 447
+  }, {
+    "from": 447,
+    "label": "assigns",
+    "to": 448
+  }, {
+    "from": 444,
+    "label": "assigns",
+    "to": 449
+  }, {
+    "from": 449,
+    "label": "assigns",
+    "to": 450
+  }, {
+    "from": 444,
+    "label": "assigns",
+    "to": 451
+  }, {
+    "from": 451,
+    "label": "assigns",
+    "to": 452
+  }, {
+    "from": 444,
+    "label": "assigns",
+    "to": 453
+  }, {
+    "from": 453,
+    "label": "assigns",
+    "to": 454
+  }, {
+    "from": 444,
+    "label": "assigns",
+    "to": 455
+  }, {
+    "from": 455,
+    "label": "assigns",
+    "to": 456
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 457
+  }, {
+    "from": 457,
+    "label": "assigns",
+    "to": 458
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 459
+  }, {
+    "from": 459,
+    "label": "assigns",
+    "to": 460
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 461
+  }, {
+    "from": 461,
+    "label": "assigns",
+    "to": 462
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 463
+  }, {
+    "from": 463,
+    "label": "assigns",
+    "to": 464
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 465
+  }, {
+    "from": 465,
+    "label": "assigns",
+    "to": 466
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 467
+  }, {
+    "from": 467,
+    "label": "assigns",
+    "to": 468
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 469
+  }, {
+    "from": 469,
+    "label": "assigns",
+    "to": 470
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 471
+  }, {
+    "from": 471,
+    "label": "assigns",
+    "to": 472
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 473
+  }, {
+    "from": 473,
+    "label": "assigns",
+    "to": 474
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 475
+  }, {
+    "from": 475,
+    "label": "assigns",
+    "to": 476
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 477
+  }, {
+    "from": 477,
+    "label": "assigns",
+    "to": 478
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 479
+  }, {
+    "from": 479,
+    "label": "assigns",
+    "to": 480
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 481
+  }, {
+    "from": 481,
+    "label": "assigns",
+    "to": 482
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 483
+  }, {
+    "from": 483,
+    "label": "assigns",
+    "to": 484
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 485
+  }, {
+    "from": 485,
+    "label": "assigns",
+    "to": 486
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 487
+  }, {
+    "from": 487,
+    "label": "assigns",
+    "to": 488
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 489
+  }, {
+    "from": 489,
+    "label": "assigns",
+    "to": 490
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 491
+  }, {
+    "from": 491,
+    "label": "assigns",
+    "to": 492
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 493
+  }, {
+    "from": 493,
+    "label": "assigns",
+    "to": 494
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 495
+  }, {
+    "from": 495,
+    "label": "assigns",
+    "to": 496
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 497
+  }, {
+    "from": 497,
+    "label": "assigns",
+    "to": 498
+  }, {
+    "from": 462,
+    "label": "assigns",
+    "to": 499
+  }, {
+    "from": 499,
+    "label": "assigns",
+    "to": 500
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 501
+  }, {
+    "from": 501,
+    "label": "assigns",
+    "to": 502
+  }, {
+    "from": 403,
+    "label": "initializes",
+    "to": 503
+  }, {
+    "from": 503,
+    "label": "assigns",
+    "to": 504
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "gen_lua_ffi",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function get_var_name(var)\r\n\tlocal name = 'self'\r\n\tif not var.is_this then\r\n\t\tname = '${' .. var.name .. '}'\r\n\tend\r\n\treturn name\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local name = 'self'",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "if not var.is_this then\r\n\t\tname = '${' .. var.name .. '}'\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "name = '${' .. var.name .. '}'",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "local function unwrap_value(self, var)\r\n\tlocal name = get_var_name(var)\r\n\treturn name .. ' = ' .. name .. '._wrapped_val\\n'\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local name = get_var_name(var)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "local function no_wrapper(self, var) return '\\n' end",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "local function dump_lua_code_to_c_str(code, name)\r\n\t-- make Lua code C-safe\r\n\tcode = code:gsub('[\\n\"\\\\%z]', {\r\n\t['\\n'] = \"\\\\n\\\"\\n\\\"\",\r\n\t['\\r'] = \"\\\\r\",\r\n\t['\"'] = [[\\\"]],\r\n\t['\\\\'] = [[\\\\]],\r\n\t['\\0'] = [[\\0]],\r\n\t})\r\n\tlocal tcode = {'\\nstatic const char *', name, '[] = { \"', }\r\n\t-- find all cut positions.\r\n\tlocal last_pos = 1\r\n\tlocal next_boundry = last_pos + MAX_C_LITERAL\r\n\tlocal cuts = {} -- list of positions to cut the code at.\r\n\tfor pos in code:gmatch(\"()\\n\") do -- find end position of all lines.\r\n\t\t-- check if current line will cross a cut boundry.\r\n\t\tif pos > next_boundry then\r\n\t\t\t-- cut code at end of last line.\r\n\t\t\tcuts[#cuts + 1] = last_pos\r\n\t\t\tnext_boundry = pos + MAX_C_LITERAL\r\n\t\tend\r\n\t\t-- track end of last line.\r\n\t\tlast_pos = pos\r\n\tend\r\n\tcuts[#cuts + 1] = last_pos\r\n\t-- split Lua code into multiple pieces if it is too long.\r\n\tlast_pos = 1\r\n\tfor i=1,#cuts do\r\n\t\tlocal pos = cuts[i]\r\n\t\tlocal piece = code:sub(last_pos, pos-1)\r\n\t\tlast_pos = pos\r\n\t\tif(i > 1) then\r\n\t\t\t-- cut last piece.\r\n\t\t\ttcode[#tcode + 1] = \", /* ----- CUT ----- */\"\r\n\t\tend\r\n\t\ttcode[#tcode + 1] = piece\r\n\tend\r\n\ttcode[#tcode + 1] = ', NULL };'\r\n\r\n\treturn tcode\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "code = code:gsub('[\\n\"\\\\%z]', {\r\n\t['\\n'] = \"\\\\n\\\"\\n\\\"\",\r\n\t['\\r'] = \"\\\\r\",\r\n\t['\"'] = [[\\\"]],\r\n\t['\\\\'] = [[\\\\]],\r\n\t['\\0'] = [[\\0]],\r\n\t})",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "local tcode = {'\\nstatic const char *', name, '[] = { \"', }",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "local last_pos = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "local next_boundry = last_pos + MAX_C_LITERAL",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "local cuts = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "for pos in code:gmatch(\"()\\n\") do -- find end position of all lines.\r\n\t\t-- check if current line will cross a cut boundry.\r\n\t\tif pos > next_boundry then\r\n\t\t\t-- cut code at end of last line.\r\n\t\t\tcuts[#cuts + 1] = last_pos\r\n\t\t\tnext_boundry = pos + MAX_C_LITERAL\r\n\t\tend\r\n\t\t-- track end of last line.\r\n\t\tlast_pos = pos\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 19,
+    "text": "if pos > next_boundry then\r\n\t\t\t-- cut code at end of last line.\r\n\t\t\tcuts[#cuts + 1] = last_pos\r\n\t\t\tnext_boundry = pos + MAX_C_LITERAL\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "cuts[#cuts + 1] = last_pos",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "next_boundry = pos + MAX_C_LITERAL",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "last_pos = pos",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "last_pos = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "for i=1,#cuts do\r\n\t\tlocal pos = cuts[i]\r\n\t\tlocal piece = code:sub(last_pos, pos-1)\r\n\t\tlast_pos = pos\r\n\t\tif(i > 1) then\r\n\t\t\t-- cut last piece.\r\n\t\t\ttcode[#tcode + 1] = \", /* ----- CUT ----- */\"\r\n\t\tend\r\n\t\ttcode[#tcode + 1] = piece\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 25,
+    "text": "local pos = cuts[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "local piece = code:sub(last_pos, pos-1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "if(i > 1) then\r\n\t\t\t-- cut last piece.\r\n\t\t\ttcode[#tcode + 1] = \", /* ----- CUT ----- */\"\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "tcode[#tcode + 1] = \", /* ----- CUT ----- */\"",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "tcode[#tcode + 1] = piece",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "tcode[#tcode + 1] = ', NULL };'",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "local function gen_if_defs_code(rec)\r\n\tif rec.ffi_if_defs then return end\r\n\t-- generate if code for if_defs.\r\n\tlocal if_defs = rec.if_defs\r\n\tlocal defs = rec.ffi_defs_table\r\n\tif not defs then\r\n\t\tdefs = '_M.'\r\n\telse\r\n\t\tdefs = '_M.' .. defs .. '.'\r\n\tend\r\n\tlocal endif = 'end\\n'\r\n\tif type(if_defs) == 'string' then\r\n\t\tif_defs = \"if (\" .. defs .. if_defs .. ') then\\n'\r\n\telseif type(if_defs) == 'table' then\r\n\t\tif_defs = \"if (\" .. defs .. table.concat(if_defs,\" or \" .. defs) .. ') then\\n'\r\n\telse\r\n\t\tif_defs = ''\r\n\t\tendif = ''\r\n\tend\r\n\trec.ffi_if_defs = if_defs\r\n\trec.ffi_endif = endif\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "if rec.ffi_if_defs then return end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "local if_defs = rec.if_defs",
+    "type": "statement:localassign"
+  }, {
+    "id": 35,
+    "text": "local defs = rec.ffi_defs_table",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "if not defs then\r\n\t\tdefs = '_M.'\r\n\telse\r\n\t\tdefs = '_M.' .. defs .. '.'\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 37,
+    "text": "defs = '_M.'",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "defs = '_M.' .. defs .. '.'",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "local endif = 'end\\n'",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "if type(if_defs) == 'string' then\r\n\t\tif_defs = \"if (\" .. defs .. if_defs .. ') then\\n'\r\n\telseif type(if_defs) == 'table' then\r\n\t\tif_defs = \"if (\" .. defs .. table.concat(if_defs,\" or \" .. defs) .. ') then\\n'\r\n\telse\r\n\t\tif_defs = ''\r\n\t\tendif = ''\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 41,
+    "text": "if_defs = \"if (\" .. defs .. if_defs .. ') then\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "if_defs = \"if (\" .. defs .. table.concat(if_defs,\" or \" .. defs) .. ') then\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "if_defs = ''",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "endif = ''",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "rec.ffi_if_defs = if_defs",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "rec.ffi_endif = endif",
+    "type": "statement:assign"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 48,
+    "text": "local function reg_object_function(self, func, object)\r\n\tlocal ffi_table = '_meth'\r\n\tlocal name = func.name\r\n\tlocal reg_list\r\n\t-- check if this is object free/destructure method\r\n\tif func.is_destructor then\r\n\t\tif func._is_hidden then\r\n\t\t\t-- don't register '__gc' metamethods as a public object method.\r\n\t\t\treturn '_priv.${object_name}.', '_priv', '__gc'\r\n\t\tend\r\n\telseif func.is_constructor then\r\n\t\tffi_table = '_pub'\r\n\telseif func._is_meta_method then\r\n\t\tffi_table = '_priv'\r\n\t\t-- use Lua's __* metamethod names\r\n\t\tname = lua_meta_methods[func.name]\r\n\telseif func._is_method then\r\n\t\tffi_table = '_meth'\r\n\telse\r\n\t\tffi_table = '_pub'\r\n\tend\r\n\tlocal obj_table = ffi_table .. '.${object_name}.'\r\n\tif object._rec_type == 'c_module' then\r\n\t\tobj_table = '_M.'\r\n\tend\r\n\treturn obj_table, ffi_table, name\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "local ffi_table = '_meth'",
+    "type": "statement:localassign"
+  }, {
+    "id": 50,
+    "text": "local name = func.name",
+    "type": "statement:localassign"
+  }, {
+    "id": 51,
+    "text": "local reg_list",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "if func.is_destructor then\r\n\t\tif func._is_hidden then\r\n\t\t\t-- don't register '__gc' metamethods as a public object method.\r\n\t\t\treturn '_priv.${object_name}.', '_priv', '__gc'\r\n\t\tend\r\n\telseif func.is_constructor then\r\n\t\tffi_table = '_pub'\r\n\telseif func._is_meta_method then\r\n\t\tffi_table = '_priv'\r\n\t\t-- use Lua's __* metamethod names\r\n\t\tname = lua_meta_methods[func.name]\r\n\telseif func._is_method then\r\n\t\tffi_table = '_meth'\r\n\telse\r\n\t\tffi_table = '_pub'\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 53,
+    "text": "if func._is_hidden then\r\n\t\t\t-- don't register '__gc' metamethods as a public object method.\r\n\t\t\treturn '_priv.${object_name}.', '_priv', '__gc'\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 54,
+    "text": "ffi_table = '_pub'",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "ffi_table = '_priv'",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "name = lua_meta_methods[func.name]",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "ffi_table = '_meth'",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "local obj_table = ffi_table .. '.${object_name}.'",
+    "type": "statement:localassign"
+  }, {
+    "id": 59,
+    "text": "if object._rec_type == 'c_module' then\r\n\t\tobj_table = '_M.'\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 60,
+    "text": "obj_table = '_M.'",
+    "type": "statement:assign"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 62,
+    "text": "local function add_source(rec, part, src, pos)\r\n\treturn rec:insert_record(c_source(part)(src), 1)\r\nend",
+    "type": "function"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 64,
+    "text": "local function base_caster_name(class_name, base_name)\r\n\t\treturn 'base_cast_' .. class_name .. '_to_' .. base_name\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 66,
+    "text": "local function create_base_caster(class, base, cast_type)\r\n\t\tlocal base_cast = base_caster_name(class.name, base.name)\r\n\t\tlocal caster_def = base.c_type .. ' nobj_ffi_' .. base_cast .. \r\n\t\t\t'(' .. class.c_type .. ' obj)'\r\n\t\tif cast_type == 'direct' then\r\n\t\t\trec:write_part('ffi_src', {\r\n\t\t\t'\\n',\r\n\t\t\t'-- add sub-class to base classes list of subs\\n',\r\n\t\t\t'_obj_subs.', base.name, '[_type_names.${object_name}] = function(obj)\\n',\r\n\t\t\t'  return ffi.cast(_ctypes.', base.name,',obj)\\n',\r\n\t\t\t'end\\n\\n',\r\n\t\t\t})\r\n\t\t\treturn base_cast\r\n\t\tend\r\n\t\t-- add base_cast decl.\r\n\t\tparent:write_part('ffi_cdef', {' ', caster_def, ';\\n'})\r\n\t\t-- start base_cast function.\r\n\t\tif class.is_ptr then\r\n\t\t\trec:write_part('src', {\r\n\t\t\tcaster_def, ' {\\n',\r\n\t\t\t'  void *ptr = (void *)obj;\\n',\r\n\t\t\t'  ', base_cast, '(&ptr);\\n',\r\n\t\t\t'  return (',base.c_type,')ptr;\\n',\r\n\t\t\t'}\\n\\n',\r\n\t\t\t})\r\n\t\telse\r\n\t\t\trec:write_part('src', {\r\n\t\t\tcaster_def, ' {\\n',\r\n\t\t\t'  void *ptr = (void *)(uintptr_t)obj;\\n',\r\n\t\t\t'  ', base_cast, '(&ptr);\\n',\r\n\t\t\t'  return (',base.c_type,')(uintptr_t)ptr;\\n',\r\n\t\t\t'}\\n\\n',\r\n\t\t\t})\r\n\t\tend\r\n\t\t-- add sub-classes to base class list of subs.\r\n\t\tparent:write_part(\"ffi_extends\",\r\n\t\t\t{'-- add sub-class to base classes list of subs\\n',\r\n\t\t\t '_obj_subs.', base.name, '[_type_names.${object_name}] = C.nobj_ffi_',base_cast,'\\n',\r\n\t\t\t})\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 67,
+    "text": "local base_cast = base_caster_name(class.name, base.name)",
+    "type": "statement:localassign"
+  }, {
+    "id": 68,
+    "text": "local caster_def = base.c_type .. ' nobj_ffi_' .. base_cast .. \r\n\t\t\t'(' .. class.c_type .. ' obj)'",
+    "type": "statement:localassign"
+  }, {
+    "id": 69,
+    "text": "if cast_type == 'direct' then\r\n\t\t\trec:write_part('ffi_src', {\r\n\t\t\t'\\n',\r\n\t\t\t'-- add sub-class to base classes list of subs\\n',\r\n\t\t\t'_obj_subs.', base.name, '[_type_names.${object_name}] = function(obj)\\n',\r\n\t\t\t'  return ffi.cast(_ctypes.', base.name,',obj)\\n',\r\n\t\t\t'end\\n\\n',\r\n\t\t\t})\r\n\t\t\treturn base_cast\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 70,
+    "text": "rec:write_part('ffi_src', {\r\n\t\t\t'\\n',\r\n\t\t\t'-- add sub-class to base classes list of subs\\n',\r\n\t\t\t'_obj_subs.', base.name, '[_type_names.${object_name}] = function(obj)\\n',\r\n\t\t\t'  return ffi.cast(_ctypes.', base.name,',obj)\\n',\r\n\t\t\t'end\\n\\n',\r\n\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 71,
+    "text": "parent:write_part('ffi_cdef', {' ', caster_def, ';\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 72,
+    "text": "if class.is_ptr then\r\n\t\t\trec:write_part('src', {\r\n\t\t\tcaster_def, ' {\\n',\r\n\t\t\t'  void *ptr = (void *)obj;\\n',\r\n\t\t\t'  ', base_cast, '(&ptr);\\n',\r\n\t\t\t'  return (',base.c_type,')ptr;\\n',\r\n\t\t\t'}\\n\\n',\r\n\t\t\t})\r\n\t\telse\r\n\t\t\trec:write_part('src', {\r\n\t\t\tcaster_def, ' {\\n',\r\n\t\t\t'  void *ptr = (void *)(uintptr_t)obj;\\n',\r\n\t\t\t'  ', base_cast, '(&ptr);\\n',\r\n\t\t\t'  return (',base.c_type,')(uintptr_t)ptr;\\n',\r\n\t\t\t'}\\n\\n',\r\n\t\t\t})\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 73,
+    "text": "rec:write_part('src', {\r\n\t\t\tcaster_def, ' {\\n',\r\n\t\t\t'  void *ptr = (void *)obj;\\n',\r\n\t\t\t'  ', base_cast, '(&ptr);\\n',\r\n\t\t\t'  return (',base.c_type,')ptr;\\n',\r\n\t\t\t'}\\n\\n',\r\n\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 74,
+    "text": "rec:write_part('src', {\r\n\t\t\tcaster_def, ' {\\n',\r\n\t\t\t'  void *ptr = (void *)(uintptr_t)obj;\\n',\r\n\t\t\t'  ', base_cast, '(&ptr);\\n',\r\n\t\t\t'  return (',base.c_type,')(uintptr_t)ptr;\\n',\r\n\t\t\t'}\\n\\n',\r\n\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 75,
+    "text": "parent:write_part(\"ffi_extends\",\r\n\t\t\t{'-- add sub-class to base classes list of subs\\n',\r\n\t\t\t '_obj_subs.', base.name, '[_type_names.${object_name}] = C.nobj_ffi_',base_cast,'\\n',\r\n\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 77,
+    "text": "function(self, rec, parent)\r\n\tif rec.is_package then return end\r\n\tlocal ud_type = rec.userdata_type\r\n\tif not rec.no_weak_ref then\r\n\t\tud_type = ud_type .. '_weak'\r\n\tend\r\n\trec.ud_type = ud_type\r\n\t-- create _ffi_check_fast function\r\n\trec._ffi_check_fast = ffi_obj_type_check[ud_type]\r\nend",
+    "type": "function"
+  }, {
+    "id": 78,
+    "text": "if rec.is_package then return end",
+    "type": "statement:if"
+  }, {
+    "id": 79,
+    "text": "local ud_type = rec.userdata_type",
+    "type": "statement:localassign"
+  }, {
+    "id": 80,
+    "text": "if not rec.no_weak_ref then\r\n\t\tud_type = ud_type .. '_weak'\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 81,
+    "text": "ud_type = ud_type .. '_weak'",
+    "type": "statement:assign"
+  }, {
+    "id": 82,
+    "text": "rec.ud_type = ud_type",
+    "type": "statement:assign"
+  }, {
+    "id": 83,
+    "text": "rec._ffi_check_fast = ffi_obj_type_check[ud_type]",
+    "type": "statement:assign"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 85,
+    "text": "function(self, rec, parent)\r\n\tlocal module_c_name = rec.name:gsub('(%.)','_')\r\n\trec:add_var('module_c_name', module_c_name)\r\n\trec:add_var('module_name', rec.name)\r\n\trec:add_var('object_name', rec.name)\r\n\tself._cur_module = rec\r\n\tself._modules_out[rec.name] = rec\r\n\tadd_source(rec, \"typedefs\", ffi_helper_types, 1)\r\n\t-- hide_meta_info?\r\n\tif rec.hide_meta_info == nil then rec.hide_meta_info = true end\r\n\t-- luajit_ffi?\r\n\trec:insert_record(define(\"LUAJIT_FFI\")(rec.luajit_ffi and 1 or 0), 1)\r\n\t-- module_globals?\r\n\trec:write_part(\"ffi_obj_type\",\r\n\t\t{'REG_MODULES_AS_GLOBALS = ',(rec.module_globals and 'true' or 'false'),'\\n'})\r\n\t-- use_globals?\r\n\trec:write_part(\"ffi_obj_type\",\r\n\t\t{'REG_OBJECTS_AS_GLOBALS = ',(rec.use_globals and 'true' or 'false'),'\\n'})\r\n\t-- luajit_ffi_load_cmodule?\r\n\tif rec.luajit_ffi_load_cmodule then\r\n\t\tlocal global = 'false'\r\n\t\tif rec.luajit_ffi_load_cmodule == 'global' then\r\n\t\t\tglobal = 'true'\r\n\t\tend\r\n\t\trec:write_part(\"ffi_typedef\", {[[\r\nlocal Cmod = ffi_load_cmodule(\"${module_c_name}\", ]], global ,[[)\r\nlocal C = Cmod\r\n\r\n]]})\r\n\tend\r\n\t-- where we want the module function registered.\r\n\trec.functions_regs = 'function_regs'\r\n\trec.methods_regs = 'function_regs'\r\n\t-- symbols to export to FFI\r\n\trec:write_part(\"ffi_export\", {\r\n\t\t'#if LUAJIT_FFI\\n',\r\n\t\t'static const ffi_export_symbol ${module_c_name}_ffi_export[] = {\\n'})\r\n\t-- start two ffi.cdef code blocks (one for typedefs and one for function prototypes).\r\n\trec:write_part(\"ffi_typedef\", {\r\n\t'ffi.cdef[[\\n'\r\n\t})\r\n\trec:write_part(\"ffi_cdef\", {\r\n\t'ffi.cdef[[\\n'\r\n\t})\r\n\t-- add module's FFI template\r\n\trec:write_part(\"ffi_obj_type\", {\r\n\t\tffi_module_template,\r\n\t\t'\\n'\r\n\t})\r\nend",
+    "type": "function"
+  }, {
+    "id": 86,
+    "text": "local module_c_name = rec.name:gsub('(%.)','_')",
+    "type": "statement:localassign"
+  }, {
+    "id": 87,
+    "text": "rec:add_var('module_c_name', module_c_name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 88,
+    "text": "rec:add_var('module_name', rec.name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 89,
+    "text": "rec:add_var('object_name', rec.name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 90,
+    "text": "self._cur_module = rec",
+    "type": "statement:assign"
+  }, {
+    "id": 91,
+    "text": "self._modules_out[rec.name] = rec",
+    "type": "statement:assign"
+  }, {
+    "id": 92,
+    "text": "add_source(rec, \"typedefs\", ffi_helper_types, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 93,
+    "text": "if rec.hide_meta_info == nil then rec.hide_meta_info = true end",
+    "type": "statement:if"
+  }, {
+    "id": 94,
+    "text": "rec.hide_meta_info = true",
+    "type": "statement:assign"
+  }, {
+    "id": 95,
+    "text": "rec:insert_record(define(\"LUAJIT_FFI\")(rec.luajit_ffi and 1 or 0), 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 96,
+    "text": "rec:write_part(\"ffi_obj_type\",\r\n\t\t{'REG_MODULES_AS_GLOBALS = ',(rec.module_globals and 'true' or 'false'),'\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 97,
+    "text": "rec:write_part(\"ffi_obj_type\",\r\n\t\t{'REG_OBJECTS_AS_GLOBALS = ',(rec.use_globals and 'true' or 'false'),'\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 98,
+    "text": "if rec.luajit_ffi_load_cmodule then\r\n\t\tlocal global = 'false'\r\n\t\tif rec.luajit_ffi_load_cmodule == 'global' then\r\n\t\t\tglobal = 'true'\r\n\t\tend\r\n\t\trec:write_part(\"ffi_typedef\", {[[\r\nlocal Cmod = ffi_load_cmodule(\"${module_c_name}\", ]], global ,[[)\r\nlocal C = Cmod\r\n\r\n]]})\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 99,
+    "text": "local global = 'false'",
+    "type": "statement:localassign"
+  }, {
+    "id": 100,
+    "text": "if rec.luajit_ffi_load_cmodule == 'global' then\r\n\t\t\tglobal = 'true'\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 101,
+    "text": "global = 'true'",
+    "type": "statement:assign"
+  }, {
+    "id": 102,
+    "text": "rec:write_part(\"ffi_typedef\", {[[\r\nlocal Cmod = ffi_load_cmodule(\"${module_c_name}\", ]], global ,[[)\r\nlocal C = Cmod\r\n\r\n]]})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 103,
+    "text": "rec.functions_regs = 'function_regs'",
+    "type": "statement:assign"
+  }, {
+    "id": 104,
+    "text": "rec.methods_regs = 'function_regs'",
+    "type": "statement:assign"
+  }, {
+    "id": 105,
+    "text": "rec:write_part(\"ffi_export\", {\r\n\t\t'#if LUAJIT_FFI\\n',\r\n\t\t'static const ffi_export_symbol ${module_c_name}_ffi_export[] = {\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 106,
+    "text": "rec:write_part(\"ffi_typedef\", {\r\n\t'ffi.cdef[[\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 107,
+    "text": "rec:write_part(\"ffi_cdef\", {\r\n\t'ffi.cdef[[\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 108,
+    "text": "rec:write_part(\"ffi_obj_type\", {\r\n\t\tffi_module_template,\r\n\t\t'\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 110,
+    "text": "function(self, rec, parent)\r\n\tself._cur_module = nil\r\n\t-- end list of FFI symbols\r\n\trec:write_part(\"ffi_export\", {\r\n\t'  {NULL, { NULL } }\\n',\r\n\t'};\\n',\r\n\t'#endif\\n\\n'\r\n\t})\r\n\tadd_source(rec, \"luaopen_defs\", rec:dump_parts{ \"ffi_export\" }, 1)\r\n\t-- end ffi.cdef code blocks\r\n\trec:write_part(\"ffi_typedef\", {\r\n\t'\\n]]\\n\\n'\r\n\t})\r\n\trec:write_part(\"ffi_cdef\", {\r\n\t'\\n]]\\n\\n'\r\n\t})\r\n\r\n\t-- add module init code for FFI support\r\n\tlocal part = \"module_init_src\"\r\n\trec:write_part(part, module_init_src)\r\n\trec:vars_part(part)\r\n\tadd_source(rec, part, rec:dump_parts(part))\r\n\t-- FFI helper C code.\r\n\tadd_source(rec, \"helper_funcs\", objHelperFunc)\r\n\t-- encode luajit ffi code\r\n\tif rec.luajit_ffi then\r\n\t\tlocal ffi_code = ffi_helper_code .. rec:dump_parts{\r\n\t\t\t\"ffi_pre_cdef\", \"ffi_typedef\", \"ffi_cdef\", \"ffi_obj_type\", \"ffi_import\", \"ffi_src\",\r\n\t\t\t\"ffi_metas_regs\", \"ffi_extends\"\r\n\t\t}\r\n\t\trec:write_part(\"ffi_code\",\r\n\t\t\tdump_lua_code_to_c_str(ffi_code, '${module_c_name}_ffi_lua_code'))\r\n\t\trec:vars_part(\"ffi_code\")\r\n\t\tadd_source(rec, \"extra_code\", rec:dump_parts(\"ffi_code\"))\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 111,
+    "text": "self._cur_module = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 112,
+    "text": "rec:write_part(\"ffi_export\", {\r\n\t'  {NULL, { NULL } }\\n',\r\n\t'};\\n',\r\n\t'#endif\\n\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 113,
+    "text": "add_source(rec, \"luaopen_defs\", rec:dump_parts{ \"ffi_export\" }, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 114,
+    "text": "rec:write_part(\"ffi_typedef\", {\r\n\t'\\n]]\\n\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 115,
+    "text": "rec:write_part(\"ffi_cdef\", {\r\n\t'\\n]]\\n\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 116,
+    "text": "local part = \"module_init_src\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 117,
+    "text": "rec:write_part(part, module_init_src)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 118,
+    "text": "rec:vars_part(part)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 119,
+    "text": "add_source(rec, part, rec:dump_parts(part))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 120,
+    "text": "add_source(rec, \"helper_funcs\", objHelperFunc)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 121,
+    "text": "if rec.luajit_ffi then\r\n\t\tlocal ffi_code = ffi_helper_code .. rec:dump_parts{\r\n\t\t\t\"ffi_pre_cdef\", \"ffi_typedef\", \"ffi_cdef\", \"ffi_obj_type\", \"ffi_import\", \"ffi_src\",\r\n\t\t\t\"ffi_metas_regs\", \"ffi_extends\"\r\n\t\t}\r\n\t\trec:write_part(\"ffi_code\",\r\n\t\t\tdump_lua_code_to_c_str(ffi_code, '${module_c_name}_ffi_lua_code'))\r\n\t\trec:vars_part(\"ffi_code\")\r\n\t\tadd_source(rec, \"extra_code\", rec:dump_parts(\"ffi_code\"))\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 122,
+    "text": "local ffi_code = ffi_helper_code .. rec:dump_parts{\r\n\t\t\t\"ffi_pre_cdef\", \"ffi_typedef\", \"ffi_cdef\", \"ffi_obj_type\", \"ffi_import\", \"ffi_src\",\r\n\t\t\t\"ffi_metas_regs\", \"ffi_extends\"\r\n\t\t}",
+    "type": "statement:localassign"
+  }, {
+    "id": 123,
+    "text": "rec:write_part(\"ffi_code\",\r\n\t\t\tdump_lua_code_to_c_str(ffi_code, '${module_c_name}_ffi_lua_code'))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 124,
+    "text": "rec:vars_part(\"ffi_code\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 125,
+    "text": "add_source(rec, \"extra_code\", rec:dump_parts(\"ffi_code\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 127,
+    "text": "function(self, rec, parent)\r\n\trec:add_var('object_name', rec.name)\r\n\trec:write_part(\"ffi_typedef\", {\r\n\t\t'typedef ', rec.c_type, ' ', rec.name, ';\\n\\n',\r\n\t})\r\n\t-- add variable for error string\r\n\trec:write_part(\"ffi_src\", {\r\n\t\t'local function ',rec.func_name,'(err)\\n',\r\n\t\t'  local err_str\\n'\r\n\t\t})\r\nend",
+    "type": "function"
+  }, {
+    "id": 128,
+    "text": "rec:write_part(\"ffi_typedef\", {\r\n\t\t'typedef ', rec.c_type, ' ', rec.name, ';\\n\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 129,
+    "text": "rec:write_part(\"ffi_src\", {\r\n\t\t'local function ',rec.func_name,'(err)\\n',\r\n\t\t'  local err_str\\n'\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 130,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 131,
+    "text": "function(self, rec, parent)\r\n\t-- return error string.\r\n\trec:write_part(\"ffi_src\", [[\r\n\treturn err_str\r\nend\r\n\r\n]])\r\n\r\n\t-- don't generate FFI bindings\r\n\tif self._cur_module.ffi_manual_bindings then return end\r\n\r\n\t-- copy generated FFI bindings to parent\r\n\tlocal ffi_parts = { \"ffi_pre_cdef\", \"ffi_typedef\", \"ffi_cdef\", \"ffi_src\" }\r\n\trec:vars_parts(ffi_parts)\r\n\tparent:copy_parts(rec, ffi_parts)\r\nend",
+    "type": "function"
+  }, {
+    "id": 132,
+    "text": "rec:write_part(\"ffi_src\", [[\r\n\treturn err_str\r\nend\r\n\r\n]])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 133,
+    "text": "if self._cur_module.ffi_manual_bindings then return end",
+    "type": "statement:if"
+  }, {
+    "id": 134,
+    "text": "local ffi_parts = { \"ffi_pre_cdef\", \"ffi_typedef\", \"ffi_cdef\", \"ffi_src\" }",
+    "type": "statement:localassign"
+  }, {
+    "id": 135,
+    "text": "rec:vars_parts(ffi_parts)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 136,
+    "text": "parent:copy_parts(rec, ffi_parts)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 138,
+    "text": "function(self, rec, parent)\r\n\trec:add_var('object_name', rec.name)\r\n\t-- make luaL_reg arrays for this object\r\n\tif not rec.is_package then\r\n\t\t-- where we want the module function registered.\r\n\t\trec.methods_regs = 'methods_regs'\r\n\t\t-- FFI typedef\r\n\t\tlocal ffi_type = rec.ffi_type or 'struct ${object_name}'\r\n\t\trec:write_part(\"ffi_typedef\", {\r\n\t\t\t'typedef ', ffi_type, ' ${object_name};\\n',\r\n\t\t})\r\n\telseif rec.is_meta then\r\n\t\t-- where we want the module function registered.\r\n\t\trec.methods_regs = 'methods_regs'\r\n\tend\r\n\trec.functions_regs = 'pub_funcs_regs'\r\n\t-- FFI code\r\n\trec:write_part(\"ffi_src\",\r\n\t\t{'\\n-- Start \"${object_name}\" FFI interface\\n'})\r\n\t-- Sub-module FFI code\r\n\tif rec.register_as_submodule then\r\n\t\t-- luajit_ffi?\r\n\t\trec:write_part(\"defines\",\r\n\t\t\t{'#define ${module_c_name}_${object_name}_LUAJIT_FFI ',(rec.luajit_ffi and 1 or 0),'\\n'})\r\n\t\t-- symbols to export to FFI\r\n\t\trec:write_part(\"ffi_export\",\r\n\t\t\t{'\\nstatic const ffi_export_symbol ${module_c_name}_${object_name}_ffi_export[] = {\\n'})\r\n\t\t-- start two ffi.cdef code blocks (one for typedefs and one for function prototypes).\r\n\t\trec:write_part(\"ffi_typedef\", {\r\n\t\t'ffi.cdef[[\\n'\r\n\t\t})\r\n\t\trec:write_part(\"ffi_cdef\", {\r\n\t\t'ffi.cdef[[\\n'\r\n\t\t})\r\n\t\t-- add module's FFI template\r\n\t\trec:write_part(\"ffi_obj_type\", {\r\n\t\t\tffi_submodule_template,\r\n\t\t\t'\\n'\r\n\t\t})\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 139,
+    "text": "if not rec.is_package then\r\n\t\t-- where we want the module function registered.\r\n\t\trec.methods_regs = 'methods_regs'\r\n\t\t-- FFI typedef\r\n\t\tlocal ffi_type = rec.ffi_type or 'struct ${object_name}'\r\n\t\trec:write_part(\"ffi_typedef\", {\r\n\t\t\t'typedef ', ffi_type, ' ${object_name};\\n',\r\n\t\t})\r\n\telseif rec.is_meta then\r\n\t\t-- where we want the module function registered.\r\n\t\trec.methods_regs = 'methods_regs'\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 140,
+    "text": "rec.methods_regs = 'methods_regs'",
+    "type": "statement:assign"
+  }, {
+    "id": 141,
+    "text": "local ffi_type = rec.ffi_type or 'struct ${object_name}'",
+    "type": "statement:localassign"
+  }, {
+    "id": 142,
+    "text": "rec:write_part(\"ffi_typedef\", {\r\n\t\t\t'typedef ', ffi_type, ' ${object_name};\\n',\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 143,
+    "text": "rec.functions_regs = 'pub_funcs_regs'",
+    "type": "statement:assign"
+  }, {
+    "id": 144,
+    "text": "rec:write_part(\"ffi_src\",\r\n\t\t{'\\n-- Start \"${object_name}\" FFI interface\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 145,
+    "text": "if rec.register_as_submodule then\r\n\t\t-- luajit_ffi?\r\n\t\trec:write_part(\"defines\",\r\n\t\t\t{'#define ${module_c_name}_${object_name}_LUAJIT_FFI ',(rec.luajit_ffi and 1 or 0),'\\n'})\r\n\t\t-- symbols to export to FFI\r\n\t\trec:write_part(\"ffi_export\",\r\n\t\t\t{'\\nstatic const ffi_export_symbol ${module_c_name}_${object_name}_ffi_export[] = {\\n'})\r\n\t\t-- start two ffi.cdef code blocks (one for typedefs and one for function prototypes).\r\n\t\trec:write_part(\"ffi_typedef\", {\r\n\t\t'ffi.cdef[[\\n'\r\n\t\t})\r\n\t\trec:write_part(\"ffi_cdef\", {\r\n\t\t'ffi.cdef[[\\n'\r\n\t\t})\r\n\t\t-- add module's FFI template\r\n\t\trec:write_part(\"ffi_obj_type\", {\r\n\t\t\tffi_submodule_template,\r\n\t\t\t'\\n'\r\n\t\t})\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 146,
+    "text": "rec:write_part(\"defines\",\r\n\t\t\t{'#define ${module_c_name}_${object_name}_LUAJIT_FFI ',(rec.luajit_ffi and 1 or 0),'\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 147,
+    "text": "rec:write_part(\"ffi_export\",\r\n\t\t\t{'\\nstatic const ffi_export_symbol ${module_c_name}_${object_name}_ffi_export[] = {\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 148,
+    "text": "rec:write_part(\"ffi_typedef\", {\r\n\t\t'ffi.cdef[[\\n'\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 149,
+    "text": "rec:write_part(\"ffi_cdef\", {\r\n\t\t'ffi.cdef[[\\n'\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 150,
+    "text": "rec:write_part(\"ffi_obj_type\", {\r\n\t\t\tffi_submodule_template,\r\n\t\t\t'\\n'\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 151,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 152,
+    "text": "function(self, rec, parent)\r\n\t-- check for dyn_caster\r\n\tif rec.has_dyn_caster then\r\n\t\tlocal flags = ''\r\n\t\tif rec.has_obj_flags then\r\n\t\t\tflags = ', flags'\r\n\t\tend\r\n\t\trec:add_var('dyn_caster', [[\r\n\t\tlocal cast_obj = ]] .. rec.has_dyn_caster.dyn_caster_name .. [[(ptr]] .. flags .. [[)\r\n\t\tif cast_obj then return cast_obj end\r\n]])\r\n\telse\r\n\t\trec:add_var('dyn_caster', \"\")\r\n\tend\r\n\t-- register metatable for FFI cdata type.\r\n\tif not rec.is_package then\r\n\t\t-- create FFI check/delete/push functions\r\n\t\trec:write_part(\"ffi_obj_type\", {\r\n\t\t\trec.ffi_custom_delete_push or ffi_obj_type_check_delete_push[rec.ud_type],\r\n\t\t\t'\\n'\r\n\t\t})\r\n\t\tlocal c_metatype = ffi_obj_metatype[rec.ud_type]\r\n\t\tif c_metatype then\r\n\t\t\trec:write_part(\"ffi_src\",{\r\n\t\t\t\t'_push.${object_name} = obj_type_${object_name}_push\\n',\r\n\t\t\t\t'ffi.metatype(\"',c_metatype,'\", _priv.${object_name})\\n',\r\n\t\t})\r\n\t\tend\r\n\tend\r\n\t-- end object's FFI source\r\n\trec:write_part(\"ffi_src\",\r\n\t\t{'-- End \"${object_name}\" FFI interface\\n\\n'})\r\n\r\n\tif rec.register_as_submodule then\r\n\t\tif not (self._cur_module.luajit_ffi and rec.luajit_ffi) then\r\n\t\t\treturn\r\n\t\tend\r\n\t\t-- Sub-module FFI code\r\n\t\t-- end list of FFI symbols\r\n\t\trec:write_part(\"ffi_export\", {\r\n\t\t'  {NULL, { NULL } }\\n',\r\n\t\t'};\\n\\n'\r\n\t\t})\r\n\t\t-- end ffi.cdef code blocks\r\n\t\trec:write_part(\"ffi_typedef\", {\r\n\t\t'\\n]]\\n\\n'\r\n\t\t})\r\n\t\trec:write_part(\"ffi_cdef\", {\r\n\t\t'\\n]]\\n\\n'\r\n\t\t})\r\n\t\tlocal ffi_code = ffi_helper_code .. rec:dump_parts{\r\n\t\t\t\"ffi_pre_cdef\", \"ffi_typedef\", \"ffi_cdef\", \"ffi_obj_type\", \"ffi_import\", \"ffi_src\",\r\n\t\t\t\"ffi_metas_regs\", \"ffi_extends\"\r\n\t\t}\r\n\t\trec:write_part(\"ffi_code\",\r\n\t\t\tdump_lua_code_to_c_str(ffi_code, '${module_c_name}_${object_name}_ffi_lua_code'))\r\n\t\t-- copy ffi_code to partent\r\n\t\trec:vars_parts{ \"ffi_code\", \"ffi_export\" }\r\n\t\tparent:copy_parts(rec, { \"ffi_code\" })\r\n\t\tadd_source(rec, \"luaopen_defs\", rec:dump_parts{ \"ffi_export\" }, 1)\r\n\t\t-- add module init code for FFI support\r\n\t\tlocal part = \"module_init_src\"\r\n\t\trec:write_part(part, submodule_init_src)\r\n\t\trec:vars_part(part)\r\n\t\tadd_source(rec, part, rec:dump_parts(part))\r\n\telse\r\n\t\t-- apply variables to FFI parts\r\n\t\tlocal ffi_parts = { \"ffi_obj_type\", \"ffi_export\" }\r\n\t\trec:vars_parts(ffi_parts)\r\n\t\t-- copy parts to parent\r\n\t\tparent:copy_parts(rec, ffi_parts)\r\n\r\n\t\t-- don't generate FFI bindings\r\n\t\tif self._cur_module.ffi_manual_bindings then return end\r\n\r\n\t\t-- copy generated FFI bindings to parent\r\n\t\tlocal ffi_parts = { \"ffi_pre_cdef\", \"ffi_typedef\", \"ffi_cdef\", \"ffi_import\", \"ffi_src\",\r\n\t\t\t\"ffi_metas_regs\", \"ffi_extends\"\r\n\t\t}\r\n\t\trec:vars_parts(ffi_parts)\r\n\t\tparent:copy_parts(rec, ffi_parts)\r\n\tend\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 153,
+    "text": "if rec.has_dyn_caster then\r\n\t\tlocal flags = ''\r\n\t\tif rec.has_obj_flags then\r\n\t\t\tflags = ', flags'\r\n\t\tend\r\n\t\trec:add_var('dyn_caster', [[\r\n\t\tlocal cast_obj = ]] .. rec.has_dyn_caster.dyn_caster_name .. [[(ptr]] .. flags .. [[)\r\n\t\tif cast_obj then return cast_obj end\r\n]])\r\n\telse\r\n\t\trec:add_var('dyn_caster', \"\")\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 154,
+    "text": "local flags = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 155,
+    "text": "if rec.has_obj_flags then\r\n\t\t\tflags = ', flags'\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 156,
+    "text": "flags = ', flags'",
+    "type": "statement:assign"
+  }, {
+    "id": 157,
+    "text": "rec:add_var('dyn_caster', [[\r\n\t\tlocal cast_obj = ]] .. rec.has_dyn_caster.dyn_caster_name .. [[(ptr]] .. flags .. [[)\r\n\t\tif cast_obj then return cast_obj end\r\n]])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 158,
+    "text": "rec:add_var('dyn_caster', \"\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 159,
+    "text": "if not rec.is_package then\r\n\t\t-- create FFI check/delete/push functions\r\n\t\trec:write_part(\"ffi_obj_type\", {\r\n\t\t\trec.ffi_custom_delete_push or ffi_obj_type_check_delete_push[rec.ud_type],\r\n\t\t\t'\\n'\r\n\t\t})\r\n\t\tlocal c_metatype = ffi_obj_metatype[rec.ud_type]\r\n\t\tif c_metatype then\r\n\t\t\trec:write_part(\"ffi_src\",{\r\n\t\t\t\t'_push.${object_name} = obj_type_${object_name}_push\\n',\r\n\t\t\t\t'ffi.metatype(\"',c_metatype,'\", _priv.${object_name})\\n',\r\n\t\t})\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 160,
+    "text": "rec:write_part(\"ffi_obj_type\", {\r\n\t\t\trec.ffi_custom_delete_push or ffi_obj_type_check_delete_push[rec.ud_type],\r\n\t\t\t'\\n'\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 161,
+    "text": "local c_metatype = ffi_obj_metatype[rec.ud_type]",
+    "type": "statement:localassign"
+  }, {
+    "id": 162,
+    "text": "if c_metatype then\r\n\t\t\trec:write_part(\"ffi_src\",{\r\n\t\t\t\t'_push.${object_name} = obj_type_${object_name}_push\\n',\r\n\t\t\t\t'ffi.metatype(\"',c_metatype,'\", _priv.${object_name})\\n',\r\n\t\t})\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 163,
+    "text": "rec:write_part(\"ffi_src\",{\r\n\t\t\t\t'_push.${object_name} = obj_type_${object_name}_push\\n',\r\n\t\t\t\t'ffi.metatype(\"',c_metatype,'\", _priv.${object_name})\\n',\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 164,
+    "text": "rec:write_part(\"ffi_src\",\r\n\t\t{'-- End \"${object_name}\" FFI interface\\n\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 165,
+    "text": "if rec.register_as_submodule then\r\n\t\tif not (self._cur_module.luajit_ffi and rec.luajit_ffi) then\r\n\t\t\treturn\r\n\t\tend\r\n\t\t-- Sub-module FFI code\r\n\t\t-- end list of FFI symbols\r\n\t\trec:write_part(\"ffi_export\", {\r\n\t\t'  {NULL, { NULL } }\\n',\r\n\t\t'};\\n\\n'\r\n\t\t})\r\n\t\t-- end ffi.cdef code blocks\r\n\t\trec:write_part(\"ffi_typedef\", {\r\n\t\t'\\n]]\\n\\n'\r\n\t\t})\r\n\t\trec:write_part(\"ffi_cdef\", {\r\n\t\t'\\n]]\\n\\n'\r\n\t\t})\r\n\t\tlocal ffi_code = ffi_helper_code .. rec:dump_parts{\r\n\t\t\t\"ffi_pre_cdef\", \"ffi_typedef\", \"ffi_cdef\", \"ffi_obj_type\", \"ffi_import\", \"ffi_src\",\r\n\t\t\t\"ffi_metas_regs\", \"ffi_extends\"\r\n\t\t}\r\n\t\trec:write_part(\"ffi_code\",\r\n\t\t\tdump_lua_code_to_c_str(ffi_code, '${module_c_name}_${object_name}_ffi_lua_code'))\r\n\t\t-- copy ffi_code to partent\r\n\t\trec:vars_parts{ \"ffi_code\", \"ffi_export\" }\r\n\t\tparent:copy_parts(rec, { \"ffi_code\" })\r\n\t\tadd_source(rec, \"luaopen_defs\", rec:dump_parts{ \"ffi_export\" }, 1)\r\n\t\t-- add module init code for FFI support\r\n\t\tlocal part = \"module_init_src\"\r\n\t\trec:write_part(part, submodule_init_src)\r\n\t\trec:vars_part(part)\r\n\t\tadd_source(rec, part, rec:dump_parts(part))\r\n\telse\r\n\t\t-- apply variables to FFI parts\r\n\t\tlocal ffi_parts = { \"ffi_obj_type\", \"ffi_export\" }\r\n\t\trec:vars_parts(ffi_parts)\r\n\t\t-- copy parts to parent\r\n\t\tparent:copy_parts(rec, ffi_parts)\r\n\r\n\t\t-- don't generate FFI bindings\r\n\t\tif self._cur_module.ffi_manual_bindings then return end\r\n\r\n\t\t-- copy generated FFI bindings to parent\r\n\t\tlocal ffi_parts = { \"ffi_pre_cdef\", \"ffi_typedef\", \"ffi_cdef\", \"ffi_import\", \"ffi_src\",\r\n\t\t\t\"ffi_metas_regs\", \"ffi_extends\"\r\n\t\t}\r\n\t\trec:vars_parts(ffi_parts)\r\n\t\tparent:copy_parts(rec, ffi_parts)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 166,
+    "text": "if not (self._cur_module.luajit_ffi and rec.luajit_ffi) then\r\n\t\t\treturn\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 167,
+    "text": "rec:write_part(\"ffi_export\", {\r\n\t\t'  {NULL, { NULL } }\\n',\r\n\t\t'};\\n\\n'\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 168,
+    "text": "rec:write_part(\"ffi_typedef\", {\r\n\t\t'\\n]]\\n\\n'\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 169,
+    "text": "rec:write_part(\"ffi_cdef\", {\r\n\t\t'\\n]]\\n\\n'\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 170,
+    "text": "rec:write_part(\"ffi_code\",\r\n\t\t\tdump_lua_code_to_c_str(ffi_code, '${module_c_name}_${object_name}_ffi_lua_code'))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 171,
+    "text": "rec:vars_parts{ \"ffi_code\", \"ffi_export\" }",
+    "type": "statement:functioncall"
+  }, {
+    "id": 172,
+    "text": "parent:copy_parts(rec, { \"ffi_code\" })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 173,
+    "text": "rec:write_part(part, submodule_init_src)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 174,
+    "text": "local ffi_parts = { \"ffi_obj_type\", \"ffi_export\" }",
+    "type": "statement:localassign"
+  }, {
+    "id": 175,
+    "text": "local ffi_parts = { \"ffi_pre_cdef\", \"ffi_typedef\", \"ffi_cdef\", \"ffi_import\", \"ffi_src\",\r\n\t\t\t\"ffi_metas_regs\", \"ffi_extends\"\r\n\t\t}",
+    "type": "statement:localassign"
+  }, {
+    "id": 176,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 177,
+    "text": "function(self, rec, parent)\r\n\trec:add_var('wrap_type', rec.wrap_type)\r\n\trec:add_var('base_type', rec.base_type)\r\n\t-- generate allocate function for base type.\r\n\trec:write_part(\"extra_code\", [[\r\n\r\n/* object allocation function for FFI bindings. */\r\n${base_type} *nobj_ffi_${base_type}_new() {\r\n\t${base_type} *obj;\r\n\tobj_type_new(${base_type}, obj);\r\n\treturn obj;\r\n}\r\nvoid nobj_ffi_${base_type}_free(${base_type} *obj) {\r\n\tobj_type_free(${base_type}, obj);\r\n}\r\n\r\n]])\r\n\trec:write_part(\"ffi_cdef\", \"${base_type} *nobj_ffi_${base_type}_new();\\n\")\r\n\trec:write_part(\"ffi_cdef\", \"void nobj_ffi_${base_type}_free(${base_type} *obj);\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 178,
+    "text": "rec:add_var('wrap_type', rec.wrap_type)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 179,
+    "text": "rec:add_var('base_type', rec.base_type)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 180,
+    "text": "rec:write_part(\"extra_code\", [[\r\n\r\n/* object allocation function for FFI bindings. */\r\n${base_type} *nobj_ffi_${base_type}_new() {\r\n\t${base_type} *obj;\r\n\tobj_type_new(${base_type}, obj);\r\n\treturn obj;\r\n}\r\nvoid nobj_ffi_${base_type}_free(${base_type} *obj) {\r\n\tobj_type_free(${base_type}, obj);\r\n}\r\n\r\n]])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 181,
+    "text": "rec:write_part(\"ffi_cdef\", \"${base_type} *nobj_ffi_${base_type}_new();\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 182,
+    "text": "rec:write_part(\"ffi_cdef\", \"void nobj_ffi_${base_type}_free(${base_type} *obj);\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 183,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 184,
+    "text": "function(self, rec, parent)\r\n\t-- apply variables to parts\r\n\tlocal parts = {\"ffi_cdef\", \"ffi_src\", \"extra_code\"}\r\n\trec:vars_parts(parts)\r\n\tadd_source(rec, \"extra_code\", rec:dump_parts(\"extra_code\"))\r\n\t-- copy parts to parent\r\n\tparent:copy_parts(rec, parts)\r\nend",
+    "type": "function"
+  }, {
+    "id": 185,
+    "text": "local parts = {\"ffi_cdef\", \"ffi_src\", \"extra_code\"}",
+    "type": "statement:localassign"
+  }, {
+    "id": 186,
+    "text": "rec:vars_parts(parts)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 187,
+    "text": "add_source(rec, \"extra_code\", rec:dump_parts(\"extra_code\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 188,
+    "text": "parent:copy_parts(rec, parts)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 189,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 190,
+    "text": "function(self, rec, parent)\r\nend",
+    "type": "function"
+  }, {
+    "id": 191,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 192,
+    "text": "function(self, rec, parent)\r\nend",
+    "type": "function"
+  }, {
+    "id": 193,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 194,
+    "text": "function(self, rec, parent)\r\n\tassert(not parent.is_package, \"A Package can't extend anything: package=\" .. parent.name)\r\n\tlocal base = rec.base\r\n\tlocal base_cast = 'NULL'\r\n\tif base == nil then return end\r\n\t-- add methods/fields/constants from base object\r\n\tparent:write_part(\"ffi_src\",\r\n\t\t{'-- Clear out methods from base class, to allow ffi-based methods from base class\\n'})\r\n\tparent:write_part(\"ffi_extends\",\r\n\t\t{'-- Copy ffi methods from base class to sub class.\\n'})\r\n\tfor name,val in pairs(base.name_map) do\r\n\t\t-- make sure sub-class has not override name.\r\n\t\tif parent.name_map[name] == nil then\r\n\t\t\tparent.name_map[name] = val\r\n\t\t\tif val._is_method and not val.is_constructor then\r\n\t\t\t\tgen_if_defs_code(val)\r\n\t\t\t\t-- register base class's method with sub class\r\n\t\t\t\tlocal obj_table, ffi_table, name = reg_object_function(self, val, parent)\r\n\t\t\t\t-- write ffi code to remove registered base class method.\r\n\t\t\t\tparent:write_part(\"ffi_src\",\r\n\t\t\t\t{obj_table, name, ' = nil\\n'})\r\n\t\t\t\t-- write ffi code to copy method from base class.\r\n\t\t\t\tparent:write_part(\"ffi_extends\",\r\n\t\t\t\t{val.ffi_if_defs, obj_table,name,' = ',\r\n\t\t\t\t\tffi_table,'.',base.name,'.',name,'\\n', val.ffi_endif})\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\t-- base_caster: helper functions.\r\n\tlocal function base_caster_name(class_name, base_name)\r\n\t\treturn 'base_cast_' .. class_name .. '_to_' .. base_name\r\n\tend\r\n\tlocal function create_base_caster(class, base, cast_type)\r\n\t\tlocal base_cast = base_caster_name(class.name, base.name)\r\n\t\tlocal caster_def = base.c_type .. ' nobj_ffi_' .. base_cast .. \r\n\t\t\t'(' .. class.c_type .. ' obj)'\r\n\t\tif cast_type == 'direct' then\r\n\t\t\trec:write_part('ffi_src', {\r\n\t\t\t'\\n',\r\n\t\t\t'-- add sub-class to base classes list of subs\\n',\r\n\t\t\t'_obj_subs.', base.name, '[_type_names.${object_name}] = function(obj)\\n',\r\n\t\t\t'  return ffi.cast(_ctypes.', base.name,',obj)\\n',\r\n\t\t\t'end\\n\\n',\r\n\t\t\t})\r\n\t\t\treturn base_cast\r\n\t\tend\r\n\t\t-- add base_cast decl.\r\n\t\tparent:write_part('ffi_cdef', {' ', caster_def, ';\\n'})\r\n\t\t-- start base_cast function.\r\n\t\tif class.is_ptr then\r\n\t\t\trec:write_part('src', {\r\n\t\t\tcaster_def, ' {\\n',\r\n\t\t\t'  void *ptr = (void *)obj;\\n',\r\n\t\t\t'  ', base_cast, '(&ptr);\\n',\r\n\t\t\t'  return (',base.c_type,')ptr;\\n',\r\n\t\t\t'}\\n\\n',\r\n\t\t\t})\r\n\t\telse\r\n\t\t\trec:write_part('src', {\r\n\t\t\tcaster_def, ' {\\n',\r\n\t\t\t'  void *ptr = (void *)(uintptr_t)obj;\\n',\r\n\t\t\t'  ', base_cast, '(&ptr);\\n',\r\n\t\t\t'  return (',base.c_type,')(uintptr_t)ptr;\\n',\r\n\t\t\t'}\\n\\n',\r\n\t\t\t})\r\n\t\tend\r\n\t\t-- add sub-classes to base class list of subs.\r\n\t\tparent:write_part(\"ffi_extends\",\r\n\t\t\t{'-- add sub-class to base classes list of subs\\n',\r\n\t\t\t '_obj_subs.', base.name, '[_type_names.${object_name}] = C.nobj_ffi_',base_cast,'\\n',\r\n\t\t\t})\r\n\tend\r\n\t-- add casters for all base-class's ancestors\r\n\tfor name,extend in pairs(base.extends) do\r\n\t\tcreate_base_caster(parent, extend.base, extend.cast_type)\r\n\tend\r\n\t-- create caster to base type.\r\n\tcreate_base_caster(parent, base, rec.cast_type)\r\nend",
+    "type": "function"
+  }, {
+    "id": 195,
+    "text": "assert(not parent.is_package, \"A Package can't extend anything: package=\" .. parent.name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 196,
+    "text": "local base = rec.base",
+    "type": "statement:localassign"
+  }, {
+    "id": 197,
+    "text": "local base_cast = 'NULL'",
+    "type": "statement:localassign"
+  }, {
+    "id": 198,
+    "text": "if base == nil then return end",
+    "type": "statement:if"
+  }, {
+    "id": 199,
+    "text": "parent:write_part(\"ffi_src\",\r\n\t\t{'-- Clear out methods from base class, to allow ffi-based methods from base class\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 200,
+    "text": "parent:write_part(\"ffi_extends\",\r\n\t\t{'-- Copy ffi methods from base class to sub class.\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 201,
+    "text": "for name,val in pairs(base.name_map) do\r\n\t\t-- make sure sub-class has not override name.\r\n\t\tif parent.name_map[name] == nil then\r\n\t\t\tparent.name_map[name] = val\r\n\t\t\tif val._is_method and not val.is_constructor then\r\n\t\t\t\tgen_if_defs_code(val)\r\n\t\t\t\t-- register base class's method with sub class\r\n\t\t\t\tlocal obj_table, ffi_table, name = reg_object_function(self, val, parent)\r\n\t\t\t\t-- write ffi code to remove registered base class method.\r\n\t\t\t\tparent:write_part(\"ffi_src\",\r\n\t\t\t\t{obj_table, name, ' = nil\\n'})\r\n\t\t\t\t-- write ffi code to copy method from base class.\r\n\t\t\t\tparent:write_part(\"ffi_extends\",\r\n\t\t\t\t{val.ffi_if_defs, obj_table,name,' = ',\r\n\t\t\t\t\tffi_table,'.',base.name,'.',name,'\\n', val.ffi_endif})\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 202,
+    "text": "if parent.name_map[name] == nil then\r\n\t\t\tparent.name_map[name] = val\r\n\t\t\tif val._is_method and not val.is_constructor then\r\n\t\t\t\tgen_if_defs_code(val)\r\n\t\t\t\t-- register base class's method with sub class\r\n\t\t\t\tlocal obj_table, ffi_table, name = reg_object_function(self, val, parent)\r\n\t\t\t\t-- write ffi code to remove registered base class method.\r\n\t\t\t\tparent:write_part(\"ffi_src\",\r\n\t\t\t\t{obj_table, name, ' = nil\\n'})\r\n\t\t\t\t-- write ffi code to copy method from base class.\r\n\t\t\t\tparent:write_part(\"ffi_extends\",\r\n\t\t\t\t{val.ffi_if_defs, obj_table,name,' = ',\r\n\t\t\t\t\tffi_table,'.',base.name,'.',name,'\\n', val.ffi_endif})\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 203,
+    "text": "parent.name_map[name] = val",
+    "type": "statement:assign"
+  }, {
+    "id": 204,
+    "text": "if val._is_method and not val.is_constructor then\r\n\t\t\t\tgen_if_defs_code(val)\r\n\t\t\t\t-- register base class's method with sub class\r\n\t\t\t\tlocal obj_table, ffi_table, name = reg_object_function(self, val, parent)\r\n\t\t\t\t-- write ffi code to remove registered base class method.\r\n\t\t\t\tparent:write_part(\"ffi_src\",\r\n\t\t\t\t{obj_table, name, ' = nil\\n'})\r\n\t\t\t\t-- write ffi code to copy method from base class.\r\n\t\t\t\tparent:write_part(\"ffi_extends\",\r\n\t\t\t\t{val.ffi_if_defs, obj_table,name,' = ',\r\n\t\t\t\t\tffi_table,'.',base.name,'.',name,'\\n', val.ffi_endif})\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 205,
+    "text": "gen_if_defs_code(val)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 206,
+    "text": "local obj_table, ffi_table, name = reg_object_function(self, val, parent)",
+    "type": "statement:localassign"
+  }, {
+    "id": 207,
+    "text": "parent:write_part(\"ffi_src\",\r\n\t\t\t\t{obj_table, name, ' = nil\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 208,
+    "text": "parent:write_part(\"ffi_extends\",\r\n\t\t\t\t{val.ffi_if_defs, obj_table,name,' = ',\r\n\t\t\t\t\tffi_table,'.',base.name,'.',name,'\\n', val.ffi_endif})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 209,
+    "text": "for name,extend in pairs(base.extends) do\r\n\t\tcreate_base_caster(parent, extend.base, extend.cast_type)\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 210,
+    "text": "create_base_caster(parent, extend.base, extend.cast_type)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 211,
+    "text": "create_base_caster(parent, base, rec.cast_type)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 212,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 213,
+    "text": "function(self, rec, parent)\r\n\t-- map in/out variables in c source.\r\n\tlocal parts = {\"src\", \"ffi_src\"}\r\n\trec:vars_parts(parts)\r\n\r\n\t-- append ffi wrapper function for base caster functions.\r\n\tadd_source(parent, \"extra_code\", rec:dump_parts(\"src\"))\r\n\r\n\t-- copy parts to parent\r\n\tparent:copy_parts(rec, \"ffi_src\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 214,
+    "text": "local parts = {\"src\", \"ffi_src\"}",
+    "type": "statement:localassign"
+  }, {
+    "id": 215,
+    "text": "add_source(parent, \"extra_code\", rec:dump_parts(\"src\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 216,
+    "text": "parent:copy_parts(rec, \"ffi_src\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 217,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 218,
+    "text": "function(self, rec, parent)\r\n\trec.wrapped_type = parent.c_type\r\n\trec.wrapped_type_rec = parent.c_type_rec\r\n\t-- add callback typedef\r\n\trec:write_part('ffi_cdef', {rec.c_func_typedef, '\\n'})\r\n\t-- start callback function.\r\n\trec:write_part(\"ffi_cb_head\",\r\n\t{'-- callback: ', rec.name, '\\n',\r\n\t 'local ', rec.c_func_name, ' = ffi.cast(\"',rec.c_type,'\",function (', rec.param_vars, ')\\n',\r\n\t})\r\n\t-- add lua reference to wrapper object.\r\n\tparent:write_part('wrapper_callbacks',\r\n\t  {'  int ', rec.ref_field, ';\\n'})\r\nend",
+    "type": "function"
+  }, {
+    "id": 219,
+    "text": "rec.wrapped_type = parent.c_type",
+    "type": "statement:assign"
+  }, {
+    "id": 220,
+    "text": "rec.wrapped_type_rec = parent.c_type_rec",
+    "type": "statement:assign"
+  }, {
+    "id": 221,
+    "text": "rec:write_part('ffi_cdef', {rec.c_func_typedef, '\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 222,
+    "text": "rec:write_part(\"ffi_cb_head\",\r\n\t{'-- callback: ', rec.name, '\\n',\r\n\t 'local ', rec.c_func_name, ' = ffi.cast(\"',rec.c_type,'\",function (', rec.param_vars, ')\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 223,
+    "text": "parent:write_part('wrapper_callbacks',\r\n\t  {'  int ', rec.ref_field, ';\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 224,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 225,
+    "text": "function(self, rec, parent)\r\n\tlocal wrapped = rec.wrapped_var\r\n\tlocal wrapped_type = wrapped.c_type_rec\r\n\tlocal wrap_type = parent.wrap_type .. ' *'\r\n\trec:write_part(\"ffi_cb_head\",\r\n\t{'  local id = obj_ptr_to_id(', wrapped_type:_ffi_push(wrapped) ,')\\n',\r\n\t '  local wrap = nobj_callback_states[id]\\n',\r\n\t})\r\n\t-- generate code for return value from lua function.\r\n\tlocal ret_out = rec.ret_out\r\n\tlocal func_rc = ''\r\n\tif ret_out then\r\n\t\tlocal var_type = ret_out.c_type_rec\r\n\t\tfunc_rc = var_type.default or ''\r\n\t\trec:write_part(\"ffi_post\", {'  return ret\\n'})\r\n\tend\r\n\t-- call lua callback function.\r\n\tlocal cb_params = rec:dump_parts(\"ffi_cb_params\")\r\n\tcb_params = cb_params:gsub(\", $\",\"\")\r\n\trec:write_part(\"ffi_pre_src\", {\r\n\t'  local status, ret = pcall(wrap.' .. rec.ref_field,', ', cb_params,')\\n',\r\n\t'  if not status then\\n',\r\n\t})\r\n\trec:write_part(\"ffi_post_src\", {\r\n\t'    print(\"CALLBACK Error:\", ret)\\n',\r\n\t'    return ', func_rc ,'\\n',\r\n\t'  end\\n',\r\n\t})\r\n\trec:write_part(\"ffi_post\", {'end)\\n\\n'})\r\n\t-- map in/out variables in c source.\r\n\tlocal parts = {\"ffi_cb_head\", \"ffi_pre_src\", \"ffi_src\", \"ffi_post_src\", \"ffi_post\"}\r\n\trec:vars_parts(parts)\r\n\trec:vars_parts('ffi_cdef')\r\n\r\n\tparent:write_part('ffi_src', rec:dump_parts(parts))\r\n\tparent:write_part('ffi_cdef', rec:dump_parts('ffi_cdef'))\r\nend",
+    "type": "function"
+  }, {
+    "id": 226,
+    "text": "local wrapped = rec.wrapped_var",
+    "type": "statement:localassign"
+  }, {
+    "id": 227,
+    "text": "local wrapped_type = wrapped.c_type_rec",
+    "type": "statement:localassign"
+  }, {
+    "id": 228,
+    "text": "local wrap_type = parent.wrap_type .. ' *'",
+    "type": "statement:localassign"
+  }, {
+    "id": 229,
+    "text": "rec:write_part(\"ffi_cb_head\",\r\n\t{'  local id = obj_ptr_to_id(', wrapped_type:_ffi_push(wrapped) ,')\\n',\r\n\t '  local wrap = nobj_callback_states[id]\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 230,
+    "text": "local ret_out = rec.ret_out",
+    "type": "statement:localassign"
+  }, {
+    "id": 231,
+    "text": "local func_rc = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 232,
+    "text": "if ret_out then\r\n\t\tlocal var_type = ret_out.c_type_rec\r\n\t\tfunc_rc = var_type.default or ''\r\n\t\trec:write_part(\"ffi_post\", {'  return ret\\n'})\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 233,
+    "text": "local var_type = ret_out.c_type_rec",
+    "type": "statement:localassign"
+  }, {
+    "id": 234,
+    "text": "func_rc = var_type.default or ''",
+    "type": "statement:assign"
+  }, {
+    "id": 235,
+    "text": "rec:write_part(\"ffi_post\", {'  return ret\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 236,
+    "text": "local cb_params = rec:dump_parts(\"ffi_cb_params\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 237,
+    "text": "cb_params = cb_params:gsub(\", $\",\"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 238,
+    "text": "rec:write_part(\"ffi_pre_src\", {\r\n\t'  local status, ret = pcall(wrap.' .. rec.ref_field,', ', cb_params,')\\n',\r\n\t'  if not status then\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 239,
+    "text": "rec:write_part(\"ffi_post_src\", {\r\n\t'    print(\"CALLBACK Error:\", ret)\\n',\r\n\t'    return ', func_rc ,'\\n',\r\n\t'  end\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 240,
+    "text": "rec:write_part(\"ffi_post\", {'end)\\n\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 241,
+    "text": "local parts = {\"ffi_cb_head\", \"ffi_pre_src\", \"ffi_src\", \"ffi_post_src\", \"ffi_post\"}",
+    "type": "statement:localassign"
+  }, {
+    "id": 242,
+    "text": "rec:vars_parts('ffi_cdef')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 243,
+    "text": "parent:write_part('ffi_src', rec:dump_parts(parts))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 244,
+    "text": "parent:write_part('ffi_cdef', rec:dump_parts('ffi_cdef'))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 245,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 246,
+    "text": "function(self, rec, parent)\r\n\tlocal vtab = rec.ffi_value_table or ''\r\n\tif vtab ~= '' then\r\n\t\tvtab = '_pub.' .. vtab .. '.'\r\n\tend\r\n\trec.dyn_caster_name = 'dyn_caster_' .. parent.name\r\n\t-- generate lookup table for switch based caster.\r\n\tif rec.caster_type == 'switch' then\r\n\t\tlocal lookup_table = { \"local dyn_caster_${object_name}_lookup = {\\n\" }\r\n\t\tlocal selector = ''\r\n\t\tif rec.value_field then\r\n\t\t\tselector = 'obj.' .. rec.value_field\r\n\t\telseif rec.value_function then\r\n\t\t\tselector = \"C.\" .. rec.value_function .. '(obj)'\r\n\t\telse\r\n\t\t\terror(\"Missing switch value for dynamic caster.\")\r\n\t\tend\r\n\t\trec:write_part('src', {\r\n\t\t\t'  local sub_type = dyn_caster_${object_name}_lookup[', selector, ']\\n',\r\n\t\t\t'  local type_push = _push[sub_type or 0]\\n',\r\n\t\t\t'  if type_push then return type_push(ffi.cast(_ctypes[sub_type],obj), flags) end\\n',\r\n\t\t\t'  return nil\\n',\r\n\t\t})\r\n\t\t-- add cases for each sub-object type.\r\n\t\tfor val,sub in pairs(rec.value_map) do\r\n\t\t\tlookup_table[#lookup_table + 1] = '[' .. vtab .. val .. '] = \"' .. sub.name .. '\",\\n'\r\n\t\tend\r\n\t\tlookup_table[#lookup_table + 1] = '}\\n\\n'\r\n\t\tparent:write_part(\"ffi_obj_type\", lookup_table)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 247,
+    "text": "local vtab = rec.ffi_value_table or ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 248,
+    "text": "if vtab ~= '' then\r\n\t\tvtab = '_pub.' .. vtab .. '.'\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 249,
+    "text": "vtab = '_pub.' .. vtab .. '.'",
+    "type": "statement:assign"
+  }, {
+    "id": 250,
+    "text": "rec.dyn_caster_name = 'dyn_caster_' .. parent.name",
+    "type": "statement:assign"
+  }, {
+    "id": 251,
+    "text": "if rec.caster_type == 'switch' then\r\n\t\tlocal lookup_table = { \"local dyn_caster_${object_name}_lookup = {\\n\" }\r\n\t\tlocal selector = ''\r\n\t\tif rec.value_field then\r\n\t\t\tselector = 'obj.' .. rec.value_field\r\n\t\telseif rec.value_function then\r\n\t\t\tselector = \"C.\" .. rec.value_function .. '(obj)'\r\n\t\telse\r\n\t\t\terror(\"Missing switch value for dynamic caster.\")\r\n\t\tend\r\n\t\trec:write_part('src', {\r\n\t\t\t'  local sub_type = dyn_caster_${object_name}_lookup[', selector, ']\\n',\r\n\t\t\t'  local type_push = _push[sub_type or 0]\\n',\r\n\t\t\t'  if type_push then return type_push(ffi.cast(_ctypes[sub_type],obj), flags) end\\n',\r\n\t\t\t'  return nil\\n',\r\n\t\t})\r\n\t\t-- add cases for each sub-object type.\r\n\t\tfor val,sub in pairs(rec.value_map) do\r\n\t\t\tlookup_table[#lookup_table + 1] = '[' .. vtab .. val .. '] = \"' .. sub.name .. '\",\\n'\r\n\t\tend\r\n\t\tlookup_table[#lookup_table + 1] = '}\\n\\n'\r\n\t\tparent:write_part(\"ffi_obj_type\", lookup_table)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 252,
+    "text": "local lookup_table = { \"local dyn_caster_${object_name}_lookup = {\\n\" }",
+    "type": "statement:localassign"
+  }, {
+    "id": 253,
+    "text": "local selector = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 254,
+    "text": "if rec.value_field then\r\n\t\t\tselector = 'obj.' .. rec.value_field\r\n\t\telseif rec.value_function then\r\n\t\t\tselector = \"C.\" .. rec.value_function .. '(obj)'\r\n\t\telse\r\n\t\t\terror(\"Missing switch value for dynamic caster.\")\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 255,
+    "text": "selector = 'obj.' .. rec.value_field",
+    "type": "statement:assign"
+  }, {
+    "id": 256,
+    "text": "selector = \"C.\" .. rec.value_function .. '(obj)'",
+    "type": "statement:assign"
+  }, {
+    "id": 257,
+    "text": "error(\"Missing switch value for dynamic caster.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 258,
+    "text": "rec:write_part('src', {\r\n\t\t\t'  local sub_type = dyn_caster_${object_name}_lookup[', selector, ']\\n',\r\n\t\t\t'  local type_push = _push[sub_type or 0]\\n',\r\n\t\t\t'  if type_push then return type_push(ffi.cast(_ctypes[sub_type],obj), flags) end\\n',\r\n\t\t\t'  return nil\\n',\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 259,
+    "text": "for val,sub in pairs(rec.value_map) do\r\n\t\t\tlookup_table[#lookup_table + 1] = '[' .. vtab .. val .. '] = \"' .. sub.name .. '\",\\n'\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 260,
+    "text": "lookup_table[#lookup_table + 1] = '[' .. vtab .. val .. '] = \"' .. sub.name .. '\",\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 261,
+    "text": "lookup_table[#lookup_table + 1] = '}\\n\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 262,
+    "text": "parent:write_part(\"ffi_obj_type\", lookup_table)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 263,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 264,
+    "text": "function(self, rec, parent)\r\n\t-- append custom dyn caster code\r\n\tparent:write_part(\"ffi_obj_type\",\r\n\t\t{\"local function dyn_caster_${object_name}(obj, flags)\\n\", rec:dump_parts{ \"src\" }, \"end\\n\\n\" })\r\nend",
+    "type": "function"
+  }, {
+    "id": 265,
+    "text": "parent:write_part(\"ffi_obj_type\",\r\n\t\t{\"local function dyn_caster_${object_name}(obj, flags)\\n\", rec:dump_parts{ \"src\" }, \"end\\n\\n\" })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 266,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 267,
+    "text": "function(self, rec, parent)\r\n\trec:add_var('object_name', parent.name)\r\n\trec:add_var('function_name', rec.name)\r\n\tif rec.is_destructor then\r\n\t\trec.__gc = true -- mark as '__gc' method\r\n\t\t-- check if this is the first destructor.\r\n\t\tif not parent.has_default_destructor then\r\n\t\t\tparent.has_default_destructor = rc\r\n\t\t\trec.is__default_destructor = true\r\n\t\tend\r\n\tend\r\n\t-- generate if code for if_defs.\r\n\tgen_if_defs_code(rec)\r\n\r\n\t-- register method/function with object.\r\n\tlocal obj_table, ffi_table, name = reg_object_function(self, rec, parent)\r\n\trec.obj_table = obj_table\r\n\trec.ffi_table = ffi_table\r\n\trec.ffi_reg_name = name\r\n\r\n\t-- generate FFI function\r\n\trec:write_part(\"ffi_pre\",\r\n\t{'-- method: ', name, '\\n', rec.ffi_if_defs,\r\n\t\t'function ',obj_table, name, '(',rec.ffi_params,')\\n'})\r\nend",
+    "type": "function"
+  }, {
+    "id": 268,
+    "text": "rec:add_var('object_name', parent.name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 269,
+    "text": "rec:add_var('function_name', rec.name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 270,
+    "text": "if rec.is_destructor then\r\n\t\trec.__gc = true -- mark as '__gc' method\r\n\t\t-- check if this is the first destructor.\r\n\t\tif not parent.has_default_destructor then\r\n\t\t\tparent.has_default_destructor = rc\r\n\t\t\trec.is__default_destructor = true\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 271,
+    "text": "rec.__gc = true",
+    "type": "statement:assign"
+  }, {
+    "id": 272,
+    "text": "if not parent.has_default_destructor then\r\n\t\t\tparent.has_default_destructor = rc\r\n\t\t\trec.is__default_destructor = true\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 273,
+    "text": "parent.has_default_destructor = rc",
+    "type": "statement:assign"
+  }, {
+    "id": 274,
+    "text": "rec.is__default_destructor = true",
+    "type": "statement:assign"
+  }, {
+    "id": 275,
+    "text": "gen_if_defs_code(rec)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 276,
+    "text": "local obj_table, ffi_table, name = reg_object_function(self, rec, parent)",
+    "type": "statement:localassign"
+  }, {
+    "id": 277,
+    "text": "rec.obj_table = obj_table",
+    "type": "statement:assign"
+  }, {
+    "id": 278,
+    "text": "rec.ffi_table = ffi_table",
+    "type": "statement:assign"
+  }, {
+    "id": 279,
+    "text": "rec.ffi_reg_name = name",
+    "type": "statement:assign"
+  }, {
+    "id": 280,
+    "text": "rec:write_part(\"ffi_pre\",\r\n\t{'-- method: ', name, '\\n', rec.ffi_if_defs,\r\n\t\t'function ',obj_table, name, '(',rec.ffi_params,')\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 281,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 282,
+    "text": "function(self, rec, parent)\r\n\t-- don't generate FFI bindings\r\n\tif self._cur_module.ffi_manual_bindings then return end\r\n\r\n\t-- is this a wrapper function\r\n\tif rec.wrapper_obj then\r\n\t\tlocal wrap_obj = rec.wrapper_obj\r\n\t\tlocal wrap_type = wrap_obj.wrap_type\r\n\t\tlocal callbacks = wrap_obj.callbacks\r\n\t\tif rec.is_destructor then\r\n\t\t\trec:write_part(\"ffi_pre\",\r\n\t\t\t\t{'  local id = obj_ptr_to_id(${this})\\n',\r\n\t\t\t\t '  local wrap = nobj_callback_states[id]\\n'})\r\n\t\t\tfor name,cb in pairs(callbacks) do\r\n\t\t\t\trec:write_part(\"ffi_src\",\r\n\t\t\t\t\t{'  wrap.', name,' = nil\\n'})\r\n\t\t\tend\r\n\t\t\trec:write_part(\"ffi_post\",\r\n\t\t\t\t{'  nobj_callback_states[id] = nil\\n',\r\n\t\t\t\t '  C.nobj_ffi_',wrap_obj.base_type,'_free(${this})\\n',\r\n\t\t\t\t})\r\n\t\telseif rec.is_constructor then\r\n\t\t\trec:write_part(\"ffi_pre\",\r\n\t\t\t\t{'  ${this} = C.nobj_ffi_',wrap_obj.base_type,'_new()\\n',\r\n\t\t\t\t '  local id = obj_ptr_to_id(${this})\\n',\r\n\t\t\t\t '  local wrap = {}\\n',\r\n\t\t\t\t '  nobj_callback_states[id] = wrap\\n',\r\n\t\t\t\t})\r\n\t\tend\r\n\tend\r\n\r\n\t-- check if function has FFI support\r\n\tlocal ffi_src = rec:dump_parts(\"ffi_src\")\r\n\tif rec.no_ffi or #ffi_src == 0 then return end\r\n\r\n\t-- generate if code for if_defs.\r\n\tlocal endif = '\\n'\r\n\tif rec.if_defs then\r\n\t\tendif = 'end\\n\\n'\r\n\tend\r\n\r\n\t-- end Lua code for FFI function\r\n\tlocal ffi_parts = {\"ffi_temps\", \"ffi_pre\", \"ffi_src\", \"ffi_post\"}\r\n\tlocal ffi_return = rec:dump_parts(\"ffi_return\")\r\n\t-- trim last ', ' from list of return values.\r\n\tffi_return = ffi_return:gsub(\", $\",\"\")\r\n\trec:write_part(\"ffi_post\",\r\n\t\t{'  return ', ffi_return,'\\n',\r\n\t\t 'end\\n', rec.ffi_endif})\r\n\r\n\t-- check if this is the default constructor.\r\n\tif rec.is_default_constructor then\r\n\t\trec:write_part(\"ffi_post\",\r\n\t\t\t{'register_default_constructor(_pub,\"${object_name}\",',\r\n\t\t\trec.obj_table, rec.ffi_reg_name ,')\\n'})\r\n\tend\r\n\tif rec.is__default_destructor and not rec._is_hidden and\r\n\t\t\tnot self._cur_module.disable__gc and not parent.disable__gc then\r\n\t\trec:write_part('ffi_post',\r\n\t\t\t{'_priv.${object_name}.__gc = ', rec.obj_table, rec.name, '\\n'})\r\n\tend\r\n\r\n\trec:vars_parts(ffi_parts)\r\n\t-- append FFI-based function to parent's FFI source\r\n\tlocal ffi_cdef = { \"ffi_cdef\" }\r\n\trec:vars_parts(ffi_cdef)\r\n\tparent:write_part(\"ffi_cdef\", rec:dump_parts(ffi_cdef))\r\n\tlocal temps = rec:dump_parts(\"ffi_temps\")\r\n\tif #temps > 0 then\r\n\t\tparent:write_part(\"ffi_src\", {\"do\\n\", rec:dump_parts(ffi_parts), \"end\\n\\n\"})\r\n\telse\r\n\t\tparent:write_part(\"ffi_src\", {rec:dump_parts(ffi_parts), \"\\n\"})\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 283,
+    "text": "if rec.wrapper_obj then\r\n\t\tlocal wrap_obj = rec.wrapper_obj\r\n\t\tlocal wrap_type = wrap_obj.wrap_type\r\n\t\tlocal callbacks = wrap_obj.callbacks\r\n\t\tif rec.is_destructor then\r\n\t\t\trec:write_part(\"ffi_pre\",\r\n\t\t\t\t{'  local id = obj_ptr_to_id(${this})\\n',\r\n\t\t\t\t '  local wrap = nobj_callback_states[id]\\n'})\r\n\t\t\tfor name,cb in pairs(callbacks) do\r\n\t\t\t\trec:write_part(\"ffi_src\",\r\n\t\t\t\t\t{'  wrap.', name,' = nil\\n'})\r\n\t\t\tend\r\n\t\t\trec:write_part(\"ffi_post\",\r\n\t\t\t\t{'  nobj_callback_states[id] = nil\\n',\r\n\t\t\t\t '  C.nobj_ffi_',wrap_obj.base_type,'_free(${this})\\n',\r\n\t\t\t\t})\r\n\t\telseif rec.is_constructor then\r\n\t\t\trec:write_part(\"ffi_pre\",\r\n\t\t\t\t{'  ${this} = C.nobj_ffi_',wrap_obj.base_type,'_new()\\n',\r\n\t\t\t\t '  local id = obj_ptr_to_id(${this})\\n',\r\n\t\t\t\t '  local wrap = {}\\n',\r\n\t\t\t\t '  nobj_callback_states[id] = wrap\\n',\r\n\t\t\t\t})\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 284,
+    "text": "local wrap_obj = rec.wrapper_obj",
+    "type": "statement:localassign"
+  }, {
+    "id": 285,
+    "text": "local wrap_type = wrap_obj.wrap_type",
+    "type": "statement:localassign"
+  }, {
+    "id": 286,
+    "text": "local callbacks = wrap_obj.callbacks",
+    "type": "statement:localassign"
+  }, {
+    "id": 287,
+    "text": "if rec.is_destructor then\r\n\t\t\trec:write_part(\"ffi_pre\",\r\n\t\t\t\t{'  local id = obj_ptr_to_id(${this})\\n',\r\n\t\t\t\t '  local wrap = nobj_callback_states[id]\\n'})\r\n\t\t\tfor name,cb in pairs(callbacks) do\r\n\t\t\t\trec:write_part(\"ffi_src\",\r\n\t\t\t\t\t{'  wrap.', name,' = nil\\n'})\r\n\t\t\tend\r\n\t\t\trec:write_part(\"ffi_post\",\r\n\t\t\t\t{'  nobj_callback_states[id] = nil\\n',\r\n\t\t\t\t '  C.nobj_ffi_',wrap_obj.base_type,'_free(${this})\\n',\r\n\t\t\t\t})\r\n\t\telseif rec.is_constructor then\r\n\t\t\trec:write_part(\"ffi_pre\",\r\n\t\t\t\t{'  ${this} = C.nobj_ffi_',wrap_obj.base_type,'_new()\\n',\r\n\t\t\t\t '  local id = obj_ptr_to_id(${this})\\n',\r\n\t\t\t\t '  local wrap = {}\\n',\r\n\t\t\t\t '  nobj_callback_states[id] = wrap\\n',\r\n\t\t\t\t})\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 288,
+    "text": "rec:write_part(\"ffi_pre\",\r\n\t\t\t\t{'  local id = obj_ptr_to_id(${this})\\n',\r\n\t\t\t\t '  local wrap = nobj_callback_states[id]\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 289,
+    "text": "for name,cb in pairs(callbacks) do\r\n\t\t\t\trec:write_part(\"ffi_src\",\r\n\t\t\t\t\t{'  wrap.', name,' = nil\\n'})\r\n\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 290,
+    "text": "rec:write_part(\"ffi_src\",\r\n\t\t\t\t\t{'  wrap.', name,' = nil\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 291,
+    "text": "rec:write_part(\"ffi_post\",\r\n\t\t\t\t{'  nobj_callback_states[id] = nil\\n',\r\n\t\t\t\t '  C.nobj_ffi_',wrap_obj.base_type,'_free(${this})\\n',\r\n\t\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 292,
+    "text": "rec:write_part(\"ffi_pre\",\r\n\t\t\t\t{'  ${this} = C.nobj_ffi_',wrap_obj.base_type,'_new()\\n',\r\n\t\t\t\t '  local id = obj_ptr_to_id(${this})\\n',\r\n\t\t\t\t '  local wrap = {}\\n',\r\n\t\t\t\t '  nobj_callback_states[id] = wrap\\n',\r\n\t\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 293,
+    "text": "local ffi_src = rec:dump_parts(\"ffi_src\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 294,
+    "text": "if rec.no_ffi or #ffi_src == 0 then return end",
+    "type": "statement:if"
+  }, {
+    "id": 295,
+    "text": "local endif = '\\n'",
+    "type": "statement:localassign"
+  }, {
+    "id": 296,
+    "text": "if rec.if_defs then\r\n\t\tendif = 'end\\n\\n'\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 297,
+    "text": "endif = 'end\\n\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 298,
+    "text": "local ffi_parts = {\"ffi_temps\", \"ffi_pre\", \"ffi_src\", \"ffi_post\"}",
+    "type": "statement:localassign"
+  }, {
+    "id": 299,
+    "text": "local ffi_return = rec:dump_parts(\"ffi_return\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 300,
+    "text": "ffi_return = ffi_return:gsub(\", $\",\"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 301,
+    "text": "rec:write_part(\"ffi_post\",\r\n\t\t{'  return ', ffi_return,'\\n',\r\n\t\t 'end\\n', rec.ffi_endif})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 302,
+    "text": "if rec.is_default_constructor then\r\n\t\trec:write_part(\"ffi_post\",\r\n\t\t\t{'register_default_constructor(_pub,\"${object_name}\",',\r\n\t\t\trec.obj_table, rec.ffi_reg_name ,')\\n'})\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 303,
+    "text": "rec:write_part(\"ffi_post\",\r\n\t\t\t{'register_default_constructor(_pub,\"${object_name}\",',\r\n\t\t\trec.obj_table, rec.ffi_reg_name ,')\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 304,
+    "text": "if rec.is__default_destructor and not rec._is_hidden and\r\n\t\t\tnot self._cur_module.disable__gc and not parent.disable__gc then\r\n\t\trec:write_part('ffi_post',\r\n\t\t\t{'_priv.${object_name}.__gc = ', rec.obj_table, rec.name, '\\n'})\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 305,
+    "text": "rec:write_part('ffi_post',\r\n\t\t\t{'_priv.${object_name}.__gc = ', rec.obj_table, rec.name, '\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 306,
+    "text": "local ffi_cdef = { \"ffi_cdef\" }",
+    "type": "statement:localassign"
+  }, {
+    "id": 307,
+    "text": "rec:vars_parts(ffi_cdef)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 308,
+    "text": "parent:write_part(\"ffi_cdef\", rec:dump_parts(ffi_cdef))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 309,
+    "text": "local temps = rec:dump_parts(\"ffi_temps\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 310,
+    "text": "if #temps > 0 then\r\n\t\tparent:write_part(\"ffi_src\", {\"do\\n\", rec:dump_parts(ffi_parts), \"end\\n\\n\"})\r\n\telse\r\n\t\tparent:write_part(\"ffi_src\", {rec:dump_parts(ffi_parts), \"\\n\"})\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 311,
+    "text": "parent:write_part(\"ffi_src\", {\"do\\n\", rec:dump_parts(ffi_parts), \"end\\n\\n\"})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 312,
+    "text": "parent:write_part(\"ffi_src\", {rec:dump_parts(ffi_parts), \"\\n\"})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 313,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 314,
+    "text": "function(self, rec, parent)\r\nend",
+    "type": "function"
+  }, {
+    "id": 315,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 316,
+    "text": "function(self, rec, parent)\r\n\tparent:write_part(\"ffi_export\",\r\n\t\t{'{ \"', rec.name, '\", { ', rec.name, ' } },\\n'})\r\nend",
+    "type": "function"
+  }, {
+    "id": 317,
+    "text": "parent:write_part(\"ffi_export\",\r\n\t\t{'{ \"', rec.name, '\", { ', rec.name, ' } },\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 318,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 319,
+    "text": "function(self, rec, parent)\r\n\tparent:write_part(rec.part, rec.src)\r\n\tparent:write_part(rec.part, \"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 320,
+    "text": "parent:write_part(rec.part, rec.src)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 321,
+    "text": "parent:write_part(rec.part, \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 322,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 323,
+    "text": "function(self, rec, parent)\r\n\t-- no need to add code for 'lua_State *' parameters.\r\n\tif rec.c_type == 'lua_State *' and rec.name == 'L' then return end\r\n\t-- register variable for code gen (i.e. so ${var_name} is replaced with true variable name).\r\n\tparent:add_rec_var(rec, rec.name, rec.is_this and 'self')\r\n\t-- don't generate code for '<any>' type parameters\r\n\tif rec.c_type == '<any>' then return end\r\n\r\n\tlocal var_type = rec.c_type_rec\r\n\tif rec.is_this and parent.__gc then\r\n\t\tif var_type.has_obj_flags then\r\n\t\t\t-- add flags ${var_name_flags} variable\r\n\t\t\tparent:add_rec_var(rec, rec.name .. '_flags')\r\n\t\t\t-- for garbage collect method, check the ownership flag before freeing 'this' object.\r\n\t\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t\t{\r\n\t\t\t\t'  ', var_type:_ffi_delete(rec, true),\r\n\t\t\t\t'  if not ${',rec.name,'} then return end\\n',\r\n\t\t\t\t})\r\n\t\telse\r\n\t\t\t-- for garbage collect method, check the ownership flag before freeing 'this' object.\r\n\t\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t\t{\r\n\t\t\t\t'  ', var_type:_ffi_delete(rec, false),\r\n\t\t\t\t'  if not ${',rec.name,'} then return end\\n',\r\n\t\t\t\t})\r\n\t\tend\r\n\telseif var_type._rec_type ~= 'callback_func' then\r\n\t\tif var_type.lang_type == 'string' then\r\n\t\t\t-- add length ${var_name_len} variable\r\n\t\t\tparent:add_rec_var(rec, rec.name .. '_len')\r\n\t\tend\r\n\t\t-- check lua value matches type.\r\n\t\tlocal ffi_get\r\n\t\tif rec.is_optional then\r\n\t\t\tffi_get = var_type:_ffi_opt(rec, rec.default)\r\n\t\telse\r\n\t\t\tffi_get = var_type:_ffi_check(rec)\r\n\t\tend\r\n\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t{'  ', ffi_get })\r\n\tend\r\n\t-- is a lua reference.\r\n\tif var_type.is_ref then\r\n\t\tparent:write_part(\"ffi_src\",\r\n\t\t\t{'  wrap.', var_type.ref_field, ' = ${',rec.name,'}\\n',\r\n\t\t\t '  ${',rec.name,'} = ', rec.cb_func.c_func_name, '\\n',\r\n\t\t\t })\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 324,
+    "text": "if rec.c_type == 'lua_State *' and rec.name == 'L' then return end",
+    "type": "statement:if"
+  }, {
+    "id": 325,
+    "text": "parent:add_rec_var(rec, rec.name, rec.is_this and 'self')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 326,
+    "text": "if rec.c_type == '<any>' then return end",
+    "type": "statement:if"
+  }, {
+    "id": 327,
+    "text": "local var_type = rec.c_type_rec",
+    "type": "statement:localassign"
+  }, {
+    "id": 328,
+    "text": "if rec.is_this and parent.__gc then\r\n\t\tif var_type.has_obj_flags then\r\n\t\t\t-- add flags ${var_name_flags} variable\r\n\t\t\tparent:add_rec_var(rec, rec.name .. '_flags')\r\n\t\t\t-- for garbage collect method, check the ownership flag before freeing 'this' object.\r\n\t\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t\t{\r\n\t\t\t\t'  ', var_type:_ffi_delete(rec, true),\r\n\t\t\t\t'  if not ${',rec.name,'} then return end\\n',\r\n\t\t\t\t})\r\n\t\telse\r\n\t\t\t-- for garbage collect method, check the ownership flag before freeing 'this' object.\r\n\t\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t\t{\r\n\t\t\t\t'  ', var_type:_ffi_delete(rec, false),\r\n\t\t\t\t'  if not ${',rec.name,'} then return end\\n',\r\n\t\t\t\t})\r\n\t\tend\r\n\telseif var_type._rec_type ~= 'callback_func' then\r\n\t\tif var_type.lang_type == 'string' then\r\n\t\t\t-- add length ${var_name_len} variable\r\n\t\t\tparent:add_rec_var(rec, rec.name .. '_len')\r\n\t\tend\r\n\t\t-- check lua value matches type.\r\n\t\tlocal ffi_get\r\n\t\tif rec.is_optional then\r\n\t\t\tffi_get = var_type:_ffi_opt(rec, rec.default)\r\n\t\telse\r\n\t\t\tffi_get = var_type:_ffi_check(rec)\r\n\t\tend\r\n\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t{'  ', ffi_get })\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 329,
+    "text": "if var_type.has_obj_flags then\r\n\t\t\t-- add flags ${var_name_flags} variable\r\n\t\t\tparent:add_rec_var(rec, rec.name .. '_flags')\r\n\t\t\t-- for garbage collect method, check the ownership flag before freeing 'this' object.\r\n\t\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t\t{\r\n\t\t\t\t'  ', var_type:_ffi_delete(rec, true),\r\n\t\t\t\t'  if not ${',rec.name,'} then return end\\n',\r\n\t\t\t\t})\r\n\t\telse\r\n\t\t\t-- for garbage collect method, check the ownership flag before freeing 'this' object.\r\n\t\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t\t{\r\n\t\t\t\t'  ', var_type:_ffi_delete(rec, false),\r\n\t\t\t\t'  if not ${',rec.name,'} then return end\\n',\r\n\t\t\t\t})\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 330,
+    "text": "parent:add_rec_var(rec, rec.name .. '_flags')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 331,
+    "text": "parent:write_part(\"ffi_pre\",\r\n\t\t\t\t{\r\n\t\t\t\t'  ', var_type:_ffi_delete(rec, true),\r\n\t\t\t\t'  if not ${',rec.name,'} then return end\\n',\r\n\t\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 332,
+    "text": "parent:write_part(\"ffi_pre\",\r\n\t\t\t\t{\r\n\t\t\t\t'  ', var_type:_ffi_delete(rec, false),\r\n\t\t\t\t'  if not ${',rec.name,'} then return end\\n',\r\n\t\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 333,
+    "text": "if var_type.lang_type == 'string' then\r\n\t\t\t-- add length ${var_name_len} variable\r\n\t\t\tparent:add_rec_var(rec, rec.name .. '_len')\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 334,
+    "text": "parent:add_rec_var(rec, rec.name .. '_len')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 335,
+    "text": "local ffi_get",
+    "type": "statement:localassign"
+  }, {
+    "id": 336,
+    "text": "if rec.is_optional then\r\n\t\t\tffi_get = var_type:_ffi_opt(rec, rec.default)\r\n\t\telse\r\n\t\t\tffi_get = var_type:_ffi_check(rec)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 337,
+    "text": "ffi_get = var_type:_ffi_opt(rec, rec.default)",
+    "type": "statement:assign"
+  }, {
+    "id": 338,
+    "text": "ffi_get = var_type:_ffi_check(rec)",
+    "type": "statement:assign"
+  }, {
+    "id": 339,
+    "text": "parent:write_part(\"ffi_pre\",\r\n\t\t\t{'  ', ffi_get })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 340,
+    "text": "if var_type.is_ref then\r\n\t\tparent:write_part(\"ffi_src\",\r\n\t\t\t{'  wrap.', var_type.ref_field, ' = ${',rec.name,'}\\n',\r\n\t\t\t '  ${',rec.name,'} = ', rec.cb_func.c_func_name, '\\n',\r\n\t\t\t })\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 341,
+    "text": "parent:write_part(\"ffi_src\",\r\n\t\t\t{'  wrap.', var_type.ref_field, ' = ${',rec.name,'}\\n',\r\n\t\t\t '  ${',rec.name,'} = ', rec.cb_func.c_func_name, '\\n',\r\n\t\t\t })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 342,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 343,
+    "text": "function(self, rec, parent)\r\n\tif rec.is_length_ref then\r\n\t\treturn\r\n\tend\r\n\tlocal flags = false\r\n\tlocal var_type = rec.c_type_rec\r\n\tif var_type.has_obj_flags then\r\n\t\tif (rec.is_this or rec.own) then\r\n\t\t\t-- add flags ${var_name_flags} variable\r\n\t\t\tparent:add_rec_var(rec, rec.name .. '_flags')\r\n\t\t\tflags = '${' .. rec.name .. '_flags}'\r\n\t\t\tparent:write_part(\"ffi_pre\",{\r\n\t\t\t\t'  local ',flags,' = OBJ_UDATA_FLAG_OWN\\n'\r\n\t\t\t})\r\n\t\telse\r\n\t\t\tflags = \"0\"\r\n\t\tend\r\n\tend\r\n\t-- register variable for code gen (i.e. so ${var_name} is replaced with true variable name).\r\n\tparent:add_rec_var(rec, rec.name, rec.is_this and 'self')\r\n\t-- don't generate code for '<any>' type parameters\r\n\tif rec.c_type == '<any>' then\r\n\t\tif not rec.is_this then\r\n\t\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t\t{'  local ${', rec.name, '}\\n'})\r\n\t\tend\r\n\t\tparent:write_part(\"ffi_return\", { \"${\", rec.name, \"}, \" })\r\n\t\treturn\r\n\tend\r\n\r\n\tlocal var_type = rec.c_type_rec\r\n\tif var_type.lang_type == 'string' and rec.has_length then\r\n\t\t-- add length ${var_name_len} variable\r\n\t\tparent:add_rec_var(rec, rec.name .. '_len')\r\n\t\t-- the function's code will provide the string's length.\r\n\t\tparent:write_part(\"ffi_pre\",{\r\n\t\t\t'  local ${', rec.name ,'_len} = 0\\n'\r\n\t\t})\r\n\tend\r\n\t-- if the variable's type has a default value, then initialize the variable.\r\n\tlocal init = ''\r\n\tlocal default = var_type.default\r\n\tif default and default ~= 'NULL' then\r\n\t\tinit = ' = ' .. tostring(default)\r\n\telseif var_type.userdata_type == 'embed' then\r\n\t\tinit = ' = ffi.new(\"' .. var_type.name .. '\")'\r\n\tend\r\n\t-- add C variable to hold value to be pushed.\r\n\tlocal ffi_unwrap = ''\r\n\tif rec.wrap == '&' then\r\n\t\tlocal temp_name = \"${function_name}_\" .. rec.name .. \"_tmp\"\r\n\t\tparent:write_part(\"ffi_temps\",\r\n\t\t\t{'  local ', temp_name, ' = ffi.new(\"',rec.c_type,'[1]\")\\n'})\r\n\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t{'  local ${', rec.name, '} = ', temp_name,'\\n'})\r\n\t\tffi_unwrap = '[0]'\r\n\telse\r\n\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t{'  local ${', rec.name, '}',init,'\\n'})\r\n\tend\r\n\t-- if this is a temp. variable, then we are done.\r\n\tif rec.is_temp then\r\n\t\treturn\r\n\tend\r\n\t-- push Lua value onto the stack.\r\n\tlocal error_code = parent._has_error_code\r\n\tif error_code == rec then\r\n\t\tlocal err_type = error_code.c_type_rec\r\n\t\t-- if error_code is the first var_out, then push 'true' to signal no error.\r\n\t\t-- On error push 'false' and the error message.\r\n\t\tif rec._rec_idx == 1 then\r\n\t\t\tif err_type.ffi_is_error_check then\r\n\t\t\t\tparent:write_part(\"ffi_post\", {\r\n\t\t\t\t'  -- check for error.\\n',\r\n\t\t\t\t'  if ',err_type.ffi_is_error_check(error_code),' then\\n',\r\n\t\t\t\t'    return nil, ', var_type:_ffi_push(rec, flags), '\\n',\r\n\t\t\t\t'  end\\n',\r\n\t\t\t\t})\r\n\t\t\t\tparent:write_part(\"ffi_return\", { \"true, \" })\r\n\t\t\tend\r\n\t\tend\r\n\telseif rec.no_nil_on_error ~= true and error_code then\r\n\t\tlocal err_type = error_code.c_type_rec\r\n\t\t-- return nil for this out variable, if there was an error.\r\n\t\tif err_type.ffi_is_error_check then\r\n\t\t\tparent:write_part(\"ffi_post\", {\r\n\t\t\t'  if ',err_type.ffi_is_error_check(error_code),' then\\n',\r\n\t\t\t'    return nil,', err_type:_ffi_push(error_code), '\\n',\r\n\t\t\t'  end\\n',\r\n\t\t\t})\r\n\t\tend\r\n\t\tparent:write_part(\"ffi_return\", { var_type:_ffi_push(rec, flags, ffi_unwrap), \", \" })\r\n\telseif rec.is_error_on_null then\r\n\t\t-- if a function return NULL, then there was an error.\r\n\t\tparent:write_part(\"ffi_post\", {\r\n\t\t'  if ',var_type.ffi_is_error_check(rec),' then\\n',\r\n\t\t'    return nil, ', var_type:_ffi_push_error(rec), '\\n',\r\n\t\t'  end\\n',\r\n\t\t})\r\n\t\tparent:write_part(\"ffi_return\", { var_type:_ffi_push(rec, flags, ffi_unwrap), \", \" })\r\n\telse\r\n\t\tparent:write_part(\"ffi_return\", { var_type:_ffi_push(rec, flags, ffi_unwrap), \", \" })\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 344,
+    "text": "if rec.is_length_ref then\r\n\t\treturn\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 345,
+    "text": "local flags = false",
+    "type": "statement:localassign"
+  }, {
+    "id": 346,
+    "text": "if var_type.has_obj_flags then\r\n\t\tif (rec.is_this or rec.own) then\r\n\t\t\t-- add flags ${var_name_flags} variable\r\n\t\t\tparent:add_rec_var(rec, rec.name .. '_flags')\r\n\t\t\tflags = '${' .. rec.name .. '_flags}'\r\n\t\t\tparent:write_part(\"ffi_pre\",{\r\n\t\t\t\t'  local ',flags,' = OBJ_UDATA_FLAG_OWN\\n'\r\n\t\t\t})\r\n\t\telse\r\n\t\t\tflags = \"0\"\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 347,
+    "text": "if (rec.is_this or rec.own) then\r\n\t\t\t-- add flags ${var_name_flags} variable\r\n\t\t\tparent:add_rec_var(rec, rec.name .. '_flags')\r\n\t\t\tflags = '${' .. rec.name .. '_flags}'\r\n\t\t\tparent:write_part(\"ffi_pre\",{\r\n\t\t\t\t'  local ',flags,' = OBJ_UDATA_FLAG_OWN\\n'\r\n\t\t\t})\r\n\t\telse\r\n\t\t\tflags = \"0\"\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 348,
+    "text": "flags = '${' .. rec.name .. '_flags}'",
+    "type": "statement:assign"
+  }, {
+    "id": 349,
+    "text": "parent:write_part(\"ffi_pre\",{\r\n\t\t\t\t'  local ',flags,' = OBJ_UDATA_FLAG_OWN\\n'\r\n\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 350,
+    "text": "flags = \"0\"",
+    "type": "statement:assign"
+  }, {
+    "id": 351,
+    "text": "if rec.c_type == '<any>' then\r\n\t\tif not rec.is_this then\r\n\t\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t\t{'  local ${', rec.name, '}\\n'})\r\n\t\tend\r\n\t\tparent:write_part(\"ffi_return\", { \"${\", rec.name, \"}, \" })\r\n\t\treturn\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 352,
+    "text": "if not rec.is_this then\r\n\t\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t\t{'  local ${', rec.name, '}\\n'})\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 353,
+    "text": "parent:write_part(\"ffi_pre\",\r\n\t\t\t\t{'  local ${', rec.name, '}\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 354,
+    "text": "parent:write_part(\"ffi_return\", { \"${\", rec.name, \"}, \" })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 355,
+    "text": "if var_type.lang_type == 'string' and rec.has_length then\r\n\t\t-- add length ${var_name_len} variable\r\n\t\tparent:add_rec_var(rec, rec.name .. '_len')\r\n\t\t-- the function's code will provide the string's length.\r\n\t\tparent:write_part(\"ffi_pre\",{\r\n\t\t\t'  local ${', rec.name ,'_len} = 0\\n'\r\n\t\t})\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 356,
+    "text": "parent:write_part(\"ffi_pre\",{\r\n\t\t\t'  local ${', rec.name ,'_len} = 0\\n'\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 357,
+    "text": "local init = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 358,
+    "text": "local default = var_type.default",
+    "type": "statement:localassign"
+  }, {
+    "id": 359,
+    "text": "if default and default ~= 'NULL' then\r\n\t\tinit = ' = ' .. tostring(default)\r\n\telseif var_type.userdata_type == 'embed' then\r\n\t\tinit = ' = ffi.new(\"' .. var_type.name .. '\")'\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 360,
+    "text": "init = ' = ' .. tostring(default)",
+    "type": "statement:assign"
+  }, {
+    "id": 361,
+    "text": "init = ' = ffi.new(\"' .. var_type.name .. '\")'",
+    "type": "statement:assign"
+  }, {
+    "id": 362,
+    "text": "local ffi_unwrap = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 363,
+    "text": "if rec.wrap == '&' then\r\n\t\tlocal temp_name = \"${function_name}_\" .. rec.name .. \"_tmp\"\r\n\t\tparent:write_part(\"ffi_temps\",\r\n\t\t\t{'  local ', temp_name, ' = ffi.new(\"',rec.c_type,'[1]\")\\n'})\r\n\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t{'  local ${', rec.name, '} = ', temp_name,'\\n'})\r\n\t\tffi_unwrap = '[0]'\r\n\telse\r\n\t\tparent:write_part(\"ffi_pre\",\r\n\t\t\t{'  local ${', rec.name, '}',init,'\\n'})\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 364,
+    "text": "local temp_name = \"${function_name}_\" .. rec.name .. \"_tmp\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 365,
+    "text": "parent:write_part(\"ffi_temps\",\r\n\t\t\t{'  local ', temp_name, ' = ffi.new(\"',rec.c_type,'[1]\")\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 366,
+    "text": "parent:write_part(\"ffi_pre\",\r\n\t\t\t{'  local ${', rec.name, '} = ', temp_name,'\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 367,
+    "text": "ffi_unwrap = '[0]'",
+    "type": "statement:assign"
+  }, {
+    "id": 368,
+    "text": "parent:write_part(\"ffi_pre\",\r\n\t\t\t{'  local ${', rec.name, '}',init,'\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 369,
+    "text": "if rec.is_temp then\r\n\t\treturn\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 370,
+    "text": "local error_code = parent._has_error_code",
+    "type": "statement:localassign"
+  }, {
+    "id": 371,
+    "text": "if error_code == rec then\r\n\t\tlocal err_type = error_code.c_type_rec\r\n\t\t-- if error_code is the first var_out, then push 'true' to signal no error.\r\n\t\t-- On error push 'false' and the error message.\r\n\t\tif rec._rec_idx == 1 then\r\n\t\t\tif err_type.ffi_is_error_check then\r\n\t\t\t\tparent:write_part(\"ffi_post\", {\r\n\t\t\t\t'  -- check for error.\\n',\r\n\t\t\t\t'  if ',err_type.ffi_is_error_check(error_code),' then\\n',\r\n\t\t\t\t'    return nil, ', var_type:_ffi_push(rec, flags), '\\n',\r\n\t\t\t\t'  end\\n',\r\n\t\t\t\t})\r\n\t\t\t\tparent:write_part(\"ffi_return\", { \"true, \" })\r\n\t\t\tend\r\n\t\tend\r\n\telseif rec.no_nil_on_error ~= true and error_code then\r\n\t\tlocal err_type = error_code.c_type_rec\r\n\t\t-- return nil for this out variable, if there was an error.\r\n\t\tif err_type.ffi_is_error_check then\r\n\t\t\tparent:write_part(\"ffi_post\", {\r\n\t\t\t'  if ',err_type.ffi_is_error_check(error_code),' then\\n',\r\n\t\t\t'    return nil,', err_type:_ffi_push(error_code), '\\n',\r\n\t\t\t'  end\\n',\r\n\t\t\t})\r\n\t\tend\r\n\t\tparent:write_part(\"ffi_return\", { var_type:_ffi_push(rec, flags, ffi_unwrap), \", \" })\r\n\telseif rec.is_error_on_null then\r\n\t\t-- if a function return NULL, then there was an error.\r\n\t\tparent:write_part(\"ffi_post\", {\r\n\t\t'  if ',var_type.ffi_is_error_check(rec),' then\\n',\r\n\t\t'    return nil, ', var_type:_ffi_push_error(rec), '\\n',\r\n\t\t'  end\\n',\r\n\t\t})\r\n\t\tparent:write_part(\"ffi_return\", { var_type:_ffi_push(rec, flags, ffi_unwrap), \", \" })\r\n\telse\r\n\t\tparent:write_part(\"ffi_return\", { var_type:_ffi_push(rec, flags, ffi_unwrap), \", \" })\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 372,
+    "text": "local err_type = error_code.c_type_rec",
+    "type": "statement:localassign"
+  }, {
+    "id": 373,
+    "text": "if rec._rec_idx == 1 then\r\n\t\t\tif err_type.ffi_is_error_check then\r\n\t\t\t\tparent:write_part(\"ffi_post\", {\r\n\t\t\t\t'  -- check for error.\\n',\r\n\t\t\t\t'  if ',err_type.ffi_is_error_check(error_code),' then\\n',\r\n\t\t\t\t'    return nil, ', var_type:_ffi_push(rec, flags), '\\n',\r\n\t\t\t\t'  end\\n',\r\n\t\t\t\t})\r\n\t\t\t\tparent:write_part(\"ffi_return\", { \"true, \" })\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 374,
+    "text": "if err_type.ffi_is_error_check then\r\n\t\t\t\tparent:write_part(\"ffi_post\", {\r\n\t\t\t\t'  -- check for error.\\n',\r\n\t\t\t\t'  if ',err_type.ffi_is_error_check(error_code),' then\\n',\r\n\t\t\t\t'    return nil, ', var_type:_ffi_push(rec, flags), '\\n',\r\n\t\t\t\t'  end\\n',\r\n\t\t\t\t})\r\n\t\t\t\tparent:write_part(\"ffi_return\", { \"true, \" })\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 375,
+    "text": "parent:write_part(\"ffi_post\", {\r\n\t\t\t\t'  -- check for error.\\n',\r\n\t\t\t\t'  if ',err_type.ffi_is_error_check(error_code),' then\\n',\r\n\t\t\t\t'    return nil, ', var_type:_ffi_push(rec, flags), '\\n',\r\n\t\t\t\t'  end\\n',\r\n\t\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 376,
+    "text": "parent:write_part(\"ffi_return\", { \"true, \" })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 377,
+    "text": "if err_type.ffi_is_error_check then\r\n\t\t\tparent:write_part(\"ffi_post\", {\r\n\t\t\t'  if ',err_type.ffi_is_error_check(error_code),' then\\n',\r\n\t\t\t'    return nil,', err_type:_ffi_push(error_code), '\\n',\r\n\t\t\t'  end\\n',\r\n\t\t\t})\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 378,
+    "text": "parent:write_part(\"ffi_post\", {\r\n\t\t\t'  if ',err_type.ffi_is_error_check(error_code),' then\\n',\r\n\t\t\t'    return nil,', err_type:_ffi_push(error_code), '\\n',\r\n\t\t\t'  end\\n',\r\n\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 379,
+    "text": "parent:write_part(\"ffi_return\", { var_type:_ffi_push(rec, flags, ffi_unwrap), \", \" })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 380,
+    "text": "parent:write_part(\"ffi_post\", {\r\n\t\t'  if ',var_type.ffi_is_error_check(rec),' then\\n',\r\n\t\t'    return nil, ', var_type:_ffi_push_error(rec), '\\n',\r\n\t\t'  end\\n',\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 381,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 382,
+    "text": "function(self, rec, parent)\r\n\tparent:add_rec_var(rec)\r\n\tlocal var_type = rec.c_type_rec\r\n\tif not rec.is_wrapped_obj then\r\n\t\tparent:write_part(\"ffi_cb_params\", { var_type:_ffi_push(rec), ', ' })\r\n\telse\r\n\t\t-- this is the wrapped object parameter.\r\n\t\tparent.wrapped_var = rec\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 383,
+    "text": "parent:add_rec_var(rec)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 384,
+    "text": "if not rec.is_wrapped_obj then\r\n\t\tparent:write_part(\"ffi_cb_params\", { var_type:_ffi_push(rec), ', ' })\r\n\telse\r\n\t\t-- this is the wrapped object parameter.\r\n\t\tparent.wrapped_var = rec\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 385,
+    "text": "parent:write_part(\"ffi_cb_params\", { var_type:_ffi_push(rec), ', ' })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 386,
+    "text": "parent.wrapped_var = rec",
+    "type": "statement:assign"
+  }, {
+    "id": 387,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 388,
+    "text": "function(self, rec, parent)\r\n\tparent:add_rec_var(rec, 'ret', 'ret')\r\n\tlocal var_type = rec.c_type_rec\r\n\tparent:write_part(\"ffi_post\",\r\n\t\t{'  ', var_type:_ffi_opt(rec) })\r\nend",
+    "type": "function"
+  }, {
+    "id": 389,
+    "text": "parent:add_rec_var(rec, 'ret', 'ret')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 390,
+    "text": "parent:write_part(\"ffi_post\",\r\n\t\t{'  ', var_type:_ffi_opt(rec) })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 391,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 392,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 393,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 394,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 395,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 396,
+    "text": "ffi_is_error_check",
+    "type": "global function"
+  }, {
+    "id": 397,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 398,
+    "text": "process_records",
+    "type": "global function"
+  }, {
+    "id": 399,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 400,
+    "text": "ffi_is_error_check",
+    "type": "global function"
+  }, {
+    "id": 401,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 402,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 403,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 404,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 405,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 406,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 407,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 408,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 409,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 410,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 411,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 412,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 413,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 414,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 415,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 416,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 417,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 418,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 419,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 420,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 421,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 422,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 423,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 424,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 425,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 426,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 427,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 428,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 429,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 430,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 431,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 432,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 433,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 434,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 435,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 436,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 437,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 438,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 439,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 440,
+    "text": "",
+    "type": "keyword"
+  }, {
+    "id": 441,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 442,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 443,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 444,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 445,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 446,
+    "text": "",
+    "type": "_prefixexp"
+  }, {
+    "id": 447,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 448,
+    "text": "",
+    "type": "_prefixexp"
+  }, {
+    "id": 449,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 450,
+    "text": "",
+    "type": "_prefixexp"
+  }, {
+    "id": 451,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 452,
+    "text": "",
+    "type": "_prefixexp"
+  }, {
+    "id": 453,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 454,
+    "text": "",
+    "type": "_prefixexp"
+  }, {
+    "id": 455,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 456,
+    "text": "",
+    "type": "_prefixexp"
+  }, {
+    "id": 457,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 458,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 459,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 460,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 461,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 462,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 463,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 464,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 465,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 466,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 467,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 468,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 469,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 470,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 471,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 472,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 473,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 474,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 475,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 476,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 477,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 478,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 479,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 480,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 481,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 482,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 483,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 484,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 485,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 486,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 487,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 488,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 489,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 490,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 491,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 492,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 493,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 494,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 495,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 496,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 497,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 498,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 499,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 500,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 501,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 502,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 503,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 504,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

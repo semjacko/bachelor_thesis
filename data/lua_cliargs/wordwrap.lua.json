@@ -1,0 +1,349 @@
+{
+  "_filename": "wordwrap.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua_cliargs/src/cliargs/utils/wordwrap.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 34
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 38
+  }, {
+    "from": 28,
+    "label": "represents",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "provides",
+    "to": 39
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "wordwrap",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function buildline(words, size, overflow)\r\n  -- if overflow is set, a word longer than size, will overflow the size\r\n  -- otherwise it will be chopped in line-length pieces\r\n  local line = \"\"\r\n  if string.len(words[1]) > size then\r\n    -- word longer than line\r\n    if overflow then\r\n      line = words[1]\r\n      table.remove(words, 1)\r\n    else\r\n      line = words[1]:sub(1, size)\r\n      words[1] = words[1]:sub(size + 1, -1)\r\n    end\r\n  else\r\n    while words[1] and (#line + string.len(words[1]) + 1 <= size) or (line == \"\" and #words[1] == size) do\r\n      if line == \"\" then\r\n        line = words[1]\r\n      else\r\n        line = line .. \" \" .. words[1]\r\n      end\r\n      table.remove(words, 1)\r\n    end\r\n  end\r\n  return line, words\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local line = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "if string.len(words[1]) > size then\r\n    -- word longer than line\r\n    if overflow then\r\n      line = words[1]\r\n      table.remove(words, 1)\r\n    else\r\n      line = words[1]:sub(1, size)\r\n      words[1] = words[1]:sub(size + 1, -1)\r\n    end\r\n  else\r\n    while words[1] and (#line + string.len(words[1]) + 1 <= size) or (line == \"\" and #words[1] == size) do\r\n      if line == \"\" then\r\n        line = words[1]\r\n      else\r\n        line = line .. \" \" .. words[1]\r\n      end\r\n      table.remove(words, 1)\r\n    end\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "if overflow then\r\n      line = words[1]\r\n      table.remove(words, 1)\r\n    else\r\n      line = words[1]:sub(1, size)\r\n      words[1] = words[1]:sub(size + 1, -1)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "line = words[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "table.remove(words, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "line = words[1]:sub(1, size)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "words[1] = words[1]:sub(size + 1, -1)",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "while words[1] and (#line + string.len(words[1]) + 1 <= size) or (line == \"\" and #words[1] == size) do\r\n      if line == \"\" then\r\n        line = words[1]\r\n      else\r\n        line = line .. \" \" .. words[1]\r\n      end\r\n      table.remove(words, 1)\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 11,
+    "text": "if line == \"\" then\r\n        line = words[1]\r\n      else\r\n        line = line .. \" \" .. words[1]\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "line = line .. \" \" .. words[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "local function wordwrap(str, size, pad, overflow)\r\n  -- if overflow is set, then words longer than a line will overflow\r\n  -- otherwise, they'll be chopped in pieces\r\n  pad = pad or 0\r\n\r\n  local line\r\n  local out = \"\"\r\n  local padstr = string.rep(\" \", pad)\r\n  local words = split(str, ' ')\r\n\r\n  while words[1] do\r\n    line, words = buildline(words, size, overflow)\r\n    if out == \"\" then\r\n      out = padstr .. line\r\n    else\r\n        out = out .. \"\\n\" .. padstr .. line\r\n    end\r\n  end\r\n\r\n  return out\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "pad = pad or 0",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "local line",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "local out = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "local padstr = string.rep(\" \", pad)",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "local words = split(str, ' ')",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "while words[1] do\r\n    line, words = buildline(words, size, overflow)\r\n    if out == \"\" then\r\n      out = padstr .. line\r\n    else\r\n        out = out .. \"\\n\" .. padstr .. line\r\n    end\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 22,
+    "text": "line, words = buildline(words, size, overflow)",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "if out == \"\" then\r\n      out = padstr .. line\r\n    else\r\n        out = out .. \"\\n\" .. padstr .. line\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "out = padstr .. line",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "out = out .. \"\\n\" .. padstr .. line",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 28,
+    "text": "wordwrap",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "split",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "rep",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "split)",
+    "type": "module"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "interface"
+  } ]
+}

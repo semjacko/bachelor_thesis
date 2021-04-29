@@ -1,0 +1,165 @@
+{
+  "_filename": "bin.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-stdlib/src/bin.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "bin",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function le_to_number (s)\r\n  local res = 0\r\n  for i = #s, 1, -1 do\r\n    res = res * 256 + string.byte (s, i)\r\n  end\r\n  return res\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local res = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "for i = #s, 1, -1 do\r\n    res = res * 256 + string.byte (s, i)\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 5,
+    "text": "res = res * 256 + string.byte (s, i)",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function le_to_hex (s)\r\n  local res = \"\"\r\n  for i = 1, #s do\r\n    res = res .. string.format (\"%.2x\", string.byte (s, i))\r\n  end\r\n  return res\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local res = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "for i = 1, #s do\r\n    res = res .. string.format (\"%.2x\", string.byte (s, i))\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 11,
+    "text": "res = res .. string.format (\"%.2x\", string.byte (s, i))",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 14,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "byte",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "require container"
+  } ]
+}

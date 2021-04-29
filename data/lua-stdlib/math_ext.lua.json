@@ -1,0 +1,157 @@
+{
+  "_filename": "math_ext.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-stdlib/src/math_ext.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "assigns",
+    "to": 16
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "math_ext",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function floor (n, p)\r\n  if p and p ~= 0 then\r\n    local e = 10 ^ p\r\n    return _floor (n * e) / e\r\n  else\r\n    return _floor (n)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "if p and p ~= 0 then\r\n    local e = 10 ^ p\r\n    return _floor (n * e) / e\r\n  else\r\n    return _floor (n)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 4,
+    "text": "local e = 10 ^ p",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function round (n, p)\r\n  local e = 10 ^ (p or 0)\r\n  return _floor (n * e + 0.5) / e\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local e = 10 ^ (p or 0)",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "_floor",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

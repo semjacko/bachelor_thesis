@@ -1,0 +1,369 @@
+{
+  "_filename": "message.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/concurrentlua/src/concurrent/message.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 34
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 34,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "assigns",
+    "to": 39
+  }, {
+    "from": 34,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "assigns",
+    "to": 41
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 29
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "message",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function send(dest, mesg)\r\n    if type(dest) ~= 'table' then\r\n        return _send(concurrent.whereis(dest), mesg)\r\n    end\r\n\r\n    local pid, node = unpack(dest)\r\n    local socket = concurrent._distributed._network.connect(node)\r\n    if not socket then\r\n        return false\r\n    end\r\n\r\n    local data\r\n    if concurrent.getcookie() then\r\n        data = concurrent.getcookie() .. ' ' .. tostring(pid) .. ' ' ..\r\n            serialize(mesg) .. '\\r\\n'\r\n    else \r\n        data = tostring(pid) .. ' ' .. serialize(mesg) .. '\\r\\n'\r\n    end\r\n    local total = #data\r\n    repeat \r\n        local n, errmsg, _ = socket:send(data, total - #data + 1)\r\n        if not n and errmsg == 'closed' then\r\n            concurrent._distributed._network.disconnect(node)\r\n            return false\r\n        end\r\n        total = total - n\r\n    until total == 0\r\n    if concurrent.getoption('debug') then\r\n        print('-> ' .. string.sub(data, 1, #data - 2))\r\n    end\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function serialize(obj)\r\n    local t = type(obj)\r\n    if t == 'nil' or t == 'boolean' or t == 'number' then\r\n        return tostring(obj)\r\n    elseif t == 'string' then\r\n        return string.format(\"%q\", obj)\r\n    elseif t == 'function' then\r\n        return 'loadstring((mime.unb64([[' .. (mime.b64(string.dump(obj))) ..\r\n            ']])))'\r\n    elseif t == 'table' then\r\n        local t = '{'\r\n        for k, v in pairs(obj) do\r\n            if type(k) == 'number' or type(k) == 'boolean' then\r\n                t = t .. ' [' .. tostring(k) .. '] = ' .. serialize(v) .. ','\r\n            else\r\n                t = t .. ' [\"' .. tostring(k) .. '\"] = ' .. serialize(v) .. ','\r\n            end\r\n        end\r\n        t =  t .. ' }'\r\n        return t \r\n    else\r\n        error('cannot serialize a ' .. t)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "function send(dest, mesg)\r\n    local pid = concurrent.whereis(dest)\r\n    if not pid then\r\n        return false\r\n    end\r\n    table.insert(mailboxes[pid], mesg)\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "local pid = concurrent.whereis(dest)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if not pid then\r\n        return false\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "table.insert(mailboxes[pid], mesg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function receive(timeout)\r\n    local timeouts = concurrent._scheduler.timeouts\r\n    local s = concurrent.self()\r\n    if type(timeout) == 'number' then\r\n        timeouts[s] = cltime.time() + timeout\r\n    end\r\n    if #mailboxes[s] == 0 then\r\n        concurrent._scheduler.sleep(timeout)\r\n    end\r\n    if #mailboxes[s] > 0 then\r\n        return table.remove(mailboxes[s], 1)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "local timeouts = concurrent._scheduler.timeouts",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local s = concurrent.self()",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "if type(timeout) == 'number' then\r\n        timeouts[s] = cltime.time() + timeout\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "timeouts[s] = cltime.time() + timeout",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "if #mailboxes[s] == 0 then\r\n        concurrent._scheduler.sleep(timeout)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "concurrent._scheduler.sleep(timeout)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "if #mailboxes[s] > 0 then\r\n        return table.remove(mailboxes[s], 1)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "time",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "whereis",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "self",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "concurrent._scheduler.sleep",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

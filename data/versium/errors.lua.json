@@ -1,0 +1,221 @@
+{
+  "_filename": "errors.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/versium/lua/versium/errors.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "errors",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function could_not_initialize(reason)\r\n   return \"versium failed to initialize: \"..(reason or \"\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function concurrent_write(reason)\r\n   return \"versium resource is locked: \"..(reason or \"\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function no_such_node(node)\r\n   return \"versium node does not exist: \"..(node or \"nil\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function no_such_version(node, revision)\r\n   return \"versium revision does not exist: version \"..(revision or \"nil\")..\" of \"..(node or \"nil\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function could_not_save(node, reason)\r\n   return \"versium could not save node \"..node..\": \"..(reason or \"\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function could_not_read(node, reason)\r\n   return \"versium could not read node \"..node..\": \"..(readon or \"\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function misc(reason)\r\n   return \"versium encountered an unexpected error: \"..(reason or \"\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 18,
+    "text": "function write_file(path, data, node)\r\n   assert(path)\r\n   assert(data)\r\n   local f, err = io.open(path, \"w\")\r\n   assert(f, errors.could_not_save(node, err))\r\n   f:write(data)\r\n   f:close()\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "function read_file(path, node)\r\n   assert(path)\r\n   local f, err = io.open(path)\r\n   assert(f, errors.could_not_read(node, err))\r\n   local data = f:read(\"*all\")\r\n   f:close()\r\n   return data\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

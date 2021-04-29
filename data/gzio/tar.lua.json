@@ -1,0 +1,1245 @@
+{
+  "_filename": "tar.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/gzio/src/tar.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 94,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 94,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 106
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 106
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 43
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 49
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 59
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 61
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 68
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 79
+  }, {
+    "from": 96,
+    "label": "declares",
+    "to": 94
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 97
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 111
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 112
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 113
+  }, {
+    "from": 113,
+    "label": "assigns",
+    "to": 114
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 115
+  }, {
+    "from": 115,
+    "label": "assigns",
+    "to": 116
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 117
+  }, {
+    "from": 117,
+    "label": "assigns",
+    "to": 118
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 119
+  }, {
+    "from": 119,
+    "label": "assigns",
+    "to": 120
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 121
+  }, {
+    "from": 121,
+    "label": "assigns",
+    "to": 122
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 123
+  }, {
+    "from": 123,
+    "label": "assigns",
+    "to": 124
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 125
+  }, {
+    "from": 125,
+    "label": "assigns",
+    "to": 126
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 127
+  }, {
+    "from": 127,
+    "label": "assigns",
+    "to": 128
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 129
+  }, {
+    "from": 129,
+    "label": "assigns",
+    "to": 130
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 131
+  }, {
+    "from": 131,
+    "label": "assigns",
+    "to": 132
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 133
+  }, {
+    "from": 133,
+    "label": "assigns",
+    "to": 134
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 135
+  }, {
+    "from": 121,
+    "label": "represents",
+    "to": 136
+  }, {
+    "from": 135,
+    "label": "provides",
+    "to": 136
+  }, {
+    "from": 137,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 137,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 137,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 115,
+    "label": "contains",
+    "to": 61
+  }, {
+    "from": 115,
+    "label": "contains",
+    "to": 68
+  }, {
+    "from": 113,
+    "label": "contains",
+    "to": 79
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "tar",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function TarInternalFile:close()\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 4,
+    "text": "function TarInternalFile:flush()\r\n\terror('Tar file output flushing is unsupported.')\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "error('Tar file output flushing is unsupported.')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function TarInternalFile:lines()\r\n\treturn function(s, var)\r\n\t\treturn self:read(\"*l\")\r\n\tend, self, nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function TarInternalFile:read(...)\r\n\tlocal eof = self.offset + self.size\r\n\tif self.pointer >= eof then return nil end -- eof\r\n\tlocal t = {}\r\n\tself.archive.file:seek(\"set\", self.pointer)\r\n\tfor i, v in ipairs{...} do\r\n\t\tlocal s\r\n\t\tif \"*a\" == v then\r\n\t\t\ts = self.archive.file:read(eof - self.pointer)\r\n\t\telseif \"*l\" == v or \"*n\" == v or \"number\" == type(v) then\r\n\t\t\ts = self.archive.file:read(v)\r\n\t\telse\r\n\t\t\terror('bad argument %d to %s (%s)', i\r\n\t\t\t\t'TarInternalFile:read', 'invalid format')\r\n\t\t\treturn nil\r\n\t\tend\r\n\t\tlocal last = self.pointer\r\n\t\tself.pointer = self.archive.file:seek()\r\n\t\tif s and self.pointer < eof then\r\n\t\t\ttable.insert(t, s)\r\n\t\telseif s then\r\n\t\t\ttable.insert(t, string.sub(s, 1, eof - last - 1))\r\n\t\t\tself.pointer = self.offset + self.size\r\n\t\t\tbreak\r\n\t\telse\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\n\treturn unpack(t)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local eof = self.offset + self.size",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "if self.pointer >= eof then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "local t = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "self.archive.file:seek(\"set\", self.pointer)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "for i, v in ipairs{...} do\r\n\t\tlocal s\r\n\t\tif \"*a\" == v then\r\n\t\t\ts = self.archive.file:read(eof - self.pointer)\r\n\t\telseif \"*l\" == v or \"*n\" == v or \"number\" == type(v) then\r\n\t\t\ts = self.archive.file:read(v)\r\n\t\telse\r\n\t\t\terror('bad argument %d to %s (%s)', i\r\n\t\t\t\t'TarInternalFile:read', 'invalid format')\r\n\t\t\treturn nil\r\n\t\tend\r\n\t\tlocal last = self.pointer\r\n\t\tself.pointer = self.archive.file:seek()\r\n\t\tif s and self.pointer < eof then\r\n\t\t\ttable.insert(t, s)\r\n\t\telseif s then\r\n\t\t\ttable.insert(t, string.sub(s, 1, eof - last - 1))\r\n\t\t\tself.pointer = self.offset + self.size\r\n\t\t\tbreak\r\n\t\telse\r\n\t\t\tbreak\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 16,
+    "text": "local s",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "if \"*a\" == v then\r\n\t\t\ts = self.archive.file:read(eof - self.pointer)\r\n\t\telseif \"*l\" == v or \"*n\" == v or \"number\" == type(v) then\r\n\t\t\ts = self.archive.file:read(v)\r\n\t\telse\r\n\t\t\terror('bad argument %d to %s (%s)', i\r\n\t\t\t\t'TarInternalFile:read', 'invalid format')\r\n\t\t\treturn nil\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "s = self.archive.file:read(eof - self.pointer)",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "s = self.archive.file:read(v)",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "error('bad argument %d to %s (%s)', i\r\n\t\t\t\t'TarInternalFile:read', 'invalid format')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "local last = self.pointer",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "self.pointer = self.archive.file:seek()",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "if s and self.pointer < eof then\r\n\t\t\ttable.insert(t, s)\r\n\t\telseif s then\r\n\t\t\ttable.insert(t, string.sub(s, 1, eof - last - 1))\r\n\t\t\tself.pointer = self.offset + self.size\r\n\t\t\tbreak\r\n\t\telse\r\n\t\t\tbreak\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "table.insert(t, s)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "table.insert(t, string.sub(s, 1, eof - last - 1))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "self.pointer = self.offset + self.size",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function TarInternalFile:seek(whence, offset)\r\n\tlocal whence = whence or \"cur\"\r\n\tlocal offset = offset or 0\r\n\tlocal eof = self.offset + self.size\r\n\tlocal final\r\n\tlocal err\r\n\r\n\tif \"cur\" == whence then\r\n\t\tfinal, err = self.archive.file:seek(\"set\",\r\n\t\t\toffset + self.pointer) - self.offset\r\n\r\n\telseif \"set\" == whence then\r\n\t\tfinal, err =  self.archive.file:seek(\"set\",\r\n\t\t\toffset + self.offset) - self.offset\r\n\r\n\telseif \"end\" == whence then\r\n\t\tfinal, err =  self.archive.file:seek(\"set\",\r\n\t\t\toffset + eof - 1) - self.offset\r\n\r\n\telse\r\n\t\tfinal, err =  self.archive.file:seek(whence, offset)\r\n\tend\r\n\r\n\tif not final then\r\n\t\treturn nil, err\r\n\telseif final < 0 then\r\n\t\tfinal = 0\r\n\telseif final > self.size then\r\n\t\tfinal = self.size\r\n\tend\r\n\tself.pointer = final + self.offset\r\n\t\r\n\treturn final\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "local whence = whence or \"cur\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "local offset = offset or 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "local final",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "local err",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "if \"cur\" == whence then\r\n\t\tfinal, err = self.archive.file:seek(\"set\",\r\n\t\t\toffset + self.pointer) - self.offset\r\n\r\n\telseif \"set\" == whence then\r\n\t\tfinal, err =  self.archive.file:seek(\"set\",\r\n\t\t\toffset + self.offset) - self.offset\r\n\r\n\telseif \"end\" == whence then\r\n\t\tfinal, err =  self.archive.file:seek(\"set\",\r\n\t\t\toffset + eof - 1) - self.offset\r\n\r\n\telse\r\n\t\tfinal, err =  self.archive.file:seek(whence, offset)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "final, err = self.archive.file:seek(\"set\",\r\n\t\t\toffset + self.pointer) - self.offset",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "final, err =  self.archive.file:seek(\"set\",\r\n\t\t\toffset + self.offset) - self.offset",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "final, err =  self.archive.file:seek(\"set\",\r\n\t\t\toffset + eof - 1) - self.offset",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "final, err =  self.archive.file:seek(whence, offset)",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "if not final then\r\n\t\treturn nil, err\r\n\telseif final < 0 then\r\n\t\tfinal = 0\r\n\telseif final > self.size then\r\n\t\tfinal = self.size\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "final = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "final = self.size",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "self.pointer = final + self.offset",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 43,
+    "text": "function TarInternalFile:setvbuf(mode, size)\r\n\terror('Tar file output buffering is unsupported.')\r\nend",
+    "type": "function"
+  }, {
+    "id": 44,
+    "text": "error('Tar file output buffering is unsupported.')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 46,
+    "text": "function TarInternalFile:write(...)\r\n\terror('Tar file writes are unsupported.')\r\nend",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "error('Tar file writes are unsupported.')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 49,
+    "text": "function TarFile:open(filename)\r\n\tif not self.list[filename] then return nil end\r\n\tlocal file = {}\r\n\tfile.archive = self\r\n\tfile.filename = filename\r\n\tfile.offset = self.list[filename].offset\r\n\tfile.pointer = file.offset\r\n\tfile.size = self.list[filename].size\r\n\tsetmetatable(file, TarInternalFile)\r\n\treturn file\r\nend",
+    "type": "function"
+  }, {
+    "id": 50,
+    "text": "if not self.list[filename] then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "local file = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "file.archive = self",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "file.filename = filename",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "file.offset = self.list[filename].offset",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "file.pointer = file.offset",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "file.size = self.list[filename].size",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "setmetatable(file, TarInternalFile)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 59,
+    "text": "function TarFile:files()\r\n\treturn next, self.list, nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 61,
+    "text": "function(s)\r\n\tif string.match(s, \"[^0-7]\") then return nil end\r\n\tlocal n, m = 0, 0\r\n\tfor i = string.len(s), 1, -1 do\r\n\t\tn = n + (string.byte(s, i) - 48) * 8 ^ m\r\n\t\tm = m + 1\r\n\tend\r\n\treturn n\r\nend",
+    "type": "function"
+  }, {
+    "id": 62,
+    "text": "if string.match(s, \"[^0-7]\") then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 63,
+    "text": "local n, m = 0, 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 64,
+    "text": "for i = string.len(s), 1, -1 do\r\n\t\tn = n + (string.byte(s, i) - 48) * 8 ^ m\r\n\t\tm = m + 1\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 65,
+    "text": "n = n + (string.byte(s, i) - 48) * 8 ^ m",
+    "type": "statement:assign"
+  }, {
+    "id": 66,
+    "text": "m = m + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 68,
+    "text": "function(header)\r\n\tlocal t = {}\r\n\tfor _, field in ipairs(private.HEADER_DATA) do\r\n\t\tlocal s = string.sub(header, field[2] + 1, field[2] + field[3])\r\n\t\tlocal s = string.match(s, \"[^%z]*\")\r\n\t\tif field[4] then\r\n\t\t\tt[field[1]] = private.octal(s)\r\n\t\telse\r\n\t\t\tt[field[1]] = s\r\n\t\tend\r\n\tend\r\n\tif 0 < string.len(t.prefix) then\r\n\t\tt.pathname = t.prefix..'/'..t.name\r\n\telse\r\n\t\tt.pathname = t.name\r\n\tend\r\n\treturn t\r\nend",
+    "type": "function"
+  }, {
+    "id": 69,
+    "text": "for _, field in ipairs(private.HEADER_DATA) do\r\n\t\tlocal s = string.sub(header, field[2] + 1, field[2] + field[3])\r\n\t\tlocal s = string.match(s, \"[^%z]*\")\r\n\t\tif field[4] then\r\n\t\t\tt[field[1]] = private.octal(s)\r\n\t\telse\r\n\t\t\tt[field[1]] = s\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 70,
+    "text": "local s = string.sub(header, field[2] + 1, field[2] + field[3])",
+    "type": "statement:localassign"
+  }, {
+    "id": 71,
+    "text": "local s = string.match(s, \"[^%z]*\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 72,
+    "text": "if field[4] then\r\n\t\t\tt[field[1]] = private.octal(s)\r\n\t\telse\r\n\t\t\tt[field[1]] = s\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 73,
+    "text": "t[field[1]] = private.octal(s)",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "t[field[1]] = s",
+    "type": "statement:assign"
+  }, {
+    "id": 75,
+    "text": "if 0 < string.len(t.prefix) then\r\n\t\tt.pathname = t.prefix..'/'..t.name\r\n\telse\r\n\t\tt.pathname = t.name\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 76,
+    "text": "t.pathname = t.prefix..'/'..t.name",
+    "type": "statement:assign"
+  }, {
+    "id": 77,
+    "text": "t.pathname = t.name",
+    "type": "statement:assign"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 79,
+    "text": "function(file)\r\n\tassert(file, 'invalid file handle')\r\n\tlocal archive = {}\r\n\tarchive.file = file\r\n\tarchive.list = {}\r\n\tlocal p = file:seek(\"set\")\r\n\twhile true do\r\n\t\tlocal block = file:read(512)\r\n\t\tif not block or not string.match(block, \"[^%z]\") then break end\r\n\t\tlocal header = private.decode(block)\r\n\t\tif 0 == header.typeflag then\r\n\t\t\tarchive.list[header.pathname] = {\r\n\t\t\t\t[\"offset\"] = file:seek(),\r\n\t\t\t\t[\"size\"] = header.size\r\n\t\t\t}\r\n\t\tend\r\n\t\tlocal p = file:seek(\"cur\", 512 * math.ceil(header.size / 512))\r\n\tend\r\n\tsetmetatable(archive, TarFile)\r\n\treturn archive\r\nend",
+    "type": "function"
+  }, {
+    "id": 80,
+    "text": "assert(file, 'invalid file handle')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 81,
+    "text": "local archive = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 82,
+    "text": "archive.file = file",
+    "type": "statement:assign"
+  }, {
+    "id": 83,
+    "text": "archive.list = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 84,
+    "text": "local p = file:seek(\"set\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 85,
+    "text": "while true do\r\n\t\tlocal block = file:read(512)\r\n\t\tif not block or not string.match(block, \"[^%z]\") then break end\r\n\t\tlocal header = private.decode(block)\r\n\t\tif 0 == header.typeflag then\r\n\t\t\tarchive.list[header.pathname] = {\r\n\t\t\t\t[\"offset\"] = file:seek(),\r\n\t\t\t\t[\"size\"] = header.size\r\n\t\t\t}\r\n\t\tend\r\n\t\tlocal p = file:seek(\"cur\", 512 * math.ceil(header.size / 512))\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 86,
+    "text": "local block = file:read(512)",
+    "type": "statement:localassign"
+  }, {
+    "id": 87,
+    "text": "if not block or not string.match(block, \"[^%z]\") then break end",
+    "type": "statement:if"
+  }, {
+    "id": 88,
+    "text": "local header = private.decode(block)",
+    "type": "statement:localassign"
+  }, {
+    "id": 89,
+    "text": "if 0 == header.typeflag then\r\n\t\t\tarchive.list[header.pathname] = {\r\n\t\t\t\t[\"offset\"] = file:seek(),\r\n\t\t\t\t[\"size\"] = header.size\r\n\t\t\t}\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 90,
+    "text": "archive.list[header.pathname] = {\r\n\t\t\t\t[\"offset\"] = file:seek(),\r\n\t\t\t\t[\"size\"] = header.size\r\n\t\t\t}",
+    "type": "statement:assign"
+  }, {
+    "id": 91,
+    "text": "local p = file:seek(\"cur\", 512 * math.ceil(header.size / 512))",
+    "type": "statement:localassign"
+  }, {
+    "id": 92,
+    "text": "setmetatable(archive, TarFile)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 94,
+    "text": "function(s, var)\r\n\t\treturn self:read(\"*l\")\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 97,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 98,
+    "text": "i",
+    "type": "global function"
+  }, {
+    "id": 99,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 100,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 101,
+    "text": "ceil",
+    "type": "global function"
+  }, {
+    "id": 102,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 103,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 105,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 106,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 107,
+    "text": "byte",
+    "type": "global function"
+  }, {
+    "id": 108,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 109,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 110,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 128,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 129,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 130,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 131,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 132,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 133,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 134,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 135,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 136,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

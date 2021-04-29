@@ -1,0 +1,693 @@
+{
+  "_filename": "loop.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lzmq/src/lua/lzmq/loop.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 35
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 43
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 45
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 49
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 50
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 51
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 53
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 54
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 55
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 56
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 57
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 58
+  }, {
+    "from": 61,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 62,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 63,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 64,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 65
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 66
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "provides",
+    "to": 68
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 69
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 72
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 73
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "provides",
+    "to": 75
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 76
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 77
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 78
+  }, {
+    "from": 60,
+    "label": "represents",
+    "to": 79
+  }, {
+    "from": 78,
+    "label": "provides",
+    "to": 79
+  }, {
+    "from": 80,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 81,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "loop",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "local function class()\r\n  local o = {\r\n    new = function(self, ...)\r\n      return setmetatable({},self):init(...)\r\n    end\r\n  }\r\n  o.__index = o\r\n  return o\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function time_event:init(fn)\r\n  self.private_ = {\r\n    timer = ztimer.monotonic();\r\n    lock  = false;\r\n    fn    = fn;\r\n  }\r\n  return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function time_event:set_time(tm)\r\n  if self.private_.timer:is_monotonic() then\r\n    self.private_.timer = ztimer.absolute()\r\n  end\r\n  self.private_.timer:start(tm)\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function time_event:set_interval(interval)\r\n  if self.private_.timer:is_absolute() then\r\n    self.private_.timer = ztimer.monotonic()\r\n  end\r\n  self.private_.once = false\r\n  self.private_.timer:start(interval)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function time_event:set_interval_once(interval)\r\n  self:set_interval(interval)\r\n  self.private_.once = true\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function time_event:sleep_interval()\r\n  return self.private_.timer:rest()\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function time_event:started()\r\n  return self.private_.timer:started()\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function time_event:reset()\r\n  self.private_.timer:stop()\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function time_event:restart()\r\n  local is_once = self.private_.once or self.private_.timer:is_absolute()\r\n  if is_once then\r\n    if self.private_.timer:started() then\r\n      self.private_.timer:stop()\r\n    end\r\n    return false\r\n  end\r\n  self.private_.timer:start()\r\n  return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function time_event:fire(...)\r\n  return self.private_.fn( self, ... )\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function time_event:pfire(...)\r\n  local ok, err = pcall( self.private_.fn, self, ... )\r\n  if (not ok) and self.on_error then\r\n    self:on_error(err)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function time_event:lock()   self.private_.lock = true  end",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function time_event:unlock() self.private_.lock = false end",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function time_event:locked() return self.private_.lock  end",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function event_list:new(...)\r\n  return setmetatable({}, self):init(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function event_list:init()\r\n  self.private_ = {events = {}}\r\n  return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "function event_list:destroy()\r\n  self.private_.events = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "function event_list:add(ev)\r\n  table.insert(self.private_.events, ev)\r\n  return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "function event_list:count()\r\n  return #self.private_.events\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "function event_list:sleep_interval(min_interval)\r\n  for i = 1, #self.private_.events do\r\n    local ev = self.private_.events[i]\r\n    if (not ev:locked()) and (ev:started()) then\r\n      local int = ev:sleep_interval()\r\n      if min_interval > int then min_interval = int end\r\n    end\r\n  end\r\n  return min_interval\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "function event_list:fire(...)\r\n  local cnt = 0\r\n  local i = 0\r\n  while(true)do\r\n    --[[ в процессе обработки очередного события events может изменится\r\n    -- ** или метод fire быть вызван рекурсивно. \r\n    -- ** Для избежания рекурсивного вызова событий мы их блокируем на время обработки\r\n    -- ** В процессе обработки события другие события могут быть добавлены или удалены\r\n    -- ** Событие может быть сброшено из вне: ev = loop:add_XXX(...); ev:reset()\r\n    -- ** Такое событие нужно просто удалить. \r\n    -- ** \r\n    -- ** Возможные развития событий \r\n    -- **  на текущем проходе (1) событие #1 отработало и ожидает удаление (например одноразовый вызов)\r\n    -- **  событие #2 в процессе обработки вызывает sleep_ex, что вызывает рекурсивный вызов fire.\r\n    -- **  этот проход (2) обнаруживает событие #1 как нерабочее и помечает его на удаление \r\n    -- **  событие #2 заблокировано и не может быть проверено.\r\n    -- **  проход (2) проверяет остальные события\r\n    -- **  проход (2) удаляет событие #1 и завершается\r\n    -- **  Этот процесс может повторятся несколько раз или вызыватся рекурсивно\r\n    -- **  завершается обработка события #2 на проходе (1).\r\n    -- **  список событий изменился. если в списке было 3 события, то текущий проход пропустил бы его. \r\n    -- **   Альтернатива - проверка списка с начала после каждог ev:fire() -\r\n    -- **     события с конца списка могут ни когда не выполнится.\r\n    -- **   Альтернатива - копирование списка перед проходом - лишняя операция копирования, при условии \r\n    -- **     редкого изменения списка событий.\r\n    -- **  С учетом того, что для срабатывания его время должно находится в пределах от момента завершения \r\n    -- **    последнего вложенного прохода(который должен быть иначе бы событие #1 осталось) до текущего момента\r\n    -- **    можно смирится с тем, что это событие будет вызванно после операции poll или на следующем рекурсивном вызове\r\n    -- **    например в момент обработки события #4\r\n    -- ]]\r\n\r\n    i = i + 1\r\n    local ev = self.private_.events[i]\r\n    if not ev then break end\r\n    if not ev:locked() then\r\n      if ev:started() then \r\n        local int = ev:sleep_interval()\r\n        if int == 0 then \r\n          ev:lock()\r\n          ev:fire(...) -- может вызвать рекурсию\r\n          ev:unlock()\r\n          if ev:started() and ev:restart() then assert(ev:started()) else assert(not ev:started()) end\r\n          cnt = cnt + 1\r\n        end\r\n      else\r\n        table.remove(self.private_.events, i)\r\n        i = i - 1\r\n      end\r\n    end\r\n  end\r\n  self:purge()\r\n  return cnt\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "function event_list:purge()\r\n  for i = #self.private_.events, 1, -1 do\r\n    if (not self.private_.events[i]:locked()) \r\n    and(not self.private_.events[i]:started())\r\n    then\r\n      table.remove(self.private_.events, i)\r\n    end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "function zmq_loop.sleep(ms) ztimer.sleep(ms) end",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "function zmq_loop:init(N, ctx)\r\n  self.private_ = self.private_ or {}\r\n  self.private_.sockets = {}\r\n  self.private_.event_list = event_list:new()\r\n\r\n  local poller, err  = zpoller.new(N)\r\n  if not poller then return nil, err end\r\n  self.private_.poller = poller\r\n\r\n  local context, err\r\n  if not ctx then context, err = zmq.init(1)\r\n  else context, err = ctx end\r\n  if not context then self:destroy() return nil, err end\r\n  self.private_.context = context\r\n\r\n  return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "function zmq_loop:destroyed()\r\n  return nil == self.private_.event_list\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "function zmq_loop:destroy()\r\n  if self:destroyed() then return end\r\n\r\n  self.private_.event_list:destroy()\r\n  for s in pairs(self.private_.sockets) do\r\n    self.private_.poller:remove(s)\r\n    if( type(s) ~= 'number' ) then\r\n      s:close()\r\n    end\r\n  end\r\n  if self.private_.context  then self.private_.context:term() end\r\n\r\n  self.private_.sockets = nil\r\n  self.private_.event_list = nil\r\n  self.private_.poller = nil\r\n  self.private_.context = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "function zmq_loop:context()\r\n  return self.private_.context\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "function zmq_loop:interrupt()\r\n  self.private_.poller:stop()\r\n  self.private_.interrupt = true\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "function zmq_loop:interrupted()\r\n  return (self.private_.interrupt) or (self.private_.poller.is_running == false)\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "function zmq_loop:poll(interval)\r\n  if self:interrupted() then return nil, 'interrupt' end\r\n  interval = self.private_.event_list:sleep_interval(interval)\r\n  local cnt, msg = self.private_.poller:poll(interval * ZMQ_POLL_MSEC)\r\n  if not cnt then\r\n    self:interrupt()\r\n    return nil, msg\r\n  end\r\n  if self:interrupted() then return nil, 'interrupt' end\r\n  cnt = cnt + self.private_.event_list:fire(self)\r\n  return cnt\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "function zmq_loop:sleep_ex(interval)\r\n  local start = ztimer.monotonic_time()\r\n  local rest = interval\r\n  local c = 0\r\n  while true do\r\n    local cnt, msg = self:poll(rest)\r\n    if not cnt then return nil, msg end\r\n    c = c + cnt\r\n    rest = interval - ztimer.monotonic_elapsed(start)\r\n    if rest <= 0 then return c end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "function zmq_loop:flush(interval)\r\n  if self:interrupted() then return nil, 'interrupt' end\r\n  interval = interval or 0\r\n  local start = ztimer.monotonic_time()\r\n  local rest = interval\r\n  local c = 0\r\n  while true do \r\n    local cnt, msg = self.private_.poller:poll(0)\r\n    if not cnt then return nil, msg end\r\n    c = c + cnt\r\n    rest = interval - ztimer.monotonic_elapsed(start)\r\n    if (cnt == 0) or (rest <= 0) then break end\r\n  end\r\n  if self:interrupted() then return nil, 'interrupt', c end\r\n  return c\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "function zmq_loop:start(ms, fn)\r\n  local self_ = self\r\n  \r\n  -- если не задан интервал, то не надо вызывать\r\n  if not ms then fn = function()end end\r\n\r\n  if (not fn) and ms then \r\n    -- если явна не задана функция, то вызываем обработчик\r\n    -- в основном для совместимости с предыдущей реализацией\r\n    fn = function() if self_.on_time then self_:on_time() end end\r\n  end\r\n  ms = ms or 60000 -- просто большое число.\r\n\r\n  while true do\r\n    local cnt, msg = self:sleep_ex(ms)\r\n    if not cnt then return nil, msg end\r\n    fn()\r\n    if self:interrupted() then return nil, 'interrupt' end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 36,
+    "text": "function()end",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "function() if self_.on_time then self_:on_time() end end",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "function zmq_loop:add_socket(skt, fn_or_flags, fn)\r\n  if fn == nil then \r\n    assert(fn_or_flags and type(fn_or_flags) ~= 'number', 'function expected')\r\n    fn, fn_or_flags = fn_or_flags, nil\r\n  end\r\n  local zmq_flag = fn_or_flags or zmq.POLLIN\r\n  local loop = self\r\n  self.private_.poller:add(skt, zmq_flag, function(skt, events)\r\n    return fn(skt, events, loop)\r\n  end)\r\n  self.private_.sockets[skt] = true\r\n  return skt\r\nend",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "function zmq_loop:add_time(tm, fn)\r\n  local ev = time_event:new(fn)\r\n  ev:set_time(tm)\r\n  self.private_.event_list:add(ev)\r\n  return ev\r\nend",
+    "type": "function"
+  }, {
+    "id": 40,
+    "text": "function zmq_loop:add_interval(interval, fn)\r\n  assert(type(interval) == 'number')\r\n  local ev = time_event:new(fn)\r\n  ev:set_interval(interval)\r\n  self.private_.event_list:add(ev)\r\n  return ev\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "function zmq_loop:add_once(interval, fn)\r\n  assert(type(interval) == 'number')\r\n  local ev = time_event:new(fn)\r\n  ev:set_interval_once(interval)\r\n  self.private_.event_list:add(ev)\r\n  return ev\r\nend",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "function zmq_loop:remove_socket(skt)\r\n  if not self.private_.sockets[skt] then return end\r\n  self.private_.poller:remove(skt)\r\n  self.private_.sockets[skt] = nil\r\n  return skt\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "function zmq_loop:create_socket(...)\r\n  local skt, err = self.private_.context:socket(...)\r\n  if not skt then return nil, err end\r\n  if type(skt) == 'userdata' then\r\n    return skt\r\n  end\r\n  if type(skt) == 'table' and skt.recv then\r\n    return skt\r\n  end\r\n  return nil, skt\r\nend",
+    "type": "function"
+  }, {
+    "id": 44,
+    "text": "function zmq_loop:add_new_socket(opt, ...)\r\n  local skt, err = self:create_socket(opt)\r\n  if not skt then return nil, err end\r\n  local ok, err = self:add_socket(skt, ...)\r\n  if not ok then skt:close() end\r\n  return ok, err\r\nend",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "function zmq_loop:create_sub(subs)\r\n  return self:create_socket{zmq.SUB, subscribe = subs}\r\nend",
+    "type": "function"
+  }, {
+    "id": 46,
+    "text": "function zmq_loop:create_sub_bind(addr, subs)\r\n  return self:create_socket{zmq.SUB, subscribe = subs, bind = addr}\r\nend",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "function zmq_loop:create_sub_connect(addr, subs)\r\n  return self:create_socket{zmq.SUB, subscribe = subs, connect = addr}\r\nend",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "function zmq_loop:create_bind(sock_type, addr)\r\n  return self:create_socket{sock_type, bind = addr}\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "function zmq_loop:create_connect(sock_type, addr)\r\n  return self:create_socket{sock_type, connect = addr}\r\nend",
+    "type": "function"
+  }, {
+    "id": 50,
+    "text": "function zmq_loop:add_new_bind(sock_type, addr, ...)\r\n  return self:add_new_socket({sock_type, bind = addr}, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 51,
+    "text": "function zmq_loop:add_new_connect(sock_type, addr, ...)\r\n  return self:add_new_socket({sock_type, connect = addr}, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 52,
+    "text": "function zmq_loop:add_sub_connect(addr, subs, ...)\r\n  return self:add_new_socket({zmq.SUB, connect = addr, subscribe = subs}, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "function zmq_loop:add_sub_bind(addr, subs, ...)\r\n  return self:add_new_socket({zmq.SUB, bind = addr, subscribe = subs}, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 54,
+    "text": "function M.new(p, ...)\r\n  if p == M then return zmq_loop:new(...) end\r\n  return zmq_loop:new(p, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "function(self, ...)\r\n      return setmetatable({},self):init(...)\r\n    end",
+    "type": "function"
+  }, {
+    "id": 56,
+    "text": "function(skt, events)\r\n    return fn(skt, events, loop)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 57,
+    "text": "function(ZMQ_NAME)\r\n\r\nlocal zmq      = require (ZMQ_NAME)\r\nlocal zpoller  = require (ZMQ_NAME .. \".poller\")\r\nlocal ztimer   = require (ZMQ_NAME .. \".timer\")\r\n\r\nlocal ZMQ_POLL_MSEC = 1000\r\ndo local ver = zmq.version()\r\n  if ver and ver[1] > 2 then\r\n    ZMQ_POLL_MSEC = 1\r\n  end\r\nend\r\n\r\nlocal function class()\r\n  local o = {\r\n    new = function(self, ...)\r\n      return setmetatable({},self):init(...)\r\n    end\r\n  }\r\n  o.__index = o\r\n  return o\r\nend\r\n\r\n-------------------------------------------------------------------\r\nlocal time_event = class() do\r\n\r\n-- Пасивные события.\r\n\r\nfunction time_event:init(fn)\r\n  self.private_ = {\r\n    timer = ztimer.monotonic();\r\n    lock  = false;\r\n    fn    = fn;\r\n  }\r\n  return self\r\nend\r\n\r\nfunction time_event:set_time(tm)\r\n  if self.private_.timer:is_monotonic() then\r\n    self.private_.timer = ztimer.absolute()\r\n  end\r\n  self.private_.timer:start(tm)\r\nend\r\n\r\nfunction time_event:set_interval(interval)\r\n  if self.private_.timer:is_absolute() then\r\n    self.private_.timer = ztimer.monotonic()\r\n  end\r\n  self.private_.once = false\r\n  self.private_.timer:start(interval)\r\nend\r\n\r\nfunction time_event:set_interval_once(interval)\r\n  self:set_interval(interval)\r\n  self.private_.once = true\r\nend\r\n\r\n---\r\n-- возвращает количество мс до момента срабатывания\r\nfunction time_event:sleep_interval()\r\n  return self.private_.timer:rest()\r\nend\r\n\r\n---\r\n-- Событие находится в рабочем состоянии\r\nfunction time_event:started()\r\n  return self.private_.timer:started()\r\nend\r\n\r\n---\r\n-- Сбрасывет событие. \r\nfunction time_event:reset()\r\n  self.private_.timer:stop()\r\nend\r\n\r\n---\r\n-- \"Взводит\" событие заново.\r\n-- Если это одноразовое событие, то оно останавливается.\r\n-- возвращает признак started\r\nfunction time_event:restart()\r\n  local is_once = self.private_.once or self.private_.timer:is_absolute()\r\n  if is_once then\r\n    if self.private_.timer:started() then\r\n      self.private_.timer:stop()\r\n    end\r\n    return false\r\n  end\r\n  self.private_.timer:start()\r\n  return true\r\nend\r\n\r\nfunction time_event:fire(...)\r\n  return self.private_.fn( self, ... )\r\nend\r\n\r\nfunction time_event:pfire(...)\r\n  local ok, err = pcall( self.private_.fn, self, ... )\r\n  if (not ok) and self.on_error then\r\n    self:on_error(err)\r\n  end\r\nend\r\n\r\nfunction time_event:lock()   self.private_.lock = true  end\r\nfunction time_event:unlock() self.private_.lock = false end\r\nfunction time_event:locked() return self.private_.lock  end\r\n\r\nend\r\n-------------------------------------------------------------------\r\n\r\n-------------------------------------------------------------------\r\nlocal event_list = class() do\r\n\r\nfunction event_list:new(...)\r\n  return setmetatable({}, self):init(...)\r\nend\r\n\r\nfunction event_list:init()\r\n  self.private_ = {events = {}}\r\n  return self\r\nend\r\n\r\nfunction event_list:destroy()\r\n  self.private_.events = nil\r\nend\r\n\r\nfunction event_list:add(ev)\r\n  table.insert(self.private_.events, ev)\r\n  return true\r\nend\r\n\r\nfunction event_list:count()\r\n  return #self.private_.events\r\nend\r\n\r\n---\r\n-- Возвращает время до следующего события\r\nfunction event_list:sleep_interval(min_interval)\r\n  for i = 1, #self.private_.events do\r\n    local ev = self.private_.events[i]\r\n    if (not ev:locked()) and (ev:started()) then\r\n      local int = ev:sleep_interval()\r\n      if min_interval > int then min_interval = int end\r\n    end\r\n  end\r\n  return min_interval\r\nend\r\n\r\n---\r\n-- Вызывает заплонированные события\r\nfunction event_list:fire(...)\r\n  local cnt = 0\r\n  local i = 0\r\n  while(true)do\r\n    --[[ в процессе обработки очередного события events может изменится\r\n    -- ** или метод fire быть вызван рекурсивно. \r\n    -- ** Для избежания рекурсивного вызова событий мы их блокируем на время обработки\r\n    -- ** В процессе обработки события другие события могут быть добавлены или удалены\r\n    -- ** Событие может быть сброшено из вне: ev = loop:add_XXX(...); ev:reset()\r\n    -- ** Такое событие нужно просто удалить. \r\n    -- ** \r\n    -- ** Возможные развития событий \r\n    -- **  на текущем проходе (1) событие #1 отработало и ожидает удаление (например одноразовый вызов)\r\n    -- **  событие #2 в процессе обработки вызывает sleep_ex, что вызывает рекурсивный вызов fire.\r\n    -- **  этот проход (2) обнаруживает событие #1 как нерабочее и помечает его на удаление \r\n    -- **  событие #2 заблокировано и не может быть проверено.\r\n    -- **  проход (2) проверяет остальные события\r\n    -- **  проход (2) удаляет событие #1 и завершается\r\n    -- **  Этот процесс может повторятся несколько раз или вызыватся рекурсивно\r\n    -- **  завершается обработка события #2 на проходе (1).\r\n    -- **  список событий изменился. если в списке было 3 события, то текущий проход пропустил бы его. \r\n    -- **   Альтернатива - проверка списка с начала после каждог ev:fire() -\r\n    -- **     события с конца списка могут ни когда не выполнится.\r\n    -- **   Альтернатива - копирование списка перед проходом - лишняя операция копирования, при условии \r\n    -- **     редкого изменения списка событий.\r\n    -- **  С учетом того, что для срабатывания его время должно находится в пределах от момента завершения \r\n    -- **    последнего вложенного прохода(который должен быть иначе бы событие #1 осталось) до текущего момента\r\n    -- **    можно смирится с тем, что это событие будет вызванно после операции poll или на следующем рекурсивном вызове\r\n    -- **    например в момент обработки события #4\r\n    -- ]]\r\n\r\n    i = i + 1\r\n    local ev = self.private_.events[i]\r\n    if not ev then break end\r\n    if not ev:locked() then\r\n      if ev:started() then \r\n        local int = ev:sleep_interval()\r\n        if int == 0 then \r\n          ev:lock()\r\n          ev:fire(...) -- может вызвать рекурсию\r\n          ev:unlock()\r\n          if ev:started() and ev:restart() then assert(ev:started()) else assert(not ev:started()) end\r\n          cnt = cnt + 1\r\n        end\r\n      else\r\n        table.remove(self.private_.events, i)\r\n        i = i - 1\r\n      end\r\n    end\r\n  end\r\n  self:purge()\r\n  return cnt\r\nend\r\n\r\n---\r\n-- удаляет остановленные события\r\nfunction event_list:purge()\r\n  for i = #self.private_.events, 1, -1 do\r\n    if (not self.private_.events[i]:locked()) \r\n    and(not self.private_.events[i]:started())\r\n    then\r\n      table.remove(self.private_.events, i)\r\n    end\r\n  end\r\nend\r\n\r\nend\r\n-------------------------------------------------------------------\r\n\r\n-------------------------------------------------------------------\r\nlocal zmq_loop = class() do\r\n\r\n-- static\r\nfunction zmq_loop.sleep(ms) ztimer.sleep(ms) end\r\n\r\nfunction zmq_loop:init(N, ctx)\r\n  self.private_ = self.private_ or {}\r\n  self.private_.sockets = {}\r\n  self.private_.event_list = event_list:new()\r\n\r\n  local poller, err  = zpoller.new(N)\r\n  if not poller then return nil, err end\r\n  self.private_.poller = poller\r\n\r\n  local context, err\r\n  if not ctx then context, err = zmq.init(1)\r\n  else context, err = ctx end\r\n  if not context then self:destroy() return nil, err end\r\n  self.private_.context = context\r\n\r\n  return self\r\nend\r\n\r\nfunction zmq_loop:destroyed()\r\n  return nil == self.private_.event_list\r\nend\r\n\r\nfunction zmq_loop:destroy()\r\n  if self:destroyed() then return end\r\n\r\n  self.private_.event_list:destroy()\r\n  for s in pairs(self.private_.sockets) do\r\n    self.private_.poller:remove(s)\r\n    if( type(s) ~= 'number' ) then\r\n      s:close()\r\n    end\r\n  end\r\n  if self.private_.context  then self.private_.context:term() end\r\n\r\n  self.private_.sockets = nil\r\n  self.private_.event_list = nil\r\n  self.private_.poller = nil\r\n  self.private_.context = nil\r\nend\r\n\r\nfunction zmq_loop:context()\r\n  return self.private_.context\r\nend\r\n\r\nfunction zmq_loop:interrupt()\r\n  self.private_.poller:stop()\r\n  self.private_.interrupt = true\r\nend\r\nzmq_loop.stop = zmq_loop.interrupt\r\n\r\nfunction zmq_loop:interrupted()\r\n  return (self.private_.interrupt) or (self.private_.poller.is_running == false)\r\nend\r\nzmq_loop.stopped = zmq_loop.interrupted\r\n\r\nfunction zmq_loop:poll(interval)\r\n  if self:interrupted() then return nil, 'interrupt' end\r\n  interval = self.private_.event_list:sleep_interval(interval)\r\n  local cnt, msg = self.private_.poller:poll(interval * ZMQ_POLL_MSEC)\r\n  if not cnt then\r\n    self:interrupt()\r\n    return nil, msg\r\n  end\r\n  if self:interrupted() then return nil, 'interrupt' end\r\n  cnt = cnt + self.private_.event_list:fire(self)\r\n  return cnt\r\nend\r\n\r\n---\r\n-- в течении ожидания обрабатываются все события\r\n-- в том числе и запланированные\r\nfunction zmq_loop:sleep_ex(interval)\r\n  local start = ztimer.monotonic_time()\r\n  local rest = interval\r\n  local c = 0\r\n  while true do\r\n    local cnt, msg = self:poll(rest)\r\n    if not cnt then return nil, msg end\r\n    c = c + cnt\r\n    rest = interval - ztimer.monotonic_elapsed(start)\r\n    if rest <= 0 then return c end\r\n  end\r\nend\r\n\r\n---\r\n-- обрабатывает только события IO поступившие на текущий момент\r\n-- если событий нет, то функция возвращает управление немедленно\r\nfunction zmq_loop:flush(interval)\r\n  if self:interrupted() then return nil, 'interrupt' end\r\n  interval = interval or 0\r\n  local start = ztimer.monotonic_time()\r\n  local rest = interval\r\n  local c = 0\r\n  while true do \r\n    local cnt, msg = self.private_.poller:poll(0)\r\n    if not cnt then return nil, msg end\r\n    c = c + cnt\r\n    rest = interval - ztimer.monotonic_elapsed(start)\r\n    if (cnt == 0) or (rest <= 0) then break end\r\n  end\r\n  if self:interrupted() then return nil, 'interrupt', c end\r\n  return c\r\nend\r\n\r\n---\r\n-- Запускает цикл обработки событий\r\n--\r\nfunction zmq_loop:start(ms, fn)\r\n  local self_ = self\r\n  \r\n  -- если не задан интервал, то не надо вызывать\r\n  if not ms then fn = function()end end\r\n\r\n  if (not fn) and ms then \r\n    -- если явна не задана функция, то вызываем обработчик\r\n    -- в основном для совместимости с предыдущей реализацией\r\n    fn = function() if self_.on_time then self_:on_time() end end\r\n  end\r\n  ms = ms or 60000 -- просто большое число.\r\n\r\n  while true do\r\n    local cnt, msg = self:sleep_ex(ms)\r\n    if not cnt then return nil, msg end\r\n    fn()\r\n    if self:interrupted() then return nil, 'interrupt' end\r\n  end\r\nend\r\n\r\n---------------------------------------------------------\r\n-- регистрация событий\r\n---------------------------------------------------------\r\n\r\n---\r\n-- Добавляет zmq сокет \r\n-- fn - функци обработки в/в. первым параметром передается zmq_loop\r\n-- zmq_flag - флаги для poll(по умолчанию zmq.POLLIN)\r\n-- \r\n-- сокет переходит во владение zmq_loop и закрывается в \r\n-- момент уничтожения zmq_loop\r\nfunction zmq_loop:add_socket(skt, fn_or_flags, fn)\r\n  if fn == nil then \r\n    assert(fn_or_flags and type(fn_or_flags) ~= 'number', 'function expected')\r\n    fn, fn_or_flags = fn_or_flags, nil\r\n  end\r\n  local zmq_flag = fn_or_flags or zmq.POLLIN\r\n  local loop = self\r\n  self.private_.poller:add(skt, zmq_flag, function(skt, events)\r\n    return fn(skt, events, loop)\r\n  end)\r\n  self.private_.sockets[skt] = true\r\n  return skt\r\nend\r\n\r\nfunction zmq_loop:add_time(tm, fn)\r\n  local ev = time_event:new(fn)\r\n  ev:set_time(tm)\r\n  self.private_.event_list:add(ev)\r\n  return ev\r\nend\r\n\r\nfunction zmq_loop:add_interval(interval, fn)\r\n  assert(type(interval) == 'number')\r\n  local ev = time_event:new(fn)\r\n  ev:set_interval(interval)\r\n  self.private_.event_list:add(ev)\r\n  return ev\r\nend\r\n\r\nfunction zmq_loop:add_once(interval, fn)\r\n  assert(type(interval) == 'number')\r\n  local ev = time_event:new(fn)\r\n  ev:set_interval_once(interval)\r\n  self.private_.event_list:add(ev)\r\n  return ev\r\nend\r\n\r\nfunction zmq_loop:remove_socket(skt)\r\n  if not self.private_.sockets[skt] then return end\r\n  self.private_.poller:remove(skt)\r\n  self.private_.sockets[skt] = nil\r\n  return skt\r\nend\r\n\r\n---------------------------------------------------------\r\n-- Создание сокетов\r\n---------------------------------------------------------\r\n---\r\n-- Все следующие функции являются не обязательными и \r\n-- служат для упращения создания сокетов\r\n\r\n-- create_XXX - только создают, но не добавляют сокет в zmq_loop\r\n-- add_XXX -  добавляют сокет(возможно вновь созданный) в zmq_loop \r\n\r\n---\r\n-- создает сокет в контексте zmq_loop\r\nfunction zmq_loop:create_socket(...)\r\n  local skt, err = self.private_.context:socket(...)\r\n  if not skt then return nil, err end\r\n  if type(skt) == 'userdata' then\r\n    return skt\r\n  end\r\n  if type(skt) == 'table' and skt.recv then\r\n    return skt\r\n  end\r\n  return nil, skt\r\nend\r\n\r\nfunction zmq_loop:add_new_socket(opt, ...)\r\n  local skt, err = self:create_socket(opt)\r\n  if not skt then return nil, err end\r\n  local ok, err = self:add_socket(skt, ...)\r\n  if not ok then skt:close() end\r\n  return ok, err\r\nend\r\n\r\nfunction zmq_loop:create_sub(subs)\r\n  return self:create_socket{zmq.SUB, subscribe = subs}\r\nend\r\n\r\nfunction zmq_loop:create_sub_bind(addr, subs)\r\n  return self:create_socket{zmq.SUB, subscribe = subs, bind = addr}\r\nend\r\n\r\nfunction zmq_loop:create_sub_connect(addr, subs)\r\n  return self:create_socket{zmq.SUB, subscribe = subs, connect = addr}\r\nend\r\n\r\nfunction zmq_loop:create_bind(sock_type, addr)\r\n  return self:create_socket{sock_type, bind = addr}\r\nend\r\n\r\nfunction zmq_loop:create_connect(sock_type, addr)\r\n  return self:create_socket{sock_type, connect = addr}\r\nend\r\n\r\nfunction zmq_loop:add_new_bind(sock_type, addr, ...)\r\n  return self:add_new_socket({sock_type, bind = addr}, ...)\r\nend\r\n\r\nfunction zmq_loop:add_new_connect(sock_type, addr, ...)\r\n  return self:add_new_socket({sock_type, connect = addr}, ...)\r\nend\r\n\r\nfunction zmq_loop:add_sub_connect(addr, subs, ...)\r\n  return self:add_new_socket({zmq.SUB, connect = addr, subscribe = subs}, ...)\r\nend\r\n\r\nfunction zmq_loop:add_sub_bind(addr, subs, ...)\r\n  return self:add_new_socket({zmq.SUB, bind = addr, subscribe = subs}, ...)\r\nend\r\n\r\nend\r\n-------------------------------------------------------------------\r\n\r\nlocal M = {}\r\n\r\nfunction M.new(p, ...)\r\n  if p == M then return zmq_loop:new(...) end\r\n  return zmq_loop:new(p, ...)\r\nend\r\n\r\nM.sleep = ztimer.sleep\r\n\r\nM.zmq_loop_class = zmq_loop\r\n\r\nreturn M\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 58,
+    "text": "sleep",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "version",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

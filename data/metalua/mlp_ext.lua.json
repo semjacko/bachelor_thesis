@@ -1,0 +1,405 @@
+{
+  "_filename": "mlp_ext.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/metalua/src/compiler/mlp_ext.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 28,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "assigns",
+    "to": 42
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "assigns",
+    "to": 44
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "mlp_ext",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function adt (lx)\r\n   local tagval = id (lx) [1]\r\n   local tagkey = {tag=\"Pair\", {tag=\"String\", \"tag\"}, {tag=\"String\", tagval} }\r\n   if lx:peek().tag == \"String\" or lx:peek().tag == \"Number\" then\r\n      return { tag=\"Table\", tagkey, lx:next() }\r\n   elseif lx:is_keyword (lx:peek(), \"{\") then\r\n      local x = table (lx)\r\n      _G.table.insert (x, 1, tagkey)\r\n      return x\r\n   else return { tag=\"Table\", tagkey } end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local tagval = id (lx) [1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local tagkey = {tag=\"Pair\", {tag=\"String\", \"tag\"}, {tag=\"String\", tagval} }",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if lx:peek().tag == \"String\" or lx:peek().tag == \"Number\" then\r\n      return { tag=\"Table\", tagkey, lx:next() }\r\n   elseif lx:is_keyword (lx:peek(), \"{\") then\r\n      local x = table (lx)\r\n      _G.table.insert (x, 1, tagkey)\r\n      return x\r\n   else return { tag=\"Table\", tagkey } end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "local x = table (lx)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "_G.table.insert (x, 1, tagkey)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "local function expr_in_backquotes (lx) return expr(lx, 35) end",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function (a, b)\r\n   assert( #a==1 and #b==1, \"No multi-args for '<-'\")                         \r\n   return { tag=\"Call\", { tag=\"Index\", { tag=\"Id\", \"table\" },\r\n                                       { tag=\"String\", \"override\" } },\r\n                        a[1], b[1]} \r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "assert( #a==1 and #b==1, \"No multi-args for '<-'\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "local function op_assign(kw, op) \r\n   local function rhs(a, b)\r\n      return { tag=\"Op\", op, a, b } \r\n   end\r\n   local function f(a,b) \r\n      return { tag=\"Set\", a, _G.table.imap(rhs, a, b) }\r\n   end\r\n   mlp.lexer:add (kw)\r\n   mlp.stat.assignments[kw] = f\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "local function rhs(a, b)\r\n      return { tag=\"Op\", op, a, b } \r\n   end",
+    "type": "statement:localfunction"
+  }, {
+    "id": 16,
+    "text": "local function f(a,b) \r\n      return { tag=\"Set\", a, _G.table.imap(rhs, a, b) }\r\n   end",
+    "type": "statement:localfunction"
+  }, {
+    "id": 17,
+    "text": "mlp.lexer:add (kw)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "mlp.stat.assignments[kw] = f",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "local function rhs(a, b)\r\n      return { tag=\"Op\", op, a, b } \r\n   end",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "local function f(a,b) \r\n      return { tag=\"Set\", a, _G.table.imap(rhs, a, b) }\r\n   end",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function (x) \r\n      local li = x[2].lineinfo\r\n      return { tag=\"Function\", x[1], \r\n               { {tag=\"Return\", x[2], lineinfo=li }, lineinfo=li } }\r\n   end",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "local li = x[2].lineinfo",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function(a, op, b) return {tag=\"Call\", op[1], a, b} end",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 29,
+    "text": "fget",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "_G.table.imap",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "table",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "id",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "_G.table.insert",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "_G.table.iforeach",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "sequence",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "expr",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

@@ -1,0 +1,225 @@
+{
+  "_filename": "bigendian.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io/bigendian.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 23
+  }, {
+    "from": 18,
+    "label": "represents",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "provides",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 18,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 18,
+    "label": "contains",
+    "to": 9
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "bigendian",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function be.hasvalue()\r\n    return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function be.width(n)\r\n    assert(n == nil, \"'>' is an endianness control, and does not have width\")\r\n    return 0\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "assert(n == nil, \"'>' is an endianness control, and does not have width\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function be.unpack()\r\n    io(\"endianness\", \"big\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "io(\"endianness\", \"big\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "io",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "interface"
+  } ]
+}

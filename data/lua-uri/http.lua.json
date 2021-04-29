@@ -1,0 +1,353 @@
+{
+  "_filename": "http.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/http.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "assigns",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "assigns",
+    "to": 34
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 37
+  }, {
+    "from": 28,
+    "label": "represents",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "provides",
+    "to": 38
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "http",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "uri",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function testcase:test_http ()\r\n    local uri = assert(URI:new(\"HTtp://FOo/Blah?Search#Id\"))\r\n    is(\"uri.http\", uri._NAME)\r\n    is(\"http://foo/Blah?Search#Id\", uri:uri())\r\n    is(\"http://foo/Blah?Search#Id\", tostring(uri))\r\n    is(\"http\", uri:scheme())\r\n    is(\"foo\", uri:host())\r\n    is(80, uri:port())\r\n    is(\"/Blah\", uri:path())\r\n    is(nil, uri:userinfo())\r\n    is(\"Search\", uri:query())\r\n    is(\"Id\", uri:fragment())\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function testcase:test_https ()\r\n    local uri = assert(URI:new(\"HTtpS://FOo/Blah?Search#Id\"))\r\n    is(\"uri.https\", uri._NAME)\r\n    is(\"https://foo/Blah?Search#Id\", uri:uri())\r\n    is(\"https://foo/Blah?Search#Id\", tostring(uri))\r\n    is(\"https\", uri:scheme())\r\n    is(\"foo\", uri:host())\r\n    is(443, uri:port())\r\n    is(\"/Blah\", uri:path())\r\n    is(nil, uri:userinfo())\r\n    is(\"Search\", uri:query())\r\n    is(\"Id\", uri:fragment())\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function testcase:test_http_port ()\r\n    local uri = assert(URI:new(\"http://example.com:8080/foo\"))\r\n    is(8080, uri:port())\r\n    local old = uri:port(1234)\r\n    is(8080, old)\r\n    is(1234, uri:port())\r\n    is(\"http://example.com:1234/foo\", tostring(uri))\r\n    old = uri:port(80)\r\n    is(1234, old)\r\n    is(80, uri:port())\r\n    is(\"http://example.com/foo\", tostring(uri))\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function testcase:test_normalize_port ()\r\n    local uri = assert(URI:new(\"http://foo:80/\"))\r\n    is(\"http://foo/\", tostring(uri))\r\n    is(80, uri:port())\r\n    uri = assert(URI:new(\"http://foo:443/\"))\r\n    is(\"http://foo:443/\", tostring(uri))\r\n    is(443, uri:port())\r\n    uri = assert(URI:new(\"https://foo:443/\"))\r\n    is(\"https://foo/\", tostring(uri))\r\n    is(443, uri:port())\r\n    uri = assert(URI:new(\"https://foo:80/\"))\r\n    is(\"https://foo:80/\", tostring(uri))\r\n    is(80, uri:port())\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function testcase:test_set_userinfo ()\r\n    local uri = assert(URI:new(\"http://host/path\"))\r\n    assert_error(\"can't set userinfo\", function () uri:userinfo(\"x\") end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function () uri:userinfo(\"x\") end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "function M.default_port () return 80 end",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 13,
+    "text": "function M.init (self)\r\n    if self:userinfo() then\r\n        return nil, \"usernames and passwords are not allowed in HTTP URIs\"\r\n    end\r\n\r\n    -- RFC 2616 section 3.2.3 says that this is OK, but not that using the\r\n    -- redundant slash is canonical.  I'm adding it because browsers tend to\r\n    -- treat the version with the extra slash as the normalized form, and\r\n    -- the initial slash is always present in an HTTP GET request.\r\n    if self:path() == \"\" then self:path(\"/\") end\r\n\r\n    return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "if self:userinfo() then\r\n        return nil, \"usernames and passwords are not allowed in HTTP URIs\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "if self:path() == \"\" then self:path(\"/\") end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "self:path(\"/\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "subclass_of",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "uri_part_not_allowed",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "TestCase",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "run",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

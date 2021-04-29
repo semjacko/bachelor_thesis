@@ -1,0 +1,213 @@
+{
+  "_filename": "odbc.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasql-odbc/tests/odbc.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 22
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "odbc",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function ()\r\n\tassert2 (CREATE_TABLE_RETURN_VALUE, CONN:execute\"create table test_dt (f1 integer, f2 varchar(30), f3 bit )\")\r\n\t-- Inserts a number, a string value and a \"bit\" value.\r\n\tassert2 (1, CONN:execute\"insert into test_dt values (10, 'ABCDE', 1)\")\r\n\r\n\t-- Checks the results with the inserted values.\r\n\tlocal cur = CUR_OK (CONN:execute\"select * from test_dt\")\r\n\tlocal row, err = cur:fetch ({}, \"a\")\r\n\tassert2 (\"table\", type(row), err)\r\n\r\n\tassert2 (10, row.f1, \"Wrong number representation\")\r\n\tassert2 (\"ABCDE\", row.f2, \"Wrong string representation\")\r\n\tassert2 (true, row.f3, \"Wrong bit representation\")\r\n\r\n\t-- Drops the table\r\n    assert2 (DROP_TABLE_RETURN_VALUE0, CONN:execute(\"drop table test_dt\") )\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "assert2 (CREATE_TABLE_RETURN_VALUE, CONN:execute\"create table test_dt (f1 integer, f2 varchar(30), f3 bit )\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "assert2 (1, CONN:execute\"insert into test_dt values (10, 'ABCDE', 1)\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "local cur = CUR_OK (CONN:execute\"select * from test_dt\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local row, err = cur:fetch ({}, \"a\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "assert2 (\"table\", type(row), err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "assert2 (10, row.f1, \"Wrong number representation\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "assert2 (\"ABCDE\", row.f2, \"Wrong string representation\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "assert2 (true, row.f3, \"Wrong bit representation\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "assert2 (DROP_TABLE_RETURN_VALUE0, CONN:execute(\"drop table test_dt\") )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 14,
+    "text": "assert2",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "CUR_OK",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

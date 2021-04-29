@@ -1,0 +1,669 @@
+{
+  "_filename": "io_ext.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-stdlib/src/io_ext.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 65,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 65,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 65,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 66
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 67
+  }, {
+    "from": 66,
+    "label": "initializes",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "assigns",
+    "to": 69
+  }, {
+    "from": 66,
+    "label": "initializes",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "assigns",
+    "to": 71
+  }, {
+    "from": 66,
+    "label": "initializes",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "assigns",
+    "to": 73
+  }, {
+    "from": 67,
+    "label": "initializes",
+    "to": 65
+  }, {
+    "from": 67,
+    "label": "initializes",
+    "to": 65
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "io_ext",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function input_handle (h)\r\n  if h == nil then\r\n    h = input ()\r\n  elseif _G.type (h) == \"string\" then\r\n    h = io.open (h)\r\n  end\r\n  return h\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "if h == nil then\r\n    h = input ()\r\n  elseif _G.type (h) == \"string\" then\r\n    h = io.open (h)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 4,
+    "text": "h = input ()",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "h = io.open (h)",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function slurp (h)\r\n  h = input_handle (h)\r\n  if h then\r\n    local s = h:read (\"*a\")\r\n    h:close ()\r\n    return s\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "h = input_handle (h)",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "if h then\r\n    local s = h:read (\"*a\")\r\n    h:close ()\r\n    return s\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "local s = h:read (\"*a\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "h:close ()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function readlines (h)\r\n  h = input_handle (h)\r\n  local l = {}\r\n  for line in h:lines () do\r\n    table.insert (l, line)\r\n  end\r\n  h:close ()\r\n  return l\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "local l = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "for line in h:lines () do\r\n    table.insert (l, line)\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 17,
+    "text": "table.insert (l, line)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "function writelines (h, ...)\r\n  if io.type (h) ~= \"file\" then\r\n    io.write (h, \"\\n\")\r\n    h = io.output ()\r\n  end\r\n  for v in ileaves ({...}) do\r\n    h:write (v, \"\\n\")\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "if io.type (h) ~= \"file\" then\r\n    io.write (h, \"\\n\")\r\n    h = io.output ()\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "io.write (h, \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "h = io.output ()",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "for v in ileaves ({...}) do\r\n    h:write (v, \"\\n\")\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 24,
+    "text": "h:write (v, \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function splitdir (path)\r\n  return string.split (path, package.dirsep)\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function catfile (...)\r\n  return table.concat ({...}, package.dirsep)\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function catdir (...)\r\n  return (string.gsub (catfile (...), \"^$\", package.dirsep))\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function shell (c)\r\n  return io.slurp (io.popen (c))\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "function processFiles (f)\r\n  -- N.B. \"arg\" below refers to the global array of command-line args\r\n  if #arg == 0 then\r\n    table.insert (arg, \"-\")\r\n  end\r\n  for i, v in ipairs (arg) do\r\n    if v == \"-\" then\r\n      io.input (io.stdin)\r\n    else\r\n      io.input (v)\r\n    end\r\n    prog.file = v\r\n    f (v, i)\r\n  end\r\n  prog.file = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "if #arg == 0 then\r\n    table.insert (arg, \"-\")\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "table.insert (arg, \"-\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 37,
+    "text": "for i, v in ipairs (arg) do\r\n    if v == \"-\" then\r\n      io.input (io.stdin)\r\n    else\r\n      io.input (v)\r\n    end\r\n    prog.file = v\r\n    f (v, i)\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 38,
+    "text": "if v == \"-\" then\r\n      io.input (io.stdin)\r\n    else\r\n      io.input (v)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "io.input (io.stdin)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "io.input (v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "prog.file = v",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "f (v, i)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 43,
+    "text": "prog.file = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 46,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "input",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "input",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "split",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "slurp",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "f",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "ileaves",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "output",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "popen",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "getmetatable",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

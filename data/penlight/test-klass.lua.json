@@ -1,0 +1,281 @@
+{
+  "_filename": "test-klass.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/penlight/tests/test-klass.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "assigns",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "assigns",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "assigns",
+    "to": 26
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "assigns",
+    "to": 28
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 30
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test-klass",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function(self, name)\r\n    self.name = name\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "self.name = name",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function(self)\r\n    return \"hello \" .. self.name\r\n  end",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function(self)\r\n    return self.name\r\n  end",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function(self)\r\n    return \"hola \" .. self.name\r\n  end",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "B",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "A",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "class",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 30,
+    "text": "class)",
+    "type": "module"
+  } ]
+}

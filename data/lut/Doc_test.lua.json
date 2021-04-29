@@ -1,0 +1,613 @@
+{
+  "_filename": "Doc_test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lut/test/Doc_test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 38,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 38,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 57
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 58
+  }, {
+    "from": 57,
+    "label": "initializes",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "assigns",
+    "to": 60
+  }, {
+    "from": 57,
+    "label": "initializes",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "assigns",
+    "to": 62
+  }, {
+    "from": 57,
+    "label": "initializes",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "assigns",
+    "to": 64
+  }, {
+    "from": 58,
+    "label": "initializes",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "requires",
+    "to": 44
+  }, {
+    "from": 58,
+    "label": "initializes",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lut",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "Doc_test",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function should.teardown()\r\n  lub.rmTree(tmp, true)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "lub.rmTree(tmp, true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function should.autoLoad()\r\n  assertTrue(lut.Doc)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "assertTrue(lut.Doc)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function should.extractTitle()\r\n  local doc = lut.Doc(tpath)\r\n  assertEqual('DocTest', doc.name)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local doc = lut.Doc(tpath)",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "assertEqual('DocTest', doc.name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function should.extractSummary()\r\n  local doc = lut.Doc(tpath)\r\n  -- first paragraph in first group in first section.\r\n  local summary = doc.sections[1][1][1]\r\n  assertValueEqual({\r\n    text  = \r\n    'This file is a simple test to describe the different documenting options available with lut.Doc. This first paragraph is output as \"summary\".',\r\n    class = 'summary',\r\n  }, summary)\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "local summary = doc.sections[1][1][1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "assertValueEqual({\r\n    text  = \r\n    'This file is a simple test to describe the different documenting options available with lut.Doc. This first paragraph is output as \"summary\".',\r\n    class = 'summary',\r\n  }, summary)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function should.extractDescription()\r\n  local doc = lut.Doc(tpath)\r\n  -- first group of paragraphs\r\n  local description = doc.sections[1][1]\r\n  assertValueEqual({\r\n    { class = 'summary',\r\n      text = 'This file is a simple test to describe the different documenting options available with lut.Doc. This first paragraph is output as \"summary\".',\r\n    },\r\n    { text = 'The following paragraphs up to the end of the preamble comment block define the \"description\".'},\r\n\r\n    { text = 'A second paragraph in the \"description\" with an auto link: doc.DocTest. And here is a custom link \"lubyk\":http://lubyk.org. And some formatting: *strong* _emphasis_.'},\r\n\r\n    { text = 'Some lists:'},\r\n    { text = 'baz', list = {\r\n        { text = 'foo' },\r\n        { text = 'bar' },\r\n      },\r\n    },\r\n    { text = 'Finally, some inline math [math]\\\\infty[/math] with more text. And now some more math in its own paragraph:'},\r\n    {\r\n      math = 'inline',\r\n      text = '\\\\frac{\\\\partial}{\\\\partial\\\\theta_j}J(\\\\theta) = \\\\frac{1}{m}\\\\sum_{i=1}^m(\\\\theta^{T}x^{(i)}-y^{(i)})x_j^{(i)}',\r\n     },\r\n    { text = 'And some more text after math. With an image (the path is relative to the output directory).'},\r\n    { text = '![Dummy example image](img/box.jpg)'},\r\n  }, description)\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "local description = doc.sections[1][1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "assertValueEqual({\r\n    { class = 'summary',\r\n      text = 'This file is a simple test to describe the different documenting options available with lut.Doc. This first paragraph is output as \"summary\".',\r\n    },\r\n    { text = 'The following paragraphs up to the end of the preamble comment block define the \"description\".'},\r\n\r\n    { text = 'A second paragraph in the \"description\" with an auto link: doc.DocTest. And here is a custom link \"lubyk\":http://lubyk.org. And some formatting: *strong* _emphasis_.'},\r\n\r\n    { text = 'Some lists:'},\r\n    { text = 'baz', list = {\r\n        { text = 'foo' },\r\n        { text = 'bar' },\r\n      },\r\n    },\r\n    { text = 'Finally, some inline math [math]\\\\infty[/math] with more text. And now some more math in its own paragraph:'},\r\n    {\r\n      math = 'inline',\r\n      text = '\\\\frac{\\\\partial}{\\\\partial\\\\theta_j}J(\\\\theta) = \\\\frac{1}{m}\\\\sum_{i=1}^m(\\\\theta^{T}x^{(i)}-y^{(i)})x_j^{(i)}',\r\n     },\r\n    { text = 'And some more text after math. With an image (the path is relative to the output directory).'},\r\n    { text = '![Dummy example image](img/box.jpg)'},\r\n  }, description)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function should.convertToHtml()\r\n  local doc = lut.Doc(tpath)\r\n  assertMatch('<title>Documentation Tester</title>', doc:toHtml())\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "assertMatch('<title>Documentation Tester</title>', doc:toHtml())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function should.extractParams()\r\n  local doc = lut.Doc(tpath)\r\n  local list = {}\r\n  for _, def in ipairs(doc.params.zoom) do\r\n    table.insert(list, def.tparam..' = '..def.params..' ('..def[1].text..')')\r\n  end\r\n  assertValueEqual({\r\n    \"cost1 = {default = 0.5, min = 0, max = 1, unit = 'CHF'} (This is a first attribute that is used for this or that.)\",\r\n    \"cost2 = {default = 5,   min = 0, max = 10, unit = '$'} (A second attribute.)\",\r\n    \"foo = 4 (An attribute in the foobar group.)\",\r\n    \"bar = 'some text here' (Another attribute in the foobar group.)\",\r\n  }, list)\r\n  assertEqual(doc.params.zoom[1], doc.params.zoom.cost1)\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "local list = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "for _, def in ipairs(doc.params.zoom) do\r\n    table.insert(list, def.tparam..' = '..def.params..' ('..def[1].text..')')\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 27,
+    "text": "table.insert(list, def.tparam..' = '..def.params..' ('..def[1].text..')')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "assertValueEqual({\r\n    \"cost1 = {default = 0.5, min = 0, max = 1, unit = 'CHF'} (This is a first attribute that is used for this or that.)\",\r\n    \"cost2 = {default = 5,   min = 0, max = 10, unit = '$'} (A second attribute.)\",\r\n    \"foo = 4 (An attribute in the foobar group.)\",\r\n    \"bar = 'some text here' (Another attribute in the foobar group.)\",\r\n  }, list)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "assertEqual(doc.params.zoom[1], doc.params.zoom.cost1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function should.makeDoc()\r\n  lut.Doc.make {\r\n    sources = {\r\n      lub.path '|fixtures/doc',\r\n    },\r\n    target = tmp,\r\n    format = 'html',\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "lut.Doc.make {\r\n    sources = {\r\n      lub.path '|fixtures/doc',\r\n    },\r\n    target = tmp,\r\n    format = 'html',\r\n  }",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "function should.parseCode()\r\n  local doc = lut.Doc(nil, {\r\n    name = 'foo.Bam',\r\n    code = [=[\r\n--[[--\r\n  # Title\r\n\r\n  Summary\r\n--]]--\r\n\r\np { -- doc\r\n\r\n  -- Foo bar baz\r\n  f = 5,\r\n}\r\n\r\n    ]=],\r\n  })\r\n  assertValueEqual({\r\n    p = {\r\n      f = {\r\n        params = '5',\r\n        tparam = 'f',\r\n        {text = 'Foo bar baz'},\r\n      },\r\n      {\r\n        params = '5',\r\n        tparam = 'f',\r\n        {text = 'Foo bar baz'},\r\n      },\r\n    },\r\n  }, doc.params)\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "local doc = lut.Doc(nil, {\r\n    name = 'foo.Bam',\r\n    code = [=[\r\n--[[--\r\n  # Title\r\n\r\n  Summary\r\n--]]--\r\n\r\np { -- doc\r\n\r\n  -- Foo bar baz\r\n  f = 5,\r\n}\r\n\r\n    ]=],\r\n  })",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "assertValueEqual({\r\n    p = {\r\n      f = {\r\n        params = '5',\r\n        tparam = 'f',\r\n        {text = 'Foo bar baz'},\r\n      },\r\n      {\r\n        params = '5',\r\n        tparam = 'f',\r\n        {text = 'Foo bar baz'},\r\n      },\r\n    },\r\n  }, doc.params)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 38,
+    "text": "function should.insertHead()\r\n  local doc  = lut.Doc(tpath, {\r\n    head = '<foo>bar baz</foo>',\r\n  })\r\n  local html = doc:toHtml()\r\n  assertMatch('<foo>bar baz</foo>', html)\r\nend",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "local doc  = lut.Doc(tpath, {\r\n    head = '<foo>bar baz</foo>',\r\n  })",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "local html = doc:toHtml()",
+    "type": "statement:localassign"
+  }, {
+    "id": 41,
+    "text": "assertMatch('<foo>bar baz</foo>', html)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 44,
+    "text": "lub",
+    "type": "module"
+  }, {
+    "id": 45,
+    "text": "rmTree",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "Doc",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "Doc.make",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "path",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "Test",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "assertEqual",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "assertMatch",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "assertValueEqual",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "assertTrue",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,593 @@
+{
+  "_filename": "davFileProps.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/xavante/src/webdav/davFileProps.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 41,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 41,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 41,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 41,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 41,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 57
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 58
+  }, {
+    "from": 57,
+    "label": "initializes",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "assigns",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "assigns",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "assigns",
+    "to": 62
+  }, {
+    "from": 57,
+    "label": "initializes",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "assigns",
+    "to": 64
+  }, {
+    "from": 58,
+    "label": "initializes",
+    "to": 56
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "davFileProps",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function mkdir_p (path)\r\n\tlocal walk = \"\"\r\n\tfor p in string.gfind (path, \"[^/]+\") do\r\n\t\twalk = walk..\"/\"..p\r\n\t\tattr = lfs.attributes (walk)\r\n\t\tif not attr then\r\n\t\t\tlfs.mkdir (walk)\r\n\t\telse\r\n\t\t\tif attr.mode ~= \"directory\" then\r\n\t\t\t\treturn nil, string.format (\"%s existe y no es directorio\", walk)\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local walk = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "for p in string.gfind (path, \"[^/]+\") do\r\n\t\twalk = walk..\"/\"..p\r\n\t\tattr = lfs.attributes (walk)\r\n\t\tif not attr then\r\n\t\t\tlfs.mkdir (walk)\r\n\t\telse\r\n\t\t\tif attr.mode ~= \"directory\" then\r\n\t\t\t\treturn nil, string.format (\"%s existe y no es directorio\", walk)\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 5,
+    "text": "walk = walk..\"/\"..p",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "attr = lfs.attributes (walk)",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "if not attr then\r\n\t\t\tlfs.mkdir (walk)\r\n\t\telse\r\n\t\t\tif attr.mode ~= \"directory\" then\r\n\t\t\t\treturn nil, string.format (\"%s existe y no es directorio\", walk)\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "lfs.mkdir (walk)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "if attr.mode ~= \"directory\" then\r\n\t\t\t\treturn nil, string.format (\"%s existe y no es directorio\", walk)\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function props:getPropNames (path)\r\n\tpath = self.rootDir..path\r\n\tlocal function gen ()\r\n\t\tlocal attr = lfs.attributes (path)\r\n\t\tif not attr or attr.mode ~= \"directory\" then return nil end\r\n\r\n\t\tfor prop in lfs.dir (path) do\r\n\t\t\tif string.sub (prop, 1,1) ~= \".\" then\r\n\t\t\t\tcoroutine.yield (prop)\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\r\n\treturn coroutine.wrap (gen)\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "path = self.rootDir..path",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "local function gen ()\r\n\t\tlocal attr = lfs.attributes (path)\r\n\t\tif not attr or attr.mode ~= \"directory\" then return nil end\r\n\r\n\t\tfor prop in lfs.dir (path) do\r\n\t\t\tif string.sub (prop, 1,1) ~= \".\" then\r\n\t\t\t\tcoroutine.yield (prop)\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "statement:localfunction"
+  }, {
+    "id": 15,
+    "text": "local attr = lfs.attributes (path)",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "if not attr or attr.mode ~= \"directory\" then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "for prop in lfs.dir (path) do\r\n\t\t\tif string.sub (prop, 1,1) ~= \".\" then\r\n\t\t\t\tcoroutine.yield (prop)\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 18,
+    "text": "if string.sub (prop, 1,1) ~= \".\" then\r\n\t\t\t\tcoroutine.yield (prop)\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "coroutine.yield (prop)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "local function gen ()\r\n\t\tlocal attr = lfs.attributes (path)\r\n\t\tif not attr or attr.mode ~= \"directory\" then return nil end\r\n\r\n\t\tfor prop in lfs.dir (path) do\r\n\t\t\tif string.sub (prop, 1,1) ~= \".\" then\r\n\t\t\t\tcoroutine.yield (prop)\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function props:getProp (path, propname)\r\n\tlocal f = io.open (self.rootDir..path..\"/\"..propname)\r\n\tif not f then return nil end\r\n\r\n\tlocal val = f:read (\"*a\")\r\n\tf:close ()\r\n\r\n\treturn val\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "local f = io.open (self.rootDir..path..\"/\"..propname)",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "if not f then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "local val = f:read (\"*a\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "f:close ()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "function props:setProp (path, propname, value)\r\n\tif not value then\r\n\t\tos.remove (self.rootDir..path..\"/\"..propname)\r\n\t\treturn\r\n\tend\r\n\t\r\n\tmkdir_p (self.rootDir..path)\r\n\tlocal f = assert (io.open (self.rootDir..path..\"/\"..propname, \"wb\"))\r\n\t\r\n\tf:write (value)\r\n\tf:close ()\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "if not value then\r\n\t\tos.remove (self.rootDir..path..\"/\"..propname)\r\n\t\treturn\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "os.remove (self.rootDir..path..\"/\"..propname)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "mkdir_p (self.rootDir..path)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "local f = assert (io.open (self.rootDir..path..\"/\"..propname, \"wb\"))",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "f:write (value)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "function makeProps (params)\r\n\tparams = params or {}\r\n\t\r\n\tparams.rootDir = params.rootDir or \".PROPS/\"\r\n\tmkdir_p (params.rootDir)\r\n\r\n\treturn setmetatable (params, props_mt)\r\nend",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "params = params or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "params.rootDir = params.rootDir or \".PROPS/\"",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "mkdir_p (params.rootDir)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 42,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "attributes",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "yield",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "gfind",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "wrap",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "dir",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "mkdir",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

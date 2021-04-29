@@ -1,0 +1,109 @@
+{
+  "_filename": "args.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/penlight/tests/lua/foo/args.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "initializes",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "assigns",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "represents",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "provides",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "contains",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "args",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function args.answer ()\r\n    return 42\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "interface"
+  } ]
+}

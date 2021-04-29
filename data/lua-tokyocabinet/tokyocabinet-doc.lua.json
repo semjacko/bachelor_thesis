@@ -1,0 +1,3473 @@
+{
+  "_filename": "tokyocabinet-doc.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-tokyocabinet/tokyocabinet-doc.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 94,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 98,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 102,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 106,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 108,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 112,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 114,
+    "label": "has",
+    "to": 115
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 118,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 120,
+    "label": "has",
+    "to": 121
+  }, {
+    "from": 122,
+    "label": "has",
+    "to": 123
+  }, {
+    "from": 124,
+    "label": "has",
+    "to": 125
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 127
+  }, {
+    "from": 128,
+    "label": "has",
+    "to": 129
+  }, {
+    "from": 130,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 132,
+    "label": "has",
+    "to": 133
+  }, {
+    "from": 134,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 136,
+    "label": "has",
+    "to": 137
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 139
+  }, {
+    "from": 140,
+    "label": "has",
+    "to": 141
+  }, {
+    "from": 142,
+    "label": "has",
+    "to": 143
+  }, {
+    "from": 144,
+    "label": "has",
+    "to": 145
+  }, {
+    "from": 146,
+    "label": "has",
+    "to": 147
+  }, {
+    "from": 148,
+    "label": "has",
+    "to": 149
+  }, {
+    "from": 150,
+    "label": "has",
+    "to": 151
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 153
+  }, {
+    "from": 154,
+    "label": "has",
+    "to": 155
+  }, {
+    "from": 156,
+    "label": "has",
+    "to": 157
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 159
+  }, {
+    "from": 160,
+    "label": "has",
+    "to": 161
+  }, {
+    "from": 162,
+    "label": "has",
+    "to": 163
+  }, {
+    "from": 164,
+    "label": "has",
+    "to": 165
+  }, {
+    "from": 166,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 168,
+    "label": "has",
+    "to": 169
+  }, {
+    "from": 170,
+    "label": "has",
+    "to": 171
+  }, {
+    "from": 172,
+    "label": "has",
+    "to": 173
+  }, {
+    "from": 174,
+    "label": "has",
+    "to": 175
+  }, {
+    "from": 176,
+    "label": "has",
+    "to": 177
+  }, {
+    "from": 178,
+    "label": "has",
+    "to": 179
+  }, {
+    "from": 180,
+    "label": "has",
+    "to": 181
+  }, {
+    "from": 182,
+    "label": "has",
+    "to": 183
+  }, {
+    "from": 184,
+    "label": "has",
+    "to": 185
+  }, {
+    "from": 186,
+    "label": "has",
+    "to": 187
+  }, {
+    "from": 188,
+    "label": "has",
+    "to": 189
+  }, {
+    "from": 190,
+    "label": "has",
+    "to": 191
+  }, {
+    "from": 192,
+    "label": "has",
+    "to": 193
+  }, {
+    "from": 194,
+    "label": "has",
+    "to": 195
+  }, {
+    "from": 196,
+    "label": "has",
+    "to": 197
+  }, {
+    "from": 198,
+    "label": "has",
+    "to": 199
+  }, {
+    "from": 200,
+    "label": "has",
+    "to": 201
+  }, {
+    "from": 202,
+    "label": "has",
+    "to": 203
+  }, {
+    "from": 204,
+    "label": "has",
+    "to": 205
+  }, {
+    "from": 206,
+    "label": "has",
+    "to": 207
+  }, {
+    "from": 208,
+    "label": "has",
+    "to": 209
+  }, {
+    "from": 210,
+    "label": "has",
+    "to": 211
+  }, {
+    "from": 212,
+    "label": "has",
+    "to": 213
+  }, {
+    "from": 214,
+    "label": "has",
+    "to": 215
+  }, {
+    "from": 216,
+    "label": "has",
+    "to": 217
+  }, {
+    "from": 218,
+    "label": "has",
+    "to": 219
+  }, {
+    "from": 220,
+    "label": "has",
+    "to": 221
+  }, {
+    "from": 222,
+    "label": "has",
+    "to": 223
+  }, {
+    "from": 224,
+    "label": "has",
+    "to": 225
+  }, {
+    "from": 226,
+    "label": "has",
+    "to": 227
+  }, {
+    "from": 228,
+    "label": "has",
+    "to": 229
+  }, {
+    "from": 230,
+    "label": "has",
+    "to": 231
+  }, {
+    "from": 232,
+    "label": "has",
+    "to": 233
+  }, {
+    "from": 234,
+    "label": "has",
+    "to": 235
+  }, {
+    "from": 236,
+    "label": "has",
+    "to": 237
+  }, {
+    "from": 238,
+    "label": "has",
+    "to": 239
+  }, {
+    "from": 240,
+    "label": "has",
+    "to": 241
+  }, {
+    "from": 242,
+    "label": "has",
+    "to": 243
+  }, {
+    "from": 244,
+    "label": "has",
+    "to": 245
+  }, {
+    "from": 246,
+    "label": "has",
+    "to": 247
+  }, {
+    "from": 248,
+    "label": "has",
+    "to": 249
+  }, {
+    "from": 250,
+    "label": "has",
+    "to": 251
+  }, {
+    "from": 252,
+    "label": "has",
+    "to": 253
+  }, {
+    "from": 254,
+    "label": "has",
+    "to": 255
+  }, {
+    "from": 256,
+    "label": "has",
+    "to": 257
+  }, {
+    "from": 258,
+    "label": "has",
+    "to": 259
+  }, {
+    "from": 260,
+    "label": "has",
+    "to": 261
+  }, {
+    "from": 262,
+    "label": "has",
+    "to": 263
+  }, {
+    "from": 264,
+    "label": "has",
+    "to": 265
+  }, {
+    "from": 266,
+    "label": "has",
+    "to": 267
+  }, {
+    "from": 268,
+    "label": "has",
+    "to": 269
+  }, {
+    "from": 270,
+    "label": "has",
+    "to": 271
+  }, {
+    "from": 272,
+    "label": "has",
+    "to": 273
+  }, {
+    "from": 274,
+    "label": "has",
+    "to": 275
+  }, {
+    "from": 276,
+    "label": "has",
+    "to": 277
+  }, {
+    "from": 278,
+    "label": "has",
+    "to": 279
+  }, {
+    "from": 280,
+    "label": "has",
+    "to": 281
+  }, {
+    "from": 282,
+    "label": "has",
+    "to": 283
+  }, {
+    "from": 284,
+    "label": "has",
+    "to": 285
+  }, {
+    "from": 286,
+    "label": "has",
+    "to": 287
+  }, {
+    "from": 288,
+    "label": "has",
+    "to": 289
+  }, {
+    "from": 290,
+    "label": "has",
+    "to": 291
+  }, {
+    "from": 292,
+    "label": "has",
+    "to": 293
+  }, {
+    "from": 294,
+    "label": "has",
+    "to": 295
+  }, {
+    "from": 296,
+    "label": "has",
+    "to": 297
+  }, {
+    "from": 298,
+    "label": "has",
+    "to": 299
+  }, {
+    "from": 300,
+    "label": "has",
+    "to": 301
+  }, {
+    "from": 302,
+    "label": "has",
+    "to": 303
+  }, {
+    "from": 304,
+    "label": "has",
+    "to": 305
+  }, {
+    "from": 306,
+    "label": "has",
+    "to": 307
+  }, {
+    "from": 308,
+    "label": "has",
+    "to": 309
+  }, {
+    "from": 310,
+    "label": "has",
+    "to": 311
+  }, {
+    "from": 312,
+    "label": "has",
+    "to": 313
+  }, {
+    "from": 314,
+    "label": "has",
+    "to": 315
+  }, {
+    "from": 316,
+    "label": "has",
+    "to": 317
+  }, {
+    "from": 318,
+    "label": "has",
+    "to": 319
+  }, {
+    "from": 320,
+    "label": "has",
+    "to": 321
+  }, {
+    "from": 322,
+    "label": "has",
+    "to": 323
+  }, {
+    "from": 324,
+    "label": "has",
+    "to": 325
+  }, {
+    "from": 326,
+    "label": "has",
+    "to": 327
+  }, {
+    "from": 328,
+    "label": "has",
+    "to": 329
+  }, {
+    "from": 330,
+    "label": "has",
+    "to": 331
+  }, {
+    "from": 332,
+    "label": "has",
+    "to": 333
+  }, {
+    "from": 334,
+    "label": "has",
+    "to": 335
+  }, {
+    "from": 336,
+    "label": "has",
+    "to": 337
+  }, {
+    "from": 338,
+    "label": "has",
+    "to": 339
+  }, {
+    "from": 340,
+    "label": "has",
+    "to": 341
+  }, {
+    "from": 342,
+    "label": "has",
+    "to": 343
+  }, {
+    "from": 344,
+    "label": "has",
+    "to": 345
+  }, {
+    "from": 346,
+    "label": "has",
+    "to": 347
+  }, {
+    "from": 348,
+    "label": "has",
+    "to": 349
+  }, {
+    "from": 350,
+    "label": "has",
+    "to": 351
+  }, {
+    "from": 352,
+    "label": "has",
+    "to": 353
+  }, {
+    "from": 354,
+    "label": "has",
+    "to": 355
+  }, {
+    "from": 356,
+    "label": "has",
+    "to": 357
+  }, {
+    "from": 358,
+    "label": "has",
+    "to": 359
+  }, {
+    "from": 360,
+    "label": "has",
+    "to": 361
+  }, {
+    "from": 362,
+    "label": "has",
+    "to": 363
+  }, {
+    "from": 364,
+    "label": "has",
+    "to": 365
+  }, {
+    "from": 366,
+    "label": "has",
+    "to": 367
+  }, {
+    "from": 368,
+    "label": "has",
+    "to": 369
+  }, {
+    "from": 370,
+    "label": "has",
+    "to": 371
+  }, {
+    "from": 372,
+    "label": "has",
+    "to": 373
+  }, {
+    "from": 374,
+    "label": "has",
+    "to": 375
+  }, {
+    "from": 376,
+    "label": "has",
+    "to": 377
+  }, {
+    "from": 378,
+    "label": "has",
+    "to": 379
+  }, {
+    "from": 380,
+    "label": "has",
+    "to": 381
+  }, {
+    "from": 382,
+    "label": "has",
+    "to": 383
+  }, {
+    "from": 384,
+    "label": "has",
+    "to": 385
+  }, {
+    "from": 386,
+    "label": "has",
+    "to": 387
+  }, {
+    "from": 388,
+    "label": "has",
+    "to": 389
+  }, {
+    "from": 390,
+    "label": "has",
+    "to": 391
+  }, {
+    "from": 392,
+    "label": "has",
+    "to": 393
+  }, {
+    "from": 394,
+    "label": "has",
+    "to": 395
+  }, {
+    "from": 396,
+    "label": "has",
+    "to": 397
+  }, {
+    "from": 398,
+    "label": "has",
+    "to": 399
+  }, {
+    "from": 400,
+    "label": "calls",
+    "to": 401
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 400
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 50
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 54
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 56
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 58
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 60
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 62
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 64
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 66
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 68
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 70
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 72
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 74
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 76
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 78
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 80
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 82
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 84
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 86
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 88
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 90
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 92
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 94
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 96
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 98
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 100
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 102
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 104
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 106
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 108
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 110
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 112
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 114
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 116
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 118
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 120
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 122
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 124
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 126
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 128
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 130
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 132
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 134
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 136
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 138
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 140
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 142
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 144
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 146
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 148
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 150
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 152
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 154
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 156
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 158
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 160
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 162
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 164
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 166
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 168
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 170
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 172
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 174
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 176
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 178
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 180
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 182
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 184
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 186
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 188
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 190
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 192
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 194
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 196
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 198
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 200
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 202
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 204
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 206
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 208
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 210
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 212
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 214
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 216
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 218
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 220
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 222
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 224
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 226
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 228
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 230
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 232
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 234
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 236
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 238
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 240
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 242
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 244
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 246
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 248
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 250
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 252
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 254
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 256
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 258
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 260
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 262
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 264
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 266
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 268
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 270
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 272
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 274
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 276
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 278
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 280
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 282
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 284
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 286
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 288
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 290
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 292
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 294
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 296
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 298
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 300
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 302
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 304
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 306
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 308
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 310
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 312
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 314
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 316
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 318
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 320
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 322
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 324
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 326
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 328
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 330
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 332
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 334
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 336
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 338
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 340
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 342
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 344
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 346
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 348
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 350
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 352
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 354
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 356
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 358
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 360
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 362
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 364
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 366
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 368
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 370
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 372
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 374
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 376
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 378
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 380
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 382
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 384
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 386
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 388
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 390
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 392
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 394
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 396
+  }, {
+    "from": 400,
+    "label": "declares",
+    "to": 398
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 402
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 403
+  }, {
+    "from": 402,
+    "label": "initializes",
+    "to": 404
+  }, {
+    "from": 404,
+    "label": "assigns",
+    "to": 405
+  }, {
+    "from": 402,
+    "label": "initializes",
+    "to": 406
+  }, {
+    "from": 406,
+    "label": "assigns",
+    "to": 407
+  }, {
+    "from": 402,
+    "label": "initializes",
+    "to": 408
+  }, {
+    "from": 408,
+    "label": "assigns",
+    "to": 409
+  }, {
+    "from": 402,
+    "label": "initializes",
+    "to": 410
+  }, {
+    "from": 410,
+    "label": "assigns",
+    "to": 411
+  }, {
+    "from": 402,
+    "label": "initializes",
+    "to": 412
+  }, {
+    "from": 412,
+    "label": "assigns",
+    "to": 413
+  }, {
+    "from": 402,
+    "label": "initializes",
+    "to": 414
+  }, {
+    "from": 414,
+    "label": "assigns",
+    "to": 415
+  }, {
+    "from": 402,
+    "label": "initializes",
+    "to": 416
+  }, {
+    "from": 416,
+    "label": "assigns",
+    "to": 417
+  }, {
+    "from": 402,
+    "label": "initializes",
+    "to": 418
+  }, {
+    "from": 418,
+    "label": "assigns",
+    "to": 419
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 34
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 38
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 46
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 48
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 52
+  }, {
+    "from": 404,
+    "label": "contains",
+    "to": 54
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "tokyocabinet-doc",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function tokyocabinet.hdbnew()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 4,
+    "text": "function tokyocabinet.bdbnew()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function tokyocabinet.bdbcurnew(bdb)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function tokyocabinet.fdbnew()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function tokyocabinet.tdbnew()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function tokyocabinet.tdbqrynew(tdb)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function tokyocabinet.adbnew()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function tokyocabinet.tablenew(anum, rnum)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function tokyocabinet.pack(format, ary, ...)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function tokyocabinet.unpack(format, str)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function tokyocabinet.split(str, delims)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function tokyocabinet.codec(mode, str)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function tokyocabinet.hash(mode, str)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function tokyocabinet.bit(mode, num, aux)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function tokyocabinet.strstr(str, pattern, alt)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function tokyocabinet.regex(str, pattern, alt)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "function tokyocabinet.ucs(data)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "function tokyocabinet.dist(astr, bstr, isutf)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 38,
+    "text": "function tokyocabinet.isect(ary, ...)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "function tokyocabinet.union(ary, ...)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function tokyocabinet.time()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "function tokyocabinet.sleep(sec)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 46,
+    "text": "function tokyocabinet.stat(path)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 48,
+    "text": "function tokyocabinet.glob(pattern)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 50,
+    "text": "function tokyocabinet.remove(path)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "function tokyocabinet.mkdir(path)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 54,
+    "text": "function tokyocabinet.chdir(path)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 56,
+    "text": "function hdb:errmsg(ecode)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 58,
+    "text": "function hdb:ecode()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 60,
+    "text": "function hdb:tune(bnum, apow, fpow, opts)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 62,
+    "text": "function hdb:setcache(rcnum)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 64,
+    "text": "function hdb:setxmsiz(xmsiz)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 66,
+    "text": "function hdb:setdfunit(dfunit)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 68,
+    "text": "function hdb:open(path, omode)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 70,
+    "text": "function hdb:close()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 72,
+    "text": "function hdb:put(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 74,
+    "text": "function hdb:putkeep(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 76,
+    "text": "function hdb:putcat(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 78,
+    "text": "function hdb:putasync(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 80,
+    "text": "function hdb:out(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 82,
+    "text": "function hdb:get(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 84,
+    "text": "function hdb:vsiz(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 86,
+    "text": "function hdb:iterinit()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 88,
+    "text": "function hdb:iternext()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 90,
+    "text": "function hdb:fwmkeys(prefix, max)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 92,
+    "text": "function hdb:addint(key, num)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 94,
+    "text": "function hdb:adddouble(key, num)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 96,
+    "text": "function hdb:sync()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 97,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 98,
+    "text": "function hdb:optimize(bnum, apow, fpow, opts)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 99,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 100,
+    "text": "function hdb:vanish()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 102,
+    "text": "function hdb:copy(path)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 103,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 104,
+    "text": "function hdb:tranbegin()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 106,
+    "text": "function hdb:trancommit()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 108,
+    "text": "function hdb:tranabort()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 110,
+    "text": "function hdb:path()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 112,
+    "text": "function hdb:rnum()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 114,
+    "text": "function hdb:fsiz()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 116,
+    "text": "function hdb:foreach(func)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 118,
+    "text": "function hdb:pairs()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 120,
+    "text": "function bdb:errmsg(ecode)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 122,
+    "text": "function bdb:ecode()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 124,
+    "text": "function bdb:setcmpfunc(cmp)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 126,
+    "text": "function bdb:tune(lmemb, nmemb, bnum, apow, fpow, opts)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 128,
+    "text": "function bdb:setcache(lcnum, ncnum)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 129,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 130,
+    "text": "function bdb:setxmsiz(xmsiz)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 131,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 132,
+    "text": "function bdb:setdfunit(dfunit)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 133,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 134,
+    "text": "function bdb:open(path, omode)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 135,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 136,
+    "text": "function bdb:close()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 138,
+    "text": "function bdb:put(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 139,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 140,
+    "text": "function bdb:putkeep(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 141,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 142,
+    "text": "function bdb:putcat(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 143,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 144,
+    "text": "function bdb:putdup(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 145,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 146,
+    "text": "function bdb:putlist(key, values)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 147,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 148,
+    "text": "function bdb:out(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 149,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 150,
+    "text": "function bdb:outlist(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 151,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 152,
+    "text": "function bdb:get(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 153,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 154,
+    "text": "function bdb:getlist(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 155,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 156,
+    "text": "function bdb:vnum(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 157,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 158,
+    "text": "function bdb:vsiz(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 159,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 160,
+    "text": "function bdb:range(bkey, binc, ekey, einc, max)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 161,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 162,
+    "text": "function bdb:fwmkeys(prefix, max)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 163,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 164,
+    "text": "function bdb:addint(key, num)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 165,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 166,
+    "text": "function bdb:adddouble(key, num)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 167,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 168,
+    "text": "function bdb:sync()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 169,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 170,
+    "text": "function bdb:optimize(lmemb, nmemb, bnum, apow, fpow, opts)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 171,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 172,
+    "text": "function bdb:vanish()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 173,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 174,
+    "text": "function bdb:copy(path)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 175,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 176,
+    "text": "function bdb:tranbegin()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 177,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 178,
+    "text": "function bdb:trancommit()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 179,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 180,
+    "text": "function bdb:tranabort()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 181,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 182,
+    "text": "function bdb:path()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 183,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 184,
+    "text": "function bdb:rnum()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 185,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 186,
+    "text": "function bdb:fsiz()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 187,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 188,
+    "text": "function bdb:foreach(func)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 189,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 190,
+    "text": "function bdb:pairs()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 191,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 192,
+    "text": "function bdbcur:first()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 193,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 194,
+    "text": "function bdbcur:last()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 195,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 196,
+    "text": "function bdbcur:jump(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 197,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 198,
+    "text": "function bdbcur:prev()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 199,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 200,
+    "text": "function bdbcur:next()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 201,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 202,
+    "text": "function bdbcur:put(value, cpmode)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 203,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 204,
+    "text": "function bdbcur:out()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 205,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 206,
+    "text": "function bdbcur:key()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 207,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 208,
+    "text": "function bdbcur:val()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 209,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 210,
+    "text": "function fdb:errmsg(ecode)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 211,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 212,
+    "text": "function fdb:ecode()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 213,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 214,
+    "text": "function fdb:tune(width, limsiz)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 215,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 216,
+    "text": "function fdb:open(path, omode)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 217,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 218,
+    "text": "function fdb:close()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 219,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 220,
+    "text": "function fdb:put(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 221,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 222,
+    "text": "function fdb:putkeep(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 223,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 224,
+    "text": "function fdb:putcat(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 225,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 226,
+    "text": "function fdb:out(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 227,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 228,
+    "text": "function fdb:get(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 229,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 230,
+    "text": "function fdb:vsiz(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 231,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 232,
+    "text": "function fdb:iterinit()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 233,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 234,
+    "text": "function fdb:iternext()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 235,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 236,
+    "text": "function fdb:range(interval, max)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 237,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 238,
+    "text": "function fdb:addint(key, num)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 239,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 240,
+    "text": "function fdb:adddouble(key, num)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 241,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 242,
+    "text": "function fdb:sync()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 243,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 244,
+    "text": "function fdb:optimize(width, limsiz)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 245,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 246,
+    "text": "function fdb:vanish()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 247,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 248,
+    "text": "function fdb:copy(path)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 249,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 250,
+    "text": "function fdb:tranbegin()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 251,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 252,
+    "text": "function fdb:trancommit()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 253,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 254,
+    "text": "function fdb:tranabort()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 255,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 256,
+    "text": "function fdb:path()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 257,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 258,
+    "text": "function fdb:rnum()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 259,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 260,
+    "text": "function fdb:fsiz()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 261,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 262,
+    "text": "function fdb:foreach(func)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 263,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 264,
+    "text": "function fdb:pairs()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 265,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 266,
+    "text": "function tdb:errmsg(ecode)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 267,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 268,
+    "text": "function tdb:ecode()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 269,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 270,
+    "text": "function tdb:tune(bnum, apow, fpow, opts)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 271,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 272,
+    "text": "function tdb:setcache(rcnum, lcnum, ncnum)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 273,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 274,
+    "text": "function tdb:setxmsiz(xmsiz)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 275,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 276,
+    "text": "function tdb:setdfunit(dfunit)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 277,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 278,
+    "text": "function tdb:open(path, omode)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 279,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 280,
+    "text": "function tdb:close()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 281,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 282,
+    "text": "function tdb:put(pkey, cols)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 283,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 284,
+    "text": "function tdb:putkeep(pkey, cols)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 285,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 286,
+    "text": "function tdb:putcat(pkey, cols)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 287,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 288,
+    "text": "function tdb:out(pkey)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 289,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 290,
+    "text": "function tdb:get(pkey)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 291,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 292,
+    "text": "function tdb:vsiz(pkey)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 293,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 294,
+    "text": "function tdb:iterinit()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 295,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 296,
+    "text": "function tdb:iternext()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 297,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 298,
+    "text": "function tdb:fwmkeys(prefix, max)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 299,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 300,
+    "text": "function tdb:addint(pkey, num)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 301,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 302,
+    "text": "function tdb:adddouble(pkey, num)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 303,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 304,
+    "text": "function tdb:sync()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 305,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 306,
+    "text": "function tdb:optimize(bnum, apow, fpow, opts)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 307,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 308,
+    "text": "function tdb:vanish()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 309,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 310,
+    "text": "function tdb:copy(path)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 311,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 312,
+    "text": "function tdb:tranbegin()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 313,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 314,
+    "text": "function tdb:trancommit()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 315,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 316,
+    "text": "function tdb:tranabort()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 317,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 318,
+    "text": "function tdb:path()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 319,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 320,
+    "text": "function tdb:rnum()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 321,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 322,
+    "text": "function tdb:fsiz()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 323,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 324,
+    "text": "function tdb:setindex(name, type)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 325,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 326,
+    "text": "function tdb:genuid()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 327,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 328,
+    "text": "function tdb:foreach(func)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 329,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 330,
+    "text": "function tdb:pairs()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 331,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 332,
+    "text": "function tdbqry:addcond(name, op, expr)\r\n  -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 333,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 334,
+    "text": "function tdbqry:setorder(name, type)\r\n  -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 335,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 336,
+    "text": "function tdbqry:setlimit(max, skip)\r\n  -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 337,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 338,
+    "text": "function tdbqry:search()\r\n  -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 339,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 340,
+    "text": "function tdbqry:searchout()\r\n  -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 341,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 342,
+    "text": "function tdbqry:proc()\r\n  -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 343,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 344,
+    "text": "function tdbqry:hint()\r\n  -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 345,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 346,
+    "text": "function tdbqry:metasearch(others, type)\r\n  -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 347,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 348,
+    "text": "function tdbqry:kwic(cols, name, width, opts)\r\n  -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 349,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 350,
+    "text": "function adb:open(name)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 351,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 352,
+    "text": "function adb:close()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 353,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 354,
+    "text": "function adb:put(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 355,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 356,
+    "text": "function adb:putkeep(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 357,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 358,
+    "text": "function adb:putcat(key, value)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 359,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 360,
+    "text": "function adb:out(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 361,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 362,
+    "text": "function adb:get(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 363,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 364,
+    "text": "function adb:vsiz(key)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 365,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 366,
+    "text": "function adb:iterinit()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 367,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 368,
+    "text": "function adb:iternext()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 369,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 370,
+    "text": "function adb:fwmkeys(prefix, max)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 371,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 372,
+    "text": "function adb:addint(key, num)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 373,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 374,
+    "text": "function adb:adddouble(key, num)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 375,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 376,
+    "text": "function adb:sync()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 377,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 378,
+    "text": "function adb:optimize(params)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 379,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 380,
+    "text": "function adb:vanish()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 381,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 382,
+    "text": "function adb:copy(path)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 383,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 384,
+    "text": "function adb:tranbegin()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 385,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 386,
+    "text": "function adb:trancommit()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 387,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 388,
+    "text": "function adb:tranabort()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 389,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 390,
+    "text": "function adb:path()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 391,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 392,
+    "text": "function adb:rnum()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 393,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 394,
+    "text": "function adb:size()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 395,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 396,
+    "text": "function adb:foreach(func)\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 397,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 398,
+    "text": "function adb:pairs()\r\n   -- (native code)\r\nend",
+    "type": "function"
+  }, {
+    "id": 399,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 400,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 401,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 402,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 403,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 404,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 405,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 406,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 407,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 408,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 409,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 410,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 411,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 412,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 413,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 414,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 415,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 416,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 417,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 418,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 419,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

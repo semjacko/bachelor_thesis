@@ -1,0 +1,749 @@
+{
+  "_filename": "f.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io/f.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 50
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 65
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 66
+  }, {
+    "from": 65,
+    "label": "initializes",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "assigns",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "assigns",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "assigns",
+    "to": 70
+  }, {
+    "from": 68,
+    "label": "assigns",
+    "to": 71
+  }, {
+    "from": 71,
+    "label": "assigns",
+    "to": 72
+  }, {
+    "from": 68,
+    "label": "assigns",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "assigns",
+    "to": 74
+  }, {
+    "from": 65,
+    "label": "initializes",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "assigns",
+    "to": 76
+  }, {
+    "from": 66,
+    "label": "initializes",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "requires",
+    "to": 53
+  }, {
+    "from": 66,
+    "label": "initializes",
+    "to": 78
+  }, {
+    "from": 78,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 79
+  }, {
+    "from": 75,
+    "label": "represents",
+    "to": 80
+  }, {
+    "from": 79,
+    "label": "provides",
+    "to": 80
+  }, {
+    "from": 75,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 75,
+    "label": "contains",
+    "to": 48
+  }, {
+    "from": 75,
+    "label": "contains",
+    "to": 50
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "f",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function reader(data, size_exp, size_fraction)\r\n\tlocal fraction, exponent, sign\r\n\tlocal endian = io(\"endianness\", \"get\") == \"big\" and \">\" or \"<\"\r\n\t\r\n\t-- Split the unsigned integer into the 3 IEEE fields\r\n\tlocal bits = struct.unpack(endian..\" m\"..#data, data)[1]\r\n\tlocal fraction = struct.implode({unpack(bits, 1, size_fraction)}, size_fraction)\r\n\tlocal exponent = struct.implode({unpack(bits, size_fraction+1, size_fraction+size_exp)}, size_exp)\r\n\tlocal sign = bits[#bits] and -1 or 1\r\n    \r\n\t-- special case: exponent is all 1s\r\n\tif exponent == 2^size_exp-1 then\r\n\t\t-- significand is 0? +- infinity\r\n\t\tif fraction == 0 then\r\n\t\t\treturn sign * math.huge\r\n\t\t\r\n\t\t-- otherwise it's NaN\r\n\t\telse\r\n\t\t\treturn 0/0\r\n\t\tend\r\n\tend\r\n\t\t\t\r\n\t-- restore the MSB of the significand, unless it's a subnormal number\r\n\tif exponent ~= 0 then\r\n\t\tfraction = fraction + (2 ^ size_fraction)\r\n\telse\r\n        exponent = 1\r\n    end\r\n\t\r\n\t-- remove the exponent bias\r\n\texponent = exponent - 2 ^ (size_exp - 1) + 1\r\n\r\n\t-- Decrease the size of the exponent rather than make the fraction (0.5, 1]\r\n\texponent = exponent - size_fraction\r\n    \r\n\treturn sign * math.ldexp(fraction, exponent)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local fraction, exponent, sign",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local endian = io(\"endianness\", \"get\") == \"big\" and \">\" or \"<\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local bits = struct.unpack(endian..\" m\"..#data, data)[1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local fraction = struct.implode({unpack(bits, 1, size_fraction)}, size_fraction)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local exponent = struct.implode({unpack(bits, size_fraction+1, size_fraction+size_exp)}, size_exp)",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "local sign = bits[#bits] and -1 or 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if exponent == 2^size_exp-1 then\r\n\t\t-- significand is 0? +- infinity\r\n\t\tif fraction == 0 then\r\n\t\t\treturn sign * math.huge\r\n\t\t\r\n\t\t-- otherwise it's NaN\r\n\t\telse\r\n\t\t\treturn 0/0\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "if fraction == 0 then\r\n\t\t\treturn sign * math.huge\r\n\t\t\r\n\t\t-- otherwise it's NaN\r\n\t\telse\r\n\t\t\treturn 0/0\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 13,
+    "text": "if exponent ~= 0 then\r\n\t\tfraction = fraction + (2 ^ size_fraction)\r\n\telse\r\n        exponent = 1\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "fraction = fraction + (2 ^ size_fraction)",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "exponent = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "exponent = exponent - 2 ^ (size_exp - 1) + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "exponent = exponent - size_fraction",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "local function writer(value, size_exp, size_fraction)\r\n\tlocal fraction, exponent, sign\r\n\tlocal width = (size_exp + size_fraction + 1)/8\r\n\tlocal endian = io(\"endianness\", \"get\") == \"big\" and \">\" or \"<\"\r\n    local bias = 2^(size_exp-1)-1\r\n\t\r\n\tif value < 0 \r\n    or 1/value == -math.huge then -- handle the case of -0\r\n\t\tsign = true\r\n\t\tvalue = -value\r\n\telse\r\n\t\tsign = false\r\n\tend\r\n\r\n\t-- special case: value is infinite\r\n\tif value == math.huge then\r\n\t\texponent = bias+1\r\n\t\tfraction = 0\r\n\t\r\n\t-- special case: value is NaN\r\n\telseif value ~= value then\r\n\t\texponent = bias+1\r\n\t\tfraction = 2^(size_fraction-1)\r\n\r\n    --special case: value is 0\r\n    elseif value == 0 then\r\n        exponent = -bias\r\n        fraction = 0\r\n        \r\n\telse\r\n\t\tfraction,exponent = math.frexp(value)\r\n        \r\n        -- subnormal number\r\n        if exponent+bias <= 1 then\r\n            fraction = fraction * 2^(size_fraction+(exponent+bias)-1)\r\n            exponent = -bias\r\n\r\n        else\r\n            -- remove the most significant bit from the fraction and adjust exponent\r\n            fraction = fraction - 0.5\r\n            exponent = exponent - 1\r\n            \r\n            -- turn the fraction into an integer\r\n            fraction = fraction * 2^(size_fraction+1)\r\n        end\r\n\tend\r\n\t\r\n    \r\n    -- add the exponent bias\r\n    exponent = exponent + bias\r\n\r\n\tlocal bits = struct.explode(fraction)\r\n\tlocal bits_exp = struct.explode(exponent)\r\n\tfor i=1,size_exp do\r\n\t\tbits[size_fraction+i] = bits_exp[i]\r\n\tend\r\n\tbits[size_fraction+size_exp+1] = sign\r\n    \r\n\treturn struct.pack(endian..\"m\"..width, {bits})\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "local width = (size_exp + size_fraction + 1)/8",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "local bias = 2^(size_exp-1)-1",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "if value < 0 \r\n    or 1/value == -math.huge then -- handle the case of -0\r\n\t\tsign = true\r\n\t\tvalue = -value\r\n\telse\r\n\t\tsign = false\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 23,
+    "text": "sign = true",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "value = -value",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "sign = false",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "if value == math.huge then\r\n\t\texponent = bias+1\r\n\t\tfraction = 0\r\n\t\r\n\t-- special case: value is NaN\r\n\telseif value ~= value then\r\n\t\texponent = bias+1\r\n\t\tfraction = 2^(size_fraction-1)\r\n\r\n    --special case: value is 0\r\n    elseif value == 0 then\r\n        exponent = -bias\r\n        fraction = 0\r\n        \r\n\telse\r\n\t\tfraction,exponent = math.frexp(value)\r\n        \r\n        -- subnormal number\r\n        if exponent+bias <= 1 then\r\n            fraction = fraction * 2^(size_fraction+(exponent+bias)-1)\r\n            exponent = -bias\r\n\r\n        else\r\n            -- remove the most significant bit from the fraction and adjust exponent\r\n            fraction = fraction - 0.5\r\n            exponent = exponent - 1\r\n            \r\n            -- turn the fraction into an integer\r\n            fraction = fraction * 2^(size_fraction+1)\r\n        end\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "exponent = bias+1",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "fraction = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "fraction = 2^(size_fraction-1)",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "exponent = -bias",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "fraction,exponent = math.frexp(value)",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "if exponent+bias <= 1 then\r\n            fraction = fraction * 2^(size_fraction+(exponent+bias)-1)\r\n            exponent = -bias\r\n\r\n        else\r\n            -- remove the most significant bit from the fraction and adjust exponent\r\n            fraction = fraction - 0.5\r\n            exponent = exponent - 1\r\n            \r\n            -- turn the fraction into an integer\r\n            fraction = fraction * 2^(size_fraction+1)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "fraction = fraction * 2^(size_fraction+(exponent+bias)-1)",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "fraction = fraction - 0.5",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "exponent = exponent - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "fraction = fraction * 2^(size_fraction+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "exponent = exponent + bias",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "local bits = struct.explode(fraction)",
+    "type": "statement:localassign"
+  }, {
+    "id": 39,
+    "text": "local bits_exp = struct.explode(exponent)",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "for i=1,size_exp do\r\n\t\tbits[size_fraction+i] = bits_exp[i]\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 41,
+    "text": "bits[size_fraction+i] = bits_exp[i]",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "bits[size_fraction+size_exp+1] = sign",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "function f.width(n)\r\n    n = tonumber(n)\r\n    assert(n == 4 or n == 8 or n == 16\r\n        , \"format 'f' only supports widths 4 (float), 8 (double) and 16 (quad)\")\r\n    \r\n    return n\r\nend",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "n = tonumber(n)",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "assert(n == 4 or n == 8 or n == 16\r\n        , \"format 'f' only supports widths 4 (float), 8 (double) and 16 (quad)\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 48,
+    "text": "function f.unpack(_, buf, width)\r\n    return reader(buf, unpack(sizes[width], 2))\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 50,
+    "text": "function f.pack(_, data, width)\r\n    return writer(data, unpack(sizes[width], 2))\r\nend",
+    "type": "function"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 53,
+    "text": "vstruct",
+    "type": "module"
+  }, {
+    "id": 54,
+    "text": "explode",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "implode",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "pack",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "io",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "frexp",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "ldexp",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "interface"
+  } ]
+}

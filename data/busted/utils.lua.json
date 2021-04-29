@@ -1,0 +1,441 @@
+{
+  "_filename": "utils.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/busted/busted/utils.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 42,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 43,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 44,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 45
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 46
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "provides",
+    "to": 48
+  }, {
+    "from": 37,
+    "label": "represents",
+    "to": 49
+  }, {
+    "from": 47,
+    "label": "provides",
+    "to": 49
+  }, {
+    "from": 47,
+    "label": "provides",
+    "to": 50
+  }, {
+    "from": 47,
+    "label": "provides",
+    "to": 51
+  }, {
+    "from": 52,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "utils",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "function(arguments)\r\n    -- copy non-positive command-line args auto-inserted by Lua interpreter\r\n    if arguments and _G.arg then\r\n      local i = 0\r\n      while _G.arg[i] do\r\n        arguments[i] = _G.arg[i]\r\n        i = i - 1\r\n      end\r\n    end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "if arguments and _G.arg then\r\n      local i = 0\r\n      while _G.arg[i] do\r\n        arguments[i] = _G.arg[i]\r\n        i = i - 1\r\n      end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "local i = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "while _G.arg[i] do\r\n        arguments[i] = _G.arg[i]\r\n        i = i - 1\r\n      end",
+    "type": "statement:while"
+  }, {
+    "id": 9,
+    "text": "arguments[i] = _G.arg[i]",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "i = i - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function(t, seed)\r\n    if seed then math.randomseed(seed) end\r\n    local n = #t\r\n    while n >= 2 do\r\n      local k = math.random(n)\r\n      t[n], t[k] = t[k], t[n]\r\n      n = n - 1\r\n    end\r\n    return t\r\n  end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "if seed then math.randomseed(seed) end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "math.randomseed(seed)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "local n = #t",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "while n >= 2 do\r\n      local k = math.random(n)\r\n      t[n], t[k] = t[k], t[n]\r\n      n = n - 1\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 17,
+    "text": "local k = math.random(n)",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "t[n], t[k] = t[k], t[n]",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "n = n - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function()\r\n    local f = io.open('/dev/urandom', 'rb')\r\n    if not f then return nil end\r\n    local s = f:read(4) f:close()\r\n    local bytes = {s:byte(1, 4)}\r\n    local value = 0\r\n    for _, v in ipairs(bytes) do\r\n      value = value * 256 + v\r\n    end\r\n    return value\r\n  end",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "local f = io.open('/dev/urandom', 'rb')",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "if not f then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "local s = f:read(4)",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "f:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 27,
+    "text": "local bytes = {s:byte(1, 4)}",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "local value = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 29,
+    "text": "for _, v in ipairs(bytes) do\r\n      value = value * 256 + v\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 30,
+    "text": "value = value * 256 + v",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 33,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "random",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "randomseed",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

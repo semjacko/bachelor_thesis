@@ -1,0 +1,253 @@
+{
+  "_filename": "bisect.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/wxlua/modules/lua/test/bisect.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 24
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "bisect",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function bisect(f,a,b,fa,fb)\r\n local c=(a+b)/2\r\n io.write(n,\" c=\",c,\" a=\",a,\" b=\",b,\"\\n\")\r\n if c==a or c==b or math.abs(a-b)<delta then return c,b-a end\r\n n=n+1\r\n local fc=f(c)\r\n if fa*fc<0 then return bisect(f,a,c,fa,fc) else return bisect(f,c,b,fc,fb) end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local c=(a+b)/2",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "io.write(n,\" c=\",c,\" a=\",a,\" b=\",b,\"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "if c==a or c==b or math.abs(a-b)<delta then return c,b-a end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "n=n+1",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "local fc=f(c)",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "if fa*fc<0 then return bisect(f,a,c,fa,fc) else return bisect(f,c,b,fc,fb) end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function solve(f,a,b)\r\n n=0\r\n local z,e=bisect(f,a,b,f(a),f(b))\r\n io.write(string.format(\"after %d steps, root is %.17g with error %.1e, f=%.1e\\n\",n,z,e,f(z)))\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "n=0",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "local z,e=bisect(f,a,b,f(a),f(b))",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "io.write(string.format(\"after %d steps, root is %.17g with error %.1e, f=%.1e\\n\",n,z,e,f(z)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function f(x)\r\n return x*x*x-x-1\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 19,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "abs",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

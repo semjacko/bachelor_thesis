@@ -1,0 +1,125 @@
+{
+  "_filename": "vhostshandler.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/xavante/src/xavante/vhostshandler.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 10,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "vhostshandler",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function xavante.vhostshandler (vhosts)\r\n\treturn function (req, res)\r\n\t\tlocal h = vhosts [req.headers.host] or vhosts [\"\"]\r\n\t\treturn h (req, res)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "local h = vhosts [req.headers.host] or vhosts [\"\"]",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function (req, res)\r\n\t\tlocal h = vhosts [req.headers.host] or vhosts [\"\"]\r\n\t\treturn h (req, res)\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 9,
+    "text": "h",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "require container"
+  } ]
+}

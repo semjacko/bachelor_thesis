@@ -1,0 +1,393 @@
+{
+  "_filename": "terra.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/busted/busted/modules/files/terra.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 36
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "assigns",
+    "to": 38
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "assigns",
+    "to": 40
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 42
+  }, {
+    "from": 26,
+    "label": "represents",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "provides",
+    "to": 43
+  }, {
+    "from": 30,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 30,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 30,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 27,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 30,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 27,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 30,
+    "label": "contains",
+    "to": 13
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "terra",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function(busted, filename)\r\n  return path.extension(filename) == '.lua'\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function(busted, filename)\r\n  local file, err = loadfile(filename)\r\n  if not file then\r\n    busted.publish({ 'error', 'file' }, { descriptor = 'file', name = filename }, nil, err, {})\r\n  end\r\n  return file, getTrace\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function(busted, filename)\r\n  return ok and path.extension(filename) == '.moon'\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function(busted, filename)\r\n  local file, err = moonscript.loadfile(filename)\r\n  if not file then\r\n    busted.publish({ 'error', 'file' }, { descriptor = 'file', name = filename }, nil, err, {})\r\n  end\r\n  return file, getTrace, rewriteMessage\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function(filename, info)\r\n  local index = info.traceback:find('\\n%s*%[C]')\r\n  info.traceback = info.traceback:sub(1, index)\r\n  return info\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local index = info.traceback:find('\\n%s*%[C]')",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "info.traceback = info.traceback:sub(1, index)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function(busted, filename)\r\n  return ok and path.extension(filename) == '.t'\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function(busted, filename)\r\n  local file, err = terralib.loadfile(filename)\r\n  if not file then\r\n    busted.publish({ 'error', 'file' }, { descriptor = 'file', name = filename }, nil, err, {})\r\n  end\r\n  return file, getTrace\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "local file, err = terralib.loadfile(filename)",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "if not file then\r\n    busted.publish({ 'error', 'file' }, { descriptor = 'file', name = filename }, nil, err, {})\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "busted.publish({ 'error', 'file' }, { descriptor = 'file', name = filename }, nil, err, {})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function() return require 'terralib' end",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 20,
+    "text": "publish",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "loadfile",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "extension",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "path",
+    "type": "module"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "interface"
+  } ]
+}

@@ -1,0 +1,373 @@
+{
+  "_filename": "strict.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/strict.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "assigns",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "assigns",
+    "to": 39
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "assigns",
+    "to": 41
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "assigns",
+    "to": 43
+  }, {
+    "from": 25,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "strict",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function what ()\r\n  local d = getinfo(3, \"S\")\r\n  return d and d.what or \"C\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local d = getinfo(3, \"S\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function (t, n, v)\r\n  if not mt.__declared[n] then\r\n    local w = what()\r\n    if w ~= \"main\" and w ~= \"C\" then\r\n      error(\"assign to undeclared variable '\"..n..\"'\", 2)\r\n    end\r\n    mt.__declared[n] = true\r\n  end\r\n  rawset(t, n, v)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "if not mt.__declared[n] then\r\n    local w = what()\r\n    if w ~= \"main\" and w ~= \"C\" then\r\n      error(\"assign to undeclared variable '\"..n..\"'\", 2)\r\n    end\r\n    mt.__declared[n] = true\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "local w = what()",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "if w ~= \"main\" and w ~= \"C\" then\r\n      error(\"assign to undeclared variable '\"..n..\"'\", 2)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "error(\"assign to undeclared variable '\"..n..\"'\", 2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "mt.__declared[n] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "rawset(t, n, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function (t, n)\r\n  if not mt.__declared[n] and what() ~= \"C\" then\r\n    error(\"variable '\"..n..\"' is not declared\", 2)\r\n  end\r\n  return rawget(t, n)\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "if not mt.__declared[n] and what() ~= \"C\" then\r\n    error(\"variable '\"..n..\"' is not declared\", 2)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "error(\"variable '\"..n..\"' is not declared\", 2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 19,
+    "text": "rawget",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "rawset",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "getinfo",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "getmetatable",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

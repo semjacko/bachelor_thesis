@@ -1,0 +1,257 @@
+{
+  "_filename": "ex10.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luasocket/gem/ex10.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 22,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 23,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 24,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 25,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 21,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 22,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 23,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 24,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 25,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 26,
+    "label": "contains",
+    "to": 8
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ex10",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function pump.step(src, snk)\r\n  local chunk, src_err = src()\r\n  local ret, snk_err = snk(chunk, src_err)\r\n  if chunk and ret then return 1\r\n  else return nil, src_err or snk_err end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local chunk, src_err = src()",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local ret, snk_err = snk(chunk, src_err)",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if chunk and ret then return 1\r\n  else return nil, src_err or snk_err end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function pump.all(src, snk, step)\r\n    step = step or pump.step\r\n    while true do\r\n        local ret, err = step(src, snk)\r\n        if not ret then\r\n            if err then return nil, err\r\n            else return 1 end\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "step = step or pump.step",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "while true do\r\n        local ret, err = step(src, snk)\r\n        if not ret then\r\n            if err then return nil, err\r\n            else return 1 end\r\n        end\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 11,
+    "text": "local ret, err = step(src, snk)",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "if not ret then\r\n            if err then return nil, err\r\n            else return 1 end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "if err then return nil, err\r\n            else return 1 end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 16,
+    "text": "step",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "snk",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "src",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  } ]
+}

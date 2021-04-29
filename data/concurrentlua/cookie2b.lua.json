@@ -1,0 +1,229 @@
+{
+  "_filename": "cookie2b.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/concurrentlua/test/distributed/cookie2b.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 24
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cookie2b",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function ping(pid)\r\n    concurrent.register('ping', concurrent.self())\r\n    while true do\r\n        concurrent.send(pid, { from = { 'ping', 'ping@localhost' },\r\n            body = 'ping' })\r\n        print('ping sent message to pong')\r\n        local msg = concurrent.receive(1000)\r\n        if not msg then break end\r\n        print('ping received reply from pong')\r\n    end\r\n    print('ping exiting')\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "concurrent.register('ping', concurrent.self())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "while true do\r\n        concurrent.send(pid, { from = { 'ping', 'ping@localhost' },\r\n            body = 'ping' })\r\n        print('ping sent message to pong')\r\n        local msg = concurrent.receive(1000)\r\n        if not msg then break end\r\n        print('ping received reply from pong')\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 5,
+    "text": "concurrent.send(pid, { from = { 'ping', 'ping@localhost' },\r\n            body = 'ping' })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "print('ping sent message to pong')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "local msg = concurrent.receive(1000)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "if not msg then break end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "print('ping received reply from pong')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "print('ping exiting')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "spawn",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "receive",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "send",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "loop",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "setcookie",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "register",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "self",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "shutdown",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require container"
+  } ]
+}

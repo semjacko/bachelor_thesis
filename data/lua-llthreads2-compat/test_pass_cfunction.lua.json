@@ -1,0 +1,129 @@
+{
+  "_filename": "test_pass_cfunction.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-llthreads2-compat/llthreads2/test/test_pass_cfunction.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "assigns",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "initializes",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "requires",
+    "to": 4
+  }, {
+    "from": 10,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test_pass_cfunction",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "utils",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "llthreads",
+    "type": "module"
+  }, {
+    "id": 5,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

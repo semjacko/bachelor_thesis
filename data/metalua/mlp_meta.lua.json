@@ -1,0 +1,633 @@
+{
+  "_filename": "mlp_meta.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/metalua/src/compiler/mlp_meta.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 38,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 38,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 38,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 62
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 63
+  }, {
+    "from": 62,
+    "label": "initializes",
+    "to": 64
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "mlp_meta",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function splice (ast)\r\n   local f = mlc.function_of_ast(ast, '=splice')\r\n   local result=f()\r\n   return result\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local f = mlc.function_of_ast(ast, '=splice')",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local result=f()",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function quote (t)\r\n   --print(\"QUOTING:\", _G.table.tostring(t, 60))\r\n   local cases = { }\r\n   function cases.table (t)\r\n      local mt = { tag = \"Table\" }\r\n      --_G.table.insert (mt, { tag = \"Pair\", quote \"quote\", { tag = \"True\" } })\r\n      if t.tag == \"Splice\" then\r\n         assert (#t==1, \"Invalid splice\")\r\n         local sp = t[1]\r\n         return sp\r\n      elseif t.tag then\r\n         _G.table.insert (mt, { tag = \"Pair\", quote \"tag\", quote (t.tag) })\r\n      end\r\n      for _, v in ipairs (t) do\r\n         _G.table.insert (mt, quote(v))\r\n      end\r\n      return mt\r\n   end\r\n   function cases.number (t) return { tag = \"Number\", t, quote = true } end\r\n   function cases.string (t) return { tag = \"String\", t, quote = true } end\r\n   return cases [ type (t) ] (t)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local cases = { }",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "function cases.table (t)\r\n      local mt = { tag = \"Table\" }\r\n      --_G.table.insert (mt, { tag = \"Pair\", quote \"quote\", { tag = \"True\" } })\r\n      if t.tag == \"Splice\" then\r\n         assert (#t==1, \"Invalid splice\")\r\n         local sp = t[1]\r\n         return sp\r\n      elseif t.tag then\r\n         _G.table.insert (mt, { tag = \"Pair\", quote \"tag\", quote (t.tag) })\r\n      end\r\n      for _, v in ipairs (t) do\r\n         _G.table.insert (mt, quote(v))\r\n      end\r\n      return mt\r\n   end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 10,
+    "text": "local mt = { tag = \"Table\" }",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "if t.tag == \"Splice\" then\r\n         assert (#t==1, \"Invalid splice\")\r\n         local sp = t[1]\r\n         return sp\r\n      elseif t.tag then\r\n         _G.table.insert (mt, { tag = \"Pair\", quote \"tag\", quote (t.tag) })\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "assert (#t==1, \"Invalid splice\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "local sp = t[1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "_G.table.insert (mt, { tag = \"Pair\", quote \"tag\", quote (t.tag) })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "for _, v in ipairs (t) do\r\n         _G.table.insert (mt, quote(v))\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 16,
+    "text": "_G.table.insert (mt, quote(v))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "function cases.number (t) return { tag = \"Number\", t, quote = true } end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 18,
+    "text": "function cases.string (t) return { tag = \"String\", t, quote = true } end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function cases.table (t)\r\n      local mt = { tag = \"Table\" }\r\n      --_G.table.insert (mt, { tag = \"Pair\", quote \"quote\", { tag = \"True\" } })\r\n      if t.tag == \"Splice\" then\r\n         assert (#t==1, \"Invalid splice\")\r\n         local sp = t[1]\r\n         return sp\r\n      elseif t.tag then\r\n         _G.table.insert (mt, { tag = \"Pair\", quote \"tag\", quote (t.tag) })\r\n      end\r\n      for _, v in ipairs (t) do\r\n         _G.table.insert (mt, quote(v))\r\n      end\r\n      return mt\r\n   end",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function cases.number (t) return { tag = \"Number\", t, quote = true } end",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "function cases.string (t) return { tag = \"String\", t, quote = true } end",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "function splice_content (lx)\r\n   local parser_name = \"expr\"\r\n   if lx:is_keyword (lx:peek(2), \":\") then\r\n      local a = lx:next()\r\n      lx:next() -- skip \":\"\r\n      assert (a.tag==\"Id\", \"Invalid splice parser name\")\r\n      parser_name = a[1]\r\n   end\r\n   local ast = mlp[parser_name](lx)\r\n   if in_a_quote then\r\n      --printf(\"SPLICE_IN_QUOTE:\\n%s\", _G.table.tostring(ast, \"nohash\", 60))\r\n      return { tag=\"Splice\", ast }\r\n   else\r\n      if parser_name == \"expr\" then ast = { { tag=\"Return\", ast } }\r\n      elseif parser_name == \"stat\"  then ast = { ast }\r\n      elseif parser_name ~= \"block\" then\r\n         error (\"splice content must be an expr, stat or block\") end\r\n      --printf(\"EXEC THIS SPLICE:\\n%s\", _G.table.tostring(ast, \"nohash\", 60))\r\n      return splice (ast)\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "local parser_name = \"expr\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if lx:is_keyword (lx:peek(2), \":\") then\r\n      local a = lx:next()\r\n      lx:next() -- skip \":\"\r\n      assert (a.tag==\"Id\", \"Invalid splice parser name\")\r\n      parser_name = a[1]\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "local a = lx:next()",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "lx:next()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "assert (a.tag==\"Id\", \"Invalid splice parser name\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "parser_name = a[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "local ast = mlp[parser_name](lx)",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "if in_a_quote then\r\n      --printf(\"SPLICE_IN_QUOTE:\\n%s\", _G.table.tostring(ast, \"nohash\", 60))\r\n      return { tag=\"Splice\", ast }\r\n   else\r\n      if parser_name == \"expr\" then ast = { { tag=\"Return\", ast } }\r\n      elseif parser_name == \"stat\"  then ast = { ast }\r\n      elseif parser_name ~= \"block\" then\r\n         error (\"splice content must be an expr, stat or block\") end\r\n      --printf(\"EXEC THIS SPLICE:\\n%s\", _G.table.tostring(ast, \"nohash\", 60))\r\n      return splice (ast)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "if parser_name == \"expr\" then ast = { { tag=\"Return\", ast } }\r\n      elseif parser_name == \"stat\"  then ast = { ast }\r\n      elseif parser_name ~= \"block\" then\r\n         error (\"splice content must be an expr, stat or block\") end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "ast = { { tag=\"Return\", ast } }",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "ast = { ast }",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "error (\"splice content must be an expr, stat or block\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 38,
+    "text": "function quote_content (lx)\r\n   local parser \r\n   if lx:is_keyword (lx:peek(2), \":\") then -- +{parser: content }\r\n      parser = mlp[id(lx)[1]]\r\n      lx:next()\r\n   else -- +{ content }\r\n      parser = mlp.expr\r\n   end\r\n\r\n   local prev_iq = in_a_quote\r\n   in_a_quote = true\r\n   --print(\"IN_A_QUOTE\")\r\n   local content = parser (lx)\r\n   local q_content = quote (content)\r\n   in_a_quote = prev_iq\r\n   return q_content\r\nend",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "local parser",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "if lx:is_keyword (lx:peek(2), \":\") then -- +{parser: content }\r\n      parser = mlp[id(lx)[1]]\r\n      lx:next()\r\n   else -- +{ content }\r\n      parser = mlp.expr\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 41,
+    "text": "parser = mlp[id(lx)[1]]",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "parser = mlp.expr",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "local prev_iq = in_a_quote",
+    "type": "statement:localassign"
+  }, {
+    "id": 44,
+    "text": "in_a_quote = true",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "local content = parser (lx)",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "local q_content = quote (content)",
+    "type": "statement:localassign"
+  }, {
+    "id": 47,
+    "text": "in_a_quote = prev_iq",
+    "type": "statement:assign"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 50,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "parser",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "mlp[parser_name]",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "function_of_ast",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "f",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "id",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "_G.table.insert",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "cases[ type (t) ]",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

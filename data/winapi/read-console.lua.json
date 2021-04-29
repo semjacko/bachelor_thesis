@@ -1,0 +1,141 @@
+{
+  "_filename": "read-console.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/winapi/examples/read-console.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "assigns",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 12
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "read-console",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function(line)\r\n  f:write(line)\r\n  if line:match '^quit' then\r\n    os.exit()\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "f:write(line)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "if line:match '^quit' then\r\n    os.exit()\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "os.exit()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 8,
+    "text": "get_console",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "sleep",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

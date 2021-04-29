@@ -1,0 +1,133 @@
+{
+  "_filename": "app.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/cgilua/examples/app.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "app",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "chdir",
+    "type": "global function"
+  }, {
+    "id": 4,
+    "text": "cgilua.authentication.checkURL",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "redirect",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "cgilua.authentication.username",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "handle",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "splitonfirst",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "doif",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "require container"
+  } ]
+}

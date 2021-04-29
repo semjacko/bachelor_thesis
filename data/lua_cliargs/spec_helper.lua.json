@@ -1,0 +1,441 @@
+{
+  "_filename": "spec_helper.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/lua_cliargs/spec/spec_helper.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 34,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 34,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 35,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 38
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "assigns",
+    "to": 41
+  }, {
+    "from": 38,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "assigns",
+    "to": 43
+  }, {
+    "from": 38,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "assigns",
+    "to": 45
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "requires",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 48
+  }, {
+    "from": 40,
+    "label": "represents",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "provides",
+    "to": 49
+  }, {
+    "from": 40,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 40,
+    "label": "contains",
+    "to": 17
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "spec_helper",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "split",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function odescribe(desc, runner)\r\n  busted.describe(\"#only \" .. desc, runner)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "busted.describe(\"#only \" .. desc, runner)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function xdescribe()\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function oit(desc, runner)\r\n  busted.it(\"#only \" .. desc, runner)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "busted.it(\"#only \" .. desc, runner)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function xit(desc, _)\r\n  busted.it(desc)\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "busted.it(desc)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function(cli, str)\r\n  return cli:parse(split(str, '%s+'))\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function(s)\r\n  local lines = split(s, \"\\n\")\r\n  local _\r\n\r\n  if #lines == 0 then\r\n    return s\r\n  end\r\n\r\n  local padding = lines[1]:find('%S') or 0\r\n  local buffer = ''\r\n\r\n  for _, line in pairs(lines) do\r\n    buffer = buffer .. line:sub(padding, -1):gsub(\"%s+$\", '') .. \"\\n\"\r\n  end\r\n\r\n  return buffer:gsub(\"%s+$\", '')\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "local lines = split(s, \"\\n\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "local _",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "if #lines == 0 then\r\n    return s\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "local padding = lines[1]:find('%S') or 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "local buffer = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "for _, line in pairs(lines) do\r\n    buffer = buffer .. line:sub(padding, -1):gsub(\"%s+$\", '') .. \"\\n\"\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 24,
+    "text": "buffer = buffer .. line:sub(padding, -1):gsub(\"%s+$\", '') .. \"\\n\"",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 27,
+    "text": "busted",
+    "type": "module"
+  }, {
+    "id": 28,
+    "text": "it",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "describe",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "parse",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "split",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "interface"
+  } ]
+}

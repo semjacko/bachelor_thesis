@@ -1,0 +1,521 @@
+{
+  "_filename": "test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luatask/examples/test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 38,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 38,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 38,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 38,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 51
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 52
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "assigns",
+    "to": 54
+  }, {
+    "from": 52,
+    "label": "initializes",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "requires",
+    "to": 39
+  }, {
+    "from": 56,
+    "label": "initializes",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "requires",
+    "to": 39
+  }, {
+    "from": 57,
+    "label": "initializes",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "requires",
+    "to": 39
+  }, {
+    "from": 58,
+    "label": "initializes",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "requires",
+    "to": 39
+  }, {
+    "from": 53,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 53,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 17,
+    "label": "hasArgument",
+    "to": 37
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function TEST.ts()\r\n    local tl = task.list()\r\n    io.stdout:write( '\\nID   SCRIPT           COUNT     REG/ID\\n' )\r\n    io.stdout:write( '---- ---------------- --------- ----------------\\n' )\r\n    if tl then\r\n        for i, t in pairs( tl ) do\r\n            io.stdout:write( string.format( '%4d %-16.16s %9d %-16.16s\\n',\r\n                    i, t.script or arg[0], t.msgcount, t.id or '' ) )\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local tl = task.list()",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "io.stdout:write( '\\nID   SCRIPT           COUNT     REG/ID\\n' )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "io.stdout:write( '---- ---------------- --------- ----------------\\n' )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "if tl then\r\n        for i, t in pairs( tl ) do\r\n            io.stdout:write( string.format( '%4d %-16.16s %9d %-16.16s\\n',\r\n                    i, t.script or arg[0], t.msgcount, t.id or '' ) )\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "for i, t in pairs( tl ) do\r\n            io.stdout:write( string.format( '%4d %-16.16s %9d %-16.16s\\n',\r\n                    i, t.script or arg[0], t.msgcount, t.id or '' ) )\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 8,
+    "text": "io.stdout:write( string.format( '%4d %-16.16s %9d %-16.16s\\n',\r\n                    i, t.script or arg[0], t.msgcount, t.id or '' ) )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function TEST.main( arg )\r\n    \r\n    task.register( 'Main' )\r\n    \r\n    local cmd = 'ts'\r\n    while cmd ~= 'quit' do\r\n        if cmd == 'ts' then\r\n            TEST.ts()\r\n        elseif string.sub( cmd, 1, 3 ) == 'run' then\r\n            local rarg = {}\r\n            string.gsub( cmd, '([^ ]+)', function( x ) table.insert( rarg, x ) end )\r\n            if not rarg[2] then\r\n                io.stdout:write( 'Run what?\\n' )\r\n            else\r\n                local script = rarg[2]\r\n                table.remove( rarg, 1)\r\n                table.remove( rarg, 1)\r\n                local tsk = task.create( script, rarg )\r\n                if tsk == -1 then\r\n                    io.stdout:write( \"-> Can't expand task list.\\n\" )\r\n                elseif tsk == -2 then\r\n                    io.stdout:write( \"-> Can't strdup file name.\\n\" )\r\n                elseif tsk == -3 then\r\n                    io.stdout:write( \"-> Can't create message queue.\\n\" )\r\n                elseif tsk == -4 then\r\n                    io.stdout:write( \"-> Can't create os thread.\\n\" )\r\n                elseif tsk == -11 then\r\n                    io.stdout:write( \"-> The library seems corrupt.\\n\" )\r\n                else\r\n                    io.stdout:write( \"-> Task \", tsk, \" started.\\n\" )\r\n                end\r\n            end\r\n        end\r\n        io.stdout:write( 'TEST> ' )\r\n        io.stdout:flush()\r\n        cmd = io.stdin:read()\r\n    end\r\n\r\n    io.stdout:write( '\\nTEST terminated\\n' )\r\n    \r\n    os.exit( 0 )\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "task.register( 'Main' )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "local cmd = 'ts'",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "while cmd ~= 'quit' do\r\n        if cmd == 'ts' then\r\n            TEST.ts()\r\n        elseif string.sub( cmd, 1, 3 ) == 'run' then\r\n            local rarg = {}\r\n            string.gsub( cmd, '([^ ]+)', function( x ) table.insert( rarg, x ) end )\r\n            if not rarg[2] then\r\n                io.stdout:write( 'Run what?\\n' )\r\n            else\r\n                local script = rarg[2]\r\n                table.remove( rarg, 1)\r\n                table.remove( rarg, 1)\r\n                local tsk = task.create( script, rarg )\r\n                if tsk == -1 then\r\n                    io.stdout:write( \"-> Can't expand task list.\\n\" )\r\n                elseif tsk == -2 then\r\n                    io.stdout:write( \"-> Can't strdup file name.\\n\" )\r\n                elseif tsk == -3 then\r\n                    io.stdout:write( \"-> Can't create message queue.\\n\" )\r\n                elseif tsk == -4 then\r\n                    io.stdout:write( \"-> Can't create os thread.\\n\" )\r\n                elseif tsk == -11 then\r\n                    io.stdout:write( \"-> The library seems corrupt.\\n\" )\r\n                else\r\n                    io.stdout:write( \"-> Task \", tsk, \" started.\\n\" )\r\n                end\r\n            end\r\n        end\r\n        io.stdout:write( 'TEST> ' )\r\n        io.stdout:flush()\r\n        cmd = io.stdin:read()\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 14,
+    "text": "if cmd == 'ts' then\r\n            TEST.ts()\r\n        elseif string.sub( cmd, 1, 3 ) == 'run' then\r\n            local rarg = {}\r\n            string.gsub( cmd, '([^ ]+)', function( x ) table.insert( rarg, x ) end )\r\n            if not rarg[2] then\r\n                io.stdout:write( 'Run what?\\n' )\r\n            else\r\n                local script = rarg[2]\r\n                table.remove( rarg, 1)\r\n                table.remove( rarg, 1)\r\n                local tsk = task.create( script, rarg )\r\n                if tsk == -1 then\r\n                    io.stdout:write( \"-> Can't expand task list.\\n\" )\r\n                elseif tsk == -2 then\r\n                    io.stdout:write( \"-> Can't strdup file name.\\n\" )\r\n                elseif tsk == -3 then\r\n                    io.stdout:write( \"-> Can't create message queue.\\n\" )\r\n                elseif tsk == -4 then\r\n                    io.stdout:write( \"-> Can't create os thread.\\n\" )\r\n                elseif tsk == -11 then\r\n                    io.stdout:write( \"-> The library seems corrupt.\\n\" )\r\n                else\r\n                    io.stdout:write( \"-> Task \", tsk, \" started.\\n\" )\r\n                end\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "TEST.ts()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "local rarg = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "string.gsub( cmd, '([^ ]+)', function( x ) table.insert( rarg, x ) end )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "table.insert( rarg, x )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "if not rarg[2] then\r\n                io.stdout:write( 'Run what?\\n' )\r\n            else\r\n                local script = rarg[2]\r\n                table.remove( rarg, 1)\r\n                table.remove( rarg, 1)\r\n                local tsk = task.create( script, rarg )\r\n                if tsk == -1 then\r\n                    io.stdout:write( \"-> Can't expand task list.\\n\" )\r\n                elseif tsk == -2 then\r\n                    io.stdout:write( \"-> Can't strdup file name.\\n\" )\r\n                elseif tsk == -3 then\r\n                    io.stdout:write( \"-> Can't create message queue.\\n\" )\r\n                elseif tsk == -4 then\r\n                    io.stdout:write( \"-> Can't create os thread.\\n\" )\r\n                elseif tsk == -11 then\r\n                    io.stdout:write( \"-> The library seems corrupt.\\n\" )\r\n                else\r\n                    io.stdout:write( \"-> Task \", tsk, \" started.\\n\" )\r\n                end\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "io.stdout:write( 'Run what?\\n' )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "local script = rarg[2]",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "table.remove( rarg, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "local tsk = task.create( script, rarg )",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "if tsk == -1 then\r\n                    io.stdout:write( \"-> Can't expand task list.\\n\" )\r\n                elseif tsk == -2 then\r\n                    io.stdout:write( \"-> Can't strdup file name.\\n\" )\r\n                elseif tsk == -3 then\r\n                    io.stdout:write( \"-> Can't create message queue.\\n\" )\r\n                elseif tsk == -4 then\r\n                    io.stdout:write( \"-> Can't create os thread.\\n\" )\r\n                elseif tsk == -11 then\r\n                    io.stdout:write( \"-> The library seems corrupt.\\n\" )\r\n                else\r\n                    io.stdout:write( \"-> Task \", tsk, \" started.\\n\" )\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "io.stdout:write( \"-> Can't expand task list.\\n\" )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "io.stdout:write( \"-> Can't strdup file name.\\n\" )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 27,
+    "text": "io.stdout:write( \"-> Can't create message queue.\\n\" )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "io.stdout:write( \"-> Can't create os thread.\\n\" )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "io.stdout:write( \"-> The library seems corrupt.\\n\" )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "io.stdout:write( \"-> Task \", tsk, \" started.\\n\" )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "io.stdout:write( 'TEST> ' )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "io.stdout:flush()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "cmd = io.stdin:read()",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "io.stdout:write( '\\nTEST terminated\\n' )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "os.exit( 0 )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "function( x ) table.insert( rarg, x ) end",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 39,
+    "text": "task",
+    "type": "module"
+  }, {
+    "id": 40,
+    "text": "list",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "register",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "create",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "require container"
+  } ]
+}

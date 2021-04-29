@@ -1,0 +1,2509 @@
+{
+  "_filename": "add.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/add.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 80
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 80
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 80
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 80
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 74
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 81
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 78
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 84
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 84
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 84
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 84
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 84
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 85
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 73
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 82
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 79
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 62,
+    "label": "declares",
+    "to": 55
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 89
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 90
+  }, {
+    "from": 89,
+    "label": "initializes",
+    "to": 91
+  }, {
+    "from": 89,
+    "label": "initializes",
+    "to": 92
+  }, {
+    "from": 89,
+    "label": "initializes",
+    "to": 93
+  }, {
+    "from": 90,
+    "label": "initializes",
+    "to": 94
+  }, {
+    "from": 94,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 90,
+    "label": "initializes",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 90,
+    "label": "initializes",
+    "to": 98
+  }, {
+    "from": 98,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 90,
+    "label": "initializes",
+    "to": 100
+  }, {
+    "from": 100,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 90,
+    "label": "initializes",
+    "to": 102
+  }, {
+    "from": 102,
+    "label": "requires",
+    "to": 103
+  }, {
+    "from": 90,
+    "label": "initializes",
+    "to": 104
+  }, {
+    "from": 104,
+    "label": "requires",
+    "to": 105
+  }, {
+    "from": 90,
+    "label": "initializes",
+    "to": 106
+  }, {
+    "from": 106,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 90,
+    "label": "initializes",
+    "to": 108
+  }, {
+    "from": 108,
+    "label": "requires",
+    "to": 109
+  }, {
+    "from": 110,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 111,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 112,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 113,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 114,
+    "label": "requires",
+    "to": 103
+  }, {
+    "from": 115,
+    "label": "requires",
+    "to": 105
+  }, {
+    "from": 116,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 117,
+    "label": "requires",
+    "to": 109
+  }, {
+    "from": 118,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 119,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 120,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 121,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 122,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 123,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 124,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 125,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 126,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 127,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 128,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 129,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 130,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 131,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 132,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 133,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 134,
+    "label": "requires",
+    "to": 103
+  }, {
+    "from": 135,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 136,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 137,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 138,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 139,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 140,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 141,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 142,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 143,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 144,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 145,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 146,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 147,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 148,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 149,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 150,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 151,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 152,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 153,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 154,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 155,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 156,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 157,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 158,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 159,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 160,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 161,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 162,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 163,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 164,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 165,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 166,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 167,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 168,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 169,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 170,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 171,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 172,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 173,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 174,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 175,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 176,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 177,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 178,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 179,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 180,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 181,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 182,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 183,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 184,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 185,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 186,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 187,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 188,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 189,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 190,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 191,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 192,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 193,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 194,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 195,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 196,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 197,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 198,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 199,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 200,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 201,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 202,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 203,
+    "label": "requires",
+    "to": 103
+  }, {
+    "from": 204,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 205,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 206,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 207,
+    "label": "requires",
+    "to": 103
+  }, {
+    "from": 208,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 209,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 210,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 211,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 212,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 213,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 214,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 215,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 216,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 217,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 218,
+    "label": "requires",
+    "to": 103
+  }, {
+    "from": 219,
+    "label": "requires",
+    "to": 105
+  }, {
+    "from": 220,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 221,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 222,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 223,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 224,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 225,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 226,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 227,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 228,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 229,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 230,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 231,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 232,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 233,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 234,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 235,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 236,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 237,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 238,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 239,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 240,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 241,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 242,
+    "label": "requires",
+    "to": 103
+  }, {
+    "from": 243,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 244,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 245,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 246,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 247,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 248,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 249,
+    "label": "requires",
+    "to": 103
+  }, {
+    "from": 250,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 251,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 252,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 253,
+    "label": "requires",
+    "to": 109
+  }, {
+    "from": 254,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 255,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 256,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 257,
+    "label": "requires",
+    "to": 103
+  }, {
+    "from": 258,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 259,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 260,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 261,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 262,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 263,
+    "label": "requires",
+    "to": 103
+  }, {
+    "from": 264,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 265,
+    "label": "requires",
+    "to": 103
+  }, {
+    "from": 266,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 267,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 268,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 269,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 270,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 271,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 272,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 273,
+    "label": "requires",
+    "to": 103
+  }, {
+    "from": 274,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 275,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 276,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 277,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 278,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 279,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 280,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 281,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 282,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 283,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 284,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 285,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 286,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 287,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 288,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 289,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 290,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 291,
+    "label": "requires",
+    "to": 95
+  }, {
+    "from": 292,
+    "label": "requires",
+    "to": 97
+  }, {
+    "from": 293,
+    "label": "requires",
+    "to": 101
+  }, {
+    "from": 294,
+    "label": "requires",
+    "to": 99
+  }, {
+    "from": 295,
+    "label": "requires",
+    "to": 107
+  }, {
+    "from": 296,
+    "label": "requires",
+    "to": 97
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "add",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function add_files_to_server(refresh, rockfiles, server, upload_server)\r\n   assert(type(refresh) == \"boolean\" or not refresh)\r\n   assert(type(rockfiles) == \"table\")\r\n   assert(type(server) == \"string\")\r\n   assert(type(upload_server) == \"table\" or not upload_server)\r\n   \r\n   local download_url, login_url = cache.get_server_urls(server, upload_server)\r\n   local at = fs.current_dir()\r\n   local refresh_fn = refresh and cache.refresh_local_cache or cache.split_server_url\r\n   \r\n   local local_cache, protocol, server_path, user, password = refresh_fn(server, download_url, cfg.upload_user, cfg.upload_password)\r\n   if not local_cache then\r\n      return nil, protocol\r\n   end\r\n   if protocol == \"file\" then\r\n      return nil, \"Server \"..server..\" is not recognized, check your configuration.\"\r\n   end\r\n   \r\n   if not login_url then\r\n      login_url = protocol..\"://\"..server_path\r\n   end\r\n   \r\n   local ok, err = fs.change_dir(at)\r\n   if not ok then return nil, err end\r\n   \r\n   local files = {}\r\n   for i, rockfile in ipairs(rockfiles) do\r\n      if fs.exists(rockfile) then\r\n         util.printout(\"Copying file \"..rockfile..\" to \"..local_cache..\"...\")\r\n         local absolute = fs.absolute_name(rockfile)\r\n         fs.copy(absolute, local_cache)\r\n         table.insert(files, dir.base_name(absolute))\r\n      else\r\n         util.printerr(\"File \"..rockfile..\" not found\")\r\n      end\r\n   end\r\n   if #files == 0 then\r\n      return nil, \"No files found\"\r\n   end\r\n\r\n   local ok, err = fs.change_dir(local_cache)\r\n   if not ok then return nil, err end\r\n\r\n   util.printout(\"Updating manifest...\")\r\n   manif.make_manifest(local_cache, \"one\", true)\r\n   \r\n   manif.zip_manifests()\r\n   \r\n   util.printout(\"Updating index.html...\")\r\n   index.make_index(local_cache)\r\n\r\n   local login_info = \"\"\r\n   if user then login_info = \" -u \"..user end\r\n   if password then login_info = login_info..\":\"..password end\r\n   if not login_url:match(\"/$\") then\r\n      login_url = login_url .. \"/\"\r\n   end\r\n\r\n   table.insert(files, \"index.html\")\r\n   table.insert(files, \"manifest\")\r\n   for ver in util.lua_versions() do\r\n      table.insert(files, \"manifest-\"..ver)\r\n      table.insert(files, \"manifest-\"..ver..\".zip\")\r\n   end\r\n\r\n   -- TODO abstract away explicit 'curl' call\r\n\r\n   local cmd\r\n   if protocol == \"rsync\" then\r\n      local srv, path = server_path:match(\"([^/]+)(/.+)\")\r\n      cmd = cfg.variables.RSYNC..\" \"..cfg.variables.RSYNCFLAGS..\" -e ssh \"..local_cache..\"/ \"..user..\"@\"..srv..\":\"..path..\"/\"\r\n   elseif upload_server and upload_server.sftp then\r\n      local part1, part2 = upload_server.sftp:match(\"^([^/]*)/(.*)$\")\r\n      cmd = cfg.variables.SCP..\" \"..table.concat(files, \" \")..\" \"..user..\"@\"..part1..\":/\"..part2\r\n   else\r\n      cmd = cfg.variables.CURL..\" \"..login_info..\" -T '{\"..table.concat(files, \",\")..\"}' \"..login_url\r\n   end\r\n\r\n   util.printout(cmd)\r\n   fs.execute(cmd)\r\n\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "assert(type(refresh) == \"boolean\" or not refresh)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "assert(type(rockfiles) == \"table\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "assert(type(server) == \"string\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "assert(type(upload_server) == \"table\" or not upload_server)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "local download_url, login_url = cache.get_server_urls(server, upload_server)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local at = fs.current_dir()",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "local refresh_fn = refresh and cache.refresh_local_cache or cache.split_server_url",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "local local_cache, protocol, server_path, user, password = refresh_fn(server, download_url, cfg.upload_user, cfg.upload_password)",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "if not local_cache then\r\n      return nil, protocol\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 13,
+    "text": "if protocol == \"file\" then\r\n      return nil, \"Server \"..server..\" is not recognized, check your configuration.\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "if not login_url then\r\n      login_url = protocol..\"://\"..server_path\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "login_url = protocol..\"://\"..server_path",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "local ok, err = fs.change_dir(at)",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "if not ok then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "local files = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "for i, rockfile in ipairs(rockfiles) do\r\n      if fs.exists(rockfile) then\r\n         util.printout(\"Copying file \"..rockfile..\" to \"..local_cache..\"...\")\r\n         local absolute = fs.absolute_name(rockfile)\r\n         fs.copy(absolute, local_cache)\r\n         table.insert(files, dir.base_name(absolute))\r\n      else\r\n         util.printerr(\"File \"..rockfile..\" not found\")\r\n      end\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 20,
+    "text": "if fs.exists(rockfile) then\r\n         util.printout(\"Copying file \"..rockfile..\" to \"..local_cache..\"...\")\r\n         local absolute = fs.absolute_name(rockfile)\r\n         fs.copy(absolute, local_cache)\r\n         table.insert(files, dir.base_name(absolute))\r\n      else\r\n         util.printerr(\"File \"..rockfile..\" not found\")\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "util.printout(\"Copying file \"..rockfile..\" to \"..local_cache..\"...\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "local absolute = fs.absolute_name(rockfile)",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "fs.copy(absolute, local_cache)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "table.insert(files, dir.base_name(absolute))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "util.printerr(\"File \"..rockfile..\" not found\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "if #files == 0 then\r\n      return nil, \"No files found\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "local ok, err = fs.change_dir(local_cache)",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "util.printout(\"Updating manifest...\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "manif.make_manifest(local_cache, \"one\", true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "manif.zip_manifests()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "util.printout(\"Updating index.html...\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "index.make_index(local_cache)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "local login_info = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "if user then login_info = \" -u \"..user end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "login_info = \" -u \"..user",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "if password then login_info = login_info..\":\"..password end",
+    "type": "statement:if"
+  }, {
+    "id": 37,
+    "text": "login_info = login_info..\":\"..password",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "if not login_url:match(\"/$\") then\r\n      login_url = login_url .. \"/\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "login_url = login_url .. \"/\"",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "table.insert(files, \"index.html\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "table.insert(files, \"manifest\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 42,
+    "text": "for ver in util.lua_versions() do\r\n      table.insert(files, \"manifest-\"..ver)\r\n      table.insert(files, \"manifest-\"..ver..\".zip\")\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 43,
+    "text": "table.insert(files, \"manifest-\"..ver)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "table.insert(files, \"manifest-\"..ver..\".zip\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "local cmd",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "if protocol == \"rsync\" then\r\n      local srv, path = server_path:match(\"([^/]+)(/.+)\")\r\n      cmd = cfg.variables.RSYNC..\" \"..cfg.variables.RSYNCFLAGS..\" -e ssh \"..local_cache..\"/ \"..user..\"@\"..srv..\":\"..path..\"/\"\r\n   elseif upload_server and upload_server.sftp then\r\n      local part1, part2 = upload_server.sftp:match(\"^([^/]*)/(.*)$\")\r\n      cmd = cfg.variables.SCP..\" \"..table.concat(files, \" \")..\" \"..user..\"@\"..part1..\":/\"..part2\r\n   else\r\n      cmd = cfg.variables.CURL..\" \"..login_info..\" -T '{\"..table.concat(files, \",\")..\"}' \"..login_url\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "local srv, path = server_path:match(\"([^/]+)(/.+)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 48,
+    "text": "cmd = cfg.variables.RSYNC..\" \"..cfg.variables.RSYNCFLAGS..\" -e ssh \"..local_cache..\"/ \"..user..\"@\"..srv..\":\"..path..\"/\"",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "local part1, part2 = upload_server.sftp:match(\"^([^/]*)/(.*)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 50,
+    "text": "cmd = cfg.variables.SCP..\" \"..table.concat(files, \" \")..\" \"..user..\"@\"..part1..\":/\"..part2",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "cmd = cfg.variables.CURL..\" \"..login_info..\" -T '{\"..table.concat(files, \",\")..\"}' \"..login_url",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "util.printout(cmd)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 53,
+    "text": "fs.execute(cmd)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 55,
+    "text": "function run(...)\r\n   local files = { util.parse_flags(...) }\r\n   local flags = table.remove(files, 1)\r\n   if #files < 1 then\r\n      return nil, \"Argument missing. \"..util.see_help(\"add\", \"luarocks-admin\")\r\n   end\r\n   local server, server_table = cache.get_upload_server(flags[\"server\"])\r\n   if not server then return nil, server_table end\r\n   return add_files_to_server(not flags[\"no-refresh\"], files, server, server_table)\r\nend",
+    "type": "function"
+  }, {
+    "id": 56,
+    "text": "local files = { util.parse_flags(...) }",
+    "type": "statement:localassign"
+  }, {
+    "id": 57,
+    "text": "local flags = table.remove(files, 1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 58,
+    "text": "if #files < 1 then\r\n      return nil, \"Argument missing. \"..util.see_help(\"add\", \"luarocks-admin\")\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 59,
+    "text": "local server, server_table = cache.get_upload_server(flags[\"server\"])",
+    "type": "statement:localassign"
+  }, {
+    "id": 60,
+    "text": "if not server then return nil, server_table end",
+    "type": "statement:if"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 63,
+    "text": "function get_upload_server(server)\r\n   if not server then server = cfg.upload_server end\r\n   if not server then\r\n      return nil, \"No server specified and no default configured with upload_server.\"\r\n   end\r\n   return server, cfg.upload_servers and cfg.upload_servers[server]\r\nend",
+    "type": "function"
+  }, {
+    "id": 64,
+    "text": "function get_server_urls(server, upload_server)\r\n   local download_url = server\r\n   local login_url = nil\r\n   if upload_server then\r\n      if upload_server.rsync then download_url = \"rsync://\"..upload_server.rsync\r\n      elseif upload_server.http then download_url = \"http://\"..upload_server.http\r\n      elseif upload_server.ftp then download_url = \"ftp://\"..upload_server.ftp\r\n      end\r\n      \r\n      if upload_server.ftp then login_url = \"ftp://\"..upload_server.ftp\r\n      elseif upload_server.sftp then login_url = \"sftp://\"..upload_server.sftp\r\n      end\r\n   end\r\n   return download_url, login_url\r\nend",
+    "type": "function"
+  }, {
+    "id": 65,
+    "text": "function base_name(pathname)\r\n   assert(type(pathname) == \"string\")\r\n\r\n   local base = pathname:gsub(\"[/\\\\]*$\", \"\"):match(\".*[/\\\\]([^/\\\\]*)\")\r\n   return base or pathname\r\nend",
+    "type": "function"
+  }, {
+    "id": 66,
+    "text": "function execute(command, ...)\r\n   assert(type(command) == \"string\")\r\n   return fs.execute_string(quote_args(command, ...))\r\nend",
+    "type": "function"
+  }, {
+    "id": 67,
+    "text": "function current_dir()\r\n   return lfs.currentdir()\r\nend",
+    "type": "function"
+  }, {
+    "id": 68,
+    "text": "function change_dir(d)\r\n   table.insert(dir_stack, lfs.currentdir())\r\n   d = dir.normalize(d)\r\n   return lfs.chdir(d)\r\nend",
+    "type": "function"
+  }, {
+    "id": 69,
+    "text": "function copy(src, dest, perms)\r\n   assert(src and dest)\r\n   src = dir.normalize(src)\r\n   dest = dir.normalize(dest)\r\n   local destmode = lfs.attributes(dest, \"mode\")\r\n   if destmode == \"directory\" then\r\n      dest = dir.path(dest, dir.base_name(src))\r\n   end\r\n   if not perms then perms = fs.get_permissions(src) end\r\n   local src_h, err = io.open(src, \"rb\")\r\n   if not src_h then return nil, err end\r\n   local dest_h, err = io.open(dest, \"w+b\")\r\n   if not dest_h then src_h:close() return nil, err end\r\n   while true do\r\n      local block = src_h:read(8192)\r\n      if not block then break end\r\n      dest_h:write(block)\r\n   end\r\n   src_h:close()\r\n   dest_h:close()\r\n   fs.chmod(dest, perms)\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 70,
+    "text": "function exists(file)\r\n   assert(file)\r\n   file = dir.normalize(file)\r\n   return type(lfs.attributes(file)) == \"table\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 71,
+    "text": "function make_index(repo)\r\n   if not fs.is_dir(repo) then\r\n      return nil, \"Cannot access repository at \"..repo\r\n   end\r\n   local manifest = manif.load_manifest(repo)\r\n   local out = io.open(dir.path(repo, \"index.html\"), \"w\")\r\n   \r\n   out:write(index_header)\r\n   for package, version_list in util.sortedpairs(manifest.repository) do\r\n      local latest_rockspec = nil\r\n      local output = index_package_begin\r\n      for version, data in util.sortedpairs(version_list, deps.compare_versions) do\r\n         local versions = {}\r\n         output = output..version..':&nbsp;'\r\n         table.sort(data, function(a,b) return a.arch < b.arch end)\r\n         for _, item in ipairs(data) do\r\n            local file\r\n            if item.arch == 'rockspec' then\r\n               file = (\"%s-%s.rockspec\"):format(package, version)\r\n               if not latest_rockspec then latest_rockspec = file end\r\n            else\r\n               file = (\"%s-%s.%s.rock\"):format(package, version, item.arch)\r\n            end\r\n            table.insert(versions, '<a href=\"'..file..'\">'..item.arch..'</a>')\r\n         end\r\n         output = output .. table.concat(versions, ',&nbsp;') .. '<br/>'\r\n      end\r\n      output = output .. index_package_end\r\n      if latest_rockspec then\r\n         local rockspec = persist.load_into_table(dir.path(repo, latest_rockspec))\r\n         local descript = rockspec.description or {}\r\n         local vars = {\r\n            anchor = package,\r\n            package = rockspec.package,\r\n            original = rockspec.source.url,\r\n            summary = descript.summary or \"\",\r\n            detailed = descript.detailed or \"\",\r\n            license = descript.license or \"N/A\",\r\n            homepage = descript.homepage and ('| <a href=\"'..descript.homepage..'\"'..ext_url_target..'>project homepage</a>') or \"\",\r\n            externaldependencies = format_external_dependencies(rockspec)\r\n         }\r\n         vars.detailed = vars.detailed:gsub(\"\\n\\n\", \"</p><p>\"):gsub(\"%s+\", \" \")\r\n         vars.detailed = vars.detailed:gsub(\"(https?://[a-zA-Z0-9%.%%-_%+%[%]=%?&/$@;:]+)\", '<a href=\"%1\"'..ext_url_target..'>%1</a>')\r\n         output = output:gsub(\"$(%w+)\", vars)\r\n      else\r\n         output = output:gsub(\"$anchor\", package)\r\n         output = output:gsub(\"$package\", package)\r\n         output = output:gsub(\"$(%w+)\", \"\")\r\n      end\r\n      out:write(output)\r\n   end\r\n   out:write(index_footer_begin)\r\n   for ver in util.lua_versions() do\r\n      out:write((index_manifest_ver:gsub(\"$VER\", ver)))\r\n   end\r\n   out:write(index_footer_end)\r\n   out:close()\r\nend",
+    "type": "function"
+  }, {
+    "id": 72,
+    "text": "function make_manifest(repo, deps_mode, remote)\r\n   assert(type(repo) == \"string\")\r\n   assert(type(deps_mode) == \"string\")\r\n\r\n   if deps_mode == \"none\" then deps_mode = cfg.deps_mode end\r\n\r\n   if not fs.is_dir(repo) then\r\n      return nil, \"Cannot access repository at \"..repo\r\n   end\r\n\r\n   local query = search.make_query(\"\")\r\n   query.exact_name = false\r\n   query.arch = \"any\"\r\n   local results = search.disk_search(repo, query)\r\n   local manifest = { repository = {}, modules = {}, commands = {} }\r\n\r\n   manif_core.manifest_cache[repo] = manifest\r\n\r\n   local dep_handler = nil\r\n   if not remote then\r\n      dep_handler = function(manifest)\r\n         update_dependencies(manifest, deps_mode)\r\n      end\r\n   end\r\n   local ok, err = store_results(results, manifest, dep_handler)\r\n   if not ok then return nil, err end\r\n\r\n   if remote then\r\n      local cache = {}\r\n      for luaver in util.lua_versions() do\r\n         local vmanifest = { repository = {}, modules = {}, commands = {} }\r\n         local dep_handler = function(manifest)\r\n            filter_by_lua_version(manifest, luaver, repo, cache)\r\n         end\r\n         local ok, err = store_results(results, vmanifest, dep_handler)\r\n         save_table(repo, \"manifest-\"..luaver, vmanifest)\r\n      end\r\n   end\r\n\r\n   return save_table(repo, \"manifest\", manifest)\r\nend",
+    "type": "function"
+  }, {
+    "id": 73,
+    "text": "function zip_manifests()\r\n   for ver in util.lua_versions() do\r\n      local file = \"manifest-\"..ver\r\n      local zip = file..\".zip\"\r\n      fs.delete(dir.path(fs.current_dir(), zip))\r\n      fs.zip(zip, file)\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 74,
+    "text": "function parse_flags(...)\r\n   local args = {...}\r\n   local flags = {}\r\n   for i = #args, 1, -1 do\r\n      local flag = args[i]:match(\"^%-%-(.*)\")\r\n      if flag then\r\n         local var,val = flag:match(\"([a-z_%-]*)=(.*)\")\r\n         if val then\r\n            flags[var] = val\r\n         else\r\n            flags[flag] = true\r\n         end\r\n         table.remove(args, i)\r\n      end\r\n   end\r\n   return flags, unpack(args)\r\nend",
+    "type": "function"
+  }, {
+    "id": 75,
+    "text": "function lua_versions()\r\n   local versions = { \"5.1\", \"5.2\" }\r\n   local i = 0\r\n   return function()\r\n      i = i + 1\r\n      return versions[i]\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 76,
+    "text": "function printout(...)\r\n   io.stdout:write(table.concat({...},\"\\t\"))\r\n   io.stdout:write(\"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 77,
+    "text": "function printerr(...)\r\n   io.stderr:write(table.concat({...},\"\\t\"))\r\n   io.stderr:write(\"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 78,
+    "text": "function see_help(command, program)\r\n   return \"See '\"..this_program(program or \"luarocks\")..' help '..command..\"'.\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 79,
+    "text": "absolute_name",
+    "type": "global function"
+  }, {
+    "id": 80,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 81,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 82,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 83,
+    "text": "refresh_fn",
+    "type": "global function"
+  }, {
+    "id": 84,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 85,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 86,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 87,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 88,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 90,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 95,
+    "text": "cfg)",
+    "type": "module"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 97,
+    "text": "util)",
+    "type": "module"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 99,
+    "text": "fetch)",
+    "type": "module"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 101,
+    "text": "dir)",
+    "type": "module"
+  }, {
+    "id": 102,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 103,
+    "text": "manif)",
+    "type": "module"
+  }, {
+    "id": 104,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 105,
+    "text": "index)",
+    "type": "module"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 107,
+    "text": "fs)",
+    "type": "module"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 109,
+    "text": "cache)",
+    "type": "module"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 128,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 129,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 130,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 131,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 132,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 133,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 134,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 135,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 136,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 138,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 139,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 140,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 141,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 142,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 143,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 144,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 145,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 146,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 147,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 148,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 149,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 150,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 151,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 152,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 153,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 154,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 155,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 156,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 157,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 158,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 159,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 160,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 161,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 162,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 163,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 164,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 165,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 166,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 167,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 168,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 169,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 170,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 171,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 172,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 173,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 174,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 175,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 176,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 177,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 178,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 179,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 180,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 181,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 182,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 183,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 184,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 185,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 186,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 187,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 188,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 189,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 190,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 191,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 192,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 193,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 194,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 195,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 196,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 197,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 198,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 199,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 200,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 201,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 202,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 203,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 204,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 205,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 206,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 207,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 208,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 209,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 210,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 211,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 212,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 213,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 214,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 215,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 216,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 217,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 218,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 219,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 220,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 221,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 222,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 223,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 224,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 225,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 226,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 227,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 228,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 229,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 230,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 231,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 232,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 233,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 234,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 235,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 236,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 237,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 238,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 239,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 240,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 241,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 242,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 243,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 244,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 245,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 246,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 247,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 248,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 249,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 250,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 251,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 252,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 253,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 254,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 255,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 256,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 257,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 258,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 259,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 260,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 261,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 262,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 263,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 264,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 265,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 266,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 267,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 268,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 269,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 270,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 271,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 272,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 273,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 274,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 275,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 276,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 277,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 278,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 279,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 280,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 281,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 282,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 283,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 284,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 285,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 286,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 287,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 288,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 289,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 290,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 291,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 292,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 293,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 294,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 295,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 296,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,1637 @@
+{
+  "_filename": "base.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/component/base.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 63,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 114
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 114
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 65,
+    "label": "calls",
+    "to": 117
+  }, {
+    "from": 88,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 92,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 99,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 57,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 57,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 118
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 118
+  }, {
+    "from": 65,
+    "label": "calls",
+    "to": 118
+  }, {
+    "from": 57,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 112
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 119
+  }, {
+    "from": 79,
+    "label": "calls",
+    "to": 106
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 116
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 116
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 49
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 51
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 57
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 63
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 65
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 71
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 74
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 77
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 79
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 83
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 88
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 92
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 96
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 99
+  }, {
+    "from": 102,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 103,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 120
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 121
+  }, {
+    "from": 120,
+    "label": "initializes",
+    "to": 122
+  }, {
+    "from": 120,
+    "label": "initializes",
+    "to": 123
+  }, {
+    "from": 120,
+    "label": "initializes",
+    "to": 124
+  }, {
+    "from": 120,
+    "label": "initializes",
+    "to": 125
+  }, {
+    "from": 120,
+    "label": "initializes",
+    "to": 126
+  }, {
+    "from": 120,
+    "label": "initializes",
+    "to": 127
+  }, {
+    "from": 120,
+    "label": "initializes",
+    "to": 128
+  }, {
+    "from": 120,
+    "label": "initializes",
+    "to": 129
+  }, {
+    "from": 120,
+    "label": "initializes",
+    "to": 130
+  }, {
+    "from": 131,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 132,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 133,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 134,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 135,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 136,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 137,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 138,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 139
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 140
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 141
+  }, {
+    "from": 141,
+    "label": "assigns",
+    "to": 142
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 143
+  }, {
+    "from": 143,
+    "label": "assigns",
+    "to": 144
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 145
+  }, {
+    "from": 145,
+    "label": "assigns",
+    "to": 146
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 147
+  }, {
+    "from": 147,
+    "label": "assigns",
+    "to": 148
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 149
+  }, {
+    "from": 149,
+    "label": "assigns",
+    "to": 150
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 151
+  }, {
+    "from": 151,
+    "label": "assigns",
+    "to": 152
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 153
+  }, {
+    "from": 153,
+    "label": "assigns",
+    "to": 154
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 155
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 156
+  }, {
+    "from": 156,
+    "label": "assigns",
+    "to": 157
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 158
+  }, {
+    "from": 158,
+    "label": "assigns",
+    "to": 159
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 160
+  }, {
+    "from": 160,
+    "label": "assigns",
+    "to": 161
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 162
+  }, {
+    "from": 162,
+    "label": "assigns",
+    "to": 163
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 164
+  }, {
+    "from": 164,
+    "label": "assigns",
+    "to": 165
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 166
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 167
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 168
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 169
+  }, {
+    "from": 139,
+    "label": "initializes",
+    "to": 170
+  }, {
+    "from": 140,
+    "label": "initializes",
+    "to": 171
+  }, {
+    "from": 171,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 172,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 173,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 174,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 175,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 176,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 177,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 178,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 179,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 180,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 181,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 182,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 183,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 184,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 185,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cached",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function rawnew(class, object)\r\n\treturn setmetatable(object or {}, class)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function new(class, ...)\r\n\tif class.__init\r\n\t\tthen return class:__init(...)\r\n\t\telse return rawnew(class, ...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function initclass(class)\r\n\tif class == nil then class = {} end\r\n\tif class.__index == nil then class.__index = class end\r\n\treturn class\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function class(class)\r\n\treturn setmetatable(initclass(class), MetaClass)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function isclass(class)\r\n\treturn classof(class) == MetaClass\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function instanceof(object, class)\r\n\treturn classof(object) == class\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 10,
+    "text": "function subclassof(class, super)\r\n\tif class == super then return true end\r\n\tfor _, superclass in supers(class) do\r\n\t\tif subclassof(superclass, super) then return true end\r\n\tend\r\n\treturn false\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function allmembers(class)\r\n\tlocal cached = getclass(class)\r\n\tif cached\r\n\t\tthen return pairs(cached.class)\r\n\t\telse return base.members(class)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function BaseTemplate:__call(...)\r\n\treturn self:__build(self:__new(...))\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function BaseTemplate:__new(...)\r\n\tlocal comp = self.__component or self[1]\r\n\tif comp then\r\n\t\tcomp = comp(...)\r\n\t\tcomp.__component = comp\r\n\telse\r\n\t\tcomp = ... or {}\r\n\tend\r\n\tcomp.__factory = self\r\n\tfor port, class in pairs(self) do\r\n\t\tif type(port) == \"string\" and port:match(\"^%a[%w_]*$\") then\r\n\t\t\tcomp[port] = class(comp[port], comp)\r\n\t\tend\r\n\tend\r\n\treturn comp\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "local comp = self.__component or self[1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "if comp then\r\n\t\tcomp = comp(...)\r\n\t\tcomp.__component = comp\r\n\telse\r\n\t\tcomp = ... or {}\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "comp = comp(...)",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "comp.__component = comp",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "comp = ... or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "comp.__factory = self",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "for port, class in pairs(self) do\r\n\t\tif type(port) == \"string\" and port:match(\"^%a[%w_]*$\") then\r\n\t\t\tcomp[port] = class(comp[port], comp)\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 23,
+    "text": "if type(port) == \"string\" and port:match(\"^%a[%w_]*$\") then\r\n\t\t\tcomp[port] = class(comp[port], comp)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "comp[port] = class(comp[port], comp)",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "local function tryindex(segment) return segment.context end",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "function BaseTemplate:__setcontext(segment, context)\r\n\tlocal success, setcontext = pcall(tryindex, segment)\r\n\tif success and setcontext ~= nil then\r\n\t\tif type(setcontext) == \"function\"\r\n\t\t\tthen setcontext(segment, context)\r\n\t\t\telse segment.context = context\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "local success, setcontext = pcall(tryindex, segment)",
+    "type": "statement:localassign"
+  }, {
+    "id": 29,
+    "text": "if success and setcontext ~= nil then\r\n\t\tif type(setcontext) == \"function\"\r\n\t\t\tthen setcontext(segment, context)\r\n\t\t\telse segment.context = context\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "if type(setcontext) == \"function\"\r\n\t\t\tthen setcontext(segment, context)\r\n\t\t\telse segment.context = context\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "setcontext(segment, context)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "segment.context = context",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "function BaseTemplate:__build(segments)\r\n\tfor port, class in oo.allmembers(oo.classof(self)) do\r\n\t\tif port:match(\"^%a[%w_]*$\") then\r\n\t\t\tclass(segments, port, segments)\r\n\t\tend\r\n\tend\r\n\tsegments.__reference = segments\r\n\tfor port in pairs(self) do\r\n\t\tif port == 1\r\n\t\t\tthen self:__setcontext(segments.__component, segments)\r\n\t\t\telse self:__setcontext(segments[port], segments)\r\n\t\tend\r\n\tend\r\n\treturn segments\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "for port, class in oo.allmembers(oo.classof(self)) do\r\n\t\tif port:match(\"^%a[%w_]*$\") then\r\n\t\t\tclass(segments, port, segments)\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 36,
+    "text": "if port:match(\"^%a[%w_]*$\") then\r\n\t\t\tclass(segments, port, segments)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 37,
+    "text": "class(segments, port, segments)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 38,
+    "text": "segments.__reference = segments",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "for port in pairs(self) do\r\n\t\tif port == 1\r\n\t\t\tthen self:__setcontext(segments.__component, segments)\r\n\t\t\telse self:__setcontext(segments[port], segments)\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 40,
+    "text": "if port == 1\r\n\t\t\tthen self:__setcontext(segments.__component, segments)\r\n\t\t\telse self:__setcontext(segments[port], segments)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 41,
+    "text": "self:__setcontext(segments.__component, segments)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 42,
+    "text": "self:__setcontext(segments[port], segments)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "function Template(template, ...)\r\n\tif select(\"#\", ...) > 0\r\n\t\tthen return oo.class(template, ...)\r\n\t\telse return oo.class(template, BaseTemplate)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "if select(\"#\", ...) > 0\r\n\t\tthen return oo.class(template, ...)\r\n\t\telse return oo.class(template, BaseTemplate)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 47,
+    "text": "function factoryof(component)\r\n\treturn component.__factory\r\nend",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 49,
+    "text": "function templateof(object)\r\n\treturn oo.classof(factoryof(object) or object)\r\nend",
+    "type": "function"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 51,
+    "text": "local function portiterator(state, name)\r\n\tlocal port\r\n\trepeat\r\n\t\tname, port = nextmember(state, name)\r\n\t\tif name == nil then return end\r\n\tuntil name:find(\"^%a\")\r\n\treturn name, port\r\nend",
+    "type": "function"
+  }, {
+    "id": 52,
+    "text": "local port",
+    "type": "statement:localassign"
+  }, {
+    "id": 53,
+    "text": "repeat\r\n\t\tname, port = nextmember(state, name)\r\n\t\tif name == nil then return end\r\n\tuntil name:find(\"^%a\")",
+    "type": "statement:repeat"
+  }, {
+    "id": 54,
+    "text": "name, port = nextmember(state, name)",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "if name == nil then return end",
+    "type": "statement:if"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 57,
+    "text": "function ports(template)\r\n\tif not oo.subclassof(template, BaseTemplate) then\r\n\t\ttemplate = templateof(template)\r\n\tend\r\n\tlocal state, var\r\n\tnextmember, state, var = oo.allmembers(template)\r\n\treturn portiterator, state, var\r\nend",
+    "type": "function"
+  }, {
+    "id": 58,
+    "text": "if not oo.subclassof(template, BaseTemplate) then\r\n\t\ttemplate = templateof(template)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 59,
+    "text": "template = templateof(template)",
+    "type": "statement:assign"
+  }, {
+    "id": 60,
+    "text": "local state, var",
+    "type": "statement:localassign"
+  }, {
+    "id": 61,
+    "text": "nextmember, state, var = oo.allmembers(template)",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 63,
+    "text": "function segmentof(comp, port)\r\n\treturn comp[port]\r\nend",
+    "type": "function"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 65,
+    "text": "function addport(comp, name, port, class)\r\n\tif class then\r\n\t\tcomp[name] = class(comp[name], comp)\r\n\tend\r\n\tport(comp, name, comp)\r\n\tcomp.__factory:__setcontext(comp[name], context)\r\nend",
+    "type": "function"
+  }, {
+    "id": 66,
+    "text": "if class then\r\n\t\tcomp[name] = class(comp[name], comp)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 67,
+    "text": "comp[name] = class(comp[name], comp)",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "port(comp, name, comp)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 69,
+    "text": "comp.__factory:__setcontext(comp[name], context)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 71,
+    "text": "function removeport(comp, name)\r\n\tcomp[name] = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 72,
+    "text": "comp[name] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 74,
+    "text": "function Facet(segments, name)\r\n\tsegments[name] = segments[name] or\r\n\t                 segments.__component[name] or\r\n\t                 segments.__component\r\n\treturn false\r\nend",
+    "type": "function"
+  }, {
+    "id": 75,
+    "text": "segments[name] = segments[name] or\r\n\t                 segments.__component[name] or\r\n\t                 segments.__component",
+    "type": "statement:assign"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 77,
+    "text": "function Receptacle()\r\n\treturn false\r\nend",
+    "type": "function"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 79,
+    "text": "function MultipleReceptacle:__init(segments, name)\r\n\tlocal receptacle = oo.rawnew(self, segments[name])\r\n\tsegments[name] = receptacle\r\n\treturn receptacle\r\nend",
+    "type": "function"
+  }, {
+    "id": 80,
+    "text": "local receptacle = oo.rawnew(self, segments[name])",
+    "type": "statement:localassign"
+  }, {
+    "id": 81,
+    "text": "segments[name] = receptacle",
+    "type": "statement:assign"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 83,
+    "text": "function MultipleReceptacle:__newindex(key, value)\r\n\tif value == nil\r\n\t\tthen self:__unbind(key)\r\n\t\telse self:__bind(value, key)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 84,
+    "text": "if value == nil\r\n\t\tthen self:__unbind(key)\r\n\t\telse self:__bind(value, key)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 85,
+    "text": "self:__unbind(key)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 86,
+    "text": "self:__bind(value, key)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 88,
+    "text": "function MultipleReceptacle:__unbind(key)\r\n\tlocal port = rawget(self, key)\r\n\trawset(self, key, nil)\r\n\treturn port\r\nend",
+    "type": "function"
+  }, {
+    "id": 89,
+    "text": "local port = rawget(self, key)",
+    "type": "statement:localassign"
+  }, {
+    "id": 90,
+    "text": "rawset(self, key, nil)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 92,
+    "text": "function ListReceptacle:__bind(port)\r\n\tlocal index = #self + 1\r\n\trawset(self, index, port)\r\n\treturn index\r\nend",
+    "type": "function"
+  }, {
+    "id": 93,
+    "text": "local index = #self + 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 94,
+    "text": "rawset(self, index, port)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 96,
+    "text": "function HashReceptacle:__bind(port, key)\r\n\trawset(self, key, port)\r\n\treturn key\r\nend",
+    "type": "function"
+  }, {
+    "id": 97,
+    "text": "rawset(self, key, port)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 99,
+    "text": "function SetReceptacle:__bind(port)\r\n\trawset(self, port, port)\r\n\treturn port\r\nend",
+    "type": "function"
+  }, {
+    "id": 100,
+    "text": "rawset(self, port, port)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 102,
+    "text": "function factoryof(component)\r\n\tlocal container = component.__container\r\n\treturn base.factoryof(container and container.__state or component)\r\nend",
+    "type": "function"
+  }, {
+    "id": 103,
+    "text": "function ports(template)\r\n\tif not oo.subclassof(template, BaseTemplate) then\r\n\t\ttemplate = templateof(template)\r\n\tend\r\n\treturn base.ports(template)\r\nend",
+    "type": "function"
+  }, {
+    "id": 104,
+    "text": "function class(class, ...)\r\n\tif select(\"#\", ...) > 1\r\n\t\tthen return base.rawnew(table.copy(MultipleClass, {...}), initclass(class))\r\n\t\telse return base.class(class, ...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 105,
+    "text": "classof",
+    "type": "global function"
+  }, {
+    "id": 106,
+    "text": "rawnew",
+    "type": "global function"
+  }, {
+    "id": 107,
+    "text": "rawget",
+    "type": "global function"
+  }, {
+    "id": 108,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 109,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 110,
+    "text": "comp",
+    "type": "global function"
+  }, {
+    "id": 111,
+    "text": "nextmember",
+    "type": "global function"
+  }, {
+    "id": 112,
+    "text": "setcontext",
+    "type": "global function"
+  }, {
+    "id": 113,
+    "text": "rawset",
+    "type": "global function"
+  }, {
+    "id": 114,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 115,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 116,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 117,
+    "text": "port",
+    "type": "global function"
+  }, {
+    "id": 118,
+    "text": "class",
+    "type": "global function"
+  }, {
+    "id": 119,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 128,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 129,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 130,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 131,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 132,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 133,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 134,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 135,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 136,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 138,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 139,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 140,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 141,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 142,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 143,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 144,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 145,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 146,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 147,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 148,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 149,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 150,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 151,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 152,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 153,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 154,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 155,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 156,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 157,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 158,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 159,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 160,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 161,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 162,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 163,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 164,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 165,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 166,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 167,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 168,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 169,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 170,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 171,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 172,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 173,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 174,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 175,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 176,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 177,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 178,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 179,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 180,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 181,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 182,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 183,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 184,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 185,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

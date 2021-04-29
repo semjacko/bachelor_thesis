@@ -1,0 +1,189 @@
+{
+  "_filename": "modgraph.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luagraph/examples50/modgraph.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "initializes",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "assigns",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "modgraph",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "graph",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "lines",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "gfind",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

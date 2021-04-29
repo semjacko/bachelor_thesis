@@ -1,0 +1,185 @@
+{
+  "_filename": "queue_device.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lzmq-ffi/examples/queue_device.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "initializes",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "assigns",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "assigns",
+    "to": 16
+  }, {
+    "from": 11,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  }, {
+    "from": 12,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 12,
+    "label": "initializes",
+    "to": 10
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "queue_device",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "lzmq",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "context",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "device",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "print_version",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,329 @@
+{
+  "_filename": "StringStream.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/serial/StringStream.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "assigns",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "assigns",
+    "to": 32
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 4
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Serializer",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "StringStream",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "simple",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 5,
+    "text": "function class(class, ...)\r\n\tif select(\"#\", ...) > 1\r\n\t\tthen return base.rawnew(table.copy(MultipleClass, {...}), initclass(class))\r\n\t\telse return base.class(class, ...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function write(self, ...)\r\n\tfor i=1, select(\"#\", ...) do\r\n\t\tself[#self+1] = select(i, ...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "for i=1, select(\"#\", ...) do\r\n\t\tself[#self+1] = select(i, ...)\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 8,
+    "text": "self[#self+1] = select(i, ...)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function put(self, ...)\r\n\tif #self > 0 then self[#self+1] = \"\\0\" end\r\n\tself:serialize(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "if #self > 0 then self[#self+1] = \"\\0\" end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "self[#self+1] = \"\\0\"",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "self:serialize(...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function get(self)\r\n\tlocal code = self.data or self:__tostring()\r\n\tlocal newpos = code:find(\"%z\", self.pos) or #code + 1\r\n\tcode = code:sub(self.pos, newpos - 1)\r\n\tself.pos = newpos + 1\r\n\treturn assert(self:load(\"return \"..code))()\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "local code = self.data or self:__tostring()",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "local newpos = code:find(\"%z\", self.pos) or #code + 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "code = code:sub(self.pos, newpos - 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "self.pos = newpos + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 23,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

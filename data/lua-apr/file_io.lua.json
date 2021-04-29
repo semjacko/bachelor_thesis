@@ -1,0 +1,689 @@
+{
+  "_filename": "file_io.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-apr/benchmarks/file_io.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 52,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 71
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "file_io",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "apr",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function msg(...)\r\n  io.stderr:write(string.format(...), '\\n')\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "io.stderr:write(string.format(...), '\\n')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "local function benchformat(func, path, format, size, label)\r\n  local best\r\n  for i = 1, 2 do\r\n    local start = apr.time_now()\r\n    local handle = func(path)\r\n    repeat\r\n      local result = handle:read(format)\r\n    until format == '*a' and result == '' or not result\r\n    handle:close()\r\n    local total = apr.time_now() - start\r\n    msg('%17s: read %s with file:read(%s) at %s/s',\r\n        label, apr.strfsize(size), format, apr.strfsize(size / total))\r\n    best = best and best < total and best or total\r\n  end\r\n  return { time = best, size = size / 1024 / 1024 }\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local best",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "for i = 1, 2 do\r\n    local start = apr.time_now()\r\n    local handle = func(path)\r\n    repeat\r\n      local result = handle:read(format)\r\n    until format == '*a' and result == '' or not result\r\n    handle:close()\r\n    local total = apr.time_now() - start\r\n    msg('%17s: read %s with file:read(%s) at %s/s',\r\n        label, apr.strfsize(size), format, apr.strfsize(size / total))\r\n    best = best and best < total and best or total\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 9,
+    "text": "local start = apr.time_now()",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "local handle = func(path)",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "repeat\r\n      local result = handle:read(format)\r\n    until format == '*a' and result == '' or not result",
+    "type": "statement:repeat"
+  }, {
+    "id": 12,
+    "text": "local result = handle:read(format)",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "handle:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "local total = apr.time_now() - start",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "msg('%17s: read %s with file:read(%s) at %s/s',\r\n        label, apr.strfsize(size), format, apr.strfsize(size / total))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "best = best and best < total and best or total",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "local function writeresults(fname, data)\r\n  local handle = io.open(fname, 'w')\r\n  for _, sample in ipairs(data) do\r\n    handle:write(sample.size, ' ', sample.time, '\\n')\r\n  end\r\n  handle:close()\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "local handle = io.open(fname, 'w')",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "for _, sample in ipairs(data) do\r\n    handle:write(sample.size, ' ', sample.time, '\\n')\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 22,
+    "text": "handle:write(sample.size, ' ', sample.time, '\\n')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function(size)\r\n    local random = io.open('/dev/urandom')\r\n    local data = random:read(math.min(size, 1024 * 512))\r\n    random:close()\r\n    if #data < size then\r\n      data = data:rep(size / #data)\r\n    end\r\n    return data\r\n  end",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "local random = io.open('/dev/urandom')",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "local data = random:read(math.min(size, 1024 * 512))",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "random:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "if #data < size then\r\n      data = data:rep(size / #data)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "data = data:rep(size / #data)",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function(size)\r\n    -- Generate a line with random printable characters.\r\n    local line = {}\r\n    local char = string.char\r\n    local random = math.random\r\n    for i = 1, 512 do line[#line + 1] = char(random(0x20, 0x7E)) end\r\n    line = table.concat(line)\r\n    -- Generate a few lines of random lengths.\r\n    local lines = {}\r\n    local count = 0\r\n    while #lines < 100 do\r\n      local cline = line:sub(1, math.random(1, #line))\r\n      lines[#lines + 1] = cline\r\n      size = size + #cline\r\n    end\r\n    lines = table.concat(lines, '\\n')\r\n    -- Now generate the requested size in lines.\r\n    return lines:rep(size / #lines)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "local line = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "local char = string.char",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "local random = math.random",
+    "type": "statement:localassign"
+  }, {
+    "id": 35,
+    "text": "for i = 1, 512 do line[#line + 1] = char(random(0x20, 0x7E)) end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 36,
+    "text": "line[#line + 1] = char(random(0x20, 0x7E))",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "line = table.concat(line)",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "local lines = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 39,
+    "text": "local count = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "while #lines < 100 do\r\n      local cline = line:sub(1, math.random(1, #line))\r\n      lines[#lines + 1] = cline\r\n      size = size + #cline\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 41,
+    "text": "local cline = line:sub(1, math.random(1, #line))",
+    "type": "statement:localassign"
+  }, {
+    "id": 42,
+    "text": "lines[#lines + 1] = cline",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "size = size + #cline",
+    "type": "statement:assign"
+  }, {
+    "id": 44,
+    "text": "lines = table.concat(lines, '\\n')",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 46,
+    "text": "function(size)\r\n    local numbers = {}\r\n    for i = 1, 100 do\r\n      numbers[#numbers + 1] = tostring(math.random())\r\n    end\r\n    numbers = table.concat(numbers, '\\n')\r\n    return numbers:rep(size / #numbers)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "local numbers = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 48,
+    "text": "for i = 1, 100 do\r\n      numbers[#numbers + 1] = tostring(math.random())\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 49,
+    "text": "numbers[#numbers + 1] = tostring(math.random())",
+    "type": "statement:assign"
+  }, {
+    "id": 50,
+    "text": "numbers = table.concat(numbers, '\\n')",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 53,
+    "text": "time_now",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "strfsize",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "tmpname",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "func",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "min",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "random",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "generate",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "random",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 68,
+    "text": "popen",
+    "type": "global function"
+  }, {
+    "id": 69,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 70,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

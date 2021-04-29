@@ -1,0 +1,117 @@
+{
+  "_filename": "test_date_1904_03.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/xlsxwriter/test/comparison/lua/test_date_1904_03.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "initializes",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "assigns",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "initializes",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "assigns",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "assigns",
+    "to": 12
+  }, {
+    "from": 6,
+    "label": "initializes",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test_date_1904_03",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "workbook",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

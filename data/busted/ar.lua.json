@@ -1,0 +1,189 @@
+{
+  "_filename": "ar.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/busted/busted/languages/ar.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "initializes",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "provides",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "provides",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 12,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 13,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 14,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 15,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 16,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 17,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 18,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 19,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 21,
+    "label": "requires",
+    "to": 7
+  }, {
+    "from": 22,
+    "label": "requires",
+    "to": 7
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ar",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 7,
+    "text": "(say)",
+    "type": "module"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

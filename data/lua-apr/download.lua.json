@@ -1,0 +1,409 @@
+{
+  "_filename": "download.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-apr/examples/download.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 38
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "assigns",
+    "to": 41
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "download",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "apr",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function assert(...)\r\n  local status, message = ...\r\n  if not status then\r\n    io.stderr:write('Error: ', message or '(no message)', '\\n')\r\n    os.exit(1)\r\n  end\r\n  return ...\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local status, message = ...",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if not status then\r\n    io.stderr:write('Error: ', message or '(no message)', '\\n')\r\n    os.exit(1)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "io.stderr:write('Error: ', message or '(no message)', '\\n')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "os.exit(1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "local function getpage(url)\r\n  local components = assert(apr.uri_parse(url))\r\n  assert(components.scheme == 'http', \"invalid protocol!\")\r\n  local port = assert(components.port or apr.uri_port_of_scheme(components.scheme))\r\n  local socket = assert(apr.socket_create())\r\n  assert(socket:connect(components.hostname, port))\r\n  local pathinfo = assert(apr.uri_unparse(components, 'pathinfo'))\r\n  assert(socket:write('GET ', pathinfo, ' HTTP/1.0\\r\\n',\r\n                      'Host: ', components.hostname, '\\r\\n',\r\n                      '\\r\\n'))\r\n  local statusline = assert(socket:read(), 'HTTP response missing status line!')\r\n  local protocol, statuscode, reason = assert(statusline:match '^(%S+)%s+(%S+)%s+(.-)$')\r\n  local redirect = statuscode:find '^30[123]$'\r\n  for line in socket:lines() do\r\n    local name, value = line:match '^(%S+):%s+(.-)\\r?$'\r\n    if name and value then\r\n      if redirect and name:lower() == 'location' then\r\n        io.stderr:write(\"Following redirect to \", value, \" ..\\n\")\r\n        return getpage(value)\r\n      end\r\n    else\r\n      return (assert(socket:read '*a', 'HTTP response missing body?!'))\r\n    end\r\n  end\r\n  if statuscode ~= '200' then error(reason) end\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local components = assert(apr.uri_parse(url))",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "assert(components.scheme == 'http', \"invalid protocol!\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "local port = assert(components.port or apr.uri_port_of_scheme(components.scheme))",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local socket = assert(apr.socket_create())",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "assert(socket:connect(components.hostname, port))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "local pathinfo = assert(apr.uri_unparse(components, 'pathinfo'))",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "assert(socket:write('GET ', pathinfo, ' HTTP/1.0\\r\\n',\r\n                      'Host: ', components.hostname, '\\r\\n',\r\n                      '\\r\\n'))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "local statusline = assert(socket:read(), 'HTTP response missing status line!')",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "local protocol, statuscode, reason = assert(statusline:match '^(%S+)%s+(%S+)%s+(.-)$')",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "local redirect = statuscode:find '^30[123]$'",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "for line in socket:lines() do\r\n    local name, value = line:match '^(%S+):%s+(.-)\\r?$'\r\n    if name and value then\r\n      if redirect and name:lower() == 'location' then\r\n        io.stderr:write(\"Following redirect to \", value, \" ..\\n\")\r\n        return getpage(value)\r\n      end\r\n    else\r\n      return (assert(socket:read '*a', 'HTTP response missing body?!'))\r\n    end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 22,
+    "text": "local name, value = line:match '^(%S+):%s+(.-)\\r?$'",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "if name and value then\r\n      if redirect and name:lower() == 'location' then\r\n        io.stderr:write(\"Following redirect to \", value, \" ..\\n\")\r\n        return getpage(value)\r\n      end\r\n    else\r\n      return (assert(socket:read '*a', 'HTTP response missing body?!'))\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "if redirect and name:lower() == 'location' then\r\n        io.stderr:write(\"Following redirect to \", value, \" ..\\n\")\r\n        return getpage(value)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "io.stderr:write(\"Following redirect to \", value, \" ..\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "if statuscode ~= '200' then error(reason) end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "error(reason)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 30,
+    "text": "uri_unparse",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "socket_create",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "uri_parse",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "uri_port_of_scheme",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

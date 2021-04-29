@@ -1,0 +1,501 @@
+{
+  "_filename": "PriorityQueue.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/collection/PriorityQueue.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "assigns",
+    "to": 42
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "assigns",
+    "to": 44
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "assigns",
+    "to": 46
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "assigns",
+    "to": 48
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "assigns",
+    "to": 50
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "assigns",
+    "to": 52
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 55,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "OrderedSet",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "PriorityQueue",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "local function getpriorities(self)\r\n\tif not self[PRIORITY] then\r\n\t\tself[PRIORITY] = {}\r\n\tend\r\n\treturn self[PRIORITY]\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "if not self[PRIORITY] then\r\n\t\tself[PRIORITY] = {}\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "self[PRIORITY] = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "local function removepriority(self, element)\r\n\tif element then\r\n\t\tlocal priorities = getpriorities(self)\r\n\t\tlocal priority = priorities[element]\r\n\t\tpriorities[element] = nil\r\n\t\treturn element, priority\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "if element then\r\n\t\tlocal priorities = getpriorities(self)\r\n\t\tlocal priority = priorities[element]\r\n\t\tpriorities[element] = nil\r\n\t\treturn element, priority\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "local priorities = getpriorities(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local priority = priorities[element]",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "priorities[element] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function priority(self, element)\r\n\treturn getpriorities(self)[element]\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function enqueue(self, element, priority)\r\n\tif not contains(self, element) then\r\n\t\tlocal previous\r\n\t\tif priority then\r\n\t\t\tlocal priorities = getpriorities(self)\r\n\t\t\tfor elem, prev in sequence(self) do\r\n\t\t\t\tlocal prio = priorities[elem]\r\n\t\t\t\tif prio and prio > priority then\r\n\t\t\t\t\tprevious = prev\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tpriorities[element] = priority\r\n\t\tend\r\n\t\treturn OrderedSet.insert(self, element, previous)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "if not contains(self, element) then\r\n\t\tlocal previous\r\n\t\tif priority then\r\n\t\t\tlocal priorities = getpriorities(self)\r\n\t\t\tfor elem, prev in sequence(self) do\r\n\t\t\t\tlocal prio = priorities[elem]\r\n\t\t\t\tif prio and prio > priority then\r\n\t\t\t\t\tprevious = prev\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tpriorities[element] = priority\r\n\t\tend\r\n\t\treturn OrderedSet.insert(self, element, previous)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "local previous",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "if priority then\r\n\t\t\tlocal priorities = getpriorities(self)\r\n\t\t\tfor elem, prev in sequence(self) do\r\n\t\t\t\tlocal prio = priorities[elem]\r\n\t\t\t\tif prio and prio > priority then\r\n\t\t\t\t\tprevious = prev\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tpriorities[element] = priority\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "for elem, prev in sequence(self) do\r\n\t\t\t\tlocal prio = priorities[elem]\r\n\t\t\t\tif prio and prio > priority then\r\n\t\t\t\t\tprevious = prev\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 22,
+    "text": "local prio = priorities[elem]",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "if prio and prio > priority then\r\n\t\t\t\t\tprevious = prev\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "previous = prev",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "priorities[element] = priority",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function dequeue(self)\r\n\treturn removepriority(self, OrderedSet.dequeue(self))\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "function remove(self, element, previous)\r\n\treturn removepriority(self, OrderedSet.remove(self, element, previous))\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 32,
+    "text": "function remove(self, index)\r\n\tlocal size = #self\r\n\tif index == size then\r\n\t\tself[size] = nil\r\n\telseif (index > 0) and (index < size) then\r\n\t\tself[index], self[size] = self[size], nil\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "dequeue",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "sequence",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "contains",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

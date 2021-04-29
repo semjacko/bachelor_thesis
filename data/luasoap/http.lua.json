@@ -1,0 +1,241 @@
+{
+  "_filename": "http.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luasoap/http.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "assigns",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "assigns",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 13
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 13
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "http",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "soap",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function soap.http.call (url, namespace, method, entries, headers)\r\n\tlocal body, headers, code, err = post {\r\n\t\turl = url,\r\n\t\tbody = soap.encode (namespace, method, entries, headers),\r\n\t\theaders = {\r\n\t\t\t[\"Content-type\"] = \"text/xml\",\r\n\t\t\t[\"SOAPAction\"] = '\"'..method..'\"',\r\n\t\t},\r\n\t}\r\n\tif tonumber (code) == 200 then\r\n\t\treturn soap.decode (body)\r\n\telse\r\n\t\terror ((err or code)..\"\\n\\n\"..body)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local body, headers, code, err = post {\r\n\t\turl = url,\r\n\t\tbody = soap.encode (namespace, method, entries, headers),\r\n\t\theaders = {\r\n\t\t\t[\"Content-type\"] = \"text/xml\",\r\n\t\t\t[\"SOAPAction\"] = '\"'..method..'\"',\r\n\t\t},\r\n\t}",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if tonumber (code) == 200 then\r\n\t\treturn soap.decode (body)\r\n\telse\r\n\t\terror ((err or code)..\"\\n\\n\"..body)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "error ((err or code)..\"\\n\\n\"..body)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 10,
+    "text": "function encode (namespace, method, entries, header)\r\n\t-- Cleans old header and insert a new one (if it exists).\r\n\tinsert_header (envelope_template, header)\r\n\t-- Sets new body contents (and erase old content).\r\n\tlocal body = (envelope_template[2] and envelope_template[2][1]) or envelope_template[1][1]\r\n\tfor i = 1, max (getn(body), getn(entries)) do\r\n\t\tbody[i] = entries[i]\r\n\tend\r\n\t-- Sets method (actually, the table's tag) and namespace.\r\n\tbody.tag = (namespace and \"m:\" or \"\")..method\r\n\tbody.attr[\"xmlns:m\"] = namespace\r\n\treturn serialize (envelope_template)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function decode (doc)\r\n\tlocal obj = assert (parse (doc))\r\n\tassert (obj.tag == \"SOAP-ENV:Envelope\", \"Not a SOAP Envelope: \"..\r\n\t\ttostring(obj.tag))\r\n\tlocal namespace = find_xmlns (obj.attr)\r\n\tif obj[1].tag == \"SOAP-ENV:Body\" then\r\n\t\tobj = obj[1]\r\n\telseif obj[2].tag == \"SOAP-ENV:Body\" then\r\n\t\tobj = obj[2]\r\n\telse\r\n\t\terror (\"Couldn't find SOAP Body!\")\r\n\tend\r\n\tlocal _, _, method = strfind (obj[1].tag, \"^.*:(.*)$\")\r\n\tlocal entries = {}\r\n\tfor i, el in ipairs (obj[1]) do\r\n\t\tentries[i] = el\r\n\tend\r\n\treturn namespace, method, entries\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "lom",
+    "type": "module"
+  }, {
+    "id": 14,
+    "text": "post",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "luasocket",
+    "type": "module"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require container"
+  } ]
+}

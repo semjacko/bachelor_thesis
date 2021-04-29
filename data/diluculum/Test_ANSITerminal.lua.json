@@ -1,0 +1,141 @@
+{
+  "_filename": "Test_ANSITerminal.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/diluculum/Lua/Test_ANSITerminal.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "initializes",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "assigns",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "initializes",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "assigns",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ANSITerminal",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "CommandLineParser",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "Test_ANSITerminal",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "output",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require container"
+  } ]
+}

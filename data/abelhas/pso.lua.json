@@ -1,0 +1,2065 @@
+{
+  "_filename": "pso.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/abelhas/pso.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 95,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 98,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 97,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 98,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 101,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 98,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 104,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 110,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 112,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 111
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 114
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 118
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 120
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 121
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 122
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 121,
+    "label": "has",
+    "to": 123
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 124
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 115,
+    "label": "has",
+    "to": 125
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 127
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 128
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 129
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 130
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 131,
+    "label": "has",
+    "to": 132
+  }, {
+    "from": 131,
+    "label": "has",
+    "to": 133
+  }, {
+    "from": 131,
+    "label": "has",
+    "to": 134
+  }, {
+    "from": 134,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 131,
+    "label": "has",
+    "to": 136
+  }, {
+    "from": 126,
+    "label": "has",
+    "to": 137
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 139
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 140
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 141
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 142
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 143
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 144
+  }, {
+    "from": 144,
+    "label": "has",
+    "to": 145
+  }, {
+    "from": 144,
+    "label": "has",
+    "to": 146
+  }, {
+    "from": 144,
+    "label": "has",
+    "to": 147
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 148
+  }, {
+    "from": 148,
+    "label": "has",
+    "to": 149
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 150
+  }, {
+    "from": 150,
+    "label": "has",
+    "to": 151
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 152
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 153
+  }, {
+    "from": 153,
+    "label": "has",
+    "to": 154
+  }, {
+    "from": 152,
+    "label": "has",
+    "to": 155
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 156
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 157
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 158
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 159
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 160
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 161
+  }, {
+    "from": 161,
+    "label": "has",
+    "to": 162
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 160
+  }, {
+    "from": 157,
+    "label": "has",
+    "to": 159
+  }, {
+    "from": 150,
+    "label": "has",
+    "to": 163
+  }, {
+    "from": 150,
+    "label": "has",
+    "to": 164
+  }, {
+    "from": 150,
+    "label": "has",
+    "to": 165
+  }, {
+    "from": 165,
+    "label": "has",
+    "to": 166
+  }, {
+    "from": 150,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 150,
+    "label": "has",
+    "to": 168
+  }, {
+    "from": 150,
+    "label": "has",
+    "to": 169
+  }, {
+    "from": 150,
+    "label": "has",
+    "to": 170
+  }, {
+    "from": 170,
+    "label": "has",
+    "to": 171
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 138,
+    "label": "has",
+    "to": 172
+  }, {
+    "from": 173,
+    "label": "has",
+    "to": 174
+  }, {
+    "from": 174,
+    "label": "has",
+    "to": 175
+  }, {
+    "from": 173,
+    "label": "has",
+    "to": 176
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 65,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 69,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 75,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 92,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 179
+  }, {
+    "from": 115,
+    "label": "calls",
+    "to": 180
+  }, {
+    "from": 115,
+    "label": "calls",
+    "to": 180
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 180
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 181
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 182
+  }, {
+    "from": 107,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 126,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 184
+  }, {
+    "from": 126,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 126,
+    "label": "calls",
+    "to": 189
+  }, {
+    "from": 126,
+    "label": "calls",
+    "to": 189
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 191
+  }, {
+    "from": 97,
+    "label": "calls",
+    "to": 191
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 191
+  }, {
+    "from": 104,
+    "label": "calls",
+    "to": 191
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 194
+  }, {
+    "from": 97,
+    "label": "calls",
+    "to": 194
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 194
+  }, {
+    "from": 104,
+    "label": "calls",
+    "to": 194
+  }, {
+    "from": 173,
+    "label": "calls",
+    "to": 190
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 126
+  }, {
+    "from": 115,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 192
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 192
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 193
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 187
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 186
+  }, {
+    "from": 107,
+    "label": "calls",
+    "to": 185
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 185
+  }, {
+    "from": 138,
+    "label": "calls",
+    "to": 185
+  }, {
+    "from": 173,
+    "label": "calls",
+    "to": 185
+  }, {
+    "from": 107,
+    "label": "calls",
+    "to": 183
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 188
+  }, {
+    "from": 126,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 177
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 39
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 54
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 58
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 60
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 65
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 69
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 71
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 75
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 78
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 81
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 84
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 86
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 90
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 92
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 95
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 97
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 101
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 104
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 107
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 115
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 126
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 138
+  }, {
+    "from": 177,
+    "label": "declares",
+    "to": 173
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 178
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 195
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 196
+  }, {
+    "from": 195,
+    "label": "initializes",
+    "to": 197
+  }, {
+    "from": 197,
+    "label": "assigns",
+    "to": 198
+  }, {
+    "from": 195,
+    "label": "initializes",
+    "to": 199
+  }, {
+    "from": 199,
+    "label": "assigns",
+    "to": 200
+  }, {
+    "from": 195,
+    "label": "initializes",
+    "to": 201
+  }, {
+    "from": 201,
+    "label": "assigns",
+    "to": 202
+  }, {
+    "from": 195,
+    "label": "initializes",
+    "to": 203
+  }, {
+    "from": 203,
+    "label": "assigns",
+    "to": 204
+  }, {
+    "from": 195,
+    "label": "initializes",
+    "to": 205
+  }, {
+    "from": 205,
+    "label": "assigns",
+    "to": 206
+  }, {
+    "from": 195,
+    "label": "initializes",
+    "to": 207
+  }, {
+    "from": 207,
+    "label": "assigns",
+    "to": 208
+  }, {
+    "from": 195,
+    "label": "initializes",
+    "to": 209
+  }, {
+    "from": 209,
+    "label": "assigns",
+    "to": 210
+  }, {
+    "from": 195,
+    "label": "initializes",
+    "to": 211
+  }, {
+    "from": 195,
+    "label": "initializes",
+    "to": 212
+  }, {
+    "from": 195,
+    "label": "initializes",
+    "to": 213
+  }, {
+    "from": 195,
+    "label": "initializes",
+    "to": 214
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 215
+  }, {
+    "from": 197,
+    "label": "represents",
+    "to": 216
+  }, {
+    "from": 215,
+    "label": "provides",
+    "to": 216
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "pso",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function M.new(dims)\r\n    local sw = {\r\n        fitfunc = nil,      -- Fitness function\r\n        dims = dims,        -- Number of dimensions\r\n        prec = {},          -- Precision (decimal places, per dimension)\r\n        minp = {},          -- Minimum value, per dimension\r\n        maxp = {},          -- Maximum value, per dimension\r\n        maxs = {},          -- Maximum particle speed, per dimension\r\n        c1 = 0.5,           -- c1, cognitive factor\r\n        c2 = 0.5,           -- c2, social factor\r\n        nparts = 20,        -- Number of particles\r\n        repl = 0,           -- Particle replacement.\r\n        fitr = nil,         -- Fitness rounding\r\n        maxfit = nil,       -- Maximum fitness\r\n        maxiter = nil,      -- Maximum iterations\r\n        maxstag = nil,      -- Maximum fitness stagnation\r\n        gbest = nil,        -- Index of the best particle in the swarm\r\n        parts = {},         -- Particles\r\n        nbhoook = nil,      -- New best hook\r\n        replhook = nil,     -- Replacement hook\r\n        iterhook = nil      -- Iteration hook\r\n    }\r\n\r\n    setmetatable(sw, { __index = MT })\r\n    return sw\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local sw = {\r\n        fitfunc = nil,      -- Fitness function\r\n        dims = dims,        -- Number of dimensions\r\n        prec = {},          -- Precision (decimal places, per dimension)\r\n        minp = {},          -- Minimum value, per dimension\r\n        maxp = {},          -- Maximum value, per dimension\r\n        maxs = {},          -- Maximum particle speed, per dimension\r\n        c1 = 0.5,           -- c1, cognitive factor\r\n        c2 = 0.5,           -- c2, social factor\r\n        nparts = 20,        -- Number of particles\r\n        repl = 0,           -- Particle replacement.\r\n        fitr = nil,         -- Fitness rounding\r\n        maxfit = nil,       -- Maximum fitness\r\n        maxiter = nil,      -- Maximum iterations\r\n        maxstag = nil,      -- Maximum fitness stagnation\r\n        gbest = nil,        -- Index of the best particle in the swarm\r\n        parts = {},         -- Particles\r\n        nbhoook = nil,      -- New best hook\r\n        replhook = nil,     -- Replacement hook\r\n        iterhook = nil      -- Iteration hook\r\n    }",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "setmetatable(sw, { __index = MT })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "local function round(n, p)\r\n    if not p then\r\n        return n\r\n    end\r\n    local m = 10.0 ^ p\r\n    if (m*n - math_floor(m*n)) >= 0.5 then\r\n        return math_ceil(m*n)/m\r\n    end\r\n    return math_floor(m*n)/m\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "if not p then\r\n        return n\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "local m = 10.0 ^ p",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if (m*n - math_floor(m*n)) >= 0.5 then\r\n        return math_ceil(m*n)/m\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "local function range(a, b, c)\r\n    return math_max(a, math_min(b, c))\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "local function cspace(min, x, max)\r\n    if (min <= x) and (x <= max) then\r\n        return x\r\n    else\r\n        return min + (x % max)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "if (min <= x) and (x <= max) then\r\n        return x\r\n    else\r\n        return min + (x % max)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function MT.setPrecision(self, decs)\r\n    for i = 1, self.dims do\r\n        self:setPrecisionDim(i, decs)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "for i = 1, self.dims do\r\n        self:setPrecisionDim(i, decs)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 19,
+    "text": "self:setPrecisionDim(i, decs)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function MT.setPrecisionDim(self, dim, decs)\r\n    assert(not decs or decs >= 0, \"Bad number of decimal places.\")\r\n    assert(dim > 0 and dim <= self.dims, \"Bad dimension\")\r\n    self.prec[dim] = decs\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "assert(not decs or decs >= 0, \"Bad number of decimal places.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "assert(dim > 0 and dim <= self.dims, \"Bad dimension\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "self.prec[dim] = decs",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function MT.getPrecisionDim(self, dim)\r\n    assert(dim > 0 and dim <= self.dims, \"Bad dimension\")\r\n    return self.prec[dim]\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function MT.setC1(self, c)\r\n    -- assert(c >= 0 and c <= 1, \"Value out of range\")\r\n    assert(c >= 0, \"Value out of range\")\r\n    self.c1 = c\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "assert(c >= 0, \"Value out of range\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "self.c1 = c",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function MT.getC1(self)\r\n    return self.c1\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "function MT.setC2(self, c)\r\n    -- assert(c >= 0 and c <= 1, \"Value out of range\")\r\n    assert(c >= 0, \"Value out of range\")\r\n    self.c2 = c\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "self.c2 = c",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "function MT.getC2(self)\r\n    return self.c2\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 39,
+    "text": "function MT.setMaxSpeedDim(self, dim, spd)\r\n    assert(dim > 0 and dim <= self.dims, \"Bad dimension\")\r\n    self.maxs[dim] = spd\r\nend",
+    "type": "function"
+  }, {
+    "id": 40,
+    "text": "self.maxs[dim] = spd",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function MT.getMaxSpeedDim(self, dim)\r\n    assert(dim > 0 and dim <= self.dims, \"Bad dimension\")\r\n    return self.maxs[dim]\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "function MT.setMaxSpeed(self, spd)\r\n    for dim = 1, self.dims do\r\n        self:setMaxSpeedDim(dim, spd)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "for dim = 1, self.dims do\r\n        self:setMaxSpeedDim(dim, spd)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 46,
+    "text": "self:setMaxSpeedDim(dim, spd)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 48,
+    "text": "function MT.setReplacementProb(self, prob)\r\n    assert(0 <= prob and prob <= 1, \"Bad replacement probability\")\r\n    self.repl = prob\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "assert(0 <= prob and prob <= 1, \"Bad replacement probability\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 50,
+    "text": "self.repl = prob",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "function MT.getReplacementProb(self)\r\n    return self.repl\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 54,
+    "text": "function MT.setParticles(self, n)\r\n    assert(n > 0, \"Bad number of particles\")\r\n    self.nparts = n\r\nend",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "assert(n > 0, \"Bad number of particles\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 56,
+    "text": "self.nparts = n",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 58,
+    "text": "function MT.getParticles(self)\r\n    return self.nparts\r\nend",
+    "type": "function"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 60,
+    "text": "function MT.setFitnessFunction(self, func)\r\n    if type(func) ~= \"function\" then\r\n        error(\"Bad function\")\r\n    end\r\n    self.fitfunc = func\r\nend",
+    "type": "function"
+  }, {
+    "id": 61,
+    "text": "if type(func) ~= \"function\" then\r\n        error(\"Bad function\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 62,
+    "text": "error(\"Bad function\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 63,
+    "text": "self.fitfunc = func",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 65,
+    "text": "function MT.setLimitsDim(self, dim, min, max)\r\n    assert(dim > 0 and dim <= self.dims, \"Bad dimension\")\r\n    self.minp[dim] = min\r\n    self.maxp[dim] = max\r\nend",
+    "type": "function"
+  }, {
+    "id": 66,
+    "text": "self.minp[dim] = min",
+    "type": "statement:assign"
+  }, {
+    "id": 67,
+    "text": "self.maxp[dim] = max",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 69,
+    "text": "function MT.getLimitsDim(self, dim)\r\n    assert(dim > 0 and dim <= self.dims, \"Bad dimension\")\r\n    return self.minp[dim], self.maxp[dim]\r\nend",
+    "type": "function"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 71,
+    "text": "function MT.setLimits(self, min, max)\r\n    for dim = 1, self.dims do\r\n        self:setLimitsDim(dim, min, max)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 72,
+    "text": "for dim = 1, self.dims do\r\n        self:setLimitsDim(dim, min, max)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 73,
+    "text": "self:setLimitsDim(dim, min, max)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 75,
+    "text": "function MT.setFitnessRounding(self, decs)\r\n    assert(not decs or decs >= 0, \"Bad number of decimal places.\")\r\n    self.fitr = decs\r\nend",
+    "type": "function"
+  }, {
+    "id": 76,
+    "text": "self.fitr = decs",
+    "type": "statement:assign"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 78,
+    "text": "function MT.setFitnessRouding(self, decs)\r\n    assert(decs > 0, \"Bad number of decimal places.\")\r\n    self.fitr = decs\r\nend",
+    "type": "function"
+  }, {
+    "id": 79,
+    "text": "assert(decs > 0, \"Bad number of decimal places.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 81,
+    "text": "function MT.setMaxFitness(self, max)\r\n    self.maxfit = max\r\nend",
+    "type": "function"
+  }, {
+    "id": 82,
+    "text": "self.maxfit = max",
+    "type": "statement:assign"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 84,
+    "text": "function MT.getMaxFitness(self)\r\n    return self.maxfit\r\nend",
+    "type": "function"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 86,
+    "text": "function MT.setMaxIterations(self, max)\r\n    assert(max > 0, \"Bad number of iterations\")\r\n    self.maxiter = max\r\nend",
+    "type": "function"
+  }, {
+    "id": 87,
+    "text": "assert(max > 0, \"Bad number of iterations\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 88,
+    "text": "self.maxiter = max",
+    "type": "statement:assign"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 90,
+    "text": "function MT.getMaxIterations(self)\r\n    return self.maxiter\r\nend",
+    "type": "function"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 92,
+    "text": "function MT.setMaxStagnation(self, max)\r\n    assert(max > 0, \"Bad number of iterations\")\r\n    self.maxstag = max\r\nend",
+    "type": "function"
+  }, {
+    "id": 93,
+    "text": "self.maxstag = max",
+    "type": "statement:assign"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 95,
+    "text": "function MT.getMaxStagnation(self)\r\n    return self.maxstag\r\nend",
+    "type": "function"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 97,
+    "text": "function MT.setNewBestHook(self, func)\r\n    if func and type(func) ~= \"function\" then\r\n        error(\"Bad function\")\r\n    end\r\n    self.nbhook = func\r\nend",
+    "type": "function"
+  }, {
+    "id": 98,
+    "text": "if func and type(func) ~= \"function\" then\r\n        error(\"Bad function\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 99,
+    "text": "self.nbhook = func",
+    "type": "statement:assign"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 101,
+    "text": "function MT.setReplacementHook(self, func)\r\n    if func and type(func) ~= \"function\" then\r\n        error(\"Bad function\")\r\n    end\r\n    self.replhook = func\r\nend",
+    "type": "function"
+  }, {
+    "id": 102,
+    "text": "self.replhook = func",
+    "type": "statement:assign"
+  }, {
+    "id": 103,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 104,
+    "text": "function MT.setIterationHook(self, func)\r\n    if func and type(func) ~= \"function\" then\r\n        error(\"Bad function\")\r\n    end\r\n    self.iterhook = func\r\nend",
+    "type": "function"
+  }, {
+    "id": 105,
+    "text": "self.iterhook = func",
+    "type": "statement:assign"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 107,
+    "text": "local function evalpart(self, p)\r\n    local fit = round(self.fitfunc(unpack(p.x)), self.fitr)\r\n    if p.fit then\r\n        if fit > p.fit then    -- New particle's best found.\r\n            p.fit = fit\r\n            for i = 1, self.dims do\r\n                p.b[i] = p.x[i]\r\n            end\r\n        end\r\n    else\r\n        p.fit = fit\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 108,
+    "text": "local fit = round(self.fitfunc(unpack(p.x)), self.fitr)",
+    "type": "statement:localassign"
+  }, {
+    "id": 109,
+    "text": "if p.fit then\r\n        if fit > p.fit then    -- New particle's best found.\r\n            p.fit = fit\r\n            for i = 1, self.dims do\r\n                p.b[i] = p.x[i]\r\n            end\r\n        end\r\n    else\r\n        p.fit = fit\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 110,
+    "text": "if fit > p.fit then    -- New particle's best found.\r\n            p.fit = fit\r\n            for i = 1, self.dims do\r\n                p.b[i] = p.x[i]\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 111,
+    "text": "p.fit = fit",
+    "type": "statement:assign"
+  }, {
+    "id": 112,
+    "text": "for i = 1, self.dims do\r\n                p.b[i] = p.x[i]\r\n            end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 113,
+    "text": "p.b[i] = p.x[i]",
+    "type": "statement:assign"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 115,
+    "text": "local function randomizeParticle(self, p)\r\n    p = p or {}\r\n    p.fit = nil -- 'nil' is the worst possible fitness.\r\n    p.x = {}    -- particle's position\r\n    p.b = {}    -- particle's best position (pbest)\r\n    p.v = {}    -- particle's velocity\r\n    for i = 1, self.dims do\r\n        p.x[i] = (self.maxp[i] - self.minp[i]) * math.random() + self.minp[i]\r\n        p.b[i] = p.x[i]\r\n        p.v[i] = 2 * self.maxs[i] * (math.random() - 0.5)\r\n    end\r\n    evalpart(self, p)\r\n    return p\r\nend",
+    "type": "function"
+  }, {
+    "id": 116,
+    "text": "p = p or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 117,
+    "text": "p.fit = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 118,
+    "text": "p.x = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 119,
+    "text": "p.b = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 120,
+    "text": "p.v = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 121,
+    "text": "for i = 1, self.dims do\r\n        p.x[i] = (self.maxp[i] - self.minp[i]) * math.random() + self.minp[i]\r\n        p.b[i] = p.x[i]\r\n        p.v[i] = 2 * self.maxs[i] * (math.random() - 0.5)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 122,
+    "text": "p.x[i] = (self.maxp[i] - self.minp[i]) * math.random() + self.minp[i]",
+    "type": "statement:assign"
+  }, {
+    "id": 123,
+    "text": "p.v[i] = 2 * self.maxs[i] * (math.random() - 0.5)",
+    "type": "statement:assign"
+  }, {
+    "id": 124,
+    "text": "evalpart(self, p)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 126,
+    "text": "local function updateParticle(self, i)\r\n    local p = self.parts[i]\r\n    local b = self.parts[self.gbest]\r\n    local prec = self.prec  -- Optimization\r\n    local rnd = math.random\r\n\r\n    for i = 1, self.dims do\r\n        p.v[i] = range(\r\n                -self.maxs[i],\r\n                self.c1 * rnd() * (p.b[i] - p.x[i]) +  -- Cognitive\r\n                self.c2 * rnd() * (b.b[i] - p.x[i]),   -- Social\r\n                self.maxs[i])\r\n        local x = p.x[i] + p.v[i]\r\n        if prec[i] then     -- Position rounding\r\n            x = round(x, prec[i])\r\n        end\r\n        p.x[i] = cspace(self.minp[i], x, self.maxp[i])\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 127,
+    "text": "local p = self.parts[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 128,
+    "text": "local b = self.parts[self.gbest]",
+    "type": "statement:localassign"
+  }, {
+    "id": 129,
+    "text": "local prec = self.prec",
+    "type": "statement:localassign"
+  }, {
+    "id": 130,
+    "text": "local rnd = math.random",
+    "type": "statement:localassign"
+  }, {
+    "id": 131,
+    "text": "for i = 1, self.dims do\r\n        p.v[i] = range(\r\n                -self.maxs[i],\r\n                self.c1 * rnd() * (p.b[i] - p.x[i]) +  -- Cognitive\r\n                self.c2 * rnd() * (b.b[i] - p.x[i]),   -- Social\r\n                self.maxs[i])\r\n        local x = p.x[i] + p.v[i]\r\n        if prec[i] then     -- Position rounding\r\n            x = round(x, prec[i])\r\n        end\r\n        p.x[i] = cspace(self.minp[i], x, self.maxp[i])\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 132,
+    "text": "p.v[i] = range(\r\n                -self.maxs[i],\r\n                self.c1 * rnd() * (p.b[i] - p.x[i]) +  -- Cognitive\r\n                self.c2 * rnd() * (b.b[i] - p.x[i]),   -- Social\r\n                self.maxs[i])",
+    "type": "statement:assign"
+  }, {
+    "id": 133,
+    "text": "local x = p.x[i] + p.v[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 134,
+    "text": "if prec[i] then     -- Position rounding\r\n            x = round(x, prec[i])\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 135,
+    "text": "x = round(x, prec[i])",
+    "type": "statement:assign"
+  }, {
+    "id": 136,
+    "text": "p.x[i] = cspace(self.minp[i], x, self.maxp[i])",
+    "type": "statement:assign"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 138,
+    "text": "function MT.run(self)\r\n    local iter = 0\r\n    local stag = 0\r\n    local p\r\n\r\n    assert(self.fitfunc, \"No fitness function defined.\")\r\n    assert(self.maxfit or self.maxiter or self.maxstag,\r\n        \"No termination criteria defined.\")\r\n\r\n    for i = 1, self.dims do\r\n        assert(self.maxs[i], \"Required value for maximum speed not given.\")\r\n        assert(self.maxp[i], \"Required value for maximum position not given.\")\r\n        assert(self.minp[i], \"Required value for minimum position not given.\")\r\n    end\r\n\r\n    for i = 1, self.nparts do\r\n        self.parts[i] = randomizeParticle(self)\r\n    end\r\n\r\n    while true do\r\n\r\n        for i = 1, self.nparts do\r\n            -- Particle replacement.\r\n            if i ~= self.gbest and math.random() < self.repl then\r\n                if self.replhook then\r\n                    self.replhook(unpack(self.parts[i].b))\r\n                end\r\n                randomizeParticle(self, self.parts[i])\r\n            end\r\n\r\n            evalpart(self, self.parts[i])\r\n            if self.gbest then\r\n                if self.parts[i].fit > self.parts[self.gbest].fit then\r\n                    stag = 0\r\n                    self.gbest = i\r\n                    if self.nbhook then\r\n                        self.nbhook(unpack(self.parts[self.gbest].b))\r\n                    end\r\n                end\r\n            else\r\n                -- The new best hook is never called for the first best.\r\n                self.gbest = i\r\n                stag = 0\r\n            end\r\n\r\n        end\r\n\r\n        if self.maxfit and (self.parts[self.gbest].fit >= self.maxfit) then\r\n            return self.parts[self.gbest].b, self.parts[self.gbest].fit,\r\n                M.TERM_CONVERGED, iter\r\n        end\r\n\r\n        iter = iter + 1        \r\n        if self.iterhook then\r\n           self.iterhook(self.parts, iter)\r\n        end \r\n\r\n        if self.maxiter and (iter > self.maxiter) then\r\n            return self.parts[self.gbest].b, self.parts[self.gbest].fit,\r\n                M.TERM_MAX_ITERATIONS, iter\r\n        end\r\n\r\n        stag = stag + 1\r\n        if self.maxstag and (stag > self.maxstag) then\r\n            return self.parts[self.gbest].b, self.parts[self.gbest].fit,\r\n                M.TERM_MAX_STAGNATION, iter\r\n        end\r\n\r\n        for i = 1, self.nparts do\r\n            updateParticle(self, i)\r\n        end\r\n\r\n    end\r\n\r\n    return nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 139,
+    "text": "local iter = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 140,
+    "text": "local stag = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 141,
+    "text": "local p",
+    "type": "statement:localassign"
+  }, {
+    "id": 142,
+    "text": "assert(self.fitfunc, \"No fitness function defined.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 143,
+    "text": "assert(self.maxfit or self.maxiter or self.maxstag,\r\n        \"No termination criteria defined.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 144,
+    "text": "for i = 1, self.dims do\r\n        assert(self.maxs[i], \"Required value for maximum speed not given.\")\r\n        assert(self.maxp[i], \"Required value for maximum position not given.\")\r\n        assert(self.minp[i], \"Required value for minimum position not given.\")\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 145,
+    "text": "assert(self.maxs[i], \"Required value for maximum speed not given.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 146,
+    "text": "assert(self.maxp[i], \"Required value for maximum position not given.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 147,
+    "text": "assert(self.minp[i], \"Required value for minimum position not given.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 148,
+    "text": "for i = 1, self.nparts do\r\n        self.parts[i] = randomizeParticle(self)\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 149,
+    "text": "self.parts[i] = randomizeParticle(self)",
+    "type": "statement:assign"
+  }, {
+    "id": 150,
+    "text": "while true do\r\n\r\n        for i = 1, self.nparts do\r\n            -- Particle replacement.\r\n            if i ~= self.gbest and math.random() < self.repl then\r\n                if self.replhook then\r\n                    self.replhook(unpack(self.parts[i].b))\r\n                end\r\n                randomizeParticle(self, self.parts[i])\r\n            end\r\n\r\n            evalpart(self, self.parts[i])\r\n            if self.gbest then\r\n                if self.parts[i].fit > self.parts[self.gbest].fit then\r\n                    stag = 0\r\n                    self.gbest = i\r\n                    if self.nbhook then\r\n                        self.nbhook(unpack(self.parts[self.gbest].b))\r\n                    end\r\n                end\r\n            else\r\n                -- The new best hook is never called for the first best.\r\n                self.gbest = i\r\n                stag = 0\r\n            end\r\n\r\n        end\r\n\r\n        if self.maxfit and (self.parts[self.gbest].fit >= self.maxfit) then\r\n            return self.parts[self.gbest].b, self.parts[self.gbest].fit,\r\n                M.TERM_CONVERGED, iter\r\n        end\r\n\r\n        iter = iter + 1        \r\n        if self.iterhook then\r\n           self.iterhook(self.parts, iter)\r\n        end \r\n\r\n        if self.maxiter and (iter > self.maxiter) then\r\n            return self.parts[self.gbest].b, self.parts[self.gbest].fit,\r\n                M.TERM_MAX_ITERATIONS, iter\r\n        end\r\n\r\n        stag = stag + 1\r\n        if self.maxstag and (stag > self.maxstag) then\r\n            return self.parts[self.gbest].b, self.parts[self.gbest].fit,\r\n                M.TERM_MAX_STAGNATION, iter\r\n        end\r\n\r\n        for i = 1, self.nparts do\r\n            updateParticle(self, i)\r\n        end\r\n\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 151,
+    "text": "for i = 1, self.nparts do\r\n            -- Particle replacement.\r\n            if i ~= self.gbest and math.random() < self.repl then\r\n                if self.replhook then\r\n                    self.replhook(unpack(self.parts[i].b))\r\n                end\r\n                randomizeParticle(self, self.parts[i])\r\n            end\r\n\r\n            evalpart(self, self.parts[i])\r\n            if self.gbest then\r\n                if self.parts[i].fit > self.parts[self.gbest].fit then\r\n                    stag = 0\r\n                    self.gbest = i\r\n                    if self.nbhook then\r\n                        self.nbhook(unpack(self.parts[self.gbest].b))\r\n                    end\r\n                end\r\n            else\r\n                -- The new best hook is never called for the first best.\r\n                self.gbest = i\r\n                stag = 0\r\n            end\r\n\r\n        end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 152,
+    "text": "if i ~= self.gbest and math.random() < self.repl then\r\n                if self.replhook then\r\n                    self.replhook(unpack(self.parts[i].b))\r\n                end\r\n                randomizeParticle(self, self.parts[i])\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 153,
+    "text": "if self.replhook then\r\n                    self.replhook(unpack(self.parts[i].b))\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 154,
+    "text": "self.replhook(unpack(self.parts[i].b))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 155,
+    "text": "randomizeParticle(self, self.parts[i])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 156,
+    "text": "evalpart(self, self.parts[i])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 157,
+    "text": "if self.gbest then\r\n                if self.parts[i].fit > self.parts[self.gbest].fit then\r\n                    stag = 0\r\n                    self.gbest = i\r\n                    if self.nbhook then\r\n                        self.nbhook(unpack(self.parts[self.gbest].b))\r\n                    end\r\n                end\r\n            else\r\n                -- The new best hook is never called for the first best.\r\n                self.gbest = i\r\n                stag = 0\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 158,
+    "text": "if self.parts[i].fit > self.parts[self.gbest].fit then\r\n                    stag = 0\r\n                    self.gbest = i\r\n                    if self.nbhook then\r\n                        self.nbhook(unpack(self.parts[self.gbest].b))\r\n                    end\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 159,
+    "text": "stag = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 160,
+    "text": "self.gbest = i",
+    "type": "statement:assign"
+  }, {
+    "id": 161,
+    "text": "if self.nbhook then\r\n                        self.nbhook(unpack(self.parts[self.gbest].b))\r\n                    end",
+    "type": "statement:if"
+  }, {
+    "id": 162,
+    "text": "self.nbhook(unpack(self.parts[self.gbest].b))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 163,
+    "text": "if self.maxfit and (self.parts[self.gbest].fit >= self.maxfit) then\r\n            return self.parts[self.gbest].b, self.parts[self.gbest].fit,\r\n                M.TERM_CONVERGED, iter\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 164,
+    "text": "iter = iter + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 165,
+    "text": "if self.iterhook then\r\n           self.iterhook(self.parts, iter)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 166,
+    "text": "self.iterhook(self.parts, iter)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 167,
+    "text": "if self.maxiter and (iter > self.maxiter) then\r\n            return self.parts[self.gbest].b, self.parts[self.gbest].fit,\r\n                M.TERM_MAX_ITERATIONS, iter\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 168,
+    "text": "stag = stag + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 169,
+    "text": "if self.maxstag and (stag > self.maxstag) then\r\n            return self.parts[self.gbest].b, self.parts[self.gbest].fit,\r\n                M.TERM_MAX_STAGNATION, iter\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 170,
+    "text": "for i = 1, self.nparts do\r\n            updateParticle(self, i)\r\n        end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 171,
+    "text": "updateParticle(self, i)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 172,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 173,
+    "text": "local function printParticles(self)\r\n    for i = 1, self.nparts do\r\n        print(unpack(self.parts[i].b))\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 174,
+    "text": "for i = 1, self.nparts do\r\n        print(unpack(self.parts[i].b))\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 175,
+    "text": "print(unpack(self.parts[i].b))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 176,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 177,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 178,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 179,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 180,
+    "text": "random",
+    "type": "global function"
+  }, {
+    "id": 181,
+    "text": "math_ceil",
+    "type": "global function"
+  }, {
+    "id": 182,
+    "text": "iterhook",
+    "type": "global function"
+  }, {
+    "id": 183,
+    "text": "fitfunc",
+    "type": "global function"
+  }, {
+    "id": 184,
+    "text": "math_min",
+    "type": "global function"
+  }, {
+    "id": 185,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 186,
+    "text": "replhook",
+    "type": "global function"
+  }, {
+    "id": 187,
+    "text": "nbhook",
+    "type": "global function"
+  }, {
+    "id": 188,
+    "text": "math_max",
+    "type": "global function"
+  }, {
+    "id": 189,
+    "text": "rnd",
+    "type": "global function"
+  }, {
+    "id": 190,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 191,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 192,
+    "text": "math_floor",
+    "type": "global function"
+  }, {
+    "id": 193,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 194,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 195,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 196,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 197,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 198,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 199,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 200,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 201,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 202,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 203,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 204,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 205,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 206,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 207,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 208,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 209,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 210,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 211,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 212,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 213,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 214,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 215,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 216,
+    "text": "",
+    "type": "interface"
+  } ]
+}

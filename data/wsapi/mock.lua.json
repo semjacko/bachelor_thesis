@@ -1,0 +1,877 @@
+{
+  "_filename": "mock.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wsapi/src/wsapi/mock.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 78
+  }, {
+    "from": 65,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 81
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 58,
+    "label": "calls",
+    "to": 80
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 82
+  }, {
+    "from": 73,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 73,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 73,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 58,
+    "label": "calls",
+    "to": 79
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 51
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 58
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 65
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 67
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 69
+  }, {
+    "from": 73,
+    "label": "declares",
+    "to": 71
+  }, {
+    "from": 74,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 85
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "initializes",
+    "to": 87
+  }, {
+    "from": 87,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 86,
+    "label": "initializes",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 89,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 84,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 15,
+    "label": "hasArgument",
+    "to": 71
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "common",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "mock",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "request",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function send_content(out, res_iter, write_method)\r\n   local write = out[write_method or \"write\"]\r\n   local flush = out.flush\r\n   local ok, res = xpcall(res_iter, debug.traceback)\r\n   while ok and res do\r\n      write(out, res)\r\n      if flush then flush(out) end\r\n      ok, res = xpcall(res_iter, debug.traceback)\r\n   end\r\n   if not ok then\r\n      write(out,\r\n            \"======== WSAPI ERROR DURING RESPONSE PROCESSING: \\n<pre>\" ..\r\n              tostring(res) .. \"\\n</pre>\")\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local function build_request(method, path, headers)\r\n  local req = {\r\n    GATEWAY_INTERFACE    = \"CGI/1.1\",\r\n    HTTP_ACCEPT = \"application/xml,application/xhtml+xml,text/html;q=0.9,\" ..\r\n        \"text/plain;q=0.8,image/png,*/*;q=0.5\",\r\n    HTTP_ACCEPT_CHARSET  = \"ISO-8859-1,utf-8;q=0.7,*;q=0.3\",\r\n    HTTP_ACCEPT_ENCODING = \"gzip,deflate,sdch\",\r\n    HTTP_ACCEPT_LANGUAGE = \"en-US,en;q=0.8\",\r\n    HTTP_CACHE_CONTROL   = \"max-age=0\",\r\n    HTTP_CONNECTION      = \"keep-alive\",\r\n    HTTP_HOST            = \"127.0.0.1:80\",\r\n    HTTP_USER_AGENT      = \"Mozilla/5.0 (Macintosh; U; Intel Mac OS X \" ..\r\n        \"10_6_4; en-US) AppleWebKit/534.3 (KHTML, like Gecko) \" ..\r\n        \"Chrome/6.0.472.55\",\r\n    HTTP_VERSION         = \"HTTP/1.1\",\r\n    REMOTE_ADDR          = \"127.0.0.1\",\r\n    REMOTE_HOST          = \"localhost\",\r\n    SCRIPT_NAME          = \"wsapi_test\",\r\n    SERVER_NAME          = \"localhost\",\r\n    SERVER_PORT          = \"80\",\r\n    SERVER_PROTOCOL      = \"HTTP/1.1\"\r\n  }\r\n\r\n  req.PATH_INFO      = path\r\n  req.REQUEST_METHOD = method:upper()\r\n  req.METHOD         = req.REQUEST_METHOD\r\n  req.REQUEST_PATH   = \"/\"\r\n\r\n  if req.PATH_INFO == \"\" then req.PATH_INFO = \"/\" end\r\n\r\n  for k, v in pairs(headers or {}) do req[k] = v end\r\n\r\n  -- allow case-insensitive table key access\r\n  setmetatable(req, {__index = function(t, k)\r\n    return rawget(t, string.upper(k))\r\n  end})\r\n  return req\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "local req = {\r\n    GATEWAY_INTERFACE    = \"CGI/1.1\",\r\n    HTTP_ACCEPT = \"application/xml,application/xhtml+xml,text/html;q=0.9,\" ..\r\n        \"text/plain;q=0.8,image/png,*/*;q=0.5\",\r\n    HTTP_ACCEPT_CHARSET  = \"ISO-8859-1,utf-8;q=0.7,*;q=0.3\",\r\n    HTTP_ACCEPT_ENCODING = \"gzip,deflate,sdch\",\r\n    HTTP_ACCEPT_LANGUAGE = \"en-US,en;q=0.8\",\r\n    HTTP_CACHE_CONTROL   = \"max-age=0\",\r\n    HTTP_CONNECTION      = \"keep-alive\",\r\n    HTTP_HOST            = \"127.0.0.1:80\",\r\n    HTTP_USER_AGENT      = \"Mozilla/5.0 (Macintosh; U; Intel Mac OS X \" ..\r\n        \"10_6_4; en-US) AppleWebKit/534.3 (KHTML, like Gecko) \" ..\r\n        \"Chrome/6.0.472.55\",\r\n    HTTP_VERSION         = \"HTTP/1.1\",\r\n    REMOTE_ADDR          = \"127.0.0.1\",\r\n    REMOTE_HOST          = \"localhost\",\r\n    SCRIPT_NAME          = \"wsapi_test\",\r\n    SERVER_NAME          = \"localhost\",\r\n    SERVER_PORT          = \"80\",\r\n    SERVER_PROTOCOL      = \"HTTP/1.1\"\r\n  }",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "req.PATH_INFO      = path",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "req.REQUEST_METHOD = method:upper()",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "req.METHOD         = req.REQUEST_METHOD",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "req.REQUEST_PATH   = \"/\"",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "if req.PATH_INFO == \"\" then req.PATH_INFO = \"/\" end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "req.PATH_INFO = \"/\"",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "for k, v in pairs(headers or {}) do req[k] = v end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 14,
+    "text": "req[k] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "setmetatable(req, {__index = function(t, k)\r\n    return rawget(t, string.upper(k))\r\n  end})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function common.send_output(out, status, headers, res_iter, write_method,res_line)\r\n   common.send_content(out, res_iter, out:write())\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "common.send_content(out, res_iter, out:write())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "local function make_io_object(content)\r\n  local receiver = { buffer = content or \"\", bytes_read = 0 }\r\n\r\n  function receiver:write(content)\r\n    if content then\r\n      self.buffer = self.buffer .. content\r\n    end\r\n  end\r\n\r\n  function receiver:read(len)\r\n    len = len or (#self.buffer - self.bytes_read)\r\n    if self.bytes_read >= #self.buffer then return nil end\r\n    local s = self.buffer:sub(self.bytes_read + 1, len)\r\n    self.bytes_read = self.bytes_read + len\r\n    if self.bytes_read > #self.buffer then self.bytes_read = #self.buffer end\r\n    return s\r\n  end\r\n\r\n  function receiver:clear()\r\n    self.buffer = \"\"\r\n    self.bytes_read = 0\r\n  end\r\n\r\n  function receiver:reset()\r\n    self.bytes_read = 0\r\n  end\r\n\r\n  return receiver\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "local receiver = { buffer = content or \"\", bytes_read = 0 }",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "function receiver:write(content)\r\n    if content then\r\n      self.buffer = self.buffer .. content\r\n    end\r\n  end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 24,
+    "text": "if content then\r\n      self.buffer = self.buffer .. content\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "self.buffer = self.buffer .. content",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "function receiver:read(len)\r\n    len = len or (#self.buffer - self.bytes_read)\r\n    if self.bytes_read >= #self.buffer then return nil end\r\n    local s = self.buffer:sub(self.bytes_read + 1, len)\r\n    self.bytes_read = self.bytes_read + len\r\n    if self.bytes_read > #self.buffer then self.bytes_read = #self.buffer end\r\n    return s\r\n  end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 27,
+    "text": "len = len or (#self.buffer - self.bytes_read)",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "if self.bytes_read >= #self.buffer then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "local s = self.buffer:sub(self.bytes_read + 1, len)",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "self.bytes_read = self.bytes_read + len",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "if self.bytes_read > #self.buffer then self.bytes_read = #self.buffer end",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "self.bytes_read = #self.buffer",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "function receiver:clear()\r\n    self.buffer = \"\"\r\n    self.bytes_read = 0\r\n  end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 34,
+    "text": "self.buffer = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "self.bytes_read = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "function receiver:reset()\r\n    self.bytes_read = 0\r\n  end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 38,
+    "text": "function receiver:write(content)\r\n    if content then\r\n      self.buffer = self.buffer .. content\r\n    end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "function receiver:read(len)\r\n    len = len or (#self.buffer - self.bytes_read)\r\n    if self.bytes_read >= #self.buffer then return nil end\r\n    local s = self.buffer:sub(self.bytes_read + 1, len)\r\n    self.bytes_read = self.bytes_read + len\r\n    if self.bytes_read > #self.buffer then self.bytes_read = #self.buffer end\r\n    return s\r\n  end",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function receiver:clear()\r\n    self.buffer = \"\"\r\n    self.bytes_read = 0\r\n  end",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "function receiver:reset()\r\n    self.bytes_read = 0\r\n  end",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 46,
+    "text": "local function build_get(path, params, headers)\r\n  local req = build_request(\"GET\", path, headers)\r\n  req.QUERY_STRING = request.methods.qs_encode(nil, params)\r\n  req.REQUEST_URI  = \"http://\" ..\r\n      req.HTTP_HOST ..\r\n      req.PATH_INFO ..\r\n      req.QUERY_STRING\r\n\r\n  return {\r\n    env    = req,\r\n    input  = make_io_object(),\r\n    output = make_io_object(),\r\n    error  = make_io_object()\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "local req = build_request(\"GET\", path, headers)",
+    "type": "statement:localassign"
+  }, {
+    "id": 48,
+    "text": "req.QUERY_STRING = request.methods.qs_encode(nil, params)",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "req.REQUEST_URI  = \"http://\" ..\r\n      req.HTTP_HOST ..\r\n      req.PATH_INFO ..\r\n      req.QUERY_STRING",
+    "type": "statement:assign"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 51,
+    "text": "local function build_post(path, params, headers)\r\n  local req          = build_request(\"POST\", path, headers)\r\n  local body         = request.methods.qs_encode(nil, params):gsub(\"^?\", \"\")\r\n  req.REQUEST_URI    = \"http://\" .. req.HTTP_HOST .. req.PATH_INFO\r\n  req.CONTENT_TYPE   = \"x-www-form-urlencoded\"\r\n  req.CONTENT_LENGTH = #body\r\n\r\n  return {\r\n    env    = req,\r\n    input  = make_io_object(body),\r\n    output = make_io_object(),\r\n    error  = make_io_object()\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 52,
+    "text": "local req          = build_request(\"POST\", path, headers)",
+    "type": "statement:localassign"
+  }, {
+    "id": 53,
+    "text": "local body         = request.methods.qs_encode(nil, params):gsub(\"^?\", \"\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 54,
+    "text": "req.REQUEST_URI    = \"http://\" .. req.HTTP_HOST .. req.PATH_INFO",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "req.CONTENT_TYPE   = \"x-www-form-urlencoded\"",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "req.CONTENT_LENGTH = #body",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 58,
+    "text": "local function make_request(request_builder, app, path, params, headers)\r\n  local wsapi_env = request_builder(path, params, headers)\r\n  local response = {}\r\n  response.code, response.headers = wsapi.common.run(app, wsapi_env)\r\n  response.body = wsapi_env.output:read()\r\n  response.wsapi_errors = wsapi_env.error:read()\r\n  return response, wsapi_env.env\r\nend",
+    "type": "function"
+  }, {
+    "id": 59,
+    "text": "local wsapi_env = request_builder(path, params, headers)",
+    "type": "statement:localassign"
+  }, {
+    "id": 60,
+    "text": "local response = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 61,
+    "text": "response.code, response.headers = wsapi.common.run(app, wsapi_env)",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "response.body = wsapi_env.output:read()",
+    "type": "statement:assign"
+  }, {
+    "id": 63,
+    "text": "response.wsapi_errors = wsapi_env.error:read()",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 65,
+    "text": "local function get(self, path, params, headers)\r\n  return make_request(build_get, self.app, path, params, headers)\r\nend",
+    "type": "function"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 67,
+    "text": "local function post(self, path, params, headers)\r\n  return make_request(build_post, self.app, path, params, headers)\r\nend",
+    "type": "function"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 69,
+    "text": "function make_handler(app)\r\n  return {\r\n    app  = app,\r\n    get  = get,\r\n    post = post\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 71,
+    "text": "function(t, k)\r\n    return rawget(t, string.upper(k))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 75,
+    "text": "methods.qs_encode",
+    "type": "global function"
+  }, {
+    "id": 76,
+    "text": "rawget",
+    "type": "global function"
+  }, {
+    "id": 77,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 78,
+    "text": "upper",
+    "type": "global function"
+  }, {
+    "id": 79,
+    "text": "wsapi.common.run",
+    "type": "global function"
+  }, {
+    "id": 80,
+    "text": "request_builder",
+    "type": "global function"
+  }, {
+    "id": 81,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 82,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 83,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

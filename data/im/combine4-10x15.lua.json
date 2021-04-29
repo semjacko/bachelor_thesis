@@ -1,0 +1,1033 @@
+{
+  "_filename": "combine4-10x15.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/im/doc/html/examples/combine4-10x15.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 96
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 93
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 91
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 92
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 90
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 64
+  }, {
+    "from": 86,
+    "label": "declares",
+    "to": 70
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 106
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 107
+  }, {
+    "from": 106,
+    "label": "initializes",
+    "to": 108
+  }, {
+    "from": 108,
+    "label": "assigns",
+    "to": 109
+  }, {
+    "from": 106,
+    "label": "initializes",
+    "to": 110
+  }, {
+    "from": 110,
+    "label": "assigns",
+    "to": 111
+  }, {
+    "from": 106,
+    "label": "initializes",
+    "to": 112
+  }, {
+    "from": 106,
+    "label": "initializes",
+    "to": 113
+  }, {
+    "from": 106,
+    "label": "initializes",
+    "to": 114
+  }, {
+    "from": 114,
+    "label": "assigns",
+    "to": 115
+  }, {
+    "from": 107,
+    "label": "initializes",
+    "to": 105
+  }, {
+    "from": 107,
+    "label": "initializes",
+    "to": 105
+  }, {
+    "from": 107,
+    "label": "initializes",
+    "to": 105
+  }, {
+    "from": 105,
+    "label": "requires",
+    "to": 116
+  }, {
+    "from": 105,
+    "label": "requires",
+    "to": 116
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "combine4-10x15",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function CombineImages(comb_image)\r\n  local w = comb_image:Width()-offset\r\n  local h = comb_image:Height()-offset\r\n  local half_w = math.floor(w/2)\r\n  local half_h = math.floor(h/2)\r\n  local x = {0, 0,             half_w+offset, half_w+offset}\r\n  local y = {0, half_h+offset, 0,             half_h+offset}\r\n  \r\n  for i = 1, 4 do\r\n    local img_w = images[i]:Width()\r\n    local img_h = images[i]:Height()\r\n    \r\n    if (img_w ~= half_w or img_h ~= half_h) then\r\n      local rz_w, rz_h, img_aspect\r\n      \r\n      img_aspect = img_w/img_h\r\n      \r\n      -- keep image aspect ratio\r\n      if (img_aspect ~= aspect) then\r\n        if (img_aspect < aspect) then\r\n          rz_h = half_h\r\n          rz_w = math.floor(rz_h * img_aspect)\r\n        else\r\n          rz_w = half_w\r\n          rz_h = math.floor(rz_w / img_aspect)\r\n        end\r\n      else\r\n        rz_w = half_w\r\n        rz_h = half_h\r\n      end  \r\n      \r\n      if (img_w ~= rz_w or img_h ~= rz_h) then\r\n        resize_image = im.ImageCreate(rz_w, rz_h, im.RGB, im.BYTE)\r\n        im.ProcessResize(images[i], resize_image, 1) -- do bilinear interpolation\r\n        images[i]:Destroy()\r\n        images[i] = resize_image\r\n      end\r\n    end\r\n    \r\n    im.ProcessInsert(comb_image, images[i], comb_image, x[i], y[i]) -- insert resize in dst and place the result in dst\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local w = comb_image:Width()-offset",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local h = comb_image:Height()-offset",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local half_w = math.floor(w/2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local half_h = math.floor(h/2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local x = {0, 0,             half_w+offset, half_w+offset}",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local y = {0, half_h+offset, 0,             half_h+offset}",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "for i = 1, 4 do\r\n    local img_w = images[i]:Width()\r\n    local img_h = images[i]:Height()\r\n    \r\n    if (img_w ~= half_w or img_h ~= half_h) then\r\n      local rz_w, rz_h, img_aspect\r\n      \r\n      img_aspect = img_w/img_h\r\n      \r\n      -- keep image aspect ratio\r\n      if (img_aspect ~= aspect) then\r\n        if (img_aspect < aspect) then\r\n          rz_h = half_h\r\n          rz_w = math.floor(rz_h * img_aspect)\r\n        else\r\n          rz_w = half_w\r\n          rz_h = math.floor(rz_w / img_aspect)\r\n        end\r\n      else\r\n        rz_w = half_w\r\n        rz_h = half_h\r\n      end  \r\n      \r\n      if (img_w ~= rz_w or img_h ~= rz_h) then\r\n        resize_image = im.ImageCreate(rz_w, rz_h, im.RGB, im.BYTE)\r\n        im.ProcessResize(images[i], resize_image, 1) -- do bilinear interpolation\r\n        images[i]:Destroy()\r\n        images[i] = resize_image\r\n      end\r\n    end\r\n    \r\n    im.ProcessInsert(comb_image, images[i], comb_image, x[i], y[i]) -- insert resize in dst and place the result in dst\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 10,
+    "text": "local img_w = images[i]:Width()",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local img_h = images[i]:Height()",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "if (img_w ~= half_w or img_h ~= half_h) then\r\n      local rz_w, rz_h, img_aspect\r\n      \r\n      img_aspect = img_w/img_h\r\n      \r\n      -- keep image aspect ratio\r\n      if (img_aspect ~= aspect) then\r\n        if (img_aspect < aspect) then\r\n          rz_h = half_h\r\n          rz_w = math.floor(rz_h * img_aspect)\r\n        else\r\n          rz_w = half_w\r\n          rz_h = math.floor(rz_w / img_aspect)\r\n        end\r\n      else\r\n        rz_w = half_w\r\n        rz_h = half_h\r\n      end  \r\n      \r\n      if (img_w ~= rz_w or img_h ~= rz_h) then\r\n        resize_image = im.ImageCreate(rz_w, rz_h, im.RGB, im.BYTE)\r\n        im.ProcessResize(images[i], resize_image, 1) -- do bilinear interpolation\r\n        images[i]:Destroy()\r\n        images[i] = resize_image\r\n      end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "local rz_w, rz_h, img_aspect",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "img_aspect = img_w/img_h",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "if (img_aspect ~= aspect) then\r\n        if (img_aspect < aspect) then\r\n          rz_h = half_h\r\n          rz_w = math.floor(rz_h * img_aspect)\r\n        else\r\n          rz_w = half_w\r\n          rz_h = math.floor(rz_w / img_aspect)\r\n        end\r\n      else\r\n        rz_w = half_w\r\n        rz_h = half_h\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "if (img_aspect < aspect) then\r\n          rz_h = half_h\r\n          rz_w = math.floor(rz_h * img_aspect)\r\n        else\r\n          rz_w = half_w\r\n          rz_h = math.floor(rz_w / img_aspect)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "rz_h = half_h",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "rz_w = math.floor(rz_h * img_aspect)",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "rz_w = half_w",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "rz_h = math.floor(rz_w / img_aspect)",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "if (img_w ~= rz_w or img_h ~= rz_h) then\r\n        resize_image = im.ImageCreate(rz_w, rz_h, im.RGB, im.BYTE)\r\n        im.ProcessResize(images[i], resize_image, 1) -- do bilinear interpolation\r\n        images[i]:Destroy()\r\n        images[i] = resize_image\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "resize_image = im.ImageCreate(rz_w, rz_h, im.RGB, im.BYTE)",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "im.ProcessResize(images[i], resize_image, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "images[i]:Destroy()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "images[i] = resize_image",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "im.ProcessInsert(comb_image, images[i], comb_image, x[i], y[i])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function Save_Combine_Image(comb_image)\r\n  local i=0\r\n  local filename\r\n  repeat\r\n    i=i+1\r\n    local num=1000+i\r\n    numstr=string.sub(tostring(num),-3)\r\n    filename = \"..\\\\combine\"..numstr..\".jpg\"\r\n    -- check if exists\r\n    local res,msg=io.open(filename)\r\n    io.close()\r\n  until not res\r\n  print(\"Saving:\", filename)\r\n  comb_image:Save(filename, \"JPEG\")\r\n  os.execute(filename)\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "local i=0",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "local filename",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "repeat\r\n    i=i+1\r\n    local num=1000+i\r\n    numstr=string.sub(tostring(num),-3)\r\n    filename = \"..\\\\combine\"..numstr..\".jpg\"\r\n    -- check if exists\r\n    local res,msg=io.open(filename)\r\n    io.close()\r\n  until not res",
+    "type": "statement:repeat"
+  }, {
+    "id": 32,
+    "text": "i=i+1",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "local num=1000+i",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "numstr=string.sub(tostring(num),-3)",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "filename = \"..\\\\combine\"..numstr..\".jpg\"",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "local res,msg=io.open(filename)",
+    "type": "statement:localassign"
+  }, {
+    "id": 37,
+    "text": "io.close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 38,
+    "text": "print(\"Saving:\", filename)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 39,
+    "text": "comb_image:Save(filename, \"JPEG\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "os.execute(filename)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function LoadImages()\r\n  local max_w, max_h = 0, 0\r\n  for i = 1, 4 do\r\n    if (not files[i]) then\r\n      error(\"Error, must drop 4 files.\")\r\n    end\r\n    print(\"Loading:\", files[i])\r\n    images[i] = im.FileImageLoadBitmap(files[i])\r\n    if (not images[i]) then\r\n      error(\"Failed to load image: \"..files[i])\r\n    end\r\n    local img_w = images[i]:Width()\r\n    local img_h = images[i]:Height()\r\n    if (img_w < img_h) then\r\n      -- always landscape (w>h)\r\n      local rot_image = im.ImageCreate(img_h, img_w, im.RGB, im.BYTE)\r\n      im.ProcessRotate90(images[i], rot_image, true)\r\n      images[i]:Destroy()\r\n      images[i] = rot_image\r\n      local t = img_w\r\n      img_w = img_h\r\n      img_h = t\r\n    end\r\n    if (max_w < img_w) then max_w = img_w end\r\n    if (max_h < img_h) then max_h = img_h end\r\n  end  \r\n  return max_w, max_h\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "local max_w, max_h = 0, 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 44,
+    "text": "for i = 1, 4 do\r\n    if (not files[i]) then\r\n      error(\"Error, must drop 4 files.\")\r\n    end\r\n    print(\"Loading:\", files[i])\r\n    images[i] = im.FileImageLoadBitmap(files[i])\r\n    if (not images[i]) then\r\n      error(\"Failed to load image: \"..files[i])\r\n    end\r\n    local img_w = images[i]:Width()\r\n    local img_h = images[i]:Height()\r\n    if (img_w < img_h) then\r\n      -- always landscape (w>h)\r\n      local rot_image = im.ImageCreate(img_h, img_w, im.RGB, im.BYTE)\r\n      im.ProcessRotate90(images[i], rot_image, true)\r\n      images[i]:Destroy()\r\n      images[i] = rot_image\r\n      local t = img_w\r\n      img_w = img_h\r\n      img_h = t\r\n    end\r\n    if (max_w < img_w) then max_w = img_w end\r\n    if (max_h < img_h) then max_h = img_h end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 45,
+    "text": "if (not files[i]) then\r\n      error(\"Error, must drop 4 files.\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 46,
+    "text": "error(\"Error, must drop 4 files.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 47,
+    "text": "print(\"Loading:\", files[i])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 48,
+    "text": "images[i] = im.FileImageLoadBitmap(files[i])",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "if (not images[i]) then\r\n      error(\"Failed to load image: \"..files[i])\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 50,
+    "text": "error(\"Failed to load image: \"..files[i])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 51,
+    "text": "if (img_w < img_h) then\r\n      -- always landscape (w>h)\r\n      local rot_image = im.ImageCreate(img_h, img_w, im.RGB, im.BYTE)\r\n      im.ProcessRotate90(images[i], rot_image, true)\r\n      images[i]:Destroy()\r\n      images[i] = rot_image\r\n      local t = img_w\r\n      img_w = img_h\r\n      img_h = t\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 52,
+    "text": "local rot_image = im.ImageCreate(img_h, img_w, im.RGB, im.BYTE)",
+    "type": "statement:localassign"
+  }, {
+    "id": 53,
+    "text": "im.ProcessRotate90(images[i], rot_image, true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 54,
+    "text": "images[i] = rot_image",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "local t = img_w",
+    "type": "statement:localassign"
+  }, {
+    "id": 56,
+    "text": "img_w = img_h",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "img_h = t",
+    "type": "statement:assign"
+  }, {
+    "id": 58,
+    "text": "if (max_w < img_w) then max_w = img_w end",
+    "type": "statement:if"
+  }, {
+    "id": 59,
+    "text": "max_w = img_w",
+    "type": "statement:assign"
+  }, {
+    "id": 60,
+    "text": "if (max_h < img_h) then max_h = img_h end",
+    "type": "statement:if"
+  }, {
+    "id": 61,
+    "text": "max_h = img_h",
+    "type": "statement:assign"
+  }, {
+    "id": 62,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 64,
+    "text": "function ReleaseAll(comb_image)\r\n  comb_image:Destroy()\r\n  for i = 1, 4 do\r\n    images[i]:Destroy()\r\n    images[i] = nil\r\n    files[i] = nil\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 65,
+    "text": "comb_image:Destroy()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 66,
+    "text": "for i = 1, 4 do\r\n    images[i]:Destroy()\r\n    images[i] = nil\r\n    files[i] = nil\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 67,
+    "text": "images[i] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "files[i] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 70,
+    "text": "function dlg:dropfiles_cb(filename, num)\r\n  files[num+1] = filename\r\n  if (num == 0) then\r\n    local max_w, max_h = LoadImages()\r\n    local w, h = 2*max_w+offset, 2*max_h+offset\r\n    \r\n    if (w/h ~= aspect) then\r\n      if (w/h < aspect) then\r\n        w = h * aspect\r\n      else\r\n        h = w / aspect\r\n      end\r\n    end\r\n    \r\n    print(\"Combining...\")\r\n    local comb_image = im.ImageCreate(w, h, im.RGB, im.BYTE)\r\n    -- white background\r\n    im.ProcessRenderConstant(comb_image, {255, 255, 255})\r\n    CombineImages(comb_image)\r\n    \r\n    Save_Combine_Image(comb_image)\r\n    \r\n    ReleaseAll(comb_image)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 71,
+    "text": "files[num+1] = filename",
+    "type": "statement:assign"
+  }, {
+    "id": 72,
+    "text": "if (num == 0) then\r\n    local max_w, max_h = LoadImages()\r\n    local w, h = 2*max_w+offset, 2*max_h+offset\r\n    \r\n    if (w/h ~= aspect) then\r\n      if (w/h < aspect) then\r\n        w = h * aspect\r\n      else\r\n        h = w / aspect\r\n      end\r\n    end\r\n    \r\n    print(\"Combining...\")\r\n    local comb_image = im.ImageCreate(w, h, im.RGB, im.BYTE)\r\n    -- white background\r\n    im.ProcessRenderConstant(comb_image, {255, 255, 255})\r\n    CombineImages(comb_image)\r\n    \r\n    Save_Combine_Image(comb_image)\r\n    \r\n    ReleaseAll(comb_image)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 73,
+    "text": "local max_w, max_h = LoadImages()",
+    "type": "statement:localassign"
+  }, {
+    "id": 74,
+    "text": "local w, h = 2*max_w+offset, 2*max_h+offset",
+    "type": "statement:localassign"
+  }, {
+    "id": 75,
+    "text": "if (w/h ~= aspect) then\r\n      if (w/h < aspect) then\r\n        w = h * aspect\r\n      else\r\n        h = w / aspect\r\n      end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 76,
+    "text": "if (w/h < aspect) then\r\n        w = h * aspect\r\n      else\r\n        h = w / aspect\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 77,
+    "text": "w = h * aspect",
+    "type": "statement:assign"
+  }, {
+    "id": 78,
+    "text": "h = w / aspect",
+    "type": "statement:assign"
+  }, {
+    "id": 79,
+    "text": "print(\"Combining...\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 80,
+    "text": "local comb_image = im.ImageCreate(w, h, im.RGB, im.BYTE)",
+    "type": "statement:localassign"
+  }, {
+    "id": 81,
+    "text": "im.ProcessRenderConstant(comb_image, {255, 255, 255})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 82,
+    "text": "CombineImages(comb_image)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 83,
+    "text": "Save_Combine_Image(comb_image)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 84,
+    "text": "ReleaseAll(comb_image)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 87,
+    "text": "close",
+    "type": "global function"
+  }, {
+    "id": 88,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 89,
+    "text": "dialog",
+    "type": "global function"
+  }, {
+    "id": 90,
+    "text": "MainLoop",
+    "type": "global function"
+  }, {
+    "id": 91,
+    "text": "ImageCreate",
+    "type": "global function"
+  }, {
+    "id": 92,
+    "text": "floor",
+    "type": "global function"
+  }, {
+    "id": 93,
+    "text": "ProcessInsert",
+    "type": "global function"
+  }, {
+    "id": 94,
+    "text": "ProcessResize",
+    "type": "global function"
+  }, {
+    "id": 95,
+    "text": "execute",
+    "type": "global function"
+  }, {
+    "id": 96,
+    "text": "FileImageLoadBitmap",
+    "type": "global function"
+  }, {
+    "id": 97,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 98,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 99,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 100,
+    "text": "label",
+    "type": "global function"
+  }, {
+    "id": 101,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 102,
+    "text": "ProcessRenderConstant",
+    "type": "global function"
+  }, {
+    "id": 103,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "ProcessRotate90",
+    "type": "global function"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 116,
+    "text": "iuplua",
+    "type": "module"
+  } ]
+}

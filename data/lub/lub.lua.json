@@ -1,0 +1,317 @@
+{
+  "_filename": "lub.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lub/lub.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 30,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 31,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 35,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lub",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "BFS",
+    "type": "global function"
+  }, {
+    "id": 4,
+    "text": "shellQuote",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "deepMerge",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "Template",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "makePath",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "traceRequire",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "split",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "copy",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "fileType",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "strip",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "content",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "writeall",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "rmTree",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "log",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "rmFile",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "search",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "deprecation",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "absolutizePath",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "IDDFS",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "class",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "Dir",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "path",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "move",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "merge",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "absToRel",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "insertSorted",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

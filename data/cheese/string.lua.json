@@ -1,0 +1,1485 @@
+{
+  "_filename": "string.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/cheese/test/files/string.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 76,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 92,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 100,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 105,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 105,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 107,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 109,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 105,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 130
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 80,
+    "label": "calls",
+    "to": 129
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 126
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 91,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 112
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 112
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 125
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 117
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 117
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 117
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 117
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 117
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 117
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 117
+  }, {
+    "from": 91,
+    "label": "calls",
+    "to": 117
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 127
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 127
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 131
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 123
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 136
+  }, {
+    "from": 70,
+    "label": "calls",
+    "to": 118
+  }, {
+    "from": 91,
+    "label": "calls",
+    "to": 118
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 134
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 134
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 134
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 119
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 121
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 80,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 80,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 99,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 103,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 135
+  }, {
+    "from": 91,
+    "label": "calls",
+    "to": 135
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 132
+  }, {
+    "from": 91,
+    "label": "calls",
+    "to": 132
+  }, {
+    "from": 91,
+    "label": "calls",
+    "to": 116
+  }, {
+    "from": 91,
+    "label": "calls",
+    "to": 116
+  }, {
+    "from": 105,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 65,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 55
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 65
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 68
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 70
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 80
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 91
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 99
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 103
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 105
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 107
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 109
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 114
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 117
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 120
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 124
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 128
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 130
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 133
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 134
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 136
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 137
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 138
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 139
+  }, {
+    "from": 140,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 141
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 142
+  }, {
+    "from": 141,
+    "label": "initializes",
+    "to": 143
+  }, {
+    "from": 143,
+    "label": "assigns",
+    "to": 144
+  }, {
+    "from": 142,
+    "label": "initializes",
+    "to": 145
+  }, {
+    "from": 145,
+    "label": "requires",
+    "to": 122
+  }, {
+    "from": 146,
+    "label": "initializes",
+    "to": 145
+  }, {
+    "from": 145,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 146,
+    "label": "initializes",
+    "to": 145
+  }, {
+    "from": 145,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 148,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 147,
+    "label": "initializes",
+    "to": 145
+  }, {
+    "from": 145,
+    "label": "requires",
+    "to": 149
+  }, {
+    "from": 150,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "file",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "string",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function count(str, char)\r\n      local c = 0\r\n      local byte = string.byte\r\n      for i = 1, #str do\r\n      \t  if byte(str, i) == char then c = c + 1 end\r\n      end\r\n      return c\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function new(str)\r\n  return { str = str, position = 1, line = 1, getc = getc,\r\n\t   backtrack = backtrack, gets = gets, state = state, \r\n           log_error = log_error, errors = {} }\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function log_error(strm, err)\r\n  local err_data\r\n  if type(err) == \"table\" then\r\n    local position, line = err.state[1], err.state[2]\r\n    err_data = { msg = err.msg, position = position, line = line }\r\n  else\r\n    err_data = { msg = err, position = strm.position, line = strm.line }\r\n  end\r\n  table.insert(strm.errors, err_data)\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function getc(strm)\r\n\t local current = strm.position\r\n\t if current > string.len(strm.str) then\r\n\t    return error(\"end of stream\")\r\n\t else\r\n\t    local c = string.sub(strm.str, current, current)\r\n\t    strm.position = current + 1\r\n\t    if c == \"\\n\" then strm.line = strm.line + 1 end\r\n\t    return c\r\n\t end\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function gets(strm, l)\r\n\t local start, finish = strm.position, strm.position + l - 1\r\n\t if finish > string.len(strm.str) then\r\n\t    return error(\"end of stream\")\r\n\t else\r\n\t    strm.position = finish + 1\r\n\t    local s = string.sub(strm.str, start, finish)\r\n\t    strm.line = strm.line + count(s, string.byte(\"\\n\"))\r\n\t    return s\r\n\t end\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function state(strm)\r\n  return { strm.position, strm.line }\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function backtrack(strm, st)\r\n  strm.position = st[1]\r\n  strm.line = st[2]\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "function string.concat (...)\r\n  return table.concat (arg)\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function string.caps (s)\r\n  return (string.gsub (s, \"(%w)([%w]*)\",\r\n                       function (l, ls)\r\n                         return string.upper (l) .. ls\r\n                       end))\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function string.chomp (s)\r\n  return (string.gsub (s, \"\\n$\", \"\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function string.escapePattern (s)\r\n  return (string.gsub (s, \"(%W)\", \"%%%1\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function string.escapeShell (s)\r\n  return (string.gsub (s, \"([ %(%)%\\\\%[%]\\\"'])\", \"\\\\%1\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function string.ordinalSuffix (n)\r\n  n = math.mod (n, 100)\r\n  local d = math.mod (n, 10)\r\n  if d == 1 and n ~= 11 then\r\n    return \"st\"\r\n  elseif d == 2 and n ~= 12 then\r\n    return \"nd\"\r\n  elseif d == 3 and n ~= 13 then\r\n    return \"rd\"\r\n  else\r\n    return \"th\"\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "n = math.mod (n, 100)",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "local d = math.mod (n, 10)",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "if d == 1 and n ~= 11 then\r\n    return \"st\"\r\n  elseif d == 2 and n ~= 12 then\r\n    return \"nd\"\r\n  elseif d == 3 and n ~= 13 then\r\n    return \"rd\"\r\n  else\r\n    return \"th\"\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function string.lcs (a, b)\r\n  return lcs.longestCommonSubseq (a, b,\r\n                                  function (s, i)\r\n                                    return string.sub (s, i, i)\r\n                                  end,\r\n                                  string.len, string.concat, \"\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "function string.format (f, ...)\r\n  if table.getn (arg) == 0 then\r\n    return f\r\n  else\r\n    return _format (f, unpack (arg))\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "if table.getn (arg) == 0 then\r\n    return f\r\n  else\r\n    return _format (f, unpack (arg))\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function string.pad (s, w, p)\r\n  p = string.rep (p or \" \", abs (w))\r\n  if w < 0 then\r\n    return string.sub (p .. s, -w)\r\n  end\r\n  return string.sub (s .. p, 1, w)\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "p = string.rep (p or \" \", abs (w))",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "if w < 0 then\r\n    return string.sub (p .. s, -w)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "function string.wrap (s, w, ind, ind1)\r\n  w = w or 78\r\n  ind = ind or 0\r\n  ind1 = ind1 or ind\r\n  assert (ind1 < w and ind < w,\r\n          \"the indents must be less than the line width\")\r\n  s = string.rep (\" \", ind1) .. s\r\n  local lstart, len = 1, string.len (s)\r\n  while len - lstart > w - ind do\r\n    local i = lstart + w - ind\r\n    while i > lstart and string.sub (s, i, i) ~= \" \" do\r\n      i = i - 1\r\n    end\r\n    local j = i\r\n    while j > lstart and string.sub (s, j, j) == \" \" do\r\n      j = j - 1\r\n    end\r\n    s = string.sub (s, 1, j) .. \"\\n\" .. string.rep (\" \", ind) ..\r\n      string.sub (s, i + 1, -1)\r\n    local change = ind + 1 - (i - j)\r\n    lstart = j + change\r\n    len = len + change\r\n  end\r\n  return s\r\nend",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "w = w or 78",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "ind = ind or 0",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "ind1 = ind1 or ind",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "assert (ind1 < w and ind < w,\r\n          \"the indents must be less than the line width\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "s = string.rep (\" \", ind1) .. s",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "local lstart, len = 1, string.len (s)",
+    "type": "statement:localassign"
+  }, {
+    "id": 43,
+    "text": "while len - lstart > w - ind do\r\n    local i = lstart + w - ind\r\n    while i > lstart and string.sub (s, i, i) ~= \" \" do\r\n      i = i - 1\r\n    end\r\n    local j = i\r\n    while j > lstart and string.sub (s, j, j) == \" \" do\r\n      j = j - 1\r\n    end\r\n    s = string.sub (s, 1, j) .. \"\\n\" .. string.rep (\" \", ind) ..\r\n      string.sub (s, i + 1, -1)\r\n    local change = ind + 1 - (i - j)\r\n    lstart = j + change\r\n    len = len + change\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 44,
+    "text": "local i = lstart + w - ind",
+    "type": "statement:localassign"
+  }, {
+    "id": 45,
+    "text": "while i > lstart and string.sub (s, i, i) ~= \" \" do\r\n      i = i - 1\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 46,
+    "text": "i = i - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 47,
+    "text": "local j = i",
+    "type": "statement:localassign"
+  }, {
+    "id": 48,
+    "text": "while j > lstart and string.sub (s, j, j) == \" \" do\r\n      j = j - 1\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 49,
+    "text": "j = j - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 50,
+    "text": "s = string.sub (s, 1, j) .. \"\\n\" .. string.rep (\" \", ind) ..\r\n      string.sub (s, i + 1, -1)",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "local change = ind + 1 - (i - j)",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "lstart = j + change",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "len = len + change",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 55,
+    "text": "function string.numbertosi (n)\r\n  local SIprefix = {\r\n    [-8] = \"y\", [-7] = \"z\", [-6] = \"a\", [-5] = \"f\",\r\n    [-4] = \"p\", [-3] = \"n\", [-2] = \"mu\", [-1] = \"m\",\r\n    [0] = \"\", [1] = \"k\", [2] = \"M\", [3] = \"G\",\r\n    [4] = \"T\", [5] = \"P\", [6] = \"E\", [7] = \"Z\",\r\n    [8] = \"Y\"\r\n  }\r\n  local t = string.format(\"% #.2e\", n)\r\n  local _, _, m, e = t:find(\".(.%...)e(.+)\")\r\n  local man, exp = tonumber (m), tonumber (e)\r\n  local siexp = math.floor (exp / 3)\r\n  local shift = exp - siexp * 3\r\n  local s = SIprefix[siexp] or \"e\" .. tostring (siexp)\r\n  man = man * (10 ^ shift)\r\n  return tostring (man) .. s\r\nend",
+    "type": "function"
+  }, {
+    "id": 56,
+    "text": "local SIprefix = {\r\n    [-8] = \"y\", [-7] = \"z\", [-6] = \"a\", [-5] = \"f\",\r\n    [-4] = \"p\", [-3] = \"n\", [-2] = \"mu\", [-1] = \"m\",\r\n    [0] = \"\", [1] = \"k\", [2] = \"M\", [3] = \"G\",\r\n    [4] = \"T\", [5] = \"P\", [6] = \"E\", [7] = \"Z\",\r\n    [8] = \"Y\"\r\n  }",
+    "type": "statement:localassign"
+  }, {
+    "id": 57,
+    "text": "local t = string.format(\"% #.2e\", n)",
+    "type": "statement:localassign"
+  }, {
+    "id": 58,
+    "text": "local _, _, m, e = t:find(\".(.%...)e(.+)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 59,
+    "text": "local man, exp = tonumber (m), tonumber (e)",
+    "type": "statement:localassign"
+  }, {
+    "id": 60,
+    "text": "local siexp = math.floor (exp / 3)",
+    "type": "statement:localassign"
+  }, {
+    "id": 61,
+    "text": "local shift = exp - siexp * 3",
+    "type": "statement:localassign"
+  }, {
+    "id": 62,
+    "text": "local s = SIprefix[siexp] or \"e\" .. tostring (siexp)",
+    "type": "statement:localassign"
+  }, {
+    "id": 63,
+    "text": "man = man * (10 ^ shift)",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 65,
+    "text": "function string.findl (s, p, init, plain)\r\n  local function pack (from, to, ...)\r\n    return from, to, {...}\r\n  end\r\n  return pack (s:find (p, init, plain))\r\nend",
+    "type": "function"
+  }, {
+    "id": 66,
+    "text": "local function pack (from, to, ...)\r\n    return from, to, {...}\r\n  end",
+    "type": "statement:localfunction"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 68,
+    "text": "local function pack (from, to, ...)\r\n    return from, to, {...}\r\n  end",
+    "type": "function"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 70,
+    "text": "function string.finds (s, p, init, plain)\r\n  init = init or 1\r\n  local t = {}\r\n  local from, to, r\r\n  repeat\r\n    from, to, r = string.findl (s, p, init, plain)\r\n    if from ~= nil then\r\n      table.insert (t, {from, to, capt = r})\r\n      init = to + 1\r\n    end\r\n  until not from\r\n  return t\r\nend",
+    "type": "function"
+  }, {
+    "id": 71,
+    "text": "init = init or 1",
+    "type": "statement:assign"
+  }, {
+    "id": 72,
+    "text": "local t = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 73,
+    "text": "local from, to, r",
+    "type": "statement:localassign"
+  }, {
+    "id": 74,
+    "text": "repeat\r\n    from, to, r = string.findl (s, p, init, plain)\r\n    if from ~= nil then\r\n      table.insert (t, {from, to, capt = r})\r\n      init = to + 1\r\n    end\r\n  until not from",
+    "type": "statement:repeat"
+  }, {
+    "id": 75,
+    "text": "from, to, r = string.findl (s, p, init, plain)",
+    "type": "statement:assign"
+  }, {
+    "id": 76,
+    "text": "if from ~= nil then\r\n      table.insert (t, {from, to, capt = r})\r\n      init = to + 1\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 77,
+    "text": "table.insert (t, {from, to, capt = r})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 78,
+    "text": "init = to + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 80,
+    "text": "function string.gsubs (s, sub, n)\r\n  local r = 0\r\n  for i, v in pairs (sub) do\r\n    local rep\r\n    if n ~= nil then\r\n      s, rep = string.gsub (s, i, v, n)\r\n      r = r + rep\r\n      n = n - rep\r\n      if n == 0 then\r\n        break\r\n      end\r\n    else\r\n      s, rep = string.gsub (s, i, v)\r\n      r = r + rep\r\n    end\r\n  end\r\n  return s, r\r\nend",
+    "type": "function"
+  }, {
+    "id": 81,
+    "text": "local r = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 82,
+    "text": "for i, v in pairs (sub) do\r\n    local rep\r\n    if n ~= nil then\r\n      s, rep = string.gsub (s, i, v, n)\r\n      r = r + rep\r\n      n = n - rep\r\n      if n == 0 then\r\n        break\r\n      end\r\n    else\r\n      s, rep = string.gsub (s, i, v)\r\n      r = r + rep\r\n    end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 83,
+    "text": "local rep",
+    "type": "statement:localassign"
+  }, {
+    "id": 84,
+    "text": "if n ~= nil then\r\n      s, rep = string.gsub (s, i, v, n)\r\n      r = r + rep\r\n      n = n - rep\r\n      if n == 0 then\r\n        break\r\n      end\r\n    else\r\n      s, rep = string.gsub (s, i, v)\r\n      r = r + rep\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 85,
+    "text": "s, rep = string.gsub (s, i, v, n)",
+    "type": "statement:assign"
+  }, {
+    "id": 86,
+    "text": "r = r + rep",
+    "type": "statement:assign"
+  }, {
+    "id": 87,
+    "text": "n = n - rep",
+    "type": "statement:assign"
+  }, {
+    "id": 88,
+    "text": "if n == 0 then\r\n        break\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 89,
+    "text": "s, rep = string.gsub (s, i, v)",
+    "type": "statement:assign"
+  }, {
+    "id": 90,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 91,
+    "text": "function string.split (sep, s)\r\n  if s == nil then\r\n    s, sep = sep, \"%s+\" -- TODO: make the default pattern configurable by the regex library\r\n  end\r\n  -- string.finds gets a list of {from, to, capt = {}} lists; we then\r\n  -- flatten the result, discarding the captures, add 0 (1 before the\r\n  -- first character) to the start and 0 (1 after the last character)\r\n  -- to the end, and flatten the result again.\r\n  local pairs = list.concat ({0}, list.concat (unpack (string.finds(s, sep))), {0})\r\n  local l = {}\r\n  for i = 1, table.getn (pairs), 2 do\r\n    table.insert (l, string.sub (s, pairs[i] + 1, pairs[i + 1] - 1))\r\n  end\r\n  return l\r\nend",
+    "type": "function"
+  }, {
+    "id": 92,
+    "text": "if s == nil then\r\n    s, sep = sep, \"%s+\" -- TODO: make the default pattern configurable by the regex library\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 93,
+    "text": "s, sep = sep, \"%s+\"",
+    "type": "statement:assign"
+  }, {
+    "id": 94,
+    "text": "local pairs = list.concat ({0}, list.concat (unpack (string.finds(s, sep))), {0})",
+    "type": "statement:localassign"
+  }, {
+    "id": 95,
+    "text": "local l = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 96,
+    "text": "for i = 1, table.getn (pairs), 2 do\r\n    table.insert (l, string.sub (s, pairs[i] + 1, pairs[i + 1] - 1))\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 97,
+    "text": "table.insert (l, string.sub (s, pairs[i] + 1, pairs[i + 1] - 1))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 99,
+    "text": "function string.ltrim (r, s)\r\n  if s == nil then\r\n    s, r = r, \"%s+\"\r\n  end\r\n  return (string.gsub (s, \"^\" .. r, \"\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 100,
+    "text": "if s == nil then\r\n    s, r = r, \"%s+\"\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 101,
+    "text": "s, r = r, \"%s+\"",
+    "type": "statement:assign"
+  }, {
+    "id": 102,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 103,
+    "text": "function string.rtrim (r, s)\r\n  if s == nil then\r\n    s, r = r, \"%s+\"\r\n  end\r\n  return (string.gsub (s, r .. \"$\", \"\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 104,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 105,
+    "text": "function string.trim (r, s)\r\n  return string.ltrim (string.rtrim (r, s))\r\nend",
+    "type": "function"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 107,
+    "text": "function (l, ls)\r\n                         return string.upper (l) .. ls\r\n                       end",
+    "type": "function"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 109,
+    "text": "function (s, i)\r\n                                    return string.sub (s, i, i)\r\n                                  end",
+    "type": "function"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 111,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 112,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 113,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 114,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 115,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 116,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 117,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 118,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 119,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 120,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 121,
+    "text": "abs",
+    "type": "global function"
+  }, {
+    "id": 122,
+    "text": "lcs",
+    "type": "module"
+  }, {
+    "id": 123,
+    "text": "longestCommonSubseq",
+    "type": "global function"
+  }, {
+    "id": 124,
+    "text": "byte",
+    "type": "global function"
+  }, {
+    "id": 125,
+    "text": "_format",
+    "type": "global function"
+  }, {
+    "id": 126,
+    "text": "floor",
+    "type": "global function"
+  }, {
+    "id": 127,
+    "text": "mod",
+    "type": "global function"
+  }, {
+    "id": 128,
+    "text": "dump",
+    "type": "global function"
+  }, {
+    "id": 129,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 130,
+    "text": "upper",
+    "type": "global function"
+  }, {
+    "id": 131,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 132,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 133,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 134,
+    "text": "rep",
+    "type": "global function"
+  }, {
+    "id": 135,
+    "text": "getn",
+    "type": "global function"
+  }, {
+    "id": 136,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 137,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 138,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 139,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 140,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 141,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 142,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 143,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 144,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 145,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 146,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 147,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 148,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 149,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 150,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

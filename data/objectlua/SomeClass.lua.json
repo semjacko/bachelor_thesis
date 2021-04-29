@@ -1,0 +1,117 @@
+{
+  "_filename": "SomeClass.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/objectlua/test/SomeClass.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "initializes",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 13,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 9,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Object",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "SomeClass",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function itWorks()\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 7,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

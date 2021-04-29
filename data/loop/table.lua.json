@@ -1,0 +1,589 @@
+{
+  "_filename": "table.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/table.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 42,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 43,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 44,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 45,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 46,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 47,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 48,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 49,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 50,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 51,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 52,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 53
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 54
+  }, {
+    "from": 53,
+    "label": "initializes",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "assigns",
+    "to": 56
+  }, {
+    "from": 53,
+    "label": "initializes",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "assigns",
+    "to": 58
+  }, {
+    "from": 53,
+    "label": "initializes",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "assigns",
+    "to": 60
+  }, {
+    "from": 53,
+    "label": "initializes",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "assigns",
+    "to": 62
+  }, {
+    "from": 54,
+    "label": "initializes",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 64,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 65,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function CachedClass:__init(class)\r\n\tlocal meta = {}\r\n\tself = base.rawnew(self, {\r\n\t\t__call = new,\r\n\t\t__index = meta,\r\n\t\t__newindex = proxy_newindex,\r\n\t\tsupers = {},\r\n\t\tsubs = {},\r\n\t\tmembers = table.copy(class, {}),\r\n\t\tclass = meta,\r\n\t})\r\n\tself.proxy = setmetatable(class and table.clear(class) or {}, self)\r\n\tClassMap[self.class] = self.proxy\r\n\treturn self\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function CachedClass:updatemembers()\r\n\tlocal class = table.clear(self.class)\r\n\tfor i = #self.supers, 1, -1 do\r\n\t\tlocal super = self.supers[i].class\r\n\t\t-- copy inherited members\r\n\t\ttable.copy(super, class)\r\n\t\t-- do not copy the default __index value\r\n\t\tif rawget(class, \"__index\") == super then\r\n\t\t\trawset(class, \"__index\", nil)\r\n\t\tend\r\n\tend\r\n\t-- copy members defined in the class\r\n\ttable.copy(self.members, class)\r\n\t-- set the default __index value\r\n\tif rawget(class, \"__index\") == nil then\r\n\t\trawset(class, \"__index\", class)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "function matchtable(self, value, other)\r\n\tlocal matched, errmsg = true\r\n\tlocal keysmatched = {}\r\n\tself[value], self[other] = other, value\r\n\tfor key, field in pairs(value) do\r\n\t\tlocal otherfield = other[key]\r\n\t\tif otherfield == nil then\r\n\t\t\tmatched = false\r\n\t\t\tfor otherkey, otherfield in pairs(other) do\r\n\t\t\t\tlocal matcher = setmetatable(table.copy(self), getmetatable(self))\r\n\t\t\t\tmatcher.error = nil\r\n\t\t\t\tif\r\n\t\t\t\t\tmatcher:match(key, otherkey) and\r\n\t\t\t\t\tmatcher:match(field, otherfield)\r\n\t\t\t\tthen\r\n\t\t\t\t\ttable.copy(matcher, self)\r\n\t\t\t\t\tkeysmatched[otherkey] = true\r\n\t\t\t\t\tmatched = true\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tif not matched then\r\n\t\t\t\tself[#self+1] = key\r\n\t\t\t\terrmsg = self:error(\"no match found\")\r\n\t\t\t\tself[#self] = nil\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\telse\r\n\t\t\tself[#self+1] = key\r\n\t\t\tmatched, errmsg = self:match(field, otherfield)\r\n\t\t\tself[#self] = nil\r\n\t\t\tif matched then\r\n\t\t\t\tkeysmatched[key] = true\r\n\t\t\telse\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\tif matched and self.isomorphic then\r\n\t\tfor otherkey, otherfield in pairs(other) do\r\n\t\t\tif not keysmatched[otherkey] then\r\n\t\t\t\tself[#self+1] = otherkey\r\n\t\t\t\tmatched, errmsg = false, self:error(\"missing\")\r\n\t\t\t\tself[#self] = nil\r\n\t\t\t\tbreak\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\tif not matched then self[value], self[other] = nil, nil end\r\n\treturn matched, errmsg\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function class(class, ...)\r\n\tif select(\"#\", ...) > 1\r\n\t\tthen return base.rawnew(table.copy(MultipleClass, {...}), initclass(class))\r\n\t\telse return base.class(class, ...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 8,
+    "text": "function ScopedClass:__init(class)\r\n\tif not class then class = { public = {} } end\r\n\t\r\n\t-- adjust class definition to use scoped member tables\r\n\tif type(class.public) ~= \"table\" then\r\n\t\tif\r\n\t\t\t(type(class.protected) == \"table\")\r\n\t\t\t\tor\r\n\t\t\t(type(class.private) == \"table\")\r\n\t\tthen\r\n\t\t\tclass.public = {}\r\n\t\telse\r\n\t\t\tlocal public = table.copy(class)\r\n\t\t\ttable.clear(class)\r\n\t\t\tclass.public = public\r\n\t\tend\r\n\tend\r\n\r\n\t-- initialize scoped cached class\r\n\tself = CachedClass.__init(self, class)\r\n\tself.registry = { [self.class] = false }\r\n\r\n\t-- define scoped class proxy for public state\r\n\trawset(self.proxy, \"public\", setmetatable({}, {\r\n\t\t__call = publicproxy_call,\r\n\t\t__index = self.class,\r\n\t\t__newindex = function(_, field, value)\r\n\t\t\tself:updatefield(field, value, \"public\")\r\n\t\tend,\r\n\t}))\r\n\r\n\treturn self\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function ScopedClass:updatemembers()\r\n\t--\r\n\t-- metatables to collect with current members\r\n\t--\r\n\tlocal public = table.clear(self.class)\r\n\tlocal protected\r\n\tlocal private\r\n\t\r\n\t--\r\n\t-- copy inherited members\r\n\t--\r\n\tlocal publicindex, publicnewindex\r\n\tlocal protectedindex, protectednewindex\r\n\tlocal superclasses = self.supers\r\n\tfor i = #superclasses, 1, -1 do\r\n\t\tlocal super = superclasses[i]\r\n\r\n\t\t-- copy members from superclass metatables\r\n\t\tpublic = table.copy(super.class, public)\r\n\r\n\t\tif base.instanceof(super, ScopedClass) then\r\n\t\t\t-- copy protected members from superclass metatables\r\n\t\t\tprotected = table.copy(super:getmeta(\"protected\"), protected)\r\n\r\n\t\t\t-- extract the __index and __newindex values\r\n\t\t\tpublicindex    = unwrap(public, \"index\")    or publicindex\r\n\t\t\tpublicnewindex = unwrap(public, \"newindex\") or publicnewindex\r\n\t\t\tif protected then\r\n\t\t\t\tprotectedindex    = unwrap(protected, \"index\")    or protectedindex\r\n\t\t\t\tprotectednewindex = unwrap(protected, \"newindex\") or protectednewindex\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\tpublic.__index    = publicindex\r\n\tpublic.__newindex = publicnewindex\r\n\tif protected then\r\n\t\tprotected.__index    = protectedindex\r\n\t\tprotected.__newindex = protectednewindex\r\n\tend\r\n\r\n\t--\r\n\t-- copy members defined in the class\r\n\t--\r\n\tpublic    = copymembers(self, self.members.public,    public)\r\n\tprotected = copymembers(self, self.members.protected, protected)\r\n\tprivate   = copymembers(self, self.members.private,   private)\r\n\r\n\t--\r\n\t-- setup public metatable with proper indexers\r\n\t--\r\n\tpublic.__index = createindexer(self, \"public\", \"index\")\r\n\tpublic.__newindex = createindexer(self, \"public\", \"newindex\")\r\n\t\r\n\t--\r\n\t-- setup proper protected state features: pool, proxy and indexers\r\n\t--\r\n\tif protected then\r\n\t\tif not self.protected then\r\n\t\t\t-- create state object pool and class proxy for protected state\r\n\t\t\tself.protected = ProtectedPool(protected)\r\n\t\t\trawset(self.proxy, \"protected\", setmetatable({}, {\r\n\t\t\t\t__call = protectedproxy_call,\r\n\t\t\t\t__index = protected,\r\n\t\t\t\t__newindex = function(_, field, value)\r\n\t\t\t\t\tself:updatefield(field, value, \"protected\")\r\n\t\t\t\tend,\r\n\t\t\t}))\r\n\t\t\t-- register new pool in superclasses\r\n\t\t\tlocal protected_pool = self.protected\r\n\t\t\tfor super in hierarchyof(self) do\r\n\t\t\t\tlocal registry = super.registry\r\n\t\t\t\tif registry then\r\n\t\t\t\t\tregistry[public] = protected_pool\r\n\t\t\t\t\tregistry[protected] = false\r\n\t\r\n\t\t\t\t\tlocal pool = super.private\r\n\t\t\t\t\tif pool then\r\n\t\t\t\t\t\tsuper[public] = pool\r\n\t\t\t\t\t\tsuper[protected] = pool\r\n\t\t\t\t\telse\r\n\t\t\t\t\t\tsuper[public] = protected_pool\r\n\t\t\t\t\tend\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\telse\r\n\t\t\t-- update current metatable with new members\r\n\t\t\tprotected = table.copy(protected, table.clear(self.protected.class))\r\n\t\tend\r\n\r\n\t\t-- setup metatable with proper indexers\r\n\t\tprotected.__index = createindexer(self, \"protected\", \"index\")\r\n\t\tprotected.__newindex = createindexer(self, \"protected\", \"newindex\")\r\n\r\n\telseif self.protected then\r\n\t\t-- remove old pool from registry in superclasses\r\n\t\tlocal protected_pool = self.protected\r\n\t\tfor super in hierarchyof(self) do\r\n\t\t\tlocal registry = super.registry\r\n\t\t\tif registry then\r\n\t\t\t\tregistry[public] = false\r\n\t\t\t\tregistry[protected_pool.class] = nil\r\n\t\r\n\t\t\t\tsuper[public] = super.private\r\n\t\t\t\tsuper[protected_pool.class] = nil\r\n\t\t\tend\r\n\t\tend\r\n\t\t-- remove state object pool and class proxy for protected state\r\n\t\tself.protected = nil\r\n\t\trawset(self.proxy, \"protected\", nil)\r\n\tend\r\n\t\r\n\t--\r\n\t-- setup proper private state features: pool, proxy and indexers\r\n\t--\r\n\tif private then\r\n\t\tif not self.private then\r\n\t\t\t-- create state object pool and class proxy for private state\r\n\t\t\tself.private = PrivatePool(private)\r\n\t\t\trawset(self.proxy, \"private\", setmetatable({}, {\r\n\t\t\t\t__call = privateproxy_call,\r\n\t\t\t\t__index = private,\r\n\t\t\t\t__newindex = function(_, field, value)\r\n\t\t\t\t\tself:updatefield(field, value, \"private\")\r\n\t\t\t\tend\r\n\t\t\t}))\r\n\t\t\t-- registry new pool in superclasses\r\n\t\t\tlocal private_pool = self.private\r\n\t\t\tlocal pool = self.protected or Object\r\n\t\t\tfor _, super in ipairs(superclasses) do\r\n\t\t\t\tfor class in hierarchyof(super) do\r\n\t\t\t\t\tlocal registry = class.registry\r\n\t\t\t\t\tif registry then -- if class is a scoped class\r\n\t\t\t\t\t\tregistry[private] = pool\r\n\t\t\t\t\t\tclass[private] = class.private_pool or pool\r\n\t\t\t\t\tend\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\t\tfor meta in pairs(self.registry) do\r\n\t\t\t\tself[meta] = private_pool\r\n\t\t\tend\r\n\t\telse\r\n\t\t\t-- update current metatable with new members\r\n\t\t\tprivate = table.copy(private, table.clear(self:getmeta(\"private\")))\r\n\t\tend\r\n\r\n\t\t-- setup metatable with proper indexers\r\n\t\tprivate.__index = createindexer(self, \"private\", \"index\")\r\n\t\tprivate.__newindex = createindexer(self, \"private\", \"newindex\")\r\n\r\n\telseif self.private then\r\n\t\t-- remove old pool from registry in superclasses\r\n\t\tlocal private_pool = self.private\r\n\t\tfor _, super in ipairs(superclasses) do\r\n\t\t\tfor class in hierarchyof(super) do\r\n\t\t\t\tlocal registry = class.registry\r\n\t\t\t\tif registry then -- if class is a scoped class\r\n\t\t\t\t\tregistry[private_pool.class] = nil\r\n\t\t\t\t\tclass[private_pool.class] = nil\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\tfor meta, pool in pairs(self.registry) do\r\n\t\t\tself[meta] = pool or nil\r\n\t\tend\r\n\t\t-- remove state object pool and class proxy for private state\r\n\t\tself.private = nil\r\n\t\trawset(self.proxy, \"private\", nil)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "function Incomplete:__load(contents, metatable)\r\n\ttable.copy(contents, self)\r\n\treturn setmetatable(self, metatable)\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "function copy(source, destiny)\r\n\tif source then\r\n\t\tif not destiny then destiny = {} end\r\n\t\tfor field, value in pairs(source) do\r\n\t\t\trawset(destiny, field, value)\r\n\t\tend\r\n\tend\r\n\treturn destiny\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "if source then\r\n\t\tif not destiny then destiny = {} end\r\n\t\tfor field, value in pairs(source) do\r\n\t\t\trawset(destiny, field, value)\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "if not destiny then destiny = {} end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "destiny = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "for field, value in pairs(source) do\r\n\t\t\trawset(destiny, field, value)\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 18,
+    "text": "rawset(destiny, field, value)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function clear(tab)\r\n\tlocal elem = next(tab)\r\n\twhile elem ~= nil do\r\n\t\ttab[elem] = nil\r\n\t\telem = next(tab)\r\n\tend\r\n\treturn tab\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "local elem = next(tab)",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "while elem ~= nil do\r\n\t\ttab[elem] = nil\r\n\t\telem = next(tab)\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 24,
+    "text": "tab[elem] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "elem = next(tab)",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 28,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "sort",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "next",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "rawset",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

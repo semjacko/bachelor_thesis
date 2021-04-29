@@ -1,0 +1,797 @@
+{
+  "_filename": "poller.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lzmq-ffi/src/lua/lzmq/poller.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 57,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 57,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 39
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 54
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 57
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 59
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 66
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 67
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "provides",
+    "to": 69
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 72
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 73
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "assigns",
+    "to": 75
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 76
+  }, {
+    "from": 76,
+    "label": "assigns",
+    "to": 77
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 78
+  }, {
+    "from": 78,
+    "label": "assigns",
+    "to": 79
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "assigns",
+    "to": 81
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 82
+  }, {
+    "from": 82,
+    "label": "assigns",
+    "to": 83
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "assigns",
+    "to": 85
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "assigns",
+    "to": 87
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 89
+  }, {
+    "from": 70,
+    "label": "represents",
+    "to": 90
+  }, {
+    "from": 89,
+    "label": "provides",
+    "to": 90
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 71,
+    "label": "contains",
+    "to": 57
+  }, {
+    "from": 84,
+    "label": "contains",
+    "to": 57
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lzmq",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "poller",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "function M.new(p, ...)\r\n  if p == M then return zmq_loop:new(...) end\r\n  return zmq_loop:new(p, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function M.set_bootstrap_prelude (code)\r\n\tprelude = code .. zthreads_prelude\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function M.runfile(ctx, file, ...)\r\n\tif ctx then ctx = ctx:lightuserdata() end\r\n\treturn Threads.runfile_ex(prelude, file, ctx, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function M.runstring(ctx, code, ...)\r\n\tif ctx then ctx = ctx:lightuserdata() end\r\n\treturn Threads.runstring_ex(prelude, code, ctx, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function M.run(ctx, code, ...)\r\n\tif string.sub(code, 1, 1) == '@' then\r\n\t\treturn M.runfile(ctx, string.sub(code, 2), ...)\r\n\tend\r\n\treturn M.runstring(ctx, code, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function M.forkstring(ctx, code, ...)\r\n\tlocal pipe, endpoint = make_pipe(ctx)\r\n\tif not pipe then return nil, endpoint end\r\n\tctx = ctx:lightuserdata()\r\n\tlocal ok, err = Threads.runstring_ex(prelude .. fork_prelude, code, ctx, endpoint, ...)\r\n\tif not ok then\r\n\t\tpipe:close()\r\n\t\treturn nil, err\r\n\tend\r\n\treturn ok, pipe\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function M.forkfile(ctx, file, ...)\r\n\tlocal pipe, endpoint = make_pipe(ctx)\r\n\tif not pipe then return nil, endpoint end\r\n\tctx = ctx:lightuserdata()\r\n\tlocal ok, err = Threads.runfile_ex(prelude .. fork_prelude, file, ctx, endpoint, ...)\r\n\tif not ok then\r\n\t\tpipe:close()\r\n\t\treturn nil, err\r\n\tend\r\n\treturn ok, pipe\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function M.fork(ctx, code, ...)\r\n\tif string.sub(code, 1, 1) == '@' then\r\n\t\treturn M.forkfile(ctx, string.sub(code, 2), ...)\r\n\tend\r\n\treturn M.forkstring(ctx, code, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function M.set_parent_ctx(ctx)\r\n\tparent_ctx = ctx\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function M.get_parent_ctx(ctx)\r\n\treturn parent_ctx\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function (code)\r\n\tbootstrap_code = bootstrap_pre .. code .. bootstrap_post\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function (file, ...)\r\n\treturn new_thread(bootstrap_code, 'runfile', file, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function (code, ...)\r\n\treturn new_thread(bootstrap_code, 'runstring', code, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function (prelude, file, ...)\r\n\tlocal bootstrap_code = bootstrap_pre .. prelude .. bootstrap_post\r\n\treturn new_thread(bootstrap_code, 'runfile', file, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function (prelude, code, ...)\r\n\tlocal bootstrap_code = bootstrap_pre .. prelude .. bootstrap_post\r\n\treturn new_thread(bootstrap_code, 'runstring', code, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "function poller_mt:add(sock, events, cb)\r\n\tassert(cb ~= nil)\r\n\tlocal id = self.poller:add(sock, events)\r\n\tself.callbacks[id] = function(revents) return cb(sock, revents) end\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "assert(cb ~= nil)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "local id = self.poller:add(sock, events)",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "self.callbacks[id] = function(revents) return cb(sock, revents) end",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function(revents) return cb(sock, revents) end",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "function poller_mt:modify(sock, events, cb)\r\n\tlocal id\r\n\tif events ~= 0 and cb then\r\n\t\tid = self.poller:modify(sock, events)\r\n\t\tself.callbacks[id] = function(revents) return cb(sock, revents) end\r\n\telse\r\n\t\tself:remove(sock)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "local id",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "if events ~= 0 and cb then\r\n\t\tid = self.poller:modify(sock, events)\r\n\t\tself.callbacks[id] = function(revents) return cb(sock, revents) end\r\n\telse\r\n\t\tself:remove(sock)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "id = self.poller:modify(sock, events)",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "self:remove(sock)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function(revents) return cb(sock, revents) end",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "function poller_mt:remove(sock)\r\n\tlocal id = self.poller:remove(sock)\r\n\tassert(id <= #self.callbacks)\r\n\tfor i = id, #self.callbacks do\r\n\t\tself.callbacks[i] = self.callbacks[i+1]\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "local id = self.poller:remove(sock)",
+    "type": "statement:localassign"
+  }, {
+    "id": 35,
+    "text": "assert(id <= #self.callbacks)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 36,
+    "text": "for i = id, #self.callbacks do\r\n\t\tself.callbacks[i] = self.callbacks[i+1]\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 37,
+    "text": "self.callbacks[i] = self.callbacks[i+1]",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 39,
+    "text": "function poller_mt:poll(timeout)\r\n\tlocal poller = self.poller\r\n\tlocal count, err = poller:poll(timeout)\r\n\tif not count then\r\n\t\treturn nil, err\r\n\tend\r\n\tlocal callbacks = self.callbacks\r\n\tfor i=1,count do\r\n\t\tlocal id, revents = poller:next_revents_idx()\r\n\t\tcallbacks[id](revents)\r\n\tend\r\n\treturn count\r\nend",
+    "type": "function"
+  }, {
+    "id": 40,
+    "text": "local poller = self.poller",
+    "type": "statement:localassign"
+  }, {
+    "id": 41,
+    "text": "local count, err = poller:poll(timeout)",
+    "type": "statement:localassign"
+  }, {
+    "id": 42,
+    "text": "if not count then\r\n\t\treturn nil, err\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 43,
+    "text": "local callbacks = self.callbacks",
+    "type": "statement:localassign"
+  }, {
+    "id": 44,
+    "text": "for i=1,count do\r\n\t\tlocal id, revents = poller:next_revents_idx()\r\n\t\tcallbacks[id](revents)\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 45,
+    "text": "local id, revents = poller:next_revents_idx()",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "callbacks[id](revents)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 48,
+    "text": "function poller_mt:start()\r\n\tself.is_running = true\r\n\twhile self.is_running do\r\n\t\tlocal status, err = self:poll(-1)\r\n\t\tif not status then\r\n\t\t\treturn false, err\r\n\t\tend\r\n\tend\r\n\treturn true\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "self.is_running = true",
+    "type": "statement:assign"
+  }, {
+    "id": 50,
+    "text": "while self.is_running do\r\n\t\tlocal status, err = self:poll(-1)\r\n\t\tif not status then\r\n\t\t\treturn false, err\r\n\t\tend\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 51,
+    "text": "local status, err = self:poll(-1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 52,
+    "text": "if not status then\r\n\t\t\treturn false, err\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 54,
+    "text": "function poller_mt:stop()\r\n\tself.is_running = false\r\nend",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "self.is_running = false",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 57,
+    "text": "function M.new(pre_alloc)\r\n\treturn setmetatable({\r\n\t\tpoller = Poller(pre_alloc),\r\n\t\tcallbacks = {},\r\n\t}, poller_mt)\r\nend",
+    "type": "function"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 59,
+    "text": "function(tab, ...) return M.new(...) end",
+    "type": "function"
+  }, {
+    "id": 60,
+    "text": "callbacks[id]",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "Poller",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "cb",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 90,
+    "text": "",
+    "type": "interface"
+  } ]
+}

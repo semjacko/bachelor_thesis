@@ -1,0 +1,825 @@
+{
+  "_filename": "server.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-xmlrpc/src/server.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 73
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 73
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 73
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 73
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 73
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 51,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 51,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 51,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 51,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 51,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 51,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 51,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 74
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 75
+  }, {
+    "from": 74,
+    "label": "initializes",
+    "to": 76
+  }, {
+    "from": 76,
+    "label": "assigns",
+    "to": 77
+  }, {
+    "from": 74,
+    "label": "initializes",
+    "to": 78
+  }, {
+    "from": 78,
+    "label": "assigns",
+    "to": 79
+  }, {
+    "from": 74,
+    "label": "initializes",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "assigns",
+    "to": 81
+  }, {
+    "from": 74,
+    "label": "initializes",
+    "to": 82
+  }, {
+    "from": 82,
+    "label": "assigns",
+    "to": 83
+  }, {
+    "from": 74,
+    "label": "initializes",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "assigns",
+    "to": 85
+  }, {
+    "from": 75,
+    "label": "initializes",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "requires",
+    "to": 54
+  }, {
+    "from": 75,
+    "label": "initializes",
+    "to": 87
+  }, {
+    "from": 87,
+    "label": "requires",
+    "to": 57
+  }, {
+    "from": 75,
+    "label": "initializes",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "requires",
+    "to": 66
+  }, {
+    "from": 75,
+    "label": "initializes",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "requires",
+    "to": 62
+  }, {
+    "from": 75,
+    "label": "initializes",
+    "to": 90
+  }, {
+    "from": 90,
+    "label": "requires",
+    "to": 52
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "server",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function respond (resp)\r\n\tcgilua.header (\"Date\", os.date())\r\n\tcgilua.header (\"Server\", \"Me\")\r\n\tcgilua.header (\"Content-length\", string.len (resp))\r\n\tcgilua.header (\"Connection\", \"close\")\r\n\tcgilua.contentheader (\"text\", \"xml\")\r\n\tcgilua.put (resp)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "cgilua.header (\"Date\", os.date())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "cgilua.header (\"Server\", \"Me\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "cgilua.header (\"Content-length\", string.len (resp))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "cgilua.header (\"Connection\", \"close\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "cgilua.contentheader (\"text\", \"xml\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "cgilua.put (resp)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function assert (cond, msg)\r\n\tif not cond then\r\n\t\trespond (xmlrpc.srvEncode (\r\n\t\t\t{ code = 2, message = msg, },\r\n\t\t\ttrue\r\n\t\t))\r\n\t\t--os.exit() -- !!!!!!!!!!!\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "if not cond then\r\n\t\trespond (xmlrpc.srvEncode (\r\n\t\t\t{ code = 2, message = msg, },\r\n\t\t\ttrue\r\n\t\t))\r\n\t\t--os.exit() -- !!!!!!!!!!!\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "respond (xmlrpc.srvEncode (\r\n\t\t\t{ code = 2, message = msg, },\r\n\t\t\ttrue\r\n\t\t))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "local function decodedata (doc)\r\n\tlocal method, arg_table = xmlrpc.srvDecode (doc)\r\n\tassert (type(method) == \"string\", \"Invalid `method': string expected\")\r\n\tlocal t = type(arg_table)\r\n\tassert (t == \"table\" or t == \"nil\", \"Invalid table of arguments: not a table nor nil\")\r\n\r\n\tlocal func = xmlrpc.dispatch (method)\r\n\tassert (type(func) == \"function\", \"Unavailable method\")\r\n\r\n\treturn func, (arg_table or {})\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "local method, arg_table = xmlrpc.srvDecode (doc)",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "assert (type(method) == \"string\", \"Invalid `method': string expected\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "local t = type(arg_table)",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "assert (t == \"table\" or t == \"nil\", \"Invalid table of arguments: not a table nor nil\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "local func = xmlrpc.dispatch (method)",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "assert (type(func) == \"function\", \"Unavailable method\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "local function callfunc (func, arg_table)\r\n\tlocal result = { pcall (func, unpack (arg_table)) }\r\n\tlocal ok = result[1]\r\n\tif not ok then\r\n\t\tresult = { code = 3, message = result[2], }\r\n\telse\r\n\t\ttable.remove (result, 1)\r\n\t\tif #result == 1 then\r\n\t\t\tresult = result[1]\r\n\t\tend\r\n\tend\r\n\treturn ok, result\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "local result = { pcall (func, unpack (arg_table)) }",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "local ok = result[1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if not ok then\r\n\t\tresult = { code = 3, message = result[2], }\r\n\telse\r\n\t\ttable.remove (result, 1)\r\n\t\tif #result == 1 then\r\n\t\t\tresult = result[1]\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "result = { code = 3, message = result[2], }",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "table.remove (result, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "if #result == 1 then\r\n\t\t\tresult = result[1]\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "result = result[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function xmlrpc.server:new()\r\n  local o = { methods = { } }\r\n  setmetatable (o, self)\r\n  self.__index = self\r\n  return o\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "local o = { methods = { } }",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "setmetatable (o, self)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "self.__index = self",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "function xmlrpc.server:register(name, service)\r\n  assert (type(name) == \"string\", \"Invalid `name': string expected\")\r\n  self.methods[name] = service\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "assert (type(name) == \"string\", \"Invalid `name': string expected\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 39,
+    "text": "self.methods[name] = service",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 41,
+    "text": "function xmlrpc.server:handle()\r\n\txmlrpc.srvMethods (self.methods)\r\n\tlocal func, arg_table = decodedata (cgi[1])\r\n\tlocal ok, result = callfunc (func, arg_table)\r\n\tlocal r = xmlrpc.srvEncode (result, not ok)\r\n\trespond (r)\r\nend",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "xmlrpc.srvMethods (self.methods)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 43,
+    "text": "local func, arg_table = decodedata (cgi[1])",
+    "type": "statement:localassign"
+  }, {
+    "id": 44,
+    "text": "local ok, result = callfunc (func, arg_table)",
+    "type": "statement:localassign"
+  }, {
+    "id": 45,
+    "text": "local r = xmlrpc.srvEncode (result, not ok)",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "respond (r)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 48,
+    "text": "function (msg)\r\n\trespond (xmlrpc.srvEncode ({ code = 2, message = msg, }, true))\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "respond (xmlrpc.srvEncode ({ code = 2, message = msg, }, true))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 52,
+    "text": "xmlrpc",
+    "type": "module"
+  }, {
+    "id": 53,
+    "text": "dispatch",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "cgilua",
+    "type": "module"
+  }, {
+    "id": 55,
+    "text": "contentheader",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "srvEncode",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "os",
+    "type": "module"
+  }, {
+    "id": 58,
+    "text": "date",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "header",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "srvMethods",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "put",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 63,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "seterroroutput",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "srvDecode",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "string",
+    "type": "module"
+  }, {
+    "id": 67,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 68,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 69,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 70,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 71,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 72,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 73,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 90,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

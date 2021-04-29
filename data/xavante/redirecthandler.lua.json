@@ -1,0 +1,369 @@
+{
+  "_filename": "redirecthandler.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/xavante/src/xavante/redirecthandler.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 37,
+    "label": "initializes",
+    "to": 35
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "redirecthandler",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function redirect (res, d)\r\n\tres.headers [\"Location\"] = d\r\n\tres.statusline = \"HTTP/1.1 302 Found\"\r\n\tres.content = \"redirect\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local function redirect (req, res, dest, action, cap)\r\n  dest = string.gsub(dest, \"%%(%d)\", function (capn) return cap[tonumber(capn)] or \"\" end)\r\n  dest = string.gsub(dest, \"%%%%\", \"%\")\r\n  \r\n  local path = req.parsed_url.path\r\n  local pfx = string.sub (dest, 1,1)\r\n  \r\n  if pfx == \"/\" then\r\n    path = dest\r\n  elseif pfx == \":\" then\r\n    path = path .. string.sub (dest, 2)\r\n  elseif dest:find(\"^[%w]+://\") then\r\n    path = dest\r\n    action = \"redirect\"\r\n  else\r\n    path = string.gsub (path, \"/[^/]*$\", \"\") .. \"/\" .. dest\r\n  end\r\n\r\n  local path, query = path:match(\"^([^?]+)(%??.*)$\")  \r\n  req.parsed_url.path = path\r\n  req.built_url = socket.url.build (req.parsed_url) .. (query or \"\")\r\n  req.cmd_url = string.gsub (req.built_url, \"^[^:]+://[^/]+\", \"\")\r\n  \r\n  if action == \"redirect\" then\r\n    xavante.httpd.redirect(res, path .. (query or \"\"))\r\n    return res    \r\n  elseif type(action) == \"function\" then\r\n    return action(req, res, cap)\r\n  else\r\n    return \"reparse\"\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "dest = string.gsub(dest, \"%%(%d)\", function (capn) return cap[tonumber(capn)] or \"\" end)",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "dest = string.gsub(dest, \"%%%%\", \"%\")",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "local path = req.parsed_url.path",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local pfx = string.sub (dest, 1,1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "if pfx == \"/\" then\r\n    path = dest\r\n  elseif pfx == \":\" then\r\n    path = path .. string.sub (dest, 2)\r\n  elseif dest:find(\"^[%w]+://\") then\r\n    path = dest\r\n    action = \"redirect\"\r\n  else\r\n    path = string.gsub (path, \"/[^/]*$\", \"\") .. \"/\" .. dest\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "path = dest",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "path = path .. string.sub (dest, 2)",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "action = \"redirect\"",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "path = string.gsub (path, \"/[^/]*$\", \"\") .. \"/\" .. dest",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "local path, query = path:match(\"^([^?]+)(%??.*)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "req.parsed_url.path = path",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "req.built_url = socket.url.build (req.parsed_url) .. (query or \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "req.cmd_url = string.gsub (req.built_url, \"^[^:]+://[^/]+\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "if action == \"redirect\" then\r\n    xavante.httpd.redirect(res, path .. (query or \"\"))\r\n    return res    \r\n  elseif type(action) == \"function\" then\r\n    return action(req, res, cap)\r\n  else\r\n    return \"reparse\"\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "xavante.httpd.redirect(res, path .. (query or \"\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function makeHandler (params)\r\n  return function (req, res, cap)\r\n\t   return redirect (req, res, params[1], params[2], cap)\r\n\t end\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function (capn) return cap[tonumber(capn)] or \"\" end",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "function (req, res, cap)\r\n\t   return redirect (req, res, params[1], params[2], cap)\r\n\t end",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 27,
+    "text": "build",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "action",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require container"
+  } ]
+}

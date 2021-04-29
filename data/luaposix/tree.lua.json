@@ -1,0 +1,557 @@
+{
+  "_filename": "tree.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luaposix/tree.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 45
+  }, {
+    "from": 2,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "initializes",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "assigns",
+    "to": 53
+  }, {
+    "from": 50,
+    "label": "initializes",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "assigns",
+    "to": 55
+  }, {
+    "from": 50,
+    "label": "initializes",
+    "to": 56
+  }, {
+    "from": 56,
+    "label": "assigns",
+    "to": 57
+  }, {
+    "from": 50,
+    "label": "initializes",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "assigns",
+    "to": 59
+  }, {
+    "from": 50,
+    "label": "initializes",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "assigns",
+    "to": 61
+  }, {
+    "from": 50,
+    "label": "initializes",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "assigns",
+    "to": 63
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "posix",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "tree",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function printf(...)\r\n  io.write(string.format(unpack({...})))\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "io.write(string.format(unpack({...})))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "local function do_directory(directory, level, prefix)\r\n    local num_dirs = 0\r\n    local num_files = 0\r\n    local files = posix.dir(directory)\r\n    local last_file_index = #files\r\n    table.sort(files)\r\n    for i, name in ipairs(files) do\r\n        if name ~= '.' and name ~= '..' then\r\n            local full_name = string.format('%s/%s', directory, name)\r\n            local info = assert(posix.stat(full_name))\r\n            local is_tail = (i==last_file_index)\r\n            local prefix2 = is_tail and tail_leaf_prefix or leaf_prefix\r\n            local link = ''\r\n            if info.type == 'link' then\r\n                linked_name = assert(posix.readlink(full_name))\r\n                link = string.format('%s%s', link_prefix, linked_name)\r\n            end\r\n            printf('%s%s%s%s\\n', prefix, prefix2, name, link)\r\n            if info.type == 'directory' then\r\n                local indent = is_tail and tail_leaf_indent or leaf_indent\r\n                -- TODO: cache string concatination\r\n                sub_dirs, sub_files = do_directory(full_name, level+1,\r\n                    prefix .. indent)\r\n                num_dirs = num_dirs + sub_dirs + 1\r\n                num_files = num_files + sub_files\r\n            else\r\n                num_files = num_files + 1\r\n            end\r\n        end\r\n    end\r\n    return num_dirs, num_files\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local num_dirs = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local num_files = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "local files = posix.dir(directory)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "local last_file_index = #files",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "table.sort(files)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "for i, name in ipairs(files) do\r\n        if name ~= '.' and name ~= '..' then\r\n            local full_name = string.format('%s/%s', directory, name)\r\n            local info = assert(posix.stat(full_name))\r\n            local is_tail = (i==last_file_index)\r\n            local prefix2 = is_tail and tail_leaf_prefix or leaf_prefix\r\n            local link = ''\r\n            if info.type == 'link' then\r\n                linked_name = assert(posix.readlink(full_name))\r\n                link = string.format('%s%s', link_prefix, linked_name)\r\n            end\r\n            printf('%s%s%s%s\\n', prefix, prefix2, name, link)\r\n            if info.type == 'directory' then\r\n                local indent = is_tail and tail_leaf_indent or leaf_indent\r\n                -- TODO: cache string concatination\r\n                sub_dirs, sub_files = do_directory(full_name, level+1,\r\n                    prefix .. indent)\r\n                num_dirs = num_dirs + sub_dirs + 1\r\n                num_files = num_files + sub_files\r\n            else\r\n                num_files = num_files + 1\r\n            end\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 13,
+    "text": "if name ~= '.' and name ~= '..' then\r\n            local full_name = string.format('%s/%s', directory, name)\r\n            local info = assert(posix.stat(full_name))\r\n            local is_tail = (i==last_file_index)\r\n            local prefix2 = is_tail and tail_leaf_prefix or leaf_prefix\r\n            local link = ''\r\n            if info.type == 'link' then\r\n                linked_name = assert(posix.readlink(full_name))\r\n                link = string.format('%s%s', link_prefix, linked_name)\r\n            end\r\n            printf('%s%s%s%s\\n', prefix, prefix2, name, link)\r\n            if info.type == 'directory' then\r\n                local indent = is_tail and tail_leaf_indent or leaf_indent\r\n                -- TODO: cache string concatination\r\n                sub_dirs, sub_files = do_directory(full_name, level+1,\r\n                    prefix .. indent)\r\n                num_dirs = num_dirs + sub_dirs + 1\r\n                num_files = num_files + sub_files\r\n            else\r\n                num_files = num_files + 1\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "local full_name = string.format('%s/%s', directory, name)",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "local info = assert(posix.stat(full_name))",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "local is_tail = (i==last_file_index)",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "local prefix2 = is_tail and tail_leaf_prefix or leaf_prefix",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "local link = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "if info.type == 'link' then\r\n                linked_name = assert(posix.readlink(full_name))\r\n                link = string.format('%s%s', link_prefix, linked_name)\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "linked_name = assert(posix.readlink(full_name))",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "link = string.format('%s%s', link_prefix, linked_name)",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "printf('%s%s%s%s\\n', prefix, prefix2, name, link)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "if info.type == 'directory' then\r\n                local indent = is_tail and tail_leaf_indent or leaf_indent\r\n                -- TODO: cache string concatination\r\n                sub_dirs, sub_files = do_directory(full_name, level+1,\r\n                    prefix .. indent)\r\n                num_dirs = num_dirs + sub_dirs + 1\r\n                num_files = num_files + sub_files\r\n            else\r\n                num_files = num_files + 1\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "local indent = is_tail and tail_leaf_indent or leaf_indent",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "sub_dirs, sub_files = do_directory(full_name, level+1,\r\n                    prefix .. indent)",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "num_dirs = num_dirs + sub_dirs + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "num_files = num_files + sub_files",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "num_files = num_files + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "local function fore(directory)\r\n    print(directory)\r\n    num_dirs, num_files = do_directory(directory, 0, '')\r\n    printf('\\n%d directories, %d files\\n', num_dirs, num_files)\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "print(directory)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "num_dirs, num_files = do_directory(directory, 0, '')",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "printf('\\n%d directories, %d files\\n', num_dirs, num_files)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 37,
+    "text": "readlink",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "dir",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "stat",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "merge",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "sort",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

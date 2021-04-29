@@ -1,0 +1,469 @@
+{
+  "_filename": "neato.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luagraph/examples50/neato.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "assigns",
+    "to": 38
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "assigns",
+    "to": 41
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "assigns",
+    "to": 43
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "assigns",
+    "to": 45
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "assigns",
+    "to": 47
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "assigns",
+    "to": 49
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "assigns",
+    "to": 51
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "assigns",
+    "to": 53
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "neato",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function printf(fmt, ...)\r\n  print(string.format(fmt, ...))\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local function gshow(g)\r\n  local fn = os.tmpname() .. \".dot\"\r\n  g:write(fn)\r\n  os.execute(\"dotty \"..fn)\r\n  os.remove(fn)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "local function printf(fmt, ...)\r\n  print(string.format(fmt, unpack(arg)))\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "print(string.format(fmt, unpack(arg)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "local function gshow(g)\r\n  local fn = os.tmpname() .. \".dot\"\r\n  g:write(fn)\r\n  os.execute(\"dotty \"..fn)\r\n  os.remove(fn)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local fn = os.tmpname() .. \".dot\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "g:write(fn)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "os.execute(\"dotty \"..fn)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "os.remove(fn)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "tmpname",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "execute",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "f",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "loadfile",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

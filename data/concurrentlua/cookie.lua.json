@@ -1,0 +1,165 @@
+{
+  "_filename": "cookie.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/concurrentlua/src/concurrent/distributed/cookie.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "assigns",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  }, {
+    "from": 12,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cookie",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function setcookie(c)\r\n    if concurrent.node() then\r\n        cookie = c\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "if concurrent.node() then\r\n        cookie = c\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 4,
+    "text": "cookie = c",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function getcookie()\r\n    return cookie\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 10,
+    "text": "node",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

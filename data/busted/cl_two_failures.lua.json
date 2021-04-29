@@ -1,0 +1,173 @@
+{
+  "_filename": "cl_two_failures.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/cl_two_failures.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 9,
+    "label": "hasArgument",
+    "to": 2
+  }, {
+    "from": 10,
+    "label": "hasArgument",
+    "to": 5
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cl_two_failures",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function()\r\n    assert(false, 'failed on test 1')\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "assert(false, 'failed on test 1')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function()\r\n    assert(false, 'failed on test 2')\r\n  end",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "assert(false, 'failed on test 2')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function()\r\n\r\n  it('is failing test 1 #err1', function()\r\n    assert(false, 'failed on test 1')\r\n  end)\r\n\r\n  it('is failing test 2 #err2', function()\r\n    assert(false, 'failed on test 2')\r\n  end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "it('is failing test 1 #err1', function()\r\n    assert(false, 'failed on test 1')\r\n  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "it('is failing test 2 #err2', function()\r\n    assert(false, 'failed on test 2')\r\n  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "it",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "describe",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "require container"
+  } ]
+}

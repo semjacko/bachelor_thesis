@@ -1,0 +1,661 @@
+{
+  "_filename": "choices.wx.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wxlua/samples/choices.wx.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 69
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 55,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 72
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 73
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "assigns",
+    "to": 75
+  }, {
+    "from": 72,
+    "label": "initializes",
+    "to": 76
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 71
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "choices",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function HandleEvents(event)\r\n    -- Note: event.GetEventObject() returns a wxObject, but we know that all\r\n    --       events sent to this function will be from a wxWindow derived\r\n    --       class, whose base class is a wxObject.\r\n    --       Use DynamicCast to call functions from the wxWindow base class.\r\n    local name = event:GetEventObject():DynamicCast(\"wxWindow\"):GetName()\r\n    frame:SetStatusText(string.format(\"%s - selected item %d '%s'\", name, event:GetSelection(), event:GetString()), 0)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local name = event:GetEventObject():DynamicCast(\"wxWindow\"):GetName()",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "frame:SetStatusText(string.format(\"%s - selected item %d '%s'\", name, event:GetSelection(), event:GetString()), 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function main()\r\n    -- create the hierarchy: frame -> notebook\r\n    frame = wx.wxFrame(wx.NULL, wx.wxID_ANY, \"wxLua Choices\",\r\n                       wx.wxDefaultPosition, wx.wxSize(550, 350))\r\n    frame:CreateStatusBar(1)\r\n    frame:SetStatusText(\"wxEvents from controls will be displayed here\", 0)\r\n\r\n    local notebook = wx.wxNotebook(frame, wx.wxID_ANY,\r\n                                   wx.wxDefaultPosition, wx.wxSize(410, 300))\r\n                                   --wx.wxNB_BOTTOM)\r\n\r\n    local choices = {\"one\", \"two\", \"three\", \"four\"}\r\n\r\n    -- create first panel in the notebook control\r\n    local panel1 = wx.wxPanel(notebook, wx.wxID_ANY)\r\n    local sizer1 = wx.wxBoxSizer(wx.wxVERTICAL)\r\n    local radioBox = wx.wxRadioBox(panel1, wx.wxID_ANY, \"wxRadioBox\",\r\n                                   wx.wxDefaultPosition, wx.wxDefaultSize,\r\n                                   choices, 1, wx.wxRA_SPECIFY_ROWS)\r\n    local listBox = wx.wxListBox(panel1, wx.wxID_ANY, wx.wxDefaultPosition,\r\n                                 wx.wxDefaultSize, choices)\r\n\r\n    local listBoxStaticBox = wx.wxStaticBox( panel1, wx.wxID_ANY, \"wxListBox\")\r\n    local listBoxStaticBoxSizer = wx.wxStaticBoxSizer( listBoxStaticBox, wx.wxVERTICAL );\r\n    listBoxStaticBoxSizer:Add(listBox, 1, wx.wxALL + wx.wxGROW + wx.wxCENTER, 5)\r\n\r\n    sizer1:Add(radioBox, 1, wx.wxALL + wx.wxGROW, 5)\r\n    sizer1:Add(listBoxStaticBoxSizer, 1, wx.wxALL + wx.wxGROW, 5)\r\n    panel1:SetSizer(sizer1)\r\n    sizer1:SetSizeHints(panel1)\r\n    notebook:AddPage(panel1, \"wxRadioBox and wxListBox\")\r\n\r\n    -- create second panel in the notebook control\r\n    local panel2 = wx.wxPanel(notebook, wx.wxID_ANY)\r\n    local sizer2 = wx.wxBoxSizer(wx.wxVERTICAL)\r\n\r\n    local comboBox = wx.wxComboBox(panel2, wx.wxID_ANY, \"Select a choice\",\r\n                                   wx.wxDefaultPosition, wx.wxDefaultSize,\r\n                                   choices)\r\n    -- Test the binding generator to properly overload\r\n    --   wxComboBox::SetSelection(int from, int to) (to mark text) and\r\n    --   wxControlWithItems::SetSelection(int sel)\r\n    comboBox:SetSelection(2)\r\n    comboBox:SetSelection(1, 3)\r\n    local choice = wx.wxChoice(panel2, wx.wxID_ANY,\r\n                               wx.wxDefaultPosition, wx.wxDefaultSize,\r\n                               choices)\r\n    local checkListBox = wx.wxCheckListBox(panel2, wx.wxID_ANY,\r\n                                           wx.wxDefaultPosition, wx.wxDefaultSize,\r\n                                           choices, wx.wxLB_MULTIPLE)\r\n\r\n    local comboBoxStaticBox = wx.wxStaticBox( panel2, wx.wxID_ANY, \"wxComboBox\")\r\n    local comboBoxStaticBoxSizer = wx.wxStaticBoxSizer( comboBoxStaticBox, wx.wxVERTICAL );\r\n    comboBoxStaticBoxSizer:Add(comboBox, 0, wx.wxALL + wx.wxGROW + wx.wxCENTER, 5)\r\n\r\n    local choiceBoxStaticBox = wx.wxStaticBox( panel2, wx.wxID_ANY, \"wxChoice\")\r\n    local choiceBoxStaticBoxSizer = wx.wxStaticBoxSizer( choiceBoxStaticBox, wx.wxVERTICAL );\r\n    choiceBoxStaticBoxSizer:Add(choice, 0, wx.wxALL + wx.wxGROW + wx.wxCENTER, 5)\r\n\r\n    local checkListBoxStaticBox = wx.wxStaticBox( panel2, wx.wxID_ANY, \"wxCheckListBox\")\r\n    local checkListBoxStaticBoxSizer = wx.wxStaticBoxSizer( checkListBoxStaticBox, wx.wxVERTICAL );\r\n    checkListBoxStaticBoxSizer:Add(checkListBox, 1, wx.wxALL + wx.wxGROW + wx.wxCENTER, 5)\r\n\r\n    sizer2:Add(comboBoxStaticBoxSizer, 0, wx.wxALL + wx.wxGROW + wx.wxCENTER, 5)\r\n    sizer2:Add(choiceBoxStaticBoxSizer, 0, wx.wxALL + wx.wxGROW + wx.wxCENTER, 5)\r\n    sizer2:Add(checkListBoxStaticBoxSizer, 1, wx.wxALL + wx.wxGROW, 5)\r\n    panel2:SetSizer(sizer2)\r\n    sizer2:SetSizeHints(panel2)\r\n    notebook:AddPage(panel2, \"wxComboBox, wxChoice, and wxCheckListBox\")\r\n\r\n    frame:SetSizeHints(notebook:GetBestSize():GetWidth(),\r\n                       notebook:GetBestSize():GetHeight())\r\n\r\n    -- typically you will give a control a specific window id and connect an\r\n    -- event handler for that id, in this case respond to any id\r\n    frame:Connect(wx.wxID_ANY, wx.wxEVT_COMMAND_NOTEBOOK_PAGE_CHANGED, HandleEvents)\r\n\r\n    frame:Connect(wx.wxID_ANY, wx.wxEVT_COMMAND_RADIOBOX_SELECTED, HandleEvents)\r\n    frame:Connect(wx.wxID_ANY, wx.wxEVT_COMMAND_LISTBOX_SELECTED, HandleEvents)\r\n\r\n    frame:Connect(wx.wxID_ANY, wx.wxEVT_COMMAND_COMBOBOX_SELECTED, HandleEvents)\r\n    frame:Connect(wx.wxID_ANY, wx.wxEVT_COMMAND_CHOICE_SELECTED, HandleEvents)\r\n    frame:Connect(wx.wxID_ANY, wx.wxEVT_COMMAND_CHECKLISTBOX_TOGGLED, HandleEvents)\r\n\r\n    frame:Show(true)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "frame = wx.wxFrame(wx.NULL, wx.wxID_ANY, \"wxLua Choices\",\r\n                       wx.wxDefaultPosition, wx.wxSize(550, 350))",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "frame:CreateStatusBar(1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "frame:SetStatusText(\"wxEvents from controls will be displayed here\", 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "local notebook = wx.wxNotebook(frame, wx.wxID_ANY,\r\n                                   wx.wxDefaultPosition, wx.wxSize(410, 300))",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local choices = {\"one\", \"two\", \"three\", \"four\"}",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local panel1 = wx.wxPanel(notebook, wx.wxID_ANY)",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local sizer1 = wx.wxBoxSizer(wx.wxVERTICAL)",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local radioBox = wx.wxRadioBox(panel1, wx.wxID_ANY, \"wxRadioBox\",\r\n                                   wx.wxDefaultPosition, wx.wxDefaultSize,\r\n                                   choices, 1, wx.wxRA_SPECIFY_ROWS)",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "local listBox = wx.wxListBox(panel1, wx.wxID_ANY, wx.wxDefaultPosition,\r\n                                 wx.wxDefaultSize, choices)",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "local listBoxStaticBox = wx.wxStaticBox( panel1, wx.wxID_ANY, \"wxListBox\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "local listBoxStaticBoxSizer = wx.wxStaticBoxSizer( listBoxStaticBox, wx.wxVERTICAL )",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "listBoxStaticBoxSizer:Add(listBox, 1, wx.wxALL + wx.wxGROW + wx.wxCENTER, 5)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "sizer1:Add(radioBox, 1, wx.wxALL + wx.wxGROW, 5)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "sizer1:Add(listBoxStaticBoxSizer, 1, wx.wxALL + wx.wxGROW, 5)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "panel1:SetSizer(sizer1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "sizer1:SetSizeHints(panel1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "notebook:AddPage(panel1, \"wxRadioBox and wxListBox\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "local panel2 = wx.wxPanel(notebook, wx.wxID_ANY)",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "local sizer2 = wx.wxBoxSizer(wx.wxVERTICAL)",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "local comboBox = wx.wxComboBox(panel2, wx.wxID_ANY, \"Select a choice\",\r\n                                   wx.wxDefaultPosition, wx.wxDefaultSize,\r\n                                   choices)",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "comboBox:SetSelection(2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "comboBox:SetSelection(1, 3)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "local choice = wx.wxChoice(panel2, wx.wxID_ANY,\r\n                               wx.wxDefaultPosition, wx.wxDefaultSize,\r\n                               choices)",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "local checkListBox = wx.wxCheckListBox(panel2, wx.wxID_ANY,\r\n                                           wx.wxDefaultPosition, wx.wxDefaultSize,\r\n                                           choices, wx.wxLB_MULTIPLE)",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "local comboBoxStaticBox = wx.wxStaticBox( panel2, wx.wxID_ANY, \"wxComboBox\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "local comboBoxStaticBoxSizer = wx.wxStaticBoxSizer( comboBoxStaticBox, wx.wxVERTICAL )",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "comboBoxStaticBoxSizer:Add(comboBox, 0, wx.wxALL + wx.wxGROW + wx.wxCENTER, 5)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 34,
+    "text": "local choiceBoxStaticBox = wx.wxStaticBox( panel2, wx.wxID_ANY, \"wxChoice\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 35,
+    "text": "local choiceBoxStaticBoxSizer = wx.wxStaticBoxSizer( choiceBoxStaticBox, wx.wxVERTICAL )",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "choiceBoxStaticBoxSizer:Add(choice, 0, wx.wxALL + wx.wxGROW + wx.wxCENTER, 5)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 37,
+    "text": "local checkListBoxStaticBox = wx.wxStaticBox( panel2, wx.wxID_ANY, \"wxCheckListBox\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 38,
+    "text": "local checkListBoxStaticBoxSizer = wx.wxStaticBoxSizer( checkListBoxStaticBox, wx.wxVERTICAL )",
+    "type": "statement:localassign"
+  }, {
+    "id": 39,
+    "text": "checkListBoxStaticBoxSizer:Add(checkListBox, 1, wx.wxALL + wx.wxGROW + wx.wxCENTER, 5)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "sizer2:Add(comboBoxStaticBoxSizer, 0, wx.wxALL + wx.wxGROW + wx.wxCENTER, 5)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "sizer2:Add(choiceBoxStaticBoxSizer, 0, wx.wxALL + wx.wxGROW + wx.wxCENTER, 5)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 42,
+    "text": "sizer2:Add(checkListBoxStaticBoxSizer, 1, wx.wxALL + wx.wxGROW, 5)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 43,
+    "text": "panel2:SetSizer(sizer2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "sizer2:SetSizeHints(panel2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "notebook:AddPage(panel2, \"wxComboBox, wxChoice, and wxCheckListBox\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 46,
+    "text": "frame:SetSizeHints(notebook:GetBestSize():GetWidth(),\r\n                       notebook:GetBestSize():GetHeight())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 47,
+    "text": "frame:Connect(wx.wxID_ANY, wx.wxEVT_COMMAND_NOTEBOOK_PAGE_CHANGED, HandleEvents)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 48,
+    "text": "frame:Connect(wx.wxID_ANY, wx.wxEVT_COMMAND_RADIOBOX_SELECTED, HandleEvents)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 49,
+    "text": "frame:Connect(wx.wxID_ANY, wx.wxEVT_COMMAND_LISTBOX_SELECTED, HandleEvents)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 50,
+    "text": "frame:Connect(wx.wxID_ANY, wx.wxEVT_COMMAND_COMBOBOX_SELECTED, HandleEvents)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 51,
+    "text": "frame:Connect(wx.wxID_ANY, wx.wxEVT_COMMAND_CHOICE_SELECTED, HandleEvents)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 52,
+    "text": "frame:Connect(wx.wxID_ANY, wx.wxEVT_COMMAND_CHECKLISTBOX_TOGGLED, HandleEvents)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 53,
+    "text": "frame:Show(true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 56,
+    "text": "wxNotebook",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "wxRadioBox",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "wxSize",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "wxGetApp",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "wxChoice",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "wxCheckListBox",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "wxComboBox",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "wxStaticBoxSizer",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "wxStaticBox",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "wxBoxSizer",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "wxListBox",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "wxFrame",
+    "type": "global function"
+  }, {
+    "id": 68,
+    "text": "wxPanel",
+    "type": "global function"
+  }, {
+    "id": 69,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 70,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

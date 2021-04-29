@@ -1,0 +1,269 @@
+{
+  "_filename": "mymod.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/penlight/tests/lua/mymod.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "assigns",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "provides",
+    "to": 27
+  }, {
+    "from": 20,
+    "label": "represents",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "provides",
+    "to": 28
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "hasArgument",
+    "to": 12
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "strict",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "test",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "mymod",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function M.answer ()\r\n    Boo = false  -- fine, it's a declared global\r\n    -- in strict mode, you cannot assign to globals if you aren't in main\r\n    test.assertraise(function()\r\n        Foo = true\r\n    end,\" assign to undeclared global 'Foo'\")\r\n    return 42\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "Boo = false",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "test.assertraise(function()\r\n        Foo = true\r\n    end,\" assign to undeclared global 'Foo'\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "Foo = true",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function M.question ()\r\n    return 'what is the answer to Life, the Universe and Everything?'\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function()\r\n        Foo = true\r\n    end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "question",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "assertraise",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "Answer",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

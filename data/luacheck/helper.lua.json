@@ -1,0 +1,269 @@
+{
+  "_filename": "helper.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/luacheck/spec/helper.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 19,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "assigns",
+    "to": 23
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "assigns",
+    "to": 25
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "assigns",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 28
+  }, {
+    "from": 22,
+    "label": "represents",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "provides",
+    "to": 29
+  }, {
+    "from": 22,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 22,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 22,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 22,
+    "label": "contains",
+    "to": 18
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "helper",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function antipath(path)\r\n   local _, level = path:gsub(\"[/\\\\]\", \"\")\r\n   return (\"..\"..dir_sep):rep(level)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local _, level = path:gsub(\"[/\\\\]\", \"\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function helper.luacov_config(prefix)\r\n   return {\r\n      statsfile = prefix..\"luacov.stats.out\",\r\n      modules = {\r\n         luacheck = \"src/luacheck/init.lua\",\r\n         [\"luacheck.*\"] = \"src\"\r\n      },\r\n      exclude = {\r\n         \"bin/luacheck$\",\r\n         \"luacheck/argparse$\"\r\n      }\r\n   }\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function helper.luacheck_command(loc_path)\r\n   loc_path = loc_path or \".\"\r\n   local prefix = antipath(loc_path)\r\n   local cmd = (\"cd %s && %s\"):format(loc_path, arg[-5] or \"lua\")\r\n\r\n   -- Extend package.path to allow loading this helper and luacheck modules.\r\n   cmd = cmd..(' -e \"package.path=[[%s?.lua;%ssrc%s?.lua;%ssrc%s?%sinit.lua;]]..package.path\"'):format(\r\n      prefix, prefix, dir_sep, prefix, dir_sep, dir_sep)\r\n\r\n   if luacov then\r\n      -- Launch luacov.\r\n      cmd = cmd..(' -e \"require[[luacov.runner]](require[[spec.helper]].luacov_config([[%s]]))\"'):format(prefix)\r\n   end\r\n\r\n   return (\"%s %sbin%sluacheck.lua\"):format(cmd, prefix, dir_sep)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "loc_path = loc_path or \".\"",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "local prefix = antipath(loc_path)",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local cmd = (\"cd %s && %s\"):format(loc_path, arg[-5] or \"lua\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "cmd = cmd..(' -e \"package.path=[[%s?.lua;%ssrc%s?.lua;%ssrc%s?%sinit.lua;]]..package.path\"'):format(\r\n      prefix, prefix, dir_sep, prefix, dir_sep, dir_sep)",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "if luacov then\r\n      -- Launch luacov.\r\n      cmd = cmd..(' -e \"require[[luacov.runner]](require[[spec.helper]].luacov_config([[%s]]))\"'):format(prefix)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "cmd = cmd..(' -e \"require[[luacov.runner]](require[[spec.helper]].luacov_config([[%s]]))\"'):format(prefix)",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 17,
+    "text": "local function helper(...)\r\n   -- NYI\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "local function helper()\r\n   -- NYI wontfix\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "interface"
+  } ]
+}

@@ -1,0 +1,425 @@
+{
+  "_filename": "init.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luadoc/src/luadoc/init.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "assigns",
+    "to": 39
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "requires",
+    "to": 45
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "requires",
+    "to": 47
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "requires",
+    "to": 49
+  }, {
+    "from": 50,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "init",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "util",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "luadoc",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function main (files, options)\r\n\tlogger = util.loadlogengine(options)\r\n\r\n\t-- load config file\r\n\tif options.config ~= nil then\r\n\t\t-- load specified config file\r\n\t\tdofile(options.config)\r\n\telse\r\n\t\t-- load default config file\r\n\t\trequire(\"luadoc.config\")\r\n\tend\r\n\r\n\tlocal taglet = require(options.taglet)\r\n\tlocal doclet = require(options.doclet)\r\n\r\n    -- fix bad windows paths (mix of / and \\ in a path)\r\n    -- standardize on forward slash\r\n    if util.iswindows then\r\n        for k, v in pairs(files) do\r\n            files[k] = string.gsub(v, \"\\\\\", \"/\")\r\n        end\r\n    end\r\n\r\n\t-- analyze input\r\n\ttaglet.options = options\r\n\ttaglet.logger = logger\r\n\tlocal doc = taglet.start(files)\r\n\r\n\t-- generate output\r\n\tdoclet.options = options\r\n\tdoclet.logger = logger\r\n\tdoclet.start(doc)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "logger = util.loadlogengine(options)",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "if options.config ~= nil then\r\n\t\t-- load specified config file\r\n\t\tdofile(options.config)\r\n\telse\r\n\t\t-- load default config file\r\n\t\trequire(\"luadoc.config\")\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "dofile(options.config)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "require(\"luadoc.config\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "local taglet = require(options.taglet)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "local doclet = require(options.doclet)",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "if util.iswindows then\r\n        for k, v in pairs(files) do\r\n            files[k] = string.gsub(v, \"\\\\\", \"/\")\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "for k, v in pairs(files) do\r\n            files[k] = string.gsub(v, \"\\\\\", \"/\")\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 13,
+    "text": "files[k] = string.gsub(v, \"\\\\\", \"/\")",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "taglet.options = options",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "taglet.logger = logger",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "local doc = taglet.start(files)",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "doclet.options = options",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "doclet.logger = logger",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "doclet.start(doc)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 22,
+    "text": "function loadlogengine(options)\r\n\tlocal logenabled = pcall(function()\r\n\t\trequire \"logging\"\r\n\t\trequire \"logging.console\"\r\n\tend)\r\n\r\n\tlocal logging = logenabled and logging\r\n\r\n\tif logenabled then\r\n\t\tif options.filelog then\r\n\t\t\tlogger = logging.file(\"luadoc.log\") -- use this to get a file log\r\n\t\telse\r\n\t\t\tlogger = logging.console(\"[%level] %message\\n\")\r\n\t\tend\r\n\r\n\t\tif options.verbose then\r\n\t\t\tlogger:setLevel(logging.INFO)\r\n\t\telse\r\n\t\t\tlogger:setLevel(logging.WARN)\r\n\t\tend\r\n\r\n\telse\r\n\t\tnoop = {__index=function(...)\r\n\t\t\treturn function(...)\r\n\t\t\t\t-- noop\r\n\t\t\tend\r\n\t\tend}\r\n\r\n\t\tlogger = {}\r\n\t\tsetmetatable(logger, noop)\r\n\tend\r\n\r\n\treturn logger\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "start",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "start",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "dofile",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 45,
+    "text": "taglet)",
+    "type": "module"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 47,
+    "text": "doclet)",
+    "type": "module"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 49,
+    "text": "config)",
+    "type": "module"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "require container"
+  } ]
+}

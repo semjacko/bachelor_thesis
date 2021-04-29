@@ -1,0 +1,625 @@
+{
+  "_filename": "sandbox.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/saci/lua/saci/sandbox.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 51,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 63
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 64
+  }, {
+    "from": 63,
+    "label": "initializes",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "assigns",
+    "to": 66
+  }, {
+    "from": 63,
+    "label": "initializes",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "assigns",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "assigns",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "assigns",
+    "to": 70
+  }, {
+    "from": 68,
+    "label": "assigns",
+    "to": 71
+  }, {
+    "from": 71,
+    "label": "assigns",
+    "to": 72
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "sandbox",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function new(args)\r\n   local node = setmetatable({raw_values={}, inherited_values={}, active_values={}}, Node_mt)\r\n   --assert(args.data)\r\n   --assert(args.id)\r\n   node.data = args.data\r\n   node.id = args.id\r\n   --assert(args.repository)\r\n   node.repository = args.repository\r\n   node.saci = node.repository\r\n   node.raw_values = saci.sandbox.new():do_lua(args.data)\r\n   --assert(rawget(node, \"raw_values\"), \"the sandbox should give us a table\")\r\n   node:apply_inheritance()\r\n   node:activate()\r\n   return node\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function Node:apply_inheritance()\r\n\r\n   --assert(self.id)\r\n   -- If this node is itself the root prototype, then there is nothing else\r\n   -- to do.\r\n   if self.id == self.repository.root_prototype_id then\r\n      self.inherited_values = self.raw_values\r\n      return\r\n   end\r\n   if self.raw_values.prototype == \"\" then\r\n      self.raw_values.prototype = nil  -- to make it easier to test for it\r\n   end\r\n   local prototype_id = self.raw_values.prototype or self.repository.root_prototype_id\r\n\r\n   -- Get the values for the prototype.\r\n   local proto_values = self.repository:get_node(prototype_id).inherited_values\r\n   assert(proto_values.fields, \"The prototype node must define fields\")\r\n \r\n   -- Apply inheritance from the prototype, using the information in the\r\n   -- 'fields' field to decide how to handle each field.  \r\n\r\n   -- First, we need to figure out what those fields are.  We use\r\n   -- this node's own \"fields\" table rather than the fields table from the\r\n   -- prototype and the value for fields must _always_ be inherited as a \r\n   -- matter of bootstrapping.\r\n\r\n   local tmp_fields = inheritance_rules.concat(proto_values.fields,\r\n                                               self.raw_values.fields)\r\n   assert(tmp_fields)\r\n   local fields, err = saci.sandbox.new{}:do_lua(tmp_fields)\r\n   assert(fields, err)\r\n\r\n   -- Now do the actual inheritance.  This means going through all fields\r\n   -- and applying each of them the \"inheritance rule\" specified by the\r\n   -- \"proto\" attribute.\r\n   for field_name, field in pairs(fields) do\r\n      field.name = field_name\r\n      if field.proto then\r\n         local inheritance_fn = inheritance_rules[field.proto]\r\n                                or inheritance_rules.default\r\n         self.inherited_values[field.name] = inheritance_fn(\r\n                                                proto_values[field.name], \r\n                                                self.raw_values[field.name])   \r\n      end\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function Node:activate()\r\n   self.active_values = {}\r\n   local fields, err = saci.sandbox.new{}:do_lua(self.inherited_values.fields)\r\n   if not fields then\r\n      error(err)\r\n   end\r\n\r\n   for field, fieldinfo in pairs(fields) do\r\n      if fieldinfo.activate then\r\n         local activator_fn = Activators[fieldinfo.activate]\r\n         local value = self[field] or \"\"\r\n         self.active_values[field] = activator_fn(value, self.repository)\r\n      end\r\n   end\r\n\r\n   return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function Node:check_permissions(user, action)\r\n   if not self.permissions then return true end\r\n   \r\n   local function in_table(tab, item)\r\n      for i,v in ipairs(tab) do\r\n         if v==item then return true end\r\n      end\r\n      return false\r\n   end\r\n   \r\n   -- checks membership in groups\r\n   local function member(item, group)\r\n      if     type(group) == \"function\" then return group(item)\r\n      elseif type(group) == \"table\"    then return in_table(group, item)\r\n      elseif type(group) == \"string\"   then return group == item\r\n      else   error(\"expected a string, a table or a function\")\r\n      end\r\n   end\r\n\r\n   -- keeps the allowed/not allowed state\r\n   local has_permission = true\r\n   -- toggles the the state\r\n   local function set(user_group, action_group, value)\r\n      if member(user, user_group) and member(action, action_group) then\r\n         has_permission = value\r\n      end\r\n   end\r\n\r\n   -- setup the sandbox   \r\n   local sandbox = saci.sandbox.new(self.saci.permission_groups)\r\n   sandbox:add_values{\r\n      allow = function (user, action) set(user, action, true) end,\r\n      deny  = function (user, action) set(user, action, false) end,\r\n   }\r\n   sandbox:do_lua(self.permissions)\r\n   return has_permission\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 7,
+    "text": "function new(initial_values)\r\n   local sandbox = setmetatable({}, Sandbox_mt)\r\n\r\n   -- Create a table that allows us to define private functions\r\n   -- while still pulling values from the initial_values table\r\n   local private = setmetatable({}, {__index = initial_values})\r\n   -- Now link the tables together to create the values table\r\n   sandbox.values = setmetatable({}, {__index = private})\r\n\r\n   -- Define a function that allow us to reset the protected environment\r\n   -- from within a sandbox\r\n   do\r\n      local tbl = sandbox.values\r\n      local pairs = pairs\r\n      function private.reset()\r\n         for k,v in pairs(tbl) do\r\n            tbl[k] = nil\r\n         end\r\n      end\r\n   end\r\n\r\n   sandbox.returned_value = nil\r\n   return sandbox\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local sandbox = setmetatable({}, Sandbox_mt)",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "local private = setmetatable({}, {__index = initial_values})",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "sandbox.values = setmetatable({}, {__index = private})",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "do\r\n      local tbl = sandbox.values\r\n      local pairs = pairs\r\n      function private.reset()\r\n         for k,v in pairs(tbl) do\r\n            tbl[k] = nil\r\n         end\r\n      end\r\n   end",
+    "type": "statement:do"
+  }, {
+    "id": 12,
+    "text": "local tbl = sandbox.values",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local pairs = pairs",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "function private.reset()\r\n         for k,v in pairs(tbl) do\r\n            tbl[k] = nil\r\n         end\r\n      end",
+    "type": "statement:globalfunction"
+  }, {
+    "id": 15,
+    "text": "for k,v in pairs(tbl) do\r\n            tbl[k] = nil\r\n         end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 16,
+    "text": "tbl[k] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "sandbox.returned_value = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function private.reset()\r\n         for k,v in pairs(tbl) do\r\n            tbl[k] = nil\r\n         end\r\n      end",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function Sandbox:add_values(symbol_table)\r\n   for symbol, value in pairs(symbol_table) do\r\n      self.values[symbol] = value\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "for symbol, value in pairs(symbol_table) do\r\n      self.values[symbol] = value\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 24,
+    "text": "self.values[symbol] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function Sandbox:do_lua(lua_code, parseOnly)\r\n   local f, err = loadstring(lua_code)      -- load the code into a function\r\n   if f and not parseOnly then \r\n      setfenv(f, self.values or {})         -- set a restricted environment\r\n      local ok, result = pcall(f)           -- run it\r\n      if ok then \r\n         self.returned_value = result \r\n      else\r\n         err = result\r\n      end\r\n   end\r\n     \r\n   if err then                              -- check if something went wrong\r\n      local error_report = {}\r\n      local reg_exp = \"^.+%]%:(%d+)%:\"\r\n      error_report.line_num = string.match(err, reg_exp)\r\n      error_report.errors = string.gsub(err, reg_exp, \"On line %1:\")\r\n      error_report.source = lua_code\r\n      error_report.err = err\r\n           \r\n      if self.logger then\r\n         self.logger:error(\"sputnik.luaenv: couldn't execute lua\")\r\n         self.logger:error(\"Source code: \\n\"..error_report.source)\r\n         self.logger:error(\"environment: \\n\")\r\n         for k,v in pairs(self.values) do\r\n            self.logger:error(string.format(\"%s=%q\", tostring(k), tostring(v)))\r\n         end\r\n         self.logger:error(err)\r\n      end\r\n      return nil, error_report\r\n   else\r\n      self.values = getfenv(f)         -- save the values\r\n      return self.values               -- return them\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "local f, err = loadstring(lua_code)",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "if f and not parseOnly then \r\n      setfenv(f, self.values or {})         -- set a restricted environment\r\n      local ok, result = pcall(f)           -- run it\r\n      if ok then \r\n         self.returned_value = result \r\n      else\r\n         err = result\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "setfenv(f, self.values or {})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "local ok, result = pcall(f)",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "if ok then \r\n         self.returned_value = result \r\n      else\r\n         err = result\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "self.returned_value = result",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "err = result",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "if err then                              -- check if something went wrong\r\n      local error_report = {}\r\n      local reg_exp = \"^.+%]%:(%d+)%:\"\r\n      error_report.line_num = string.match(err, reg_exp)\r\n      error_report.errors = string.gsub(err, reg_exp, \"On line %1:\")\r\n      error_report.source = lua_code\r\n      error_report.err = err\r\n           \r\n      if self.logger then\r\n         self.logger:error(\"sputnik.luaenv: couldn't execute lua\")\r\n         self.logger:error(\"Source code: \\n\"..error_report.source)\r\n         self.logger:error(\"environment: \\n\")\r\n         for k,v in pairs(self.values) do\r\n            self.logger:error(string.format(\"%s=%q\", tostring(k), tostring(v)))\r\n         end\r\n         self.logger:error(err)\r\n      end\r\n      return nil, error_report\r\n   else\r\n      self.values = getfenv(f)         -- save the values\r\n      return self.values               -- return them\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "local error_report = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "local reg_exp = \"^.+%]%:(%d+)%:\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 37,
+    "text": "error_report.line_num = string.match(err, reg_exp)",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "error_report.errors = string.gsub(err, reg_exp, \"On line %1:\")",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "error_report.source = lua_code",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "error_report.err = err",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "if self.logger then\r\n         self.logger:error(\"sputnik.luaenv: couldn't execute lua\")\r\n         self.logger:error(\"Source code: \\n\"..error_report.source)\r\n         self.logger:error(\"environment: \\n\")\r\n         for k,v in pairs(self.values) do\r\n            self.logger:error(string.format(\"%s=%q\", tostring(k), tostring(v)))\r\n         end\r\n         self.logger:error(err)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 42,
+    "text": "self.logger:error(\"sputnik.luaenv: couldn't execute lua\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 43,
+    "text": "self.logger:error(\"Source code: \\n\"..error_report.source)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "self.logger:error(\"environment: \\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "for k,v in pairs(self.values) do\r\n            self.logger:error(string.format(\"%s=%q\", tostring(k), tostring(v)))\r\n         end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 46,
+    "text": "self.logger:error(string.format(\"%s=%q\", tostring(k), tostring(v)))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 47,
+    "text": "self.logger:error(err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 48,
+    "text": "self.values = getfenv(f)",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 51,
+    "text": "function Saci:make_node(data, id)\r\n   return saci.node.new{data=data, id=id, repository=self}\r\nend",
+    "type": "function"
+  }, {
+    "id": 52,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "setfenv",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "loadstring",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "getfenv",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "_prefixexp"
+  } ]
+}

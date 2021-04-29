@@ -1,0 +1,313 @@
+{
+  "_filename": "mlp_table.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/metalua/src/compiler/mlp_table.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "assigns",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "assigns",
+    "to": 30
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "assigns",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "represents",
+    "to": 33
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "mlp_table",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function _expr (lx) return expr(lx) end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "function table_field (lx)\r\n   if lx:is_keyword (lx:peek(), \"[\") then return bracket_field (lx) end\r\n   local e = _expr (lx)\r\n   if lx:is_keyword (lx:peek(), \"=\") then \r\n      lx:next(); -- skip the \"=\"\r\n      local key = id2string(e)\r\n      local val = _expr(lx)\r\n      local r = { tag=\"Pair\", key, val } \r\n      r.lineinfo = { first = key.lineinfo.first, last = val.lineinfo.last }\r\n      return r\r\n   else return e end\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "if lx:is_keyword (lx:peek(), \"[\") then return bracket_field (lx) end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "local e = _expr (lx)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if lx:is_keyword (lx:peek(), \"=\") then \r\n      lx:next(); -- skip the \"=\"\r\n      local key = id2string(e)\r\n      local val = _expr(lx)\r\n      local r = { tag=\"Pair\", key, val } \r\n      r.lineinfo = { first = key.lineinfo.first, last = val.lineinfo.last }\r\n      return r\r\n   else return e end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "lx:next()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "local key = id2string(e)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "local val = _expr(lx)",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local r = { tag=\"Pair\", key, val }",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "r.lineinfo = { first = key.lineinfo.first, last = val.lineinfo.last }",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "local function _table_field(lx) return table_field(lx) end",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "local function _table_content(lx) return table_content(lx) end",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 17,
+    "text": "fget",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "bracket_field",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "table_content",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "list",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "id2string",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "sequence",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "expr",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "interface"
+  } ]
+}

@@ -1,0 +1,289 @@
+{
+  "_filename": "test_lib.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/cgilua/tests/test_lib.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test_lib",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function getfield (t, f)\r\n  for w in string.gfind(f, \"[%w_]+\") do\r\n    if not t then return nil end\r\n    t = t[w]\r\n  end\r\n  return t\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "for w in string.gfind(f, \"[%w_]+\") do\r\n    if not t then return nil end\r\n    t = t[w]\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 4,
+    "text": "if not t then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "t = t[w]",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function test_lib (libname)\r\n\tlocal ok, err = pcall (require, libname)\r\n\tif not ok then\r\n\t\tcgilua.put (\"Library <tt><b>\"..libname..\"</b></tt> not found<br>\\n\"..\r\n\t\t\terr)\r\n\telse\r\n\t\tcgilua.put (\"Library <tt><b>\"..libname..\"</b></tt><br>\\n\")\r\n\t\tlocal t = getfield (_G, libname)\r\n\t\tif type(t) ~= \"table\" then\r\n\t\t\tcgilua.put (tostring(t))\r\n\t\telse\r\n\t\t\tfor i, v in pairs (t) do\r\n\t\t\t\tcgilua.put (\"&nbsp;&nbsp;\"..tostring(i)..\" = \"..tostring(v)..\"<br>\\n\")\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\tcgilua.put (\"\\n<p>\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local ok, err = pcall (require, libname)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if not ok then\r\n\t\tcgilua.put (\"Library <tt><b>\"..libname..\"</b></tt> not found<br>\\n\"..\r\n\t\t\terr)\r\n\telse\r\n\t\tcgilua.put (\"Library <tt><b>\"..libname..\"</b></tt><br>\\n\")\r\n\t\tlocal t = getfield (_G, libname)\r\n\t\tif type(t) ~= \"table\" then\r\n\t\t\tcgilua.put (tostring(t))\r\n\t\telse\r\n\t\t\tfor i, v in pairs (t) do\r\n\t\t\t\tcgilua.put (\"&nbsp;&nbsp;\"..tostring(i)..\" = \"..tostring(v)..\"<br>\\n\")\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "cgilua.put (\"Library <tt><b>\"..libname..\"</b></tt> not found<br>\\n\"..\r\n\t\t\terr)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "cgilua.put (\"Library <tt><b>\"..libname..\"</b></tt><br>\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "local t = getfield (_G, libname)",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "if type(t) ~= \"table\" then\r\n\t\t\tcgilua.put (tostring(t))\r\n\t\telse\r\n\t\t\tfor i, v in pairs (t) do\r\n\t\t\t\tcgilua.put (\"&nbsp;&nbsp;\"..tostring(i)..\" = \"..tostring(v)..\"<br>\\n\")\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "cgilua.put (tostring(t))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "for i, v in pairs (t) do\r\n\t\t\t\tcgilua.put (\"&nbsp;&nbsp;\"..tostring(i)..\" = \"..tostring(v)..\"<br>\\n\")\r\n\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 17,
+    "text": "cgilua.put (\"&nbsp;&nbsp;\"..tostring(i)..\" = \"..tostring(v)..\"<br>\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "cgilua.put (\"\\n<p>\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 21,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "gfind",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "put",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "htmlheader",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require container"
+  } ]
+}

@@ -1,0 +1,425 @@
+{
+  "_filename": "gen_dump.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luanativeobjects/native_objects/gen_dump.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "assigns",
+    "to": 42
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "gen_dump",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function write(...)\r\n\tio.write((\"  \"):rep(depth))\r\n\tio.write(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "io.write((\"  \"):rep(depth))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "io.write(...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function(self, rec, parent)\r\n\twrite(rec._rec_type .. \" {\\n\")\r\n\tdepth = depth + 1\r\n\t-- dump rec info\r\n\tfor k,v in pairs(rec) do\r\n\t\tif k == '_rec_type' then\r\n\t\telseif k == 'c_type_rec' then\r\n\t\t\twrite(k,' = ', tostring(v._rec_type), ' = {\\n')\r\n\t\t\tdepth = depth + 1\r\n\t\t\twrite('name = \"', tostring(v.name), '\"\\n')\r\n\t\t\twrite('c_type = \"', tostring(v.c_type), '\"\\n')\r\n\t\t\twrite('lang_type = \"', tostring(v.lang_type), '\"\\n')\r\n\t\t\tdepth = depth - 1\r\n\t\t\twrite('}\\n')\r\n\t\telseif is_record(v) then\r\n\t\telseif type(v) == 'function' then\r\n\t\telseif type(v) == 'table' then\r\n\t\telse\r\n\t\t\twrite(tostring(k),' = \"', tostring(v), '\"\\n')\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "write(rec._rec_type .. \" {\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "depth = depth + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "for k,v in pairs(rec) do\r\n\t\tif k == '_rec_type' then\r\n\t\telseif k == 'c_type_rec' then\r\n\t\t\twrite(k,' = ', tostring(v._rec_type), ' = {\\n')\r\n\t\t\tdepth = depth + 1\r\n\t\t\twrite('name = \"', tostring(v.name), '\"\\n')\r\n\t\t\twrite('c_type = \"', tostring(v.c_type), '\"\\n')\r\n\t\t\twrite('lang_type = \"', tostring(v.lang_type), '\"\\n')\r\n\t\t\tdepth = depth - 1\r\n\t\t\twrite('}\\n')\r\n\t\telseif is_record(v) then\r\n\t\telseif type(v) == 'function' then\r\n\t\telseif type(v) == 'table' then\r\n\t\telse\r\n\t\t\twrite(tostring(k),' = \"', tostring(v), '\"\\n')\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 10,
+    "text": "if k == '_rec_type' then\r\n\t\telseif k == 'c_type_rec' then\r\n\t\t\twrite(k,' = ', tostring(v._rec_type), ' = {\\n')\r\n\t\t\tdepth = depth + 1\r\n\t\t\twrite('name = \"', tostring(v.name), '\"\\n')\r\n\t\t\twrite('c_type = \"', tostring(v.c_type), '\"\\n')\r\n\t\t\twrite('lang_type = \"', tostring(v.lang_type), '\"\\n')\r\n\t\t\tdepth = depth - 1\r\n\t\t\twrite('}\\n')\r\n\t\telseif is_record(v) then\r\n\t\telseif type(v) == 'function' then\r\n\t\telseif type(v) == 'table' then\r\n\t\telse\r\n\t\t\twrite(tostring(k),' = \"', tostring(v), '\"\\n')\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "write(k,' = ', tostring(v._rec_type), ' = {\\n')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "write('name = \"', tostring(v.name), '\"\\n')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "write('c_type = \"', tostring(v.c_type), '\"\\n')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "write('lang_type = \"', tostring(v.lang_type), '\"\\n')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "depth = depth - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "write('}\\n')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "write(tostring(k),' = \"', tostring(v), '\"\\n')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "function(self, rec, parent)\r\n\tdepth = depth - 1\r\n\twrite(\"}\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "write(\"}\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function(self, rec, parent)\r\n\tlocal src = rec.src\r\n\tif type(src) == 'table' then src = table.concat(src) end\r\n\twrite('c_source = \"', src, '\"\\n')\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "local src = rec.src",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "if type(src) == 'table' then src = table.concat(src) end",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "src = table.concat(src)",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "write('c_source = \"', src, '\"\\n')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function(self, rec, parent)\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 31,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "process_records",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "is_record",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "number"
+  } ]
+}

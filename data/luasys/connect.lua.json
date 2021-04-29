@@ -1,0 +1,233 @@
+{
+  "_filename": "connect.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasys/test/sock/connect.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 10
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "requires",
+    "to": 20
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "connect",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function on_connect(evq, evid, fd, R, W, timeout)\r\n\tif timeout then error\"Timeout\" end\r\n\r\n\tlocal errno = fd:sockopt(\"error\")\r\n\tif errno ~= 0 then\r\n\t    error(sys.strerror(errno))\r\n\tend\r\n    end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "if timeout then error\"Timeout\" end",
+    "type": "statement:if"
+  }, {
+    "id": 4,
+    "text": "error\"Timeout\"",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "local errno = fd:sockopt(\"error\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "if errno ~= 0 then\r\n\t    error(sys.strerror(errno))\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "error(sys.strerror(errno))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 10,
+    "text": "sys",
+    "type": "module"
+  }, {
+    "id": 11,
+    "text": "getaddrinfo",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "strerror",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "addr",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "event_queue",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "handle",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "sock",
+    "type": "module"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

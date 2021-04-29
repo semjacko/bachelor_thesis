@@ -1,0 +1,1193 @@
+{
+  "_filename": "inspect.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luabind/examples/filesystem/inspect.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 86,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 94,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 94,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 98,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 98,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 106
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 115
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 81,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 81
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 81
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 81
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 112
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 119
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 119
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 119
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 116
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 117
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 117
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 118
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 64,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 86,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 120
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 114
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 101
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 39
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 43
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 55
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 61
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 64
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 77
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 81
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 86
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 94
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 96
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 98
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 121
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 122
+  }, {
+    "from": 121,
+    "label": "initializes",
+    "to": 123
+  }, {
+    "from": 121,
+    "label": "initializes",
+    "to": 124
+  }, {
+    "from": 124,
+    "label": "assigns",
+    "to": 125
+  }, {
+    "from": 121,
+    "label": "initializes",
+    "to": 126
+  }, {
+    "from": 74,
+    "label": "hasArgument",
+    "to": 94
+  }, {
+    "from": 90,
+    "label": "hasArgument",
+    "to": 96
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "inspect",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function inspector:__init(name)\r\n    self.name = name\r\n    self.warnings = {}\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "self.name = name",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "self.warnings = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function inspector:warning(path, str)\r\n    table.insert( self.warnings, { path, str } )\r\n  end",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "table.insert( self.warnings, { path, str } )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function inspector:report()\r\n    local output = function(_,x)\r\n        local name = x[1]:string()\r\n        print(name .. \": \" .. x[2])\r\n    end\r\n\r\n    local cmp = function(a,b)\r\n        return a[1]:string() < b[1]:string()\r\n    end\r\n\r\n    local violations\r\n\r\n    if table.getn(self.warnings) ~= 0 then\r\n      violations = table.getn(self.warnings) .. \" violations\"\r\n    else\r\n      violations = \"no violations\"\r\n    end\r\n\r\n    print(\"\\n-- \" .. self.name .. \" [\" .. violations .. \"]\\n\")\r\n\r\n    table.sort(self.warnings, cmp)\r\n    table.foreach(self.warnings, output)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local output = function(_,x)\r\n        local name = x[1]:string()\r\n        print(name .. \": \" .. x[2])\r\n    end",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local name = x[1]:string()",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "print(name .. \": \" .. x[2])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "local cmp = function(a,b)\r\n        return a[1]:string() < b[1]:string()\r\n    end",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 15,
+    "text": "local violations",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "if table.getn(self.warnings) ~= 0 then\r\n      violations = table.getn(self.warnings) .. \" violations\"\r\n    else\r\n      violations = \"no violations\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "violations = table.getn(self.warnings) .. \" violations\"",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "violations = \"no violations\"",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "print(\"\\n-- \" .. self.name .. \" [\" .. violations .. \"]\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "table.sort(self.warnings, cmp)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "table.foreach(self.warnings, output)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function(_,x)\r\n        local name = x[1]:string()\r\n        print(name .. \": \" .. x[2])\r\n    end",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function(a,b)\r\n        return a[1]:string() < b[1]:string()\r\n    end",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function filename_length:__init(n)\r\n    super(\"filename length (\" .. n .. \" characters)\")\r\n    self.maxlen = n\r\n  end",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "super(\"filename length (\" .. n .. \" characters)\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "self.maxlen = n",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function filename_length:inspect(path)\r\n    local n = string.len(path:leaf())\r\n      if n > self.maxlen then\r\n        self:warning(path, n .. \" characters in filename\")\r\n      end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "local n = string.len(path:leaf())",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "if n > self.maxlen then\r\n        self:warning(path, n .. \" characters in filename\")\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "self:warning(path, n .. \" characters in filename\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "function filename_case:__init()\r\n    super(\"filename case\")\r\n  end",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "super(\"filename case\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 39,
+    "text": "function filename_case:inspect(path)\r\n    if string.lower(path:leaf()) ~= path:leaf() then\r\n      self:warning(path, \"uppercase letters\")\r\n    end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 40,
+    "text": "if string.lower(path:leaf()) ~= path:leaf() then\r\n      self:warning(path, \"uppercase letters\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 41,
+    "text": "self:warning(path, \"uppercase letters\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 43,
+    "text": "function tab_inspector:__init()\r\n    super(\"tab inspector\")\r\n  end",
+    "type": "function"
+  }, {
+    "id": 44,
+    "text": "super(\"tab inspector\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 46,
+    "text": "function tab_inspector:inspect(path)\r\n    if has_endings(path:leaf(), \".hpp\", \".cpp\") then\r\n      for line in io.lines(path:string()) do\r\n        if string.find(line, '\\t') ~= nil then\r\n          self:warning(path, \"tabs in file\")\r\n          return\r\n        end\r\n      end\r\n    end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "if has_endings(path:leaf(), \".hpp\", \".cpp\") then\r\n      for line in io.lines(path:string()) do\r\n        if string.find(line, '\\t') ~= nil then\r\n          self:warning(path, \"tabs in file\")\r\n          return\r\n        end\r\n      end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 48,
+    "text": "for line in io.lines(path:string()) do\r\n        if string.find(line, '\\t') ~= nil then\r\n          self:warning(path, \"tabs in file\")\r\n          return\r\n        end\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 49,
+    "text": "if string.find(line, '\\t') ~= nil then\r\n          self:warning(path, \"tabs in file\")\r\n          return\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 50,
+    "text": "self:warning(path, \"tabs in file\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "function line_length_inspector:__init(n)\r\n    super(\"line length inspector (\" .. n .. \" characters)\")\r\n    self.maxlen = n\r\n  end",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "super(\"line length inspector (\" .. n .. \" characters)\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 55,
+    "text": "function line_length_inspector:inspect(path)\r\n    if has_endings(path:leaf(), \".hpp\", \".cpp\") then\r\n      for line in io.lines(path:string()) do\r\n        if string.len(line) > self.maxlen then\r\n          self:warning(path, \"lines too long \" .. string.len(line))\r\n          return\r\n        end\r\n      end\r\n    end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 56,
+    "text": "if has_endings(path:leaf(), \".hpp\", \".cpp\") then\r\n      for line in io.lines(path:string()) do\r\n        if string.len(line) > self.maxlen then\r\n          self:warning(path, \"lines too long \" .. string.len(line))\r\n          return\r\n        end\r\n      end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 57,
+    "text": "for line in io.lines(path:string()) do\r\n        if string.len(line) > self.maxlen then\r\n          self:warning(path, \"lines too long \" .. string.len(line))\r\n          return\r\n        end\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 58,
+    "text": "if string.len(line) > self.maxlen then\r\n          self:warning(path, \"lines too long \" .. string.len(line))\r\n          return\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 59,
+    "text": "self:warning(path, \"lines too long \" .. string.len(line))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 61,
+    "text": "function define_inspector:__init()\r\n    super(\"define inspector\")\r\n  end",
+    "type": "function"
+  }, {
+    "id": 62,
+    "text": "super(\"define inspector\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 64,
+    "text": "function define_inspector:inspect(path)\r\n    if has_endings(path:leaf(), \".hpp\") then\r\n\r\n      local defs = {}\r\n\r\n      for line in io.lines(path:string()) do\r\n        local pos, _, def = string.find(line, \"#%s*define%s+([%w_]+)\")\r\n        if pos ~= nil then defs[def] = true end\r\n        local pos, _, def = string.find(line, \"#%s*undef%s+([%w_]+)\")\r\n        if pos ~= nil then defs[def] = nil end\r\n      end\r\n\r\n      table.foreach(defs, function(def)\r\n              self:warning(path, def)\r\n            end)\r\n    end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 65,
+    "text": "if has_endings(path:leaf(), \".hpp\") then\r\n\r\n      local defs = {}\r\n\r\n      for line in io.lines(path:string()) do\r\n        local pos, _, def = string.find(line, \"#%s*define%s+([%w_]+)\")\r\n        if pos ~= nil then defs[def] = true end\r\n        local pos, _, def = string.find(line, \"#%s*undef%s+([%w_]+)\")\r\n        if pos ~= nil then defs[def] = nil end\r\n      end\r\n\r\n      table.foreach(defs, function(def)\r\n              self:warning(path, def)\r\n            end)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 66,
+    "text": "local defs = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 67,
+    "text": "for line in io.lines(path:string()) do\r\n        local pos, _, def = string.find(line, \"#%s*define%s+([%w_]+)\")\r\n        if pos ~= nil then defs[def] = true end\r\n        local pos, _, def = string.find(line, \"#%s*undef%s+([%w_]+)\")\r\n        if pos ~= nil then defs[def] = nil end\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 68,
+    "text": "local pos, _, def = string.find(line, \"#%s*define%s+([%w_]+)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 69,
+    "text": "if pos ~= nil then defs[def] = true end",
+    "type": "statement:if"
+  }, {
+    "id": 70,
+    "text": "defs[def] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 71,
+    "text": "local pos, _, def = string.find(line, \"#%s*undef%s+([%w_]+)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 72,
+    "text": "if pos ~= nil then defs[def] = nil end",
+    "type": "statement:if"
+  }, {
+    "id": 73,
+    "text": "defs[def] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "table.foreach(defs, function(def)\r\n              self:warning(path, def)\r\n            end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 75,
+    "text": "self:warning(path, def)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 77,
+    "text": "function file_ending(name)\r\n  local pos = string.find(name, \"%.\")\r\n  if pos == nil then return \"\"\r\n  else\r\n    return string.sub(name, pos)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 78,
+    "text": "local pos = string.find(name, \"%.\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 79,
+    "text": "if pos == nil then return \"\"\r\n  else\r\n    return string.sub(name, pos)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 81,
+    "text": "function has_endings(name, ...)\r\n  local ending = file_ending(name)\r\n  for _,i in arg do\r\n    if ending == i then return true end\r\n  end\r\n  return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 82,
+    "text": "local ending = file_ending(name)",
+    "type": "statement:localassign"
+  }, {
+    "id": 83,
+    "text": "for _,i in arg do\r\n    if ending == i then return true end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 84,
+    "text": "if ending == i then return true end",
+    "type": "statement:if"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 86,
+    "text": "function recurse_dir(path)\r\n  for i in path.contents do\r\n    if i:is_directory() then recurse_dir(i)\r\n    else \r\n      table.foreach(inspectors, function(_,x)\r\n              x:inspect(i)\r\n            end)\r\n      number_of_files = number_of_files + 1\r\n    end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 87,
+    "text": "for i in path.contents do\r\n    if i:is_directory() then recurse_dir(i)\r\n    else \r\n      table.foreach(inspectors, function(_,x)\r\n              x:inspect(i)\r\n            end)\r\n      number_of_files = number_of_files + 1\r\n    end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 88,
+    "text": "if i:is_directory() then recurse_dir(i)\r\n    else \r\n      table.foreach(inspectors, function(_,x)\r\n              x:inspect(i)\r\n            end)\r\n      number_of_files = number_of_files + 1\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 89,
+    "text": "recurse_dir(i)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 90,
+    "text": "table.foreach(inspectors, function(_,x)\r\n              x:inspect(i)\r\n            end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 91,
+    "text": "x:inspect(i)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 92,
+    "text": "number_of_files = number_of_files + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 94,
+    "text": "function(def)\r\n              self:warning(path, def)\r\n            end",
+    "type": "function"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 96,
+    "text": "function(_,x)\r\n              x:inspect(i)\r\n            end",
+    "type": "function"
+  }, {
+    "id": 97,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 98,
+    "text": "function(_,i)\r\n        i:report()\r\n      end",
+    "type": "function"
+  }, {
+    "id": 99,
+    "text": "i:report()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 102,
+    "text": "lower",
+    "type": "global function"
+  }, {
+    "id": 103,
+    "text": "lines",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "initial_path",
+    "type": "global function"
+  }, {
+    "id": 105,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 106,
+    "text": "tab_inspector",
+    "type": "global function"
+  }, {
+    "id": 107,
+    "text": "sort",
+    "type": "global function"
+  }, {
+    "id": 108,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 109,
+    "text": "path",
+    "type": "global function"
+  }, {
+    "id": 110,
+    "text": "super",
+    "type": "global function"
+  }, {
+    "id": 111,
+    "text": "define_inspector",
+    "type": "global function"
+  }, {
+    "id": 112,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 113,
+    "text": "line_length_inspector",
+    "type": "global function"
+  }, {
+    "id": 114,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 115,
+    "text": "class",
+    "type": "global function"
+  }, {
+    "id": 116,
+    "text": "filename_length",
+    "type": "global function"
+  }, {
+    "id": 117,
+    "text": "getn",
+    "type": "global function"
+  }, {
+    "id": 118,
+    "text": "filename_case",
+    "type": "global function"
+  }, {
+    "id": 119,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 120,
+    "text": "foreach",
+    "type": "global function"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

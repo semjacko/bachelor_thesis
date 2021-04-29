@@ -1,0 +1,197 @@
+{
+  "_filename": "cl_gc_error.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/cl_gc_error.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 5,
+    "label": "hasArgument",
+    "to": 2
+  }, {
+    "from": 9,
+    "label": "hasArgument",
+    "to": 2
+  }, {
+    "from": 9,
+    "label": "hasArgument",
+    "to": 4
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cl_gc_error",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function() error('gc error') end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "error('gc error')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "function()\r\n    setmetatable({}, { __gc = function() error('gc error') end})\r\n    collectgarbage()\r\n    collectgarbage()\r\n  end",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "setmetatable({}, { __gc = function() error('gc error') end})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "collectgarbage()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function()\r\n  it('throws error in __gc metamethod', function()\r\n    setmetatable({}, { __gc = function() error('gc error') end})\r\n    collectgarbage()\r\n    collectgarbage()\r\n  end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "it('throws error in __gc metamethod', function()\r\n    setmetatable({}, { __gc = function() error('gc error') end})\r\n    collectgarbage()\r\n    collectgarbage()\r\n  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 12,
+    "text": "it",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "describe",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "collectgarbage",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "require container"
+  } ]
+}

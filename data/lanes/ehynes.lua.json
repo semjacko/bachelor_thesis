@@ -1,0 +1,349 @@
+{
+  "_filename": "ehynes.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lanes/tests/ehynes.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lanes",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "ehynes",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function( ...)\r\n\t-- aggregrate all strings together, separated by \",\" as well as tables\r\n\t-- the strings are a list of libraries to open\r\n\t-- the tables contain the lane options\r\n\tlocal opt = {}\r\n\tlocal libs = nil\r\n\r\n\tlocal n = select( '#', ...)\r\n\r\n\t-- we need at least a function\r\n\tif n == 0 then\r\n\t\terror( \"No parameters!\", 2)\r\n\tend\r\n\r\n\t-- all arguments but the last must be nil, strings, or tables\r\n\tfor i = 1, n - 1 do\r\n\t\tlocal v = select( i, ...)\r\n\t\tlocal tv = type( v)\r\n\t\tif tv == \"string\" then\r\n\t\t\tlibs = libs and libs .. \",\" .. v or v\r\n\t\telseif tv == \"table\" then\r\n\t\t\tfor k, vv in pairs( v) do\r\n\t\t\t\topt[k]= vv\r\n\t\t\tend\r\n\t\telseif v == nil then\r\n\t\t\t-- skip\r\n\t\telse\r\n\t\t\terror( \"Bad parameter \" .. i .. \": \" .. tv .. \" \" .. string_format( \"%q\", tostring( v)), 2)\r\n\t\tend\r\n\tend\r\n\r\n\t-- the last argument should be a function or a string\r\n\tlocal func = select( n, ...)\r\n\tlocal functype = type( func)\r\n\tif functype ~= \"function\" and functype ~= \"string\" then\r\n\t\terror( \"Last parameter not function or string: \" .. functype .. \" \" .. string_format( \"%q\", tostring( func)), 2)\r\n\tend\r\n\r\n\t-- check that the caller only provides reserved library names, and those only once\r\n\t-- \"*\" is a special case that doesn't require individual checking\r\n\tif libs and libs ~= \"*\" then\r\n\t\tlocal found = {}\r\n\t\tfor s in string_gmatch(libs, \"[%a%d.]+\") do\r\n\t\t\tif not valid_libs[s] then\r\n\t\t\t\terror( \"Bad library name: \" .. s, 2)\r\n\t\t\telse\r\n\t\t\t\tfound[s] = (found[s] or 0) + 1\r\n\t\t\t\tif found[s] > 1 then\r\n\t\t\t\t\terror( \"libs specification contains '\" .. s .. \"' more than once\", 2)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\r\n\t-- validate that each option is known and properly valued\r\n\tfor k, v in pairs( opt) do\r\n\t\tlocal validator = opt_validators[k]\r\n\t\tif not validator then\r\n\t\t\terror( (type( k) == \"number\" and \"Unkeyed option: \" .. type( v) .. \" \" .. string_format( \"%q\", tostring( v)) or \"Bad '\" .. tostring( k) .. \"' option\"), 2)\r\n\t\telse\r\n\t\t\topt[k] = validator( v)\r\n\t\tend\r\n\tend\r\n\r\n\tlocal cancelstep, priority, globals, package, required, gc_cb = opt.cancelstep, opt.priority, opt.globals, opt.package or package, opt.required, opt.gc_cb\r\n\treturn function( ...)\r\n\t\t-- must pass functions args last else they will be truncated to the first one\r\n\t\treturn core_lane_new( func, libs, cancelstep, priority, globals, package, required, gc_cb, ...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local function PRINT_FMT( fmt, ... )\r\n    io.stderr:write( string.format(fmt,...)..\"\\n\" )\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "io.stderr:write( string.format(fmt,...)..\"\\n\" )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "local function logf(s, f, ...)\r\n    os.execute('sleep 1')\r\n    PRINT_FMT( \"*** %s\", s )\r\n    f(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "os.execute('sleep 1')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "PRINT_FMT( \"*** %s\", s )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "f(...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function (message_name)\r\n        PRINT_FMT( 'receiver for message %s entered', message_name )\r\n        local n = 1\r\n        while linda:receive(message_name) do\r\n            PRINT_FMT( '%s %d received', message_name, n )\r\n            n = n + 1\r\n        end\r\n    end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "PRINT_FMT( 'receiver for message %s entered', message_name )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "local n = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "while linda:receive(message_name) do\r\n            PRINT_FMT( '%s %d received', message_name, n )\r\n            n = n + 1\r\n        end",
+    "type": "statement:while"
+  }, {
+    "id": 16,
+    "text": "PRINT_FMT( '%s %d received', message_name, n )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "n = n + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "function() end",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 21,
+    "text": "linda",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "configure",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "receiver_gen",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "execute",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "f",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

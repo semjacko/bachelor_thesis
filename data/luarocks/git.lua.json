@@ -1,0 +1,669 @@
+{
+  "_filename": "git.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/fetch/git.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 45,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 66
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "initializes",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "requires",
+    "to": 65
+  }, {
+    "from": 67,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "requires",
+    "to": 64
+  }, {
+    "from": 67,
+    "label": "initializes",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "requires",
+    "to": 63
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "git",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function base_name(pathname)\r\n   assert(type(pathname) == \"string\")\r\n\r\n   local base = pathname:gsub(\"[/\\\\]*$\", \"\"):match(\".*[/\\\\]([^/\\\\]*)\")\r\n   return base or pathname\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function path(...)\r\n   local t = {...}\r\n   while t[1] == \"\" do\r\n      table.remove(t, 1)\r\n   end\r\n   return (table.concat(t, \"/\"):gsub(\"([^:])/+\", \"%1/\"):gsub(\"^/+\", \"/\"):gsub(\"/*$\", \"\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local function git_can_clone_by_tag(git_cmd)\r\n   local version_string = io.popen(git_cmd..' --version'):read()\r\n   local major, minor, tiny = version_string:match('(%d-)%.(%d+)%.?(%d*)')\r\n   major, minor, tiny = tonumber(major), tonumber(minor), tonumber(tiny) or 0\r\n   local value = major > 1 or (major == 1 and (minor > 7 or (minor == 7 and tiny >= 10)))\r\n   git_can_clone_by_tag = function() return value end\r\n   return value\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local version_string = io.popen(git_cmd..' --version'):read()",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local major, minor, tiny = version_string:match('(%d-)%.(%d+)%.?(%d*)')",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "major, minor, tiny = tonumber(major), tonumber(minor), tonumber(tiny) or 0",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "local value = major > 1 or (major == 1 and (minor > 7 or (minor == 7 and tiny >= 10)))",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "git_can_clone_by_tag = function() return value end",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function() return value end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function get_sources(rockspec, extract, dest_dir)\r\n   assert(type(rockspec) == \"table\")\r\n   assert(type(dest_dir) == \"string\" or not dest_dir)\r\n\r\n   local git_cmd = rockspec.variables.GIT\r\n   local name_version = rockspec.name .. \"-\" .. rockspec.version\r\n   local module = dir.base_name(rockspec.source.url)\r\n   -- Strip off .git from base name if present\r\n   module = module:gsub(\"%.git$\", \"\")\r\n\r\n   local store_dir\r\n   if not dest_dir then\r\n      store_dir = fs.make_temp_dir(name_version)\r\n      if not store_dir then\r\n         return nil, \"Failed creating temporary directory.\"\r\n      end\r\n      util.schedule_function(fs.delete, store_dir)\r\n   else\r\n      store_dir = dest_dir\r\n   end\r\n   store_dir = fs.absolute_name(store_dir)\r\n   local ok, err = fs.change_dir(store_dir)\r\n   if not ok then return nil, err end\r\n\r\n   local command = {git_cmd, \"clone\", \"--depth=1\", rockspec.source.url, module}\r\n   local tag_or_branch = rockspec.source.tag or rockspec.source.branch\r\n   -- If the tag or branch is explicitly set to \"master\" in the rockspec, then\r\n   -- we can avoid passing it to Git since it's the default.\r\n   if tag_or_branch == \"master\" then tag_or_branch = nil end\r\n   if tag_or_branch then\r\n      if git_can_clone_by_tag(git_cmd) then\r\n         -- The argument to `--branch` can actually be a branch or a tag as of\r\n         -- Git 1.7.10.\r\n         table.insert(command, 4, \"--branch=\" .. tag_or_branch)\r\n      end\r\n   end\r\n   if not fs.execute(unpack(command)) then\r\n      return nil, \"Failed cloning git repository.\"\r\n   end\r\n   local ok, err = fs.change_dir(module)\r\n   if not ok then return nil, err end\r\n   if tag_or_branch and not git_can_clone_by_tag() then\r\n      local checkout_command = {git_cmd, \"checkout\", tag_or_branch}\r\n      if not fs.execute(unpack(checkout_command)) then\r\n         return nil, 'Failed to check out the \"' .. tag_or_branch ..'\" tag or branch.'\r\n      end\r\n   end\r\n\r\n   fs.delete(dir.path(store_dir, module, \".git\"))\r\n   fs.delete(dir.path(store_dir, module, \".gitignore\"))\r\n   fs.pop_dir()\r\n   fs.pop_dir()\r\n   return module, store_dir\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "assert(type(rockspec) == \"table\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "assert(type(dest_dir) == \"string\" or not dest_dir)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "local git_cmd = rockspec.variables.GIT",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "local name_version = rockspec.name .. \"-\" .. rockspec.version",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "local module = dir.base_name(rockspec.source.url)",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "module = module:gsub(\"%.git$\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "local store_dir",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "if not dest_dir then\r\n      store_dir = fs.make_temp_dir(name_version)\r\n      if not store_dir then\r\n         return nil, \"Failed creating temporary directory.\"\r\n      end\r\n      util.schedule_function(fs.delete, store_dir)\r\n   else\r\n      store_dir = dest_dir\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "store_dir = fs.make_temp_dir(name_version)",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "if not store_dir then\r\n         return nil, \"Failed creating temporary directory.\"\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "util.schedule_function(fs.delete, store_dir)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "store_dir = dest_dir",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "store_dir = fs.absolute_name(store_dir)",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "local ok, err = fs.change_dir(store_dir)",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "if not ok then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "local command = {git_cmd, \"clone\", \"--depth=1\", rockspec.source.url, module}",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "local tag_or_branch = rockspec.source.tag or rockspec.source.branch",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "if tag_or_branch == \"master\" then tag_or_branch = nil end",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "tag_or_branch = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "if tag_or_branch then\r\n      if git_can_clone_by_tag(git_cmd) then\r\n         -- The argument to `--branch` can actually be a branch or a tag as of\r\n         -- Git 1.7.10.\r\n         table.insert(command, 4, \"--branch=\" .. tag_or_branch)\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "if git_can_clone_by_tag(git_cmd) then\r\n         -- The argument to `--branch` can actually be a branch or a tag as of\r\n         -- Git 1.7.10.\r\n         table.insert(command, 4, \"--branch=\" .. tag_or_branch)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "table.insert(command, 4, \"--branch=\" .. tag_or_branch)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 36,
+    "text": "if not fs.execute(unpack(command)) then\r\n      return nil, \"Failed cloning git repository.\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 37,
+    "text": "local ok, err = fs.change_dir(module)",
+    "type": "statement:localassign"
+  }, {
+    "id": 38,
+    "text": "if tag_or_branch and not git_can_clone_by_tag() then\r\n      local checkout_command = {git_cmd, \"checkout\", tag_or_branch}\r\n      if not fs.execute(unpack(checkout_command)) then\r\n         return nil, 'Failed to check out the \"' .. tag_or_branch ..'\" tag or branch.'\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "local checkout_command = {git_cmd, \"checkout\", tag_or_branch}",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "if not fs.execute(unpack(checkout_command)) then\r\n         return nil, 'Failed to check out the \"' .. tag_or_branch ..'\" tag or branch.'\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 41,
+    "text": "fs.delete(dir.path(store_dir, module, \".git\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 42,
+    "text": "fs.delete(dir.path(store_dir, module, \".gitignore\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 43,
+    "text": "fs.pop_dir()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 46,
+    "text": "function get_sources(rockspec, extract, dest_dir)\r\n   rockspec.source.url = rockspec.source.url:gsub(\"^git.file://\", \"\")\r\n   return git.get_sources(rockspec, extract, dest_dir)\r\nend",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "function fetch_sources(rockspec, extract, dest_dir)\r\n   assert(type(rockspec) == \"table\")\r\n   assert(type(extract) == \"boolean\")\r\n   assert(type(dest_dir) == \"string\" or not dest_dir)\r\n\r\n   local protocol = rockspec.source.protocol\r\n   local ok, proto\r\n   if is_basic_protocol(protocol) then\r\n      proto = require(\"luarocks.fetch\")\r\n   else\r\n      ok, proto = pcall(require, \"luarocks.fetch.\"..protocol:gsub(\"[+-]\", \"_\"))\r\n      if not ok then\r\n         return nil, \"Unknown protocol \"..protocol\r\n      end\r\n   end\r\n   \r\n   if cfg.only_sources_from\r\n   and rockspec.source.pathname\r\n   and #rockspec.source.pathname > 0 then\r\n      if #cfg.only_sources_from == 0 then\r\n         return nil, \"Can't download \"..rockspec.source.url..\" -- download from remote servers disabled\"\r\n      elseif rockspec.source.pathname:find(cfg.only_sources_from, 1, true) ~= 1 then\r\n         return nil, \"Can't download \"..rockspec.source.url..\" -- only downloading from \"..cfg.only_sources_from\r\n      end\r\n   end\r\n   return proto.get_sources(rockspec, extract, dest_dir)\r\nend",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "function make_temp_dir(name)\r\n   assert(type(name) == \"string\")\r\n   name = dir.normalize(name)\r\n\r\n   local temp_dir = (os.getenv(\"TMP\") or \"/tmp\") .. \"/luarocks_\" .. name:gsub(dir.separator, \"_\") .. \"-\" .. tostring(math.floor(math.random() * 10000))\r\n   local ok, err = fs.make_dir(temp_dir)\r\n   if ok then\r\n      return temp_dir\r\n   else\r\n      return nil, err\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "function execute(command, ...)\r\n   assert(type(command) == \"string\")\r\n   return fs.execute_string(quote_args(command, ...))\r\nend",
+    "type": "function"
+  }, {
+    "id": 50,
+    "text": "function change_dir(d)\r\n   table.insert(dir_stack, lfs.currentdir())\r\n   d = dir.normalize(d)\r\n   return lfs.chdir(d)\r\nend",
+    "type": "function"
+  }, {
+    "id": 51,
+    "text": "function pop_dir()\r\n   local d = table.remove(dir_stack)\r\n   if d then\r\n      lfs.chdir(d)\r\n      return true\r\n   else\r\n      return false\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 52,
+    "text": "function delete(name)\r\n   name = dir.normalize(name)\r\n   recursive_delete(name)\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "function schedule_function(f, ...)\r\n   assert(type(f) == \"function\")\r\n   \r\n   local item = { fn = f, args = {...} }\r\n   table.insert(scheduled_functions, item)\r\n   return item\r\nend",
+    "type": "function"
+  }, {
+    "id": 54,
+    "text": "absolute_name",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "popen",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "util)",
+    "type": "module"
+  }, {
+    "id": 64,
+    "text": "dir)",
+    "type": "module"
+  }, {
+    "id": 65,
+    "text": "fs)",
+    "type": "module"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

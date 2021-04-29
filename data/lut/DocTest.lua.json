@@ -1,0 +1,181 @@
+{
+  "_filename": "DocTest.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lut/test/fixtures/doc/foo/DocTest.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "assigns",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "assigns",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 21
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "DocTest",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function lib.new(params)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 4,
+    "text": "function lib.make(def)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function lib:isOK()\r\n\r\n  -- TODO: An orphan todo inside a function that should end in the function def.\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function lib:append(str)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function lib:complicated(alpha, beta, gamma)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "class",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

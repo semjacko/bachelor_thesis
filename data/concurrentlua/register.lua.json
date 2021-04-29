@@ -1,0 +1,617 @@
+{
+  "_filename": "register.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/concurrentlua/src/concurrent/register.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 42,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 43
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 46
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 50
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 51
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 52
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 53
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 54
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 55
+  }, {
+    "from": 44,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 56
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 57
+  }, {
+    "from": 56,
+    "label": "initializes",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "assigns",
+    "to": 59
+  }, {
+    "from": 56,
+    "label": "initializes",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "assigns",
+    "to": 61
+  }, {
+    "from": 56,
+    "label": "initializes",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "assigns",
+    "to": 63
+  }, {
+    "from": 56,
+    "label": "initializes",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "assigns",
+    "to": 65
+  }, {
+    "from": 56,
+    "label": "initializes",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "assigns",
+    "to": 67
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "register",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function register(name, pid)\r\n    if not concurrent.node() and not concurrent.getoption('connectall') then\r\n        return _register(name, pid)\r\n    end\r\n\r\n    if concurrent.whereis(name) then\r\n        return false\r\n    end\r\n    if not pid then\r\n        pid = concurrent.self()\r\n    end\r\n    if #concurrent.nodes() == 0 then\r\n        concurrent._register.names[name] = { pid, concurrent.node() }\r\n        return true\r\n    end\r\n    concurrent._distributed._process.spawn_system(register_process,\r\n        concurrent.self(), name, pid)\r\n    local msg = concurrent._scheduler.wait()\r\n    if msg.status then\r\n        concurrent._register.names[name] = pid\r\n    end\r\n    return msg.status, msg.errmsg\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function register_process(parent, name, pid)\r\n    local connections = concurrent._distributed._network.connections\r\n    local barriers = concurrent._scheduler.barriers\r\n    local locks = {}\r\n    local commits = {}\r\n    local n = 0\r\n\r\n    for k, _ in pairs(connections) do\r\n        locks[k] = false\r\n        commits[k] = false\r\n        n = n + 1\r\n    end\r\n\r\n    for k, _ in pairs(connections) do\r\n        concurrent.send({ -1, k }, { subject = 'REGISTER', phase = 'LOCK',\r\n             from = { pid = concurrent.self(), node = concurrent.node() },\r\n             name = name, pid = pid, node = concurrent.node() })\r\n    end\r\n\r\n    local i = 0\r\n    local timer = cltime.time() + concurrent.getoption('registertimeout')\r\n    repeat\r\n        local msg = concurrent.receive(timer - cltime.time())\r\n        if msg and msg.phase == 'LOCK' then\r\n            locks[msg.from.node] = true\r\n            i = i + 1\r\n        end\r\n    until cltime.time() >= timer or i >= n\r\n\r\n    for _, v in pairs(locks) do\r\n        if not v then\r\n            barriers[parent] = { status = false, errmsg = 'lock failed' }\r\n            return\r\n        end\r\n    end\r\n\r\n    for k, _ in pairs(connections) do\r\n        concurrent.send({ -1, k }, { subject = 'REGISTER', phase = 'COMMIT', \r\n            from = { pid = concurrent.self(), node = concurrent.node() },\r\n            name = name, pid = pid, node = concurrent.node() })\r\n    end\r\n\r\n    local i = 0\r\n    local timer = cltime.time() + concurrent.getoption('registertimeout')\r\n    repeat\r\n        local msg = concurrent.receive(timer - cltime.time())\r\n        if msg and msg.phase == 'COMMIT' then\r\n            commits[msg.from.node] = true\r\n            i = i + 1\r\n        end\r\n    until cltime.time() >= timer or i >= n\r\n\r\n    for _, v in pairs(commits) do\r\n        if not v then\r\n            barriers[parent] = { status = false, errmsg = 'commit failed' }\r\n            return\r\n        end\r\n    end\r\n\r\n    barriers[parent] = { status = true }\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function controller_register(msg)\r\n    if msg.phase == 'LOCK' then\r\n        if not concurrent.whereis(msg.name) and not nameslocks[msg.name] or\r\n            cltime.time() - nameslocks[msg.name][stamp] <\r\n            concurrent.getoption('registerlocktimeout') then\r\n            nameslocks[msg.name] = { pid = msg.pid, node = msg.node,\r\n                stamp = cltime.time() }\r\n            concurrent.send({ msg.from.pid, msg.from.node }, { phase = 'LOCK',\r\n                from = { node = concurrent.node() } })\r\n        end\r\n    elseif msg.phase == 'COMMIT' then\r\n        if nameslocks[msg.name] and\r\n            nameslocks[msg.name]['pid'] == msg.pid and\r\n            nameslocks[msg.name]['node'] == msg.node then\r\n            concurrent._register.register(msg.name, msg.pid)\r\n            concurrent.send({ msg.from.pid, msg.from.node }, { phase = 'COMMIT',\r\n                from = { node = concurrent.node() } })\r\n            nameslocks[msg.name] = nil\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function unregister(name)\r\n    if not concurrent.node() and not concurrent.getoption('connectall') then\r\n        return _unregister(name)\r\n    end\r\n\r\n    for k, v in pairs(concurrent._register.names) do\r\n        if name == k and concurrent.node() == v[2] then\r\n            if #concurrent.nodes() == 0 then\r\n                concurrent._register.names[name] = nil\r\n                return\r\n            end\r\n            concurrent._distributed._process.spawn_system(unregister_process,\r\n                concurrent.self(), k)\r\n            local msg = concurrent._scheduler.wait()\r\n            if msg.status then\r\n                concurrent._register.names[name] = nil\r\n            end\r\n            return msg.status, msg.errmsg\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function unregister_process(parent, name)\r\n    local connections = concurrent._distributed._network.connections\r\n    local barriers = concurrent._scheduler.barriers\r\n    local locks = {}\r\n    local commits = {}\r\n    local n = 0\r\n\r\n    for k, _ in pairs(connections) do\r\n        locks[k] = false\r\n        commits[k] = false\r\n        n = n + 1\r\n    end\r\n\r\n    for k, _ in pairs(connections) do\r\n        concurrent.send({ -1, k }, { subject = 'UNREGISTER', phase = 'LOCK', \r\n            from = { pid = concurrent.self(), node = concurrent.node() },\r\n            name = name })\r\n    end\r\n\r\n    local i = 0\r\n    local timer = cltime.time() + concurrent.getoption('registertimeout')\r\n    repeat\r\n        local msg = concurrent.receive(timer - cltime.time())\r\n        if msg and msg.phase == 'LOCK' then\r\n            locks[msg.from.node] = true\r\n            i = i + 1\r\n        end\r\n    until cltime.time() > timer or i >= n\r\n\r\n    for _, v in pairs(locks) do\r\n        if not v then\r\n            barriers[parent] = { status = false, errmsg = 'lock failed' }\r\n            return\r\n        end\r\n    end\r\n\r\n    for k, _ in pairs(connections) do\r\n        concurrent.send({ -1, k }, { subject = 'UNREGISTER', phase = 'COMMIT', \r\n            from = { pid = concurrent.self(), node = concurrent.node() },\r\n            name = name })\r\n    end\r\n\r\n    local i = 0\r\n    local timer = cltime.time() + concurrent.getoption('registertimeout')\r\n    repeat\r\n        local msg = concurrent.receive(timer - cltime.time())\r\n        if msg and msg.phase == 'COMMIT' then\r\n            commits[msg.from.node] = true\r\n            i = i + 1\r\n        end\r\n    until cltime.time() > timer or i >= n\r\n\r\n    for _, v in pairs(commits) do\r\n        if not v then\r\n            barriers[parent] = { status = false, errmsg = 'commit failed' }\r\n            return\r\n        end\r\n    end\r\n\r\n    barriers[parent] = { status = true }\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function controller_unregister(msg)\r\n    if msg.phase == 'LOCK' then\r\n        if concurrent.whereis(msg.name) and not nameslocks[msg.name] or\r\n            cltime.time() - nameslocks[msg.name][stamp] <\r\n            concurrent.getoption('registerlocktimeout') then\r\n            nameslocks[msg.name] = { pid = msg.pid, node = msg.node,\r\n                stamp = cltime.time() }\r\n            concurrent.send({ msg.from.pid, msg.from.node }, { phase = 'LOCK',\r\n                from = { node = concurrent.node() } })\r\n        end\r\n    elseif msg.phase == 'COMMIT' then\r\n        if nameslocks[msg.name] and\r\n            nameslocks[msg.name][pid] == msg.pid and\r\n            nameslocks[msg.name][node] == msg.node then\r\n            concurrent._register.unregister(msg.name)\r\n            concurrent.send({ msg.from.pid, msg.from.node }, { phase = 'COMMIT',\r\n                from = { node = concurrent.node() } })\r\n            nameslocks[msg.name] = nil\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function delete_all(deadnode)\r\n    for k, v in pairs(concurrent._register.names) do\r\n       if type(v) == 'table' and v[2] == deadnode then\r\n            delete(k)\r\n       end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function delete(name)\r\n    concurrent._register.names[name] = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function whereis(name)\r\n    if not concurrent.node() and not concurrent.getoption('connectall') then\r\n        return _whereis(name)\r\n    end\r\n\r\n    local names = concurrent._register.names\r\n    if type(name) == 'number' then\r\n        return name\r\n    end\r\n    if not names[name] then\r\n        return\r\n    end\r\n    if names[name][2] == concurrent.node() then\r\n        return names[name][1]\r\n    end\r\n    return names[name]\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 12,
+    "text": "function register(name, pid)\r\n    if whereis(name) then\r\n        return false\r\n    end\r\n    if not pid then\r\n        pid = concurrent.self()\r\n    end\r\n    names[name] = pid\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "if whereis(name) then\r\n        return false\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 15,
+    "text": "if not pid then\r\n        pid = concurrent.self()\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "pid = concurrent.self()",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "names[name] = pid",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "function unregister(name)\r\n    if not name then\r\n        name = concurrent.self()\r\n    end\r\n    for k, v in pairs(names) do\r\n        if name == k or name == v then\r\n            names[k] = nil\r\n            return true\r\n        end\r\n    end\r\n    return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "if not name then\r\n        name = concurrent.self()\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "name = concurrent.self()",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "for k, v in pairs(names) do\r\n        if name == k or name == v then\r\n            names[k] = nil\r\n            return true\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 23,
+    "text": "if name == k or name == v then\r\n            names[k] = nil\r\n            return true\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "names[k] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function registered()\r\n    local n = {}\r\n    for k, _ in pairs(names) do\r\n        table.insert(n, k)\r\n    end\r\n    return n\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "local n = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "for k, _ in pairs(names) do\r\n        table.insert(n, k)\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 29,
+    "text": "table.insert(n, k)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function whereis(name)\r\n    if type(name) == 'number' then\r\n        return name\r\n    end\r\n    if not names[name] then\r\n        return\r\n    end\r\n    return names[name]\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "if type(name) == 'number' then\r\n        return name\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "if not names[name] then\r\n        return\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 35,
+    "text": "self",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

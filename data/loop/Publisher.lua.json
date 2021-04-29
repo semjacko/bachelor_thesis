@@ -1,0 +1,297 @@
+{
+  "_filename": "Publisher.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/object/Publisher.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "assigns",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ObjectCache",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "Publisher",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function __newindex(self, key, value)\r\n\tfor _, object in pairs(self) do\r\n\t\tobject[key] = value\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "for _, object in pairs(self) do\r\n\t\tobject[key] = value\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 6,
+    "text": "object[key] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function __call(self, ...)\r\n\tfor _, object in pairs(self) do\r\n\t\tobject(...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "for _, object in pairs(self) do\r\n\t\tobject(...)\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 10,
+    "text": "object(...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function(self, ...)\r\n\t\t\tfor _, object in pairs(self) do\r\n\t\t\t\tobject[method](object, ...)\r\n\t\t\tend\r\n\t\tend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "for _, object in pairs(self) do\r\n\t\t\t\tobject[method](object, ...)\r\n\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 14,
+    "text": "object[method](object, ...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function(_, method)\r\n\t\treturn function(self, ...)\r\n\t\t\tfor _, object in pairs(self) do\r\n\t\t\t\tobject[method](object, ...)\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 20,
+    "text": "ObjectCache",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "object",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "object[method]",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

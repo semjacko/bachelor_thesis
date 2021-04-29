@@ -1,0 +1,117 @@
+{
+  "_filename": "test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-signal/test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "initializes",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "requires",
+    "to": 6
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function() io.stdout:write(\"bye!\\n\") os.exit(-1) end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "io.stdout:write(\"bye!\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "os.exit(-1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "signal",
+    "type": "module"
+  }, {
+    "id": 7,
+    "text": "signal",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "raise",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

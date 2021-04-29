@@ -1,0 +1,361 @@
+{
+  "_filename": "webserver.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-apr/examples/webserver.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "assigns",
+    "to": 39
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "webserver",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "apr",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function()\r\n    local client = assert(server:accept())\r\n    -- Read the HTTP request so that the client can receive data.\r\n    local request = assert(client:read(), \"Failed to receive request from client!\")\r\n    local method, location, protocol = assert(request:match '^(%w+)%s+(%S+)%s+(%S+)')\r\n    local headers = {}\r\n    for line in client:lines() do\r\n      local name, value = line:match '^(%S+):%s+(.-)$'\r\n      if not name then break end\r\n      table.insert(headers, '<dt>' .. name .. ':</dt><dd>' .. value .. '</dd>')\r\n    end\r\n    -- Generate the HTTP response.\r\n    table.sort(headers)\r\n    content = template:format(visitor, table.concat(headers))\r\n    client:write(protocol, ' 200 OK\\r\\n',\r\n                 'Content-Type: text/html\\r\\n',\r\n                 'Content-Length: ' .. #content .. '\\r\\n',\r\n                 'Connection: close\\r\\n',\r\n                 '\\r\\n',\r\n                 content)\r\n    assert(client:close())\r\n    visitor = visitor + 1\r\n  end",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local client = assert(server:accept())",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local request = assert(client:read(), \"Failed to receive request from client!\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local method, location, protocol = assert(request:match '^(%w+)%s+(%S+)%s+(%S+)')",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local headers = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "for line in client:lines() do\r\n      local name, value = line:match '^(%S+):%s+(.-)$'\r\n      if not name then break end\r\n      table.insert(headers, '<dt>' .. name .. ':</dt><dd>' .. value .. '</dd>')\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 9,
+    "text": "local name, value = line:match '^(%S+):%s+(.-)$'",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if not name then break end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "table.insert(headers, '<dt>' .. name .. ':</dt><dd>' .. value .. '</dd>')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "table.sort(headers)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "content = template:format(visitor, table.concat(headers))",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "client:write(protocol, ' 200 OK\\r\\n',\r\n                 'Content-Type: text/html\\r\\n',\r\n                 'Content-Length: ' .. #content .. '\\r\\n',\r\n                 'Connection: close\\r\\n',\r\n                 '\\r\\n',\r\n                 content)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "assert(client:close())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "visitor = visitor + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 19,
+    "text": "socket_create",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "sort",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

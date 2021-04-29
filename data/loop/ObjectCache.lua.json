@@ -1,0 +1,273 @@
+{
+  "_filename": "ObjectCache.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/collection/ObjectCache.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "assigns",
+    "to": 23
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 26,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 28,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 30,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 31,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 32,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ObjectCache",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function __index(self, key)\r\n\tif key ~= nil then\r\n\t\tlocal value = rawget(self, \"retrieve\")\r\n\t\tif value then\r\n\t\t\tvalue = value(self, key)\r\n\t\telse\r\n\t\t\tvalue = rawget(self, \"default\")\r\n\t\tend\r\n\t\trawset(self, key, value)\r\n\t\treturn value\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "if key ~= nil then\r\n\t\tlocal value = rawget(self, \"retrieve\")\r\n\t\tif value then\r\n\t\t\tvalue = value(self, key)\r\n\t\telse\r\n\t\t\tvalue = rawget(self, \"default\")\r\n\t\tend\r\n\t\trawset(self, key, value)\r\n\t\treturn value\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "local value = rawget(self, \"retrieve\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "if value then\r\n\t\t\tvalue = value(self, key)\r\n\t\telse\r\n\t\t\tvalue = rawget(self, \"default\")\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "value = value(self, key)",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "value = rawget(self, \"default\")",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "rawset(self, key, value)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 13,
+    "text": "rawget",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "value",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "rawset",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

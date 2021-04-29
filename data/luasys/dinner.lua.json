@@ -1,0 +1,273 @@
+{
+  "_filename": "dinner.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasys/test/thread/dinner.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 17
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "dinner",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function philosopher(num)\r\n\tprint(num, \"begin\")\r\n\tfor i = 1, NSPAGHETTI do\r\n\t    forks:get()\r\n\t    if forks:get(0) then\r\n\t\tprint(num, \"eat\")\r\n\t\tforks:put(1)\r\n\t    else\r\n\t\tprint(num, \"skip\")\r\n\t    end\r\n\t    forks:put(1)\r\n\t    thread.sleep(rand(10))\r\n\tend\r\n\tprint(num, \"end.\")\r\n\r\n\tn = n - 1\r\n\tif n == 0 then\r\n\t    print\"The End.\"\r\n\tend\r\n    end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "print(num, \"begin\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "for i = 1, NSPAGHETTI do\r\n\t    forks:get()\r\n\t    if forks:get(0) then\r\n\t\tprint(num, \"eat\")\r\n\t\tforks:put(1)\r\n\t    else\r\n\t\tprint(num, \"skip\")\r\n\t    end\r\n\t    forks:put(1)\r\n\t    thread.sleep(rand(10))\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 5,
+    "text": "forks:get()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "if forks:get(0) then\r\n\t\tprint(num, \"eat\")\r\n\t\tforks:put(1)\r\n\t    else\r\n\t\tprint(num, \"skip\")\r\n\t    end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "print(num, \"eat\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "forks:put(1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "print(num, \"skip\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "thread.sleep(rand(10))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "print(num, \"end.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "n = n - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "if n == 0 then\r\n\t    print\"The End.\"\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "print\"The End.\"",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 17,
+    "text": "sys",
+    "type": "module"
+  }, {
+    "id": 18,
+    "text": "random",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "data_pool",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "sleep",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "run",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "rand",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

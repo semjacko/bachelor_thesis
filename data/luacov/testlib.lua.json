@@ -1,0 +1,213 @@
+{
+  "_filename": "testlib.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luacov/tests/nested/testlib.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 13,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "assigns",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "represents",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "provides",
+    "to": 23
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 6
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "testlib",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function lib.f1()\r\n   local c = 3\r\n   return 4\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local c = 3",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function lib.f2()\r\n   local d = 5\r\n   return 6\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local d = 5",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 10,
+    "text": "f1",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "f2",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "interface"
+  } ]
+}

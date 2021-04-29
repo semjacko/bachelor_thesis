@@ -1,0 +1,357 @@
+{
+  "_filename": "SocketStream.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/serial/SocketStream.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 33,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 4
+  }, {
+    "from": 33,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 33,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Serializer",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "SocketStream",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "simple",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 5,
+    "text": "function class(class, ...)\r\n\tif select(\"#\", ...) > 1\r\n\t\tthen return base.rawnew(table.copy(MultipleClass, {...}), initclass(class))\r\n\t\telse return base.class(class, ...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function write(self, ...)\r\n\tfor i=1, select(\"#\", ...) do\r\n\t\tself.buffer[#self.buffer+1] = select(i, ...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "for i=1, select(\"#\", ...) do\r\n\t\tself.buffer[#self.buffer+1] = select(i, ...)\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 8,
+    "text": "self.buffer[#self.buffer+1] = select(i, ...)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function put(self, ...)\r\n\tself.buffer = {}\r\n\tself:serialize(...)\r\n\tassert(self.socket:send(table.concat(self.buffer)..\"\\0\\n\"))\r\n\tself.buffer = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "self.buffer = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "self:serialize(...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "assert(self.socket:send(table.concat(self.buffer)..\"\\0\\n\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "self.buffer = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function get(self)\r\n\tlocal lines = {}\r\n\tlocal line\r\n\trepeat\r\n\t\tline = assert(self.socket:receive())\r\n\t\tif line and line:find(\"%z$\") then\r\n\t\t\tlines[#lines+1] = line:sub(1, #line-1)\r\n\t\t\tbreak\r\n\t\tend\r\n\t\tlines[#lines+1] = line\r\n\tuntil not line\r\n\treturn assert(self:load(\"return \"..table.concat(lines, \"\\n\")))()\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "local lines = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "local line",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "repeat\r\n\t\tline = assert(self.socket:receive())\r\n\t\tif line and line:find(\"%z$\") then\r\n\t\t\tlines[#lines+1] = line:sub(1, #line-1)\r\n\t\t\tbreak\r\n\t\tend\r\n\t\tlines[#lines+1] = line\r\n\tuntil not line",
+    "type": "statement:repeat"
+  }, {
+    "id": 20,
+    "text": "line = assert(self.socket:receive())",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "if line and line:find(\"%z$\") then\r\n\t\t\tlines[#lines+1] = line:sub(1, #line-1)\r\n\t\t\tbreak\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "lines[#lines+1] = line:sub(1, #line-1)",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "lines[#lines+1] = line",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 27,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

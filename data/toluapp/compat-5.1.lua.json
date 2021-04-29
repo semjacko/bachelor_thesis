@@ -1,0 +1,321 @@
+{
+  "_filename": "compat-5.1.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/toluapp/src/bin/lua/compat-5.1.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "assigns",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "assigns",
+    "to": 32
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "compat-5",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function pp_dofile(path)\r\n\r\n\tlocal loaded = false\r\n\tlocal getfile = function()\r\n\r\n\t\tif loaded then\r\n\t\t\treturn\r\n\t\telse\r\n\t\t\tlocal file,err = io.open(path)\r\n\t\t\tif not file then\r\n\t\t\t\terror(\"error loading file \"..path..\": \"..err)\r\n\t\t\tend\r\n\t\t\tlocal ret = file:read(\"*a\")\r\n\t\t\tfile:close()\r\n\r\n\t\t\tret = string.gsub(ret, \"%.%.%.%s*%)\", \"...) local arg = {n=select('#', ...), ...};\")\r\n\r\n\t\t\tloaded = true\r\n\t\t\treturn ret\r\n\t\tend\r\n\tend\r\n\r\n\tlocal f = load(getfile, path)\r\n\tif not f then\r\n\t\r\n\t\terror(\"error loading file \"..path)\r\n\tend\r\n\treturn f()\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local loaded = false",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local getfile = function()\r\n\r\n\t\tif loaded then\r\n\t\t\treturn\r\n\t\telse\r\n\t\t\tlocal file,err = io.open(path)\r\n\t\t\tif not file then\r\n\t\t\t\terror(\"error loading file \"..path..\": \"..err)\r\n\t\t\tend\r\n\t\t\tlocal ret = file:read(\"*a\")\r\n\t\t\tfile:close()\r\n\r\n\t\t\tret = string.gsub(ret, \"%.%.%.%s*%)\", \"...) local arg = {n=select('#', ...), ...};\")\r\n\r\n\t\t\tloaded = true\r\n\t\t\treturn ret\r\n\t\tend\r\n\tend",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if loaded then\r\n\t\t\treturn\r\n\t\telse\r\n\t\t\tlocal file,err = io.open(path)\r\n\t\t\tif not file then\r\n\t\t\t\terror(\"error loading file \"..path..\": \"..err)\r\n\t\t\tend\r\n\t\t\tlocal ret = file:read(\"*a\")\r\n\t\t\tfile:close()\r\n\r\n\t\t\tret = string.gsub(ret, \"%.%.%.%s*%)\", \"...) local arg = {n=select('#', ...), ...};\")\r\n\r\n\t\t\tloaded = true\r\n\t\t\treturn ret\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "local file,err = io.open(path)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if not file then\r\n\t\t\t\terror(\"error loading file \"..path..\": \"..err)\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "error(\"error loading file \"..path..\": \"..err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "local ret = file:read(\"*a\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "file:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "ret = string.gsub(ret, \"%.%.%.%s*%)\", \"...) local arg = {n=select('#', ...), ...};\")",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "loaded = true",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 14,
+    "text": "local f = load(getfile, path)",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "if not f then\r\n\t\r\n\t\terror(\"error loading file \"..path)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "error(\"error loading file \"..path)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function()\r\n\r\n\t\tif loaded then\r\n\t\t\treturn\r\n\t\telse\r\n\t\t\tlocal file,err = io.open(path)\r\n\t\t\tif not file then\r\n\t\t\t\terror(\"error loading file \"..path..\": \"..err)\r\n\t\t\tend\r\n\t\t\tlocal ret = file:read(\"*a\")\r\n\t\t\tfile:close()\r\n\r\n\t\t\tret = string.gsub(ret, \"%.%.%.%s*%)\", \"...) local arg = {n=select('#', ...), ...};\")\r\n\r\n\t\t\tloaded = true\r\n\t\t\treturn ret\r\n\t\tend\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 21,
+    "text": "load",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "f",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

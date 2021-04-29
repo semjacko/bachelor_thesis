@@ -1,0 +1,345 @@
+{
+  "_filename": "z.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io/z.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "assigns",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 36
+  }, {
+    "from": 33,
+    "label": "represents",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "provides",
+    "to": 37
+  }, {
+    "from": 33,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 33,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 33,
+    "label": "contains",
+    "to": 13
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "z",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function z.width(width, cwidth)\r\n    return width\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function z.pack(_, data, width, cwidth)\r\n    cwidth = cwidth or 1\r\n\twidth = width or #data+cwidth\r\n\t\r\n\tassert(width % cwidth == 0, \"string length is not a multiple of character size\")\r\n    \r\n    -- truncate to field width\r\n\tif #data >= width then\r\n\t\tdata = data:sub(1, width-cwidth)\r\n\tend\r\n\t\r\n    return io(\"s\", \"pack\", _, data..(\"\\0\"):rep(cwidth), width)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "cwidth = cwidth or 1",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "width = width or #data+cwidth",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "assert(width % cwidth == 0, \"string length is not a multiple of character size\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "if #data >= width then\r\n\t\tdata = data:sub(1, width-cwidth)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "data = data:sub(1, width-cwidth)",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function z.unpack(fd, buf, width, cwidth)\r\n    cwidth = cwidth or 1\r\n    nul = (\"\\0\"):rep(cwidth)\r\n    \r\n    -- read exactly that many characters, then strip the null termination\r\n    if width then\r\n        local buf = io(\"s\", \"unpack\", fd, buf, width)\r\n        local len = 0\r\n        \r\n        -- search the string for the null terminator. If charwidth > 1, just\r\n        -- finding nul isn't good enough - it needs to be aligned on a character\r\n        -- boundary.\r\n        repeat\r\n            len = buf:find(nul, len+1, true)\r\n        until len == nil or (len-1) % cwidth == 0\r\n        \r\n        return buf:sub(1,(len or 0)-1)\r\n    end\r\n    \r\n    -- this is where it gets ugly: the width wasn't specified, so we need to\r\n    -- read (cwidth) bytes at a time looking for the null terminator\r\n    local chars = {}\r\n    local c = fd:read(cwidth)\r\n    while c and c ~= nul do\r\n        chars[#chars+1] = c\r\n        c = fd:read(cwidth)\r\n    end\r\n\r\n    return table.concat(chars)\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "nul = (\"\\0\"):rep(cwidth)",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "if width then\r\n        local buf = io(\"s\", \"unpack\", fd, buf, width)\r\n        local len = 0\r\n        \r\n        -- search the string for the null terminator. If charwidth > 1, just\r\n        -- finding nul isn't good enough - it needs to be aligned on a character\r\n        -- boundary.\r\n        repeat\r\n            len = buf:find(nul, len+1, true)\r\n        until len == nil or (len-1) % cwidth == 0\r\n        \r\n        return buf:sub(1,(len or 0)-1)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "local buf = io(\"s\", \"unpack\", fd, buf, width)",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "local len = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "repeat\r\n            len = buf:find(nul, len+1, true)\r\n        until len == nil or (len-1) % cwidth == 0",
+    "type": "statement:repeat"
+  }, {
+    "id": 19,
+    "text": "len = buf:find(nul, len+1, true)",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "local chars = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "local c = fd:read(cwidth)",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "while c and c ~= nul do\r\n        chars[#chars+1] = c\r\n        c = fd:read(cwidth)\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 23,
+    "text": "chars[#chars+1] = c",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "c = fd:read(cwidth)",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 27,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "io",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "interface"
+  } ]
+}

@@ -1,0 +1,521 @@
+{
+  "_filename": "summary.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luaprofiler/src/analyzer/summary.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 43
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "assigns",
+    "to": 46
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "assigns",
+    "to": 50
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "assigns",
+    "to": 52
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "assigns",
+    "to": 54
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "summary",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function ReadProfile(file)\r\n\r\n\tlocal profile\r\n\r\n\t-- Check if argument is a file handle or a filename\r\n\tif io.type(file) == \"file\" then\r\n\t\tprofile = file\r\n\r\n\telse\r\n\t\t-- Open profile\r\n\t\tprofile = io.open(file)\r\n\t\tend\r\n\r\n\t-- Table for storing each profile's set of lines\r\n\tline_buffer = {}\r\n\r\n\t-- Get all profile lines\r\n\tlocal i = 1\r\n\tfor line in profile:lines() do\r\n\t\tline_buffer[i] = line\r\n\t\ti = i + 1\r\n    end\r\n\r\n\t-- Close file\r\n\tprofile:close()\r\n\treturn line_buffer\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local profile",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "if io.type(file) == \"file\" then\r\n\t\tprofile = file\r\n\r\n\telse\r\n\t\t-- Open profile\r\n\t\tprofile = io.open(file)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "profile = file",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "profile = io.open(file)",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "line_buffer = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "local i = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "for line in profile:lines() do\r\n\t\tline_buffer[i] = line\r\n\t\ti = i + 1\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 10,
+    "text": "line_buffer[i] = line",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "i = i + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "profile:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function CreateSummary(lines, summary)\r\n\r\n\tlocal global_time = 0\r\n\r\n\t-- Note: ignore first line\r\n\tfor i = 2, table.getn(lines) do\r\n\t\tword = string.match(lines[i], \"[^\\t]+\\t[^\\t]+\\t([^\\t]+)\")\r\n\t\tlocal_time, total_time = string.match(lines[i], \"[^\\t]+\\t[^\\t]+\\t[^\\t]+\\t[^\\t]+\\t[^\\t]+\\t([^\\t]+)\\t([^\\t]+)\")\r\n        if not (local_time and total_time) then return global_time end\r\n        if summary[word] == nil then\r\n\t\t\tsummary[word] = {};\r\n\t\t\tsummary[word][\"info\"] = {}\r\n\t\t\tsummary[word][\"info\"][\"calls\"] = 1\r\n\t\t\tsummary[word][\"info\"][\"total\"] = local_time\r\n\t\t\tsummary[word][\"info\"][\"func\"] = word\r\n\r\n\t\telse\r\n\t\t\tsummary[word][\"info\"][\"calls\"] = summary[word][\"info\"][\"calls\"] + 1\r\n\t\t\tsummary[word][\"info\"][\"total\"] = summary[word][\"info\"][\"total\"] + local_time;\r\n\t\t\tend\r\n\r\n\t\tglobal_time = global_time + local_time;\r\n\t\tend\r\n\r\n\treturn global_time\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "local global_time = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "for i = 2, table.getn(lines) do\r\n\t\tword = string.match(lines[i], \"[^\\t]+\\t[^\\t]+\\t([^\\t]+)\")\r\n\t\tlocal_time, total_time = string.match(lines[i], \"[^\\t]+\\t[^\\t]+\\t[^\\t]+\\t[^\\t]+\\t[^\\t]+\\t([^\\t]+)\\t([^\\t]+)\")\r\n        if not (local_time and total_time) then return global_time end\r\n        if summary[word] == nil then\r\n\t\t\tsummary[word] = {};\r\n\t\t\tsummary[word][\"info\"] = {}\r\n\t\t\tsummary[word][\"info\"][\"calls\"] = 1\r\n\t\t\tsummary[word][\"info\"][\"total\"] = local_time\r\n\t\t\tsummary[word][\"info\"][\"func\"] = word\r\n\r\n\t\telse\r\n\t\t\tsummary[word][\"info\"][\"calls\"] = summary[word][\"info\"][\"calls\"] + 1\r\n\t\t\tsummary[word][\"info\"][\"total\"] = summary[word][\"info\"][\"total\"] + local_time;\r\n\t\t\tend\r\n\r\n\t\tglobal_time = global_time + local_time;\r\n\t\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 18,
+    "text": "word = string.match(lines[i], \"[^\\t]+\\t[^\\t]+\\t([^\\t]+)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "local_time, total_time = string.match(lines[i], \"[^\\t]+\\t[^\\t]+\\t[^\\t]+\\t[^\\t]+\\t[^\\t]+\\t([^\\t]+)\\t([^\\t]+)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "if not (local_time and total_time) then return global_time end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "if summary[word] == nil then\r\n\t\t\tsummary[word] = {};\r\n\t\t\tsummary[word][\"info\"] = {}\r\n\t\t\tsummary[word][\"info\"][\"calls\"] = 1\r\n\t\t\tsummary[word][\"info\"][\"total\"] = local_time\r\n\t\t\tsummary[word][\"info\"][\"func\"] = word\r\n\r\n\t\telse\r\n\t\t\tsummary[word][\"info\"][\"calls\"] = summary[word][\"info\"][\"calls\"] + 1\r\n\t\t\tsummary[word][\"info\"][\"total\"] = summary[word][\"info\"][\"total\"] + local_time;\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "summary[word] = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "summary[word][\"info\"] = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "summary[word][\"info\"][\"calls\"] = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "summary[word][\"info\"][\"total\"] = local_time",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "summary[word][\"info\"][\"func\"] = word",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "summary[word][\"info\"][\"calls\"] = summary[word][\"info\"][\"calls\"] + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "summary[word][\"info\"][\"total\"] = summary[word][\"info\"][\"total\"] + local_time",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "global_time = global_time + local_time",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function (a, b) return tonumber(a[\"info\"][\"total\"]) > tonumber(b[\"info\"][\"total\"]) end",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 33,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "getn",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "sort",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "boolean"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

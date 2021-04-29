@@ -1,0 +1,645 @@
+{
+  "_filename": "grammar.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/leg/src/grammar.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 54,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 55,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 56
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 57
+  }, {
+    "from": 56,
+    "label": "initializes",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "assigns",
+    "to": 59
+  }, {
+    "from": 56,
+    "label": "initializes",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "assigns",
+    "to": 61
+  }, {
+    "from": 56,
+    "label": "initializes",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "assigns",
+    "to": 63
+  }, {
+    "from": 56,
+    "label": "initializes",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "assigns",
+    "to": 65
+  }, {
+    "from": 56,
+    "label": "initializes",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "assigns",
+    "to": 67
+  }, {
+    "from": 57,
+    "label": "initializes",
+    "to": 68
+  }, {
+    "from": 68,
+    "label": "requires",
+    "to": 44
+  }, {
+    "from": 69,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 70,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "grammar",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function anyOf(list)\r\n  local patt = P(false)\r\n  \r\n  for i = 1, #list, 1 do\r\n    patt = P(list[i]) + patt\r\n  end\r\n  \r\n  return patt\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local patt = P(false)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "for i = 1, #list, 1 do\r\n    patt = P(list[i]) + patt\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 5,
+    "text": "patt = P(list[i]) + patt",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function listOf(patt, sep)\r\n  patt, sep = P(patt), P(sep)\r\n  \r\n  return patt * (sep * patt)^0\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "patt, sep = P(patt), P(sep)",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function C(...) return ... end",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function Ct(...) return { ... } end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function copy(grammar)\r\n\tlocal newt = {}\r\n  \r\n\tfor k, v in pairs(grammar) do\r\n\t\tnewt[k] = v\r\n\tend\r\n  \r\n\treturn newt\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "local newt = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "for k, v in pairs(grammar) do\r\n\t\tnewt[k] = v\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 16,
+    "text": "newt[k] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function complete (dest, orig)\r\n\tfor rule, patt in pairs(orig) do\r\n\t\tif not dest[rule] then\r\n\t\t\tdest[rule] = patt\r\n\t\tend\r\n\tend\r\n  \r\n\treturn dest\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "for rule, patt in pairs(orig) do\r\n\t\tif not dest[rule] then\r\n\t\t\tdest[rule] = patt\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 20,
+    "text": "if not dest[rule] then\r\n\t\t\tdest[rule] = patt\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "dest[rule] = patt",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function pipe (dest, orig)\r\n\tfor k, vorig in pairs(orig) do\r\n\t\tlocal vdest = dest[k]\r\n\t\tif vdest then\r\n\t\t\tdest[k] = function(...) return vdest(vorig(...)) end\r\n\t\telse\r\n\t\t\tdest[k] = vorig\r\n\t\tend\r\n\tend\r\n\t\r\n\treturn dest\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "for k, vorig in pairs(orig) do\r\n\t\tlocal vdest = dest[k]\r\n\t\tif vdest then\r\n\t\t\tdest[k] = function(...) return vdest(vorig(...)) end\r\n\t\telse\r\n\t\t\tdest[k] = vorig\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 25,
+    "text": "local vdest = dest[k]",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if vdest then\r\n\t\t\tdest[k] = function(...) return vdest(vorig(...)) end\r\n\t\telse\r\n\t\t\tdest[k] = vorig\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "dest[k] = function(...) return vdest(vorig(...)) end",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "dest[k] = vorig",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function(...) return vdest(vorig(...)) end",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "function apply (grammar, rules, captures)\r\n  if rules == nil then\r\n    rules = {}\r\n  elseif type(rules) ~= 'table' then\r\n    rules = { rules }\r\n  end\r\n  \r\n  complete(rules, grammar)\r\n  \r\n  if type(grammar[1]) == 'string' then\r\n    rules[1] = lpeg.V(grammar[1])\r\n  end\r\n\t\r\n\tif captures ~= nil then\r\n\t\tassert(type(captures) == 'table', 'captures must be a table')\r\n    \r\n\t\tfor rule, cap in pairs(captures) do\r\n\t\t\trules[rule] = rules[rule] / cap\r\n\t\tend\r\n\tend\r\n  \r\n\treturn rules\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "if rules == nil then\r\n    rules = {}\r\n  elseif type(rules) ~= 'table' then\r\n    rules = { rules }\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "rules = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "rules = { rules }",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "complete(rules, grammar)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 36,
+    "text": "if type(grammar[1]) == 'string' then\r\n    rules[1] = lpeg.V(grammar[1])\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 37,
+    "text": "rules[1] = lpeg.V(grammar[1])",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "if captures ~= nil then\r\n\t\tassert(type(captures) == 'table', 'captures must be a table')\r\n    \r\n\t\tfor rule, cap in pairs(captures) do\r\n\t\t\trules[rule] = rules[rule] / cap\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "assert(type(captures) == 'table', 'captures must be a table')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "for rule, cap in pairs(captures) do\r\n\t\t\trules[rule] = rules[rule] / cap\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 41,
+    "text": "rules[rule] = rules[rule] / cap",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 44,
+    "text": "lpeg",
+    "type": "module"
+  }, {
+    "id": 45,
+    "text": "V",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "vorig",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "P",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "vdest",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

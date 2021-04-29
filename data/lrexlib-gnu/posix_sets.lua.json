@@ -1,0 +1,265 @@
+{
+  "_filename": "posix_sets.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lrexlib-gnu/test/posix_sets.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "assigns",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "requires",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "provides",
+    "to": 27
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "luatest",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "posix_sets",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function set_f_find (lib, flg)\r\nreturn {\r\n  Name = \"Function find\",\r\n  Func = lib.find,\r\n  --{subj,   patt,      st,cf,ef},           { results }\r\n  { {\"abcd\", \".+\",      5},                  { N }     }, -- failing st\r\n  { {\"abc\",  \"aBC\",     N, flg.ICASE},       { 1,3 }   }, -- cf\r\n  { {\"abc\",  \"^abc\"},                        { 1,3 }   }, -- anchor\r\n  { {\"abc\",  \"^abc\",    N,N,flg.NOTBOL},     { N }     }, -- anchor + ef\r\n}\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "local function set_f_match (lib, flg)\r\nreturn {\r\n  Name = \"Function match\",\r\n  Func = lib.match,\r\n  --{subj,   patt,      st,cf,ef},           { results }\r\n  { {\"abcd\", \".+\",      5},                  { N }    }, -- failing st\r\n  { {\"abc\",  \"aBC\",     N, flg.ICASE},       {\"abc\" } }, -- cf\r\n  { {\"abc\",  \"^abc\"},                        {\"abc\" } }, -- anchor\r\n  { {\"abc\",  \"^abc\",    N,N,flg.NOTBOL},     { N }    }, -- anchor + ef\r\n}\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "local function set_m_exec (lib, flg)\r\nreturn {\r\n  Name = \"Method exec\",\r\n  Method = \"exec\",\r\n--  {patt,cf},         {subj,st,ef}           { results }\r\n  { {\".+\"},            {\"abcd\",5},            { N }    }, -- failing st\r\n  { {\"aBC\",flg.ICASE}, {\"abc\"},               {1,3,{}} }, -- cf\r\n  { {\"^abc\"},          {\"abc\"},               {1,3,{}} }, -- anchor\r\n  { {\"^abc\"},          {\"abc\",N,flg.NOTBOL},  { N }    }, -- anchor + ef\r\n}\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "local function set_m_tfind (lib, flg)\r\nreturn {\r\n  Name = \"Method tfind\",\r\n  Method = \"tfind\",\r\n--  {patt,cf},         {subj,st,ef}           { results }\r\n  { {\".+\"},            {\"abcd\",5},            { N }    }, -- failing st\r\n  { {\"aBC\",flg.ICASE}, {\"abc\"},               {1,3,{}} }, -- cf\r\n  { {\"^abc\"},          {\"abc\"},               {1,3,{}} }, -- anchor\r\n  { {\"^abc\"},          {\"abc\",N,flg.NOTBOL},  { N }    }, -- anchor + ef\r\n}\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function (libname)\r\n  local lib = require (libname)\r\n  local flags = lib.flags ()\r\n  return {\r\n    set_f_match  (lib, flags),\r\n    set_f_find   (lib, flags),\r\n    set_m_exec   (lib, flags),\r\n    set_m_tfind  (lib, flags),\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "local lib = require (libname)",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local flags = lib.flags ()",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 17,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "flags",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "(libname)",
+    "type": "module"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "interface"
+  } ]
+}

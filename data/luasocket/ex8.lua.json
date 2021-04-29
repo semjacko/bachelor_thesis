@@ -1,0 +1,157 @@
+{
+  "_filename": "ex8.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luasocket/gem/ex8.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "initializes",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "assigns",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "assigns",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ex8",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 4,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "normalize",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "chain",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "table",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "file",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "all",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

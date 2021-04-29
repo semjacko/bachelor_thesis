@@ -1,0 +1,209 @@
+{
+  "_filename": "split.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua_cliargs/src/cliargs/utils/split.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 23
+  }, {
+    "from": 18,
+    "label": "represents",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "provides",
+    "to": 24
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "split",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function split(str, pat)\r\n  local t = {}\r\n  local fpat = \"(.-)\" .. pat\r\n  local last_end = 1\r\n  local s, e, cap = str:find(fpat, 1)\r\n\r\n  while s do\r\n    if s ~= 1 or cap ~= \"\" then\r\n      table.insert(t,cap)\r\n    end\r\n\r\n    last_end = e + 1\r\n    s, e, cap = str:find(fpat, last_end)\r\n  end\r\n\r\n  if last_end <= #str then\r\n    cap = str:sub(last_end)\r\n    table.insert(t, cap)\r\n  end\r\n\r\n  return t\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local t = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local fpat = \"(.-)\" .. pat",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local last_end = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local s, e, cap = str:find(fpat, 1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "while s do\r\n    if s ~= 1 or cap ~= \"\" then\r\n      table.insert(t,cap)\r\n    end\r\n\r\n    last_end = e + 1\r\n    s, e, cap = str:find(fpat, last_end)\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 8,
+    "text": "if s ~= 1 or cap ~= \"\" then\r\n      table.insert(t,cap)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "table.insert(t,cap)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "last_end = e + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "s, e, cap = str:find(fpat, last_end)",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "if last_end <= #str then\r\n    cap = str:sub(last_end)\r\n    table.insert(t, cap)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "cap = str:sub(last_end)",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "table.insert(t, cap)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 18,
+    "text": "split",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "interface"
+  } ]
+}

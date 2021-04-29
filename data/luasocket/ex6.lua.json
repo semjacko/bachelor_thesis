@@ -1,0 +1,225 @@
+{
+  "_filename": "ex6.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luasocket/gem/ex6.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 17,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 19,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 20,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 21,
+    "label": "contains",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ex6",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function source.chain(src, f)\r\n  return function()\r\n    if not src then\r\n      return nil\r\n    end\r\n    local chunk, err = src()\r\n    if not chunk then\r\n      src = nil\r\n      return f(nil)\r\n    else\r\n      return f(chunk)\r\n    end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "if not src then\r\n      return nil\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "local chunk, err = src()",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "if not chunk then\r\n      src = nil\r\n      return f(nil)\r\n    else\r\n      return f(chunk)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "src = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function()\r\n    if not src then\r\n      return nil\r\n    end\r\n    local chunk, err = src()\r\n    if not chunk then\r\n      src = nil\r\n      return f(nil)\r\n    else\r\n      return f(chunk)\r\n    end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 12,
+    "text": "f",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "src",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "local variable"
+  } ]
+}

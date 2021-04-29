@@ -1,0 +1,657 @@
+{
+  "_filename": "package2.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/metalua/src/lib/metalua/package2.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 34,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 40,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 40,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 40,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 40,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 56,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 56,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 57
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 58
+  }, {
+    "from": 57,
+    "label": "initializes",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "assigns",
+    "to": 60
+  }, {
+    "from": 57,
+    "label": "initializes",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "assigns",
+    "to": 62
+  }, {
+    "from": 57,
+    "label": "initializes",
+    "to": 63
+  }, {
+    "from": 57,
+    "label": "initializes",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "assigns",
+    "to": 65
+  }, {
+    "from": 58,
+    "label": "initializes",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "requires",
+    "to": 67
+  }, {
+    "from": 58,
+    "label": "initializes",
+    "to": 56
+  }, {
+    "from": 58,
+    "label": "initializes",
+    "to": 56
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "represents",
+    "to": 69
+  }, {
+    "from": 68,
+    "label": "provides",
+    "to": 69
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "package2",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function resc(k)\r\n   return regexp_magic[k] and '%'..k or k\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function package.findfile(name, path_string)\r\n   local config_regexp = (\"([^\\n])\\n\"):rep(5):sub(1, -2)\r\n   local dir_sep, path_sep, path_mark, execdir, igmark =\r\n      package.config:strmatch (config_regexp)\r\n   name = name:gsub ('%.', dir_sep)\r\n   local errors = { }\r\n   local path_pattern = string.format('[^%s]+', resc(path_sep))\r\n   for path in path_string:gmatch (path_pattern) do\r\n      --printf('path = %s, rpath_mark=%s, name=%s', path, resc(path_mark), name)\r\n      local filename = path:gsub (resc (path_mark), name)\r\n      --printf('filename = %s', filename)\r\n      local file = io.open (filename, 'r')\r\n      if file then return file, filename end\r\n      table.insert(errors, string.format(\"\\tno lua file %q\", filename))\r\n   end\r\n   return false, table.concat(errors, \"\\n\")..'\\n'\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "local config_regexp = (\"([^\\n])\\n\"):rep(5):sub(1, -2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local dir_sep, path_sep, path_mark, execdir, igmark =\r\n      package.config:strmatch (config_regexp)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "name = name:gsub ('%.', dir_sep)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "local errors = { }",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "local path_pattern = string.format('[^%s]+', resc(path_sep))",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "for path in path_string:gmatch (path_pattern) do\r\n      --printf('path = %s, rpath_mark=%s, name=%s', path, resc(path_mark), name)\r\n      local filename = path:gsub (resc (path_mark), name)\r\n      --printf('filename = %s', filename)\r\n      local file = io.open (filename, 'r')\r\n      if file then return file, filename end\r\n      table.insert(errors, string.format(\"\\tno lua file %q\", filename))\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 12,
+    "text": "local filename = path:gsub (resc (path_mark), name)",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local file = io.open (filename, 'r')",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "if file then return file, filename end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "table.insert(errors, string.format(\"\\tno lua file %q\", filename))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "local function spring_load(filename)\r\n   -- FIXME: handle compilation errors\r\n   local pattern = \r\n      [=[%s -l metalua.compiler -l serialize -e ]=]..\r\n      [=[\"print(serialize(mlc.ast_of_luafile [[%s]]))\"]=]\r\n   local cmd = string.format (pattern, (_PROGDIR and _PROGDIR..\"/lua\" or \"lua\"), filename)\r\n   --print (\"running command: ``\" .. cmd .. \"''\")\r\n   local fd = io.popen (cmd)\r\n   local ast_src = fd:read '*a'\r\n   fd:close()\r\n   local ast = lua_loadstring (ast_src) () -- much faster than loadstring()\r\n   return mlc.function_of_ast (ast, filename)\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "local pattern = \r\n      [=[%s -l metalua.compiler -l serialize -e ]=]..\r\n      [=[\"print(serialize(mlc.ast_of_luafile [[%s]]))\"]=]",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "local cmd = string.format (pattern, (_PROGDIR and _PROGDIR..\"/lua\" or \"lua\"), filename)",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "local fd = io.popen (cmd)",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "local ast_src = fd:read '*a'",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "fd:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "local ast = lua_loadstring (ast_src) ()",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function package.metalua_loader (name)\r\n   local file, filename_or_msg = package.findfile (name, package.mpath)\r\n   if not file then return filename_or_msg end\r\n   if package.metalua_nopopen then\r\n      local luastring = file:read '*a'\r\n      file:close()\r\n      return mlc.function_of_luastring (luastring, name)\r\n   else      \r\n      file:close()\r\n      require 'metalua.mlc_xcall'\r\n      local status, ast = mlc_xcall.client_file (filename_or_msg)\r\n      return mlc.function_of_ast(ast)\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "local file, filename_or_msg = package.findfile (name, package.mpath)",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "if not file then return filename_or_msg end",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "if package.metalua_nopopen then\r\n      local luastring = file:read '*a'\r\n      file:close()\r\n      return mlc.function_of_luastring (luastring, name)\r\n   else      \r\n      file:close()\r\n      require 'metalua.mlc_xcall'\r\n      local status, ast = mlc_xcall.client_file (filename_or_msg)\r\n      return mlc.function_of_ast(ast)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "local luastring = file:read '*a'",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "file:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "require 'metalua.mlc_xcall'",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "local status, ast = mlc_xcall.client_file (filename_or_msg)",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "function extension (name, noruntime)\r\n   local complete_name = package.metalua_extension_prefix..name\r\n   local x = require (complete_name)\r\n   if x==true then return\r\n   elseif type(x) ~= 'table' then\r\n      error (\"extension returned %s instead of an AST\", type(x))\r\n   else\r\n      return x\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "local complete_name = package.metalua_extension_prefix..name",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "local x = require (complete_name)",
+    "type": "statement:localassign"
+  }, {
+    "id": 37,
+    "text": "if x==true then return\r\n   elseif type(x) ~= 'table' then\r\n      error (\"extension returned %s instead of an AST\", type(x))\r\n   else\r\n      return x\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "error (\"extension returned %s instead of an AST\", type(x))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 41,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "lua_loadstring",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "popen",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "getenv",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "client_file",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "function_of_ast",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "function_of_luastring",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "transpose",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 67,
+    "text": "(complete_name)",
+    "type": "module"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "interface"
+  } ]
+}

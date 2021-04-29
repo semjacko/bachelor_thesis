@@ -1,0 +1,373 @@
+{
+  "_filename": "MapWithArrayOfKeys.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/collection/MapWithArrayOfKeys.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 33,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 4
+  }, {
+    "from": 33,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 33,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "MapWithArrayOfKeys",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "UnorderedArray",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "simple",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 5,
+    "text": "function value(self, key, value)\r\n\tif value == nil\r\n\t\tthen return self[key]\r\n\t\telse self[key] = value\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "if value == nil\r\n\t\tthen return self[key]\r\n\t\telse self[key] = value\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "self[key] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function add(self, key, value)\r\n\tself[#self + 1] = key\r\n\tself[key] = value\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "self[#self + 1] = key",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function addat(self, index, key, value)\r\n\ttable.insert(self, index, key)\r\n\tself[key] = value\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "table.insert(self, index, key)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function remove(self, key)\r\n\tfor i = 1, #self do\r\n\t\tif self[i] == key then\r\n\t\t\treturn removeat(self, i)\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "for i = 1, #self do\r\n\t\tif self[i] == key then\r\n\t\t\treturn removeat(self, i)\r\n\t\tend\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 18,
+    "text": "if self[i] == key then\r\n\t\t\treturn removeat(self, i)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function removeat(self, index)\r\n\tself[ self[index] ] = nil\r\n\treturn UnorderedArray.remove(self, index)\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "self[ self[index] ] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function valueat(self, index, value)\r\n\tif value == nil\r\n\t\tthen return self[ self[index] ]\r\n\t\telse self[ self[index] ] = value\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "if value == nil\r\n\t\tthen return self[ self[index] ]\r\n\t\telse self[ self[index] ] = value\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "self[ self[index] ] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 28,
+    "text": "function remove(self, index)\r\n\tlocal size = #self\r\n\tif index == size then\r\n\t\tself[size] = nil\r\n\telseif (index > 0) and (index < size) then\r\n\t\tself[index], self[size] = self[size], nil\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

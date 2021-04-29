@@ -1,0 +1,309 @@
+{
+  "_filename": "nsievebits.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luabitop/nsievebits.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "assigns",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "assigns",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "requires",
+    "to": 23
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "nsievebits",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function nsieve(p, m)\r\n  local count = 0\r\n  for i=0,rshift(m, 5) do p[i] = -1 end\r\n  for i=2,m do\r\n    if band(rshift(p[rshift(i, 5)], i), 1) ~= 0 then\r\n      count = count + 1\r\n      for j=i+i,m,i do\r\n\tlocal jx = rshift(j, 5)\r\n\tp[jx] = band(p[jx], rol(-2, j))\r\n      end\r\n    end\r\n  end\r\n  return count\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local count = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "for i=0,rshift(m, 5) do p[i] = -1 end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 5,
+    "text": "p[i] = -1",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "for i=2,m do\r\n    if band(rshift(p[rshift(i, 5)], i), 1) ~= 0 then\r\n      count = count + 1\r\n      for j=i+i,m,i do\r\n\tlocal jx = rshift(j, 5)\r\n\tp[jx] = band(p[jx], rol(-2, j))\r\n      end\r\n    end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 7,
+    "text": "if band(rshift(p[rshift(i, 5)], i), 1) ~= 0 then\r\n      count = count + 1\r\n      for j=i+i,m,i do\r\n\tlocal jx = rshift(j, 5)\r\n\tp[jx] = band(p[jx], rol(-2, j))\r\n      end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "count = count + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "for j=i+i,m,i do\r\n\tlocal jx = rshift(j, 5)\r\n\tp[jx] = band(p[jx], rol(-2, j))\r\n      end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 10,
+    "text": "local jx = rshift(j, 5)",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "p[jx] = band(p[jx], rol(-2, j))",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "rol",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "rshift",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "band",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "(bit)",
+    "type": "module"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,257 @@
+{
+  "_filename": "standalone_loader.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/busted/busted/modules/standalone_loader.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "assigns",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "provides",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "standalone_loader",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function(filename, info)\r\n  local index = info.traceback:find('\\n%s*%[C]')\r\n  info.traceback = info.traceback:sub(1, index)\r\n  return info\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local index = info.traceback:find('\\n%s*%[C]')",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "info.traceback = info.traceback:sub(1, index)",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function(info, options)\r\n    local filename = 'string'\r\n    if info.source:sub(1,1) == '@' or info.source:sub(1,1) == '=' then\r\n      filename = info.source:sub(2)\r\n    end\r\n\r\n    -- Setup test file to be compatible with live coding\r\n    if info.func then\r\n      local file = setmetatable({\r\n        getTrace = getTrace,\r\n        rewriteMessage = nil\r\n      }, {\r\n        __call = info.func\r\n      })\r\n\r\n      busted.executors.file(filename, file)\r\n    end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local filename = 'string'",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "if info.source:sub(1,1) == '@' or info.source:sub(1,1) == '=' then\r\n      filename = info.source:sub(2)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "filename = info.source:sub(2)",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "if info.func then\r\n      local file = setmetatable({\r\n        getTrace = getTrace,\r\n        rewriteMessage = nil\r\n      }, {\r\n        __call = info.func\r\n      })\r\n\r\n      busted.executors.file(filename, file)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "local file = setmetatable({\r\n        getTrace = getTrace,\r\n        rewriteMessage = nil\r\n      }, {\r\n        __call = info.func\r\n      })",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "busted.executors.file(filename, file)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function(busted)\r\n  local loadCurrentFile = function(info, options)\r\n    local filename = 'string'\r\n    if info.source:sub(1,1) == '@' or info.source:sub(1,1) == '=' then\r\n      filename = info.source:sub(2)\r\n    end\r\n\r\n    -- Setup test file to be compatible with live coding\r\n    if info.func then\r\n      local file = setmetatable({\r\n        getTrace = getTrace,\r\n        rewriteMessage = nil\r\n      }, {\r\n        __call = info.func\r\n      })\r\n\r\n      busted.executors.file(filename, file)\r\n    end\r\n  end\r\n\r\n  return loadCurrentFile\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "local loadCurrentFile = function(info, options)\r\n    local filename = 'string'\r\n    if info.source:sub(1,1) == '@' or info.source:sub(1,1) == '=' then\r\n      filename = info.source:sub(2)\r\n    end\r\n\r\n    -- Setup test file to be compatible with live coding\r\n    if info.func then\r\n      local file = setmetatable({\r\n        getTrace = getTrace,\r\n        rewriteMessage = nil\r\n      }, {\r\n        __call = info.func\r\n      })\r\n\r\n      busted.executors.file(filename, file)\r\n    end\r\n  end",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 19,
+    "text": "busted.executors.file",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

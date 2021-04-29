@@ -1,0 +1,297 @@
+{
+  "_filename": "i.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/vstruct/vstruct/io/i.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "assigns",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "represents",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "provides",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 25,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 25,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 25,
+    "label": "contains",
+    "to": 16
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "i",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function i.unpack(fd, buf, width)\r\n    local n = io(\"u\", \"unpack\", fd, buf, width)\r\n\r\n    if n >= 2^(width*8-1) then\r\n        return n - 2^(width*8)\r\n    end\r\n    \r\n    return n\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local n = io(\"u\", \"unpack\", fd, buf, width)",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if n >= 2^(width*8-1) then\r\n        return n - 2^(width*8)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function i.unpackbits(bit, width)\r\n    local n = io(\"u\", \"unpackbits\", bit, width)\r\n    \r\n    if n >= 2^(width-1) then\r\n        return n - 2^width\r\n    end\r\n    \r\n    return n\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local n = io(\"u\", \"unpackbits\", bit, width)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if n >= 2^(width-1) then\r\n        return n - 2^width\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function i.pack(_, data, width)\r\n    if data < 0 then\r\n        data = data + 2^(width*8)\r\n    end\r\n    \r\n    return io(\"u\", \"pack\", _, data, width)\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "if data < 0 then\r\n        data = data + 2^(width*8)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "data = data + 2^(width*8)",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function i.packbits(bit, data, width)\r\n    if data < 0 then\r\n        data = data + 2^width\r\n    end\r\n    \r\n    return io(\"u\", \"packbits\", bit, data, width)\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "if data < 0 then\r\n        data = data + 2^width\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "data = data + 2^width",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 21,
+    "text": "io",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "interface"
+  } ]
+}

@@ -1,0 +1,297 @@
+{
+  "_filename": "ubcast.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luapi/examples/ubcast.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "assigns",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "assigns",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 23
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ubcast",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function Receiver(proc,id,chan)\r\n  while true do\r\n    local m = proc:receive(chan)\r\n    print(\"Receiver# \" .. tostring(id) .. \" receives message :\" .. m )\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "while true do\r\n    local m = proc:receive(chan)\r\n    print(\"Receiver# \" .. tostring(id) .. \" receives message :\" .. m )\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 4,
+    "text": "local m = proc:receive(chan)",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "print(\"Receiver# \" .. tostring(id) .. \" receives message :\" .. m )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function BCastSender(proc,chan,nb,msg)\r\n  for count = 1,nb do\r\n    proc:bcast(chan,msg .. \" #\" .. tostring(count))\r\n    count = count + 1\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "for count = 1,nb do\r\n    proc:bcast(chan,msg .. \" #\" .. tostring(count))\r\n    count = count + 1\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 9,
+    "text": "proc:bcast(chan,msg .. \" #\" .. tostring(count))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "count = count + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function UCastSender(proc,chan,nb,msg)\r\n  for count = 1,nb do\r\n    proc:send(chan,msg .. \"#\" .. tostring(count))\r\n    count = count + 1\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "for count = 1,nb do\r\n    proc:send(chan,msg .. \"#\" .. tostring(count))\r\n    count = count + 1\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 14,
+    "text": "proc:send(chan,msg .. \"#\" .. tostring(count))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 17,
+    "text": "function replicate(agent,procname,n,procfun,...)\r\n  --DEBUG(agent,\"replicate with arguments\",...)  \r\n  for i=1,n do\r\n    agent:spawn(procname..tostring(i),procfun,i,...)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

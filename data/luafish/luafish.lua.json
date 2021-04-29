@@ -1,0 +1,209 @@
+{
+  "_filename": "luafish.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luafish/bin/luafish.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "assigns",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "luafish",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "macro",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "parser",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "addloader",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "loadfile",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "Parser",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "f",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "boolean"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

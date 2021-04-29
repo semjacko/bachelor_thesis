@@ -1,0 +1,297 @@
+{
+  "_filename": "stdin.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasys/test/thread/stdin.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "requires",
+    "to": 23
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "stdin",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function read_stdin()\r\n\twhile true do\r\n\t    local line = stdin:read()\r\n\t    if #line <= 2 then\r\n\t\tprint(\"> Worker thread:\", \"Interrupt event queue\")\r\n\t\tevq:interrupt()\r\n\t    else\r\n\t\tsys.stdout:write(\">Worker thread input:\\t\", line)\r\n\t    end\r\n\tend\r\n    end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "while true do\r\n\t    local line = stdin:read()\r\n\t    if #line <= 2 then\r\n\t\tprint(\"> Worker thread:\", \"Interrupt event queue\")\r\n\t\tevq:interrupt()\r\n\t    else\r\n\t\tsys.stdout:write(\">Worker thread input:\\t\", line)\r\n\t    end\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 4,
+    "text": "local line = stdin:read()",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if #line <= 2 then\r\n\t\tprint(\"> Worker thread:\", \"Interrupt event queue\")\r\n\t\tevq:interrupt()\r\n\t    else\r\n\t\tsys.stdout:write(\">Worker thread input:\\t\", line)\r\n\t    end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "print(\"> Worker thread:\", \"Interrupt event queue\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "evq:interrupt()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "sys.stdout:write(\">Worker thread input:\\t\", line)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "local function on_event(evq, evid)\r\n\tif thread_id then\r\n\t    print(\"Main thread:\", \"Timer\")\r\n\telse\r\n\t    print(\"Main thread:\", \"Worker thread closed\", \"-> Delete timer\")\r\n\t    evq:del(evid)\r\n\tend\r\n    end",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "if thread_id then\r\n\t    print(\"Main thread:\", \"Timer\")\r\n\telse\r\n\t    print(\"Main thread:\", \"Worker thread closed\", \"-> Delete timer\")\r\n\t    evq:del(evid)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "print(\"Main thread:\", \"Timer\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "print(\"Main thread:\", \"Worker thread closed\", \"-> Delete timer\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "evq:del(evid)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "local function on_intr()\r\n\t    print(\"Main thread:\", \"Event queue interrupted\", \"-> Close stdin\")\r\n\t    stdin:close()\r\n\t    thread.interrupt(thread_id)\r\n\t    thread_id = nil\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "print(\"Main thread:\", \"Event queue interrupted\", \"-> Close stdin\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "stdin:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "thread.interrupt(thread_id)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "thread_id = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 23,
+    "text": "sys",
+    "type": "module"
+  }, {
+    "id": 24,
+    "text": "event_queue",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "interrupt",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "run",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

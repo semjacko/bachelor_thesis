@@ -1,0 +1,417 @@
+{
+  "_filename": "test_discount.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-discount/test_discount.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 37
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 39
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test_discount",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function test_basic_conversion()\r\n  assert_equal(\"<p>Hello World.</p>\\n\", discount(\"Hello World.\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "assert_equal(\"<p>Hello World.</p>\\n\", discount(\"Hello World.\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function test_relaxed_emphasis()\r\n  assert_equal(\"<p><em>Hello World</em>!</p>\\n\", discount(\"_Hello World_!\"))\r\n  assert_equal(\"<p>under_score this_stuff</p>\\n\", discount(\"under_score this_stuff\"))\r\n\r\n  local input = \"_start _ foo_bar bar_baz _ end_ *italic* **bold** <a>_blah_</a>\"\r\n  local expected_out = \"<p><em>start _ foo_bar bar_baz _ end</em> <em>italic</em> <strong>bold</strong> <a><em>blah</em></a></p>\\n\"\r\n  assert_equal(expected_out, discount(input))\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "assert_equal(\"<p><em>Hello World</em>!</p>\\n\", discount(\"_Hello World_!\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "assert_equal(\"<p>under_score this_stuff</p>\\n\", discount(\"under_score this_stuff\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "local input = \"_start _ foo_bar bar_baz _ end_ *italic* **bold** <a>_blah_</a>\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "local expected_out = \"<p><em>start _ foo_bar bar_baz _ end</em> <em>italic</em> <strong>bold</strong> <a><em>blah</em></a></p>\\n\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "assert_equal(expected_out, discount(input))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function test_nolinks()\r\n  assert_equal(\"<p>[example](http://example.com)</p>\\n\", discount(\"[example](http://example.com)\", \"nolinks\"))\r\n  assert_equal('<p>&lt;a href=\"http://example.com\">example</a></p>\\n',\r\n      discount('<a href=\"http://example.com\">example</a>', \"nolinks\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "assert_equal(\"<p>[example](http://example.com)</p>\\n\", discount(\"[example](http://example.com)\", \"nolinks\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "assert_equal('<p>&lt;a href=\"http://example.com\">example</a></p>\\n',\r\n      discount('<a href=\"http://example.com\">example</a>', \"nolinks\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function test_noimages()\r\n  assert_equal(\"<p>![example](example.png)</p>\\n\", discount(\"![example](example.png)\", \"noimages\"))\r\n  assert_equal('<p>&lt;img src=\"example.png\"/></p>\\n', discount('<img src=\"example.png\"/>', \"noimages\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "assert_equal(\"<p>![example](example.png)</p>\\n\", discount(\"![example](example.png)\", \"noimages\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "assert_equal('<p>&lt;img src=\"example.png\"/></p>\\n', discount('<img src=\"example.png\"/>', \"noimages\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function test_nopants()\r\n  assert_equal('<p>&ldquo;quote&rdquo;</p>\\n', discount('\"quote\"'))\r\n  assert_equal('<p>\"quote\"</p>\\n', discount('\"quote\"', \"nopants\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "assert_equal('<p>&ldquo;quote&rdquo;</p>\\n', discount('\"quote\"'))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "assert_equal('<p>\"quote\"</p>\\n', discount('\"quote\"', \"nopants\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function test_nohtml()\r\n  local expected = \"<p>This should &lt;em>not&lt;/em> be allowed</p>\\n\"\r\n  assert_equal(expected, discount(\"This should <em>not</em> be allowed\", \"nohtml\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "local expected = \"<p>This should &lt;em>not&lt;/em> be allowed</p>\\n\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "assert_equal(expected, discount(\"This should <em>not</em> be allowed\", \"nohtml\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function test_cdata()\r\n  assert_equal(\"&lt;p&gt;foo&lt;/p&gt;\\n\", discount(\"foo\", \"cdata\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "assert_equal(\"&lt;p&gt;foo&lt;/p&gt;\\n\", discount(\"foo\", \"cdata\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 32,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "assert_equal",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "discount",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 39,
+    "text": "(lunit)",
+    "type": "module"
+  } ]
+}

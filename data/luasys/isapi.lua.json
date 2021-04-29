@@ -1,0 +1,197 @@
+{
+  "_filename": "isapi.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasys/test/isa/isapi.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "assigns",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "requires",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "represents",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "provides",
+    "to": 23
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "isapi",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function(evq, evid, fd, R, W, T, EOF)\r\n\tlocal chan = channels[fd]\r\n\tlocal buffer_in = chan.buffer_in\r\n\tlocal status\r\n\r\n\tif not EOF and fd:read(buffer_in) then\r\n\t    local request_id = fcgi_decode(buffer_in, chan)\r\n\r\n\t    while request_id do\r\n\t\tlocal req = chan[request_id]\r\n\r\n\t\tif req.error then\r\n\t\t    chan[request_id] = nil\r\n\t\t    log(\"req.error\", req.error)\r\n\t\telse\r\n\t\t    status = process_request(req)\r\n\t\tend\r\n\r\n\t\tstatus = req.keep_conn\r\n\t\trequest_id = req.next_ready\r\n\t    end\r\n\tend\r\n\tif not status then\r\n\t    channels.close(evq, evid, fd)\r\n\tend\r\n    end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local function process(ecb)\r\n    local path = ecb:getvar\"PATH_TRANSLATED\"\r\n    local chunk, err = loadfile(path)\r\n    if err then error(err) end\r\n    chunk(ecb)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local path = ecb:getvar\"PATH_TRANSLATED\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local chunk, err = loadfile(path)",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "if err then error(err) end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "error(err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "chunk(ecb)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "thread.init",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "chunk",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "loadfile",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "(sys)",
+    "type": "module"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "symbol"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "interface"
+  } ]
+}

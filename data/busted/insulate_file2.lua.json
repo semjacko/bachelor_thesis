@@ -1,0 +1,237 @@
+{
+  "_filename": "insulate_file2.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/insulate_file2.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 16,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 7,
+    "label": "hasArgument",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "hasArgument",
+    "to": 9
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "insulate_file2",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function()\r\n    assert.is_not_nil(test_module)\r\n    assert.is_not_nil(package.loaded['spec.cl_test_module'])\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "assert.is_not_nil(test_module)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "assert.is_not_nil(package.loaded['spec.cl_test_module'])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function()\r\n  it('loads environment with \"cl_test_module\"', function()\r\n    assert.is_not_nil(test_module)\r\n    assert.is_not_nil(package.loaded['spec.cl_test_module'])\r\n  end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "it('loads environment with \"cl_test_module\"', function()\r\n    assert.is_not_nil(test_module)\r\n    assert.is_not_nil(package.loaded['spec.cl_test_module'])\r\n  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function()\r\n    assert.is_nil(List)\r\n    assert.is_nil(package.loaded['pl.List'])\r\n  end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "assert.is_nil(List)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "assert.is_nil(package.loaded['pl.List'])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function()\r\n  it('does not keep \"List\" in environment', function()\r\n    assert.is_nil(List)\r\n    assert.is_nil(package.loaded['pl.List'])\r\n  end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "it('does not keep \"List\" in environment', function()\r\n    assert.is_nil(List)\r\n    assert.is_nil(package.loaded['pl.List'])\r\n  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 17,
+    "text": "it",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "describe",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "is_nil",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "is_not_nil",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require container"
+  } ]
+}

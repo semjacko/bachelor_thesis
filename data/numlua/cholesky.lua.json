@@ -1,0 +1,405 @@
+{
+  "_filename": "cholesky.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/numlua/examples/cholesky.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "assigns",
+    "to": 43
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "assigns",
+    "to": 45
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "assigns",
+    "to": 47
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 39
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cholesky",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function cholesky (A)\r\n  local n = A:size(1)\r\n  assert(A:size\"#\" == 2 and A:size(2) == n, \"square matrix expected\")\r\n  local U = zeros(n, n)\r\n  local C = {} -- columns of U\r\n  for i = 1, n do C[i] = U:col(i) end\r\n  -- factorization:\r\n  -- i = 1\r\n  local Ai, Ui = A[1], U[1]\r\n  local uii = sqrt(Ai[1])\r\n  Ui[1] = uii\r\n  for j = 2, n do Ui[j] = Ai[j] / uii end\r\n  -- i > 1\r\n  for i = 2, n do\r\n    Ai, Ui = A[i], U[i]\r\n    local uci = C[i](1, i - 1) -- U(i, 1:(i-1))\r\n    uii = sqrt(Ai[i] - dot(uci, uci))\r\n    Ui[i] = uii\r\n    for j = i + 1, n do\r\n      local ucj = C[j](1, i - 1) -- U(j, 1:(i-1))\r\n      Ui[j] = (Ai[j] - dot(uci, ucj)) / uii\r\n    end\r\n  end\r\n  return U\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local n = A:size(1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "assert(A:size\"#\" == 2 and A:size(2) == n, \"square matrix expected\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "local U = zeros(n, n)",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "local C = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "for i = 1, n do C[i] = U:col(i) end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 8,
+    "text": "C[i] = U:col(i)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "local Ai, Ui = A[1], U[1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "local uii = sqrt(Ai[1])",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "Ui[1] = uii",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "for j = 2, n do Ui[j] = Ai[j] / uii end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 13,
+    "text": "Ui[j] = Ai[j] / uii",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "for i = 2, n do\r\n    Ai, Ui = A[i], U[i]\r\n    local uci = C[i](1, i - 1) -- U(i, 1:(i-1))\r\n    uii = sqrt(Ai[i] - dot(uci, uci))\r\n    Ui[i] = uii\r\n    for j = i + 1, n do\r\n      local ucj = C[j](1, i - 1) -- U(j, 1:(i-1))\r\n      Ui[j] = (Ai[j] - dot(uci, ucj)) / uii\r\n    end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 15,
+    "text": "Ai, Ui = A[i], U[i]",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "local uci = C[i](1, i - 1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "uii = sqrt(Ai[i] - dot(uci, uci))",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "Ui[i] = uii",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "for j = i + 1, n do\r\n      local ucj = C[j](1, i - 1) -- U(j, 1:(i-1))\r\n      Ui[j] = (Ai[j] - dot(uci, ucj)) / uii\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 20,
+    "text": "local ucj = C[j](1, i - 1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "Ui[j] = (Ai[j] - dot(uci, ucj)) / uii",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function pascal (n)\r\n  local A = zeros(n, n)\r\n  A[1]._, A:col(1)._ = 1, 1 -- base\r\n  for i = 2, n do\r\n    for j = 2, n do\r\n      A[i][j] = A[i - 1][j] + A[i][j - 1]\r\n    end\r\n  end\r\n  return A\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "local A = zeros(n, n)",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "A[1]._, A:col(1)._ = 1, 1",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "for i = 2, n do\r\n    for j = 2, n do\r\n      A[i][j] = A[i - 1][j] + A[i][j - 1]\r\n    end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 28,
+    "text": "for j = 2, n do\r\n      A[i][j] = A[i - 1][j] + A[i][j - 1]\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 29,
+    "text": "A[i][j] = A[i - 1][j] + A[i][j - 1]",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 32,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "sqrt",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "zeros",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "C[i]",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "dot",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "C[j]",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

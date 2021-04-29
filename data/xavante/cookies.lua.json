@@ -1,0 +1,565 @@
+{
+  "_filename": "cookies.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/xavante/src/codeweb/cookies.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 58
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "requires",
+    "to": 61
+  }, {
+    "from": 62,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 57,
+    "label": "requires",
+    "to": 61
+  }, {
+    "from": 57,
+    "label": "requires",
+    "to": 61
+  }, {
+    "from": 63,
+    "label": "requires",
+    "to": 61
+  }, {
+    "from": 64,
+    "label": "requires",
+    "to": 61
+  }, {
+    "from": 57,
+    "label": "requires",
+    "to": 61
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cookies",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function read_cookies (req)\r\n\treq.cookies = req.cookies or {}\r\n\t\r\n\tlocal cookies = req.headers.cookie or \"\"\r\n\tlocal lastcookie\r\n\t\r\n\t-- get all key=\"val\" pairs\r\n\tfor k,v in string.gfind (cookies, '([^%s;=]+)%s*=%s*\"([^\"]*)\"') do\r\n\t\r\n\t\tif string.sub (k,1,1) == \"$\" then\r\n\t\t\t-- its an option for the last seen cookie\r\n\t\t\tif lastcookie then\r\n\t\t\t\tlocal optname = string.sub (k,2)\r\n\t\t\t\treq.cookies [lastcookie].options [optname] = v\r\n\t\t\tend\r\n\t\telse\r\n\t\t\t-- its a new cookie\r\n\t\t\treq.cookies [k] = {value = v, options = {}}\r\n\t\t\tlastcookie = k\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "req.cookies = req.cookies or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "local cookies = req.headers.cookie or \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local lastcookie",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "for k,v in string.gfind (cookies, '([^%s;=]+)%s*=%s*\"([^\"]*)\"') do\r\n\t\r\n\t\tif string.sub (k,1,1) == \"$\" then\r\n\t\t\t-- its an option for the last seen cookie\r\n\t\t\tif lastcookie then\r\n\t\t\t\tlocal optname = string.sub (k,2)\r\n\t\t\t\treq.cookies [lastcookie].options [optname] = v\r\n\t\t\tend\r\n\t\telse\r\n\t\t\t-- its a new cookie\r\n\t\t\treq.cookies [k] = {value = v, options = {}}\r\n\t\t\tlastcookie = k\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 7,
+    "text": "if string.sub (k,1,1) == \"$\" then\r\n\t\t\t-- its an option for the last seen cookie\r\n\t\t\tif lastcookie then\r\n\t\t\t\tlocal optname = string.sub (k,2)\r\n\t\t\t\treq.cookies [lastcookie].options [optname] = v\r\n\t\t\tend\r\n\t\telse\r\n\t\t\t-- its a new cookie\r\n\t\t\treq.cookies [k] = {value = v, options = {}}\r\n\t\t\tlastcookie = k\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "if lastcookie then\r\n\t\t\t\tlocal optname = string.sub (k,2)\r\n\t\t\t\treq.cookies [lastcookie].options [optname] = v\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "local optname = string.sub (k,2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "req.cookies [lastcookie].options [optname] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "req.cookies [k] = {value = v, options = {}}",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "lastcookie = k",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function get (req, name)\r\n\tif not req.cookies then\r\n\t\tread_cookies (req)\r\n\tend\r\n\t\r\n\tlocal cookie_rec = req.cookies and req.cookies [name]\r\n\tif cookie_rec then\r\n\t\treturn cookie_rec.value, cookie_rec.options\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "if not req.cookies then\r\n\t\tread_cookies (req)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "read_cookies (req)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "local cookie_rec = req.cookies and req.cookies [name]",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "if cookie_rec then\r\n\t\treturn cookie_rec.value, cookie_rec.options\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function set (res, name, value, options)\r\n\tres.cookies = res.cookies or {}\r\n\tres.cookies [name] = {value = value, options = options}\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "res.cookies = res.cookies or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "res.cookies [name] = {value = value, options = options}",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function delete (res, name, options)\r\n  options = options or {}\r\n  options.expires = 1\r\n  set (res, name, \"xxx\", options)\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "options = options or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "options.expires = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "set (res, name, \"xxx\", options)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function set_res_cookies (res)\r\n\tif not res or not res.cookies then\r\n\t\treturn\r\n\tend\r\n\t\r\n\tlocal set_cookie = {}\r\n\tfor name, r in pairs (res.cookies) do\r\n\t\tlocal set_string = string.format ([[%s=\"%s\";Version=\"1\"]], name, r.value)\r\n\t\t\r\n\t\tlocal options = r.options\r\n\t\tif options then \r\n\t\t\tif type (options.expires) == \"number\" then\r\n\t\t\t\toptions.expires = os.date(\"!%A, %d-%b-%Y %H:%M:%S GMT\", options.expires)\r\n\t\t\tend\r\n\t\t\t\r\n\t\t\tfor k,v in pairs (r.options) do\r\n\t\t\t\tif v == \"\" or type (v) == \"boolean\" then\r\n\t\t\t\t\tset_string = set_string..string.format ([[;%s]], k)\r\n\t\t\t\telse\r\n\t\t\t\t\tset_string = set_string..string.format ([[;%s=\"%s\"]], k, v)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\t\r\n\t\ttable.insert (set_cookie, set_string)\r\n\tend\r\n\tres.headers [\"Set-Cookie\"] = table.concat (set_cookie)\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "if not res or not res.cookies then\r\n\t\treturn\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "local set_cookie = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 33,
+    "text": "for name, r in pairs (res.cookies) do\r\n\t\tlocal set_string = string.format ([[%s=\"%s\";Version=\"1\"]], name, r.value)\r\n\t\t\r\n\t\tlocal options = r.options\r\n\t\tif options then \r\n\t\t\tif type (options.expires) == \"number\" then\r\n\t\t\t\toptions.expires = os.date(\"!%A, %d-%b-%Y %H:%M:%S GMT\", options.expires)\r\n\t\t\tend\r\n\t\t\t\r\n\t\t\tfor k,v in pairs (r.options) do\r\n\t\t\t\tif v == \"\" or type (v) == \"boolean\" then\r\n\t\t\t\t\tset_string = set_string..string.format ([[;%s]], k)\r\n\t\t\t\telse\r\n\t\t\t\t\tset_string = set_string..string.format ([[;%s=\"%s\"]], k, v)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\t\r\n\t\ttable.insert (set_cookie, set_string)\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 34,
+    "text": "local set_string = string.format ([[%s=\"%s\";Version=\"1\"]], name, r.value)",
+    "type": "statement:localassign"
+  }, {
+    "id": 35,
+    "text": "local options = r.options",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "if options then \r\n\t\t\tif type (options.expires) == \"number\" then\r\n\t\t\t\toptions.expires = os.date(\"!%A, %d-%b-%Y %H:%M:%S GMT\", options.expires)\r\n\t\t\tend\r\n\t\t\t\r\n\t\t\tfor k,v in pairs (r.options) do\r\n\t\t\t\tif v == \"\" or type (v) == \"boolean\" then\r\n\t\t\t\t\tset_string = set_string..string.format ([[;%s]], k)\r\n\t\t\t\telse\r\n\t\t\t\t\tset_string = set_string..string.format ([[;%s=\"%s\"]], k, v)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 37,
+    "text": "if type (options.expires) == \"number\" then\r\n\t\t\t\toptions.expires = os.date(\"!%A, %d-%b-%Y %H:%M:%S GMT\", options.expires)\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "options.expires = os.date(\"!%A, %d-%b-%Y %H:%M:%S GMT\", options.expires)",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "for k,v in pairs (r.options) do\r\n\t\t\t\tif v == \"\" or type (v) == \"boolean\" then\r\n\t\t\t\t\tset_string = set_string..string.format ([[;%s]], k)\r\n\t\t\t\telse\r\n\t\t\t\t\tset_string = set_string..string.format ([[;%s=\"%s\"]], k, v)\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 40,
+    "text": "if v == \"\" or type (v) == \"boolean\" then\r\n\t\t\t\t\tset_string = set_string..string.format ([[;%s]], k)\r\n\t\t\t\telse\r\n\t\t\t\t\tset_string = set_string..string.format ([[;%s=\"%s\"]], k, v)\r\n\t\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 41,
+    "text": "set_string = set_string..string.format ([[;%s]], k)",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "set_string = set_string..string.format ([[;%s=\"%s\"]], k, v)",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "table.insert (set_cookie, set_string)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "res.headers [\"Set-Cookie\"] = table.concat (set_cookie)",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 47,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "date",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "gfind",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 61,
+    "text": "url",
+    "type": "module"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

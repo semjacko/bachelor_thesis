@@ -1,0 +1,61 @@
+{
+  "_filename": "tests-curses.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luaposix/tests-curses.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "initializes",
+    "to": 4
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "tests-curses",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "require container"
+  } ]
+}

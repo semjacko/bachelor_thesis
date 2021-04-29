@@ -1,0 +1,249 @@
+{
+  "_filename": "command.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/build/command.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "requires",
+    "to": 23
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 22
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "command",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function run(rockspec)\r\n   assert(type(rockspec) == \"table\")\r\n\r\n   local build = rockspec.build\r\n   \r\n   util.variable_substitutions(build, rockspec.variables)\r\n   \r\n   if build.build_command then\r\n      util.printout(build.build_command)\r\n      if not fs.execute(build.build_command) then\r\n         return nil, \"Failed building.\"\r\n      end\r\n   end\r\n   if build.install_command then\r\n      util.printout(build.install_command)\r\n      if not fs.execute(build.install_command) then\r\n         return nil, \"Failed installing.\"\r\n      end\r\n   end\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "assert(type(rockspec) == \"table\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "local build = rockspec.build",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "util.variable_substitutions(build, rockspec.variables)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "if build.build_command then\r\n      util.printout(build.build_command)\r\n      if not fs.execute(build.build_command) then\r\n         return nil, \"Failed building.\"\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "util.printout(build.build_command)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "if not fs.execute(build.build_command) then\r\n         return nil, \"Failed building.\"\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "if build.install_command then\r\n      util.printout(build.install_command)\r\n      if not fs.execute(build.install_command) then\r\n         return nil, \"Failed installing.\"\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "util.printout(build.install_command)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "if not fs.execute(build.install_command) then\r\n         return nil, \"Failed installing.\"\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "function execute(command, ...)\r\n   assert(type(command) == \"string\")\r\n   return fs.execute_string(quote_args(command, ...))\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function variable_substitutions(tbl, vars)\r\n   assert(type(tbl) == \"table\")\r\n   assert(type(vars) == \"table\")\r\n   \r\n   local updated = {}\r\n   for k, v in pairs(tbl) do\r\n      if type(v) == \"string\" then\r\n         updated[k] = v:gsub(var_format_pattern, vars)\r\n         if warn_failed_matches(updated[k]) then\r\n            updated[k] = updated[k]:gsub(var_format_pattern, \"\")\r\n         end\r\n      end\r\n   end\r\n   for k, v in pairs(updated) do\r\n      tbl[k] = v\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function printout(...)\r\n   io.stdout:write(table.concat({...},\"\\t\"))\r\n   io.stdout:write(\"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "util)",
+    "type": "module"
+  }, {
+    "id": 23,
+    "text": "fs)",
+    "type": "module"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

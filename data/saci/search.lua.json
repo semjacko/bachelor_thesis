@@ -1,0 +1,189 @@
+{
+  "_filename": "search.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/saci/lua/saci/search.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 11,
+    "label": "hasArgument",
+    "to": 14
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "search",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function rank_hits(hits, node_map)\r\n   local weights = {}   -- weight for each node ID\r\n   local node_ids = {}  -- a list of node ids (to be sorted eventually)\r\n   for id, node in pairs(node_map) do\r\n      for term, hits_for_term in pairs(hits) do\r\n         if hits_for_term[id] then \r\n            weights[id] = (weights[id] or 0) + 5 + hits_for_term[id]\r\n         end \r\n      end\r\n      if weights[id] then\r\n         table.insert(node_ids, id)\r\n      end\r\n   end\r\n   table.sort(node_ids, function(x,y) return weights[x] > weights[y] end)\r\n   return node_ids, weights\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local weights = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local node_ids = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "for id, node in pairs(node_map) do\r\n      for term, hits_for_term in pairs(hits) do\r\n         if hits_for_term[id] then \r\n            weights[id] = (weights[id] or 0) + 5 + hits_for_term[id]\r\n         end \r\n      end\r\n      if weights[id] then\r\n         table.insert(node_ids, id)\r\n      end\r\n   end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 6,
+    "text": "for term, hits_for_term in pairs(hits) do\r\n         if hits_for_term[id] then \r\n            weights[id] = (weights[id] or 0) + 5 + hits_for_term[id]\r\n         end \r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 7,
+    "text": "if hits_for_term[id] then \r\n            weights[id] = (weights[id] or 0) + 5 + hits_for_term[id]\r\n         end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "weights[id] = (weights[id] or 0) + 5 + hits_for_term[id]",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "if weights[id] then\r\n         table.insert(node_ids, id)\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "table.insert(node_ids, id)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "table.sort(node_ids, function(x,y) return weights[x] > weights[y] end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function(x,y) return weights[x] > weights[y] end",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 16,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "sort",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require container"
+  } ]
+}

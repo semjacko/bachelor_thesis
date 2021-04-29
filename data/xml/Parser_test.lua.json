@@ -1,0 +1,493 @@
+{
+  "_filename": "Parser_test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/xml/test/Parser_test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "assigns",
+    "to": 42
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "assigns",
+    "to": 44
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "assigns",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "assigns",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "assigns",
+    "to": 48
+  }, {
+    "from": 46,
+    "label": "assigns",
+    "to": 49
+  }, {
+    "from": 46,
+    "label": "assigns",
+    "to": 50
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 51
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "requires",
+    "to": 28
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "requires",
+    "to": 29
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Parser_test",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "xml",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function should.autoLoad()\r\n  assertType('table', xml.Parser)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "assertType('table', xml.Parser)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function should.createNew()\r\n  local p = xml.Parser(xml.Parser.TrimWhitespace)\r\n  assertEqual('xml.Parser', p.type)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local p = xml.Parser(xml.Parser.TrimWhitespace)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "assertEqual('xml.Parser', p.type)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function should.renderToString()\r\n  local p = xml.Parser(xml.Parser.TrimWhitespace)\r\n  assertMatch('xml.Parser: 0x%d', tostring(p))\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "assertMatch('xml.Parser: 0x%d', tostring(p))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function should.load()\r\n  local p = xml.Parser()\r\n  local data = p:load(lub.path('|fixtures/foo.xml'))\r\n  assertValueEqual(TEST_RES, data)\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "local p = xml.Parser()",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "local data = p:load(lub.path('|fixtures/foo.xml'))",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "assertValueEqual(TEST_RES, data)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function should.parse()\r\n  local p = xml.Parser()\r\n  assertValueEqual(TEST_RES, p:parse(TEST_XML))\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "assertValueEqual(TEST_RES, p:parse(TEST_XML))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function should.containConst()\r\n  assertEqual(0, xml.Parser.Default)\r\n  assertEqual(1, xml.Parser.TrimWhitespace)\r\n  assertEqual(2, xml.Parser.NonDestructive)\r\n  assertEqual(3, xml.Parser.Fastest)\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "assertEqual(0, xml.Parser.Default)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "assertEqual(1, xml.Parser.TrimWhitespace)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "assertEqual(2, xml.Parser.NonDestructive)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "assertEqual(3, xml.Parser.Fastest)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 28,
+    "text": "lub",
+    "type": "module"
+  }, {
+    "id": 29,
+    "text": "lut",
+    "type": "module"
+  }, {
+    "id": 30,
+    "text": "Parser",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "path",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "Test",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "assertEqual",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "assertValueEqual",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "assertMatch",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "assertType",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

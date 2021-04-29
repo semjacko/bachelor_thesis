@@ -1,0 +1,353 @@
+{
+  "_filename": "uniopen.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-iconv/uniopen.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "assigns",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "assigns",
+    "to": 32
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "assigns",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 36
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 38
+  }, {
+    "from": 29,
+    "label": "represents",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "provides",
+    "to": 39
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "uniopen",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function m.open(fname, mode, tocharset, fromcharset)\r\n  assert(mode == \"r\" or mode == \"rb\", \"Only read modes are supported yet\")\r\n  local cd = assert(iconv.new(tocharset, fromcharset), \"Bad charset\")\r\n  local fp = io.open(fname, mode)\r\n  if not fp then\r\n    return nil\r\n  end\r\n  local o =  { fp = fp, cd = cd }\r\n  setmetatable(o, mt)\r\n  return o;\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "assert(mode == \"r\" or mode == \"rb\", \"Only read modes are supported yet\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "local cd = assert(iconv.new(tocharset, fromcharset), \"Bad charset\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local fp = io.open(fname, mode)",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "if not fp then\r\n    return nil\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "local o =  { fp = fp, cd = cd }",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "setmetatable(o, mt)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function mti.read(fp, mod)\r\n  assert(fp and fp.fp and fp.cd, \"Bad file descriptor\")\r\n  local ret = fp.fp:read(mod)\r\n  if ret then\r\n    return fp.cd:iconv(ret)  -- returns: string, error code\r\n  else\r\n    return nil\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "assert(fp and fp.fp and fp.cd, \"Bad file descriptor\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "local ret = fp.fp:read(mod)",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "if ret then\r\n    return fp.cd:iconv(ret)  -- returns: string, error code\r\n  else\r\n    return nil\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function mti.close(fp)\r\n  assert(fp and fp.fp, \"Bad file descriptor\")\r\n  fp.fp:close()\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "assert(fp and fp.fp, \"Bad file descriptor\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "fp.fp:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 21,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "(iconv)",
+    "type": "module"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "_prefixexp"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "interface"
+  } ]
+}

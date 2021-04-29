@@ -1,0 +1,225 @@
+{
+  "_filename": "pair.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasys/test/event/pair.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "requires",
+    "to": 15
+  }, {
+    "from": 23,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "requires",
+    "to": 21
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "pair",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function ev_cb(evq, evid, fd, R, W, T, EOF)\r\n    print(fd, R and \"Read\" or \"\", W and \"Write\" or \"\",\r\n\tT and \"Timeout\" or \"\", EOF and \"EOF\" or \"\")\r\n\r\n    if R then\r\n\tlocal line = fd:recv()\r\n\tsys.stdout:write(\"Output:\\t\", line)\r\n    end\r\n    if W then\r\n\tsys.stdout:write\"Input:\\t\"\r\n\tlocal line = sys.stdin:read()\r\n\r\n\tfd:send(line)\r\n    end\r\n    evq:del(evid)\r\n    fd:close()\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "print(fd, R and \"Read\" or \"\", W and \"Write\" or \"\",\r\n\tT and \"Timeout\" or \"\", EOF and \"EOF\" or \"\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "if R then\r\n\tlocal line = fd:recv()\r\n\tsys.stdout:write(\"Output:\\t\", line)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "local line = fd:recv()",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "sys.stdout:write(\"Output:\\t\", line)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "if W then\r\n\tsys.stdout:write\"Input:\\t\"\r\n\tlocal line = sys.stdin:read()\r\n\r\n\tfd:send(line)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "sys.stdout:write\"Input:\\t\"",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "local line = sys.stdin:read()",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "fd:send(line)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "evq:del(evid)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "fd:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "sys",
+    "type": "module"
+  }, {
+    "id": 16,
+    "text": "event_queue",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "handle",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "sock",
+    "type": "module"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,761 @@
+{
+  "_filename": "download.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/download.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 49,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 49,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 73
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 74
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 75
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 76
+  }, {
+    "from": 73,
+    "label": "initializes",
+    "to": 77
+  }, {
+    "from": 74,
+    "label": "initializes",
+    "to": 78
+  }, {
+    "from": 78,
+    "label": "requires",
+    "to": 67
+  }, {
+    "from": 74,
+    "label": "initializes",
+    "to": 79
+  }, {
+    "from": 79,
+    "label": "requires",
+    "to": 71
+  }, {
+    "from": 74,
+    "label": "initializes",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "requires",
+    "to": 68
+  }, {
+    "from": 74,
+    "label": "initializes",
+    "to": 81
+  }, {
+    "from": 81,
+    "label": "requires",
+    "to": 72
+  }, {
+    "from": 74,
+    "label": "initializes",
+    "to": 82
+  }, {
+    "from": 82,
+    "label": "requires",
+    "to": 70
+  }, {
+    "from": 74,
+    "label": "initializes",
+    "to": 83
+  }, {
+    "from": 83,
+    "label": "requires",
+    "to": 69
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "download",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function split_url(url)\r\n   assert(type(url) == \"string\")\r\n   \r\n   local protocol, pathname = url:match(\"^([^:]*)://(.*)\")\r\n   if not protocol then\r\n      protocol = \"file\"\r\n      pathname = url\r\n   end\r\n   return protocol, pathname\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local function get_file(filename)\r\n   local protocol, pathname = dir.split_url(filename)\r\n   if protocol == \"file\" then\r\n      local ok, err = fs.copy(pathname, fs.current_dir())\r\n      if ok then\r\n         return pathname\r\n      else\r\n         return nil, err\r\n      end\r\n   else\r\n      return fetch.fetch_url(filename)\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local protocol, pathname = dir.split_url(filename)",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if protocol == \"file\" then\r\n      local ok, err = fs.copy(pathname, fs.current_dir())\r\n      if ok then\r\n         return pathname\r\n      else\r\n         return nil, err\r\n      end\r\n   else\r\n      return fetch.fetch_url(filename)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "local ok, err = fs.copy(pathname, fs.current_dir())",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if ok then\r\n         return pathname\r\n      else\r\n         return nil, err\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function download(arch, name, version, all)\r\n   local results, err\r\n   local query = search.make_query(name, version)\r\n   if arch then query.arch = arch end\r\n   if all then\r\n      if name == \"\" then query.exact_name = false end\r\n      results = search.search_repos(query)\r\n   else\r\n      results, err = search.find_suitable_rock(query)\r\n   end\r\n   if type(results) == \"string\" then\r\n      return get_file(results)\r\n   elseif type(results) == \"table\" and next(results) then\r\n      if all then\r\n         local all_ok = true\r\n         local any_err = \"\"\r\n         for name, result in pairs(results) do\r\n            for version, versions in pairs(result) do\r\n               for _,items in pairs(versions) do\r\n                  local filename = path.make_url(items.repo, name, version, items.arch)\r\n                  local ok, err = get_file(filename)\r\n                  if not ok then\r\n                     all_ok = false\r\n                     any_err = any_err .. \"\\n\" .. err\r\n                  end\r\n               end\r\n            end\r\n         end\r\n         return all_ok, any_err\r\n      else\r\n         util.printerr(\"Multiple search results were returned.\")\r\n         util.title(\"Search results:\")\r\n         search.print_results(results)\r\n         return nil, \"Please narrow your query or use --all.\"\r\n      end\r\n   end\r\n   return nil, \"Could not find a result named \"..name..(version and \" \"..version or \"\")..\".\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local results, err",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local query = search.make_query(name, version)",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "if arch then query.arch = arch end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "query.arch = arch",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "if all then\r\n      if name == \"\" then query.exact_name = false end\r\n      results = search.search_repos(query)\r\n   else\r\n      results, err = search.find_suitable_rock(query)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "if name == \"\" then query.exact_name = false end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "query.exact_name = false",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "results = search.search_repos(query)",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "results, err = search.find_suitable_rock(query)",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "if type(results) == \"string\" then\r\n      return get_file(results)\r\n   elseif type(results) == \"table\" and next(results) then\r\n      if all then\r\n         local all_ok = true\r\n         local any_err = \"\"\r\n         for name, result in pairs(results) do\r\n            for version, versions in pairs(result) do\r\n               for _,items in pairs(versions) do\r\n                  local filename = path.make_url(items.repo, name, version, items.arch)\r\n                  local ok, err = get_file(filename)\r\n                  if not ok then\r\n                     all_ok = false\r\n                     any_err = any_err .. \"\\n\" .. err\r\n                  end\r\n               end\r\n            end\r\n         end\r\n         return all_ok, any_err\r\n      else\r\n         util.printerr(\"Multiple search results were returned.\")\r\n         util.title(\"Search results:\")\r\n         search.print_results(results)\r\n         return nil, \"Please narrow your query or use --all.\"\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "if all then\r\n         local all_ok = true\r\n         local any_err = \"\"\r\n         for name, result in pairs(results) do\r\n            for version, versions in pairs(result) do\r\n               for _,items in pairs(versions) do\r\n                  local filename = path.make_url(items.repo, name, version, items.arch)\r\n                  local ok, err = get_file(filename)\r\n                  if not ok then\r\n                     all_ok = false\r\n                     any_err = any_err .. \"\\n\" .. err\r\n                  end\r\n               end\r\n            end\r\n         end\r\n         return all_ok, any_err\r\n      else\r\n         util.printerr(\"Multiple search results were returned.\")\r\n         util.title(\"Search results:\")\r\n         search.print_results(results)\r\n         return nil, \"Please narrow your query or use --all.\"\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "local all_ok = true",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "local any_err = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "for name, result in pairs(results) do\r\n            for version, versions in pairs(result) do\r\n               for _,items in pairs(versions) do\r\n                  local filename = path.make_url(items.repo, name, version, items.arch)\r\n                  local ok, err = get_file(filename)\r\n                  if not ok then\r\n                     all_ok = false\r\n                     any_err = any_err .. \"\\n\" .. err\r\n                  end\r\n               end\r\n            end\r\n         end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 25,
+    "text": "for version, versions in pairs(result) do\r\n               for _,items in pairs(versions) do\r\n                  local filename = path.make_url(items.repo, name, version, items.arch)\r\n                  local ok, err = get_file(filename)\r\n                  if not ok then\r\n                     all_ok = false\r\n                     any_err = any_err .. \"\\n\" .. err\r\n                  end\r\n               end\r\n            end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 26,
+    "text": "for _,items in pairs(versions) do\r\n                  local filename = path.make_url(items.repo, name, version, items.arch)\r\n                  local ok, err = get_file(filename)\r\n                  if not ok then\r\n                     all_ok = false\r\n                     any_err = any_err .. \"\\n\" .. err\r\n                  end\r\n               end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 27,
+    "text": "local filename = path.make_url(items.repo, name, version, items.arch)",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "local ok, err = get_file(filename)",
+    "type": "statement:localassign"
+  }, {
+    "id": 29,
+    "text": "if not ok then\r\n                     all_ok = false\r\n                     any_err = any_err .. \"\\n\" .. err\r\n                  end",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "all_ok = false",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "any_err = any_err .. \"\\n\" .. err",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "util.printerr(\"Multiple search results were returned.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "util.title(\"Search results:\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 34,
+    "text": "search.print_results(results)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "function run(...)\r\n   local flags, name, version = util.parse_flags(...)\r\n   \r\n   assert(type(version) == \"string\" or not version)\r\n   if type(name) ~= \"string\" and not flags[\"all\"] then\r\n      return nil, \"Argument missing, see help.\"\r\n   end\r\n   if not name then name, version = \"\", \"\" end\r\n\r\n   local arch\r\n\r\n   if flags[\"source\"] then\r\n      arch = \"src\"\r\n   elseif flags[\"rockspec\"] then\r\n      arch = \"rockspec\"\r\n   elseif flags[\"arch\"] then\r\n      arch = flags[\"arch\"]\r\n   end\r\n   \r\n   local dl, err = download(arch, name, version, flags[\"all\"])\r\n   return dl and true, err\r\nend",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "local flags, name, version = util.parse_flags(...)",
+    "type": "statement:localassign"
+  }, {
+    "id": 38,
+    "text": "assert(type(version) == \"string\" or not version)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 39,
+    "text": "if type(name) ~= \"string\" and not flags[\"all\"] then\r\n      return nil, \"Argument missing, see help.\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 40,
+    "text": "if not name then name, version = \"\", \"\" end",
+    "type": "statement:if"
+  }, {
+    "id": 41,
+    "text": "name, version = \"\", \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "local arch",
+    "type": "statement:localassign"
+  }, {
+    "id": 43,
+    "text": "if flags[\"source\"] then\r\n      arch = \"src\"\r\n   elseif flags[\"rockspec\"] then\r\n      arch = \"rockspec\"\r\n   elseif flags[\"arch\"] then\r\n      arch = flags[\"arch\"]\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 44,
+    "text": "arch = \"src\"",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "arch = \"rockspec\"",
+    "type": "statement:assign"
+  }, {
+    "id": 46,
+    "text": "arch = flags[\"arch\"]",
+    "type": "statement:assign"
+  }, {
+    "id": 47,
+    "text": "local dl, err = download(arch, name, version, flags[\"all\"])",
+    "type": "statement:localassign"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 50,
+    "text": "function fetch_url(url, filename, cache)\r\n   assert(type(url) == \"string\")\r\n   assert(type(filename) == \"string\" or not filename)\r\n\r\n   local protocol, pathname = dir.split_url(url)\r\n   if protocol == \"file\" then\r\n      return fs.absolute_name(pathname)\r\n   elseif is_basic_protocol(protocol, true) then\r\n      local ok, filename = fs.download(url, filename, cache)\r\n      if not ok then\r\n         return nil, \"Failed downloading \"..url..(filename and \" - \"..filename or \"\"), \"network\"\r\n      end\r\n      return filename\r\n   else\r\n      return nil, \"Unsupported protocol \"..protocol\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 51,
+    "text": "function current_dir()\r\n   return lfs.currentdir()\r\nend",
+    "type": "function"
+  }, {
+    "id": 52,
+    "text": "function copy(src, dest, perms)\r\n   assert(src and dest)\r\n   src = dir.normalize(src)\r\n   dest = dir.normalize(dest)\r\n   local destmode = lfs.attributes(dest, \"mode\")\r\n   if destmode == \"directory\" then\r\n      dest = dir.path(dest, dir.base_name(src))\r\n   end\r\n   if not perms then perms = fs.get_permissions(src) end\r\n   local src_h, err = io.open(src, \"rb\")\r\n   if not src_h then return nil, err end\r\n   local dest_h, err = io.open(dest, \"w+b\")\r\n   if not dest_h then src_h:close() return nil, err end\r\n   while true do\r\n      local block = src_h:read(8192)\r\n      if not block then break end\r\n      dest_h:write(block)\r\n   end\r\n   src_h:close()\r\n   dest_h:close()\r\n   fs.chmod(dest, perms)\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "function make_url(pathname, name, version, arch)\r\n   assert(type(pathname) == \"string\")\r\n   assert(type(name) == \"string\")\r\n   assert(type(version) == \"string\")\r\n   assert(type(arch) == \"string\")\r\n\r\n   local filename = name..\"-\"..version\r\n   if arch == \"installed\" then\r\n      filename = dir.path(name, version, filename..\".rockspec\")\r\n   elseif arch == \"rockspec\" then\r\n      filename = filename..\".rockspec\"\r\n   else\r\n      filename = filename..\".\"..arch..\".rock\"\r\n   end\r\n   return dir.path(pathname, filename)\r\nend",
+    "type": "function"
+  }, {
+    "id": 54,
+    "text": "function search_repos(query)\r\n   assert(type(query) == \"table\")\r\n\r\n   local results = {}\r\n   for _, repo in ipairs(cfg.rocks_servers) do\r\n      if type(repo) == \"string\" then\r\n         repo = { repo }\r\n      end\r\n      for _, mirror in ipairs(repo) do\r\n         local protocol, pathname = dir.split_url(mirror)\r\n         if protocol == \"file\" then\r\n            mirror = pathname\r\n         end\r\n         local ok, err = manifest_search(results, mirror, query)\r\n         if ok then\r\n            break\r\n         else\r\n            util.warning(\"Failed searching manifest: \"..err)\r\n         end\r\n      end\r\n   end\r\n   -- search through rocks in cfg.rocks_provided\r\n   local provided_repo = \"provided by VM or rocks_provided\"\r\n   local name, versions\r\n   for name, versions in pairs(cfg.rocks_provided) do\r\n      store_if_match(results, provided_repo, name, versions, \"installed\", query)\r\n   end\r\n   return results\r\nend",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "function make_query(name, version)\r\n   assert(type(name) == \"string\")\r\n   assert(type(version) == \"string\" or not version)\r\n   \r\n   local query = {\r\n      name = name,\r\n      constraints = {}\r\n   }\r\n   if version then\r\n      table.insert(query.constraints, { op = \"==\", version = deps.parse_version(version)})\r\n   end\r\n   return query\r\nend",
+    "type": "function"
+  }, {
+    "id": 56,
+    "text": "function find_suitable_rock(query)\r\n   assert(type(query) == \"table\")\r\n   \r\n   local results = search_repos(query)\r\n   local first = next(results)\r\n   if not first then\r\n      return nil, \"No results matching query were found.\"\r\n   elseif not next(results, first) then\r\n      if cfg.rocks_provided[query.name] ~= nil then\r\n         -- do not install versions that listed in cfg.rocks_provided\r\n         return nil, \"Rock \"..query.name..\r\n                     \" \"..cfg.rocks_provided[query.name]..\r\n                     \" was found but it is provided by VM or 'rocks_provided' in the config file.\"\r\n      end\r\n      return pick_latest_version(query.name, results[first])\r\n   else\r\n      return results\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 57,
+    "text": "function print_results(results, porcelain)\r\n   assert(type(results) == \"table\")\r\n   assert(type(porcelain) == \"boolean\" or not porcelain)\r\n   \r\n   for package, versions in util.sortedpairs(results) do\r\n      if not porcelain then\r\n         util.printout(package)\r\n      end\r\n      for version, repos in util.sortedpairs(versions, deps.compare_versions) do\r\n         for _, repo in ipairs(repos) do\r\n            repo.repo = dir.normalize(repo.repo)\r\n            if porcelain then\r\n               util.printout(package, version, repo.arch, repo.repo)\r\n            else\r\n               util.printout(\"   \"..version..\" (\"..repo.arch..\") - \"..repo.repo)\r\n            end\r\n         end\r\n      end\r\n      if not porcelain then\r\n         util.printout()\r\n      end\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 58,
+    "text": "function parse_flags(...)\r\n   local args = {...}\r\n   local flags = {}\r\n   for i = #args, 1, -1 do\r\n      local flag = args[i]:match(\"^%-%-(.*)\")\r\n      if flag then\r\n         local var,val = flag:match(\"([a-z_%-]*)=(.*)\")\r\n         if val then\r\n            flags[var] = val\r\n         else\r\n            flags[flag] = true\r\n         end\r\n         table.remove(args, i)\r\n      end\r\n   end\r\n   return flags, unpack(args)\r\nend",
+    "type": "function"
+  }, {
+    "id": 59,
+    "text": "function printerr(...)\r\n   io.stderr:write(table.concat({...},\"\\t\"))\r\n   io.stderr:write(\"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 60,
+    "text": "function title(msg, porcelain, underline)\r\n   if porcelain then return end\r\n   printout()\r\n   printout(msg)\r\n   printout((underline or \"-\"):rep(#msg))\r\n   printout()\r\nend",
+    "type": "function"
+  }, {
+    "id": 61,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "next",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "util)",
+    "type": "module"
+  }, {
+    "id": 68,
+    "text": "fetch)",
+    "type": "module"
+  }, {
+    "id": 69,
+    "text": "dir)",
+    "type": "module"
+  }, {
+    "id": 70,
+    "text": "fs)",
+    "type": "module"
+  }, {
+    "id": 71,
+    "text": "path)",
+    "type": "module"
+  }, {
+    "id": 72,
+    "text": "search)",
+    "type": "module"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

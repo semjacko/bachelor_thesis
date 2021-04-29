@@ -1,0 +1,333 @@
+{
+  "_filename": "stats_tap.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-zmq/ws/stats_tap.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 26,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "assigns",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 36
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "assigns",
+    "to": 38
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "stats_tap",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "tap",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function stats_tap_mt:packet(pinfo, tvb, tree, data)\r\n\t-- count all ZeroMQ packets\r\n\tself.count = self.count + 1\r\n\tdata = data or pinfo.tap_data\r\n\tif not data then\r\n\t\treturn\r\n\tend\r\n\t-- frames\r\n\tself.frames = self.frames + (data.frames or 0)\r\n\t-- frames with more flag set\r\n\tself.more = self.more + (data.more or 0)\r\n\t-- whole messages.\r\n\tself.msgs = self.msgs + (data.msgs or 0)\r\n\t-- total bytes in frame bodies.\r\n\tself.body_bytes = self.body_bytes + (data.body_bytes or 0)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "self.count = self.count + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "data = data or pinfo.tap_data",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "if not data then\r\n\t\treturn\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "self.frames = self.frames + (data.frames or 0)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "self.more = self.more + (data.more or 0)",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "self.msgs = self.msgs + (data.msgs or 0)",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "self.body_bytes = self.body_bytes + (data.body_bytes or 0)",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function stats_tap_mt:draw()\r\n\treturn format([[\r\nZeroMQ Packets: %d\r\nFrames: %d\r\nMessages: %d\r\nFlags: More: %d\r\nPayload bytes: %d\r\n]],\r\n\tself.count,\r\n\tself.frames,\r\n\tself.msgs,\r\n\tself.more,\r\n\tself.body_bytes)\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function stats_tap_mt:reset()\r\n\tself.count = 0\r\n\tself.frames = 0\r\n\tself.msgs = 0\r\n\tself.more = 0\r\n\tself.body_bytes = 0\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "self.count = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "self.frames = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "self.msgs = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "self.more = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "self.body_bytes = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "local function create_stats_tap()\r\n\tlocal tap = setmetatable({}, stats_tap_mt)\r\n\r\n\ttap:reset() -- initialize tap.\r\n\treturn tap, 'zmq', 'lua'\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "local tap = setmetatable({}, stats_tap_mt)",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "tap:reset()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 27,
+    "text": "tap",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,293 @@
+{
+  "_filename": "disect.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua_cliargs/src/cliargs/utils/disect.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "assigns",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "assigns",
+    "to": 32
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "requires",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 34
+  }, {
+    "from": 25,
+    "label": "represents",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "provides",
+    "to": 35
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "disect",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function disect(key)\r\n  -- characters allowed are a-z, A-Z, 0-9\r\n  -- extended + values also allow; # @ _ + -\r\n  local k, ek, v, _\r\n  local dummy\r\n\r\n  -- leading \"-\" or \"--\"\r\n  local prefix\r\n\r\n  -- if there is no comma, between short and extended, add one\r\n  _, _, dummy = key:find(RE_ADD_COMMA)\r\n  if dummy then\r\n    key = key:gsub(RE_ADD_COMMA, \"-\" .. dummy .. \", --\", 1)\r\n  end\r\n\r\n  -- replace space delimiting the value indicator by \"=\"\r\n  --\r\n  --     -key VALUE => -key=VALUE\r\n  --     --expanded-key VALUE => --expanded-key=VALUE\r\n  _, _, prefix, dummy = key:find(RE_ADJUST_DELIMITER)\r\n  if prefix and dummy then\r\n    key = key:gsub(RE_ADJUST_DELIMITER, prefix .. dummy .. \"=\", 1)\r\n  end\r\n\r\n  -- if there is no \"=\", then append one\r\n  if not key:find(\"=\") then\r\n    key = key .. \"=\"\r\n  end\r\n\r\n  -- get value\r\n  _, _, v = key:find(\".-%=(.+)\")\r\n\r\n  -- get key(s), remove spaces\r\n  key = split(key, \"=\")[1]:gsub(\" \", \"\")\r\n\r\n  -- get short key & extended key\r\n  _, _, k = key:find(\"^%-([^-][^%s,]*)\")\r\n  _, _, ek = key:find(\"%-%-(.+)$\")\r\n\r\n  if v == \"\" then\r\n    v = nil\r\n  end\r\n\r\n  return k,ek,v\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local k, ek, v, _",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local dummy",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local prefix",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "_, _, dummy = key:find(RE_ADD_COMMA)",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "if dummy then\r\n    key = key:gsub(RE_ADD_COMMA, \"-\" .. dummy .. \", --\", 1)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "key = key:gsub(RE_ADD_COMMA, \"-\" .. dummy .. \", --\", 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "_, _, prefix, dummy = key:find(RE_ADJUST_DELIMITER)",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "if prefix and dummy then\r\n    key = key:gsub(RE_ADJUST_DELIMITER, prefix .. dummy .. \"=\", 1)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "key = key:gsub(RE_ADJUST_DELIMITER, prefix .. dummy .. \"=\", 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "if not key:find(\"=\") then\r\n    key = key .. \"=\"\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "key = key .. \"=\"",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "_, _, v = key:find(\".-%=(.+)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "key = split(key, \"=\")[1]:gsub(\" \", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "_, _, k = key:find(\"^%-([^-][^%s,]*)\")",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "_, _, ek = key:find(\"%-%-(.+)$\")",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "if v == \"\" then\r\n    v = nil\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "v = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 23,
+    "text": "split",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "disect",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "split)",
+    "type": "module"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "interface"
+  } ]
+}

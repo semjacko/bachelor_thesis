@@ -1,0 +1,173 @@
+{
+  "_filename": "test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/copas/tests/test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "copas",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "test",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function echoHandler(skt)\r\n  skt = copas.wrap(skt)\r\n  while true do\r\n    local data = skt:receive()\r\n    if not data or data == \"quit\" then\r\n      break\r\n    end\r\n    skt:send(data)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "skt = copas.wrap(skt)",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "while true do\r\n    local data = skt:receive()\r\n    if not data or data == \"quit\" then\r\n      break\r\n    end\r\n    skt:send(data)\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 6,
+    "text": "local data = skt:receive()",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "if not data or data == \"quit\" then\r\n      break\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "skt:send(data)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "wrap",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "addserver",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "loop",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "bind",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

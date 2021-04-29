@@ -1,0 +1,177 @@
+{
+  "_filename": "message1b.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/concurrentlua/test/distributed/message1b.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 4,
+    "label": "hasArgument",
+    "to": 7
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "message1b",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function sender(pid)\r\n    concurrent.register('sender', concurrent.self())\r\n    concurrent.send(pid, { from = concurrent.self(), integer = 9634,\r\n        float = 96.34, string = 'hello world', table = { 'hello, world',\r\n        hello = 'world' }, callme = function () return 'hello world!' end })\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "concurrent.register('sender', concurrent.self())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "concurrent.send(pid, { from = concurrent.self(), integer = 9634,\r\n        float = 96.34, string = 'hello world', table = { 'hello, world',\r\n        hello = 'world' }, callme = function () return 'hello world!' end })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function () return 'hello world!' end",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 9,
+    "text": "spawn",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "send",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "loop",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "register",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "self",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "shutdown",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require container"
+  } ]
+}

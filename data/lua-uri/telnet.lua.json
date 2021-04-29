@@ -1,0 +1,489 @@
+{
+  "_filename": "telnet.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/telnet.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 43,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 47
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 48
+  }, {
+    "from": 47,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "assigns",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "assigns",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "assigns",
+    "to": 52
+  }, {
+    "from": 48,
+    "label": "initializes",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 48,
+    "label": "initializes",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 55
+  }, {
+    "from": 46,
+    "label": "represents",
+    "to": 56
+  }, {
+    "from": 55,
+    "label": "provides",
+    "to": 56
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "telnet",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "_login",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function testcase:test_telnet ()\r\n    local uri = assert(URI:new(\"telnet://telnet.example.com/\"))\r\n    is(\"telnet://telnet.example.com/\", uri:uri())\r\n    is(\"telnet://telnet.example.com/\", tostring(uri))\r\n    is(\"uri.telnet\", uri._NAME)\r\n    is(\"telnet\", uri:scheme())\r\n    is(\"telnet.example.com\", uri:host())\r\n    is(\"/\", uri:path())\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function testcase:test_telnet_normalize ()\r\n    local uri = assert(URI:new(\"telnet://user:password@host.com\"))\r\n    is(\"telnet://user:password@host.com/\", tostring(uri))\r\n    is(\"/\", uri:path())\r\n    is(23, uri:port())\r\n    uri = assert(URI:new(\"telnet://user:password@host.com:23/\"))\r\n    is(\"telnet://user:password@host.com/\", tostring(uri))\r\n    is(\"/\", uri:path())\r\n    is(23, uri:port())\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function testcase:test_telnet_invalid ()\r\n    is_bad_uri(\"no authority, empty path\", \"telnet:\")\r\n    is_bad_uri(\"no authority, normal path\", \"telnet:/\")\r\n    is_bad_uri(\"empty authority, empty path\", \"telnet://\")\r\n    is_bad_uri(\"empty authority, normal path\", \"telnet:///\")\r\n    is_bad_uri(\"bad path /x\", \"telnet://host/x\")\r\n    is_bad_uri(\"bad path //\", \"telnet://host//\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function testcase:test_telnet_set_path ()\r\n    local uri = assert(URI:new(\"telnet://foo/\"))\r\n    is(\"/\", uri:path(\"/\"))\r\n    is(\"/\", uri:path(\"\"))\r\n    is(\"/\", uri:path(nil))\r\n    is(\"/\", uri:path())\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function testcase:test_telnet_set_bad_path ()\r\n    local uri = assert(URI:new(\"telnet://foo/\"))\r\n    assert_error(\"bad path x\", function () uri:path(\"x\") end)\r\n    assert_error(\"bad path /x\", function () uri:path(\"/x\") end)\r\n    assert_error(\"bad path //\", function () uri:path(\"//\") end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function testcase:test_telnet_userinfo ()\r\n    local uri = assert(URI:new(\"telnet://host.com/\"))\r\n    is(nil, uri:userinfo())\r\n    is(nil, uri:username())\r\n    is(nil, uri:password())\r\n    uri = assert(URI:new(\"telnet://foo:bar@host.com/\"))\r\n    is(\"foo:bar\", uri:userinfo())\r\n    is(\"foo\", uri:username())\r\n    is(\"bar\", uri:password())\r\n    uri = assert(URI:new(\"telnet://%3a%40:%3a%40@host.com/\"))\r\n    is(\"%3A%40:%3A%40\", uri:userinfo())\r\n    is(\":@\", uri:username())\r\n    is(\":@\", uri:password())\r\n    uri = assert(URI:new(\"telnet://foo:@host.com/\"))\r\n    is(\"foo:\", uri:userinfo())\r\n    is(\"foo\", uri:username())\r\n    is(\"\", uri:password())\r\n    uri = assert(URI:new(\"telnet://@host.com/\"))\r\n    is(\"\", uri:userinfo())\r\n    is(\"\", uri:username())\r\n    is(nil, uri:password())\r\n    uri = assert(URI:new(\"telnet://:@host.com/\"))\r\n    is(\":\", uri:userinfo())\r\n    is(\"\", uri:username())\r\n    is(\"\", uri:password())\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function testcase:test_telnet_set_userinfo ()\r\n    local uri = assert(URI:new(\"telnet://host.com/\"))\r\n    is(nil, uri:userinfo(\"\"))\r\n    is(\"telnet://@host.com/\", tostring(uri))\r\n    is(\"\", uri:userinfo(\":\"))\r\n    is(\"telnet://:@host.com/\", tostring(uri))\r\n    is(\":\", uri:userinfo(\"foo:\"))\r\n    is(\"telnet://foo:@host.com/\", tostring(uri))\r\n    is(\"foo:\", uri:userinfo(\":bar\"))\r\n    is(\"telnet://:bar@host.com/\", tostring(uri))\r\n    is(\":bar\", uri:userinfo(\"foo:bar\"))\r\n    is(\"telnet://foo:bar@host.com/\", tostring(uri))\r\n    is(\"foo:bar\", uri:userinfo())\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function testcase:test_telnet_set_bad_userinfo ()\r\n    local uri = assert(URI:new(\"telnet://host.com/\"))\r\n    assert_error(\"more than one colon\", function () uri:userinfo(\"x::y\") end)\r\n    assert_error(\"invalid character\", function () uri:userinfo(\"x/y\") end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function testcase:test_telnet_set_username ()\r\n    local uri = assert(URI:new(\"telnet://host.com/\"))\r\n    is(nil, uri:username(\"foo\"))\r\n    is(nil, uri:password())\r\n    is(\"telnet://foo@host.com/\", tostring(uri))\r\n    is(\"foo\", uri:username(\"x:y@z%\"))\r\n    is(nil, uri:password())\r\n    is(\"telnet://x%3Ay%40z%25@host.com/\", tostring(uri))\r\n    is(\"x:y@z%\", uri:username(\"\"))\r\n    is(nil, uri:password())\r\n    is(\"telnet://@host.com/\", tostring(uri))\r\n    is(\"\", uri:username(nil))\r\n    is(nil, uri:password())\r\n    is(\"telnet://host.com/\", tostring(uri))\r\n    is(nil, uri:username())\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function testcase:test_telnet_set_password ()\r\n    local uri = assert(URI:new(\"telnet://host.com/\"))\r\n    is(nil, uri:password(\"foo\"))\r\n    is(\"\", uri:username())\r\n    is(\"telnet://:foo@host.com/\", tostring(uri))\r\n    is(\"foo\", uri:password(\"x:y@z%\"))\r\n    is(\"\", uri:username())\r\n    is(\"telnet://:x%3Ay%40z%25@host.com/\", tostring(uri))\r\n    is(\"x:y@z%\", uri:password(\"\"))\r\n    is(\"\", uri:username())\r\n    is(\"telnet://:@host.com/\", tostring(uri))\r\n    is(\"\", uri:password(nil))\r\n    is(\"\", uri:username())\r\n    is(\"telnet://@host.com/\", tostring(uri))\r\n    is(\"\", uri:username(nil))\r\n    is(nil, uri:password(nil))\r\n    is(\"telnet://host.com/\", tostring(uri))\r\n    is(nil, uri:password())\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function () uri:path(\"x\") end",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function () uri:path(\"/x\") end",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function () uri:path(\"//\") end",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function () uri:userinfo(\"x::y\") end",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function () uri:userinfo(\"x/y\") end",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 20,
+    "text": "function M.default_port () return 23 end",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 22,
+    "text": "function M.init (self)\r\n    self, err = M._SUPER.init_base(self)\r\n    if not self then return nil, err end\r\n\r\n    -- RFC 4248 does not discuss what a path longer than '/' might mean, and\r\n    -- there are no examples with anything significant in the path, so I'm\r\n    -- assuming that extra information in the path is not allowed.\r\n    local path = M._SUPER.path(self)\r\n    if path ~= \"\" and path ~= \"/\" then\r\n        return nil, \"superfluous information in path of telnet URI\"\r\n    end\r\n\r\n    -- RFC 4248 section 2 says that the '/' can be omitted.  I chose to\r\n    -- normalize to having it there, since the example shown in the RFC has\r\n    -- it, and this is consistent with the way I treat HTTP URIs.\r\n    if path == \"\" then self:path(\"/\") end\r\n\r\n    return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "self, err = M._SUPER.init_base(self)",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "if not self then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "local path = M._SUPER.path(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if path ~= \"\" and path ~= \"/\" then\r\n        return nil, \"superfluous information in path of telnet URI\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "if path == \"\" then self:path(\"/\") end",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "self:path(\"/\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function M.path (self, new)\r\n    if new and new ~= \"\" and new ~= \"/\" then\r\n        error(\"invalid path for telnet URI\")\r\n    end\r\n    return \"/\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "if new and new ~= \"\" and new ~= \"/\" then\r\n        error(\"invalid path for telnet URI\")\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "error(\"invalid path for telnet URI\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "subclass_of",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "M._SUPER.path",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "TestCase",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "M._SUPER.init_base",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "run",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "interface"
+  } ]
+}

@@ -1,0 +1,153 @@
+{
+  "_filename": "simple_format.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-log/examples/simple_format.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "initializes",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 12,
+    "label": "initializes",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 12,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "simple_format",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "color",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "log",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "info",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "notice",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "flush",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "read",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

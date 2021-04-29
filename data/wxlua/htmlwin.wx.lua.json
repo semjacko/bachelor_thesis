@@ -1,0 +1,697 @@
+{
+  "_filename": "htmlwin.wx.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wxlua/samples/htmlwin.wx.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 43,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 35
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 43,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 59
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 60
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "assigns",
+    "to": 62
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "assigns",
+    "to": 64
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "assigns",
+    "to": 66
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 67
+  }, {
+    "from": 67,
+    "label": "assigns",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 70
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 71
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "assigns",
+    "to": 73
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "assigns",
+    "to": 75
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 76
+  }, {
+    "from": 76,
+    "label": "assigns",
+    "to": 77
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 78
+  }, {
+    "from": 78,
+    "label": "assigns",
+    "to": 79
+  }, {
+    "from": 59,
+    "label": "initializes",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "assigns",
+    "to": 81
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 58
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "htmlwin",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function CreateBoundWindow(event)\r\n    local ax, ay, rc\r\n    local fl = 0\r\n\r\n    -- parse the X parameter in the custom lua tag\r\n    rc, ax = event.HtmlTag:GetParamAsInt(\"X\")\r\n    -- parse the Y parameter\r\n    rc, ay = event.HtmlTag:GetParamAsInt(\"Y\")\r\n    -- if there is a float tag set the float\r\n    if event.HtmlTag:HasParam(\"FLOAT\") then\r\n        fl = ax\r\n    end\r\n\r\n    -- create the control to embed\r\n    local parent = nil\r\n    if wx.wxCHECK_VERSION(2,7,0) then\r\n        if event:GetHtmlParser() and event:GetHtmlParser():GetWindowInterface()\r\n           and event:GetHtmlParser():GetWindowInterface():GetHTMLWindow() then\r\n\r\n            parent = event:GetHtmlParser():GetWindowInterface():GetHTMLWindow()\r\n        else\r\n            print(\"FIXME: wxWidgets does not provide the html window for print previews?\")\r\n            print(\"1:\", event:GetHtmlParser())\r\n            print(\"2:\", event:GetHtmlParser():GetWindowInterface())\r\n            print(\"3:\", event:GetHtmlParser():GetWindowInterface():GetHTMLWindow())\r\n        end\r\n    else\r\n        parent = event.HtmlParser.Window\r\n    end\r\n\r\n    if parent then\r\n        local wnd = wx.wxTextCtrl( parent, wx.wxID_ANY,\r\n                                   event.HtmlTag:GetParam(\"TEXT\"),\r\n                                   wx.wxPoint(0, 0), wx.wxSize(ax, ay),\r\n                                   wx.wxTE_MULTILINE )\r\n        -- show the control\r\n        wnd:Show(true)\r\n\r\n        -- create the container widget cell\r\n        local widget = wx.wxHtmlWidgetCell(wnd, fl)\r\n\r\n        -- insert the cell into the document\r\n        event.HtmlParser:OpenContainer():InsertCell(widget)\r\n        event:SetParseInnerCalled(false)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local ax, ay, rc",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local fl = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "rc, ax = event.HtmlTag:GetParamAsInt(\"X\")",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "rc, ay = event.HtmlTag:GetParamAsInt(\"Y\")",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "if event.HtmlTag:HasParam(\"FLOAT\") then\r\n        fl = ax\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "fl = ax",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "local parent = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if wx.wxCHECK_VERSION(2,7,0) then\r\n        if event:GetHtmlParser() and event:GetHtmlParser():GetWindowInterface()\r\n           and event:GetHtmlParser():GetWindowInterface():GetHTMLWindow() then\r\n\r\n            parent = event:GetHtmlParser():GetWindowInterface():GetHTMLWindow()\r\n        else\r\n            print(\"FIXME: wxWidgets does not provide the html window for print previews?\")\r\n            print(\"1:\", event:GetHtmlParser())\r\n            print(\"2:\", event:GetHtmlParser():GetWindowInterface())\r\n            print(\"3:\", event:GetHtmlParser():GetWindowInterface():GetHTMLWindow())\r\n        end\r\n    else\r\n        parent = event.HtmlParser.Window\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "if event:GetHtmlParser() and event:GetHtmlParser():GetWindowInterface()\r\n           and event:GetHtmlParser():GetWindowInterface():GetHTMLWindow() then\r\n\r\n            parent = event:GetHtmlParser():GetWindowInterface():GetHTMLWindow()\r\n        else\r\n            print(\"FIXME: wxWidgets does not provide the html window for print previews?\")\r\n            print(\"1:\", event:GetHtmlParser())\r\n            print(\"2:\", event:GetHtmlParser():GetWindowInterface())\r\n            print(\"3:\", event:GetHtmlParser():GetWindowInterface():GetHTMLWindow())\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "parent = event:GetHtmlParser():GetWindowInterface():GetHTMLWindow()",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "print(\"FIXME: wxWidgets does not provide the html window for print previews?\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "print(\"1:\", event:GetHtmlParser())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "print(\"2:\", event:GetHtmlParser():GetWindowInterface())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "print(\"3:\", event:GetHtmlParser():GetWindowInterface():GetHTMLWindow())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "parent = event.HtmlParser.Window",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "if parent then\r\n        local wnd = wx.wxTextCtrl( parent, wx.wxID_ANY,\r\n                                   event.HtmlTag:GetParam(\"TEXT\"),\r\n                                   wx.wxPoint(0, 0), wx.wxSize(ax, ay),\r\n                                   wx.wxTE_MULTILINE )\r\n        -- show the control\r\n        wnd:Show(true)\r\n\r\n        -- create the container widget cell\r\n        local widget = wx.wxHtmlWidgetCell(wnd, fl)\r\n\r\n        -- insert the cell into the document\r\n        event.HtmlParser:OpenContainer():InsertCell(widget)\r\n        event:SetParseInnerCalled(false)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "local wnd = wx.wxTextCtrl( parent, wx.wxID_ANY,\r\n                                   event.HtmlTag:GetParam(\"TEXT\"),\r\n                                   wx.wxPoint(0, 0), wx.wxSize(ax, ay),\r\n                                   wx.wxTE_MULTILINE )",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "wnd:Show(true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "local widget = wx.wxHtmlWidgetCell(wnd, fl)",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "event.HtmlParser:OpenContainer():InsertCell(widget)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "event:SetParseInnerCalled(false)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function(self, title)\r\n                       frame.Title = frame.Title..\" - \"..title\r\n                  end",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "frame.Title = frame.Title..\" - \"..title",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function (event)\r\n        local printing = wx.wxHtmlEasyPrinting(\"HtmlWindow.wx.lua\", frame)\r\n        printing:PreviewText(htmlTextPage)\r\n    end",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "local printing = wx.wxHtmlEasyPrinting(\"HtmlWindow.wx.lua\", frame)",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "printing:PreviewText(htmlTextPage)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function (event)\r\n        local printing = wx.wxHtmlEasyPrinting(\"HtmlWindow.wx.lua\", frame)\r\n        printing:PrintText(htmlTextPage)\r\n    end",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "printing:PrintText(htmlTextPage)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 35,
+    "text": "function (event)\r\n        frame:Close(true)\r\n    end",
+    "type": "function"
+  }, {
+    "id": 36,
+    "text": "frame:Close(true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 38,
+    "text": "function (event)\r\n        wx.wxMessageBox('This is the \"About\" dialog of the wxHtmlWindow wxLua sample.\\n'..\r\n                        wxlua.wxLUA_VERSION_STRING..\" built with \"..wx.wxVERSION_STRING,\r\n                        \"About wxLua\",\r\n                        wx.wxOK + wx.wxICON_INFORMATION,\r\n                        frame )\r\n    end",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "wx.wxMessageBox('This is the \"About\" dialog of the wxHtmlWindow wxLua sample.\\n'..\r\n                        wxlua.wxLUA_VERSION_STRING..\" built with \"..wx.wxVERSION_STRING,\r\n                        \"About wxLua\",\r\n                        wx.wxOK + wx.wxICON_INFORMATION,\r\n                        frame )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 41,
+    "text": "function (event) CreateBoundWindow(event) end",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "CreateBoundWindow(event)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 44,
+    "text": "wxMenuBar",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "wxCHECK_VERSION",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "wxMessageBox",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "wxSize",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "wxGetApp",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "wxLuaHtmlWindow",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "wxMenu",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "wxTextCtrl",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "wxHtmlWidgetCell",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "wxHtmlEasyPrinting",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "wxFrame",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "wxPoint",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

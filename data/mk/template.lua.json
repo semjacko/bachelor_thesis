@@ -1,0 +1,365 @@
+{
+  "_filename": "template.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/mk/src/mk/template.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 26,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "requires",
+    "to": 16
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 38
+  }, {
+    "from": 25,
+    "label": "represents",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "provides",
+    "to": 39
+  }, {
+    "from": 30,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 30,
+    "label": "contains",
+    "to": 11
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "template",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "util",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function methods:render(req, res, env)\r\n  env = setmetatable({ \r\n\t\t       [\"if\"] = cosmo.cif,\r\n\t\t       req = req, res = res,\r\n\t\t       format = function (args)\r\n\t\t\t\t  return string.format(args[1], select(2, unpack(args)))\r\n\t\t\t\tend\r\n\t\t     }, { __index = env})\r\n  return self.template(env)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "env = setmetatable({ \r\n\t\t       [\"if\"] = cosmo.cif,\r\n\t\t       req = req, res = res,\r\n\t\t       format = function (args)\r\n\t\t\t\t  return string.format(args[1], select(2, unpack(args)))\r\n\t\t\t\tend\r\n\t\t     }, { __index = env})",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function template.load(filename)\r\n  local tmpl, err = util.readfile(filename)\r\n  if not tmpl then\r\n    return nil, err\r\n  end\r\n  return template.compile(tmpl, filename)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local tmpl, err = util.readfile(filename)",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "if not tmpl then\r\n    return nil, err\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function template.compile(str, filename)\r\n  return setmetatable({ template = cosmo.compile(str, filename and \"@\" .. filename) }, methods)\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function (args)\r\n\t\t\t\t  return string.format(args[1], select(2, unpack(args)))\r\n\t\t\t\tend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 16,
+    "text": "cosmo",
+    "type": "module"
+  }, {
+    "id": 17,
+    "text": "compile",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "readfile",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "template",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "interface"
+  } ]
+}

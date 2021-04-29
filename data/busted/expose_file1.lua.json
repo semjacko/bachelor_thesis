@@ -1,0 +1,165 @@
+{
+  "_filename": "expose_file1.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/expose_file1.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 9,
+    "label": "hasArgument",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "expose_file1",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function()\r\n    assert.is_not_nil(pl)\r\n    assert.is_not_nil(List)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "assert.is_not_nil(pl)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "assert.is_not_nil(List)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function()\r\n  pl = require 'pl'\r\n  _G.global_var = 'this global is in _G'\r\n\r\n  it('loads global environment with \"List\"', function()\r\n    assert.is_not_nil(pl)\r\n    assert.is_not_nil(List)\r\n  end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "pl = require 'pl'",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "_G.global_var = 'this global is in _G'",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "it('loads global environment with \"List\"', function()\r\n    assert.is_not_nil(pl)\r\n    assert.is_not_nil(List)\r\n  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 12,
+    "text": "it",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "is_not_nil",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "expose",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "require container"
+  } ]
+}

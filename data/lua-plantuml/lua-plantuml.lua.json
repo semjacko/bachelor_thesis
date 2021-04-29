@@ -1,0 +1,409 @@
+{
+  "_filename": "lua-plantuml.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-plantuml/src/bin/lua-plantuml.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 24,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 37
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 38,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "requires",
+    "to": 41
+  }, {
+    "from": 38,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "requires",
+    "to": 25
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lua-plantuml",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "luaplantuml",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function search_dir(path, settings)\r\n\r\n\tfor file in lfs.dir(path) do\r\n\t\tif file ~= \".\" and file ~= \"..\" then\r\n\t\t\tlocal selected_file = path .. '/' .. file\r\n\t\t\tlocal check_file = lfs.attributes(selected_file)\r\n\r\n\t\t\tif check_file.mode == \"directory\" then\r\n\t\t\t\textended_path = selected_file .. '/'\r\n\t\t\t\textended_path = string.gsub(extended_path, settings.dir_path, '')\r\n\t\t\tend \r\n\r\n\t\t\tsettings.extended_path = extended_path\r\n\r\n\t\t\tif check_file.mode == \"file\" and string.match(selected_file, '.lua$') then \t\t\t-- if .lua file\r\n\t\t\t\tsettings.current_file = selected_file\r\n\t\t\t\tlocal read_file,ie=io.open(selected_file)\r\n\r\n\t\t\t\tplant.process_text(read_file:read(\"*all\"), settings) -- do all process for file\r\n\t\t\t\tread_file:close()\r\n\t\t\tend\r\n\t\r\n\t\t\tlocal attr = lfs.attributes(selected_file)\r\n\t\t\tif attr.mode == \"directory\" then\r\n\t\t\t\tsearch_dir(selected_file, settings) \t-- recursive search again\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "for file in lfs.dir(path) do\r\n\t\tif file ~= \".\" and file ~= \"..\" then\r\n\t\t\tlocal selected_file = path .. '/' .. file\r\n\t\t\tlocal check_file = lfs.attributes(selected_file)\r\n\r\n\t\t\tif check_file.mode == \"directory\" then\r\n\t\t\t\textended_path = selected_file .. '/'\r\n\t\t\t\textended_path = string.gsub(extended_path, settings.dir_path, '')\r\n\t\t\tend \r\n\r\n\t\t\tsettings.extended_path = extended_path\r\n\r\n\t\t\tif check_file.mode == \"file\" and string.match(selected_file, '.lua$') then \t\t\t-- if .lua file\r\n\t\t\t\tsettings.current_file = selected_file\r\n\t\t\t\tlocal read_file,ie=io.open(selected_file)\r\n\r\n\t\t\t\tplant.process_text(read_file:read(\"*all\"), settings) -- do all process for file\r\n\t\t\t\tread_file:close()\r\n\t\t\tend\r\n\t\r\n\t\t\tlocal attr = lfs.attributes(selected_file)\r\n\t\t\tif attr.mode == \"directory\" then\r\n\t\t\t\tsearch_dir(selected_file, settings) \t-- recursive search again\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 5,
+    "text": "if file ~= \".\" and file ~= \"..\" then\r\n\t\t\tlocal selected_file = path .. '/' .. file\r\n\t\t\tlocal check_file = lfs.attributes(selected_file)\r\n\r\n\t\t\tif check_file.mode == \"directory\" then\r\n\t\t\t\textended_path = selected_file .. '/'\r\n\t\t\t\textended_path = string.gsub(extended_path, settings.dir_path, '')\r\n\t\t\tend \r\n\r\n\t\t\tsettings.extended_path = extended_path\r\n\r\n\t\t\tif check_file.mode == \"file\" and string.match(selected_file, '.lua$') then \t\t\t-- if .lua file\r\n\t\t\t\tsettings.current_file = selected_file\r\n\t\t\t\tlocal read_file,ie=io.open(selected_file)\r\n\r\n\t\t\t\tplant.process_text(read_file:read(\"*all\"), settings) -- do all process for file\r\n\t\t\t\tread_file:close()\r\n\t\t\tend\r\n\t\r\n\t\t\tlocal attr = lfs.attributes(selected_file)\r\n\t\t\tif attr.mode == \"directory\" then\r\n\t\t\t\tsearch_dir(selected_file, settings) \t-- recursive search again\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "local selected_file = path .. '/' .. file",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local check_file = lfs.attributes(selected_file)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "if check_file.mode == \"directory\" then\r\n\t\t\t\textended_path = selected_file .. '/'\r\n\t\t\t\textended_path = string.gsub(extended_path, settings.dir_path, '')\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "extended_path = selected_file .. '/'",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "extended_path = string.gsub(extended_path, settings.dir_path, '')",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "settings.extended_path = extended_path",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "if check_file.mode == \"file\" and string.match(selected_file, '.lua$') then \t\t\t-- if .lua file\r\n\t\t\t\tsettings.current_file = selected_file\r\n\t\t\t\tlocal read_file,ie=io.open(selected_file)\r\n\r\n\t\t\t\tplant.process_text(read_file:read(\"*all\"), settings) -- do all process for file\r\n\t\t\t\tread_file:close()\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "settings.current_file = selected_file",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "local read_file,ie=io.open(selected_file)",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "plant.process_text(read_file:read(\"*all\"), settings)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "read_file:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "local attr = lfs.attributes(selected_file)",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "if attr.mode == \"directory\" then\r\n\t\t\t\tsearch_dir(selected_file, settings) \t-- recursive search again\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "search_dir(selected_file, settings)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "local function usage_info(args)\r\n\tprint(\"\\nUsage: \"..arg[0]..\r\n\t[[ [-p <path to plantUML>] [-d <output dir path>] [-f] [-t]  <input file>\r\n\r\n\tLuaPlantUML is module for creating UML diagrams from Lua source codes. It works\r\n\twith PlantUML (http://plantuml.sourceforge.net/) and needs formatted comments\r\n\tor file with PlantUML syntax. For parsing 'luametrics' module is needed.\r\n\tCreate '.wsd' file with PlantUML syntax for every parsed source code.\r\n\tSave generated UML diagrams to \"uml_files\" folder. On input could be\r\n\tsingle file or directory with source files.\r\n\r\nArguments:\r\n\t<input file> \r\n\t-p,\tpath to plantUML (default search home directory for \"plantuml.jar\")\r\n\t-d,\t<path> where to save UML diagrams (default is directory with input files)\r\n\t-f,\t<format> format of files (default is svg) could be png, atxt(ascii art), utxt (ascii with UTF-8), latex\r\n\t-t,\tenable store temporary files (delete by default)\r\n\t-w,\tenable create wsd file with parsed PlantUML syntax for each source file\r\n\t]]);\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "print(\"\\nUsage: \"..arg[0]..\r\n\t[[ [-p <path to plantUML>] [-d <output dir path>] [-f] [-t]  <input file>\r\n\r\n\tLuaPlantUML is module for creating UML diagrams from Lua source codes. It works\r\n\twith PlantUML (http://plantuml.sourceforge.net/) and needs formatted comments\r\n\tor file with PlantUML syntax. For parsing 'luametrics' module is needed.\r\n\tCreate '.wsd' file with PlantUML syntax for every parsed source code.\r\n\tSave generated UML diagrams to \"uml_files\" folder. On input could be\r\n\tsingle file or directory with source files.\r\n\r\nArguments:\r\n\t<input file> \r\n\t-p,\tpath to plantUML (default search home directory for \"plantuml.jar\")\r\n\t-d,\t<path> where to save UML diagrams (default is directory with input files)\r\n\t-f,\t<format> format of files (default is svg) could be png, atxt(ascii art), utxt (ascii with UTF-8), latex\r\n\t-t,\tenable store temporary files (delete by default)\r\n\t-w,\tenable create wsd file with parsed PlantUML syntax for each source file\r\n\t]])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 25,
+    "text": "lfs",
+    "type": "module"
+  }, {
+    "id": 26,
+    "text": "currentdir",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "process_text",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "dir",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "attributes",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "get_opts",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "getenv",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 41,
+    "text": "(alt_getopt)",
+    "type": "module"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

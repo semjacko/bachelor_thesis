@@ -1,0 +1,341 @@
+{
+  "_filename": "menu.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lualogging/doc/us/menu.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 36
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 38
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 39
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 40
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "menu",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function dump_section(out, sect, page, depth)\r\n\tlocal name, url = sect[1], sect[2]\r\n\tlocal len = #sect\r\n\tlocal indent = (\"\\t\"):rep(depth)\r\n\t-- list title.\r\n\tout:write(indent)\r\n\tif url == page then\r\n\t\tout:write(\"<li><strong>\", name, \"</strong>\")\r\n\telse\r\n\t\tout:write('<li><a href=\"', url, '\">', name, '</a>')\r\n\tend\r\n\t-- sub-sections\r\n\tif len >= 3 then\r\n\t\tlocal sub_indent = indent .. \"\\t\"\r\n\t\tout:write(\"\\n\", sub_indent, \"<ul>\\n\")\r\n\t\tfor i=3,len do\r\n\t\t\tdump_section(out, sect[i], page, depth + 2)\r\n\t\tend\r\n\t\tout:write(sub_indent, \"</ul>\\n\")\r\n\t\tout:write(indent, \"</li>\\n\")\r\n\telse\r\n\t\tout:write(\"</li>\\n\")\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function dump_menu(out, page)\r\n\tout:write([[\r\n<div id=\"navigation\">\r\n<h1>LuaLogging</h1>\r\n\t<ul>\r\n]])\r\n\tlocal depth = 2\r\n\tfor i=1,#menu do\r\n\t\tdump_section(out, menu[i], page, depth)\r\n\tend\r\n\tout:write([[\r\n\t</ul>\r\n</div> <!-- id=\"navigation\" -->\r\n\r\n]])\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "local function dump_section(out, sect, page, depth)\r\n\tlocal name, url = sect[1], sect[2]\r\n\tlocal len = #sect\r\n\tlocal indent = (\"\\t\"):rep(depth)\r\n\t-- list title.\r\n\tout:write(indent)\r\n\tif url == page then\r\n\t\tout:write(\"<li><strong>\", name, \"</strong>\")\r\n\telse\r\n\t\tout:write('<li><a href=\"', url, '\">', name, '</a>')\r\n\tend\r\n\t-- sub-sections\r\n\tif len >= 3 then\r\n\t\tlocal sub_indent = indent .. \"\\t\"\r\n\t\tout:write(\"\\n\", sub_indent, \"<ul>\\n\")\r\n\t\tfor i=3,len do\r\n\t\t\tdump_section(out, sect[i], page, depth + 2)\r\n\t\tend\r\n\t\tout:write(sub_indent, \"</ul>\\n\")\r\n\t\tout:write(indent, \"</li>\\n\")\r\n\telse\r\n\t\tout:write(\"</li>\\n\")\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "local name, url = sect[1], sect[2]",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local len = #sect",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local indent = (\"\\t\"):rep(depth)",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "out:write(indent)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "if url == page then\r\n\t\tout:write(\"<li><strong>\", name, \"</strong>\")\r\n\telse\r\n\t\tout:write('<li><a href=\"', url, '\">', name, '</a>')\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "out:write(\"<li><strong>\", name, \"</strong>\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "out:write('<li><a href=\"', url, '\">', name, '</a>')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "if len >= 3 then\r\n\t\tlocal sub_indent = indent .. \"\\t\"\r\n\t\tout:write(\"\\n\", sub_indent, \"<ul>\\n\")\r\n\t\tfor i=3,len do\r\n\t\t\tdump_section(out, sect[i], page, depth + 2)\r\n\t\tend\r\n\t\tout:write(sub_indent, \"</ul>\\n\")\r\n\t\tout:write(indent, \"</li>\\n\")\r\n\telse\r\n\t\tout:write(\"</li>\\n\")\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "local sub_indent = indent .. \"\\t\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "out:write(\"\\n\", sub_indent, \"<ul>\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "for i=3,len do\r\n\t\t\tdump_section(out, sect[i], page, depth + 2)\r\n\t\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 17,
+    "text": "dump_section(out, sect[i], page, depth + 2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "out:write(sub_indent, \"</ul>\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "out:write(indent, \"</li>\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "out:write(\"</li>\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function dump_menu(out, page)\r\n\tout:write([[\r\n<div id=\"navigation\">\r\n<h1>LuaLogging</h1>\r\n\t<ul>\r\n]])\r\n\tlocal depth = 2\r\n\tfor i=1,#menu do\r\n\t\tdump_section(out, menu[i], page, depth)\r\n\tend\r\n\tout:write([[\r\n\t</ul>\r\n</div> <!-- id=\"navigation\" -->\r\n\r\n]])\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "out:write([[\r\n<div id=\"navigation\">\r\n<h1>LuaLogging</h1>\r\n\t<ul>\r\n]])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "local depth = 2",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "for i=1,#menu do\r\n\t\tdump_section(out, menu[i], page, depth)\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 26,
+    "text": "dump_section(out, menu[i], page, depth)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 27,
+    "text": "out:write([[\r\n\t</ul>\r\n</div> <!-- id=\"navigation\" -->\r\n\r\n]])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "tableconstructor"
+  } ]
+}

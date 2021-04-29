@@ -1,0 +1,617 @@
+{
+  "_filename": "oid.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/urn/oid.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 54
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 47,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 47,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 47,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 57
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 58
+  }, {
+    "from": 57,
+    "label": "initializes",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "assigns",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "assigns",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "assigns",
+    "to": 62
+  }, {
+    "from": 58,
+    "label": "initializes",
+    "to": 63
+  }, {
+    "from": 63,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 58,
+    "label": "initializes",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 65
+  }, {
+    "from": 56,
+    "label": "represents",
+    "to": 66
+  }, {
+    "from": 65,
+    "label": "provides",
+    "to": 66
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "oid",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "urn",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "local function _valid_oid (oid)\r\n    if oid == \"\" then return nil, \"OID can't be zero-length\" end\r\n    if not oid:find(\"^[.0-9]*$\") then return nil, \"bad character in OID\" end\r\n    if oid:find(\"%.%.\") then return nil, \"missing number in OID\" end\r\n    if oid:find(\"^0[^.]\") or oid:find(\"%.0[^.]\") then\r\n        return nil, \"OID numbers shouldn't have leading zeros\"\r\n    end\r\n    return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "if oid == \"\" then return nil, \"OID can't be zero-length\" end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "if not oid:find(\"^[.0-9]*$\") then return nil, \"bad character in OID\" end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "if oid:find(\"%.%.\") then return nil, \"missing number in OID\" end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "if oid:find(\"^0[^.]\") or oid:find(\"%.0[^.]\") then\r\n        return nil, \"OID numbers shouldn't have leading zeros\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function M.init (self)\r\n    local nss = self:nss()\r\n    local ok, msg = _valid_oid(nss)\r\n    if not ok then return nil, \"bad NSS value for OID URI (\" .. msg .. \")\" end\r\n    return self\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "local nss = self:nss()",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local ok, msg = _valid_oid(nss)",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "if not ok then return nil, \"bad NSS value for OID URI (\" .. msg .. \")\" end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function M.nss (self, new)\r\n    local old = M._SUPER.nss(self)\r\n\r\n    if new then\r\n        local ok, msg = _valid_oid(new)\r\n        if not ok then\r\n            error(\"bad OID value '\" .. new .. \"' (\" .. msg .. \")\")\r\n        end\r\n        M._SUPER.nss(self, new)\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "local old = M._SUPER.nss(self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "if new then\r\n        local ok, msg = _valid_oid(new)\r\n        if not ok then\r\n            error(\"bad OID value '\" .. new .. \"' (\" .. msg .. \")\")\r\n        end\r\n        M._SUPER.nss(self, new)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "local ok, msg = _valid_oid(new)",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "if not ok then\r\n            error(\"bad OID value '\" .. new .. \"' (\" .. msg .. \")\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "error(\"bad OID value '\" .. new .. \"' (\" .. msg .. \")\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "M._SUPER.nss(self, new)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function M.oid_numbers (self, new)\r\n    local old = Util.split(\"%.\", self:nss())\r\n    for i = 1, #old do old[i] = tonumber(old[i]) end\r\n\r\n    if new then\r\n        if type(new) ~= \"table\" then error(\"expected array of numbers\") end\r\n        local nss = \"\"\r\n        for _, n in ipairs(new) do\r\n            if type(n) == \"string\" and n:find(\"^%d+$\") then n = tonumber(n) end\r\n            if type(n) ~= \"number\" then error(\"bad type for number in OID\") end\r\n            n = n - n % 1\r\n            if n < 0 then error(\"negative numbers not allowed in OID\") end\r\n            if nss ~= \"\" then nss = nss .. \".\" end\r\n            nss = nss .. n\r\n        end\r\n        if nss == \"\" then error(\"no numbers in new OID value\") end\r\n        self:nss(nss)\r\n    end\r\n\r\n    return old\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "local old = Util.split(\"%.\", self:nss())",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "for i = 1, #old do old[i] = tonumber(old[i]) end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 27,
+    "text": "old[i] = tonumber(old[i])",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "if new then\r\n        if type(new) ~= \"table\" then error(\"expected array of numbers\") end\r\n        local nss = \"\"\r\n        for _, n in ipairs(new) do\r\n            if type(n) == \"string\" and n:find(\"^%d+$\") then n = tonumber(n) end\r\n            if type(n) ~= \"number\" then error(\"bad type for number in OID\") end\r\n            n = n - n % 1\r\n            if n < 0 then error(\"negative numbers not allowed in OID\") end\r\n            if nss ~= \"\" then nss = nss .. \".\" end\r\n            nss = nss .. n\r\n        end\r\n        if nss == \"\" then error(\"no numbers in new OID value\") end\r\n        self:nss(nss)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "if type(new) ~= \"table\" then error(\"expected array of numbers\") end",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "error(\"expected array of numbers\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "local nss = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "for _, n in ipairs(new) do\r\n            if type(n) == \"string\" and n:find(\"^%d+$\") then n = tonumber(n) end\r\n            if type(n) ~= \"number\" then error(\"bad type for number in OID\") end\r\n            n = n - n % 1\r\n            if n < 0 then error(\"negative numbers not allowed in OID\") end\r\n            if nss ~= \"\" then nss = nss .. \".\" end\r\n            nss = nss .. n\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 33,
+    "text": "if type(n) == \"string\" and n:find(\"^%d+$\") then n = tonumber(n) end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "n = tonumber(n)",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "if type(n) ~= \"number\" then error(\"bad type for number in OID\") end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "error(\"bad type for number in OID\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 37,
+    "text": "n = n - n % 1",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "if n < 0 then error(\"negative numbers not allowed in OID\") end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "error(\"negative numbers not allowed in OID\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 40,
+    "text": "if nss ~= \"\" then nss = nss .. \".\" end",
+    "type": "statement:if"
+  }, {
+    "id": 41,
+    "text": "nss = nss .. \".\"",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "nss = nss .. n",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "if nss == \"\" then error(\"no numbers in new OID value\") end",
+    "type": "statement:if"
+  }, {
+    "id": 44,
+    "text": "error(\"no numbers in new OID value\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "self:nss(nss)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 48,
+    "text": "split",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "subclass_of",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "M._SUPER.nss",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "interface"
+  } ]
+}

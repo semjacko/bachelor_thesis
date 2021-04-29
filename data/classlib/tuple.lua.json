@@ -1,0 +1,665 @@
+{
+  "_filename": "tuple.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/classlib/tuple.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 58,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 58,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 44,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 48,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 58,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 58,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 58,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 58,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 58,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 58,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 58,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 58,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 58,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 58,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 68,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 69
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 68
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "tuple",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function Tuple:__init(...)\t\t\t\t-- construct with initial elements\r\n\tself.elem = {...}\r\n\tself.n = #self.elem\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "self.elem = {...}",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "self.n = #self.elem",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function Tuple:__tostring()\t\t\t\t-- string representation\r\n\tlocal function ascii(e)\r\n\t\treturn type(e) == 'string' and string.format('%q', e) or tostring(e)\r\n\tend\r\n\tlocal s = ''\r\n\tfor i, v in ipairs(self.elem) do\r\n\t\ts = #s == 0 and ascii(v) or s .. ', ' .. ascii(v)\r\n\tend\r\n\treturn '(' .. s .. ')'\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local function ascii(e)\r\n\t\treturn type(e) == 'string' and string.format('%q', e) or tostring(e)\r\n\tend",
+    "type": "statement:localfunction"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "local s = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "for i, v in ipairs(self.elem) do\r\n\t\ts = #s == 0 and ascii(v) or s .. ', ' .. ascii(v)\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 11,
+    "text": "s = #s == 0 and ascii(v) or s .. ', ' .. ascii(v)",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "local function ascii(e)\r\n\t\treturn type(e) == 'string' and string.format('%q', e) or tostring(e)\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "local function checkrange(i, max)\r\n\tassert(i >= 1 and i <= max, \r\n\t\t\t'Index must be >= 1 and <= ' .. max)\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "assert(i >= 1 and i <= max, \r\n\t\t\t'Index must be >= 1 and <= ' .. max)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "local function checkindex(i, max)\r\n\tassert(type(i) == 'number', 'Index must be a number')\r\n\tcheckrange(i, max)\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "assert(type(i) == 'number', 'Index must be a number')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "checkrange(i, max)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function Tuple:push(i, v)\t\t\t\t-- push an element anywhere\r\n\tif v == nil then\r\n\t\tv = i\r\n\t\ti = self.n + 1\t\t\t\t\t-- by default push at the end\r\n\tend\r\n\tif v == nil then return end\t\t\t-- pushing nil has no effect\r\n\tcheckindex(i, self.n + 1)\t\t\t-- allow appending\r\n\ttable.insert(self.elem, i, v)\t\t-- insert it\r\n\tself.n = self.n + 1\t\t\t\t\t-- count it\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "if v == nil then\r\n\t\tv = i\r\n\t\ti = self.n + 1\t\t\t\t\t-- by default push at the end\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "v = i",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "i = self.n + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "if v == nil then return end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "checkindex(i, self.n + 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "table.insert(self.elem, i, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "self.n = self.n + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function Tuple:pop(i)\t\t\t\t\t-- pop an element anywhere\r\n\tif i == nil then\r\n\t\ti = self.n \t\t\t\t\t\t-- by default pop at the end\r\n\t\tif i == 0 then return nil end\r\n\tend\r\n\tlocal e = self[i]\r\n\tself[i] = nil\t\t\t\t\t\t-- remove it\r\n\treturn e\t\t\t\t\t\t\t-- return it\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "if i == nil then\r\n\t\ti = self.n \t\t\t\t\t\t-- by default pop at the end\r\n\t\tif i == 0 then return nil end\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "i = self.n",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "if i == 0 then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "local e = self[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "self[i] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 38,
+    "text": "function Tuple:clear()\t\t\t\t\t-- empty tuple\r\n\tself.elem = {}\r\n\tself.n = 0\r\nend",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "self.elem = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "self.n = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function Tuple:size()\t\t\t\t\t-- tuple size\r\n\treturn self.n\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "function Tuple:__get(i)\t\t\t\t\t-- read an element\r\n\tif type(i) ~= 'number' then return nil end\r\n\tcheckrange(i, self.n + 1)\t\t\t-- allow reading one past the end\r\n\treturn self.elem[i]\t\t\t\t\t-- read it\r\nend",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "if type(i) ~= 'number' then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 46,
+    "text": "checkrange(i, self.n + 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 48,
+    "text": "function Tuple:__set(i, v)\t\t\t\t-- assign an element\r\n\tif type(i) ~= 'number' then return false end\r\n\tcheckrange(i, self.n + 1)\t\t\t-- allow assigning one past the end\r\n\tif v == nil then\r\n\t\tif i <= self.n then\t\t\t\t-- if removing, count it\r\n\t\t\ttable.remove(self.elem, i)\r\n\t\t\tself.n = self.n - 1\r\n\t\tend\r\n\t\treturn true\r\n\tend \r\n\tif i == self.n + 1 then\t\t\t\t-- if appending, count it\r\n\t\tself.n = i\r\n\tend\r\n\tself.elem[i] = v\t\t\t\t\t-- assign it\r\n\treturn true\r\nend",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "if type(i) ~= 'number' then return false end",
+    "type": "statement:if"
+  }, {
+    "id": 50,
+    "text": "if v == nil then\r\n\t\tif i <= self.n then\t\t\t\t-- if removing, count it\r\n\t\t\ttable.remove(self.elem, i)\r\n\t\t\tself.n = self.n - 1\r\n\t\tend\r\n\t\treturn true\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "if i <= self.n then\t\t\t\t-- if removing, count it\r\n\t\t\ttable.remove(self.elem, i)\r\n\t\t\tself.n = self.n - 1\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 52,
+    "text": "table.remove(self.elem, i)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 53,
+    "text": "self.n = self.n - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "if i == self.n + 1 then\t\t\t\t-- if appending, count it\r\n\t\tself.n = i\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 55,
+    "text": "self.n = i",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "self.elem[i] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 59,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "Tuple",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "remove",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "require container"
+  } ]
+}

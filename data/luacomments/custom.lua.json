@@ -1,0 +1,273 @@
+{
+  "_filename": "custom.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luacomments/src/comments/custom.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "assigns",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "assigns",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "assigns",
+    "to": 23
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "requires",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "requires",
+    "to": 25
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 25
+  }, {
+    "from": 28,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 25
+  }, {
+    "from": 30,
+    "label": "requires",
+    "to": 25
+  }, {
+    "from": 31,
+    "label": "requires",
+    "to": 25
+  }, {
+    "from": 32,
+    "label": "requires",
+    "to": 25
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "custom",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function parse(text)\r\n  local x = re.compile( [[\r\n    start     <- (simple / separator / endof / blocksep) \r\n    blocksep <- (blockseparators s* (\"`\"{:block:(!\"`\".)+:}\"`\")? s* {:text:.*:} )->{}\r\n    endof     <- (\"--\"s* {:type:\"end of\"->\"endof\":} s* \"`\"{:name:endofwhat:}\"`\") ->{}\r\n    separator <- ]] .. separators ..[[ ->{}\r\n    simple    <- ( \"--\" s* simplecommenttypes  s* {:text: text :}  ) -> {}\r\n    simplecommenttypes <- ]].. simplecommenttypes ..[[\r\n    text      <-  .*   \r\n    s <- (\"]]..\"\\t\"..[[\" / \" \")\r\n    endofwhat <- ]] .. endofwhat .. [[\r\n    blockseparators <- ]].. blockseps ..[[\r\n  ]]\r\n  )\r\n  x=x:match(text)\r\n  if(x)then\r\n    x.tag=\"comment\"\r\n    x.style=\"custom\"\r\n    return x\r\n  else\r\n    return nil,\"Error: Nothing parsed!\"\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local x = re.compile( [[\r\n    start     <- (simple / separator / endof / blocksep) \r\n    blocksep <- (blockseparators s* (\"`\"{:block:(!\"`\".)+:}\"`\")? s* {:text:.*:} )->{}\r\n    endof     <- (\"--\"s* {:type:\"end of\"->\"endof\":} s* \"`\"{:name:endofwhat:}\"`\") ->{}\r\n    separator <- ]] .. separators ..[[ ->{}\r\n    simple    <- ( \"--\" s* simplecommenttypes  s* {:text: text :}  ) -> {}\r\n    simplecommenttypes <- ]].. simplecommenttypes ..[[\r\n    text      <-  .*   \r\n    s <- (\"]]..\"\\t\"..[[\" / \" \")\r\n    endofwhat <- ]] .. endofwhat .. [[\r\n    blockseparators <- ]].. blockseps ..[[\r\n  ]]\r\n  )",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "x=x:match(text)",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "if(x)then\r\n    x.tag=\"comment\"\r\n    x.style=\"custom\"\r\n    return x\r\n  else\r\n    return nil,\"Error: Nothing parsed!\"\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "x.tag=\"comment\"",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "x.style=\"custom\"",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "compile",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 25,
+    "text": "(re)",
+    "type": "module"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

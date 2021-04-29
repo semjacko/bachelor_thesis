@@ -1,0 +1,69 @@
+{
+  "_filename": "fr.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luassert/src/languages/fr.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "initializes",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "requires",
+    "to": 4
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "fr",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 4,
+    "text": "(say)",
+    "type": "module"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,77 @@
+{
+  "_filename": "ReturnThread.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/diluculum/Tests/ReturnThread.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "provides",
+    "to": 8
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ReturnThread",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function() end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "create",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "interface"
+  } ]
+}

@@ -1,0 +1,97 @@
+{
+  "_filename": "custom_formatter.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/luacheck/spec/formatters/custom_formatter.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "provides",
+    "to": 10
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "custom_formatter",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function(report, file_names, options)\r\n   return ([[\r\nFiles: %d\r\nFormatter: %s\r\nQuiet: %d\r\nColor: %s\r\nCodes: %s]]):format(#file_names, options.formatter, options.quiet,\r\n   tostring(options.color), tostring(options.codes))\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "interface"
+  } ]
+}

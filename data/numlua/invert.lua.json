@@ -1,0 +1,333 @@
+{
+  "_filename": "invert.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/numlua/examples/invert.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 18,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "assigns",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "assigns",
+    "to": 32
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "assigns",
+    "to": 34
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "assigns",
+    "to": 36
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "assigns",
+    "to": 38
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 26
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "invert",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function invert (a)\r\n  assert(a:size\"#\" == 2 and a:size(1) == a:size(2),\r\n      \"square matrix expected\")\r\n  local n = #a\r\n\r\n  local a = a:concat(eye(n, a:iscomplex()), true) -- colcat\r\n\r\n  for j = 1, n do\r\n    -- find pivot and check its size\r\n    local _, i = a:section{{j,n},{j,j}}:norm\"m\" -- argmax(abs(a[[j:n,j]]))\r\n    i = i + j - 1\r\n\r\n    -- if necessary apply row interchange\r\n    if i ~= j then swap(a[i], a[j]) end\r\n\r\n    --a[j]._ = a[j] / a[j][j]\r\n    a[j]:div(a[j][j], false, true) -- in-place\r\n\r\n    -- loop over each row of matrix\r\n    for i = 1, n do\r\n      if i ~= j then\r\n        --a[i]._ = a[i] - a[j] * a[i][j]\r\n        a[i]:add(a[j], -a[i][j], true) -- inplace\r\n      end\r\n    end\r\n  end\r\n\r\n  return a:section{{}, {n+1, 2*n}}:copy()\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "assert(a:size\"#\" == 2 and a:size(1) == a:size(2),\r\n      \"square matrix expected\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "local n = #a",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local a = a:concat(eye(n, a:iscomplex()), true)",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "for j = 1, n do\r\n    -- find pivot and check its size\r\n    local _, i = a:section{{j,n},{j,j}}:norm\"m\" -- argmax(abs(a[[j:n,j]]))\r\n    i = i + j - 1\r\n\r\n    -- if necessary apply row interchange\r\n    if i ~= j then swap(a[i], a[j]) end\r\n\r\n    --a[j]._ = a[j] / a[j][j]\r\n    a[j]:div(a[j][j], false, true) -- in-place\r\n\r\n    -- loop over each row of matrix\r\n    for i = 1, n do\r\n      if i ~= j then\r\n        --a[i]._ = a[i] - a[j] * a[i][j]\r\n        a[i]:add(a[j], -a[i][j], true) -- inplace\r\n      end\r\n    end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 7,
+    "text": "local _, i = a:section{{j,n},{j,j}}:norm\"m\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "i = i + j - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "if i ~= j then swap(a[i], a[j]) end",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "swap(a[i], a[j])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "a[j]:div(a[j][j], false, true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "for i = 1, n do\r\n      if i ~= j then\r\n        --a[i]._ = a[i] - a[j] * a[i][j]\r\n        a[i]:add(a[j], -a[i][j], true) -- inplace\r\n      end\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 13,
+    "text": "if i ~= j then\r\n        --a[i]._ = a[i] - a[j] * a[i][j]\r\n        a[i]:add(a[j], -a[i][j], true) -- inplace\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "a[i]:add(a[j], -a[i][j], true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function (i, j) return i + j * (0.5 - math.random()) end",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 19,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "random",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "zeros",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "eye",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "swap",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "boolean"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

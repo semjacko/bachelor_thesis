@@ -1,0 +1,485 @@
+{
+  "_filename": "zmq.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-log/lua/log/writer/net/zmq.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 10,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 12,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 11,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 11,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 21
+  }, {
+    "from": 13,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 14,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "provides",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 29,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "provides",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 36,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 37,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 37,
+    "label": "initializes",
+    "to": 46
+  }, {
+    "from": 37,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "provides",
+    "to": 49
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 51
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 52
+  }, {
+    "from": 9,
+    "label": "represents",
+    "to": 53
+  }, {
+    "from": 52,
+    "label": "provides",
+    "to": 53
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "zmq",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function rand_str(n)\r\n  math.randomseed(os.time())\r\n  local str = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'\r\n  local res = ''\r\n  for i = 1,n do\r\n    local n = math.random(1, #str)\r\n    res = res .. str:sub(n,n)\r\n  end\r\n  return res\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local function create_server(ctx, addr, maker, logformat)\r\n  if ctx and not Z.is_ctx(ctx) then\r\n    ctx, addr, maker, logformat = nil, ctx, addr, maker\r\n  end\r\n  logformat = logformat or \"log.logformat.default\"\r\n\r\n  ctx = IMPL.context(ctx)\r\n\r\n  if maker then\r\n    local addr_sync = 'inproc://' .. rand_str(15)\r\n    local skt_sync = zassert(ctx:socket(zmq.PAIR))\r\n    zassert(skt_sync:bind(addr_sync))\r\n    server.zrun(\r\n      \"log.writer.net.server.zmq\", maker, logformat, ctx, \r\n      false, 'PULL', addr, addr_sync\r\n    )\r\n    zassert(skt_sync:recv())\r\n    skt_sync:close()\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "local function create_writer(ctx, addr, maker)\r\n  if ctx and not Z.is_ctx(ctx) then\r\n    ctx, addr, maker = nil, ctx, addr\r\n  end\r\n\r\n  if maker then\r\n    server.run( ctx, addr, maker, \"log.logformat.default\" )\r\n  end\r\n\r\n  return require \"log.writer.format\".new(\r\n    require \"log.logformat.proxy\".new(),\r\n    require \"log.writer.net.zmq.push\".new(ctx, addr)\r\n  )\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function _M.run(writer, logformat, ctx, stype, address, addr_sync)\r\n  -- print(writer, logformat, ctx, stype, address, addr_sync)\r\n  local stypes = {\r\n    SUB  = zmq.SUB;\r\n    PULL = zmq.PULL;\r\n  }\r\n  stype = assert(stypes[stype], 'Unsupported socket type')\r\n\r\n  ctx = IMPL.context(ctx)\r\n\r\n  local skt = zassert(ctx:socket(stype))\r\n  zassert(skt:bind(address))\r\n\r\n  if addr_sync then\r\n    local skt_sync = zassert(ctx:socket(zmq.PAIR))\r\n    zassert(skt_sync:connect(addr_sync))\r\n    skt_sync:send(\"\")\r\n    skt_sync:close()\r\n  end\r\n\r\n  local unpack = log_packer.unpack\r\n\r\n  while(true)do\r\n    local msg, err = zrecv(skt)\r\n    if msg then \r\n      local msg, lvl, now = unpack(msg)\r\n      if msg and lvl and now then writer(logformat, msg, lvl, now) end\r\n    else\r\n      if zerrcode(err) == ETERM then break end\r\n      io.stderr:write('log.writer.net.zmq.server: ', tostring(err), zstrerror(err))\r\n    end\r\n  end\r\n\r\n  skt:close()\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "init",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "strerror",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "interface"
+  } ]
+}

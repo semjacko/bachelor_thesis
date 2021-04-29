@@ -1,0 +1,377 @@
+{
+  "_filename": "urlhandler.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/xavante/src/xavante/urlhandler.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 37,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 38
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "urlhandler",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function path_p (s, p)\r\n\tif not p then return s end\r\n\tif p==\"\" then return nil end\r\n\treturn string.gsub (p, \"[^/]*/?$\", \"\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "if not p then return s end",
+    "type": "statement:if"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "if p==\"\" then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "local function path_iterator (path)\r\n\treturn path_p, path\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "local function match_url (req, conf)\r\n\tlocal path = req.relpath\r\n\tlocal h = nil\r\n\tfor p in path_iterator (path) do\r\n\t\th = conf [p]\r\n\t\tif h then\r\n\t\t\treq.match = p\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\n\t\r\n\tif req.match then\r\n\t\tlocal _,_,pfx = string.find (req.match, \"^(.*/)[^/]-$\")\r\n\t\tassert (string.sub (path, 1, string.len (pfx)) == pfx)\r\n\t\treq.relpath = string.sub (path, string.len (pfx)+1)\r\n\tend\r\n\treq.handler = h\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local path = req.relpath",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local h = nil",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "for p in path_iterator (path) do\r\n\t\th = conf [p]\r\n\t\tif h then\r\n\t\t\treq.match = p\r\n\t\t\tbreak\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 13,
+    "text": "h = conf [p]",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "if h then\r\n\t\t\treq.match = p\r\n\t\t\tbreak\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "req.match = p",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "if req.match then\r\n\t\tlocal _,_,pfx = string.find (req.match, \"^(.*/)[^/]-$\")\r\n\t\tassert (string.sub (path, 1, string.len (pfx)) == pfx)\r\n\t\treq.relpath = string.sub (path, string.len (pfx)+1)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "local _,_,pfx = string.find (req.match, \"^(.*/)[^/]-$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "assert (string.sub (path, 1, string.len (pfx)) == pfx)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "req.relpath = string.sub (path, string.len (pfx)+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "req.handler = h",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function xavante.urlhandler (conf)\r\n\tif not conf or type (conf) ~= \"table\" then return nil end\r\n\t\r\n\treturn function (req, res)\r\n\t\tmatch_url (req, conf)\r\n\t\tlocal h = req.handler or xavante.httpd.err_404\r\n\t\treturn h (req, res)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "if not conf or type (conf) ~= \"table\" then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "match_url (req, conf)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "local h = req.handler or xavante.httpd.err_404",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function (req, res)\r\n\t\tmatch_url (req, conf)\r\n\t\tlocal h = req.handler or xavante.httpd.err_404\r\n\t\treturn h (req, res)\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 30,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "h",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require container"
+  } ]
+}

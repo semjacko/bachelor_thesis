@@ -1,0 +1,389 @@
+{
+  "_filename": "gen_simple.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luanativeobjects/native_objects/gen_simple.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 36,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 42
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "gen_simple",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function find_ret(rec)\r\n\tfor i=1,#rec do\r\n\t\tlocal v = rec[i]\r\n\t\tif is_record(v) and v._rec_type == 'var_out' then\r\n\t\t\treturn v;\r\n\t\tend\r\n\tend\r\n\treturn { c_type = \"void\" }\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "for i=1,#rec do\r\n\t\tlocal v = rec[i]\r\n\t\tif is_record(v) and v._rec_type == 'var_out' then\r\n\t\t\treturn v;\r\n\t\tend\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 4,
+    "text": "local v = rec[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if is_record(v) and v._rec_type == 'var_out' then\r\n\t\t\treturn v;\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function(self, rec, parent)\r\n\tprint(\"object \" .. rec.name .. \"{\")\r\n\t--print(dump(rec))\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "print(\"object \" .. rec.name .. \"{\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function(self, rec, parent)\r\n\tprint(rec.c_type .. \" \" .. rec.name .. \"; /* is='\" .. rec.is .. \"', isa='\" .. rec.isa .. \"' */\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "print(rec.c_type .. \" \" .. rec.name .. \"; /* is='\" .. rec.is .. \"', isa='\" .. rec.isa .. \"' */\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function(self, rec, parent)\r\n\tprint('#include \"' .. rec.file .. '\"')\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "print('#include \"' .. rec.file .. '\"')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "function(self, rec, parent)\r\n\tprint(\"/* option: \" .. rec.name .. \" */\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "print(\"/* option: \" .. rec.name .. \" */\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function(self, rec, parent)\r\n\tprint(\"}\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "print(\"}\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function(self, rec, parent)\r\n\tlocal ret = find_ret(rec)\r\n\tio.write(ret.c_type .. \" \" .. rec.name .. \"(\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "local ret = find_ret(rec)",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "io.write(ret.c_type .. \" \" .. rec.name .. \"(\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function(self, rec, parent)\r\n\tprint(\")\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "print(\")\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function(self, rec, parent)\r\n\tif parent._first_var ~= nil then\r\n\t\tio.write(', ')\r\n\telse\r\n\t\tparent._first_var = true\r\n\tend\r\n\tio.write(rec.c_type .. \" \" .. rec.name)\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "if parent._first_var ~= nil then\r\n\t\tio.write(', ')\r\n\telse\r\n\t\tparent._first_var = true\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "io.write(', ')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "parent._first_var = true",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "io.write(rec.c_type .. \" \" .. rec.name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 37,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "process_records",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "is_record",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require container"
+  } ]
+}

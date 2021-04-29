@@ -1,0 +1,701 @@
+{
+  "_filename": "xavante.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/xavante/src/xavante/xavante.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 56
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 39
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 45
+  }, {
+    "from": 50,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 54
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 56
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 59
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 62
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 65
+  }, {
+    "from": 69,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 70
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "assigns",
+    "to": 73
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 74
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 75
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 76
+  }, {
+    "from": 71,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 71,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 71,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 71,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 71,
+    "label": "initializes",
+    "to": 69
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "xavante",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function register (host, port, serversoftware)\r\n\tlocal _server = assert(socket.bind(host, port))\r\n\t_serversoftware = serversoftware\r\n\tlocal _ip, _port = _server:getsockname()\r\n\t_serverports[_port] = true\r\n\tcopas.addserver(_server, connection)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function get_ports()\r\n  local ports = {}\r\n  for k, _ in pairs(_serverports) do\r\n    table.insert(ports, tostring(k))\r\n  end\r\n  return ports\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function (ports)\r\n  print(string.format(\"Xavante started on port(s) %s\", table.concat(ports, \", \")))\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "print(string.format(\"Xavante started on port(s) %s\", table.concat(ports, \", \")))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "local function _buildRules(rules)\r\n    local rules_table = {}\r\n    for rule_n, rule in ipairs(rules) do\r\n        local handler\r\n        if type (rule.with) == \"function\" then\r\n\t    if rule.params then\r\n\t      handler = rule.with(rule.params)\r\n\t    else\r\n\t      handler = rule.with\r\n\t    end\r\n        elseif type (rule.with) == \"table\" then\r\n            handler = rule.with.makeHandler(rule.params)\r\n        else\r\n            error(\"Error on config.lua. The rule has an invalid 'with' field.\")\r\n        end\r\n        local match = rule.match\r\n        if type(match) == \"string\" then\r\n            match = {rule.match}\r\n        end\r\n        rules_table[rule_n] = { pattern = {}, handler = handler }\r\n        for pat_n, pat in ipairs(match) do\r\n        rules_table[rule_n].pattern[pat_n] = pat\r\n        end\r\n    end\r\n    return rules_table\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local rules_table = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "for rule_n, rule in ipairs(rules) do\r\n        local handler\r\n        if type (rule.with) == \"function\" then\r\n\t    if rule.params then\r\n\t      handler = rule.with(rule.params)\r\n\t    else\r\n\t      handler = rule.with\r\n\t    end\r\n        elseif type (rule.with) == \"table\" then\r\n            handler = rule.with.makeHandler(rule.params)\r\n        else\r\n            error(\"Error on config.lua. The rule has an invalid 'with' field.\")\r\n        end\r\n        local match = rule.match\r\n        if type(match) == \"string\" then\r\n            match = {rule.match}\r\n        end\r\n        rules_table[rule_n] = { pattern = {}, handler = handler }\r\n        for pat_n, pat in ipairs(match) do\r\n        rules_table[rule_n].pattern[pat_n] = pat\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 10,
+    "text": "local handler",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "if type (rule.with) == \"function\" then\r\n\t    if rule.params then\r\n\t      handler = rule.with(rule.params)\r\n\t    else\r\n\t      handler = rule.with\r\n\t    end\r\n        elseif type (rule.with) == \"table\" then\r\n            handler = rule.with.makeHandler(rule.params)\r\n        else\r\n            error(\"Error on config.lua. The rule has an invalid 'with' field.\")\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "if rule.params then\r\n\t      handler = rule.with(rule.params)\r\n\t    else\r\n\t      handler = rule.with\r\n\t    end",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "handler = rule.with(rule.params)",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "handler = rule.with",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "handler = rule.with.makeHandler(rule.params)",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "error(\"Error on config.lua. The rule has an invalid 'with' field.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "local match = rule.match",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "if type(match) == \"string\" then\r\n            match = {rule.match}\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "match = {rule.match}",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "rules_table[rule_n] = { pattern = {}, handler = handler }",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "for pat_n, pat in ipairs(match) do\r\n        rules_table[rule_n].pattern[pat_n] = pat\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 22,
+    "text": "rules_table[rule_n].pattern[pat_n] = pat",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function start_message(msg)\r\n\t_startmessage = msg\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "_startmessage = msg",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function HTTP(config)\r\n    -- normalizes the configuration\r\n    config.server = config.server or {host = \"*\", port = 80}\r\n    \r\n    local vhosts_table = {}\r\n\r\n    if config.defaultHost then\r\n        vhosts_table[\"\"] = xavante.patternhandler(_buildRules(config.defaultHost.rules))\r\n    end\r\n\r\n    if type(config.virtualhosts) == \"table\" then\r\n        for hostname, host in pairs(config.virtualhosts) do\r\n\t    vhosts_table[hostname] = xavante.patternhandler(_buildRules(host.rules))\r\n        end\r\n    end\r\n\r\n    xavante.httpd.handle_request = xavante.vhostshandler(vhosts_table)\r\n    xavante.httpd.register(config.server.host, config.server.port, _VERSION)\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "config.server = config.server or {host = \"*\", port = 80}",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "local vhosts_table = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "if config.defaultHost then\r\n        vhosts_table[\"\"] = xavante.patternhandler(_buildRules(config.defaultHost.rules))\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "vhosts_table[\"\"] = xavante.patternhandler(_buildRules(config.defaultHost.rules))",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "if type(config.virtualhosts) == \"table\" then\r\n        for hostname, host in pairs(config.virtualhosts) do\r\n\t    vhosts_table[hostname] = xavante.patternhandler(_buildRules(host.rules))\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "for hostname, host in pairs(config.virtualhosts) do\r\n\t    vhosts_table[hostname] = xavante.patternhandler(_buildRules(host.rules))\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 35,
+    "text": "vhosts_table[hostname] = xavante.patternhandler(_buildRules(host.rules))",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "xavante.httpd.handle_request = xavante.vhostshandler(vhosts_table)",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "xavante.httpd.register(config.server.host, config.server.port, _VERSION)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 39,
+    "text": "function start(isFinished, timeout)\r\n    _startmessage(xavante.httpd.get_ports())\r\n    while true do\r\n      if isFinished and isFinished() then break end\r\n      copas.step(timeout)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 40,
+    "text": "_startmessage(xavante.httpd.get_ports())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "while true do\r\n      if isFinished and isFinished() then break end\r\n      copas.step(timeout)\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 42,
+    "text": "if isFinished and isFinished() then break end",
+    "type": "statement:if"
+  }, {
+    "id": 43,
+    "text": "copas.step(timeout)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 45,
+    "text": "function webdir()\r\n  return _webdir\r\nend",
+    "type": "function"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 47,
+    "text": "function setwebdir(dir)\r\n  _webdir = dir\r\nend",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "_webdir = dir",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 51,
+    "text": "step",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "isFinished",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "indexhandler",
+    "type": "global function"
+  }, {
+    "id": 55,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 56,
+    "text": "vhostshandler",
+    "type": "global function"
+  }, {
+    "id": 57,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "patternhandler",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "with",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "rule.with.makeHandler",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "filehandler",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "urlhandler",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 68,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

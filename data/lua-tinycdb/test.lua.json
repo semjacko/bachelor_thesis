@@ -1,0 +1,449 @@
+{
+  "_filename": "test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-tinycdb/test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 19,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 31,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "assigns",
+    "to": 43
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "assigns",
+    "to": 45
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "requires",
+    "to": 47
+  }, {
+    "from": 41,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "requires",
+    "to": 49
+  }, {
+    "from": 27,
+    "label": "hasArgument",
+    "to": 30
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function setup()\r\n    db = assert(cdb.open(db_name))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "db = assert(cdb.open(db_name))",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function test_get()\r\n    assert_equal(\"1\", db:get(\"one\"))\r\n    assert_equal(\"3\", db:get(\"three\"))\r\n    assert_nil(db:get(\"four\"))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "assert_equal(\"1\", db:get(\"one\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "assert_equal(\"3\", db:get(\"three\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "assert_nil(db:get(\"four\"))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function test_pairs()\r\n    local expected_keys = { \"one\", \"two\", \"three\", \"three\" }\r\n    local expected_values = { \"1\", \"2\", \"3\", \"III\" }\r\n    local i = 1\r\n    for k, v in db:pairs() do\r\n      assert_equal(expected_keys[i], k)\r\n      assert_equal(expected_values[i], v)\r\n      i = i+1\r\n    end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local expected_keys = { \"one\", \"two\", \"three\", \"three\" }",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local expected_values = { \"1\", \"2\", \"3\", \"III\" }",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local i = 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "for k, v in db:pairs() do\r\n      assert_equal(expected_keys[i], k)\r\n      assert_equal(expected_values[i], v)\r\n      i = i+1\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 15,
+    "text": "assert_equal(expected_keys[i], k)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "assert_equal(expected_values[i], v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "i = i+1",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "function test_findall()\r\n    local t = db:find_all(\"three\")\r\n    assert_equal(2, #t)\r\n    assert_equal(\"3\", t[1])\r\n    assert_equal(\"III\", t[2])\r\n  end",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "local t = db:find_all(\"three\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "assert_equal(2, #t)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "assert_equal(\"3\", t[1])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "assert_equal(\"III\", t[2])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function test_closed_cdb()\r\n    db:close()\r\n    assert_error(nil, function() db:get(\"one\") end)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "db:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 27,
+    "text": "assert_error(nil, function() db:get(\"one\") end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "db:get(\"one\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "function() db:get(\"one\") end",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 32,
+    "text": "make",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "assert_nil",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "assert_error",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "assert_equal",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 47,
+    "text": "(cdb)",
+    "type": "module"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 49,
+    "text": "(lunit)",
+    "type": "module"
+  } ]
+}

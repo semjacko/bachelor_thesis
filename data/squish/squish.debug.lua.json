@@ -1,0 +1,273 @@
+{
+  "_filename": "squish.debug.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/squish/debug/squish.debug.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "minichunkspy",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "squish",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "squish",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 5,
+    "text": "function (chunk) return Chunk:unpack(chunk, 1) end",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function (disassembled) return Chunk:pack(disassembled) end",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local function ___adjust_chunk(chunk, newname, lineshift)\r\n\tlocal c = cs.disassemble(string.dump(chunk));\r\n\tc.body.name = newname;\r\n\r\n\tlineshift = -c.body.line;\r\n\tlocal function shiftlines(c)\r\n\t\tc.line = c.line + lineshift;\r\n\t\tc.last_line = c.last_line + lineshift;\r\n\t\tfor i, line in ipairs(c.source_lines) do\r\n\t\t\tc.source_lines[i] = line+lineshift;\r\n\t\tend\r\n\t\tfor i, f in ipairs(c.prototypes) do\r\n\t\t\tshiftlines(f);\r\n\t\tend\r\n\tend\r\n\tshiftlines(c.body);\r\n\r\n\treturn assert(loadstring(cs.assemble(c), newname))();\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local c = cs.disassemble(string.dump(chunk))",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "c.body.name = newname",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "lineshift = -c.body.line",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "local function shiftlines(c)\r\n\t\tc.line = c.line + lineshift;\r\n\t\tc.last_line = c.last_line + lineshift;\r\n\t\tfor i, line in ipairs(c.source_lines) do\r\n\t\t\tc.source_lines[i] = line+lineshift;\r\n\t\tend\r\n\t\tfor i, f in ipairs(c.prototypes) do\r\n\t\t\tshiftlines(f);\r\n\t\tend\r\n\tend",
+    "type": "statement:localfunction"
+  }, {
+    "id": 12,
+    "text": "c.line = c.line + lineshift",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "c.last_line = c.last_line + lineshift",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "for i, line in ipairs(c.source_lines) do\r\n\t\t\tc.source_lines[i] = line+lineshift;\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 15,
+    "text": "c.source_lines[i] = line+lineshift",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "for i, f in ipairs(c.prototypes) do\r\n\t\t\tshiftlines(f);\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 17,
+    "text": "shiftlines(f)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "shiftlines(c.body)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "local function shiftlines(c)\r\n\t\tc.line = c.line + lineshift;\r\n\t\tc.last_line = c.last_line + lineshift;\r\n\t\tfor i, line in ipairs(c.source_lines) do\r\n\t\t\tc.source_lines[i] = line+lineshift;\r\n\t\tend\r\n\t\tfor i, f in ipairs(c.prototypes) do\r\n\t\t\tshiftlines(f);\r\n\t\tend\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "dump",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "loadstring",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

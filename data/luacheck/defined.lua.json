@@ -1,0 +1,137 @@
+{
+  "_filename": "defined.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/luacheck/spec/samples/defined.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "assigns",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 13,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 15,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 11,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "contains",
+    "to": 7
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "defined",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function foo.bar()\r\n   baz()\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "baz()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "function foo()\r\n   foo = 1\r\n   bar = {}\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function foo.bar(baz)\r\n   for i=1, 5 do\r\n      local q\r\n\r\n      for a, b, c in pairs(foo) do\r\n         print(4)\r\n      end\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "baz",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "local variable"
+  } ]
+}

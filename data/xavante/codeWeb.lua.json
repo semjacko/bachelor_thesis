@@ -1,0 +1,457 @@
+{
+  "_filename": "codeWeb.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/xavante/src/codeweb/codeWeb.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 33,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "requires",
+    "to": 52
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "codeWeb",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function addModule (host, urlpath, m, register_as_tree)\r\n\tif m.__main then\r\n\t\txavante.httpd.addHandler (host, urlpath, m.__main)\r\n\tend\r\n\tfor k,v in pairs (m) do\r\n\t\tif\ttype (k) == \"string\" and\r\n\t\t\tstring.sub (k,1,1) ~= \"_\" and\r\n\t\t\ttype (v) == \"function\"\r\n\t\tthen\r\n\t\t\tlocal pth = urlpath..\"/\"..k\r\n\t\t\txavante.httpd.addHandler (host, pth, v)\r\n\t\t\tif register_as_tree then\r\n\t\t\t\txavante.httpd.addHandler (host, pth..\"/\", v)\r\n\t\t\t\txavante.httpd.addHandler (host, pth..\"/*\", v)\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "if m.__main then\r\n\t\txavante.httpd.addHandler (host, urlpath, m.__main)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 4,
+    "text": "xavante.httpd.addHandler (host, urlpath, m.__main)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "for k,v in pairs (m) do\r\n\t\tif\ttype (k) == \"string\" and\r\n\t\t\tstring.sub (k,1,1) ~= \"_\" and\r\n\t\t\ttype (v) == \"function\"\r\n\t\tthen\r\n\t\t\tlocal pth = urlpath..\"/\"..k\r\n\t\t\txavante.httpd.addHandler (host, pth, v)\r\n\t\t\tif register_as_tree then\r\n\t\t\t\txavante.httpd.addHandler (host, pth..\"/\", v)\r\n\t\t\t\txavante.httpd.addHandler (host, pth..\"/*\", v)\r\n\t\t\tend\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 6,
+    "text": "if\ttype (k) == \"string\" and\r\n\t\t\tstring.sub (k,1,1) ~= \"_\" and\r\n\t\t\ttype (v) == \"function\"\r\n\t\tthen\r\n\t\t\tlocal pth = urlpath..\"/\"..k\r\n\t\t\txavante.httpd.addHandler (host, pth, v)\r\n\t\t\tif register_as_tree then\r\n\t\t\t\txavante.httpd.addHandler (host, pth..\"/\", v)\r\n\t\t\t\txavante.httpd.addHandler (host, pth..\"/*\", v)\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "local pth = urlpath..\"/\"..k",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "xavante.httpd.addHandler (host, pth, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "if register_as_tree then\r\n\t\t\t\txavante.httpd.addHandler (host, pth..\"/\", v)\r\n\t\t\t\txavante.httpd.addHandler (host, pth..\"/*\", v)\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "xavante.httpd.addHandler (host, pth..\"/\", v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "xavante.httpd.addHandler (host, pth..\"/*\", v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function load_cw (fname, env)\r\n\r\n\tenv = env or 1\r\n\r\n\tif type (env) == \"function\" then\r\n\t\tenv = getfenv (env)\r\n\telseif type (env) == \"number\" then\r\n\t\tenv = getfenv (env+1)\r\n\tend\r\n\r\n\tlocal fh = assert (io.open (fname))\r\n\tlocal prog = fh:read(\"*a\")\r\n\tfh:close()\r\n\tcgilua.prep.setoutfunc (\"res:send_data\")\r\n\tprog = cgilua.prep.translate (prog, \"file \"..fname)\r\n\tprog = \"return function (req,res,...)\\n\" .. prog .. \"\\nend\"\r\n\tif prog then\r\n\t\tlocal f, err = loadstring (prog, \"@\"..fname)\r\n\t\tif f then\r\n\t\t\tlocal f_cw = f()\r\n\t\t\tif env then setfenv (f_cw, env) end\r\n\t\t\treturn f_cw\r\n\t\telse\r\n\t\t\terror (err)\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "env = env or 1",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "if type (env) == \"function\" then\r\n\t\tenv = getfenv (env)\r\n\telseif type (env) == \"number\" then\r\n\t\tenv = getfenv (env+1)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "env = getfenv (env)",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "env = getfenv (env+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "local fh = assert (io.open (fname))",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "local prog = fh:read(\"*a\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "fh:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "cgilua.prep.setoutfunc (\"res:send_data\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "prog = cgilua.prep.translate (prog, \"file \"..fname)",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "prog = \"return function (req,res,...)\\n\" .. prog .. \"\\nend\"",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "if prog then\r\n\t\tlocal f, err = loadstring (prog, \"@\"..fname)\r\n\t\tif f then\r\n\t\t\tlocal f_cw = f()\r\n\t\t\tif env then setfenv (f_cw, env) end\r\n\t\t\treturn f_cw\r\n\t\telse\r\n\t\t\terror (err)\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "local f, err = loadstring (prog, \"@\"..fname)",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if f then\r\n\t\t\tlocal f_cw = f()\r\n\t\t\tif env then setfenv (f_cw, env) end\r\n\t\t\treturn f_cw\r\n\t\telse\r\n\t\t\terror (err)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "local f_cw = f()",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "if env then setfenv (f_cw, env) end",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "setfenv (f_cw, env)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "error (err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 31,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 34,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "cgilua.prep.setoutfunc",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "xavante.httpd.addHandler",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "cgilua.prep.translate",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "f",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "getfenv",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "loadstring",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "setfenv",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 52,
+    "text": "prep",
+    "type": "module"
+  } ]
+}

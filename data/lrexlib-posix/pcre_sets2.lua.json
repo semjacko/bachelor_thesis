@@ -1,0 +1,501 @@
+{
+  "_filename": "pcre_sets2.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lrexlib-posix/test/pcre_sets2.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 35,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 46
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 47,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "requires",
+    "to": 45
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "provides",
+    "to": 51
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "pat2pcre",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "pcre_sets2",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function get_gsub (lib)\r\n  return lib.gsub or\r\n    function (subj, pattern, repl, n)\r\n      return lib.new (pattern) : gsub (subj, repl, n)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "local function set_f_gsub1 (lib, flg)\r\n  local subj, pat = \"abcdef\", \"[abef]+\"\r\n  return {\r\n    Name = \"Function gsub, set1\",\r\n    Func = get_gsub (lib),\r\n  --{ s,       p,    f,   n,    res1,  res2, res3 },\r\n    { {\"a\\0c\", \".\",  \"#\"   },   {\"###\",   3, 3} }, -- subj contains nuls\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local subj, pat = \"abcdef\", \"[abef]+\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "local function set_f_gsub4 (lib, flg)\r\n  local pCSV = \"(^[^,]*)|,([^,]*)\"\r\n  local fCSV = function (a,b) return \"[\"..(a or b)..\"]\" end\r\n  local set = {\r\n    Name = \"Function gsub, set4\",\r\n    Func = get_gsub (lib),\r\n  --{ s,           p,              f, n,  res1,      res2, res3 },\r\n    { {\"/* */ */\", \"%/%*(.*)%*%/\", \"#\" }, {\"#\",         1, 1} },\r\n    { {\"a2c3\",     \".-\",           \"#\" }, {\"#########\", 9, 9} }, -- test .-\r\n    { {\"/**/\",     \"%/%*(.-)%*%/\", \"#\" }, {\"#\",         1, 1} },\r\n    { {\"/* */ */\", \"%/%*(.-)%*%/\", \"#\" }, {\"# */\",      1, 1} },\r\n    { {\"a2c3\",     \"%d\",           \"#\" }, {\"a#c#\",      2, 2} }, -- test %d\r\n    { {\"a2c3\",     \"%D\",           \"#\" }, {\"#2#3\",      2, 2} }, -- test %D\r\n    { {\"a \\t\\nb\",  \"%s\",           \"#\" }, {\"a###b\",     3, 3} }, -- test %s\r\n    { {\"a \\t\\nb\",  \"%S\",           \"#\" }, {\"# \\t\\n#\",   2, 2} }, -- test %S\r\n    { {\"abcd\",     \"\\\\b\",          \"%1\"}, {\"abcd\",      2, 2} },\r\n    { {\"\",                    pCSV,fCSV}, {\"[]\",        1, 1} },\r\n    { {\"123\",                 pCSV,fCSV}, {\"[123]\",     1, 1} },\r\n    { {\",\",                   pCSV,fCSV}, {\"[][]\",      2, 2} },\r\n    { {\"123,,456\",            pCSV,fCSV}, {\"[123][][456]\", 3, 3}},\r\n    { {\",,123,456,,abc,789,\", pCSV,fCSV}, {\"[][][123][456][][abc][789][]\", 8, 8}},\r\n  }\r\n  -- convert patterns: lua -> pcre\r\n  for _, test in ipairs (set) do\r\n    test[1][2] = pat2pcre (test[1][2])\r\n  end\r\n  return set\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local pCSV = \"(^[^,]*)|,([^,]*)\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local fCSV = function (a,b) return \"[\"..(a or b)..\"]\" end",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local set = {\r\n    Name = \"Function gsub, set4\",\r\n    Func = get_gsub (lib),\r\n  --{ s,           p,              f, n,  res1,      res2, res3 },\r\n    { {\"/* */ */\", \"%/%*(.*)%*%/\", \"#\" }, {\"#\",         1, 1} },\r\n    { {\"a2c3\",     \".-\",           \"#\" }, {\"#########\", 9, 9} }, -- test .-\r\n    { {\"/**/\",     \"%/%*(.-)%*%/\", \"#\" }, {\"#\",         1, 1} },\r\n    { {\"/* */ */\", \"%/%*(.-)%*%/\", \"#\" }, {\"# */\",      1, 1} },\r\n    { {\"a2c3\",     \"%d\",           \"#\" }, {\"a#c#\",      2, 2} }, -- test %d\r\n    { {\"a2c3\",     \"%D\",           \"#\" }, {\"#2#3\",      2, 2} }, -- test %D\r\n    { {\"a \\t\\nb\",  \"%s\",           \"#\" }, {\"a###b\",     3, 3} }, -- test %s\r\n    { {\"a \\t\\nb\",  \"%S\",           \"#\" }, {\"# \\t\\n#\",   2, 2} }, -- test %S\r\n    { {\"abcd\",     \"\\\\b\",          \"%1\"}, {\"abcd\",      2, 2} },\r\n    { {\"\",                    pCSV,fCSV}, {\"[]\",        1, 1} },\r\n    { {\"123\",                 pCSV,fCSV}, {\"[123]\",     1, 1} },\r\n    { {\",\",                   pCSV,fCSV}, {\"[][]\",      2, 2} },\r\n    { {\"123,,456\",            pCSV,fCSV}, {\"[123][][456]\", 3, 3}},\r\n    { {\",,123,456,,abc,789,\", pCSV,fCSV}, {\"[][][123][456][][abc][789][]\", 8, 8}},\r\n  }",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "for _, test in ipairs (set) do\r\n    test[1][2] = pat2pcre (test[1][2])\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 14,
+    "text": "test[1][2] = pat2pcre (test[1][2])",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function (a,b) return \"[\"..(a or b)..\"]\" end",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "local function set_f_gsub7 (lib, flg)\r\n  local subj = \"\"\r\n  for i = 0, 255 do\r\n    subj = subj .. string.char (i)\r\n  end\r\n\r\n  -- This set requires calling prepare_set before calling gsub_test\r\n  local set = {\r\n    Name = \"Function gsub, set7\",\r\n    Func = get_gsub (lib),\r\n  --{ s,     p,    f, n, },\r\n    { {subj, \"%a\", \"\" }, },\r\n    { {subj, \"%A\", \"\" }, },\r\n    { {subj, \"%c\", \"\" }, },\r\n    { {subj, \"%C\", \"\" }, },\r\n    { {subj, \"%l\", \"\" }, },\r\n    { {subj, \"%L\", \"\" }, },\r\n    { {subj, \"%p\", \"\" }, },\r\n    { {subj, \"%P\", \"\" }, },\r\n    { {subj, \"%u\", \"\" }, },\r\n    { {subj, \"%U\", \"\" }, },\r\n    { {subj, \"%w\", \"\" }, },\r\n    { {subj, \"%W\", \"\" }, },\r\n    { {subj, \"%x\", \"\" }, },\r\n    { {subj, \"%X\", \"\" }, },\r\n    { {subj, \"%z\", \"\" }, },\r\n    { {subj, \"%Z\", \"\" }, },\r\n\r\n    { {subj, \"[%a]\", \"\" }, },\r\n    { {subj, \"[%A]\", \"\" }, },\r\n    { {subj, \"[%c]\", \"\" }, },\r\n    { {subj, \"[%C]\", \"\" }, },\r\n    { {subj, \"[%l]\", \"\" }, },\r\n    { {subj, \"[%L]\", \"\" }, },\r\n    { {subj, \"[%p]\", \"\" }, },\r\n    { {subj, \"[%P]\", \"\" }, },\r\n    { {subj, \"[%u]\", \"\" }, },\r\n    { {subj, \"[%U]\", \"\" }, },\r\n    { {subj, \"[%w]\", \"\" }, },\r\n    { {subj, \"[%W]\", \"\" }, },\r\n    { {subj, \"[%x]\", \"\" }, },\r\n    { {subj, \"[%X]\", \"\" }, },\r\n    { {subj, \"[%z]\", \"\" }, },\r\n    { {subj, \"[%Z]\", \"\" }, },\r\n\r\n    { {subj, \"[%a_]\", \"\" }, },\r\n    { {subj, \"[%A_]\", \"\" }, },\r\n    { {subj, \"[%c_]\", \"\" }, },\r\n    { {subj, \"[%C_]\", \"\" }, },\r\n    { {subj, \"[%l_]\", \"\" }, },\r\n    { {subj, \"[%L_]\", \"\" }, },\r\n    { {subj, \"[%p_]\", \"\" }, },\r\n    { {subj, \"[%P_]\", \"\" }, },\r\n    { {subj, \"[%u_]\", \"\" }, },\r\n    { {subj, \"[%U_]\", \"\" }, },\r\n    { {subj, \"[%w_]\", \"\" }, },\r\n    { {subj, \"[%W_]\", \"\" }, },\r\n    { {subj, \"[%x_]\", \"\" }, },\r\n    { {subj, \"[%X_]\", \"\" }, },\r\n    { {subj, \"[%z_]\", \"\" }, },\r\n    { {subj, \"[%Z_]\", \"\" }, },\r\n\r\n    { {subj, \"[%a%d]\", \"\" }, },\r\n    { {subj, \"[%A%d]\", \"\" }, },\r\n    { {subj, \"[%c%d]\", \"\" }, },\r\n    { {subj, \"[%C%d]\", \"\" }, },\r\n    { {subj, \"[%l%d]\", \"\" }, },\r\n    { {subj, \"[%L%d]\", \"\" }, },\r\n    { {subj, \"[%p%d]\", \"\" }, },\r\n    { {subj, \"[%P%d]\", \"\" }, },\r\n    { {subj, \"[%u%d]\", \"\" }, },\r\n    { {subj, \"[%U%d]\", \"\" }, },\r\n    { {subj, \"[%w%d]\", \"\" }, },\r\n    { {subj, \"[%W%d]\", \"\" }, },\r\n    { {subj, \"[%x%d]\", \"\" }, },\r\n    { {subj, \"[%X%d]\", \"\" }, },\r\n    { {subj, \"[%z%d]\", \"\" }, },\r\n    { {subj, \"[%Z%d]\", \"\" }, },\r\n\r\n    { {subj, \"[^%a%d]\", \"\" }, },\r\n    { {subj, \"[^%A%d]\", \"\" }, },\r\n    { {subj, \"[^%c%d]\", \"\" }, },\r\n    { {subj, \"[^%C%d]\", \"\" }, },\r\n    { {subj, \"[^%l%d]\", \"\" }, },\r\n    { {subj, \"[^%L%d]\", \"\" }, },\r\n    { {subj, \"[^%p%d]\", \"\" }, },\r\n    { {subj, \"[^%P%d]\", \"\" }, },\r\n    { {subj, \"[^%u%d]\", \"\" }, },\r\n    { {subj, \"[^%U%d]\", \"\" }, },\r\n    { {subj, \"[^%w%d]\", \"\" }, },\r\n    { {subj, \"[^%W%d]\", \"\" }, },\r\n    { {subj, \"[^%x%d]\", \"\" }, },\r\n    { {subj, \"[^%X%d]\", \"\" }, },\r\n    { {subj, \"[^%z%d]\", \"\" }, },\r\n    { {subj, \"[^%Z%d]\", \"\" }, },\r\n\r\n    { {subj, \"[^%a_]\", \"\" }, },\r\n    { {subj, \"[^%A_]\", \"\" }, },\r\n    { {subj, \"[^%c_]\", \"\" }, },\r\n    { {subj, \"[^%C_]\", \"\" }, },\r\n    { {subj, \"[^%l_]\", \"\" }, },\r\n    { {subj, \"[^%L_]\", \"\" }, },\r\n    { {subj, \"[^%p_]\", \"\" }, },\r\n    { {subj, \"[^%P_]\", \"\" }, },\r\n    { {subj, \"[^%u_]\", \"\" }, },\r\n    { {subj, \"[^%U_]\", \"\" }, },\r\n    { {subj, \"[^%w_]\", \"\" }, },\r\n    { {subj, \"[^%W_]\", \"\" }, },\r\n    { {subj, \"[^%x_]\", \"\" }, },\r\n    { {subj, \"[^%X_]\", \"\" }, },\r\n    { {subj, \"[^%z_]\", \"\" }, },\r\n    { {subj, \"[^%Z_]\", \"\" }, },\r\n\r\n    { {subj, \"\\100\",          \"\" }, },\r\n    { {subj, \"[\\100]\",        \"\" }, },\r\n    { {subj, \"[^\\100]\",       \"\" }, },\r\n    { {subj, \"[\\100-\\200]\",   \"\" }, },\r\n    { {subj, \"[^\\100-\\200]\",  \"\" }, },\r\n    { {subj, \"\\100a\",         \"\" }, },\r\n    { {subj, \"[\\100a]\",       \"\" }, },\r\n    { {subj, \"[^\\100a]\",      \"\" }, },\r\n    { {subj, \"[\\100-\\200a]\",  \"\" }, },\r\n    { {subj, \"[^\\100-\\200a]\", \"\" }, },\r\n  }\r\n  -- fill in reference results\r\n  for _,v in ipairs(set) do\r\n    local r0, r1, r2 = pcall (string.gsub, unpack (v[1]))\r\n    v[2] = r0 and { r1, r2, r2 } or { r0, r1 }\r\n  end\r\n  -- convert patterns: lua -> pcre\r\n  for _, test in ipairs (set) do\r\n    test[1][2] = pat2pcre (test[1][2])\r\n  end\r\n  return set\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "local subj = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 19,
+    "text": "for i = 0, 255 do\r\n    subj = subj .. string.char (i)\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 20,
+    "text": "subj = subj .. string.char (i)",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "local set = {\r\n    Name = \"Function gsub, set7\",\r\n    Func = get_gsub (lib),\r\n  --{ s,     p,    f, n, },\r\n    { {subj, \"%a\", \"\" }, },\r\n    { {subj, \"%A\", \"\" }, },\r\n    { {subj, \"%c\", \"\" }, },\r\n    { {subj, \"%C\", \"\" }, },\r\n    { {subj, \"%l\", \"\" }, },\r\n    { {subj, \"%L\", \"\" }, },\r\n    { {subj, \"%p\", \"\" }, },\r\n    { {subj, \"%P\", \"\" }, },\r\n    { {subj, \"%u\", \"\" }, },\r\n    { {subj, \"%U\", \"\" }, },\r\n    { {subj, \"%w\", \"\" }, },\r\n    { {subj, \"%W\", \"\" }, },\r\n    { {subj, \"%x\", \"\" }, },\r\n    { {subj, \"%X\", \"\" }, },\r\n    { {subj, \"%z\", \"\" }, },\r\n    { {subj, \"%Z\", \"\" }, },\r\n\r\n    { {subj, \"[%a]\", \"\" }, },\r\n    { {subj, \"[%A]\", \"\" }, },\r\n    { {subj, \"[%c]\", \"\" }, },\r\n    { {subj, \"[%C]\", \"\" }, },\r\n    { {subj, \"[%l]\", \"\" }, },\r\n    { {subj, \"[%L]\", \"\" }, },\r\n    { {subj, \"[%p]\", \"\" }, },\r\n    { {subj, \"[%P]\", \"\" }, },\r\n    { {subj, \"[%u]\", \"\" }, },\r\n    { {subj, \"[%U]\", \"\" }, },\r\n    { {subj, \"[%w]\", \"\" }, },\r\n    { {subj, \"[%W]\", \"\" }, },\r\n    { {subj, \"[%x]\", \"\" }, },\r\n    { {subj, \"[%X]\", \"\" }, },\r\n    { {subj, \"[%z]\", \"\" }, },\r\n    { {subj, \"[%Z]\", \"\" }, },\r\n\r\n    { {subj, \"[%a_]\", \"\" }, },\r\n    { {subj, \"[%A_]\", \"\" }, },\r\n    { {subj, \"[%c_]\", \"\" }, },\r\n    { {subj, \"[%C_]\", \"\" }, },\r\n    { {subj, \"[%l_]\", \"\" }, },\r\n    { {subj, \"[%L_]\", \"\" }, },\r\n    { {subj, \"[%p_]\", \"\" }, },\r\n    { {subj, \"[%P_]\", \"\" }, },\r\n    { {subj, \"[%u_]\", \"\" }, },\r\n    { {subj, \"[%U_]\", \"\" }, },\r\n    { {subj, \"[%w_]\", \"\" }, },\r\n    { {subj, \"[%W_]\", \"\" }, },\r\n    { {subj, \"[%x_]\", \"\" }, },\r\n    { {subj, \"[%X_]\", \"\" }, },\r\n    { {subj, \"[%z_]\", \"\" }, },\r\n    { {subj, \"[%Z_]\", \"\" }, },\r\n\r\n    { {subj, \"[%a%d]\", \"\" }, },\r\n    { {subj, \"[%A%d]\", \"\" }, },\r\n    { {subj, \"[%c%d]\", \"\" }, },\r\n    { {subj, \"[%C%d]\", \"\" }, },\r\n    { {subj, \"[%l%d]\", \"\" }, },\r\n    { {subj, \"[%L%d]\", \"\" }, },\r\n    { {subj, \"[%p%d]\", \"\" }, },\r\n    { {subj, \"[%P%d]\", \"\" }, },\r\n    { {subj, \"[%u%d]\", \"\" }, },\r\n    { {subj, \"[%U%d]\", \"\" }, },\r\n    { {subj, \"[%w%d]\", \"\" }, },\r\n    { {subj, \"[%W%d]\", \"\" }, },\r\n    { {subj, \"[%x%d]\", \"\" }, },\r\n    { {subj, \"[%X%d]\", \"\" }, },\r\n    { {subj, \"[%z%d]\", \"\" }, },\r\n    { {subj, \"[%Z%d]\", \"\" }, },\r\n\r\n    { {subj, \"[^%a%d]\", \"\" }, },\r\n    { {subj, \"[^%A%d]\", \"\" }, },\r\n    { {subj, \"[^%c%d]\", \"\" }, },\r\n    { {subj, \"[^%C%d]\", \"\" }, },\r\n    { {subj, \"[^%l%d]\", \"\" }, },\r\n    { {subj, \"[^%L%d]\", \"\" }, },\r\n    { {subj, \"[^%p%d]\", \"\" }, },\r\n    { {subj, \"[^%P%d]\", \"\" }, },\r\n    { {subj, \"[^%u%d]\", \"\" }, },\r\n    { {subj, \"[^%U%d]\", \"\" }, },\r\n    { {subj, \"[^%w%d]\", \"\" }, },\r\n    { {subj, \"[^%W%d]\", \"\" }, },\r\n    { {subj, \"[^%x%d]\", \"\" }, },\r\n    { {subj, \"[^%X%d]\", \"\" }, },\r\n    { {subj, \"[^%z%d]\", \"\" }, },\r\n    { {subj, \"[^%Z%d]\", \"\" }, },\r\n\r\n    { {subj, \"[^%a_]\", \"\" }, },\r\n    { {subj, \"[^%A_]\", \"\" }, },\r\n    { {subj, \"[^%c_]\", \"\" }, },\r\n    { {subj, \"[^%C_]\", \"\" }, },\r\n    { {subj, \"[^%l_]\", \"\" }, },\r\n    { {subj, \"[^%L_]\", \"\" }, },\r\n    { {subj, \"[^%p_]\", \"\" }, },\r\n    { {subj, \"[^%P_]\", \"\" }, },\r\n    { {subj, \"[^%u_]\", \"\" }, },\r\n    { {subj, \"[^%U_]\", \"\" }, },\r\n    { {subj, \"[^%w_]\", \"\" }, },\r\n    { {subj, \"[^%W_]\", \"\" }, },\r\n    { {subj, \"[^%x_]\", \"\" }, },\r\n    { {subj, \"[^%X_]\", \"\" }, },\r\n    { {subj, \"[^%z_]\", \"\" }, },\r\n    { {subj, \"[^%Z_]\", \"\" }, },\r\n\r\n    { {subj, \"\\100\",          \"\" }, },\r\n    { {subj, \"[\\100]\",        \"\" }, },\r\n    { {subj, \"[^\\100]\",       \"\" }, },\r\n    { {subj, \"[\\100-\\200]\",   \"\" }, },\r\n    { {subj, \"[^\\100-\\200]\",  \"\" }, },\r\n    { {subj, \"\\100a\",         \"\" }, },\r\n    { {subj, \"[\\100a]\",       \"\" }, },\r\n    { {subj, \"[^\\100a]\",      \"\" }, },\r\n    { {subj, \"[\\100-\\200a]\",  \"\" }, },\r\n    { {subj, \"[^\\100-\\200a]\", \"\" }, },\r\n  }",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "for _,v in ipairs(set) do\r\n    local r0, r1, r2 = pcall (string.gsub, unpack (v[1]))\r\n    v[2] = r0 and { r1, r2, r2 } or { r0, r1 }\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 23,
+    "text": "local r0, r1, r2 = pcall (string.gsub, unpack (v[1]))",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "v[2] = r0 and { r1, r2, r2 } or { r0, r1 }",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function (subj, pattern, repl, n)\r\n      return lib.new (pattern) : gsub (subj, repl, n)\r\n    end",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function (libname)\r\n  local lib = require (libname)\r\n  local flags = lib.flags and lib.flags ()\r\n  local sets = {\r\n    set_f_gsub1 (lib, flags),\r\n    set_f_gsub4 (lib, flags),\r\n  }\r\n  if flags.MAJOR*100 + flags.MINOR > 405 then\r\n    table.insert (sets, set_f_gsub7 (lib, flags))\r\n  end\r\n  return sets\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "local lib = require (libname)",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "local flags = lib.flags and lib.flags ()",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "local sets = {\r\n    set_f_gsub1 (lib, flags),\r\n    set_f_gsub4 (lib, flags),\r\n  }",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "if flags.MAJOR*100 + flags.MINOR > 405 then\r\n    table.insert (sets, set_f_gsub7 (lib, flags))\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "table.insert (sets, set_f_gsub7 (lib, flags))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 36,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "pat2pcre",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "unpack",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "flags",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "(libname)",
+    "type": "module"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "interface"
+  } ]
+}

@@ -1,0 +1,109 @@
+{
+  "_filename": "luarocks_config.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/lfw/luarocks_config.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "assigns",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "assigns",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "assigns",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "assigns",
+    "to": 12
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "luarocks_config",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

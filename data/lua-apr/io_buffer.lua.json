@@ -1,0 +1,369 @@
+{
+  "_filename": "io_buffer.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-apr/test/io_buffer.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 34
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "assigns",
+    "to": 37
+  }, {
+    "from": 35,
+    "label": "initializes",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "provides",
+    "to": 40
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "helpers",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "io_buffer",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "local function testformat(apr_file, lua_file, format)\r\n  if verbosity >= 1 then helpers.message(\"Testing file:read(%s) ..\\n\", format) end\r\n  repeat\r\n    local lua_value = lua_file:read(format)\r\n    if verbosity >= 2 then helpers.message(\"file:read(%s) = %s\\n\", format, helpers.formatvalue(lua_value)) end\r\n    local apr_value = apr_file:read(format)\r\n    if lua_value ~= apr_value then\r\n      helpers.warning(\"Wrong result for file:read(%s)!\\nLua value: %s\\nAPR value: %s\\n\",\r\n          format, helpers.formatvalue(lua_value), helpers.formatvalue(apr_value))\r\n      helpers.warning(\"Lua position: %i, APR position: %i\\n\", lua_file:seek 'cur', apr_file:seek 'cur')\r\n      helpers.warning(\"Remaining data in Lua file: %s\\n\", helpers.formatvalue(lua_file:read '*a'))\r\n      helpers.warning(\"Remaining data in APR file: %s\\n\", helpers.formatvalue(apr_file:read '*a'))\r\n      os.exit(1)\r\n    end\r\n  until (format == '*a' and lua_value == '') or not lua_value\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "if verbosity >= 1 then helpers.message(\"Testing file:read(%s) ..\\n\", format) end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "helpers.message(\"Testing file:read(%s) ..\\n\", format)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "repeat\r\n    local lua_value = lua_file:read(format)\r\n    if verbosity >= 2 then helpers.message(\"file:read(%s) = %s\\n\", format, helpers.formatvalue(lua_value)) end\r\n    local apr_value = apr_file:read(format)\r\n    if lua_value ~= apr_value then\r\n      helpers.warning(\"Wrong result for file:read(%s)!\\nLua value: %s\\nAPR value: %s\\n\",\r\n          format, helpers.formatvalue(lua_value), helpers.formatvalue(apr_value))\r\n      helpers.warning(\"Lua position: %i, APR position: %i\\n\", lua_file:seek 'cur', apr_file:seek 'cur')\r\n      helpers.warning(\"Remaining data in Lua file: %s\\n\", helpers.formatvalue(lua_file:read '*a'))\r\n      helpers.warning(\"Remaining data in APR file: %s\\n\", helpers.formatvalue(apr_file:read '*a'))\r\n      os.exit(1)\r\n    end\r\n  until (format == '*a' and lua_value == '') or not lua_value",
+    "type": "statement:repeat"
+  }, {
+    "id": 7,
+    "text": "local lua_value = lua_file:read(format)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "if verbosity >= 2 then helpers.message(\"file:read(%s) = %s\\n\", format, helpers.formatvalue(lua_value)) end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "helpers.message(\"file:read(%s) = %s\\n\", format, helpers.formatvalue(lua_value))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "local apr_value = apr_file:read(format)",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "if lua_value ~= apr_value then\r\n      helpers.warning(\"Wrong result for file:read(%s)!\\nLua value: %s\\nAPR value: %s\\n\",\r\n          format, helpers.formatvalue(lua_value), helpers.formatvalue(apr_value))\r\n      helpers.warning(\"Lua position: %i, APR position: %i\\n\", lua_file:seek 'cur', apr_file:seek 'cur')\r\n      helpers.warning(\"Remaining data in Lua file: %s\\n\", helpers.formatvalue(lua_file:read '*a'))\r\n      helpers.warning(\"Remaining data in APR file: %s\\n\", helpers.formatvalue(apr_file:read '*a'))\r\n      os.exit(1)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "helpers.warning(\"Wrong result for file:read(%s)!\\nLua value: %s\\nAPR value: %s\\n\",\r\n          format, helpers.formatvalue(lua_value), helpers.formatvalue(apr_value))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "helpers.warning(\"Lua position: %i, APR position: %i\\n\", lua_file:seek 'cur', apr_file:seek 'cur')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "helpers.warning(\"Remaining data in Lua file: %s\\n\", helpers.formatvalue(lua_file:read '*a'))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "helpers.warning(\"Remaining data in APR file: %s\\n\", helpers.formatvalue(apr_file:read '*a'))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "os.exit(1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function(test_file, apr_object)\r\n  local lua_file = assert(io.open(test_file))\r\n  for _, format in pairs { '*n', '*l', '*a', 1, 2, 3, 4, 5, 10, 20, 50, 100 } do\r\n    testformat(apr_object, lua_file, format)\r\n    apr_object:seek('set', 0)\r\n    lua_file:seek('set', 0)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "local lua_file = assert(io.open(test_file))",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "for _, format in pairs { '*n', '*l', '*a', 1, 2, 3, 4, 5, 10, 20, 50, 100 } do\r\n    testformat(apr_object, lua_file, format)\r\n    apr_object:seek('set', 0)\r\n    lua_file:seek('set', 0)\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 21,
+    "text": "testformat(apr_object, lua_file, format)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "apr_object:seek('set', 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "lua_file:seek('set', 0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 26,
+    "text": "formatvalue",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "message",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "warning",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "interface"
+  } ]
+}

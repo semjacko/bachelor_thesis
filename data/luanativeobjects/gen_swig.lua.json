@@ -1,0 +1,1737 @@
+{
+  "_filename": "gen_swig.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luanativeobjects/native_objects/gen_swig.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 73,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 79,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 82,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 101
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 102
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 103
+  }, {
+    "from": 103,
+    "label": "has",
+    "to": 104
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 105
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 106
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 107
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 108
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 109
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 110
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 112
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 113
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 114
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 115
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 116
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 117
+  }, {
+    "from": 116,
+    "label": "has",
+    "to": 118
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 119
+  }, {
+    "from": 119,
+    "label": "has",
+    "to": 120
+  }, {
+    "from": 111,
+    "label": "has",
+    "to": 121
+  }, {
+    "from": 122,
+    "label": "has",
+    "to": 123
+  }, {
+    "from": 123,
+    "label": "has",
+    "to": 124
+  }, {
+    "from": 123,
+    "label": "has",
+    "to": 125
+  }, {
+    "from": 123,
+    "label": "has",
+    "to": 126
+  }, {
+    "from": 123,
+    "label": "has",
+    "to": 127
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 128
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 129
+  }, {
+    "from": 129,
+    "label": "has",
+    "to": 130
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 131
+  }, {
+    "from": 127,
+    "label": "has",
+    "to": 132
+  }, {
+    "from": 122,
+    "label": "has",
+    "to": 133
+  }, {
+    "from": 122,
+    "label": "has",
+    "to": 134
+  }, {
+    "from": 134,
+    "label": "has",
+    "to": 135
+  }, {
+    "from": 134,
+    "label": "has",
+    "to": 136
+  }, {
+    "from": 134,
+    "label": "has",
+    "to": 137
+  }, {
+    "from": 134,
+    "label": "has",
+    "to": 136
+  }, {
+    "from": 122,
+    "label": "has",
+    "to": 138
+  }, {
+    "from": 122,
+    "label": "has",
+    "to": 139
+  }, {
+    "from": 122,
+    "label": "has",
+    "to": 140
+  }, {
+    "from": 122,
+    "label": "has",
+    "to": 141
+  }, {
+    "from": 122,
+    "label": "has",
+    "to": 142
+  }, {
+    "from": 122,
+    "label": "has",
+    "to": 143
+  }, {
+    "from": 144,
+    "label": "has",
+    "to": 145
+  }, {
+    "from": 144,
+    "label": "has",
+    "to": 146
+  }, {
+    "from": 144,
+    "label": "has",
+    "to": 147
+  }, {
+    "from": 144,
+    "label": "has",
+    "to": 148
+  }, {
+    "from": 149,
+    "label": "has",
+    "to": 150
+  }, {
+    "from": 150,
+    "label": "has",
+    "to": 151
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 152
+  }, {
+    "from": 151,
+    "label": "has",
+    "to": 153
+  }, {
+    "from": 149,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 149,
+    "label": "has",
+    "to": 154
+  }, {
+    "from": 149,
+    "label": "has",
+    "to": 155
+  }, {
+    "from": 149,
+    "label": "has",
+    "to": 156
+  }, {
+    "from": 149,
+    "label": "has",
+    "to": 157
+  }, {
+    "from": 149,
+    "label": "has",
+    "to": 158
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 159
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 160
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 161
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 162
+  }, {
+    "from": 158,
+    "label": "has",
+    "to": 163
+  }, {
+    "from": 149,
+    "label": "has",
+    "to": 164
+  }, {
+    "from": 164,
+    "label": "has",
+    "to": 165
+  }, {
+    "from": 164,
+    "label": "has",
+    "to": 166
+  }, {
+    "from": 149,
+    "label": "has",
+    "to": 167
+  }, {
+    "from": 149,
+    "label": "has",
+    "to": 168
+  }, {
+    "from": 169,
+    "label": "has",
+    "to": 170
+  }, {
+    "from": 169,
+    "label": "has",
+    "to": 171
+  }, {
+    "from": 169,
+    "label": "has",
+    "to": 172
+  }, {
+    "from": 169,
+    "label": "has",
+    "to": 154
+  }, {
+    "from": 169,
+    "label": "has",
+    "to": 173
+  }, {
+    "from": 169,
+    "label": "has",
+    "to": 174
+  }, {
+    "from": 175,
+    "label": "has",
+    "to": 154
+  }, {
+    "from": 175,
+    "label": "has",
+    "to": 157
+  }, {
+    "from": 175,
+    "label": "has",
+    "to": 176
+  }, {
+    "from": 176,
+    "label": "has",
+    "to": 177
+  }, {
+    "from": 176,
+    "label": "has",
+    "to": 178
+  }, {
+    "from": 176,
+    "label": "has",
+    "to": 179
+  }, {
+    "from": 175,
+    "label": "has",
+    "to": 180
+  }, {
+    "from": 181,
+    "label": "has",
+    "to": 154
+  }, {
+    "from": 181,
+    "label": "has",
+    "to": 182
+  }, {
+    "from": 181,
+    "label": "has",
+    "to": 157
+  }, {
+    "from": 181,
+    "label": "has",
+    "to": 183
+  }, {
+    "from": 181,
+    "label": "has",
+    "to": 184
+  }, {
+    "from": 181,
+    "label": "has",
+    "to": 185
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 192
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 187
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 191
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 191
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 191
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 189
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 189
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 189
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 190
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 190
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 190
+  }, {
+    "from": 186,
+    "label": "calls",
+    "to": 188
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 186
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 60
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 68
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 73
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 79
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 82
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 87
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 96
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 111
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 122
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 144
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 149
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 169
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 175
+  }, {
+    "from": 186,
+    "label": "declares",
+    "to": 181
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 193
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 194
+  }, {
+    "from": 193,
+    "label": "initializes",
+    "to": 195
+  }, {
+    "from": 195,
+    "label": "assigns",
+    "to": 196
+  }, {
+    "from": 193,
+    "label": "initializes",
+    "to": 197
+  }, {
+    "from": 197,
+    "label": "assigns",
+    "to": 198
+  }, {
+    "from": 193,
+    "label": "initializes",
+    "to": 199
+  }, {
+    "from": 199,
+    "label": "assigns",
+    "to": 200
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "gen_swig",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function(self, var, own)\r\n\t\tif own == nil then own = '0' end\r\n\t\treturn '  SWIG_NewPointerObj(L, ${' .. var.name .. '}, ' ..\r\n\t\t\ttype_name .. ', ' .. own .. ');\\n'\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "if own == nil then own = '0' end",
+    "type": "statement:if"
+  }, {
+    "id": 4,
+    "text": "own = '0'",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function(self, var)\r\n\t\treturn 'swiglua_ref_get(&(${' .. var.name .. '}));\\n' ..\r\n\t\t\t'  luaL_checktype(${' .. var.name .. '}.L, -1, LUA_TFUNCTION);\\n' ..\r\n\t\t\t'  lua_pop(${' .. var.name .. '}.L, 1);\\n'\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function(self, var)\r\n\t\treturn 'swiglua_ref_clear(&(${' .. var.name .. '}));\\n'\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function(self, var)\r\n\t\treturn 'swiglua_ref_get(&(' .. var .. '));\\n'\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "local function src_write(...)\r\n\tsrc_file:write(...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "src_file:write(...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function(self, rec, parent)\r\n\tlocal base = rec.base\r\n\tif not base then return end\r\n\t-- copy methods from base object\r\n\tfor name,func in pairs(base.functions) do\r\n\t\tif func._is_method and parent.functions[name] == nil then\r\n\t\t\tfunc = func:copy_record()\r\n\t\t\tfunc.cast_this_ptr = \"(\" .. base.c_type .. \" *)\"\r\n\t\t\tparent:add_record(func)\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "local base = rec.base",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "if not base then return end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "for name,func in pairs(base.functions) do\r\n\t\tif func._is_method and parent.functions[name] == nil then\r\n\t\t\tfunc = func:copy_record()\r\n\t\t\tfunc.cast_this_ptr = \"(\" .. base.c_type .. \" *)\"\r\n\t\t\tparent:add_record(func)\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 20,
+    "text": "if func._is_method and parent.functions[name] == nil then\r\n\t\t\tfunc = func:copy_record()\r\n\t\t\tfunc.cast_this_ptr = \"(\" .. base.c_type .. \" *)\"\r\n\t\t\tparent:add_record(func)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "func = func:copy_record()",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "func.cast_this_ptr = \"(\" .. base.c_type .. \" *)\"",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "parent:add_record(func)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function(self, rec, parent)\r\n\trec.lang_type = 'userdata'\r\n\tlocal type_name = 'SWIGTYPE_p_' .. rec.name\r\n\trec._obj_type_name = type_name\r\n\r\n\t-- create _check/_delete/_push functions\r\n\trec._check = nil\r\n\trec._delete = nil\r\n\trec._to = rec._check\r\n\trec._push = function(self, var, own)\r\n\t\tif own == nil then own = '0' end\r\n\t\treturn '  SWIG_NewPointerObj(L, ${' .. var.name .. '}, ' ..\r\n\t\t\ttype_name .. ', ' .. own .. ');\\n'\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "rec.lang_type = 'userdata'",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "local type_name = 'SWIGTYPE_p_' .. rec.name",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "rec._obj_type_name = type_name",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "rec._check = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "rec._delete = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "rec._to = rec._check",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "rec._push = function(self, var, own)\r\n\t\tif own == nil then own = '0' end\r\n\t\treturn '  SWIG_NewPointerObj(L, ${' .. var.name .. '}, ' ..\r\n\t\t\ttype_name .. ', ' .. own .. ');\\n'\r\n\tend",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 34,
+    "text": "function(self, rec, parent)\r\n\trec.lang_type = 'function'\r\n\r\n\t-- create _check/_delete/_push functions\r\n\trec._check = function(self, var)\r\n\t\treturn 'swiglua_ref_get(&(${' .. var.name .. '}));\\n' ..\r\n\t\t\t'  luaL_checktype(${' .. var.name .. '}.L, -1, LUA_TFUNCTION);\\n' ..\r\n\t\t\t'  lua_pop(${' .. var.name .. '}.L, 1);\\n'\r\n\tend\r\n\trec._delete = function(self, var)\r\n\t\treturn 'swiglua_ref_clear(&(${' .. var.name .. '}));\\n'\r\n\tend\r\n\trec._to = rec._check\r\n\trec._push = function(self, var)\r\n\t\treturn 'swiglua_ref_get(&(' .. var .. '));\\n'\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "rec.lang_type = 'function'",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "rec._check = function(self, var)\r\n\t\treturn 'swiglua_ref_get(&(${' .. var.name .. '}));\\n' ..\r\n\t\t\t'  luaL_checktype(${' .. var.name .. '}.L, -1, LUA_TFUNCTION);\\n' ..\r\n\t\t\t'  lua_pop(${' .. var.name .. '}.L, 1);\\n'\r\n\tend",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "rec._delete = function(self, var)\r\n\t\treturn 'swiglua_ref_clear(&(${' .. var.name .. '}));\\n'\r\n\tend",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "rec._push = function(self, var)\r\n\t\treturn 'swiglua_ref_get(&(' .. var .. '));\\n'\r\n\tend",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "function(self, rec, parent)\r\n\tself._cur_module = rec\r\n\tself._modules_out[rec.name] = rec\r\n\trec:write_part(\"header\", {\r\n\t\t'%module ', rec.name, '\\n',\r\n[[\r\n%include stdint.i\r\n%include lua_fnptr.i\r\n%nodefaultctor;\r\n%nodefaultdtor;\r\n]]\r\n\t})\r\n\trec:write_part(\"includes\", {\r\n\t\t'%{\\n'\r\n\t})\r\n\trec:write_part(\"extra_code\", {\r\n\t\t'%{\\n'\r\n\t})\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "self._cur_module = rec",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "self._modules_out[rec.name] = rec",
+    "type": "statement:assign"
+  }, {
+    "id": 43,
+    "text": "rec:write_part(\"header\", {\r\n\t\t'%module ', rec.name, '\\n',\r\n[[\r\n%include stdint.i\r\n%include lua_fnptr.i\r\n%nodefaultctor;\r\n%nodefaultdtor;\r\n]]\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "rec:write_part(\"includes\", {\r\n\t\t'%{\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "rec:write_part(\"extra_code\", {\r\n\t\t'%{\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 47,
+    "text": "function(self, rec, parent)\r\n\trec:write_part(\"includes\", {\r\n\t\t'%}\\n'\r\n\t})\r\n\trec:write_part(\"extra_code\", {\r\n\t\t'%}\\n'\r\n\t})\r\n\tself._cur_module = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "rec:write_part(\"includes\", {\r\n\t\t'%}\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 49,
+    "text": "rec:write_part(\"extra_code\", {\r\n\t\t'%}\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 50,
+    "text": "self._cur_module = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "function(self, rec, parent)\r\n\trec:add_var('object_name', rec.name)\r\n\t-- make typedef for this object\r\n\trec:write_part(\"typedefs\", {\r\n\t'typedef struct {\\n',\r\n\t})\r\n\t-- start extend block\r\n\trec:write_part(\"methods\", {\r\n\t'%extend ${object_name} {\\n',\r\n\t})\r\n\t-- create fake type for packages.\r\n\tif rec.is_package then\r\n\t\trec:write_part(\"src\", {\r\n\t\t\t'typedef int ', rec.name, ';\\n',\r\n\t\t})\r\n\t\trec:write_part('methods', package_new_method)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "rec:add_var('object_name', rec.name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 54,
+    "text": "rec:write_part(\"typedefs\", {\r\n\t'typedef struct {\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 55,
+    "text": "rec:write_part(\"methods\", {\r\n\t'%extend ${object_name} {\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 56,
+    "text": "if rec.is_package then\r\n\t\trec:write_part(\"src\", {\r\n\t\t\t'typedef int ', rec.name, ';\\n',\r\n\t\t})\r\n\t\trec:write_part('methods', package_new_method)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 57,
+    "text": "rec:write_part(\"src\", {\r\n\t\t\t'typedef int ', rec.name, ';\\n',\r\n\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 58,
+    "text": "rec:write_part('methods', package_new_method)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 60,
+    "text": "function(self, rec, parent)\r\n\trec:write_part(\"typedefs\", {\r\n\t'} ${object_name};\\n\\n',\r\n\t})\r\n\trec:write_part(\"methods\", {\r\n\t'}\\n\\n'\r\n\t})\r\n\tlocal parts = {\"typedefs\", \"methods\"}\r\n\t-- apply variables to templates.\r\n\trec:vars_parts(parts)\r\n\t-- copy parts to parent\r\n\tparent:copy_parts(rec, parts)\r\n\t-- append extra source code.\r\n\tparent:write_part(\"extra_code\", rec:dump_parts{ \"src\" })\r\nend",
+    "type": "function"
+  }, {
+    "id": 61,
+    "text": "rec:write_part(\"typedefs\", {\r\n\t'} ${object_name};\\n\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 62,
+    "text": "rec:write_part(\"methods\", {\r\n\t'}\\n\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 63,
+    "text": "local parts = {\"typedefs\", \"methods\"}",
+    "type": "statement:localassign"
+  }, {
+    "id": 64,
+    "text": "rec:vars_parts(parts)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 65,
+    "text": "parent:copy_parts(rec, parts)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 66,
+    "text": "parent:write_part(\"extra_code\", rec:dump_parts{ \"src\" })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 68,
+    "text": "function(self, rec, parent)\r\n\trec:add_var('wrap_type', rec.wrap_type)\r\n\trec:add_var('base_type', rec.base_type)\r\n\t-- start callback object.\r\n\trec:write_part(\"wrapper_obj\",\r\n\t{'/* callback object: ', rec.name, ' */\\n',\r\n\t\t'typedef struct {\\n',\r\n\t\t'  ', rec.base_type, ' base;\\n',\r\n\t})\r\nend",
+    "type": "function"
+  }, {
+    "id": 69,
+    "text": "rec:add_var('wrap_type', rec.wrap_type)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 70,
+    "text": "rec:add_var('base_type', rec.base_type)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 71,
+    "text": "rec:write_part(\"wrapper_obj\",\r\n\t{'/* callback object: ', rec.name, ' */\\n',\r\n\t\t'typedef struct {\\n',\r\n\t\t'  ', rec.base_type, ' base;\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 73,
+    "text": "function(self, rec, parent)\r\n\trec:write_part(\"wrapper_obj\",\r\n\t{ rec:dump_parts{\"wrapper_callbacks\"},\r\n\t'} ', rec.wrap_type,';\\n',\r\n\t})\r\n\t-- append extra source code.\r\n\trec:write_part(\"extra_code\", rec:dump_parts{ \"wrapper_obj\" })\r\n\t-- apply variables to parts\r\n\tlocal parts = {\"extra_code\", \"methods\"}\r\n\trec:vars_parts(parts)\r\n\t-- copy parts to parent\r\n\tparent:write_part(\"src\", rec:dump_parts(parts))\r\nend",
+    "type": "function"
+  }, {
+    "id": 74,
+    "text": "rec:write_part(\"wrapper_obj\",\r\n\t{ rec:dump_parts{\"wrapper_callbacks\"},\r\n\t'} ', rec.wrap_type,';\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 75,
+    "text": "rec:write_part(\"extra_code\", rec:dump_parts{ \"wrapper_obj\" })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 76,
+    "text": "local parts = {\"extra_code\", \"methods\"}",
+    "type": "statement:localassign"
+  }, {
+    "id": 77,
+    "text": "parent:write_part(\"src\", rec:dump_parts(parts))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 79,
+    "text": "function(self, rec, parent)\r\n\tlocal base = rec.base\r\n\tif not base then return end\r\n\tparent:write_part(\"typedefs\", {\r\n\t'  %immutable;\\n',\r\n\t'  ', rec.base.c_type, ' ', rec.field, ';\\n',\r\n\t'  %mutable;\\n',\r\n\t})\r\nend",
+    "type": "function"
+  }, {
+    "id": 80,
+    "text": "parent:write_part(\"typedefs\", {\r\n\t'  %immutable;\\n',\r\n\t'  ', rec.base.c_type, ' ', rec.field, ';\\n',\r\n\t'  %mutable;\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 82,
+    "text": "function(self, rec, parent)\r\n\tif self._includes[rec.file] then return end\r\n\tself._includes[rec.file] = true\r\n\t-- append include file\r\n\tself._cur_module:write_part(\"includes\", { '#include \"', rec.file, '\"\\n' })\r\nend",
+    "type": "function"
+  }, {
+    "id": 83,
+    "text": "if self._includes[rec.file] then return end",
+    "type": "statement:if"
+  }, {
+    "id": 84,
+    "text": "self._includes[rec.file] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 85,
+    "text": "self._cur_module:write_part(\"includes\", { '#include \"', rec.file, '\"\\n' })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 87,
+    "text": "function(self, rec, parent)\r\n\trec.wrapped_type = parent.c_type\r\n\trec.wrapped_type_rec = parent.c_type_rec\r\n\trec.cb_ins = 0\r\n\trec.cb_outs = 0\r\n\t-- add callback decl.\r\n\trec:write_part('func_decl', {rec.c_func_decl, ';\\n'})\r\n\t-- start callback function.\r\n\trec:write_part(\"cb_head\",\r\n\t{'/* callback: ', rec.name, ' */\\n',\r\n\t\trec.c_func_decl, ' {\\n',\r\n\t})\r\n\t-- add lua reference to wrapper object.\r\n\tparent:write_part('wrapper_callbacks',\r\n\t  {'  SWIGLUA_REF ', rec.ref_field, ';\\n'})\r\nend",
+    "type": "function"
+  }, {
+    "id": 88,
+    "text": "rec.wrapped_type = parent.c_type",
+    "type": "statement:assign"
+  }, {
+    "id": 89,
+    "text": "rec.wrapped_type_rec = parent.c_type_rec",
+    "type": "statement:assign"
+  }, {
+    "id": 90,
+    "text": "rec.cb_ins = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 91,
+    "text": "rec.cb_outs = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 92,
+    "text": "rec:write_part('func_decl', {rec.c_func_decl, ';\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 93,
+    "text": "rec:write_part(\"cb_head\",\r\n\t{'/* callback: ', rec.name, ' */\\n',\r\n\t\trec.c_func_decl, ' {\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 94,
+    "text": "parent:write_part('wrapper_callbacks',\r\n\t  {'  SWIGLUA_REF ', rec.ref_field, ';\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 96,
+    "text": "function(self, rec, parent)\r\n\tlocal wrapped = rec.wrapped_var\r\n\tlocal wrap_type = parent.wrap_type .. ' *'\r\n\trec:write_part(\"cb_head\",\r\n\t{ '  ', wrap_type,' wrap = (',wrap_type,')${', wrapped.name,'};\\n',\r\n\t\t'  lua_State *L = wrap->', rec.ref_field,'.L;\\n',\r\n\t})\r\n\trec:write_part(\"vars\", {'\\n  ', rec:_push('wrap->' .. rec.ref_field),})\r\n\t-- call lua callback function.\r\n\trec:write_part(\"src\", {'  lua_call(L, ', rec.cb_ins, ', ', rec.cb_outs , ');\\n'})\r\n\t-- get return value from lua function.\r\n\tlocal ret_out = rec.ret_out\r\n\tif ret_out then\r\n\t\trec:write_part(\"post\", {'  return ${', ret_out.name , '};\\n'})\r\n\tend\r\n\t-- map in/out variables in c source.\r\n\tlocal parts = {\"cb_head\", \"vars\", \"params\", \"src\", \"post\"}\r\n\trec:vars_parts(parts)\r\n\trec:vars_parts('func_decl')\r\n\r\n\trec:write_part(\"post\", {'}\\n\\n'})\r\n\tparent:write_part('methods', rec:dump_parts(parts))\r\n\tparent:write_part('funcdefs', rec:dump_parts('func_decl'))\r\nend",
+    "type": "function"
+  }, {
+    "id": 97,
+    "text": "local wrapped = rec.wrapped_var",
+    "type": "statement:localassign"
+  }, {
+    "id": 98,
+    "text": "local wrap_type = parent.wrap_type .. ' *'",
+    "type": "statement:localassign"
+  }, {
+    "id": 99,
+    "text": "rec:write_part(\"cb_head\",\r\n\t{ '  ', wrap_type,' wrap = (',wrap_type,')${', wrapped.name,'};\\n',\r\n\t\t'  lua_State *L = wrap->', rec.ref_field,'.L;\\n',\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 100,
+    "text": "rec:write_part(\"vars\", {'\\n  ', rec:_push('wrap->' .. rec.ref_field),})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 101,
+    "text": "rec:write_part(\"src\", {'  lua_call(L, ', rec.cb_ins, ', ', rec.cb_outs , ');\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 102,
+    "text": "local ret_out = rec.ret_out",
+    "type": "statement:localassign"
+  }, {
+    "id": 103,
+    "text": "if ret_out then\r\n\t\trec:write_part(\"post\", {'  return ${', ret_out.name , '};\\n'})\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 104,
+    "text": "rec:write_part(\"post\", {'  return ${', ret_out.name , '};\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 105,
+    "text": "local parts = {\"cb_head\", \"vars\", \"params\", \"src\", \"post\"}",
+    "type": "statement:localassign"
+  }, {
+    "id": 106,
+    "text": "rec:vars_parts('func_decl')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 107,
+    "text": "rec:write_part(\"post\", {'}\\n\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 108,
+    "text": "parent:write_part('methods', rec:dump_parts(parts))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 109,
+    "text": "parent:write_part('funcdefs', rec:dump_parts('func_decl'))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 111,
+    "text": "function(self, rec, parent)\r\n\trec:add_var('object_name', parent.name)\r\n\t-- default no return value.\r\n\trec:add_var('ret', '')\r\n\trec:add_var('ret_type', 'void ')\r\n\trec._ret_name = 'ret'\r\n\t-- is this a wrapper function\r\n\tif rec.wrapper_obj then\r\n\t\tlocal wrap_type = rec.wrapper_obj.wrap_type\r\n\t\trec:write_part(\"pre\",\r\n\t\t\t{ '    ', wrap_type,' *wrap;\\n',\r\n\t\t\t})\r\n\tend\r\n\t-- for non-method ignore the 'self' parameter.\r\n\tif not rec._is_method then\r\n\t\trec:write_part(\"pre\",\r\n\t\t\t{ '    (void)self;\\n',\r\n\t\t\t})\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 112,
+    "text": "rec:add_var('object_name', parent.name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 113,
+    "text": "rec:add_var('ret', '')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 114,
+    "text": "rec:add_var('ret_type', 'void ')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 115,
+    "text": "rec._ret_name = 'ret'",
+    "type": "statement:assign"
+  }, {
+    "id": 116,
+    "text": "if rec.wrapper_obj then\r\n\t\tlocal wrap_type = rec.wrapper_obj.wrap_type\r\n\t\trec:write_part(\"pre\",\r\n\t\t\t{ '    ', wrap_type,' *wrap;\\n',\r\n\t\t\t})\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 117,
+    "text": "local wrap_type = rec.wrapper_obj.wrap_type",
+    "type": "statement:localassign"
+  }, {
+    "id": 118,
+    "text": "rec:write_part(\"pre\",\r\n\t\t\t{ '    ', wrap_type,' *wrap;\\n',\r\n\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 119,
+    "text": "if not rec._is_method then\r\n\t\trec:write_part(\"pre\",\r\n\t\t\t{ '    (void)self;\\n',\r\n\t\t\t})\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 120,
+    "text": "rec:write_part(\"pre\",\r\n\t\t\t{ '    (void)self;\\n',\r\n\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 122,
+    "text": "function(self, rec, parent)\r\n\t-- is this a wrapper function\r\n\tif rec.wrapper_obj then\r\n\t\tlocal wrap_obj = rec.wrapper_obj\r\n\t\tlocal wrap_type = wrap_obj.wrap_type\r\n\t\tlocal callbacks = wrap_obj.callbacks\r\n\t\tif rec.is_destructor then\r\n\t\t\trec:write_part(\"pre\",\r\n\t\t\t\t{'    wrap = (',wrap_type,' *)${this};\\n'})\r\n\t\t\tfor name,cb in pairs(callbacks) do\r\n\t\t\t\trec:write_part(\"src\",\r\n\t\t\t\t\t{'    swiglua_ref_clear(&(wrap->', name,'));\\n'})\r\n\t\t\tend\r\n\t\t\trec:write_part(\"post\",\r\n\t\t\t\t{'    n_type_free(', wrap_type, ', wrap);\\n'})\r\n\t\telseif rec.is_constructor then\r\n\t\t\trec:write_part(\"pre\",\r\n\t\t\t\t{\r\n\t\t\t\t'    n_new(', wrap_type, ', wrap);\\n',\r\n\t\t\t\t'    ${this} = &(wrap->base);\\n',\r\n\t\t\t\t})\r\n\t\tend\r\n\tend\r\n\t-- prefix non-methods with 'static'\r\n\tlocal prefix =''\r\n\t-- check if this method is the object's constructor/destructor\r\n\tif rec.is_destructor then\r\n\t\trec.name = '~' .. parent.name\r\n\t\trec:add_var('ret_type', '')\r\n\telseif rec.is_constructor then\r\n\t\trec.name = parent.name\r\n\t\trec:add_var('ret_type', '')\r\n\tend\r\n\trec:write_part(\"def\", {\r\n\t\t'  ', prefix, '${ret_type}', rec.name, '('\r\n\t})\r\n\trec:write_part(\"post\", {\r\n\t\t'    return ${', rec._ret_name, '};\\n  }\\n\\n'\r\n\t})\r\n\trec:write_part(\"params\", \") {\\n\")\r\n\t-- map in/out variables in c source.\r\n\trec:vars_parts{\"def\", \"params\", \"pre\", \"src\", \"post\"}\r\n\r\n\tparent:write_part(\"methods\", {\r\n\t\trec:dump_parts{\"def\", \"params\", \"pre\", \"src\", \"post\"}\r\n\t})\r\nend",
+    "type": "function"
+  }, {
+    "id": 123,
+    "text": "if rec.wrapper_obj then\r\n\t\tlocal wrap_obj = rec.wrapper_obj\r\n\t\tlocal wrap_type = wrap_obj.wrap_type\r\n\t\tlocal callbacks = wrap_obj.callbacks\r\n\t\tif rec.is_destructor then\r\n\t\t\trec:write_part(\"pre\",\r\n\t\t\t\t{'    wrap = (',wrap_type,' *)${this};\\n'})\r\n\t\t\tfor name,cb in pairs(callbacks) do\r\n\t\t\t\trec:write_part(\"src\",\r\n\t\t\t\t\t{'    swiglua_ref_clear(&(wrap->', name,'));\\n'})\r\n\t\t\tend\r\n\t\t\trec:write_part(\"post\",\r\n\t\t\t\t{'    n_type_free(', wrap_type, ', wrap);\\n'})\r\n\t\telseif rec.is_constructor then\r\n\t\t\trec:write_part(\"pre\",\r\n\t\t\t\t{\r\n\t\t\t\t'    n_new(', wrap_type, ', wrap);\\n',\r\n\t\t\t\t'    ${this} = &(wrap->base);\\n',\r\n\t\t\t\t})\r\n\t\tend\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 124,
+    "text": "local wrap_obj = rec.wrapper_obj",
+    "type": "statement:localassign"
+  }, {
+    "id": 125,
+    "text": "local wrap_type = wrap_obj.wrap_type",
+    "type": "statement:localassign"
+  }, {
+    "id": 126,
+    "text": "local callbacks = wrap_obj.callbacks",
+    "type": "statement:localassign"
+  }, {
+    "id": 127,
+    "text": "if rec.is_destructor then\r\n\t\t\trec:write_part(\"pre\",\r\n\t\t\t\t{'    wrap = (',wrap_type,' *)${this};\\n'})\r\n\t\t\tfor name,cb in pairs(callbacks) do\r\n\t\t\t\trec:write_part(\"src\",\r\n\t\t\t\t\t{'    swiglua_ref_clear(&(wrap->', name,'));\\n'})\r\n\t\t\tend\r\n\t\t\trec:write_part(\"post\",\r\n\t\t\t\t{'    n_type_free(', wrap_type, ', wrap);\\n'})\r\n\t\telseif rec.is_constructor then\r\n\t\t\trec:write_part(\"pre\",\r\n\t\t\t\t{\r\n\t\t\t\t'    n_new(', wrap_type, ', wrap);\\n',\r\n\t\t\t\t'    ${this} = &(wrap->base);\\n',\r\n\t\t\t\t})\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 128,
+    "text": "rec:write_part(\"pre\",\r\n\t\t\t\t{'    wrap = (',wrap_type,' *)${this};\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 129,
+    "text": "for name,cb in pairs(callbacks) do\r\n\t\t\t\trec:write_part(\"src\",\r\n\t\t\t\t\t{'    swiglua_ref_clear(&(wrap->', name,'));\\n'})\r\n\t\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 130,
+    "text": "rec:write_part(\"src\",\r\n\t\t\t\t\t{'    swiglua_ref_clear(&(wrap->', name,'));\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 131,
+    "text": "rec:write_part(\"post\",\r\n\t\t\t\t{'    n_type_free(', wrap_type, ', wrap);\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 132,
+    "text": "rec:write_part(\"pre\",\r\n\t\t\t\t{\r\n\t\t\t\t'    n_new(', wrap_type, ', wrap);\\n',\r\n\t\t\t\t'    ${this} = &(wrap->base);\\n',\r\n\t\t\t\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 133,
+    "text": "local prefix =''",
+    "type": "statement:localassign"
+  }, {
+    "id": 134,
+    "text": "if rec.is_destructor then\r\n\t\trec.name = '~' .. parent.name\r\n\t\trec:add_var('ret_type', '')\r\n\telseif rec.is_constructor then\r\n\t\trec.name = parent.name\r\n\t\trec:add_var('ret_type', '')\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 135,
+    "text": "rec.name = '~' .. parent.name",
+    "type": "statement:assign"
+  }, {
+    "id": 136,
+    "text": "rec:add_var('ret_type', '')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 137,
+    "text": "rec.name = parent.name",
+    "type": "statement:assign"
+  }, {
+    "id": 138,
+    "text": "rec:write_part(\"def\", {\r\n\t\t'  ', prefix, '${ret_type}', rec.name, '('\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 139,
+    "text": "rec:write_part(\"post\", {\r\n\t\t'    return ${', rec._ret_name, '};\\n  }\\n\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 140,
+    "text": "rec:write_part(\"params\", \") {\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 141,
+    "text": "rec:vars_parts{\"def\", \"params\", \"pre\", \"src\", \"post\"}",
+    "type": "statement:functioncall"
+  }, {
+    "id": 142,
+    "text": "parent:write_part(\"methods\", {\r\n\t\trec:dump_parts{\"def\", \"params\", \"pre\", \"src\", \"post\"}\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 143,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 144,
+    "text": "function(self, rec, parent)\r\n\tparent:write_part(\"src\", \"  \")\r\n\tparent:write_part(\"src\", rec.src)\r\n\tparent:write_part(\"src\", \"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 145,
+    "text": "parent:write_part(\"src\", \"  \")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 146,
+    "text": "parent:write_part(\"src\", rec.src)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 147,
+    "text": "parent:write_part(\"src\", \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 148,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 149,
+    "text": "function(self, rec, parent)\r\n\tif rec.is_this then\r\n\t\tif parent.cast_this_ptr then\r\n\t\t\tparent:add_var('this', parent.cast_this_ptr .. 'self')\r\n\t\telse\r\n\t\t\tparent:add_var('this', 'self')\r\n\t\tend\r\n\t\treturn\r\n\tend\r\n\tparent:add_rec_var(rec)\r\n\tlocal c_type = rec.c_type\r\n\tlocal name = rec.name\r\n\tlocal lua = rec.c_type_rec\r\n\t-- is a lua reference.\r\n\tif lua.is_ref then\r\n\t\tc_type = 'SWIGLUA_REF'\r\n\t\tname = name .. '_ref'\r\n\t\tparent:add_var(name, rec.name)\r\n\t\tparent:add_var(rec.name, rec.cb_func.c_func_name)\r\n\t\tparent:write_part(\"src\",\r\n\t\t\t{'    wrap->', lua.ref_field, ' = ${', name, '};\\n' })\r\n\tend\r\n\tif parent._next_var then\r\n\t\tparent:write_part(\"params\", \", \")\r\n\telse\r\n\t\tparent._next_var = true\r\n\tend\r\n\tparent:write_part(\"params\", {\r\n\t\tc_type, ' ${', name, '}' })\r\nend",
+    "type": "function"
+  }, {
+    "id": 150,
+    "text": "if rec.is_this then\r\n\t\tif parent.cast_this_ptr then\r\n\t\t\tparent:add_var('this', parent.cast_this_ptr .. 'self')\r\n\t\telse\r\n\t\t\tparent:add_var('this', 'self')\r\n\t\tend\r\n\t\treturn\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 151,
+    "text": "if parent.cast_this_ptr then\r\n\t\t\tparent:add_var('this', parent.cast_this_ptr .. 'self')\r\n\t\telse\r\n\t\t\tparent:add_var('this', 'self')\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 152,
+    "text": "parent:add_var('this', parent.cast_this_ptr .. 'self')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 153,
+    "text": "parent:add_var('this', 'self')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 154,
+    "text": "parent:add_rec_var(rec)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 155,
+    "text": "local c_type = rec.c_type",
+    "type": "statement:localassign"
+  }, {
+    "id": 156,
+    "text": "local name = rec.name",
+    "type": "statement:localassign"
+  }, {
+    "id": 157,
+    "text": "local lua = rec.c_type_rec",
+    "type": "statement:localassign"
+  }, {
+    "id": 158,
+    "text": "if lua.is_ref then\r\n\t\tc_type = 'SWIGLUA_REF'\r\n\t\tname = name .. '_ref'\r\n\t\tparent:add_var(name, rec.name)\r\n\t\tparent:add_var(rec.name, rec.cb_func.c_func_name)\r\n\t\tparent:write_part(\"src\",\r\n\t\t\t{'    wrap->', lua.ref_field, ' = ${', name, '};\\n' })\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 159,
+    "text": "c_type = 'SWIGLUA_REF'",
+    "type": "statement:assign"
+  }, {
+    "id": 160,
+    "text": "name = name .. '_ref'",
+    "type": "statement:assign"
+  }, {
+    "id": 161,
+    "text": "parent:add_var(name, rec.name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 162,
+    "text": "parent:add_var(rec.name, rec.cb_func.c_func_name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 163,
+    "text": "parent:write_part(\"src\",\r\n\t\t\t{'    wrap->', lua.ref_field, ' = ${', name, '};\\n' })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 164,
+    "text": "if parent._next_var then\r\n\t\tparent:write_part(\"params\", \", \")\r\n\telse\r\n\t\tparent._next_var = true\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 165,
+    "text": "parent:write_part(\"params\", \", \")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 166,
+    "text": "parent._next_var = true",
+    "type": "statement:assign"
+  }, {
+    "id": 167,
+    "text": "parent:write_part(\"params\", {\r\n\t\tc_type, ' ${', name, '}' })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 168,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 169,
+    "text": "function(self, rec, parent)\r\n\tassert(parent._ret_rec == nil, \"Only supports one 'var_out'\")\r\n\tparent._ret_name = rec.name\r\n\tparent:add_var('ret_type', rec.c_type .. ' ')\r\n\tparent:add_rec_var(rec)\r\n\tparent:write_part(\"pre\", {\r\n\t\t'    ', rec.c_type, ' ${', rec.name, '};\\n'\r\n\t})\r\nend",
+    "type": "function"
+  }, {
+    "id": 170,
+    "text": "assert(parent._ret_rec == nil, \"Only supports one 'var_out'\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 171,
+    "text": "parent._ret_name = rec.name",
+    "type": "statement:assign"
+  }, {
+    "id": 172,
+    "text": "parent:add_var('ret_type', rec.c_type .. ' ')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 173,
+    "text": "parent:write_part(\"pre\", {\r\n\t\t'    ', rec.c_type, ' ${', rec.name, '};\\n'\r\n\t})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 174,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 175,
+    "text": "function(self, rec, parent)\r\n\tparent:add_rec_var(rec)\r\n\tlocal lua = rec.c_type_rec\r\n\tif not rec.is_wrapped_obj then\r\n\t\tparent:write_part(\"params\", { lua:_push(rec) })\r\n\t\tparent.cb_ins = parent.cb_ins + 1\r\n\telse\r\n\t\t-- this is the wrapped object parameter.\r\n\t\tparent.wrapped_var = rec\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 176,
+    "text": "if not rec.is_wrapped_obj then\r\n\t\tparent:write_part(\"params\", { lua:_push(rec) })\r\n\t\tparent.cb_ins = parent.cb_ins + 1\r\n\telse\r\n\t\t-- this is the wrapped object parameter.\r\n\t\tparent.wrapped_var = rec\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 177,
+    "text": "parent:write_part(\"params\", { lua:_push(rec) })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 178,
+    "text": "parent.cb_ins = parent.cb_ins + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 179,
+    "text": "parent.wrapped_var = rec",
+    "type": "statement:assign"
+  }, {
+    "id": 180,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 181,
+    "text": "function(self, rec, parent)\r\n\tparent:add_rec_var(rec)\r\n\tparent.cb_outs = parent.cb_outs + 1\r\n\tlocal lua = rec.c_type_rec\r\n\tparent:write_part(\"vars\",\r\n\t\t{'  ', rec.c_type, ' ${', rec.name, '};\\n'})\r\n\tparent:write_part(\"post\",\r\n\t\t{'  ', lua:_to(rec) })\r\nend",
+    "type": "function"
+  }, {
+    "id": 182,
+    "text": "parent.cb_outs = parent.cb_outs + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 183,
+    "text": "parent:write_part(\"vars\",\r\n\t\t{'  ', rec.c_type, ' ${', rec.name, '};\\n'})",
+    "type": "statement:functioncall"
+  }, {
+    "id": 184,
+    "text": "parent:write_part(\"post\",\r\n\t\t{'  ', lua:_to(rec) })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 185,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 186,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 187,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 188,
+    "text": "open_outfile",
+    "type": "global function"
+  }, {
+    "id": 189,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 190,
+    "text": "process_records",
+    "type": "global function"
+  }, {
+    "id": 191,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 192,
+    "text": "set_variable_format",
+    "type": "global function"
+  }, {
+    "id": 193,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 194,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 195,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 196,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 197,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 198,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 199,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 200,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

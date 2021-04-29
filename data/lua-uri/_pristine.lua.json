@@ -1,0 +1,265 @@
+{
+  "_filename": "_pristine.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-uri/test/_pristine.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "assigns",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 26,
+    "label": "initializes",
+    "to": 24
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "_pristine",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "uri",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function assert_not_nil(actual, msg)\r\n  stats_inc(\"assertions\")\r\n  check_msg(\"assert_not_nil\", msg)\r\n  do_assert(not is_nil(actual), \"nil not expected but was one\", msg)\r\n  return actual\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function TestCase(name)\r\n  do_assert(is_string(name), \"lunit.TestCase() needs a string as an argument\")\r\n  local tc = {\r\n    __lunit_name = name;\r\n    __lunit_setup = nil;\r\n    __lunit_tests = { };\r\n    __lunit_teardown = nil;\r\n  }\r\n  setmetatable(tc, tc_mt)\r\n  table.insert(testcases, tc)\r\n  return tc\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function run()\r\n  \r\n  ---------------------------\r\n  -- Initialize statistics --\r\n  ---------------------------\r\n  \r\n  stats.testcases = 0\t-- Total number of Test Cases\r\n  stats.tests = 0\t-- Total number of all Tests in all Test Cases\r\n  stats.run = 0\t\t-- Number of Tests run\r\n  stats.notrun = 0\t-- Number of Tests not run\r\n  stats.failed = 0\t-- Number of Tests failed\r\n  stats.passed = 0\t-- Number of Test passed\r\n  stats.assertions = 0\t-- Number of all assertions made in all Test in all Test Cases\r\n  \r\n  --------------------------------\r\n  -- Count Test Cases and Tests --\r\n  --------------------------------\r\n  \r\n  stats.testcases = table.getn(testcases)\r\n  \r\n  for _, tc in ipairs(testcases) do\r\n    stats_inc(\"tests\" , table.getn(tc.__lunit_tests))\r\n  end\r\n  \r\n  ------------------\r\n  -- Print Header --\r\n  ------------------\r\n  \r\n  print()\r\n  print(\"#### Test Suite with \"..stats.tests..\" Tests in \"..stats.testcases..\" Test Cases loaded.\")\r\n  \r\n  ------------------------\r\n  -- Run all Test Cases --\r\n  ------------------------\r\n  \r\n  for _, tc in ipairs(testcases) do\r\n    run_testcase(tc)\r\n  end\r\n  \r\n  ------------------\r\n  -- Print Footer --\r\n  ------------------\r\n  \r\n  print()\r\n  print(\"#### Test Suite finished.\")\r\n  \r\n  local msg_assertions = stats.assertions..\" Assertions checked. \"\r\n  local msg_passed     = stats.passed == stats.tests and \"All Tests passed\" or  stats.passed..\" Tests passed\"\r\n  local msg_failed     = stats.failed > 0 and \", \"..stats.failed..\" failed\" or \"\"\r\n  local msg_run\t       = stats.notrun > 0 and \", \"..stats.notrun..\" not run\" or \"\"\r\n  \r\n  print()\r\n  print(msg_assertions..msg_passed..msg_failed..msg_run..\"!\")\r\n  \r\n  -----------------\r\n  -- Return code --\r\n  -----------------\r\n  \r\n  if stats.passed == stats.tests then\r\n    return 0\r\n  else\r\n    return 1\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function testcase:test_no_global_clobbering ()\r\n    local globals = {}\r\n    for key in pairs(_G) do globals[key] = true end\r\n\r\n    -- Load all the modules for the different types of URIs, in case any one\r\n    -- of those treads on a global.  I keep them around in a table to make\r\n    -- sure they're all loaded at the same time, just in case that does\r\n    -- anything interesting.\r\n    local schemes = {\r\n        \"_login\", \"_relative\", \"_util\", \"data\",\r\n        \"file\", \"file.unix\", \"file.win32\",\r\n        \"ftp\", \"http\", \"https\",\r\n        \"pop\", \"rtsp\", \"rtspu\", \"telnet\",\r\n        \"urn\", \"urn.isbn\", \"urn.issn\", \"urn.oid\"\r\n    }\r\n    local loaded = {}\r\n    local URI = require \"uri\"\r\n    for _, name in ipairs(schemes) do\r\n        loaded[name] = require(\"uri.\" .. name)\r\n    end\r\n\r\n    for key in pairs(_G) do\r\n        lunit.assert_not_nil(globals[key],\r\n                             \"global '\" .. key .. \"' created by lib\")\r\n    end\r\n    for key in pairs(globals) do\r\n        lunit.assert_not_nil(_G[key],\r\n                             \"global '\" .. key .. \"' destroyed by lib\")\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local globals = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "for key in pairs(_G) do globals[key] = true end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 9,
+    "text": "globals[key] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "local schemes = {\r\n        \"_login\", \"_relative\", \"_util\", \"data\",\r\n        \"file\", \"file.unix\", \"file.win32\",\r\n        \"ftp\", \"http\", \"https\",\r\n        \"pop\", \"rtsp\", \"rtspu\", \"telnet\",\r\n        \"urn\", \"urn.isbn\", \"urn.issn\", \"urn.oid\"\r\n    }",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "local loaded = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local URI = require \"uri\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "for _, name in ipairs(schemes) do\r\n        loaded[name] = require(\"uri.\" .. name)\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 14,
+    "text": "loaded[name] = require(\"uri.\" .. name)",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "for key in pairs(_G) do\r\n        lunit.assert_not_nil(globals[key],\r\n                             \"global '\" .. key .. \"' created by lib\")\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 16,
+    "text": "lunit.assert_not_nil(globals[key],\r\n                             \"global '\" .. key .. \"' created by lib\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "for key in pairs(globals) do\r\n        lunit.assert_not_nil(_G[key],\r\n                             \"global '\" .. key .. \"' destroyed by lib\")\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 18,
+    "text": "lunit.assert_not_nil(_G[key],\r\n                             \"global '\" .. key .. \"' destroyed by lib\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 21,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

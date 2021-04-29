@@ -1,0 +1,705 @@
+{
+  "_filename": "cookie.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luasocket/etc/cookie.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 60
+  }, {
+    "from": 60,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 60,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 60,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 60,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 60,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 60,
+    "label": "declares",
+    "to": 58
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 67
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 68
+  }, {
+    "from": 67,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "assigns",
+    "to": 70
+  }, {
+    "from": 67,
+    "label": "initializes",
+    "to": 71
+  }, {
+    "from": 71,
+    "label": "assigns",
+    "to": 72
+  }, {
+    "from": 68,
+    "label": "initializes",
+    "to": 73
+  }, {
+    "from": 73,
+    "label": "requires",
+    "to": 4
+  }, {
+    "from": 68,
+    "label": "initializes",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 68,
+    "label": "initializes",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "requires",
+    "to": 5
+  }, {
+    "from": 68,
+    "label": "initializes",
+    "to": 76
+  }, {
+    "from": 76,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cookie",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "http",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "ltn12",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "socket",
+    "type": "module"
+  }, {
+    "id": 5,
+    "text": "url",
+    "type": "module"
+  }, {
+    "id": 6,
+    "text": "local function unquote(t, quoted) \r\n    local n = string.match(t, \"%$(%d+)$\")\r\n    if n then n = tonumber(n) end\r\n    if quoted[n] then return quoted[n]\r\n    else return t end\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local n = string.match(t, \"%$(%d+)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "if n then n = tonumber(n) end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "n = tonumber(n)",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "if quoted[n] then return quoted[n]\r\n    else return t end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "local function parse_set_cookie(c, quoted, cookie_table)\r\n    c = c .. \";$last=last;\"\r\n    local _, __, n, v, i = string.find(c, \"(\" .. token_class .. \r\n        \"+)%s*=%s*(.-)%s*;%s*()\")\r\n    local cookie = {\r\n        name = n, \r\n        value = unquote(v, quoted), \r\n        attributes = {}\r\n    }\r\n    while 1 do\r\n        _, __, n, v, i = string.find(c, \"(\" .. token_class .. \r\n            \"+)%s*=?%s*(.-)%s*;%s*()\", i)\r\n        if not n or n == \"$last\" then break end\r\n        cookie.attributes[#cookie.attributes+1] = {\r\n            name = n, \r\n            value = unquote(v, quoted)\r\n        }\r\n    end\r\n    cookie_table[#cookie_table+1] = cookie\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "c = c .. \";$last=last;\"",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "local _, __, n, v, i = string.find(c, \"(\" .. token_class .. \r\n        \"+)%s*=%s*(.-)%s*;%s*()\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "local cookie = {\r\n        name = n, \r\n        value = unquote(v, quoted), \r\n        attributes = {}\r\n    }",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "while 1 do\r\n        _, __, n, v, i = string.find(c, \"(\" .. token_class .. \r\n            \"+)%s*=?%s*(.-)%s*;%s*()\", i)\r\n        if not n or n == \"$last\" then break end\r\n        cookie.attributes[#cookie.attributes+1] = {\r\n            name = n, \r\n            value = unquote(v, quoted)\r\n        }\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 18,
+    "text": "_, __, n, v, i = string.find(c, \"(\" .. token_class .. \r\n            \"+)%s*=?%s*(.-)%s*;%s*()\", i)",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "if not n or n == \"$last\" then break end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "cookie.attributes[#cookie.attributes+1] = {\r\n            name = n, \r\n            value = unquote(v, quoted)\r\n        }",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "cookie_table[#cookie_table+1] = cookie",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "local function split_set_cookie(s, cookie_table)\r\n    cookie_table = cookie_table or {}\r\n    -- remove quoted strings from cookie list\r\n    local quoted = {}\r\n    s = string.gsub(s, '\"(.-)\"', function(q)\r\n        quoted[#quoted+1] = q\r\n        return \"$\" .. #quoted\r\n    end)\r\n    -- add sentinel\r\n    s = s .. \",$last=\"\r\n    -- split into individual cookies\r\n    i = 1\r\n    while 1 do\r\n        local _, __, cookie, next_token\r\n        _, __, cookie, i, next_token = string.find(s, \"(.-)%s*%,%s*()(\" .. \r\n            token_class .. \"+)%s*=\", i)\r\n        if not next_token then break end\r\n        parse_set_cookie(cookie, quoted, cookie_table)\r\n        if next_token == \"$last\" then break end\r\n    end\r\n    return cookie_table\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "cookie_table = cookie_table or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "local quoted = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "s = string.gsub(s, '\"(.-)\"', function(q)\r\n        quoted[#quoted+1] = q\r\n        return \"$\" .. #quoted\r\n    end)",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "quoted[#quoted+1] = q",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "s = s .. \",$last=\"",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "i = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "while 1 do\r\n        local _, __, cookie, next_token\r\n        _, __, cookie, i, next_token = string.find(s, \"(.-)%s*%,%s*()(\" .. \r\n            token_class .. \"+)%s*=\", i)\r\n        if not next_token then break end\r\n        parse_set_cookie(cookie, quoted, cookie_table)\r\n        if next_token == \"$last\" then break end\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 31,
+    "text": "local _, __, cookie, next_token",
+    "type": "statement:localassign"
+  }, {
+    "id": 32,
+    "text": "_, __, cookie, i, next_token = string.find(s, \"(.-)%s*%,%s*()(\" .. \r\n            token_class .. \"+)%s*=\", i)",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "if not next_token then break end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "parse_set_cookie(cookie, quoted, cookie_table)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 35,
+    "text": "if next_token == \"$last\" then break end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "local function quote(s)\r\n    if string.find(s, \"[ %,%;]\") then return '\"' .. s .. '\"'\r\n    else return s end\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "if string.find(s, \"[ %,%;]\") then return '\"' .. s .. '\"'\r\n    else return s end",
+    "type": "statement:if"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "local function build_cookies(cookies) \r\n    s = \"\"\r\n    for i,v in ipairs(cookies or _empty) do\r\n        if v.name then\r\n            s = s .. v.name\r\n            if v.value and v.value ~= \"\" then \r\n                s = s .. '=' .. quote(v.value)\r\n            end\r\n        end\r\n        if v.name and #(v.attributes or _empty) > 0 then s = s .. \"; \"  end\r\n        for j,u in ipairs(v.attributes or _empty) do\r\n            if u.name then\r\n                s = s .. u.name\r\n                if u.value and u.value ~= \"\" then\r\n                    s = s .. '=' .. quote(u.value)\r\n                end\r\n            end\r\n            if j < #v.attributes then s = s .. \"; \"  end\r\n        end\r\n        if i < #cookies then s = s .. \", \" end\r\n    end\r\n    return s \r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "s = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "for i,v in ipairs(cookies or _empty) do\r\n        if v.name then\r\n            s = s .. v.name\r\n            if v.value and v.value ~= \"\" then \r\n                s = s .. '=' .. quote(v.value)\r\n            end\r\n        end\r\n        if v.name and #(v.attributes or _empty) > 0 then s = s .. \"; \"  end\r\n        for j,u in ipairs(v.attributes or _empty) do\r\n            if u.name then\r\n                s = s .. u.name\r\n                if u.value and u.value ~= \"\" then\r\n                    s = s .. '=' .. quote(u.value)\r\n                end\r\n            end\r\n            if j < #v.attributes then s = s .. \"; \"  end\r\n        end\r\n        if i < #cookies then s = s .. \", \" end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 43,
+    "text": "if v.name then\r\n            s = s .. v.name\r\n            if v.value and v.value ~= \"\" then \r\n                s = s .. '=' .. quote(v.value)\r\n            end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 44,
+    "text": "s = s .. v.name",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "if v.value and v.value ~= \"\" then \r\n                s = s .. '=' .. quote(v.value)\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 46,
+    "text": "s = s .. '=' .. quote(v.value)",
+    "type": "statement:assign"
+  }, {
+    "id": 47,
+    "text": "if v.name and #(v.attributes or _empty) > 0 then s = s .. \"; \"  end",
+    "type": "statement:if"
+  }, {
+    "id": 48,
+    "text": "s = s .. \"; \"",
+    "type": "statement:assign"
+  }, {
+    "id": 49,
+    "text": "for j,u in ipairs(v.attributes or _empty) do\r\n            if u.name then\r\n                s = s .. u.name\r\n                if u.value and u.value ~= \"\" then\r\n                    s = s .. '=' .. quote(u.value)\r\n                end\r\n            end\r\n            if j < #v.attributes then s = s .. \"; \"  end\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 50,
+    "text": "if u.name then\r\n                s = s .. u.name\r\n                if u.value and u.value ~= \"\" then\r\n                    s = s .. '=' .. quote(u.value)\r\n                end\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "s = s .. u.name",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "if u.value and u.value ~= \"\" then\r\n                    s = s .. '=' .. quote(u.value)\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 53,
+    "text": "s = s .. '=' .. quote(u.value)",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "if j < #v.attributes then s = s .. \"; \"  end",
+    "type": "statement:if"
+  }, {
+    "id": 55,
+    "text": "if i < #cookies then s = s .. \", \" end",
+    "type": "statement:if"
+  }, {
+    "id": 56,
+    "text": "s = s .. \", \"",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 58,
+    "text": "function(q)\r\n        quoted[#quoted+1] = q\r\n        return \"$\" .. #quoted\r\n    end",
+    "type": "function"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 61,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "match",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

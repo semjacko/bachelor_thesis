@@ -1,0 +1,413 @@
+{
+  "_filename": "iupx.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/iup-examples/examples/Lua/misc/modules/iupx.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 27,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 24,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 27,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 42
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 43
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 44,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 42
+  }, {
+    "from": 44,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "requires",
+    "to": 45
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "iupx",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "iupxpplot",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function iupx.menu(templ)\r\n\tlocal items = {}\r\n\tfor i = 1,#templ,2 do\r\n\t\tlocal label = templ[i]\r\n\t\tlocal data = templ[i+1]\r\n\t\tif type(data) == 'function' then\r\n\t\t\titem = iup.item{title = label}\r\n\t\t\titem.action = data\r\n\t\telseif type(data) == 'nil' then\r\n\t\t\titem = iup.separator{}\r\n\t\telse\r\n\t\t\titem = iup.submenu {iupx.menu(data); title = label}\r\n\t\tend\r\n\t\ttable.insert(items,item)\r\n\tend\r\n\treturn iup.menu(items)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "local items = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "for i = 1,#templ,2 do\r\n\t\tlocal label = templ[i]\r\n\t\tlocal data = templ[i+1]\r\n\t\tif type(data) == 'function' then\r\n\t\t\titem = iup.item{title = label}\r\n\t\t\titem.action = data\r\n\t\telseif type(data) == 'nil' then\r\n\t\t\titem = iup.separator{}\r\n\t\telse\r\n\t\t\titem = iup.submenu {iupx.menu(data); title = label}\r\n\t\tend\r\n\t\ttable.insert(items,item)\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 6,
+    "text": "local label = templ[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "local data = templ[i+1]",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "if type(data) == 'function' then\r\n\t\t\titem = iup.item{title = label}\r\n\t\t\titem.action = data\r\n\t\telseif type(data) == 'nil' then\r\n\t\t\titem = iup.separator{}\r\n\t\telse\r\n\t\t\titem = iup.submenu {iupx.menu(data); title = label}\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "item = iup.item{title = label}",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "item.action = data",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "item = iup.separator{}",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "item = iup.submenu {iupx.menu(data); title = label}",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "table.insert(items,item)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function iupx.show_dialog (tbl)\r\n    local dlg = iup.dialog(tbl)\r\n    dlg:show()\r\n    iup.MainLoop()\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "local dlg = iup.dialog(tbl)",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "dlg:show()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "iup.MainLoop()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function iupx.GetString (title,prompt,default)\r\n\trequire \"iupluacontrols\"\r\n\treturn iup.GetParam(title, nil,prompt..\" %s\\n\",default or \"\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "require \"iupluacontrols\"",
+    "type": "statement:functioncall"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 24,
+    "text": "function iupx.pplot (tbl)\r\n\t-- only load this functionality on demand! ---\r\n\trequire 'iupxpplot'\r\n\treturn iupxpplot.pplot(tbl)\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "require 'iupxpplot'",
+    "type": "statement:functioncall"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 28,
+    "text": "pplot",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "GetParam",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "separator",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "item",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "menu",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "dialog",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "submenu",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "MainLoop",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 42,
+    "text": "iuplua",
+    "type": "module"
+  }, {
+    "id": 43,
+    "text": "iupluacontrols",
+    "type": "module"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 45,
+    "text": "iuplua_pplot",
+    "type": "module"
+  } ]
+}

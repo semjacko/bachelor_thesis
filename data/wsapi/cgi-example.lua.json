@@ -1,0 +1,105 @@
+{
+  "_filename": "cgi-example.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/wsapi/samples/cgi-example.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "requires",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "requires",
+    "to": 10
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cgi-example",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "cgi",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "function run(app_run)\r\n   common.run(app_run, { input = io.stdin, output = io.stdout,\r\n     error = io.stderr, env = os.getenv })\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 10,
+    "text": "app",
+    "type": "module"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

@@ -1,0 +1,245 @@
+{
+  "_filename": "lua-formatter.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luapretty/src/lua-formatter.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 21
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "requires",
+    "to": 23
+  }, {
+    "from": 24,
+    "label": "requires",
+    "to": 23
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lua-formatter",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function process_text(text,template)\r\n\tlocal result,err=formatter.format_text(text,template);\r\n\tif(not result) then\r\n\t\terror(\"ERROR: \"..err);\r\n\tend\r\n\treturn result\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local result,err=formatter.format_text(text,template)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "if(not result) then\r\n\t\terror(\"ERROR: \"..err);\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "error(\"ERROR: \"..err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "local function usage_info(args)\r\n\tprint(\"\\nUsage: \"..arg[0]..\r\n[[ <input file> [<output file>] [-t <template file>] [-f]\r\n\r\nArguments:\r\n   <input file>\t\tlua source file to reformat\r\n   <output file>\ttarget file to write reformatted code. If omitted,\r\n\t\t\t\treformatted lua code is written to stdout. If target\r\n\t\t\t\tfile alerady exists, no action will be taken and a\r\n\t\t\t\twarning message will be printed to stdout (unless the\r\n\t\t\t\t-f option is present).\r\n   -t, --template\tuse the given template, defaults to \"templates.lua\"\r\n   -f, --force\t\tforce rewriting target file if it exists\r\n   ]]);\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "print(\"\\nUsage: \"..arg[0]..\r\n[[ <input file> [<output file>] [-t <template file>] [-f]\r\n\r\nArguments:\r\n   <input file>\t\tlua source file to reformat\r\n   <output file>\ttarget file to write reformatted code. If omitted,\r\n\t\t\t\treformatted lua code is written to stdout. If target\r\n\t\t\t\tfile alerady exists, no action will be taken and a\r\n\t\t\t\twarning message will be printed to stdout (unless the\r\n\t\t\t\t-f option is present).\r\n   -t, --template\tuse the given template, defaults to \"templates.lua\"\r\n   -f, --force\t\tforce rewriting target file if it exists\r\n   ]])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 12,
+    "text": "function format_text(text,template)\r\n\t-- load template!\r\n\tif(template==nil) then\r\n--~ \t\ttemplate=\"templates.lua\"\r\n\t\ttemplates = require\"luapretty.templates.default\"\r\n\telse \r\n--~ \t\tlocal mydir=debug.getinfo(1, \"S\").source:sub(2)\r\n--~ \t\tmydir=mydir:sub(1,mydir:find(\"/[^/]+$\"))\r\n\t\tlocal template_text, errmsg=loadfile(template);\r\n\t\tif(not template_text) then\r\n\t\t\t-- try to find the template file in our directory\r\n\t\t\ttemplate_text, errmsg=loadfile(template);\r\n\t\t\tif(not template_text) then\r\n\t\t\t\treturn nil,\"template file does not exist!\"\r\n\t\t\tend\r\n\t\tend\r\n\t\t\r\n\t\ttemplates = template_text();\t\r\n\tend\r\n\t\r\n\tlocal rules=leg_parser.rules\r\n\t\r\n\trules=leg_grammar.apply({COMMENT=leg_scanner.COMMENT, SPACE=leg_scanner.SPACE},rules)\r\n\t-- CAPTURES!\r\n\tlocal captures_tbl={}\r\n\t\r\n\tprepare_grammar(rules)\r\n\trules['IGNORED']=lpeg.C((lpeg.V'SPACE' + lpeg.V'COMMENT')^0)\r\n\tprepare_captures(rules,captures_tbl)\r\n\r\n\tlocal grammar_with_captures=leg_grammar.apply(rules,nil,captures_tbl)\r\n\t\r\n\tlocal result=lpeg.match(grammar_with_captures,text)\r\n\treturn assemble_table(result), result\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "get_opts",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 21,
+    "text": "formatter)",
+    "type": "module"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 23,
+    "text": "(alt_getopt)",
+    "type": "module"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

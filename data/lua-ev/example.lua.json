@@ -1,0 +1,321 @@
+{
+  "_filename": "example.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-ev/example.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "requires",
+    "to": 24
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "example",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function build_timer(loop, number, interval)\r\n    local i = 0\r\n    local function callback(loop, timer_event)\r\n        print(os.date(), \"CB \" .. tostring(number), \"interval: \" .. interval)\r\n        i = i + interval\r\n        if i >= 10 then\r\n            timer_event:stop(loop)\r\n        end\r\n    end\r\n    local timer = ev.Timer.new(callback, interval, interval)\r\n    timer:start(loop)\r\n    return timer\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local i = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local function callback(loop, timer_event)\r\n        print(os.date(), \"CB \" .. tostring(number), \"interval: \" .. interval)\r\n        i = i + interval\r\n        if i >= 10 then\r\n            timer_event:stop(loop)\r\n        end\r\n    end",
+    "type": "statement:localfunction"
+  }, {
+    "id": 5,
+    "text": "print(os.date(), \"CB \" .. tostring(number), \"interval: \" .. interval)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "i = i + interval",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "if i >= 10 then\r\n            timer_event:stop(loop)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "timer_event:stop(loop)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "local timer = ev.Timer.new(callback, interval, interval)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "timer:start(loop)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "local function callback(loop, timer_event)\r\n        print(os.date(), \"CB \" .. tostring(number), \"interval: \" .. interval)\r\n        i = i + interval\r\n        if i >= 10 then\r\n            timer_event:stop(loop)\r\n        end\r\n    end",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function build_all_timers(loop, idol_event)\r\n    -- We have \"bootstapped\" into the event loop and therefore do not\r\n    -- care about having this function execute when the event loop is\r\n    -- idol:\r\n    idol_event:stop(loop)\r\n\r\n    print(\"Run build_all_timers callback\")\r\n    build_timer(loop, 1, 5.0)\r\n    -- By making the 2 second timer a higher priority than the 0.5\r\n    -- second timer, we should see the 0.5 timer execute 3 times\r\n    -- before the 2.0 timer goes off insead of seeing it execute 4\r\n    -- times.\r\n    build_timer(loop, 2, 2.0):priority(ev.MAXPRI)\r\n    build_timer(loop, 3, 0.5)\r\n    build_timer(loop, 4, 10.0)\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "idol_event:stop(loop)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "print(\"Run build_all_timers callback\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "build_timer(loop, 1, 5.0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "build_timer(loop, 2, 2.0):priority(ev.MAXPRI)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "build_timer(loop, 3, 0.5)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "build_timer(loop, 4, 10.0)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 24,
+    "text": "ev",
+    "type": "module"
+  }, {
+    "id": 25,
+    "text": "Timer.new",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "Idle.new",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "date",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

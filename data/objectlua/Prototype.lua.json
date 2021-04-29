@@ -1,0 +1,545 @@
+{
+  "_filename": "Prototype.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/objectlua/src/objectlua/Prototype.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 39,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 33,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 48,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 49
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 50
+  }, {
+    "from": 49,
+    "label": "initializes",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "assigns",
+    "to": 52
+  }, {
+    "from": 49,
+    "label": "initializes",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "assigns",
+    "to": 54
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 55
+  }, {
+    "from": 51,
+    "label": "represents",
+    "to": 56
+  }, {
+    "from": 55,
+    "label": "provides",
+    "to": 56
+  }, {
+    "from": 57,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "Prototype",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function __getSuper__(parent, symbol)\r\n    return function(...)\r\n               return parent[symbol](...)\r\n           end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "local function __addSuper__(parent, symbol, method)\r\n    local fenv = getfenv(method)\r\n    setfenv(method, setmetatable({super = __getSuper__(parent, symbol)},\r\n                                 {__index = fenv, __newindex = fenv}))\r\n    return method\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "local fenv = getfenv(method)",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "setfenv(method, setmetatable({super = __getSuper__(parent, symbol)},\r\n                                 {__index = fenv, __newindex = fenv}))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "local function __newindex__(table, key, value)\r\n    local proto = table.__prototype__\r\n    if nil ~= proto and 'function' == type(value) then\r\n        value = __addSuper__(proto, key, value)\r\n    end\r\n   rawset(table, key, value)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local proto = table.__prototype__",
+    "type": "statement:localassign"
+  }, {
+    "id": 11,
+    "text": "if nil ~= proto and 'function' == type(value) then\r\n        value = __addSuper__(proto, key, value)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "value = __addSuper__(proto, key, value)",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "rawset(table, key, value)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "local function __delegated__(self)\r\n    local t = setmetatable({}, self)\r\n    rawset(t, '__prototype__', self)\r\n    rawset(t, '__index', t)\r\n    rawset(t, '__newindex', __newindex__)\r\n    return t\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "local t = setmetatable({}, self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "rawset(t, '__prototype__', self)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "rawset(t, '__index', t)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "rawset(t, '__newindex', __newindex__)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function Prototype:initialize()\r\n    -- Override to suit your needs\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function Prototype:prototype()\r\n    return self.__prototype__\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function Prototype:spawn(...)\r\n    local t = self:delegated()\r\n    t:initialize(...)\r\n    return t\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "local t = self:delegated()",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "t:initialize(...)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "function Prototype:delegatesTo(object)\r\n    if self.__prototype__ == object then\r\n        return true\r\n    end\r\n    if nil == self.__prototype__ or nil == object then\r\n        return false\r\n    end\r\n\r\n    return self.__prototype__:delegatesTo(object)\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "if self.__prototype__ == object then\r\n        return true\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "if nil == self.__prototype__ or nil == object then\r\n        return false\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "function Prototype:clone()\r\n    local t = self:delegated()\r\n    for k, v in pairs(self) do\r\n        t[k] = v\r\n    end\r\n    return t\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "for k, v in pairs(self) do\r\n        t[k] = v\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 35,
+    "text": "t[k] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "function(...)\r\n               return parent[symbol](...)\r\n           end",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 40,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "parent[symbol]",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "rawset",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "setfenv",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "getfenv",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

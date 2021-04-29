@@ -1,0 +1,93 @@
+{
+  "_filename": "test_register_llthreads.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-llthreads2-compat/llthreads2/test/test_register_llthreads.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "initializes",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "assigns",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test_register_llthreads",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "llthreads",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

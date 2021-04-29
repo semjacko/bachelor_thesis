@@ -1,0 +1,1197 @@
+{
+  "_filename": "new_version.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/new_version.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 77,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 87,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 95,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 96
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 106
+  }, {
+    "from": 95,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 95,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 95,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 95,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 95,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 95,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 95,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 95,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 95
+  }, {
+    "from": 95,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 95,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 95,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 95,
+    "label": "declares",
+    "to": 61
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 116
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 117
+  }, {
+    "from": 116,
+    "label": "initializes",
+    "to": 118
+  }, {
+    "from": 116,
+    "label": "initializes",
+    "to": 119
+  }, {
+    "from": 116,
+    "label": "initializes",
+    "to": 120
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 121
+  }, {
+    "from": 121,
+    "label": "requires",
+    "to": 109
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 122
+  }, {
+    "from": 122,
+    "label": "requires",
+    "to": 108
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 123
+  }, {
+    "from": 123,
+    "label": "requires",
+    "to": 115
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 124
+  }, {
+    "from": 124,
+    "label": "requires",
+    "to": 110
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 125
+  }, {
+    "from": 125,
+    "label": "requires",
+    "to": 113
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 126
+  }, {
+    "from": 126,
+    "label": "requires",
+    "to": 111
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 127
+  }, {
+    "from": 127,
+    "label": "requires",
+    "to": 112
+  }, {
+    "from": 117,
+    "label": "initializes",
+    "to": 128
+  }, {
+    "from": 128,
+    "label": "requires",
+    "to": 114
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "new_version",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function fetch_url_at_temp_dir(url, tmpname, filename)\r\n   assert(type(url) == \"string\")\r\n   assert(type(tmpname) == \"string\")\r\n   assert(type(filename) == \"string\" or not filename)\r\n   filename = filename or dir.base_name(url)\r\n\r\n   local protocol, pathname = dir.split_url(url)\r\n   if protocol == \"file\" then\r\n      if fs.exists(pathname) then\r\n         return pathname, dir.dir_name(fs.absolute_name(pathname))\r\n      else\r\n         return nil, \"File not found: \"..pathname\r\n      end\r\n   else\r\n      local temp_dir, err = fs.make_temp_dir(tmpname)\r\n      if not temp_dir then\r\n         return nil, \"Failed creating temporary directory \"..tmpname..\": \"..err\r\n      end\r\n      util.schedule_function(fs.delete, temp_dir)\r\n      local ok, err = fs.change_dir(temp_dir)\r\n      if not ok then return nil, err end\r\n      local file, err, errcode = fetch_url(url, filename)\r\n      fs.pop_dir()\r\n      if not file then\r\n         return nil, \"Error fetching file: \"..err, errcode\r\n      end\r\n      return file, temp_dir\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function url_to_base_dir(url)\r\n   local base = dir.base_name(url)\r\n   return base:gsub(\"%.[^.]*$\", \"\"):gsub(\"%.tar$\", \"\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function load_local_rockspec(filename, quick)\r\n   assert(type(filename) == \"string\")\r\n   filename = fs.absolute_name(filename)\r\n   local rockspec, err = persist.load_into_table(filename)\r\n   if not rockspec then\r\n      return nil, \"Could not load rockspec file \"..filename..\" (\"..err..\")\"\r\n   end\r\n\r\n   local ok, err = true, nil\r\n   if not quick then\r\n      ok, err = type_check.type_check_rockspec(rockspec)\r\n      if not ok then\r\n         return nil, filename..\": \"..err\r\n      end\r\n   end\r\n   \r\n   if rockspec.rockspec_format then\r\n      if deps.compare_versions(rockspec.rockspec_format, type_check.rockspec_format) then\r\n         return nil, \"Rockspec format \"..rockspec.rockspec_format..\" is not supported, please upgrade LuaRocks.\"\r\n      end\r\n   end\r\n\r\n   util.platform_overrides(rockspec.build)\r\n   util.platform_overrides(rockspec.dependencies)\r\n   util.platform_overrides(rockspec.external_dependencies)\r\n   util.platform_overrides(rockspec.source)\r\n   util.platform_overrides(rockspec.hooks)\r\n\r\n   local basename = dir.base_name(filename)\r\n   if basename == \"rockspec\" then\r\n      rockspec.name = rockspec.package:lower()\r\n   else\r\n      rockspec.name = basename:match(\"(.*)-[^-]*-[0-9]*\")\r\n      if not rockspec.name then\r\n         return nil, \"Expected filename in format 'name-version-revision.rockspec'.\"\r\n      end\r\n   end\r\n\r\n   local protocol, pathname = dir.split_url(rockspec.source.url)\r\n   if is_basic_protocol(protocol) then\r\n      rockspec.source.file = rockspec.source.file or dir.base_name(rockspec.source.url)\r\n   end\r\n   rockspec.source.protocol, rockspec.source.pathname = protocol, pathname\r\n\r\n   -- Temporary compatibility\r\n   if rockspec.source.cvs_module then rockspec.source.module = rockspec.source.cvs_module end\r\n   if rockspec.source.cvs_tag then rockspec.source.tag = rockspec.source.cvs_tag end\r\n\r\n   local name_version = rockspec.package:lower() .. \"-\" .. rockspec.version\r\n   if basename ~= \"rockspec\" and basename ~= name_version .. \".rockspec\" then\r\n      return nil, \"Inconsistency between rockspec filename (\"..basename..\") and its contents (\"..name_version..\".rockspec).\"\r\n   end\r\n\r\n   rockspec.local_filename = filename\r\n   local filebase = rockspec.source.file or rockspec.source.url\r\n   local base = url_to_base_dir(filebase)\r\n   rockspec.source.dir = rockspec.source.dir\r\n                      or rockspec.source.module\r\n                      or ((filebase:match(\".lua$\") or filebase:match(\".c$\")) and \".\")\r\n                      or base\r\n   if rockspec.dependencies then\r\n      for i = 1, #rockspec.dependencies do\r\n         local parsed, err = deps.parse_dep(rockspec.dependencies[i])\r\n         if not parsed then\r\n            return nil, \"Parse error processing dependency '\"..rockspec.dependencies[i]..\"': \"..tostring(err)\r\n         end\r\n         rockspec.dependencies[i] = parsed\r\n      end\r\n   else\r\n      rockspec.dependencies = {}\r\n   end\r\n   if not quick then\r\n      path.configure_paths(rockspec)\r\n   end\r\n\r\n   return rockspec\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function load_rockspec(filename, location)\r\n   assert(type(filename) == \"string\")\r\n\r\n   local name\r\n   local basename = dir.base_name(filename)\r\n   if basename == \"rockspec\" then\r\n      name = \"rockspec\"\r\n   else\r\n      name = basename:match(\"(.*)%.rockspec\")\r\n      if not name then\r\n         return nil, \"Filename '\"..filename..\"' does not look like a rockspec.\"\r\n      end\r\n   end\r\n   \r\n   local err, errcode\r\n   if location then\r\n      local ok, err = fs.change_dir(location)\r\n      if not ok then return nil, err end\r\n      filename, err = fetch_url(filename)\r\n      fs.pop_dir()\r\n   else\r\n      filename, err, errcode = fetch_url_at_temp_dir(filename,\"luarocks-rockspec-\"..name)\r\n   end\r\n   if not filename then\r\n      return nil, err, errcode\r\n   end\r\n\r\n   return load_local_rockspec(filename)\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function change_dir(d)\r\n   table.insert(dir_stack, lfs.currentdir())\r\n   d = dir.normalize(d)\r\n   return lfs.chdir(d)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function pop_dir()\r\n   local d = table.remove(dir_stack)\r\n   if d then\r\n      lfs.chdir(d)\r\n      return true\r\n   else\r\n      return false\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function list_dir(at)\r\n   assert(type(at) == \"string\" or not at)\r\n   if not at then\r\n      at = fs.current_dir()\r\n   end\r\n   at = dir.normalize(at)\r\n   if not fs.is_dir(at) then\r\n      return {}\r\n   end\r\n   local result = {}\r\n   for file in lfs.dir(at) do\r\n      if file ~= \".\" and file ~= \"..\" then\r\n         table.insert(result, file)\r\n      end\r\n   end\r\n   return result\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function exists(file)\r\n   assert(file)\r\n   file = dir.normalize(file)\r\n   return type(lfs.attributes(file)) == \"table\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function is_dir(file)\r\n   assert(file)\r\n   file = dir.normalize(file)\r\n   return lfs.attributes(file, \"mode\") == \"directory\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function download(url, filename, cache)\r\n   assert(type(url) == \"string\")\r\n   assert(type(filename) == \"string\" or not filename)\r\n\r\n   filename = fs.absolute_name(filename or dir.base_name(url))\r\n   \r\n   local content, err\r\n   if util.starts_with(url, \"http:\") then\r\n      content, err = http_request(url, http, cache and filename)\r\n   elseif util.starts_with(url, \"ftp:\") then\r\n      content, err = ftp.get(url)\r\n   elseif util.starts_with(url, \"https:\") then\r\n      if luasec_ok then\r\n         content, err = http_request(url, https, cache and filename)\r\n      else\r\n         err = \"Unsupported protocol - install luasec to get HTTPS support.\"\r\n      end\r\n   else\r\n      err = \"Unsupported protocol\"\r\n   end\r\n   if cache and content == true then\r\n      return true, filename\r\n   end\r\n   if not content then\r\n      return false, tostring(err)\r\n   end\r\n   local file = io.open(filename, \"wb\")\r\n   if not file then return false end\r\n   file:write(content)\r\n   file:close()\r\n   return true, filename\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function get_md5(file)\r\n   file = fs.absolute_name(file)\r\n   local file = io.open(file, \"rb\")\r\n   if not file then return nil, \"Failed to open file for reading: \"..file end\r\n   local computed = md5.sumhexa(file:read(\"*a\"))\r\n   file:close()\r\n   if computed then return computed end\r\n   return nil, \"Failed to compute MD5 hash for file \"..file\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "local function try_replace(tbl, field, old, new)\r\n   if not tbl[field] then\r\n      return false\r\n   end\r\n   local old_field = tbl[field]\r\n   local new_field = tbl[field]:gsub(old, new)\r\n   if new_field ~= old_field then\r\n      util.printout(\"Guessing new '\"..field..\"' field as \"..new_field)\r\n      tbl[field] = new_field\r\n      return true      \r\n   end\r\n   return false\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "if not tbl[field] then\r\n      return false\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 16,
+    "text": "local old_field = tbl[field]",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "local new_field = tbl[field]:gsub(old, new)",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "if new_field ~= old_field then\r\n      util.printout(\"Guessing new '\"..field..\"' field as \"..new_field)\r\n      tbl[field] = new_field\r\n      return true      \r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "util.printout(\"Guessing new '\"..field..\"' field as \"..new_field)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "tbl[field] = new_field",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "local function check_url_and_update_md5(out_rs, out_name)\r\n   local old_md5 = out_rs.source.md5\r\n   out_rs.source.md5 = nil\r\n   local file, temp_dir = fetch.fetch_url_at_temp_dir(out_rs.source.url, \"luarocks-new-version-\"..out_name)\r\n   if not file then\r\n      util.printerr(\"Warning: invalid URL - \"..temp_dir)\r\n      return true\r\n   end\r\n   util.printout(\"File successfully downloaded. Updating MD5 checksum...\")\r\n   out_rs.source.md5 = fs.get_md5(file)\r\n   local ok, err = fs.change_dir(temp_dir)\r\n   if not ok then return nil, err end\r\n   fs.unpack_archive(file)\r\n   local base_dir = out_rs.source.dir or fetch.url_to_base_dir(out_rs.source.url)\r\n   if not fs.exists(base_dir) then\r\n      util.printerr(\"Directory \"..base_dir..\" not found\")\r\n      local files = fs.list_dir()\r\n      if files[1] and fs.is_dir(files[1]) then\r\n         util.printerr(\"Found \"..files[1])\r\n         out_rs.source.dir = files[1]\r\n      end\r\n   end\r\n   fs.pop_dir()\r\n   return out_rs.source.md5 ~= old_md5\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "local old_md5 = out_rs.source.md5",
+    "type": "statement:localassign"
+  }, {
+    "id": 24,
+    "text": "out_rs.source.md5 = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "local file, temp_dir = fetch.fetch_url_at_temp_dir(out_rs.source.url, \"luarocks-new-version-\"..out_name)",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if not file then\r\n      util.printerr(\"Warning: invalid URL - \"..temp_dir)\r\n      return true\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "util.printerr(\"Warning: invalid URL - \"..temp_dir)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "util.printout(\"File successfully downloaded. Updating MD5 checksum...\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "out_rs.source.md5 = fs.get_md5(file)",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "local ok, err = fs.change_dir(temp_dir)",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "if not ok then return nil, err end",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "fs.unpack_archive(file)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 33,
+    "text": "local base_dir = out_rs.source.dir or fetch.url_to_base_dir(out_rs.source.url)",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "if not fs.exists(base_dir) then\r\n      util.printerr(\"Directory \"..base_dir..\" not found\")\r\n      local files = fs.list_dir()\r\n      if files[1] and fs.is_dir(files[1]) then\r\n         util.printerr(\"Found \"..files[1])\r\n         out_rs.source.dir = files[1]\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "util.printerr(\"Directory \"..base_dir..\" not found\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 36,
+    "text": "local files = fs.list_dir()",
+    "type": "statement:localassign"
+  }, {
+    "id": 37,
+    "text": "if files[1] and fs.is_dir(files[1]) then\r\n         util.printerr(\"Found \"..files[1])\r\n         out_rs.source.dir = files[1]\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "util.printerr(\"Found \"..files[1])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 39,
+    "text": "out_rs.source.dir = files[1]",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "fs.pop_dir()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "local function update_source_section(out_rs, out_name, url, old_ver, new_ver)\r\n   if url then\r\n      out_rs.source.url = url\r\n      check_url_and_update_md5(out_rs, out_name)\r\n      return true\r\n   end\r\n   if new_ver == old_ver then\r\n      return true\r\n   end\r\n   if not out_rs.source then\r\n      return nil, \"'source' table is missing. Invalid rockspec?\"\r\n   end\r\n   if out_rs.source.dir then\r\n      try_replace(out_rs.source, \"dir\", old_ver, new_ver)\r\n   end\r\n   if out_rs.source.file then\r\n      try_replace(out_rs.source, \"file\", old_ver, new_ver)\r\n   end\r\n   local ok = try_replace(out_rs.source, \"url\", old_ver, new_ver)\r\n   if ok then\r\n      check_url_and_update_md5(out_rs, out_name)\r\n      return true\r\n   end\r\n   ok = try_replace(out_rs.source, \"tag\", old_ver, new_ver)\r\n   if not ok then\r\n      ok = check_url_and_update_md5(out_rs, out_name)\r\n      if ok then\r\n         util.printerr(\"Warning: URL is the same, but MD5 has changed. Old rockspec is broken.\")\r\n      end\r\n   end\r\n   if not ok then\r\n      return nil, \"Failed to determine the location of the new version.\"\r\n   end\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "if url then\r\n      out_rs.source.url = url\r\n      check_url_and_update_md5(out_rs, out_name)\r\n      return true\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 44,
+    "text": "out_rs.source.url = url",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "check_url_and_update_md5(out_rs, out_name)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 46,
+    "text": "if new_ver == old_ver then\r\n      return true\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 47,
+    "text": "if not out_rs.source then\r\n      return nil, \"'source' table is missing. Invalid rockspec?\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 48,
+    "text": "if out_rs.source.dir then\r\n      try_replace(out_rs.source, \"dir\", old_ver, new_ver)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 49,
+    "text": "try_replace(out_rs.source, \"dir\", old_ver, new_ver)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 50,
+    "text": "if out_rs.source.file then\r\n      try_replace(out_rs.source, \"file\", old_ver, new_ver)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 51,
+    "text": "try_replace(out_rs.source, \"file\", old_ver, new_ver)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 52,
+    "text": "local ok = try_replace(out_rs.source, \"url\", old_ver, new_ver)",
+    "type": "statement:localassign"
+  }, {
+    "id": 53,
+    "text": "if ok then\r\n      check_url_and_update_md5(out_rs, out_name)\r\n      return true\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 54,
+    "text": "ok = try_replace(out_rs.source, \"tag\", old_ver, new_ver)",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "if not ok then\r\n      ok = check_url_and_update_md5(out_rs, out_name)\r\n      if ok then\r\n         util.printerr(\"Warning: URL is the same, but MD5 has changed. Old rockspec is broken.\")\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 56,
+    "text": "ok = check_url_and_update_md5(out_rs, out_name)",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "if ok then\r\n         util.printerr(\"Warning: URL is the same, but MD5 has changed. Old rockspec is broken.\")\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 58,
+    "text": "util.printerr(\"Warning: URL is the same, but MD5 has changed. Old rockspec is broken.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 59,
+    "text": "if not ok then\r\n      return nil, \"Failed to determine the location of the new version.\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 61,
+    "text": "function run(...)\r\n   local flags, input, version, url = util.parse_flags(...)\r\n   if not input then\r\n      return nil, \"Missing arguments: expected program or rockspec. \"..util.see_help(\"new_version\")\r\n   end\r\n   assert(type(input) == \"string\")\r\n   \r\n   local filename = input\r\n   if not input:match(\".rockspec$\") then\r\n      local err\r\n      filename, err = download.download(\"rockspec\", input)\r\n      if not filename then\r\n         return nil, err\r\n      end\r\n   end\r\n   \r\n   local valid_rs, err = fetch.load_rockspec(filename)\r\n   if not valid_rs then\r\n      return nil, err\r\n   end\r\n\r\n   local old_ver, old_rev = valid_rs.version:match(\"(.*)%-(%d+)$\")\r\n   local new_ver, new_rev\r\n   \r\n   if version then\r\n      new_ver, new_rev = version:match(\"(.*)%-(%d+)$\")\r\n      new_rev = tonumber(new_rev)\r\n      if not new_rev then\r\n         new_ver = version\r\n         new_rev = 1\r\n      end\r\n   else\r\n      new_ver = old_ver\r\n      new_rev = tonumber(old_rev) + 1\r\n   end\r\n   local new_rockver = new_ver:gsub(\"-\", \"\")\r\n   \r\n   local out_rs = persist.load_into_table(filename)\r\n   local out_name = out_rs.package:lower()\r\n   out_rs.version = new_rockver..\"-\"..new_rev\r\n\r\n   local ok, err = update_source_section(out_rs, out_name, url, old_ver, new_ver)\r\n   if not ok then return nil, err end\r\n\r\n   if out_rs.build and out_rs.build.type == \"module\" then\r\n      out_rs.build.type = \"builtin\"\r\n   end\r\n   \r\n   local out_filename = out_name..\"-\"..new_rockver..\"-\"..new_rev..\".rockspec\"\r\n   \r\n   persist.save_from_table(out_filename, out_rs, type_check.rockspec_order)\r\n   \r\n   util.printout(\"Wrote \"..out_filename)\r\n\r\n   local valid_out_rs, err = fetch.load_local_rockspec(out_filename)\r\n   if not valid_out_rs then\r\n      return nil, \"Failed loading generated rockspec: \"..err\r\n   end\r\n   \r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 62,
+    "text": "local flags, input, version, url = util.parse_flags(...)",
+    "type": "statement:localassign"
+  }, {
+    "id": 63,
+    "text": "if not input then\r\n      return nil, \"Missing arguments: expected program or rockspec. \"..util.see_help(\"new_version\")\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 64,
+    "text": "assert(type(input) == \"string\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 65,
+    "text": "local filename = input",
+    "type": "statement:localassign"
+  }, {
+    "id": 66,
+    "text": "if not input:match(\".rockspec$\") then\r\n      local err\r\n      filename, err = download.download(\"rockspec\", input)\r\n      if not filename then\r\n         return nil, err\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 67,
+    "text": "local err",
+    "type": "statement:localassign"
+  }, {
+    "id": 68,
+    "text": "filename, err = download.download(\"rockspec\", input)",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "if not filename then\r\n         return nil, err\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 70,
+    "text": "local valid_rs, err = fetch.load_rockspec(filename)",
+    "type": "statement:localassign"
+  }, {
+    "id": 71,
+    "text": "if not valid_rs then\r\n      return nil, err\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 72,
+    "text": "local old_ver, old_rev = valid_rs.version:match(\"(.*)%-(%d+)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 73,
+    "text": "local new_ver, new_rev",
+    "type": "statement:localassign"
+  }, {
+    "id": 74,
+    "text": "if version then\r\n      new_ver, new_rev = version:match(\"(.*)%-(%d+)$\")\r\n      new_rev = tonumber(new_rev)\r\n      if not new_rev then\r\n         new_ver = version\r\n         new_rev = 1\r\n      end\r\n   else\r\n      new_ver = old_ver\r\n      new_rev = tonumber(old_rev) + 1\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 75,
+    "text": "new_ver, new_rev = version:match(\"(.*)%-(%d+)$\")",
+    "type": "statement:assign"
+  }, {
+    "id": 76,
+    "text": "new_rev = tonumber(new_rev)",
+    "type": "statement:assign"
+  }, {
+    "id": 77,
+    "text": "if not new_rev then\r\n         new_ver = version\r\n         new_rev = 1\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 78,
+    "text": "new_ver = version",
+    "type": "statement:assign"
+  }, {
+    "id": 79,
+    "text": "new_rev = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 80,
+    "text": "new_ver = old_ver",
+    "type": "statement:assign"
+  }, {
+    "id": 81,
+    "text": "new_rev = tonumber(old_rev) + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 82,
+    "text": "local new_rockver = new_ver:gsub(\"-\", \"\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 83,
+    "text": "local out_rs = persist.load_into_table(filename)",
+    "type": "statement:localassign"
+  }, {
+    "id": 84,
+    "text": "local out_name = out_rs.package:lower()",
+    "type": "statement:localassign"
+  }, {
+    "id": 85,
+    "text": "out_rs.version = new_rockver..\"-\"..new_rev",
+    "type": "statement:assign"
+  }, {
+    "id": 86,
+    "text": "local ok, err = update_source_section(out_rs, out_name, url, old_ver, new_ver)",
+    "type": "statement:localassign"
+  }, {
+    "id": 87,
+    "text": "if out_rs.build and out_rs.build.type == \"module\" then\r\n      out_rs.build.type = \"builtin\"\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 88,
+    "text": "out_rs.build.type = \"builtin\"",
+    "type": "statement:assign"
+  }, {
+    "id": 89,
+    "text": "local out_filename = out_name..\"-\"..new_rockver..\"-\"..new_rev..\".rockspec\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 90,
+    "text": "persist.save_from_table(out_filename, out_rs, type_check.rockspec_order)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 91,
+    "text": "util.printout(\"Wrote \"..out_filename)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 92,
+    "text": "local valid_out_rs, err = fetch.load_local_rockspec(out_filename)",
+    "type": "statement:localassign"
+  }, {
+    "id": 93,
+    "text": "if not valid_out_rs then\r\n      return nil, \"Failed loading generated rockspec: \"..err\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 96,
+    "text": "function load_into_table(filename, tbl)\r\n   assert(type(filename) == \"string\")\r\n   assert(type(tbl) == \"table\" or not tbl)\r\n\r\n   local result, chunk, ran, err\r\n   local result = tbl or {}\r\n   if _VERSION == \"Lua 5.1\" then -- Lua 5.1\r\n      chunk, err = loadfile(filename)\r\n      if chunk then\r\n         setfenv(chunk, result)\r\n         ran, err = pcall(chunk)\r\n      end\r\n   else -- Lua 5.2\r\n      chunk, err = loadfile(filename, \"t\", result)\r\n      if chunk then\r\n         ran, err = pcall(chunk)\r\n      end\r\n   end\r\n   \r\n   if not chunk then\r\n      if err:sub(1,5) ~= filename:sub(1,5) then\r\n         return false, err\r\n      end\r\n      return nil, \"Error loading file: \"..err\r\n   end\r\n   if not ran then\r\n      return nil, \"Error running file: \"..err\r\n   end\r\n   return result\r\nend",
+    "type": "function"
+  }, {
+    "id": 97,
+    "text": "function save_from_table(filename, tbl, field_order)\r\n   local out = io.open(filename, \"w\")\r\n   if not out then\r\n      return nil, \"Cannot create file at \"..filename\r\n   end\r\n   write_table(out, tbl, field_order)\r\n   out:close()\r\n   return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 98,
+    "text": "function parse_flags(...)\r\n   local args = {...}\r\n   local flags = {}\r\n   for i = #args, 1, -1 do\r\n      local flag = args[i]:match(\"^%-%-(.*)\")\r\n      if flag then\r\n         local var,val = flag:match(\"([a-z_%-]*)=(.*)\")\r\n         if val then\r\n            flags[var] = val\r\n         else\r\n            flags[flag] = true\r\n         end\r\n         table.remove(args, i)\r\n      end\r\n   end\r\n   return flags, unpack(args)\r\nend",
+    "type": "function"
+  }, {
+    "id": 99,
+    "text": "function printout(...)\r\n   io.stdout:write(table.concat({...},\"\\t\"))\r\n   io.stdout:write(\"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 100,
+    "text": "function printerr(...)\r\n   io.stderr:write(table.concat({...},\"\\t\"))\r\n   io.stderr:write(\"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 101,
+    "text": "function see_help(command, program)\r\n   return \"See '\"..this_program(program or \"luarocks\")..' help '..command..\"'.\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 102,
+    "text": "unpack_archive",
+    "type": "global function"
+  }, {
+    "id": 103,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 105,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 106,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 107,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 108,
+    "text": "cfg)",
+    "type": "module"
+  }, {
+    "id": 109,
+    "text": "util)",
+    "type": "module"
+  }, {
+    "id": 110,
+    "text": "fetch)",
+    "type": "module"
+  }, {
+    "id": 111,
+    "text": "dir)",
+    "type": "module"
+  }, {
+    "id": 112,
+    "text": "fs)",
+    "type": "module"
+  }, {
+    "id": 113,
+    "text": "persist)",
+    "type": "module"
+  }, {
+    "id": 114,
+    "text": "type_check)",
+    "type": "module"
+  }, {
+    "id": 115,
+    "text": "download)",
+    "type": "module"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 128,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

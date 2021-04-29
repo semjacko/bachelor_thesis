@@ -1,0 +1,477 @@
+{
+  "_filename": "JSON.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-spore/src/Spore/Middleware/Format/JSON.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 29,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 32
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 29,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "assigns",
+    "to": 42
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "assigns",
+    "to": 44
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "assigns",
+    "to": 46
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "requires",
+    "to": 31
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 50
+  }, {
+    "from": 38,
+    "label": "represents",
+    "to": 51
+  }, {
+    "from": 50,
+    "label": "provides",
+    "to": 51
+  }, {
+    "from": 45,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 45,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 45,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 45,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 45,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 45,
+    "label": "contains",
+    "to": 30
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "JSON",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "Spore",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function m.new_from_discovery (api, opts)\r\n    opts = opts or {}\r\n    checktype('new_from_discovery', 2, opts, 'table')\r\n    if type(api) == 'string' then\r\n        local content = slurp(api)\r\n        return new_from_lua(convert(decode(content)), opts)\r\n    end\r\n    if type(api) == 'table' then\r\n        local discovery = new_from_lua {\r\n            base_url = 'https://www.googleapis.com/discovery/v1/',\r\n            methods = {\r\n                get = {\r\n                    path = 'apis/:api/:version/rest',\r\n                    method = 'GET',\r\n                    required_params = { 'api', 'version' },\r\n                    expected_status = { 200 },\r\n                },\r\n            },\r\n        }\r\n        discovery:enable 'Format.JSON'\r\n        local r = discovery:get(api)\r\n        return new_from_lua(convert(r.body), opts)\r\n    end\r\n    error(\"bad argument #1 to new_from_discovery (string or table expected, got \"\r\n          .. type(api) .. \")\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function m.generate_nonce ()\r\n    return format('%08x', time())\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function m.generate_timestamp ()\r\n    return tostring(time())\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function m.generate_nonce ()\r\n    return digest('sha1', tostring(random()) .. 'random' .. tostring(time()), 'keyyyy')\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function m.reset ()\r\n    collectgarbage 'collect'\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function m:call (req)\r\n    local spore = req.env.spore\r\n    if spore.payload and type(spore.payload) == 'table' then\r\n        spore.payload = json.encode(spore.payload)\r\n        req.headers['content-type'] = 'application/json'\r\n    end\r\n    req.headers['accept'] = 'application/json'\r\n    return  function (res)\r\n                if type(res.body) == 'string' and res.body:match'%S' then\r\n                    local r, msg = pcall(function ()\r\n                        res.body = json.decode(res.body)\r\n                    end)\r\n                    if not r then\r\n                        if spore.errors then\r\n                            spore.errors:write(msg, \"\\n\")\r\n                            spore.errors:write(res.body, \"\\n\")\r\n                        end\r\n                        if res.status == 200 then\r\n                            raises(res, msg)\r\n                        end\r\n                    end\r\n                end\r\n                return res\r\n            end\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local spore = req.env.spore",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "if spore.payload and type(spore.payload) == 'table' then\r\n        spore.payload = json.encode(spore.payload)\r\n        req.headers['content-type'] = 'application/json'\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 11,
+    "text": "spore.payload = json.encode(spore.payload)",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "req.headers['content-type'] = 'application/json'",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "req.headers['accept'] = 'application/json'",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 15,
+    "text": "if type(res.body) == 'string' and res.body:match'%S' then\r\n                    local r, msg = pcall(function ()\r\n                        res.body = json.decode(res.body)\r\n                    end)\r\n                    if not r then\r\n                        if spore.errors then\r\n                            spore.errors:write(msg, \"\\n\")\r\n                            spore.errors:write(res.body, \"\\n\")\r\n                        end\r\n                        if res.status == 200 then\r\n                            raises(res, msg)\r\n                        end\r\n                    end\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "local r, msg = pcall(function ()\r\n                        res.body = json.decode(res.body)\r\n                    end)",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "res.body = json.decode(res.body)",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "if not r then\r\n                        if spore.errors then\r\n                            spore.errors:write(msg, \"\\n\")\r\n                            spore.errors:write(res.body, \"\\n\")\r\n                        end\r\n                        if res.status == 200 then\r\n                            raises(res, msg)\r\n                        end\r\n                    end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "if spore.errors then\r\n                            spore.errors:write(msg, \"\\n\")\r\n                            spore.errors:write(res.body, \"\\n\")\r\n                        end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "spore.errors:write(msg, \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "spore.errors:write(res.body, \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "if res.status == 200 then\r\n                            raises(res, msg)\r\n                        end",
+    "type": "statement:if"
+  }, {
+    "id": 23,
+    "text": "raises(res, msg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function ()\r\n                        res.body = json.decode(res.body)\r\n                    end",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function (res)\r\n                if type(res.body) == 'string' and res.body:match'%S' then\r\n                    local r, msg = pcall(function ()\r\n                        res.body = json.decode(res.body)\r\n                    end)\r\n                    if not r then\r\n                        if spore.errors then\r\n                            spore.errors:write(msg, \"\\n\")\r\n                            spore.errors:write(res.body, \"\\n\")\r\n                        end\r\n                        if res.status == 200 then\r\n                            raises(res, msg)\r\n                        end\r\n                    end\r\n                end\r\n                return res\r\n            end",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 30,
+    "text": "function m.new (env)\r\n    local obj = {\r\n        env = env,\r\n        redirect = m.redirect,\r\n        headers = {\r\n            ['user-agent'] = env.HTTP_USER_AGENT,\r\n        },\r\n    }\r\n    return setmetatable(obj, {\r\n        __index = m,\r\n    })\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "json",
+    "type": "module"
+  }, {
+    "id": 32,
+    "text": "decode",
+    "type": "global function"
+  }, {
+    "id": 33,
+    "text": "encode",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "raises",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "interface"
+  } ]
+}

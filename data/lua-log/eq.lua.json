@@ -1,0 +1,621 @@
+{
+  "_filename": "eq.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-log/lua/log/writer/filter/lvl/eq.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 60
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 61
+  }, {
+    "from": 60,
+    "label": "initializes",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "assigns",
+    "to": 63
+  }, {
+    "from": 61,
+    "label": "initializes",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 65
+  }, {
+    "from": 42,
+    "label": "represents",
+    "to": 66
+  }, {
+    "from": 65,
+    "label": "provides",
+    "to": 66
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 42,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 43,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 44,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 45,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 46,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 47,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 48,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 49,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 50,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 51,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 52,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 53,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 54,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 55,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 56,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 57,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 58,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 59,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 67,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 68,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 69,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 70,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 71,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 72,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 73,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 74,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 37
+  }, {
+    "from": 62,
+    "label": "contains",
+    "to": 38
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "eq",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "log",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function M.new(sep)\r\n  sep = sep or ' '\r\n\r\n  return function (...)\r\n    local argc,argv = select('#', ...), {...}\r\n    for i = 1, argc do argv[i] = tostring(argv[i]) end\r\n    return (table.concat(argv, sep))\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function M.new() return string.format end",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function M.new(default)\r\n  if not default then\r\n    default = require \"log.formatter.format\".new()\r\n  end\r\n\r\n  return function(...)\r\n    if type((...)) == 'function' then\r\n      return (...)(select(2, ...))\r\n    end\r\n\r\n    if select('#', ...) < 2 then\r\n      return tostring((...))\r\n    end\r\n\r\n    return default(...)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function M.new()\r\n  return function (msg, lvl, now)\r\n    return date_fmt(now) .. ' [' .. Log.LVL_NAMES[lvl] .. '] ' .. msg\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function M.pack(msg, lvl, now)\r\n  local Y, M, D = now:getdate()\r\n  local h, m, s = now:gettime()\r\n  local now_s = sformat(\"%.4d-%.2d-%.2d %.2d:%.2d:%.2d\", Y, M, D, h, m, s)\r\n\r\n  return schar(lvl) .. now_s .. msg\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function M.unpack(str)\r\n  local lvl = sbyte( ssub(str, 1, 1) )\r\n  if not Log.LVL_NAMES[lvl] then return end\r\n  local now_s = ssub(str, 2, 20 )\r\n  local Y, M, D = ssub(str, 2, 5 ), ssub(str, 7, 8 ), ssub(str, 10, 11 )\r\n  local h, m, s = ssub(str, 13, 14 ), ssub(str, 16, 17 ), ssub(str, 19, 20 )\r\n  Y, M, D, h, m, s = tn(Y), tn(M), tn(D), tn(h), tn(m), tn(s)\r\n  if not (Y and M and D and h and m and s) then return end\r\n\r\n  return ssub(str, 21), lvl, date(Y, M, D, h, m, s)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function M.new()\r\n  return function (now, lvl, msg)\r\n    return packer.pack(now, lvl, msg)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function M.new(facility, host_name, app_name, procid, msgid)\r\n  if not facility then facility = FACILITY.USER\r\n  else facility = FACILITY[facility:upper()] end\r\n  host_name = host_name or '-'\r\n  app_name  = app_name  or '-'\r\n  procid    = procid    or '-'\r\n  msgid     = msgid     or '-'\r\n\r\n  -- HOSTNAME APP-NAME PROCID MSGID\r\n  local header =host_name .. ' ' .. app_name .. ' ' .. procid .. ' ' .. msgid \r\n\r\n  return function (msg, lvl, now)\r\n    local slvl = assert(LVL2SYSLOG[lvl])\r\n    return \r\n    -- HEADER\r\n      -- PRI VERSION TIMESTAMP\r\n      '<' .. slvl + facility .. '> 1 ' .. Date2SysLog(now) .. ' ' ..\r\n      -- HEADER STRUCTURED-DATA MSG\r\n      header .. ' - ' ..  msg\r\n    \r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function(channel, maker, logformat)\r\n  logformat = logformat or \"log.logformat.default\"\r\n  context() -- init context\r\n  local child_thread = start_log_thread(maker, logformat, channel)\r\n  LOG.add_cleanup(function() child_thread:cancel(60) end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function(host, port, maker, logformat)\r\n  logformat = logformat or \"log.logformat.default\"\r\n  server.run(\"log.writer.net.server.udp\", maker, logformat, host, port)\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function M.new() return console_writer end",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function M.new(log_dir, log_name, max_rows)\r\n  return file.new{\r\n    log_dir        = log_dir, \r\n    log_name       = log_name,\r\n    max_rows       = max_rows,\r\n    by_day         = true,\r\n    close_file     = false,\r\n    flush_interval = 1,\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function M.new(log_dir, log_name, roll_count, max_size)\r\n  return file.new{\r\n    log_dir        = log_dir, \r\n    log_name       = log_name,\r\n    max_size       = max_size or 10 * 1024 * 1024,\r\n    roll_count     = assert(roll_count),\r\n    close_file     = false,\r\n    flush_interval = 1,\r\n    reuse          = true,\r\n  }\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function M.new(opt)\r\n  local logger = file_logger:new(opt)\r\n  LOG.add_cleanup(function() logger:close() end)\r\n\r\n  return function(fmt, msg, lvl, now)\r\n    logger:write((fmt(msg, lvl, now)))\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function M.new(max_lvl, writer)\r\n  max_lvl = assert(Log.lvl2number(max_lvl))\r\n  return function(fmt, msg, lvl, now)\r\n    if lvl == max_lvl then writer(fmt, msg, lvl, now) end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "max_lvl = assert(Log.lvl2number(max_lvl))",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 20,
+    "text": "if lvl == max_lvl then writer(fmt, msg, lvl, now) end",
+    "type": "statement:if"
+  }, {
+    "id": 21,
+    "text": "writer(fmt, msg, lvl, now)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function(fmt, msg, lvl, now)\r\n    if lvl == max_lvl then writer(fmt, msg, lvl, now) end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 26,
+    "text": "function M.new(max_lvl, writer)\r\n  max_lvl = assert(Log.lvl2number(max_lvl))\r\n  return function(fmt, msg, lvl, now)\r\n    if lvl <= max_lvl then writer(fmt, msg, lvl, now) end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "function M.new(newfmt, writer)\r\n  return function(oldfmt, msg, lvl, now)\r\n    writer(newfmt, msg, lvl, now)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "function M.new(...)\r\n  local writers = {...}\r\n  return function(...)\r\n    for i = 1, #writers do\r\n      writers[i](...)\r\n    end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "function M.new(from, to, server, subject)\r\n  assert(to,     \"'to' parameter is required\")\r\n  assert(from,   \"'from' parameter is required\")\r\n  assert(server, \"'server' parameter is required\")\r\n\r\n  subject = subject or ''\r\n\r\n  return function(fmt, msg, lvl, now)\r\n    msg = fmt(msg, lvl, now)\r\n    sendmail(from, to, server, {\r\n      subject = now:fmt(\"%F %T\") .. ' [' .. Log.LVL_NAMES[lvl] .. '] ' .. subject;\r\n      file    = {\r\n        name = 'message.txt';\r\n        data = msg;\r\n      };\r\n      text = msg;\r\n    })\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "function M.new(host, port, timeout) \r\n  local skt = create_socket(host, port, timeout)\r\n  return function(fmt, ...) skt:send((fmt( ... ))) end\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "function M.new(ctx, addr, timeout) \r\n    if ctx and not Z.is_ctx(ctx) then\r\n      ctx, addr, timeout = nil, ctx, addr\r\n    end\r\n\r\n    local skt = socket(ctx, stype, is_srv, addr, timeout)\r\n    return function(fmt, ...) skt:send((fmt(...))) end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "function M.new() \r\n  return function(fmt, ...) io.stderr:write(fmt(...),'\\n') end\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "function M.new()\r\n  return function (fmt,...) io.stdout:write(fmt(...),'\\n') end\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "local function lvl2number(lvl)\r\n  if type(lvl) == 'number' then return lvl end\r\n  if type(lvl) == 'string' then\r\n    lvl = lvl:upper()\r\n    local n\r\n    if lvl == 'NONE' then n = 0 else n = LOG_LVL[ lvl ] end\r\n    if not n then return nil, \"unknown log level: '\" .. lvl .. \"'\" end\r\n    return n\r\n  end\r\n\r\n  return nil, 'unsupported log leve type: ' .. type(lvl)\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "function M.new(max_lvl, writer, formatter, logformat)\r\n  if max_lvl and type(max_lvl) ~= 'number' and type(max_lvl) ~= 'string' then\r\n    max_lvl, writer, formatter, logformat = nil, max_lvl, writer, formatter\r\n  end\r\n\r\n  max_lvl = assert(lvl2number ( max_lvl or LOG_LVL.INFO ) )\r\n\r\n  formatter = formatter or function(msg) return msg end\r\n  if not logformat then\r\n    logformat = require\"log.logformat.default\".new()\r\n  end\r\n\r\n  local write = function (lvl, ... )\r\n    local now = date()\r\n    writer( logformat, formatter(...), lvl, now )\r\n  end;\r\n\r\n  local dump  = function(lvl, fn, ...)\r\n    local now = date()\r\n    writer( logformat, (fn(...) or ''), lvl, now )\r\n  end\r\n\r\n  local logger = {}\r\n\r\n  function logger.writer() return writer end\r\n\r\n  function logger.format() return logformat end\r\n\r\n  function logger.log(lvl, ...)\r\n    local err lvl, err = lvl2number(lvl)\r\n    if not lvl then return nil, err end\r\n    return write(lvl, ...)\r\n  end\r\n\r\n  function logger.dump(lvl, ...)\r\n    local err lvl, err = lvl2number(lvl)\r\n    if not lvl then return nil, err end\r\n    return dump(lvl, ...)\r\n  end\r\n\r\n  function logger.set_lvl(lvl)\r\n    local err lvl, err = lvl2number(lvl)\r\n    if not lvl then return nil, err end \r\n    max_lvl = lvl\r\n    for i = 1, max_lvl do logger[ writer_names[i]           ] = function(...) write(i, ...) end end\r\n    for i = 1, max_lvl do logger[ writer_names[i] .. '_dump'] = function(...) dump(i, ...)  end end\r\n    for i = max_lvl+1, LOG_LVL_COUNT  do logger[ writer_names[i]           ] = emptyfn end\r\n    for i = max_lvl+1, LOG_LVL_COUNT  do logger[ writer_names[i] .. '_dump'] = emptyfn end\r\n    return true\r\n  end\r\n\r\n  function logger.lvl() return max_lvl end\r\n\r\n  assert(logger.set_lvl(max_lvl))\r\n\r\n  loggers_list[logger] = true;\r\n\r\n  return logger\r\nend",
+    "type": "function"
+  }, {
+    "id": 36,
+    "text": "function M.add_cleanup(fn)\r\n  assert(type(fn)=='function')\r\n  for k,v in ipairs(destroy_list) do\r\n    if v == fn then return end\r\n  end\r\n  table.insert(destroy_list, 1, fn)\r\n  return fn\r\nend",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "function M.remove_cleanup(fn)\r\n  for k,v in ipairs(destroy_list) do\r\n    if v == fn then \r\n      table.remove(destroy_list, k)\r\n      break\r\n    end\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "function M.close()\r\n  for k,fn in ipairs(destroy_list) do pcall(fn) end\r\n  for logger in pairs(loggers_list) do\r\n    logger.fotal   = emptyfn;\r\n    logger.error   = emptyfn;\r\n    logger.warning = emptyfn;\r\n    logger.info    = emptyfn;\r\n    logger.notice  = emptyfn;\r\n    logger.debug   = emptyfn;\r\n    logger.closed  = true;\r\n    loggers_list[logger] =  nil\r\n  end\r\n  destroy_list = {}\r\nend",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "writer",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "local variable"
+  } ]
+}

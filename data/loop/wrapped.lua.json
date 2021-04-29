@@ -1,0 +1,1013 @@
+{
+  "_filename": "wrapped.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/loop/lua/loop/component/wrapped.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 3
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 45,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 64,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 60,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 84
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 85
+  }, {
+    "from": 71,
+    "label": "calls",
+    "to": 85
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 81
+  }, {
+    "from": 28,
+    "label": "calls",
+    "to": 86
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 78
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 78
+  }, {
+    "from": 45,
+    "label": "calls",
+    "to": 78
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 89
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 79
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 80
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 80
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 90
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 90
+  }, {
+    "from": 47,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 83
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 82
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 77,
+    "label": "calls",
+    "to": 87
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 60,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 71,
+    "label": "calls",
+    "to": 88
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 54,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 77
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 45
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 50
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 54
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 58
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 60
+  }, {
+    "from": 77,
+    "label": "declares",
+    "to": 71
+  }, {
+    "from": 91,
+    "label": "requires",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 92
+  }, {
+    "from": 3,
+    "label": "contains",
+    "to": 93
+  }, {
+    "from": 92,
+    "label": "initializes",
+    "to": 94
+  }, {
+    "from": 94,
+    "label": "assigns",
+    "to": 95
+  }, {
+    "from": 92,
+    "label": "initializes",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "assigns",
+    "to": 97
+  }, {
+    "from": 92,
+    "label": "initializes",
+    "to": 98
+  }, {
+    "from": 98,
+    "label": "assigns",
+    "to": 99
+  }, {
+    "from": 92,
+    "label": "initializes",
+    "to": 100
+  }, {
+    "from": 100,
+    "label": "assigns",
+    "to": 101
+  }, {
+    "from": 92,
+    "label": "initializes",
+    "to": 102
+  }, {
+    "from": 102,
+    "label": "assigns",
+    "to": 103
+  }, {
+    "from": 92,
+    "label": "initializes",
+    "to": 104
+  }, {
+    "from": 92,
+    "label": "initializes",
+    "to": 105
+  }, {
+    "from": 92,
+    "label": "initializes",
+    "to": 106
+  }, {
+    "from": 106,
+    "label": "assigns",
+    "to": 107
+  }, {
+    "from": 92,
+    "label": "initializes",
+    "to": 108
+  }, {
+    "from": 108,
+    "label": "assigns",
+    "to": 109
+  }, {
+    "from": 93,
+    "label": "initializes",
+    "to": 110
+  }, {
+    "from": 110,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 93,
+    "label": "initializes",
+    "to": 111
+  }, {
+    "from": 111,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cached",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "base",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "wrapped",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function subclassof(class, super)\r\n\tif class == super then return true end\r\n\tfor _, superclass in supers(class) do\r\n\t\tif subclassof(superclass, super) then return true end\r\n\tend\r\n\treturn false\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function allmembers(class)\r\n\tlocal cached = getclass(class)\r\n\tif cached\r\n\t\tthen return pairs(cached.class)\r\n\t\telse return base.members(class)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function factoryof(component)\r\n\treturn component.__factory\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function ports(template)\r\n\tif not oo.subclassof(template, BaseTemplate) then\r\n\t\ttemplate = templateof(template)\r\n\tend\r\n\tlocal state, var\r\n\tnextmember, state, var = oo.allmembers(template)\r\n\treturn portiterator, state, var\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local function method(_, ...) return impl(obj, ...) end",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "function delegate(value, delegatee)\r\n\tif type(value) == \"function\" then\r\n\t\timpl, obj = value, delegatee\r\n\t\treturn method\r\n\tend\r\n\treturn value\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "if type(value) == \"function\" then\r\n\t\timpl, obj = value, delegatee\r\n\t\treturn method\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "impl, obj = value, delegatee",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "function ExternalState:__index(name)\r\n\tself = self.__container\r\n\tlocal state = self.__state\r\n\tlocal port, manager = state[name], self[name]\r\n\tif port and manager then\r\n\t\treturn rawget(manager, \"__external\") or manager\r\n\telse\r\n\t\tcomponent = state.__component\r\n\t\treturn delegate(port or component[name], component)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "self = self.__container",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "local state = self.__state",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "local port, manager = state[name], self[name]",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "if port and manager then\r\n\t\treturn rawget(manager, \"__external\") or manager\r\n\telse\r\n\t\tcomponent = state.__component\r\n\t\treturn delegate(port or component[name], component)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "component = state.__component",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function ExternalState:__newindex(name, value)\r\n\tself = self.__container\r\n\tlocal state = self.__state\r\n\tlocal manager = self[name]\r\n\tif manager and manager.__bind then\r\n\t\tmanager:__bind(value)\r\n\telseif manager ~= nil then\r\n\t\tstate[name] = value\r\n\telse\r\n\t\tstate.__component[name] = value\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "local manager = self[name]",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "if manager and manager.__bind then\r\n\t\tmanager:__bind(value)\r\n\telseif manager ~= nil then\r\n\t\tstate[name] = value\r\n\telse\r\n\t\tstate.__component[name] = value\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "manager:__bind(value)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "state[name] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "state.__component[name] = value",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function BaseTemplate:__container(segments)\r\n\tlocal container = {\r\n\t\t__state    = segments,\r\n\t\t__internal = segments,\r\n\t}\r\n\tcontainer.__external = ExternalState{ __container = container }\r\n\treturn container\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "local container = {\r\n\t\t__state    = segments,\r\n\t\t__internal = segments,\r\n\t}",
+    "type": "statement:localassign"
+  }, {
+    "id": 30,
+    "text": "container.__external = ExternalState{ __container = container }",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function BaseTemplate:__build(segments)\r\n\tlocal container = self:__container(segments)\r\n\tlocal state = container.__state\r\n\tlocal context = container.__internal\r\n\tfor port, class in oo.allmembers(oo.classof(self)) do\r\n\t\tif port:find(\"^%a[%w_]*$\") then\r\n\t\t\tcontainer[port] = class(state, port, context)\r\n\t\tend\r\n\tend\r\n\tstate.__reference = container.__external\r\n\tfor port in pairs(self) do\r\n\t\tif port == 1\r\n\t\t\tthen self:__setcontext(segments.__component, context)\r\n\t\t\telse self:__setcontext(segments[port], context)\r\n\t\tend\r\n\tend\r\n\treturn container.__external\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "local container = self:__container(segments)",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "local state = container.__state",
+    "type": "statement:localassign"
+  }, {
+    "id": 35,
+    "text": "local context = container.__internal",
+    "type": "statement:localassign"
+  }, {
+    "id": 36,
+    "text": "for port, class in oo.allmembers(oo.classof(self)) do\r\n\t\tif port:find(\"^%a[%w_]*$\") then\r\n\t\t\tcontainer[port] = class(state, port, context)\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 37,
+    "text": "if port:find(\"^%a[%w_]*$\") then\r\n\t\t\tcontainer[port] = class(state, port, context)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "container[port] = class(state, port, context)",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "state.__reference = container.__external",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "for port in pairs(self) do\r\n\t\tif port == 1\r\n\t\t\tthen self:__setcontext(segments.__component, context)\r\n\t\t\telse self:__setcontext(segments[port], context)\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 41,
+    "text": "if port == 1\r\n\t\t\tthen self:__setcontext(segments.__component, context)\r\n\t\t\telse self:__setcontext(segments[port], context)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 42,
+    "text": "self:__setcontext(segments.__component, context)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 43,
+    "text": "self:__setcontext(segments[port], context)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 45,
+    "text": "function Template(template, ...)\r\n\treturn oo.class(template, BaseTemplate, ...)\r\nend",
+    "type": "function"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 47,
+    "text": "function factoryof(component)\r\n\tlocal container = component.__container\r\n\treturn base.factoryof(container and container.__state or component)\r\nend",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "local container = component.__container",
+    "type": "statement:localassign"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 50,
+    "text": "function templateof(factory)\r\n\tif not oo.instanceof(factory, BaseTemplate) then\r\n\t\tfactory = factoryof(factory)\r\n\tend\r\n\treturn oo.classof(factory)\r\nend",
+    "type": "function"
+  }, {
+    "id": 51,
+    "text": "if not oo.instanceof(factory, BaseTemplate) then\r\n\t\tfactory = factoryof(factory)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 52,
+    "text": "factory = factoryof(factory)",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 54,
+    "text": "function ports(template)\r\n\tif not oo.subclassof(template, BaseTemplate) then\r\n\t\ttemplate = templateof(template)\r\n\tend\r\n\treturn base.ports(template)\r\nend",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "if not oo.subclassof(template, BaseTemplate) then\r\n\t\ttemplate = templateof(template)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 56,
+    "text": "template = templateof(template)",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 58,
+    "text": "function segmentof(comp, port)\r\n\treturn comp.__container.__state[port]\r\nend",
+    "type": "function"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 60,
+    "text": "function addport(comp, name, port, class)\r\n\tlocal container = comp.__container\r\n\tif container then\r\n\t\tlocal context = container.__internal\r\n\t\tlocal state = container.__state\r\n\t\tlocal factory = state.__factory\r\n\t\tif class then\r\n\t\t\tlocal comp = state.__component or state\r\n\t\t\tstate[name] = class(comp[name], comp)\r\n\t\tend\r\n\t\tcontainer[name] = port(state, name, context, factory)\r\n\t\tfactory:__setcontext(state[name], context)\r\n\telse\r\n\t\terror(\"bad argument #1 to 'addport' (component expected, got \"..type(comp)..\")\")\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 61,
+    "text": "local container = comp.__container",
+    "type": "statement:localassign"
+  }, {
+    "id": 62,
+    "text": "if container then\r\n\t\tlocal context = container.__internal\r\n\t\tlocal state = container.__state\r\n\t\tlocal factory = state.__factory\r\n\t\tif class then\r\n\t\t\tlocal comp = state.__component or state\r\n\t\t\tstate[name] = class(comp[name], comp)\r\n\t\tend\r\n\t\tcontainer[name] = port(state, name, context, factory)\r\n\t\tfactory:__setcontext(state[name], context)\r\n\telse\r\n\t\terror(\"bad argument #1 to 'addport' (component expected, got \"..type(comp)..\")\")\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 63,
+    "text": "local factory = state.__factory",
+    "type": "statement:localassign"
+  }, {
+    "id": 64,
+    "text": "if class then\r\n\t\t\tlocal comp = state.__component or state\r\n\t\t\tstate[name] = class(comp[name], comp)\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 65,
+    "text": "local comp = state.__component or state",
+    "type": "statement:localassign"
+  }, {
+    "id": 66,
+    "text": "state[name] = class(comp[name], comp)",
+    "type": "statement:assign"
+  }, {
+    "id": 67,
+    "text": "container[name] = port(state, name, context, factory)",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "factory:__setcontext(state[name], context)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 69,
+    "text": "error(\"bad argument #1 to 'addport' (component expected, got \"..type(comp)..\")\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 71,
+    "text": "function removeport(comp, name)\r\n\tlocal container = comp.__container\r\n\tif container then\r\n\t\tlocal state = container.__state\r\n\t\tcontainer[name] = nil\r\n\t\tstate[name] = nil\r\n\telse\r\n\t\terror(\"bad argument #1 to 'removeport' (component expected, got \"..type(comp)..\")\")\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 72,
+    "text": "if container then\r\n\t\tlocal state = container.__state\r\n\t\tcontainer[name] = nil\r\n\t\tstate[name] = nil\r\n\telse\r\n\t\terror(\"bad argument #1 to 'removeport' (component expected, got \"..type(comp)..\")\")\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 73,
+    "text": "container[name] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "state[name] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 75,
+    "text": "error(\"bad argument #1 to 'removeport' (component expected, got \"..type(comp)..\")\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 78,
+    "text": "function class(class, ...)\r\n\tif select(\"#\", ...) > 1\r\n\t\tthen return base.rawnew(table.copy(MultipleClass, {...}), initclass(class))\r\n\t\telse return base.class(class, ...)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 79,
+    "text": "function instanceof(object, class)\r\n\treturn subclassof(classof(object), class)\r\nend",
+    "type": "function"
+  }, {
+    "id": 80,
+    "text": "classof",
+    "type": "global function"
+  }, {
+    "id": 81,
+    "text": "rawget",
+    "type": "global function"
+  }, {
+    "id": 82,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 83,
+    "text": "impl",
+    "type": "global function"
+  }, {
+    "id": 84,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 85,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 86,
+    "text": "ExternalState",
+    "type": "global function"
+  }, {
+    "id": 87,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 88,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 89,
+    "text": "port",
+    "type": "global function"
+  }, {
+    "id": 90,
+    "text": "class",
+    "type": "global function"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 93,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 94,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 96,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 97,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 99,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 102,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 103,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 104,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 105,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 106,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

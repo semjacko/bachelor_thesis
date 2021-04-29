@@ -1,0 +1,433 @@
+{
+  "_filename": "test-server-copas.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-websockets/test-server/test-server-copas.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 32,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 45
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "requires",
+    "to": 33
+  }, {
+    "from": 46,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "requires",
+    "to": 37
+  }, {
+    "from": 46,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "websocket",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "test-server-copas",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function(ws)\r\n      while true do\r\n        local msg,opcode = ws:receive()\r\n        if not msg then\r\n          ws:close()\r\n          return\r\n        end\r\n        if opcode == websocket.TEXT then\r\n          ws:broadcast(msg)\r\n        end\r\n      end\r\n    end",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "while true do\r\n        local msg,opcode = ws:receive()\r\n        if not msg then\r\n          ws:close()\r\n          return\r\n        end\r\n        if opcode == websocket.TEXT then\r\n          ws:broadcast(msg)\r\n        end\r\n      end",
+    "type": "statement:while"
+  }, {
+    "id": 5,
+    "text": "local msg,opcode = ws:receive()",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "if not msg then\r\n          ws:close()\r\n          return\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "ws:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "if opcode == websocket.TEXT then\r\n          ws:broadcast(msg)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "ws:broadcast(msg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function(ws)\r\n      inc_clients[ws] = 0\r\n      while true do\r\n        local message,opcode = ws:receive()\r\n        if not message then\r\n          ws:close()\r\n          inc_clients[ws] = nil\r\n          return\r\n        end\r\n        if opcode == websocket.TEXT then\r\n          if message:match('reset') then\r\n            inc_clients[ws] = 0\r\n          end\r\n        end\r\n      end\r\n    end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "inc_clients[ws] = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "while true do\r\n        local message,opcode = ws:receive()\r\n        if not message then\r\n          ws:close()\r\n          inc_clients[ws] = nil\r\n          return\r\n        end\r\n        if opcode == websocket.TEXT then\r\n          if message:match('reset') then\r\n            inc_clients[ws] = 0\r\n          end\r\n        end\r\n      end",
+    "type": "statement:while"
+  }, {
+    "id": 15,
+    "text": "local message,opcode = ws:receive()",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "if not message then\r\n          ws:close()\r\n          inc_clients[ws] = nil\r\n          return\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "inc_clients[ws] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 18,
+    "text": "if opcode == websocket.TEXT then\r\n          if message:match('reset') then\r\n            inc_clients[ws] = 0\r\n          end\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "if message:match('reset') then\r\n            inc_clients[ws] = 0\r\n          end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function()\r\n    local last = socket.gettime()\r\n    while true do\r\n      copas.step(0.1)\r\n      local now = socket.gettime()\r\n      if (now - last) >= 0.1 then\r\n        last = now\r\n        for ws,number in pairs(inc_clients) do\r\n          ws:send(tostring(number))\r\n          inc_clients[ws] = number + 1\r\n        end\r\n      end\r\n    end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "local last = socket.gettime()",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "while true do\r\n      copas.step(0.1)\r\n      local now = socket.gettime()\r\n      if (now - last) >= 0.1 then\r\n        last = now\r\n        for ws,number in pairs(inc_clients) do\r\n          ws:send(tostring(number))\r\n          inc_clients[ws] = number + 1\r\n        end\r\n      end\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 24,
+    "text": "copas.step(0.1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "local now = socket.gettime()",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "if (now - last) >= 0.1 then\r\n        last = now\r\n        for ws,number in pairs(inc_clients) do\r\n          ws:send(tostring(number))\r\n          inc_clients[ws] = number + 1\r\n        end\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 27,
+    "text": "last = now",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "for ws,number in pairs(inc_clients) do\r\n          ws:send(tostring(number))\r\n          inc_clients[ws] = number + 1\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 29,
+    "text": "ws:send(tostring(number))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "inc_clients[ws] = number + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 33,
+    "text": "copas",
+    "type": "module"
+  }, {
+    "id": 34,
+    "text": "step",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "loop",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "server.copas.listen",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "socket",
+    "type": "module"
+  }, {
+    "id": 38,
+    "text": "addthread",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "gettime",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "popen",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

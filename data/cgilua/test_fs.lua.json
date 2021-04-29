@@ -1,0 +1,197 @@
+{
+  "_filename": "test_fs.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/cgilua/tests/test_fs.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "assigns",
+    "to": 20
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test_fs",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function link_dir (dir, base)\r\n\tlocal path = base..\"/\"..dir\r\n\tlocal mode = lfs.attributes (path).mode\r\n\tif mode == \"directory\" then\r\n\t\treturn string.format ('<a href=\"%s\">%s</a>',\r\n\t\t\tcgilua.mkurlpath (\"test_fs.lua\", { dir = path }),\r\n\t\t\tdir)\r\n\telse\r\n\t\treturn dir\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local path = base..\"/\"..dir",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local mode = lfs.attributes (path).mode",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if mode == \"directory\" then\r\n\t\treturn string.format ('<a href=\"%s\">%s</a>',\r\n\t\t\tcgilua.mkurlpath (\"test_fs.lua\", { dir = path }),\r\n\t\t\tdir)\r\n\telse\r\n\t\treturn dir\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 9,
+    "text": "attributes",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "dir",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "mkurlpath",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "put",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "htmlheader",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

@@ -1,0 +1,1265 @@
+{
+  "_filename": "_util.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-uri/uri/_util.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 101
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 106
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 30,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 70,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 75,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 80,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 84,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 88,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 90,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 93
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 99
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 100
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 94
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 21,
+    "label": "calls",
+    "to": 97
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 95
+  }, {
+    "from": 56,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 98
+  }, {
+    "from": 56,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 67,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 83,
+    "label": "calls",
+    "to": 102
+  }, {
+    "from": 56,
+    "label": "calls",
+    "to": 96
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 56
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 61
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 67
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 83
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 88
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 90
+  }, {
+    "from": 14,
+    "label": "declares",
+    "to": 91
+  }, {
+    "from": 107,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 109,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 110
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 111
+  }, {
+    "from": 110,
+    "label": "initializes",
+    "to": 112
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 113
+  }, {
+    "from": 113,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 108
+  }, {
+    "from": 115,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 116,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 117,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 118,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 119,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 120,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 121,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 122,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 123,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 124,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 125,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 126,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 127,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 128,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 129,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 130,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 131,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 132
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 133
+  }, {
+    "from": 132,
+    "label": "initializes",
+    "to": 134
+  }, {
+    "from": 134,
+    "label": "assigns",
+    "to": 135
+  }, {
+    "from": 135,
+    "label": "assigns",
+    "to": 136
+  }, {
+    "from": 136,
+    "label": "assigns",
+    "to": 137
+  }, {
+    "from": 132,
+    "label": "initializes",
+    "to": 138
+  }, {
+    "from": 138,
+    "label": "assigns",
+    "to": 139
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 140
+  }, {
+    "from": 114,
+    "label": "represents",
+    "to": 141
+  }, {
+    "from": 140,
+    "label": "provides",
+    "to": 141
+  }, {
+    "from": 142,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "_util",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function testcase:test_metadata ()\r\n    is(\"uri._util\", Util._NAME)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function testcase:test_uri_encode ()\r\n    is(\"%7Cabc%E5\", Util.uri_encode(\"|abc\\229\"))\r\n    is(\"a%62%63\", Util.uri_encode(\"abc\", \"b-d\"))\r\n    assert_nil(Util.uri_encode(nil))\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function testcase:test_uri_decode ()\r\n    is(\"|abc\\229\", Util.uri_decode(\"%7Cabc%e5\"))\r\n    is(\"@AB\", Util.uri_decode(\"%40A%42\"))\r\n    is(\"CDE\", Util.uri_decode(\"CDE\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function testcase:test_uri_decode ()\r\n    is(\"/%2F%25/..!%A1\", Util.uri_decode(\"/%2F%25/%2e.%21%A1\", \"%-.!\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function testcase:test_remove_dot_segments ()\r\n    is(\"/\", Util.remove_dot_segments(\"/foo/../\"))\r\n    is(\"/bar\", Util.remove_dot_segments(\"/foo/./../bar\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function testcase:test_split ()\r\n    local list\r\n    list = Util.split(\";\", \"\")\r\n    assert_array_shallow_equal({}, list)\r\n    list = Util.split(\";\", \"foo\")\r\n    assert_array_shallow_equal({\"foo\"}, list)\r\n    list = Util.split(\";\", \"foo;bar\")\r\n    assert_array_shallow_equal({\"foo\",\"bar\"}, list)\r\n    list = Util.split(\";\", \"foo;bar;baz\")\r\n    assert_array_shallow_equal({\"foo\",\"bar\",\"baz\"}, list)\r\n    list = Util.split(\";\", \";\")\r\n    assert_array_shallow_equal({\"\",\"\"}, list)\r\n    list = Util.split(\";\", \"foo;\")\r\n    assert_array_shallow_equal({\"foo\",\"\"}, list)\r\n    list = Util.split(\";\", \";foo\")\r\n    assert_array_shallow_equal({\"\",\"foo\"}, list)\r\n    -- TODO test with multi-char and more complex patterns\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function testcase:test_split_with_max ()\r\n    local list\r\n    list = Util.split(\";\", \"foo;bar;baz\", 4)\r\n    assert_array_shallow_equal({\"foo\",\"bar\",\"baz\"}, list)\r\n    list = Util.split(\";\", \"foo;bar;baz\", 3)\r\n    assert_array_shallow_equal({\"foo\",\"bar\",\"baz\"}, list)\r\n    list = Util.split(\";\", \"foo;bar;baz\", 2)\r\n    assert_array_shallow_equal({\"foo\",\"bar;baz\"}, list)\r\n    list = Util.split(\";\", \"foo;bar;baz\", 1)\r\n    assert_array_shallow_equal({\"foo;bar;baz\"}, list)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function testcase:test_attempt_require ()\r\n    local mod = Util.attempt_require(\"string\")\r\n    assert_table(mod)\r\n    mod = Util.attempt_require(\"lua-module-which-doesn't-exist\")\r\n    assert_nil(mod)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function testcase:test_subclass_of ()\r\n    local baseclass = {}\r\n    baseclass.__index = baseclass\r\n    baseclass.overridden = function () return \"baseclass\" end\r\n    baseclass.inherited = function () return \"inherited\" end\r\n\r\n    local subclass = {}\r\n    Util.subclass_of(subclass, baseclass)\r\n    subclass.overridden = function () return \"subclass\" end\r\n\r\n    assert(getmetatable(subclass) == baseclass)\r\n    assert(subclass._SUPER == baseclass)\r\n\r\n    local baseobject, subobject = {}, {}\r\n    setmetatable(baseobject, baseclass)\r\n    setmetatable(subobject, subclass)\r\n\r\n    is(\"baseclass\", baseobject:overridden())\r\n    is(\"subclass\", subobject:overridden())\r\n    is(\"inherited\", baseobject:inherited())\r\n    is(\"inherited\", subobject:inherited())\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function () return \"baseclass\" end",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function () return \"inherited\" end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function () return \"subclass\" end",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 15,
+    "text": "function M.uri_encode (text, patn)\r\n    if not text then return end\r\n    if not patn then\r\n        -- Default unsafe characters.  RFC 2732 ^(uric - reserved)\r\n        -- TODO - this should be updated to the latest RFC.\r\n        patn = \"^A-Za-z0-9%-_.!~*'()\"\r\n    end\r\n    return (text:gsub(\"([\" .. patn .. \"])\",\r\n                      function (chr) return escapes[chr] end))\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "if not text then return end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 18,
+    "text": "if not patn then\r\n        -- Default unsafe characters.  RFC 2732 ^(uric - reserved)\r\n        -- TODO - this should be updated to the latest RFC.\r\n        patn = \"^A-Za-z0-9%-_.!~*'()\"\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "patn = \"^A-Za-z0-9%-_.!~*'()\"",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function M.uri_decode (str, patn)\r\n    -- Note from RFC1630:  \"Sequences which start with a percent sign\r\n    -- but are not followed by two hexadecimal characters are reserved\r\n    -- for future extension\"\r\n    if not str then return end\r\n    if patn then patn = \"[\" .. patn .. \"]\" end\r\n    return (str:gsub(\"%%(%x%x)\", function (hex)\r\n        local char = string.char(tonumber(hex, 16))\r\n        return (patn and not char:find(patn)) and \"%\" .. hex or char\r\n    end))\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "if not str then return end",
+    "type": "statement:if"
+  }, {
+    "id": 23,
+    "text": "if patn then patn = \"[\" .. patn .. \"]\" end",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "patn = \"[\" .. patn .. \"]\"",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "local char = string.char(tonumber(hex, 16))",
+    "type": "statement:localassign"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 27,
+    "text": "function M.remove_dot_segments (s)\r\n    local path = \"\"\r\n\r\n    while s ~= \"\" do\r\n        if s:find(\"^%.%.?/\") then                       -- A\r\n            s = s:gsub(\"^%.%.?/\", \"\", 1)\r\n        elseif s:find(\"^/%./\") or s == \"/.\" then        -- B\r\n            s = s:gsub(\"^/%./?\", \"/\", 1)\r\n        elseif s:find(\"^/%.%./\") or s == \"/..\" then     -- C\r\n            s = s:gsub(\"^/%.%./?\", \"/\", 1)\r\n            if path:find(\"/\") then\r\n                path = path:gsub(\"/[^/]*$\", \"\", 1)\r\n            else\r\n                path = \"\"\r\n            end\r\n        elseif s == \".\" or s == \"..\" then               -- D\r\n            s = \"\"\r\n        else                                            -- E\r\n            local _, p, seg = s:find(\"^(/?[^/]*)\")\r\n            s = s:sub(p + 1)\r\n            path = path .. seg\r\n        end\r\n    end\r\n\r\n    return path\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "local path = \"\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 29,
+    "text": "while s ~= \"\" do\r\n        if s:find(\"^%.%.?/\") then                       -- A\r\n            s = s:gsub(\"^%.%.?/\", \"\", 1)\r\n        elseif s:find(\"^/%./\") or s == \"/.\" then        -- B\r\n            s = s:gsub(\"^/%./?\", \"/\", 1)\r\n        elseif s:find(\"^/%.%./\") or s == \"/..\" then     -- C\r\n            s = s:gsub(\"^/%.%./?\", \"/\", 1)\r\n            if path:find(\"/\") then\r\n                path = path:gsub(\"/[^/]*$\", \"\", 1)\r\n            else\r\n                path = \"\"\r\n            end\r\n        elseif s == \".\" or s == \"..\" then               -- D\r\n            s = \"\"\r\n        else                                            -- E\r\n            local _, p, seg = s:find(\"^(/?[^/]*)\")\r\n            s = s:sub(p + 1)\r\n            path = path .. seg\r\n        end\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 30,
+    "text": "if s:find(\"^%.%.?/\") then                       -- A\r\n            s = s:gsub(\"^%.%.?/\", \"\", 1)\r\n        elseif s:find(\"^/%./\") or s == \"/.\" then        -- B\r\n            s = s:gsub(\"^/%./?\", \"/\", 1)\r\n        elseif s:find(\"^/%.%./\") or s == \"/..\" then     -- C\r\n            s = s:gsub(\"^/%.%./?\", \"/\", 1)\r\n            if path:find(\"/\") then\r\n                path = path:gsub(\"/[^/]*$\", \"\", 1)\r\n            else\r\n                path = \"\"\r\n            end\r\n        elseif s == \".\" or s == \"..\" then               -- D\r\n            s = \"\"\r\n        else                                            -- E\r\n            local _, p, seg = s:find(\"^(/?[^/]*)\")\r\n            s = s:sub(p + 1)\r\n            path = path .. seg\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 31,
+    "text": "s = s:gsub(\"^%.%.?/\", \"\", 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "s = s:gsub(\"^/%./?\", \"/\", 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "s = s:gsub(\"^/%.%./?\", \"/\", 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 34,
+    "text": "if path:find(\"/\") then\r\n                path = path:gsub(\"/[^/]*$\", \"\", 1)\r\n            else\r\n                path = \"\"\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "path = path:gsub(\"/[^/]*$\", \"\", 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "path = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "s = \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "local _, p, seg = s:find(\"^(/?[^/]*)\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 39,
+    "text": "s = s:sub(p + 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "path = path .. seg",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function M.split (patn, s, max)\r\n    if s == \"\" then return {} end\r\n\r\n    local i, j = 1, string.find(s, patn)\r\n    if not j then return { s } end\r\n\r\n    local list = {}\r\n    while true do\r\n        if #list + 1 == max then list[max] = s:sub(i); return list end\r\n        list[#list + 1] = s:sub(i, j - 1)\r\n        i = j + 1\r\n        j = string.find(s, patn, i)\r\n        if not j then\r\n            list[#list + 1] = s:sub(i)\r\n            break\r\n        end\r\n    end\r\n    return list\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "if s == \"\" then return {} end",
+    "type": "statement:if"
+  }, {
+    "id": 44,
+    "text": "local i, j = 1, string.find(s, patn)",
+    "type": "statement:localassign"
+  }, {
+    "id": 45,
+    "text": "if not j then return { s } end",
+    "type": "statement:if"
+  }, {
+    "id": 46,
+    "text": "local list = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 47,
+    "text": "while true do\r\n        if #list + 1 == max then list[max] = s:sub(i); return list end\r\n        list[#list + 1] = s:sub(i, j - 1)\r\n        i = j + 1\r\n        j = string.find(s, patn, i)\r\n        if not j then\r\n            list[#list + 1] = s:sub(i)\r\n            break\r\n        end\r\n    end",
+    "type": "statement:while"
+  }, {
+    "id": 48,
+    "text": "if #list + 1 == max then list[max] = s:sub(i); return list end",
+    "type": "statement:if"
+  }, {
+    "id": 49,
+    "text": "list[max] = s:sub(i)",
+    "type": "statement:assign"
+  }, {
+    "id": 50,
+    "text": "list[#list + 1] = s:sub(i, j - 1)",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "i = j + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "j = string.find(s, patn, i)",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "if not j then\r\n            list[#list + 1] = s:sub(i)\r\n            break\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 54,
+    "text": "list[#list + 1] = s:sub(i)",
+    "type": "statement:assign"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 56,
+    "text": "function M.attempt_require (modname)\r\n    local ok, result = pcall(require, modname)\r\n    if ok then\r\n        return result\r\n    elseif type(result) == \"string\" and\r\n           result:find(\"module '.*' not found\") then\r\n        return nil\r\n    else\r\n        error(result)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 57,
+    "text": "local ok, result = pcall(require, modname)",
+    "type": "statement:localassign"
+  }, {
+    "id": 58,
+    "text": "if ok then\r\n        return result\r\n    elseif type(result) == \"string\" and\r\n           result:find(\"module '.*' not found\") then\r\n        return nil\r\n    else\r\n        error(result)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 59,
+    "text": "error(result)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 61,
+    "text": "function M.subclass_of (class, baseclass)\r\n    class.__index = class\r\n    class.__tostring = baseclass.__tostring\r\n    class._SUPER = baseclass\r\n    setmetatable(class, baseclass)\r\nend",
+    "type": "function"
+  }, {
+    "id": 62,
+    "text": "class.__index = class",
+    "type": "statement:assign"
+  }, {
+    "id": 63,
+    "text": "class.__tostring = baseclass.__tostring",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "class._SUPER = baseclass",
+    "type": "statement:assign"
+  }, {
+    "id": 65,
+    "text": "setmetatable(class, baseclass)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 67,
+    "text": "function M.do_class_changing_change (uri, baseclass, changedesc, newvalue,\r\n                                     changefunc)\r\n    local tmpuri = {}\r\n    setmetatable(tmpuri, baseclass)\r\n    for k, v in pairs(uri) do tmpuri[k] = v end\r\n    changefunc(tmpuri, newvalue)\r\n    tmpuri._uri = nil\r\n\r\n    local foo, err = tmpuri:init()\r\n    if not foo then\r\n        error(\"URI not valid after \" .. changedesc .. \" changed to '\" ..\r\n              newvalue .. \"': \" .. err)\r\n    end\r\n\r\n    setmetatable(uri, getmetatable(tmpuri))\r\n    for k in pairs(uri) do uri[k] = nil end\r\n    for k, v in pairs(tmpuri) do uri[k] = v end\r\nend",
+    "type": "function"
+  }, {
+    "id": 68,
+    "text": "local tmpuri = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 69,
+    "text": "setmetatable(tmpuri, baseclass)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 70,
+    "text": "for k, v in pairs(uri) do tmpuri[k] = v end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 71,
+    "text": "tmpuri[k] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 72,
+    "text": "changefunc(tmpuri, newvalue)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 73,
+    "text": "tmpuri._uri = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "local foo, err = tmpuri:init()",
+    "type": "statement:localassign"
+  }, {
+    "id": 75,
+    "text": "if not foo then\r\n        error(\"URI not valid after \" .. changedesc .. \" changed to '\" ..\r\n              newvalue .. \"': \" .. err)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 76,
+    "text": "error(\"URI not valid after \" .. changedesc .. \" changed to '\" ..\r\n              newvalue .. \"': \" .. err)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 77,
+    "text": "setmetatable(uri, getmetatable(tmpuri))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 78,
+    "text": "for k in pairs(uri) do uri[k] = nil end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 79,
+    "text": "uri[k] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 80,
+    "text": "for k, v in pairs(tmpuri) do uri[k] = v end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 81,
+    "text": "uri[k] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 83,
+    "text": "function M.uri_part_not_allowed (class, method)\r\n    class[method] = function (self, new)\r\n        if new then error(method .. \" not allowed on this kind of URI\") end\r\n        return self[\"_\" .. method]\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 84,
+    "text": "class[method] = function (self, new)\r\n        if new then error(method .. \" not allowed on this kind of URI\") end\r\n        return self[\"_\" .. method]\r\n    end",
+    "type": "statement:assign"
+  }, {
+    "id": 85,
+    "text": "if new then error(method .. \" not allowed on this kind of URI\") end",
+    "type": "statement:if"
+  }, {
+    "id": 86,
+    "text": "error(method .. \" not allowed on this kind of URI\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 88,
+    "text": "function (self, new)\r\n        if new then error(method .. \" not allowed on this kind of URI\") end\r\n        return self[\"_\" .. method]\r\n    end",
+    "type": "function"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 90,
+    "text": "function (chr) return escapes[chr] end",
+    "type": "function"
+  }, {
+    "id": 91,
+    "text": "function (hex)\r\n        local char = string.char(tonumber(hex, 16))\r\n        return (patn and not char:find(patn)) and \"%\" .. hex or char\r\n    end",
+    "type": "function"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 93,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 94,
+    "text": "tonumber",
+    "type": "global function"
+  }, {
+    "id": 95,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 96,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 97,
+    "text": "char",
+    "type": "global function"
+  }, {
+    "id": 98,
+    "text": "getmetatable",
+    "type": "global function"
+  }, {
+    "id": 99,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 100,
+    "text": "changefunc",
+    "type": "global function"
+  }, {
+    "id": 101,
+    "text": "TestCase",
+    "type": "global function"
+  }, {
+    "id": 102,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 103,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 105,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 106,
+    "text": "run",
+    "type": "global function"
+  }, {
+    "id": 107,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 108,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 109,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 128,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 129,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 130,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 131,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 132,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 133,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 134,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 135,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 136,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 137,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 138,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 139,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 140,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 141,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 142,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

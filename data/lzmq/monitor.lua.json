@@ -1,0 +1,369 @@
+{
+  "_filename": "monitor.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lzmq/examples/monitor.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 25,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "assigns",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "assigns",
+    "to": 35
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 36
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "assigns",
+    "to": 38
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "assigns",
+    "to": 40
+  }, {
+    "from": 30,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 31,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "requires",
+    "to": 3
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "monitor",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "lzmq",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "loop",
+    "type": "module"
+  }, {
+    "id": 4,
+    "text": "function(sok)\r\n  print(\"SERVER:\", sok:recv())\r\n  sok:send(\", world!\");\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "print(\"SERVER:\", sok:recv())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "sok:send(\", world!\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function(sok)\r\n  local event, data, addr = sok:recv_event()\r\n  print(\"MONITOR:\", event, data, addr)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local event, data, addr = sok:recv_event()",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "print(\"MONITOR:\", event, data, addr)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function(sok)\r\n  print(\"CLIENT:\", sok:recv())\r\n  sok:send(\"Hello\");\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "print(\"CLIENT:\", sok:recv())",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "sok:send(\"Hello\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "function()\r\n  loop:interrupt()\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "loop:interrupt()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 19,
+    "text": "function()\r\n  cli:disconnect(\"tcp://127.0.0.1:9000\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "cli:disconnect(\"tcp://127.0.0.1:9000\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function()\r\n  cli:send(\"Hello\");\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "cli:send(\"Hello\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 26,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "new",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

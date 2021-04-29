@@ -1,0 +1,249 @@
+{
+  "_filename": "test_time.lua",
+  "_isShebang": true,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luasys/test/event/test_time.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "requires",
+    "to": 18
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test_time",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function time_cb(evq, evid, idx)\r\n    evq:del(evid)\r\n    timers[idx] = nil\r\n\r\n    called = called + 1\r\n    if called < 10 * NEVENT then\r\n\tfor i = 1, 10 do\r\n\t    local j = rand_int(NEVENT)\r\n\t    local msec = rand_int(50) - 1\r\n\r\n\t    evid = timers[j]\r\n\t    if msec % 2 == 0 then\r\n\t\tif evid then\r\n\t\t    evq:del(evid)\r\n\t\t    timers[j] = nil\r\n\t\tend\r\n\t    elseif evid then\r\n\t\tevq:timeout(evid, msec)\r\n\t    else\r\n\t\ttimers[j] = evq:add_timer(time_cb, msec, j)\r\n\t    end\r\n\tend\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "evq:del(evid)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "timers[idx] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "called = called + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "if called < 10 * NEVENT then\r\n\tfor i = 1, 10 do\r\n\t    local j = rand_int(NEVENT)\r\n\t    local msec = rand_int(50) - 1\r\n\r\n\t    evid = timers[j]\r\n\t    if msec % 2 == 0 then\r\n\t\tif evid then\r\n\t\t    evq:del(evid)\r\n\t\t    timers[j] = nil\r\n\t\tend\r\n\t    elseif evid then\r\n\t\tevq:timeout(evid, msec)\r\n\t    else\r\n\t\ttimers[j] = evq:add_timer(time_cb, msec, j)\r\n\t    end\r\n\tend\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "for i = 1, 10 do\r\n\t    local j = rand_int(NEVENT)\r\n\t    local msec = rand_int(50) - 1\r\n\r\n\t    evid = timers[j]\r\n\t    if msec % 2 == 0 then\r\n\t\tif evid then\r\n\t\t    evq:del(evid)\r\n\t\t    timers[j] = nil\r\n\t\tend\r\n\t    elseif evid then\r\n\t\tevq:timeout(evid, msec)\r\n\t    else\r\n\t\ttimers[j] = evq:add_timer(time_cb, msec, j)\r\n\t    end\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 8,
+    "text": "local j = rand_int(NEVENT)",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "local msec = rand_int(50) - 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "evid = timers[j]",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "if msec % 2 == 0 then\r\n\t\tif evid then\r\n\t\t    evq:del(evid)\r\n\t\t    timers[j] = nil\r\n\t\tend\r\n\t    elseif evid then\r\n\t\tevq:timeout(evid, msec)\r\n\t    else\r\n\t\ttimers[j] = evq:add_timer(time_cb, msec, j)\r\n\t    end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "if evid then\r\n\t\t    evq:del(evid)\r\n\t\t    timers[j] = nil\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 13,
+    "text": "timers[j] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "evq:timeout(evid, msec)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "timers[j] = evq:add_timer(time_cb, msec, j)",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 18,
+    "text": "sys",
+    "type": "module"
+  }, {
+    "id": 19,
+    "text": "event_queue",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "rand_int",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "randomseed",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "time",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

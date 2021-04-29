@@ -1,0 +1,249 @@
+{
+  "_filename": "module_usage.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luafish/examples/module_usage.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "assigns",
+    "to": 23
+  }, {
+    "from": 18,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "assigns",
+    "to": 25
+  }, {
+    "from": 19,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "module_usage",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "square",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function MACRO.SQUARE(obj)\r\n    print('SETSQUARE', obj)\r\n    obj.stype = TSquare\r\n  end",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "print('SETSQUARE', obj)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "obj.stype = TSquare",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function()\r\n  -- load square module since we need static types.\r\n  local Square = mrequire \"square\"\r\n\r\n  -- Define a compile-time macro that associates a lexical with a\r\n  -- static type of TSquare. [HACK: TSquare is currently global]\r\n  function MACRO.SQUARE(obj)\r\n    print('SETSQUARE', obj)\r\n    obj.stype = TSquare\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local Square = mrequire \"square\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "create",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "mrequire",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "setcolor",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "ONCOMPILE",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "SQUARE",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

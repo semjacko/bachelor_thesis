@@ -1,0 +1,113 @@
+{
+  "_filename": "v3.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lv3/v3.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 10,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 12
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "v3",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function so(x)\r\n\tlocal SOPATH= os.getenv\"LUA_SOPATH\" or \"./\"\r\n\tassert(loadlib(SOPATH..\"l\"..x..\".so\",\"luaopen_\"..x))()\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local SOPATH= os.getenv\"LUA_SOPATH\" or \"./\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "assert(loadlib(SOPATH..\"l\"..x..\".so\",\"luaopen_\"..x))()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 7,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "loadlib",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "getenv",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "require container"
+  } ]
+}

@@ -1,0 +1,257 @@
+{
+  "_filename": "xglobal-runtime.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/metalua/src/lib/metalua/extension/xglobal-runtime.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 12,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 17,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 17,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "assigns",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "assigns",
+    "to": 30
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "xglobal-runtime",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function _G_mt.__newglobal(...)\r\n   local g = _G_mt.__globals\r\n   for v in ivalues{...} do g[v]=true end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local g = _G_mt.__globals",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "for v in ivalues{...} do g[v]=true end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 5,
+    "text": "g[v]=true",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function _G_mt.__newindex(_G, var, val)\r\n   if not _G_mt.__globals[var] then\r\n      error (\"Setting undeclared global variable \"..var)\r\n   end\r\n   rawset(_G, var, val)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "if not _G_mt.__globals[var] then\r\n      error (\"Setting undeclared global variable \"..var)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "error (\"Setting undeclared global variable \"..var)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 10,
+    "text": "rawset(_G, var, val)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 12,
+    "text": "function _G_mt.__index(_G, var)\r\n   if not _G_mt.__globals[var] then \r\n      error (\"Reading undeclared global variable \"..var) \r\n   end\r\n   return nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "if not _G_mt.__globals[var] then \r\n      error (\"Reading undeclared global variable \"..var) \r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "error (\"Reading undeclared global variable \"..var)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 15,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 18,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "ivalues",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "getfenv",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "getmetatable",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "rawset",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

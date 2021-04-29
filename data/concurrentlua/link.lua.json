@@ -1,0 +1,873 @@
+{
+  "_filename": "link.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/concurrentlua/src/concurrent/link.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 40,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 58
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 57
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 69,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 70
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 72
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 73
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 74
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 75
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 76
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 77
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 78
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 79
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 80
+  }, {
+    "from": 69,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 81
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 82
+  }, {
+    "from": 81,
+    "label": "initializes",
+    "to": 83
+  }, {
+    "from": 83,
+    "label": "assigns",
+    "to": 84
+  }, {
+    "from": 81,
+    "label": "initializes",
+    "to": 85
+  }, {
+    "from": 81,
+    "label": "initializes",
+    "to": 86
+  }, {
+    "from": 86,
+    "label": "assigns",
+    "to": 87
+  }, {
+    "from": 81,
+    "label": "initializes",
+    "to": 88
+  }, {
+    "from": 88,
+    "label": "assigns",
+    "to": 89
+  }, {
+    "from": 81,
+    "label": "initializes",
+    "to": 90
+  }, {
+    "from": 90,
+    "label": "assigns",
+    "to": 91
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "link",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function link(dest)\r\n    if type(dest) ~= 'table' then\r\n        return _link(concurrent.whereis(dest))\r\n    end\r\n\r\n    local links = concurrent._link.links\r\n    local s = concurrent.self()\r\n    local pid, node = unpack(dest)\r\n    if type(links[s]) == 'nil' then\r\n        links[s] = {}\r\n    end\r\n    for _, v in pairs(links[s]) do\r\n        if type(v) == 'table' and pid == v[1] and node == v[2] then\r\n            return\r\n        end\r\n    end\r\n    concurrent.send({ -1, node }, { subject = 'LINK', to = { pid = pid },\r\n        from = { pid = s, node = concurrent.node() } })\r\n    table.insert(links[s], dest)\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function controller_link(msg)\r\n    local links = concurrent._link.links\r\n    local pid = concurrent.whereis(msg.to.pid)\r\n    if not pid then\r\n        return\r\n    end\r\n    if type(links[pid]) == 'nil' then\r\n        links[pid] = {}\r\n    end\r\n    for _, v in pairs(links[pid]) do\r\n        if type(v) == 'table' and msg.from.pid == v[1] and\r\n            msg.from.node == v[2] then\r\n            return\r\n        end\r\n    end\r\n    table.insert(links[pid], { msg.from.pid, msg.from.node })\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function spawnlink(...)\r\n    local pid, errmsg = concurrent.spawn(...)\r\n    if not pid then\r\n        return nil, errmsg\r\n    end\r\n    concurrent.link(pid)\r\n    return pid\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function unlink(dest)\r\n    if type(dest) ~= 'table' then\r\n        return _unlink(concurrent.whereis(dest))\r\n    end\r\n\r\n    local links = concurrent._link.links\r\n    local s = concurrent.self()\r\n    local pid, node = unpack(dest)\r\n    if type(links[s]) == 'nil' then\r\n        return\r\n    end\r\n    for k, v in pairs(links[s]) do\r\n        if type(v) == 'table' and pid == v[1] and node == v[2] then\r\n            table.remove(links[s], k)\r\n        end\r\n    end\r\n    concurrent.send({ -1, node }, { subject = 'UNLINK', to = { pid = -1 },\r\n        from = { pid = s, node = concurrent.node() } })\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function controller_unlink(msg)\r\n    local links = concurrent._link.links\r\n    local pid = concurrent.whereis(msg.to.pid)\r\n    if not pid then\r\n        return\r\n    end\r\n    if type(links[pid]) == 'nil' then\r\n        return\r\n    end\r\n    for k, v in pairs(links[pid]) do\r\n        if type(v) == 'table' and msg.from.pid == v[1] and\r\n            msg.from.node == v[2] then\r\n            table.remove(links[pid], k)\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function signal_all(deadnode)\r\n    for k, v in pairs(concurrent._link.links) do\r\n       if v[2] == deadnode then\r\n           signal(k, v, 'noconnection')\r\n       end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function signal(dest, dead, reason)\r\n    if type(dest) ~= 'table' then\r\n        return _signal(concurrent.whereis(dest), dead, reason)\r\n    end\r\n\r\n    local pid, node = unpack(dest)\r\n    concurrent.send({ -1, node }, { subject = 'EXIT', to = { pid = pid },\r\n        from = { dead, concurrent.node() }, reason = reason })\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function controller_exit(msg)\r\n    if not concurrent.getoption('trapexit') then\r\n        concurrent._process.kill(concurrent.whereis(msg.to.pid), msg.reason)\r\n    else\r\n        concurrent.send(msg.to.pid, { signal = 'EXIT', from = msg.from,\r\n            reason = msg.reason })\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "function link(dest)\r\n    local t = type(dest)\r\n    local s = concurrent.self()\r\n    local pid = concurrent.whereis(dest)\r\n    if not pid then\r\n        return\r\n    end\r\n    if type(links[s]) == 'nil' then\r\n        links[s] = {}\r\n    end\r\n    if type(links[pid]) == 'nil' then\r\n        links[pid] = {}\r\n    end\r\n    for _, v in pairs(links[s]) do\r\n        if pid == v then\r\n            return\r\n        end\r\n    end\r\n    table.insert(links[s], pid)\r\n    table.insert(links[pid], s)\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "local t = type(dest)",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "local s = concurrent.self()",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "local pid = concurrent.whereis(dest)",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "if not pid then\r\n        return\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 16,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 17,
+    "text": "if type(links[s]) == 'nil' then\r\n        links[s] = {}\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "links[s] = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "if type(links[pid]) == 'nil' then\r\n        links[pid] = {}\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "links[pid] = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "for _, v in pairs(links[s]) do\r\n        if pid == v then\r\n            return\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 22,
+    "text": "if pid == v then\r\n            return\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 23,
+    "text": "table.insert(links[s], pid)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "table.insert(links[pid], s)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function spawnlink(...)\r\n    local pid, errmsg = concurrent.spawn(...)\r\n    if not pid then\r\n        return nil, errmsg\r\n    end\r\n    concurrent.link(pid)\r\n    return pid\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "local pid, errmsg = concurrent.spawn(...)",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "if not pid then\r\n        return nil, errmsg\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 29,
+    "text": "concurrent.link(pid)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function unlink(dest)\r\n    local t = type(dest)\r\n    local s = concurrent.self()\r\n    local pid = concurrent.whereis(dest)\r\n    if not pid then\r\n        return\r\n    end\r\n    if type(links[s]) == 'nil' or type(links[pid]) == 'nil' then\r\n        return\r\n    end\r\n    for key, value in pairs(links[s]) do\r\n        if pid == value then\r\n            links[s][key] = nil\r\n        end\r\n    end\r\n    for key, value in pairs(links[pid]) do\r\n        if s == value then\r\n            links[pid][key] = nil\r\n        end\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "if type(links[s]) == 'nil' or type(links[pid]) == 'nil' then\r\n        return\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "for key, value in pairs(links[s]) do\r\n        if pid == value then\r\n            links[s][key] = nil\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 34,
+    "text": "if pid == value then\r\n            links[s][key] = nil\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 35,
+    "text": "links[s][key] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "for key, value in pairs(links[pid]) do\r\n        if s == value then\r\n            links[pid][key] = nil\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 37,
+    "text": "if s == value then\r\n            links[pid][key] = nil\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 38,
+    "text": "links[pid][key] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 40,
+    "text": "function unlink_all()\r\n    local s = concurrent.self()\r\n    if type(links[s]) == 'nil' then\r\n        return\r\n    end\r\n    for _, v in pairs(links[s]) do\r\n        concurrent.unlink(v)\r\n    end\r\n    links[s] = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "if type(links[s]) == 'nil' then\r\n        return\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 42,
+    "text": "for _, v in pairs(links[s]) do\r\n        concurrent.unlink(v)\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 43,
+    "text": "concurrent.unlink(v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 44,
+    "text": "links[s] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 46,
+    "text": "function signal_all(dead, reason)\r\n    if type(links[dead]) == 'nil' then\r\n        return\r\n    end\r\n    for _, v in pairs(links[dead]) do\r\n        signal(v, dead, reason)\r\n    end\r\n    links[dead] = nil\r\nend",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "if type(links[dead]) == 'nil' then\r\n        return\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 48,
+    "text": "for _, v in pairs(links[dead]) do\r\n        signal(v, dead, reason)\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 49,
+    "text": "signal(v, dead, reason)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 50,
+    "text": "links[dead] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "function signal(dest, dead, reason)\r\n    if not concurrent.getoption('trapexit') then\r\n        concurrent._process.kill(dest, reason)\r\n    else\r\n        concurrent.send(dest, { signal = 'EXIT', from = dead,\r\n            reason = reason }) \r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "if not concurrent.getoption('trapexit') then\r\n        concurrent._process.kill(dest, reason)\r\n    else\r\n        concurrent.send(dest, { signal = 'EXIT', from = dead,\r\n            reason = reason }) \r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 54,
+    "text": "concurrent._process.kill(dest, reason)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 55,
+    "text": "concurrent.send(dest, { signal = 'EXIT', from = dead,\r\n            reason = reason })",
+    "type": "statement:functioncall"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 57,
+    "text": "spawn",
+    "type": "global function"
+  }, {
+    "id": 58,
+    "text": "send",
+    "type": "global function"
+  }, {
+    "id": 59,
+    "text": "link",
+    "type": "global function"
+  }, {
+    "id": 60,
+    "text": "whereis",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "self",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "concurrent._process.kill",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "unlink",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 68,
+    "text": "getoption",
+    "type": "global function"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 87,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 89,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 90,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 91,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

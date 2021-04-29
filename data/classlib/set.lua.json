@@ -1,0 +1,789 @@
+{
+  "_filename": "set.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/classlib/set.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 33,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 41,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 46,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 53,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 52,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 56,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 67,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 70
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 73
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 56,
+    "label": "calls",
+    "to": 76
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 35,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 41,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 52,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 56,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 56,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 61,
+    "label": "calls",
+    "to": 77
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 71
+  }, {
+    "from": 56,
+    "label": "calls",
+    "to": 72
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 69,
+    "label": "calls",
+    "to": 74
+  }, {
+    "from": 69,
+    "label": "calls",
+    "to": 75
+  }, {
+    "from": 16,
+    "label": "calls",
+    "to": 78
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 35
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 50
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 56
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 61
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 65
+  }, {
+    "from": 69,
+    "label": "declares",
+    "to": 67
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 80
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 81
+  }, {
+    "from": 81,
+    "label": "initializes",
+    "to": 79
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "set",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function Set:__init(...)\t-- Construct with initial elements\r\n\tlocal arg = {...}\r\n\tself.elem = {}\r\n\tself.n = #arg\r\n\tfor i, v in ipairs(arg) do self.elem[v] = true end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local arg = {...}",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "self.elem = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "self.n = #arg",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "for i, v in ipairs(arg) do self.elem[v] = true end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 7,
+    "text": "self.elem[v] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function Set:__tostring()\t-- String representation\r\n\tlocal function ascii(e)\r\n\t\treturn type(e) == 'string' and string.format('%q', e) or tostring(e)\r\n\tend\r\n\tlocal s = ''\r\n\tfor e in pairs(self.elem) do\r\n\t\ts = #s == 0 and ascii(e) or s .. ', ' .. ascii(e)\r\n\tend\r\n\treturn '[' .. s .. ']'\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "local function ascii(e)\r\n\t\treturn type(e) == 'string' and string.format('%q', e) or tostring(e)\r\n\tend",
+    "type": "statement:localfunction"
+  }, {
+    "id": 11,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 12,
+    "text": "local s = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "for e in pairs(self.elem) do\r\n\t\ts = #s == 0 and ascii(e) or s .. ', ' .. ascii(e)\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 14,
+    "text": "s = #s == 0 and ascii(e) or s .. ', ' .. ascii(e)",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 16,
+    "text": "local function ascii(e)\r\n\t\treturn type(e) == 'string' and string.format('%q', e) or tostring(e)\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function Set:insert(e)\t\t-- Add an element\r\n\tif not self.elem[e] then\r\n\t\tself.elem[e] = true\r\n\t\tself.n = self.n + 1\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "if not self.elem[e] then\r\n\t\tself.elem[e] = true\r\n\t\tself.n = self.n + 1\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "self.elem[e] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "self.n = self.n + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "function Set:erase(e)\t\t-- Remove an element\r\n\tif self.elem[e] then\r\n\t\tself.elem[e] = nil\r\n\t\tself.n = self.n - 1\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "if self.elem[e] then\r\n\t\tself.elem[e] = nil\r\n\t\tself.n = self.n - 1\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 25,
+    "text": "self.elem[e] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 26,
+    "text": "self.n = self.n - 1",
+    "type": "statement:assign"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 28,
+    "text": "function Set:clear()\t\t-- Remove all elements\r\n\tself.elem = {}\r\n\tself.n = 0\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "self.n = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function Set:size()\t\t\t-- Cardinality\r\n\treturn self.n\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 33,
+    "text": "function Set:contains(e)\t-- Check an element\r\n\treturn self.elem[e] or false\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 35,
+    "text": "function Set:clone()\t\t-- Clone\r\n\tlocal new = Set()\r\n\tnew.n = self.n\r\n\tfor e in pairs(self.elem) do new.elem[e] = true end\r\n\treturn new\r\nend",
+    "type": "function"
+  }, {
+    "id": 36,
+    "text": "local new = Set()",
+    "type": "statement:localassign"
+  }, {
+    "id": 37,
+    "text": "new.n = self.n",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "for e in pairs(self.elem) do new.elem[e] = true end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 39,
+    "text": "new.elem[e] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 41,
+    "text": "function Set:__add(r)\t\t-- Union\r\n\tlocal new = self:clone()\r\n\tfor e in pairs(r.elem) do new:insert(e) end\r\n\treturn new\r\nend",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "local new = self:clone()",
+    "type": "statement:localassign"
+  }, {
+    "id": 43,
+    "text": "for e in pairs(r.elem) do new:insert(e) end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 44,
+    "text": "new:insert(e)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 46,
+    "text": "function Set:__sub(r)\t\t-- Difference\r\n\tlocal new = Set()\r\n\tfor e in pairs(self.elem) do if not r.elem[e] then new:insert(e) end end\r\n\treturn new\r\nend",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "for e in pairs(self.elem) do if not r.elem[e] then new:insert(e) end end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 48,
+    "text": "if not r.elem[e] then new:insert(e) end",
+    "type": "statement:if"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 50,
+    "text": "function Set:__mod(r)\t\t-- Symmetric difference\r\n\treturn (self - r) + (r - self)\r\nend",
+    "type": "function"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 52,
+    "text": "function Set:__pow(r)\t\t-- Intersection\r\n\tlocal new = Set()\r\n\tfor e in pairs(self.elem) do if r.elem[e] then new:insert(e) end end\r\n\treturn new\r\nend",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "for e in pairs(self.elem) do if r.elem[e] then new:insert(e) end end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 54,
+    "text": "if r.elem[e] then new:insert(e) end",
+    "type": "statement:if"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 56,
+    "text": "function Set:__mul(r)\t\t-- Cartesian product\r\n\tlocal new = Set()\r\n\tfor first in pairs(self.elem) do\r\n\t\tfor second in pairs(r.elem) do\r\n\t\t\tnew:insert(Tuple(first, second))\r\n\t\tend\r\n\tend\r\n\treturn new\r\nend",
+    "type": "function"
+  }, {
+    "id": 57,
+    "text": "for first in pairs(self.elem) do\r\n\t\tfor second in pairs(r.elem) do\r\n\t\t\tnew:insert(Tuple(first, second))\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 58,
+    "text": "for second in pairs(r.elem) do\r\n\t\t\tnew:insert(Tuple(first, second))\r\n\t\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 59,
+    "text": "new:insert(Tuple(first, second))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 61,
+    "text": "function Set:__le(r)\t\t-- Containment\r\n\tfor e in pairs(self.elem) do if not r.elem[e] then return false end end\r\n\treturn true\r\nend",
+    "type": "function"
+  }, {
+    "id": 62,
+    "text": "for e in pairs(self.elem) do if not r.elem[e] then return false end end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 63,
+    "text": "if not r.elem[e] then return false end",
+    "type": "statement:if"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 65,
+    "text": "function Set:__lt(r)\t\t-- Strict containment\r\n\treturn self <= r and self.n < r.n\r\nend",
+    "type": "function"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 67,
+    "text": "function Set:__eq(r)\t\t-- Congruence\r\n\treturn self <= r and self.n == r.n\r\nend",
+    "type": "function"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 70,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 71,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 72,
+    "text": "Tuple",
+    "type": "global function"
+  }, {
+    "id": 73,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 74,
+    "text": "Set",
+    "type": "global function"
+  }, {
+    "id": 75,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 76,
+    "text": "Set",
+    "type": "global function"
+  }, {
+    "id": 77,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 78,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "require container"
+  } ]
+}

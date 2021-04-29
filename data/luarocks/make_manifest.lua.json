@@ -1,0 +1,433 @@
+{
+  "_filename": "make_manifest.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luarocks/src/luarocks/make_manifest.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 29
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 30
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 28
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 41
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "requires",
+    "to": 35
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 44
+  }, {
+    "from": 44,
+    "label": "requires",
+    "to": 36
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 45
+  }, {
+    "from": 45,
+    "label": "requires",
+    "to": 32
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "requires",
+    "to": 33
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "requires",
+    "to": 38
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "requires",
+    "to": 37
+  }, {
+    "from": 40,
+    "label": "initializes",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "requires",
+    "to": 34
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "make_manifest",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function get_deps_mode(flags)\r\n   if flags[\"deps-mode\"] then\r\n      return flags[\"deps-mode\"]\r\n   else\r\n      return cfg.deps_mode\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function path(...)\r\n   local t = {...}\r\n   while t[1] == \"\" do\r\n      table.remove(t, 1)\r\n   end\r\n   return (table.concat(t, \"/\"):gsub(\"([^:])/+\", \"%1/\"):gsub(\"^/+\", \"/\"):gsub(\"/*$\", \"\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function delete(name)\r\n   name = dir.normalize(name)\r\n   recursive_delete(name)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function make_index(repo)\r\n   if not fs.is_dir(repo) then\r\n      return nil, \"Cannot access repository at \"..repo\r\n   end\r\n   local manifest = manif.load_manifest(repo)\r\n   local out = io.open(dir.path(repo, \"index.html\"), \"w\")\r\n   \r\n   out:write(index_header)\r\n   for package, version_list in util.sortedpairs(manifest.repository) do\r\n      local latest_rockspec = nil\r\n      local output = index_package_begin\r\n      for version, data in util.sortedpairs(version_list, deps.compare_versions) do\r\n         local versions = {}\r\n         output = output..version..':&nbsp;'\r\n         table.sort(data, function(a,b) return a.arch < b.arch end)\r\n         for _, item in ipairs(data) do\r\n            local file\r\n            if item.arch == 'rockspec' then\r\n               file = (\"%s-%s.rockspec\"):format(package, version)\r\n               if not latest_rockspec then latest_rockspec = file end\r\n            else\r\n               file = (\"%s-%s.%s.rock\"):format(package, version, item.arch)\r\n            end\r\n            table.insert(versions, '<a href=\"'..file..'\">'..item.arch..'</a>')\r\n         end\r\n         output = output .. table.concat(versions, ',&nbsp;') .. '<br/>'\r\n      end\r\n      output = output .. index_package_end\r\n      if latest_rockspec then\r\n         local rockspec = persist.load_into_table(dir.path(repo, latest_rockspec))\r\n         local descript = rockspec.description or {}\r\n         local vars = {\r\n            anchor = package,\r\n            package = rockspec.package,\r\n            original = rockspec.source.url,\r\n            summary = descript.summary or \"\",\r\n            detailed = descript.detailed or \"\",\r\n            license = descript.license or \"N/A\",\r\n            homepage = descript.homepage and ('| <a href=\"'..descript.homepage..'\"'..ext_url_target..'>project homepage</a>') or \"\",\r\n            externaldependencies = format_external_dependencies(rockspec)\r\n         }\r\n         vars.detailed = vars.detailed:gsub(\"\\n\\n\", \"</p><p>\"):gsub(\"%s+\", \" \")\r\n         vars.detailed = vars.detailed:gsub(\"(https?://[a-zA-Z0-9%.%%-_%+%[%]=%?&/$@;:]+)\", '<a href=\"%1\"'..ext_url_target..'>%1</a>')\r\n         output = output:gsub(\"$(%w+)\", vars)\r\n      else\r\n         output = output:gsub(\"$anchor\", package)\r\n         output = output:gsub(\"$package\", package)\r\n         output = output:gsub(\"$(%w+)\", \"\")\r\n      end\r\n      out:write(output)\r\n   end\r\n   out:write(index_footer_begin)\r\n   for ver in util.lua_versions() do\r\n      out:write((index_manifest_ver:gsub(\"$VER\", ver)))\r\n   end\r\n   out:write(index_footer_end)\r\n   out:close()\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function run(...)\r\n   local flags, repo = util.parse_flags(...)\r\n\r\n   assert(type(repo) == \"string\" or not repo)\r\n   repo = repo or cfg.rocks_dir\r\n  \r\n   util.printout(\"Making manifest for \"..repo)\r\n   \r\n   if repo:match(\"/lib/luarocks\") and not flags[\"local-tree\"] then\r\n      util.warning(\"This looks like a local rocks tree, but you did not pass --local-tree.\")\r\n   end\r\n   \r\n   local ok, err = manif.make_manifest(repo, deps.get_deps_mode(flags), not flags[\"local-tree\"])\r\n   if ok and not flags[\"local-tree\"] then\r\n      util.printout(\"Generating index.html for \"..repo)\r\n      index.make_index(repo)\r\n   end\r\n   if flags[\"local-tree\"] then\r\n      for luaver in util.lua_versions() do\r\n         fs.delete(dir.path(repo, \"manifest-\"..luaver))\r\n      end\r\n   end\r\n   return ok, err\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local flags, repo = util.parse_flags(...)",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "assert(type(repo) == \"string\" or not repo)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "repo = repo or cfg.rocks_dir",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "util.printout(\"Making manifest for \"..repo)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "if repo:match(\"/lib/luarocks\") and not flags[\"local-tree\"] then\r\n      util.warning(\"This looks like a local rocks tree, but you did not pass --local-tree.\")\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "util.warning(\"This looks like a local rocks tree, but you did not pass --local-tree.\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "local ok, err = manif.make_manifest(repo, deps.get_deps_mode(flags), not flags[\"local-tree\"])",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "if ok and not flags[\"local-tree\"] then\r\n      util.printout(\"Generating index.html for \"..repo)\r\n      index.make_index(repo)\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 15,
+    "text": "util.printout(\"Generating index.html for \"..repo)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 16,
+    "text": "index.make_index(repo)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "if flags[\"local-tree\"] then\r\n      for luaver in util.lua_versions() do\r\n         fs.delete(dir.path(repo, \"manifest-\"..luaver))\r\n      end\r\n   end",
+    "type": "statement:if"
+  }, {
+    "id": 18,
+    "text": "for luaver in util.lua_versions() do\r\n         fs.delete(dir.path(repo, \"manifest-\"..luaver))\r\n      end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 19,
+    "text": "fs.delete(dir.path(repo, \"manifest-\"..luaver))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 20,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 23,
+    "text": "function make_manifest(repo, deps_mode, remote)\r\n   assert(type(repo) == \"string\")\r\n   assert(type(deps_mode) == \"string\")\r\n\r\n   if deps_mode == \"none\" then deps_mode = cfg.deps_mode end\r\n\r\n   if not fs.is_dir(repo) then\r\n      return nil, \"Cannot access repository at \"..repo\r\n   end\r\n\r\n   local query = search.make_query(\"\")\r\n   query.exact_name = false\r\n   query.arch = \"any\"\r\n   local results = search.disk_search(repo, query)\r\n   local manifest = { repository = {}, modules = {}, commands = {} }\r\n\r\n   manif_core.manifest_cache[repo] = manifest\r\n\r\n   local dep_handler = nil\r\n   if not remote then\r\n      dep_handler = function(manifest)\r\n         update_dependencies(manifest, deps_mode)\r\n      end\r\n   end\r\n   local ok, err = store_results(results, manifest, dep_handler)\r\n   if not ok then return nil, err end\r\n\r\n   if remote then\r\n      local cache = {}\r\n      for luaver in util.lua_versions() do\r\n         local vmanifest = { repository = {}, modules = {}, commands = {} }\r\n         local dep_handler = function(manifest)\r\n            filter_by_lua_version(manifest, luaver, repo, cache)\r\n         end\r\n         local ok, err = store_results(results, vmanifest, dep_handler)\r\n         save_table(repo, \"manifest-\"..luaver, vmanifest)\r\n      end\r\n   end\r\n\r\n   return save_table(repo, \"manifest\", manifest)\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "function parse_flags(...)\r\n   local args = {...}\r\n   local flags = {}\r\n   for i = #args, 1, -1 do\r\n      local flag = args[i]:match(\"^%-%-(.*)\")\r\n      if flag then\r\n         local var,val = flag:match(\"([a-z_%-]*)=(.*)\")\r\n         if val then\r\n            flags[var] = val\r\n         else\r\n            flags[flag] = true\r\n         end\r\n         table.remove(args, i)\r\n      end\r\n   end\r\n   return flags, unpack(args)\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "function lua_versions()\r\n   local versions = { \"5.1\", \"5.2\" }\r\n   local i = 0\r\n   return function()\r\n      i = i + 1\r\n      return versions[i]\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "function printout(...)\r\n   io.stdout:write(table.concat({...},\"\\t\"))\r\n   io.stdout:write(\"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "function warning(msg)\r\n   printerr(\"Warning: \"..msg)\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 29,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 30,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 31,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "cfg)",
+    "type": "module"
+  }, {
+    "id": 33,
+    "text": "util)",
+    "type": "module"
+  }, {
+    "id": 34,
+    "text": "dir)",
+    "type": "module"
+  }, {
+    "id": 35,
+    "text": "manif)",
+    "type": "module"
+  }, {
+    "id": 36,
+    "text": "index)",
+    "type": "module"
+  }, {
+    "id": 37,
+    "text": "fs)",
+    "type": "module"
+  }, {
+    "id": 38,
+    "text": "deps)",
+    "type": "module"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 44,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 47,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

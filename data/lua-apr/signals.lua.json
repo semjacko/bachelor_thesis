@@ -1,0 +1,169 @@
+{
+  "_filename": "signals.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-apr/etc/signals.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "assigns",
+    "to": 10
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "assigns",
+    "to": 12
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "assigns",
+    "to": 14
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "assigns",
+    "to": 16
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "signals",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 3,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 4,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "string"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "tableconstructor"
+  } ]
+}

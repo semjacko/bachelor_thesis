@@ -1,0 +1,301 @@
+{
+  "_filename": "sample.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/cosmo/samples/sample.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 15,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "sample",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "cosmo",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function()\r\n                for i=1,5 do\r\n                   cosmo.yield { item = i }\r\n                end\r\n             end",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "for i=1,5 do\r\n                   cosmo.yield { item = i }\r\n                end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 5,
+    "text": "cosmo.yield { item = i }",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function()\r\n                for i=1,5 do\r\n                   cosmo.yield { item = i }\r\n                end\r\n             end",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function(args)\r\n                for i=1,5 do\r\n                   cosmo.yield { item = args[1] .. i }\r\n                end\r\n             end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "for i=1,5 do\r\n                   cosmo.yield { item = args[1] .. i }\r\n                end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 11,
+    "text": "cosmo.yield { item = args[1] .. i }",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function(args)\r\n                for i=1,5 do\r\n                   cosmo.yield { item = args[1] .. i }\r\n                end\r\n             end",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 16,
+    "text": "function fill(template, env, opts)\r\n   opts = opts or {}\r\n   template = template or \"\"\r\n   local start = template:match(\"^(%[=*%[)\")\r\n   if start then template = template:sub(#start + 1, #template - #start) end\r\n   if filled_templates[template] then\r\n      return compile(template, opts.chunkname, opts.parser)(env, opts)\r\n   else\r\n      filled_templates[template] = true\r\n      return interpreter.fill(template, env, opts)\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function cond(bool, table)\r\n   if bool then\r\n      return function () yield(table) end\r\n   else\r\n      return nop\r\n   end\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "yield",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

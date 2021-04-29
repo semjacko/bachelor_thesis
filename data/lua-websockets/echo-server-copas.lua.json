@@ -1,0 +1,161 @@
+{
+  "_filename": "echo-server-copas.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-websockets/examples/echo-server-copas.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "requires",
+    "to": 12
+  }, {
+    "from": 16,
+    "label": "initializes",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "echo-server-copas",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "websocket",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function(ws)\r\n      while true do\r\n        local message = ws:receive()\r\n        if message then\r\n          ws:send(message)\r\n        else\r\n          ws:close()\r\n          return\r\n        end\r\n      end\r\n    end",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "while true do\r\n        local message = ws:receive()\r\n        if message then\r\n          ws:send(message)\r\n        else\r\n          ws:close()\r\n          return\r\n        end\r\n      end",
+    "type": "statement:while"
+  }, {
+    "id": 5,
+    "text": "local message = ws:receive()",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "if message then\r\n          ws:send(message)\r\n        else\r\n          ws:close()\r\n          return\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 7,
+    "text": "ws:send(message)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "ws:close()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 12,
+    "text": "copas",
+    "type": "module"
+  }, {
+    "id": 13,
+    "text": "loop",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

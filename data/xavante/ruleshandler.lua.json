@@ -1,0 +1,481 @@
+{
+  "_filename": "ruleshandler.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/xavante/src/xavante/ruleshandler.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 37,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 14,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 31,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 39,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 49
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 50
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "ruleshandler",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function path_permuter (path)\r\n\tcoroutine.yield (path)\r\n\tlocal _,_,ext = string.find (path, \"%.([^./]*)$\")\r\n\tlocal notdir = (string.sub (path, -1) ~= \"/\")\r\n\t\r\n\twhile path ~= \"\" do\r\n\t\tpath = string.gsub (path, \"/[^/]*$\", \"\")\r\n\t\tif notdir then\r\n\t\t\tif ext then\r\n\t\t\t\tcoroutine.yield (path ..\"/*.\"..ext)\r\n\t\t\tend\r\n\t\t\tcoroutine.yield (path ..\"/*\")\r\n\t\telse\r\n\t\t\tcoroutine.yield (path..\"/\")\r\n\t\tend\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "coroutine.yield (path)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "local _,_,ext = string.find (path, \"%.([^./]*)$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local notdir = (string.sub (path, -1) ~= \"/\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "while path ~= \"\" do\r\n\t\tpath = string.gsub (path, \"/[^/]*$\", \"\")\r\n\t\tif notdir then\r\n\t\t\tif ext then\r\n\t\t\t\tcoroutine.yield (path ..\"/*.\"..ext)\r\n\t\t\tend\r\n\t\t\tcoroutine.yield (path ..\"/*\")\r\n\t\telse\r\n\t\t\tcoroutine.yield (path..\"/\")\r\n\t\tend\r\n\tend",
+    "type": "statement:while"
+  }, {
+    "id": 7,
+    "text": "path = string.gsub (path, \"/[^/]*$\", \"\")",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "if notdir then\r\n\t\t\tif ext then\r\n\t\t\t\tcoroutine.yield (path ..\"/*.\"..ext)\r\n\t\t\tend\r\n\t\t\tcoroutine.yield (path ..\"/*\")\r\n\t\telse\r\n\t\t\tcoroutine.yield (path..\"/\")\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 9,
+    "text": "if ext then\r\n\t\t\t\tcoroutine.yield (path ..\"/*.\"..ext)\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 10,
+    "text": "coroutine.yield (path ..\"/*.\"..ext)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "coroutine.yield (path ..\"/*\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "coroutine.yield (path..\"/\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 14,
+    "text": "local function path_iterator (path)\r\n\treturn coroutine.wrap (function () path_permuter (path) end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 16,
+    "text": "path_permuter (path)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "local function match_url (req, conf)\r\n\tlocal path = req.relpath\r\n\tlocal h, set\r\n\tfor p in path_iterator (path) do\r\n\t\th = conf [p]\r\n\t\tif h then\r\n\t\t\treq.match = p\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\n\t\r\n\tif req.match then\r\n\t\tlocal _,_,pfx = string.find (req.match, \"^(.*/)[^/]-$\")\r\n\t\tassert (string.sub (path, 1, string.len (pfx)) == pfx)\r\n\t\treq.relpath = string.sub (path, string.len (pfx)+1)\r\n\tend\r\n\treq.handler = h\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "local path = req.relpath",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "local h, set",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "for p in path_iterator (path) do\r\n\t\th = conf [p]\r\n\t\tif h then\r\n\t\t\treq.match = p\r\n\t\t\tbreak\r\n\t\tend\r\n\tend",
+    "type": "statement:genericfor"
+  }, {
+    "id": 22,
+    "text": "h = conf [p]",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "if h then\r\n\t\t\treq.match = p\r\n\t\t\tbreak\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 24,
+    "text": "req.match = p",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "if req.match then\r\n\t\tlocal _,_,pfx = string.find (req.match, \"^(.*/)[^/]-$\")\r\n\t\tassert (string.sub (path, 1, string.len (pfx)) == pfx)\r\n\t\treq.relpath = string.sub (path, string.len (pfx)+1)\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "local _,_,pfx = string.find (req.match, \"^(.*/)[^/]-$\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "assert (string.sub (path, 1, string.len (pfx)) == pfx)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 28,
+    "text": "req.relpath = string.sub (path, string.len (pfx)+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "req.handler = h",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 31,
+    "text": "function xavante.ruleshandler (conf)\r\n\tif not conf or type (conf) ~= \"table\" then return nil end\r\n\t\r\n\treturn function (req, res)\r\n\t\tmatch_url (req, conf)\r\n\t\tlocal h = req.handler or xavante.httpd.err_404\r\n\t\treturn h (req, res)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "if not conf or type (conf) ~= \"table\" then return nil end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "match_url (req, conf)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 34,
+    "text": "local h = req.handler or xavante.httpd.err_404",
+    "type": "statement:localassign"
+  }, {
+    "id": 35,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 36,
+    "text": "function () path_permuter (path) end",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "function (req, res)\r\n\t\tmatch_url (req, conf)\r\n\t\tlocal h = req.handler or xavante.httpd.err_404\r\n\t\treturn h (req, res)\r\n\tend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 40,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "yield",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "sub",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "h",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "len",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "wrap",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "require container"
+  } ]
+}

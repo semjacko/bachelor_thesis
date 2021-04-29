@@ -1,0 +1,261 @@
+{
+  "_filename": "lcs.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-stdlib/src/lcs.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 23,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 27
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 23,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 29
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lcs",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function commonSubseqs (a, b)\r\n  local l, m, n = {}, #a, #b\r\n  for i = m + 1, 1, -1 do\r\n    l[i] = {}\r\n    for j = n + 1, 1, -1 do\r\n      if i > m or j > n then\r\n        l[i][j] = 0\r\n      elseif a[i] == b[j] then\r\n        l[i][j] = 1 + l[i + 1][j + 1]\r\n      else\r\n        l[i][j] = math.max (l[i + 1][j], l[i][j + 1])\r\n      end\r\n    end\r\n  end\r\n  return l, m, n\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local l, m, n = {}, #a, #b",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "for i = m + 1, 1, -1 do\r\n    l[i] = {}\r\n    for j = n + 1, 1, -1 do\r\n      if i > m or j > n then\r\n        l[i][j] = 0\r\n      elseif a[i] == b[j] then\r\n        l[i][j] = 1 + l[i + 1][j + 1]\r\n      else\r\n        l[i][j] = math.max (l[i + 1][j], l[i][j + 1])\r\n      end\r\n    end\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 5,
+    "text": "l[i] = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 6,
+    "text": "for j = n + 1, 1, -1 do\r\n      if i > m or j > n then\r\n        l[i][j] = 0\r\n      elseif a[i] == b[j] then\r\n        l[i][j] = 1 + l[i + 1][j + 1]\r\n      else\r\n        l[i][j] = math.max (l[i + 1][j], l[i][j + 1])\r\n      end\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 7,
+    "text": "if i > m or j > n then\r\n        l[i][j] = 0\r\n      elseif a[i] == b[j] then\r\n        l[i][j] = 1 + l[i + 1][j + 1]\r\n      else\r\n        l[i][j] = math.max (l[i + 1][j], l[i][j + 1])\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "l[i][j] = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "l[i][j] = 1 + l[i + 1][j + 1]",
+    "type": "statement:assign"
+  }, {
+    "id": 10,
+    "text": "l[i][j] = math.max (l[i + 1][j], l[i][j + 1])",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function longestCommonSubseq (a, b, s)\r\n  local l, m, n = commonSubseqs (a, b)\r\n  local i, j = 1, 1\r\n  local f = getmetatable (s).__append\r\n  while i <= m and j <= n do\r\n    if a[i] == b[j] then\r\n      s = f (s, a[i])\r\n      i = i + 1\r\n      j = j + 1\r\n    elseif l[i + 1][j] >= l[i][j + 1] then\r\n      i = i + 1\r\n    else\r\n      j = j + 1\r\n    end\r\n  end\r\n  return s\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "local l, m, n = commonSubseqs (a, b)",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "local i, j = 1, 1",
+    "type": "statement:localassign"
+  }, {
+    "id": 16,
+    "text": "local f = getmetatable (s).__append",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "while i <= m and j <= n do\r\n    if a[i] == b[j] then\r\n      s = f (s, a[i])\r\n      i = i + 1\r\n      j = j + 1\r\n    elseif l[i + 1][j] >= l[i][j + 1] then\r\n      i = i + 1\r\n    else\r\n      j = j + 1\r\n    end\r\n  end",
+    "type": "statement:while"
+  }, {
+    "id": 18,
+    "text": "if a[i] == b[j] then\r\n      s = f (s, a[i])\r\n      i = i + 1\r\n      j = j + 1\r\n    elseif l[i + 1][j] >= l[i][j + 1] then\r\n      i = i + 1\r\n    else\r\n      j = j + 1\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 19,
+    "text": "s = f (s, a[i])",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "i = i + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 21,
+    "text": "j = j + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 24,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "f",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "max",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "getmetatable",
+    "type": "global function"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "require container"
+  } ]
+}

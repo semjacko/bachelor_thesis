@@ -1,0 +1,853 @@
+{
+  "_filename": "test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-odbc/test/test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 63
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 67
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 61
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 65
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 60
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 14
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 16
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 17
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 19
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 23
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 24
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 27
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 28
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 29
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 30
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 31
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 33
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 34
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 35
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 36
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 37
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 39
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 40
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 41
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 43
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 45
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 46
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 47
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 48
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 49
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 50
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 51
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 52
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 53
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 54
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 55
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 56
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 57
+  }, {
+    "from": 59,
+    "label": "declares",
+    "to": 58
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 64
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 66
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 68
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 70
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 71
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 72
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 73
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 74
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 75
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 76
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 77
+  }, {
+    "from": 70,
+    "label": "initializes",
+    "to": 78
+  }, {
+    "from": 71,
+    "label": "initializes",
+    "to": 79
+  }, {
+    "from": 71,
+    "label": "initializes",
+    "to": 80
+  }, {
+    "from": 71,
+    "label": "initializes",
+    "to": 81
+  }, {
+    "from": 71,
+    "label": "initializes",
+    "to": 82
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 83
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 84
+  }, {
+    "from": 83,
+    "label": "initializes",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "assigns",
+    "to": 86
+  }, {
+    "from": 84,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 84,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 84,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 84,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 84,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 84,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 84,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 84,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 84,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 84,
+    "label": "initializes",
+    "to": 69
+  }, {
+    "from": 84,
+    "label": "initializes",
+    "to": 69
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "test",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "local function prequire(...)\r\n  local ok, mod = pcall(require, ...)\r\n  if ok then return mod, ... end\r\n  return nil, mod\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local function pack_n(...)\r\n  return { n = select(\"#\", ...), ... }\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function (name)\r\n  if not IS_LUA52 then\r\n    module(name, package.seeall, lunit.testcase)\r\n    setfenv(2, _M)\r\n  else\r\n    return lunit.module(name, 'seeall')\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "local function make_tast(name)\r\n\r\nlocal CNN_TYPE = name\r\n\r\nlocal CNN_ROWS = 10\r\n\r\nlocal function init_db(cnn)\r\n  local fmt = string.format\r\n  assert(cnn:exec\"create table Agent(ID INTEGER PRIMARY KEY, Name char(32))\")\r\n  for i = 1, CNN_ROWS do\r\n    assert(cnn:exec(fmt(\"insert into Agent(ID,NAME)values(%d, 'Agent#%d')\", i, i)))\r\n  end\r\nend\r\n\r\nlocal _ENV = TEST_CASE('Environment.' .. name) do\r\n\r\nlocal env, dba, cnn\r\n\r\nfunction setup()\r\n  local CNN_PARAMS dba, CNN_PARAMS = LoadLib[CNN_TYPE]()\r\n  cnn = assert(dba.Connect(unpack(CNN_PARAMS)))\r\n  init_db(cnn)\r\nend\r\n\r\nfunction teardown()\r\n  if cnn then cnn:destroy() end\r\n  if env then env:destroy() end\r\nend\r\n\r\nfunction test_interface()\r\n  assert_not_nil(dba.PARAM_NULL)\r\n  assert_not_nil(dba.PARAM_DEFAULT)\r\n  assert_function(dba.Environment)\r\n  assert_function(dba.Connection)\r\n  assert_function(dba.Connect)\r\n  env = dba.Environment()\r\n  assert_function(env.connection)\r\n  assert_function(env.connect)\r\n  assert_function(env.destroy)\r\n  assert_function(env.destroyed)\r\n  assert_function(env.handle)\r\n  assert_function(env.set_config)\r\n  assert_function(env.get_config)\r\nend\r\n\r\nend\r\n\r\nlocal _ENV = TEST_CASE('Connection.' .. name) do\r\n\r\nlocal cnn, dba\r\n\r\nfunction setup()\r\n  local CNN_PARAMS dba, CNN_PARAMS = LoadLib[CNN_TYPE]()\r\n  cnn = assert(dba.Connect(unpack(CNN_PARAMS)))\r\n  init_db(cnn)\r\nend\r\n\r\nfunction teardown()\r\n  if cnn then cnn:destroy() end\r\nend\r\n\r\nfunction test_interface()\r\n  assert_function(cnn.connect)\r\n  assert_function(cnn.disconnect)\r\n  assert_function(cnn.connected)\r\n  assert_function(cnn.destroy)\r\n  assert_function(cnn.destroyed)\r\n  assert_function(cnn.exec)\r\n  assert_function(cnn.each)\r\n  assert_function(cnn.ieach)\r\n  assert_function(cnn.neach)\r\n  assert_function(cnn.teach)\r\n  assert_function(cnn.first_row)\r\n  assert_function(cnn.first_irow)\r\n  assert_function(cnn.first_nrow)\r\n  assert_function(cnn.first_trow)\r\n  assert_function(cnn.first_value)\r\n  assert_function(cnn.fetch_all)\r\n  assert_function(cnn.rows)\r\n  assert_function(cnn.irows)\r\n  assert_function(cnn.nrows)\r\n  assert_function(cnn.trows)\r\n  assert_function(cnn.commit)\r\n  assert_function(cnn.rollback)\r\n  assert_function(cnn.set_autocommit)\r\n  assert_function(cnn.get_autocommit)\r\n  assert_function(cnn.query)\r\n  assert_function(cnn.prepare)\r\n  assert_function(cnn.handle)\r\n  assert_function(cnn.set_config)\r\n  assert_function(cnn.get_config)\r\n  assert_function(cnn.environment)\r\nend\r\n\r\nfunction test_reconnect()\r\n  assert_true(cnn:connected())\r\n  assert_true(cnn:disconnect())\r\n  assert_false(not not cnn:connected())\r\n  assert_true(not not cnn:connect())\r\nend\r\n\r\nfunction test_exec_fail()\r\n  assert_nil(cnn:exec(\"select ID, Name from Agent order by ID\"))\r\nend\r\n\r\nfunction test_each()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local n = 0\r\n  cnn:each(sql, function(ID, Name) \r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end)\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  cnn:ieach(sql, function(row) \r\n    n = n + 1\r\n    assert_equal(n, to_n(row[1]))\r\n  end)\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  cnn:neach(sql, function(row) \r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n  end)\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  cnn:teach(sql, function(row) \r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n    assert_equal(n, to_n(row[1]))\r\n  end)\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  local args = pack_n(cnn:each(sql, function(ID, Name) \r\n    n = n + 1\r\n    return nil, 1, nil, 2\r\n  end))\r\n  assert_equal(1, n)\r\n  assert_equal(4, args.n)\r\n  assert_equal(1, args[2])\r\n  assert_equal(2, args[4])\r\n  assert_nil(args[1])\r\n  assert_nil(args[3])\r\n\r\n  n = 0\r\n  sql = \"select ID, Name from Agent where ID > :ID order by ID\"\r\n  local par = {ID = 1}\r\n  assert_true(cnn:each(sql, par, function(ID)\r\n    n = n + 1\r\n    assert_equal(par.ID + 1, to_n(ID))\r\n    return true\r\n  end))\r\n  assert_equal(1, n)\r\nend\r\n\r\nfunction test_rows()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local n = 0\r\n  for ID, Name in cnn:rows(sql) do\r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  for row in cnn:irows(sql) do\r\n    n = n + 1\r\n    assert_equal(n, to_n(row[1]))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  for row in cnn:nrows(sql) do\r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  for row in cnn:trows(sql) do\r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n    assert_equal(n, to_n(row[1]))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  sql = \"select ID, Name from Agent where ID > :ID order by ID\"\r\n  local par = {ID = 1}\r\n  for ID in cnn:rows(sql, par) do\r\n    n = n + 1\r\n    assert_equal(par.ID + 1, to_n(ID))\r\n    break\r\n  end\r\n  assert_equal(1, n)\r\nend\r\n\r\nfunction test_first()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local ID, Name = cnn:first_row(sql)\r\n  assert_equal(1, to_n(ID))\r\n  assert_equal(\"Agent#1\", Name)\r\n\r\n  local row\r\n  row = cnn:first_nrow(sql)\r\n  assert_equal(1, to_n(row.ID))\r\n  assert_equal(\"Agent#1\", row.Name)\r\n\r\n  row = cnn:first_irow(sql)\r\n  assert_equal(1, to_n(row[1]))\r\n  assert_equal(\"Agent#1\", row[2])\r\n\r\n  row = cnn:first_trow(sql)\r\n  assert_equal(1, to_n(row[1]))\r\n  assert_equal(1, to_n(row.ID))\r\n  assert_equal(\"Agent#1\", row[2])\r\n  assert_equal(\"Agent#1\", row.Name)\r\n\r\n  assert_equal(CNN_ROWS, to_n(cnn:first_value(\"select count(*) from Agent\")))\r\n  assert_equal(CNN_ROWS, to_n(cnn:first_value(\"select ID from Agent where ID=:ID\",{ID=CNN_ROWS})))\r\nend\r\n\r\nfunction test_txn()\r\n  assert_equal(CNN_ROWS, to_n(cnn:first_value(\"select count(*) from Agent\")))\r\n  cnn:set_autocommit(false)\r\n  assert_number(cnn:exec(\"delete from Agent\"))\r\n  assert_equal(0, to_n(cnn:first_value(\"select count(*) from Agent\")))\r\n  cnn:rollback()\r\n  assert_equal(CNN_ROWS, to_n(cnn:first_value(\"select count(*) from Agent\")))\r\nend\r\n\r\nfunction test_rowsaffected()\r\n  assert_equal(CNN_ROWS, to_n(cnn:first_value(\"select count(*) from Agent\")))\r\nend\r\n\r\nfunction test_exec()\r\n  assert_nil(cnn:exec(\"select ID, Name from Agent order by ID\"))\r\n  assert_number(cnn:exec(\"update Agent set ID=ID\"))\r\nend\r\n\r\nfunction test_config()\r\n  local env = assert(cnn:environment())\r\n  local p1 = assert_boolean(env:get_config(\"FORCE_REPLACE_PARAMS\"))\r\n  local p2 = assert_boolean(env:get_config(\"IGNORE_NAMED_PARAMS\") )\r\n\r\n  assert_equal(p1, cnn:get_config(\"FORCE_REPLACE_PARAMS\"))\r\n  assert_equal(p2, cnn:get_config(\"IGNORE_NAMED_PARAMS\"))\r\n\r\n  env:set_config(\"FORCE_REPLACE_PARAMS\", not p1)\r\n  cnn:set_config(\"IGNORE_NAMED_PARAMS\",  not p2)\r\n\r\n  assert_equal( not p1, env:get_config(\"FORCE_REPLACE_PARAMS\") )\r\n  assert_equal(     p2, env:get_config(\"IGNORE_NAMED_PARAMS\")  )\r\n  assert_equal( not p1, cnn:get_config(\"FORCE_REPLACE_PARAMS\") )\r\n  assert_equal( not p2, cnn:get_config(\"IGNORE_NAMED_PARAMS\")  )\r\n  \r\n  cnn:set_config(\"IGNORE_NAMED_PARAMS\", nil)\r\n  assert_equal( p2, cnn:get_config(\"IGNORE_NAMED_PARAMS\")  )\r\nend\r\n\r\nfunction test_apply_params()\r\n  cnn:set_config(\"FORCE_REPLACE_PARAMS\", true)\r\n  assert_equal(1, cnn:exec([[\r\n    update Agent set NAME = NAME where id=:id;\r\n  ]],{id=1}))\r\n  assert_equal(1, cnn:exec([[\r\n    update Agent set NAME = NAME where NAME=:NAME;\r\n  ]],{NAME=\"Agent#1\"}))\r\nend\r\n\r\nfunction test_fetch_all()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local t = assert_table(cnn:fetch_all(\"n\", sql))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\n  \r\n  local t = assert_table(cnn:fetch_all(\"a\", sql))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row.ID))\r\n    assert_nil(row[1])\r\n  end\r\n\r\n  local t = assert_table(cnn:fetch_all(\"an\", sql))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_equal(i, to_n(row.ID))\r\n  end\r\n\r\n  local sql = \"select ID, Name from Agent where ID=:ID order by ID\"\r\n  local t = assert_table(cnn:fetch_all(\"n\", sql, {ID=1}))\r\n  assert_equal(1, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\nend\r\n\r\nend\r\n\r\nlocal _ENV = TEST_CASE('Query.' .. name) do\r\n\r\nlocal dba, cnn, qry\r\n\r\nfunction setup()\r\n  local CNN_PARAMS dba, CNN_PARAMS = LoadLib[CNN_TYPE]()\r\n  cnn = assert(dba.Connect(unpack(CNN_PARAMS)))\r\n  init_db(cnn)\r\nend\r\n\r\nfunction teardown()\r\n  if qry then qry:destroy() end\r\n  if cnn then cnn:destroy() end\r\nend\r\n\r\nfunction test_interface()\r\n  qry = cnn:query()\r\n  assert_function(qry.open)\r\n  assert_function(qry.close)\r\n  assert_function(qry.closed)\r\n  assert_function(qry.opened)\r\n  assert_function(qry.destroy)\r\n  assert_function(qry.destroyed)\r\n  assert_function(qry.exec)\r\n  assert_function(qry.each)\r\n  assert_function(qry.ieach)\r\n  assert_function(qry.neach)\r\n  assert_function(qry.teach)\r\n  assert_function(qry.first_row)\r\n  assert_function(qry.first_irow)\r\n  assert_function(qry.first_nrow)\r\n  assert_function(qry.first_trow)\r\n  assert_function(qry.first_value)\r\n  assert_function(qry.fetch_all)\r\n  assert_function(qry.rows)\r\n  assert_function(qry.irows)\r\n  assert_function(qry.nrows)\r\n  assert_function(qry.trows)\r\n  assert_function(qry.set_autoclose)\r\n  assert_function(qry.get_autoclose)\r\n  assert_function(qry.prepare)\r\n  assert_function(qry.prepared)\r\n  assert_function(qry.unprepare)\r\n  assert_function(qry.supports_prepare)\r\n  assert_function(qry.set_sql)\r\n  assert_function(qry.bind)\r\n  assert_function(qry.handle)\r\n  assert_function(qry.set_config)\r\n  assert_function(qry.get_config)\r\n  assert_function(qry.connection)\r\nend\r\n\r\nfunction test_create()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local n\r\n  local function do_test(ID, Name) \r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  qry:each(sql, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  qry:each(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  sql = \"select ID, Name from Agent where 555=cast(:ID as INTEGER) order by ID\"\r\n  local par = {ID = 555}\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  qry:each(sql, par, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  qry:each(par, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(par))\r\n  qry:each(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  --------------------------------------------------------\r\n  sql = \"select ID, Name from Agent order by ID\"\r\n  local function do_test(row) \r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n  end\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  qry:neach(sql, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  qry:neach(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  sql = \"select ID, Name from Agent where 555=cast(:ID as INTEGER) order by ID\"\r\n  local par = {ID = 555}\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  qry:neach(sql, par, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  qry:neach(par, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(par))\r\n  qry:neach(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\nend\r\n\r\nfunction test_exec_fail()\r\n  qry = assert(cnn:query())\r\n  assert_nil(qry:exec(\"select ID, Name from Agent order by ID\"))\r\nend\r\n\r\nfunction test_each()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  qry:each(sql, function(ID)\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  assert(qry:open(sql))\r\n  assert_nil(\r\n    qry:each(sql, function(ID)\r\n      n = n + 1 assert_equal(n, to_n(ID))\r\n    end)\r\n  )\r\n  assert_equal(0, n)\r\n  qry:each(function(ID)\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\nend\r\n\r\nfunction test_rows()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local n\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  for ID, Name in qry:rows(sql) do\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  for ID, Name in qry:rows() do\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  sql = \"select ID, Name from Agent where 555=cast(:ID as INTEGER) order by ID\"\r\n  local par = {ID = 555}\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  for ID, Name in qry:rows(sql, par) do\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  for ID, Name in qry:rows(par) do\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(par))\r\n  for ID, Name in qry:rows() do\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  --------------------------------------------------\r\n\r\n  sql = \"select ID, Name from Agent order by ID\"\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  for row in qry:nrows(sql) do\r\n    n = n + 1 assert_equal(n, to_n(row.ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  for row in qry:nrows() do\r\n    n = n + 1 assert_equal(n, to_n(row.ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  sql = \"select ID, Name from Agent where 555=cast(:ID as INTEGER) order by ID\"\r\n  local par = {ID = 555}\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  for row in qry:nrows(sql, par) do\r\n    n = n + 1 assert_equal(n, to_n(row.ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  for row in qry:nrows(par) do\r\n    n = n + 1 assert_equal(n, to_n(row.ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(par))\r\n  for row in qry:nrows() do\r\n    n = n + 1 assert_equal(n, to_n(row.ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\nend\r\n\r\nfunction test_prepare()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local n\r\n  local function do_test(ID, Name) \r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end\r\n\r\n  n = 0\r\n  qry = assert(cnn:prepare(sql))\r\n  qry:each(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  sql = \"select ID, Name from Agent where 555 = cast(:ID as INTEGER) order by ID\"\r\n  local par = {ID = 555}\r\n\r\n  n = 0\r\n  qry = assert(cnn:prepare(sql))\r\n  qry:each(par, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:prepare(sql))\r\n  assert_true(qry:bind(par))\r\n  qry:each(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:prepare(sql))\r\n  assert_true(qry:bind(\"ID\", par.ID))\r\n  qry:each(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  if qry.bindnum then\r\n    n = 0\r\n    qry = assert(cnn:prepare(sql))\r\n    assert_true(qry:bind(1, par.ID))\r\n    qry:each(do_test)\r\n    assert_equal(CNN_ROWS, n)\r\n    qry:destroy()\r\n\r\n    n = 0\r\n    qry = assert(cnn:prepare(sql))\r\n    assert_true(qry:bind{par.ID})\r\n    qry:each(do_test)\r\n    assert_equal(CNN_ROWS, n)\r\n    qry:destroy()\r\n  end\r\nend\r\n\r\nfunction test_unprepare()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  qry = assert(cnn:prepare(sql))\r\n  assert_equal(qry:supports_prepare(), qry:prepared())\r\n  assert_true(qry:unprepare())\r\n  assert_false(qry:prepared())\r\n  qry:destroy()\r\nend\r\n\r\nfunction test_destroy()\r\n  qry = assert(cnn:query())\r\n  assert_true(qry:closed())\r\n  assert_false(qry:destroyed())\r\n  qry:open(\"select ID, Name from Agent order by ID\")\r\n  assert_false(qry:closed())\r\n  assert_false(qry:destroyed())\r\n  assert_pass(function() cnn:destroy() end)\r\n  -- assert_pass(function() qry:closed()  end)\r\n  -- assert_true(qry:closed())\r\n  assert_true(qry:destroyed())\r\n  assert_pass(function() qry:destroy() end)\r\nend\r\n\r\nfunction test_first()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  qry = cnn:query()\r\n  local ID, Name = qry:first_row(sql)\r\n  assert_equal(1, to_n(ID))\r\n  assert_equal(\"Agent#1\", Name)\r\n\r\n  local row\r\n  row = qry:first_nrow(sql)\r\n  assert_equal(1, to_n(row.ID))\r\n  assert_equal(\"Agent#1\", row.Name)\r\n\r\n  row = qry:first_irow(sql)\r\n  assert_equal(1, to_n(row[1]))\r\n  assert_equal(\"Agent#1\", row[2])\r\n\r\n  row = qry:first_trow(sql)\r\n  assert_equal(1, to_n(row[1]))\r\n  assert_equal(1, to_n(row.ID))\r\n  assert_equal(\"Agent#1\", row[2])\r\n  assert_equal(\"Agent#1\", row.Name)\r\n\r\n  local v = assert(qry:first_value(\"select count(*) from Agent\"))\r\n  assert_equal(CNN_ROWS, to_n(v))\r\n  local v = assert(qry:first_value(\"select ID from Agent where ID=:ID\",{ID=CNN_ROWS}))\r\n  assert_equal(CNN_ROWS, to_n(v))\r\n  qry:destroy()\r\n\r\n  sql = \"select ID, Name from Agent where ID=:ID\"\r\n  local par = {ID=CNN_ROWS}\r\n  local Agent = \"Agent#\" .. CNN_ROWS\r\n\r\n  qry = cnn:prepare(sql)\r\n\r\n  ID, Name = qry:first_row(par)\r\n  assert_equal(CNN_ROWS, to_n(ID))\r\n  assert_equal(Agent, Name)\r\n\r\n  row = qry:first_nrow(par)\r\n  assert_equal(CNN_ROWS, to_n(row.ID))\r\n  assert_equal(Agent, row.Name)\r\n\r\n  row = qry:first_irow(par)\r\n  assert_equal(CNN_ROWS, to_n(row[1]))\r\n  assert_equal(Agent, row[2])\r\n\r\n  row = qry:first_trow(par)\r\n  assert_equal(CNN_ROWS, to_n(row[1]))\r\n  assert_equal(CNN_ROWS, to_n(row.ID))\r\n  assert_equal(Agent, row[2])\r\n  assert_equal(Agent, row.Name)\r\n\r\n  qry:destroy()\r\n\r\n  qry = cnn:prepare(sql)\r\n  assert_true(qry:bind(par))\r\n\r\n  ID, Name = qry:first_row()\r\n  assert_equal(CNN_ROWS, to_n(ID))\r\n  assert_equal(Agent, Name)\r\n\r\n  row = qry:first_nrow()\r\n  assert_equal(CNN_ROWS, to_n(row.ID))\r\n  assert_equal(Agent, row.Name)\r\n\r\n  row = qry:first_irow()\r\n  assert_equal(CNN_ROWS, to_n(row[1]))\r\n  assert_equal(Agent, row[2])\r\n\r\n  row = qry:first_trow()\r\n  assert_equal(CNN_ROWS, to_n(row[1]))\r\n  assert_equal(CNN_ROWS, to_n(row.ID))\r\n  assert_equal(Agent, row[2])\r\n  assert_equal(Agent, row.Name)\r\n\r\nend\r\n\r\nfunction test_config()\r\n  qry = cnn:query()\r\n  assert_equal(cnn, qry:connection())\r\n\r\n  local p1 = assert_boolean(cnn:get_config(\"FORCE_REPLACE_PARAMS\"))\r\n  local p2 = assert_boolean(cnn:get_config(\"IGNORE_NAMED_PARAMS\") )\r\n\r\n  assert_equal(p1, qry:get_config(\"FORCE_REPLACE_PARAMS\"))\r\n  assert_equal(p2, qry:get_config(\"IGNORE_NAMED_PARAMS\"))\r\n\r\n  cnn:set_config(\"FORCE_REPLACE_PARAMS\", not p1)\r\n  qry:set_config(\"IGNORE_NAMED_PARAMS\",  not p2)\r\n\r\n  assert_equal( not p1, cnn:get_config(\"FORCE_REPLACE_PARAMS\") )\r\n  assert_equal(     p2, cnn:get_config(\"IGNORE_NAMED_PARAMS\")  )\r\n  assert_equal( not p1, qry:get_config(\"FORCE_REPLACE_PARAMS\") )\r\n  assert_equal( not p2, qry:get_config(\"IGNORE_NAMED_PARAMS\")  )\r\n  \r\n  qry:set_config(\"IGNORE_NAMED_PARAMS\", nil)\r\n  assert_equal( p2, qry:get_config(\"IGNORE_NAMED_PARAMS\")  )\r\nend\r\n\r\nfunction test_fetch_all()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  qry = assert(cnn:query(sql))\r\n  local t = assert_table(qry:fetch_all(\"n\"))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  qry = assert(cnn:query(sql))\r\n  local t = assert_table(qry:fetch_all(\"a\"))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row.ID))\r\n    assert_nil(row[1])\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  qry = assert(cnn:query(sql))\r\n  local t = assert_table(qry:fetch_all(\"an\"))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_equal(i, to_n(row.ID))\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  qry = assert(cnn:query())\r\n  local t = assert_table(qry:fetch_all(\"n\", sql))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  qry = assert(cnn:query())\r\n  local t = assert_table(qry:fetch_all(\"a\", sql))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row.ID))\r\n    assert_nil(row[1])\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  qry = assert(cnn:query())\r\n  local t = assert_table(qry:fetch_all(\"an\", sql))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_equal(i, to_n(row.ID))\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  sql = \"select ID, Name from Agent where ID=:ID order by ID\"\r\n  qry = assert(cnn:query(sql))\r\n  local t = assert_table(qry:fetch_all(\"n\", {ID=1}))\r\n  assert_equal(1, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  sql = \"select ID, Name from Agent where ID=:ID order by ID\"\r\n  qry = assert(cnn:query())\r\n  local t = assert_table(qry:fetch_all(\"n\", sql, {ID=1}))\r\n  assert_equal(1, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  sql = \"select ID, Name from Agent where ID=:ID order by ID\"\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(\"ID\", 1))\r\n  local t = assert_table(qry:fetch_all(\"n\"))\r\n  assert_equal(1, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\nend\r\n\r\nend\r\n\r\nlocal _ENV = TEST_CASE('ODBC.' .. name) do\r\n\r\nlocal dba, cnn, qry\r\nlocal IS_ODBC\r\n\r\nfunction setup()\r\n  local CNN_PARAMS dba, CNN_PARAMS = LoadLib[CNN_TYPE]()\r\n  cnn = assert(dba.Connect(unpack(CNN_PARAMS)))\r\n  IS_ODBC = not not (cnn.statement and cnn.driverconnect)\r\n  if not IS_ODBC then return end\r\n  init_db(cnn)\r\nend\r\n\r\nfunction teardown()\r\n  if qry then qry:destroy() end\r\n  if cnn then cnn:destroy() end\r\nend\r\n\r\nfunction test_bind_variables()\r\n  if not IS_ODBC then return end\r\n  local ID = dba.ulong(555)\r\n  local sql = \"select ID, Name from Agent where 555=cast(:ID as INTEGER) order by ID\"\r\n\r\n  local n\r\n  local function do_test(ID, Name) \r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  qry:each(sql, {ID=ID}, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(\"ID\", ID))\r\n  qry:each(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  \r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(\"ID\", ID))\r\n  local vID = assert(qry:vbind_col_ulong(1))\r\n  assert(qry:open())\r\n  while qry:vfetch() do\r\n    n = n + 1\r\n    assert_equal(n, vID:get())\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\nend\r\n\r\nfunction test_async()\r\n  if not IS_ODBC then return end\r\n  assert_boolean(cnn:supports_async_mode())\r\n  assert_boolean(cnn:supports_async_connection())\r\n  assert_boolean(cnn:supports_async_statement())\r\n  assert_boolean(cnn:supports_async_query())\r\n  qry = assert(cnn:query())\r\n  assert_boolean(qry:supports_async_mode())\r\nend\r\n\r\nend\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "local function init_db(cnn)\r\n  local fmt = string.format\r\n  assert(cnn:exec\"create table Agent(ID INTEGER PRIMARY KEY, Name char(32))\")\r\n  for i = 1, CNN_ROWS do\r\n    assert(cnn:exec(fmt(\"insert into Agent(ID,NAME)values(%d, 'Agent#%d')\", i, i)))\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function setup()\r\n  local CNN_PARAMS dba, CNN_PARAMS = LoadLib[CNN_TYPE]()\r\n  cnn = assert(dba.Connect(unpack(CNN_PARAMS)))\r\n  init_db(cnn)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function teardown()\r\n  if cnn then cnn:destroy() end\r\n  if env then env:destroy() end\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function test_interface()\r\n  assert_not_nil(dba.PARAM_NULL)\r\n  assert_not_nil(dba.PARAM_DEFAULT)\r\n  assert_function(dba.Environment)\r\n  assert_function(dba.Connection)\r\n  assert_function(dba.Connect)\r\n  env = dba.Environment()\r\n  assert_function(env.connection)\r\n  assert_function(env.connect)\r\n  assert_function(env.destroy)\r\n  assert_function(env.destroyed)\r\n  assert_function(env.handle)\r\n  assert_function(env.set_config)\r\n  assert_function(env.get_config)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function setup()\r\n  local CNN_PARAMS dba, CNN_PARAMS = LoadLib[CNN_TYPE]()\r\n  cnn = assert(dba.Connect(unpack(CNN_PARAMS)))\r\n  init_db(cnn)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function teardown()\r\n  if cnn then cnn:destroy() end\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function test_interface()\r\n  assert_function(cnn.connect)\r\n  assert_function(cnn.disconnect)\r\n  assert_function(cnn.connected)\r\n  assert_function(cnn.destroy)\r\n  assert_function(cnn.destroyed)\r\n  assert_function(cnn.exec)\r\n  assert_function(cnn.each)\r\n  assert_function(cnn.ieach)\r\n  assert_function(cnn.neach)\r\n  assert_function(cnn.teach)\r\n  assert_function(cnn.first_row)\r\n  assert_function(cnn.first_irow)\r\n  assert_function(cnn.first_nrow)\r\n  assert_function(cnn.first_trow)\r\n  assert_function(cnn.first_value)\r\n  assert_function(cnn.fetch_all)\r\n  assert_function(cnn.rows)\r\n  assert_function(cnn.irows)\r\n  assert_function(cnn.nrows)\r\n  assert_function(cnn.trows)\r\n  assert_function(cnn.commit)\r\n  assert_function(cnn.rollback)\r\n  assert_function(cnn.set_autocommit)\r\n  assert_function(cnn.get_autocommit)\r\n  assert_function(cnn.query)\r\n  assert_function(cnn.prepare)\r\n  assert_function(cnn.handle)\r\n  assert_function(cnn.set_config)\r\n  assert_function(cnn.get_config)\r\n  assert_function(cnn.environment)\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function test_reconnect()\r\n  assert_true(cnn:connected())\r\n  assert_true(cnn:disconnect())\r\n  assert_false(not not cnn:connected())\r\n  assert_true(not not cnn:connect())\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function test_exec_fail()\r\n  assert_nil(cnn:exec(\"select ID, Name from Agent order by ID\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function test_each()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local n = 0\r\n  cnn:each(sql, function(ID, Name) \r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end)\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  cnn:ieach(sql, function(row) \r\n    n = n + 1\r\n    assert_equal(n, to_n(row[1]))\r\n  end)\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  cnn:neach(sql, function(row) \r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n  end)\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  cnn:teach(sql, function(row) \r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n    assert_equal(n, to_n(row[1]))\r\n  end)\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  local args = pack_n(cnn:each(sql, function(ID, Name) \r\n    n = n + 1\r\n    return nil, 1, nil, 2\r\n  end))\r\n  assert_equal(1, n)\r\n  assert_equal(4, args.n)\r\n  assert_equal(1, args[2])\r\n  assert_equal(2, args[4])\r\n  assert_nil(args[1])\r\n  assert_nil(args[3])\r\n\r\n  n = 0\r\n  sql = \"select ID, Name from Agent where ID > :ID order by ID\"\r\n  local par = {ID = 1}\r\n  assert_true(cnn:each(sql, par, function(ID)\r\n    n = n + 1\r\n    assert_equal(par.ID + 1, to_n(ID))\r\n    return true\r\n  end))\r\n  assert_equal(1, n)\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function test_rows()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local n = 0\r\n  for ID, Name in cnn:rows(sql) do\r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  for row in cnn:irows(sql) do\r\n    n = n + 1\r\n    assert_equal(n, to_n(row[1]))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  for row in cnn:nrows(sql) do\r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  for row in cnn:trows(sql) do\r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n    assert_equal(n, to_n(row[1]))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n\r\n  n = 0\r\n  sql = \"select ID, Name from Agent where ID > :ID order by ID\"\r\n  local par = {ID = 1}\r\n  for ID in cnn:rows(sql, par) do\r\n    n = n + 1\r\n    assert_equal(par.ID + 1, to_n(ID))\r\n    break\r\n  end\r\n  assert_equal(1, n)\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function test_first()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local ID, Name = cnn:first_row(sql)\r\n  assert_equal(1, to_n(ID))\r\n  assert_equal(\"Agent#1\", Name)\r\n\r\n  local row\r\n  row = cnn:first_nrow(sql)\r\n  assert_equal(1, to_n(row.ID))\r\n  assert_equal(\"Agent#1\", row.Name)\r\n\r\n  row = cnn:first_irow(sql)\r\n  assert_equal(1, to_n(row[1]))\r\n  assert_equal(\"Agent#1\", row[2])\r\n\r\n  row = cnn:first_trow(sql)\r\n  assert_equal(1, to_n(row[1]))\r\n  assert_equal(1, to_n(row.ID))\r\n  assert_equal(\"Agent#1\", row[2])\r\n  assert_equal(\"Agent#1\", row.Name)\r\n\r\n  assert_equal(CNN_ROWS, to_n(cnn:first_value(\"select count(*) from Agent\")))\r\n  assert_equal(CNN_ROWS, to_n(cnn:first_value(\"select ID from Agent where ID=:ID\",{ID=CNN_ROWS})))\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function test_txn()\r\n  assert_equal(CNN_ROWS, to_n(cnn:first_value(\"select count(*) from Agent\")))\r\n  cnn:set_autocommit(false)\r\n  assert_number(cnn:exec(\"delete from Agent\"))\r\n  assert_equal(0, to_n(cnn:first_value(\"select count(*) from Agent\")))\r\n  cnn:rollback()\r\n  assert_equal(CNN_ROWS, to_n(cnn:first_value(\"select count(*) from Agent\")))\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "function test_rowsaffected()\r\n  assert_equal(CNN_ROWS, to_n(cnn:first_value(\"select count(*) from Agent\")))\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "function test_exec()\r\n  assert_nil(cnn:exec(\"select ID, Name from Agent order by ID\"))\r\n  assert_number(cnn:exec(\"update Agent set ID=ID\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "function test_config()\r\n  local env = assert(cnn:environment())\r\n  local p1 = assert_boolean(env:get_config(\"FORCE_REPLACE_PARAMS\"))\r\n  local p2 = assert_boolean(env:get_config(\"IGNORE_NAMED_PARAMS\") )\r\n\r\n  assert_equal(p1, cnn:get_config(\"FORCE_REPLACE_PARAMS\"))\r\n  assert_equal(p2, cnn:get_config(\"IGNORE_NAMED_PARAMS\"))\r\n\r\n  env:set_config(\"FORCE_REPLACE_PARAMS\", not p1)\r\n  cnn:set_config(\"IGNORE_NAMED_PARAMS\",  not p2)\r\n\r\n  assert_equal( not p1, env:get_config(\"FORCE_REPLACE_PARAMS\") )\r\n  assert_equal(     p2, env:get_config(\"IGNORE_NAMED_PARAMS\")  )\r\n  assert_equal( not p1, cnn:get_config(\"FORCE_REPLACE_PARAMS\") )\r\n  assert_equal( not p2, cnn:get_config(\"IGNORE_NAMED_PARAMS\")  )\r\n  \r\n  cnn:set_config(\"IGNORE_NAMED_PARAMS\", nil)\r\n  assert_equal( p2, cnn:get_config(\"IGNORE_NAMED_PARAMS\")  )\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "function test_apply_params()\r\n  cnn:set_config(\"FORCE_REPLACE_PARAMS\", true)\r\n  assert_equal(1, cnn:exec([[\r\n    update Agent set NAME = NAME where id=:id;\r\n  ]],{id=1}))\r\n  assert_equal(1, cnn:exec([[\r\n    update Agent set NAME = NAME where NAME=:NAME;\r\n  ]],{NAME=\"Agent#1\"}))\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "function test_fetch_all()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local t = assert_table(cnn:fetch_all(\"n\", sql))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\n  \r\n  local t = assert_table(cnn:fetch_all(\"a\", sql))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row.ID))\r\n    assert_nil(row[1])\r\n  end\r\n\r\n  local t = assert_table(cnn:fetch_all(\"an\", sql))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_equal(i, to_n(row.ID))\r\n  end\r\n\r\n  local sql = \"select ID, Name from Agent where ID=:ID order by ID\"\r\n  local t = assert_table(cnn:fetch_all(\"n\", sql, {ID=1}))\r\n  assert_equal(1, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "function setup()\r\n  local CNN_PARAMS dba, CNN_PARAMS = LoadLib[CNN_TYPE]()\r\n  cnn = assert(dba.Connect(unpack(CNN_PARAMS)))\r\n  init_db(cnn)\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "function teardown()\r\n  if qry then qry:destroy() end\r\n  if cnn then cnn:destroy() end\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "function test_interface()\r\n  qry = cnn:query()\r\n  assert_function(qry.open)\r\n  assert_function(qry.close)\r\n  assert_function(qry.closed)\r\n  assert_function(qry.opened)\r\n  assert_function(qry.destroy)\r\n  assert_function(qry.destroyed)\r\n  assert_function(qry.exec)\r\n  assert_function(qry.each)\r\n  assert_function(qry.ieach)\r\n  assert_function(qry.neach)\r\n  assert_function(qry.teach)\r\n  assert_function(qry.first_row)\r\n  assert_function(qry.first_irow)\r\n  assert_function(qry.first_nrow)\r\n  assert_function(qry.first_trow)\r\n  assert_function(qry.first_value)\r\n  assert_function(qry.fetch_all)\r\n  assert_function(qry.rows)\r\n  assert_function(qry.irows)\r\n  assert_function(qry.nrows)\r\n  assert_function(qry.trows)\r\n  assert_function(qry.set_autoclose)\r\n  assert_function(qry.get_autoclose)\r\n  assert_function(qry.prepare)\r\n  assert_function(qry.prepared)\r\n  assert_function(qry.unprepare)\r\n  assert_function(qry.supports_prepare)\r\n  assert_function(qry.set_sql)\r\n  assert_function(qry.bind)\r\n  assert_function(qry.handle)\r\n  assert_function(qry.set_config)\r\n  assert_function(qry.get_config)\r\n  assert_function(qry.connection)\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "function test_create()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local n\r\n  local function do_test(ID, Name) \r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  qry:each(sql, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  qry:each(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  sql = \"select ID, Name from Agent where 555=cast(:ID as INTEGER) order by ID\"\r\n  local par = {ID = 555}\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  qry:each(sql, par, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  qry:each(par, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(par))\r\n  qry:each(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  --------------------------------------------------------\r\n  sql = \"select ID, Name from Agent order by ID\"\r\n  local function do_test(row) \r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n  end\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  qry:neach(sql, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  qry:neach(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  sql = \"select ID, Name from Agent where 555=cast(:ID as INTEGER) order by ID\"\r\n  local par = {ID = 555}\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  qry:neach(sql, par, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  qry:neach(par, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(par))\r\n  qry:neach(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "local function do_test(ID, Name) \r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "local function do_test(row) \r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "function test_exec_fail()\r\n  qry = assert(cnn:query())\r\n  assert_nil(qry:exec(\"select ID, Name from Agent order by ID\"))\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "function test_each()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  qry:each(sql, function(ID)\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  assert(qry:open(sql))\r\n  assert_nil(\r\n    qry:each(sql, function(ID)\r\n      n = n + 1 assert_equal(n, to_n(ID))\r\n    end)\r\n  )\r\n  assert_equal(0, n)\r\n  qry:each(function(ID)\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "function test_rows()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local n\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  for ID, Name in qry:rows(sql) do\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  for ID, Name in qry:rows() do\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  sql = \"select ID, Name from Agent where 555=cast(:ID as INTEGER) order by ID\"\r\n  local par = {ID = 555}\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  for ID, Name in qry:rows(sql, par) do\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  for ID, Name in qry:rows(par) do\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(par))\r\n  for ID, Name in qry:rows() do\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  --------------------------------------------------\r\n\r\n  sql = \"select ID, Name from Agent order by ID\"\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  for row in qry:nrows(sql) do\r\n    n = n + 1 assert_equal(n, to_n(row.ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  for row in qry:nrows() do\r\n    n = n + 1 assert_equal(n, to_n(row.ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  sql = \"select ID, Name from Agent where 555=cast(:ID as INTEGER) order by ID\"\r\n  local par = {ID = 555}\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  for row in qry:nrows(sql, par) do\r\n    n = n + 1 assert_equal(n, to_n(row.ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  for row in qry:nrows(par) do\r\n    n = n + 1 assert_equal(n, to_n(row.ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(par))\r\n  for row in qry:nrows() do\r\n    n = n + 1 assert_equal(n, to_n(row.ID))\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "function test_prepare()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  local n\r\n  local function do_test(ID, Name) \r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end\r\n\r\n  n = 0\r\n  qry = assert(cnn:prepare(sql))\r\n  qry:each(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  sql = \"select ID, Name from Agent where 555 = cast(:ID as INTEGER) order by ID\"\r\n  local par = {ID = 555}\r\n\r\n  n = 0\r\n  qry = assert(cnn:prepare(sql))\r\n  qry:each(par, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:prepare(sql))\r\n  assert_true(qry:bind(par))\r\n  qry:each(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:prepare(sql))\r\n  assert_true(qry:bind(\"ID\", par.ID))\r\n  qry:each(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  if qry.bindnum then\r\n    n = 0\r\n    qry = assert(cnn:prepare(sql))\r\n    assert_true(qry:bind(1, par.ID))\r\n    qry:each(do_test)\r\n    assert_equal(CNN_ROWS, n)\r\n    qry:destroy()\r\n\r\n    n = 0\r\n    qry = assert(cnn:prepare(sql))\r\n    assert_true(qry:bind{par.ID})\r\n    qry:each(do_test)\r\n    assert_equal(CNN_ROWS, n)\r\n    qry:destroy()\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "local function do_test(ID, Name) \r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "function test_unprepare()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  qry = assert(cnn:prepare(sql))\r\n  assert_equal(qry:supports_prepare(), qry:prepared())\r\n  assert_true(qry:unprepare())\r\n  assert_false(qry:prepared())\r\n  qry:destroy()\r\nend",
+    "type": "function"
+  }, {
+    "id": 36,
+    "text": "function test_destroy()\r\n  qry = assert(cnn:query())\r\n  assert_true(qry:closed())\r\n  assert_false(qry:destroyed())\r\n  qry:open(\"select ID, Name from Agent order by ID\")\r\n  assert_false(qry:closed())\r\n  assert_false(qry:destroyed())\r\n  assert_pass(function() cnn:destroy() end)\r\n  -- assert_pass(function() qry:closed()  end)\r\n  -- assert_true(qry:closed())\r\n  assert_true(qry:destroyed())\r\n  assert_pass(function() qry:destroy() end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "function test_first()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  qry = cnn:query()\r\n  local ID, Name = qry:first_row(sql)\r\n  assert_equal(1, to_n(ID))\r\n  assert_equal(\"Agent#1\", Name)\r\n\r\n  local row\r\n  row = qry:first_nrow(sql)\r\n  assert_equal(1, to_n(row.ID))\r\n  assert_equal(\"Agent#1\", row.Name)\r\n\r\n  row = qry:first_irow(sql)\r\n  assert_equal(1, to_n(row[1]))\r\n  assert_equal(\"Agent#1\", row[2])\r\n\r\n  row = qry:first_trow(sql)\r\n  assert_equal(1, to_n(row[1]))\r\n  assert_equal(1, to_n(row.ID))\r\n  assert_equal(\"Agent#1\", row[2])\r\n  assert_equal(\"Agent#1\", row.Name)\r\n\r\n  local v = assert(qry:first_value(\"select count(*) from Agent\"))\r\n  assert_equal(CNN_ROWS, to_n(v))\r\n  local v = assert(qry:first_value(\"select ID from Agent where ID=:ID\",{ID=CNN_ROWS}))\r\n  assert_equal(CNN_ROWS, to_n(v))\r\n  qry:destroy()\r\n\r\n  sql = \"select ID, Name from Agent where ID=:ID\"\r\n  local par = {ID=CNN_ROWS}\r\n  local Agent = \"Agent#\" .. CNN_ROWS\r\n\r\n  qry = cnn:prepare(sql)\r\n\r\n  ID, Name = qry:first_row(par)\r\n  assert_equal(CNN_ROWS, to_n(ID))\r\n  assert_equal(Agent, Name)\r\n\r\n  row = qry:first_nrow(par)\r\n  assert_equal(CNN_ROWS, to_n(row.ID))\r\n  assert_equal(Agent, row.Name)\r\n\r\n  row = qry:first_irow(par)\r\n  assert_equal(CNN_ROWS, to_n(row[1]))\r\n  assert_equal(Agent, row[2])\r\n\r\n  row = qry:first_trow(par)\r\n  assert_equal(CNN_ROWS, to_n(row[1]))\r\n  assert_equal(CNN_ROWS, to_n(row.ID))\r\n  assert_equal(Agent, row[2])\r\n  assert_equal(Agent, row.Name)\r\n\r\n  qry:destroy()\r\n\r\n  qry = cnn:prepare(sql)\r\n  assert_true(qry:bind(par))\r\n\r\n  ID, Name = qry:first_row()\r\n  assert_equal(CNN_ROWS, to_n(ID))\r\n  assert_equal(Agent, Name)\r\n\r\n  row = qry:first_nrow()\r\n  assert_equal(CNN_ROWS, to_n(row.ID))\r\n  assert_equal(Agent, row.Name)\r\n\r\n  row = qry:first_irow()\r\n  assert_equal(CNN_ROWS, to_n(row[1]))\r\n  assert_equal(Agent, row[2])\r\n\r\n  row = qry:first_trow()\r\n  assert_equal(CNN_ROWS, to_n(row[1]))\r\n  assert_equal(CNN_ROWS, to_n(row.ID))\r\n  assert_equal(Agent, row[2])\r\n  assert_equal(Agent, row.Name)\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "function test_config()\r\n  qry = cnn:query()\r\n  assert_equal(cnn, qry:connection())\r\n\r\n  local p1 = assert_boolean(cnn:get_config(\"FORCE_REPLACE_PARAMS\"))\r\n  local p2 = assert_boolean(cnn:get_config(\"IGNORE_NAMED_PARAMS\") )\r\n\r\n  assert_equal(p1, qry:get_config(\"FORCE_REPLACE_PARAMS\"))\r\n  assert_equal(p2, qry:get_config(\"IGNORE_NAMED_PARAMS\"))\r\n\r\n  cnn:set_config(\"FORCE_REPLACE_PARAMS\", not p1)\r\n  qry:set_config(\"IGNORE_NAMED_PARAMS\",  not p2)\r\n\r\n  assert_equal( not p1, cnn:get_config(\"FORCE_REPLACE_PARAMS\") )\r\n  assert_equal(     p2, cnn:get_config(\"IGNORE_NAMED_PARAMS\")  )\r\n  assert_equal( not p1, qry:get_config(\"FORCE_REPLACE_PARAMS\") )\r\n  assert_equal( not p2, qry:get_config(\"IGNORE_NAMED_PARAMS\")  )\r\n  \r\n  qry:set_config(\"IGNORE_NAMED_PARAMS\", nil)\r\n  assert_equal( p2, qry:get_config(\"IGNORE_NAMED_PARAMS\")  )\r\nend",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "function test_fetch_all()\r\n  local sql = \"select ID, Name from Agent order by ID\"\r\n  qry = assert(cnn:query(sql))\r\n  local t = assert_table(qry:fetch_all(\"n\"))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  qry = assert(cnn:query(sql))\r\n  local t = assert_table(qry:fetch_all(\"a\"))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row.ID))\r\n    assert_nil(row[1])\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  qry = assert(cnn:query(sql))\r\n  local t = assert_table(qry:fetch_all(\"an\"))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_equal(i, to_n(row.ID))\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  qry = assert(cnn:query())\r\n  local t = assert_table(qry:fetch_all(\"n\", sql))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  qry = assert(cnn:query())\r\n  local t = assert_table(qry:fetch_all(\"a\", sql))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row.ID))\r\n    assert_nil(row[1])\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  qry = assert(cnn:query())\r\n  local t = assert_table(qry:fetch_all(\"an\", sql))\r\n  assert_equal(CNN_ROWS, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_equal(i, to_n(row.ID))\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  sql = \"select ID, Name from Agent where ID=:ID order by ID\"\r\n  qry = assert(cnn:query(sql))\r\n  local t = assert_table(qry:fetch_all(\"n\", {ID=1}))\r\n  assert_equal(1, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  sql = \"select ID, Name from Agent where ID=:ID order by ID\"\r\n  qry = assert(cnn:query())\r\n  local t = assert_table(qry:fetch_all(\"n\", sql, {ID=1}))\r\n  assert_equal(1, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\n  sql = \"select ID, Name from Agent where ID=:ID order by ID\"\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(\"ID\", 1))\r\n  local t = assert_table(qry:fetch_all(\"n\"))\r\n  assert_equal(1, #t)\r\n  for i, row in ipairs(t)do\r\n    assert_equal(i, to_n(row[1]))\r\n    assert_nil(row.ID)\r\n  end\r\n  assert_true(qry:destroy())\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 40,
+    "text": "function setup()\r\n  local CNN_PARAMS dba, CNN_PARAMS = LoadLib[CNN_TYPE]()\r\n  cnn = assert(dba.Connect(unpack(CNN_PARAMS)))\r\n  IS_ODBC = not not (cnn.statement and cnn.driverconnect)\r\n  if not IS_ODBC then return end\r\n  init_db(cnn)\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "function teardown()\r\n  if qry then qry:destroy() end\r\n  if cnn then cnn:destroy() end\r\nend",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "function test_bind_variables()\r\n  if not IS_ODBC then return end\r\n  local ID = dba.ulong(555)\r\n  local sql = \"select ID, Name from Agent where 555=cast(:ID as INTEGER) order by ID\"\r\n\r\n  local n\r\n  local function do_test(ID, Name) \r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end\r\n\r\n  n = 0\r\n  qry = assert(cnn:query())\r\n  qry:each(sql, {ID=ID}, do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(\"ID\", ID))\r\n  qry:each(do_test)\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\n\r\n  \r\n  n = 0\r\n  qry = assert(cnn:query(sql))\r\n  assert_true(qry:bind(\"ID\", ID))\r\n  local vID = assert(qry:vbind_col_ulong(1))\r\n  assert(qry:open())\r\n  while qry:vfetch() do\r\n    n = n + 1\r\n    assert_equal(n, vID:get())\r\n  end\r\n  assert_equal(CNN_ROWS, n)\r\n  qry:destroy()\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "local function do_test(ID, Name) \r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 44,
+    "text": "function test_async()\r\n  if not IS_ODBC then return end\r\n  assert_boolean(cnn:supports_async_mode())\r\n  assert_boolean(cnn:supports_async_connection())\r\n  assert_boolean(cnn:supports_async_statement())\r\n  assert_boolean(cnn:supports_async_query())\r\n  qry = assert(cnn:query())\r\n  assert_boolean(qry:supports_async_mode())\r\nend",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "function()\r\n    return require \"odbc.dba\",{\r\n      {\r\n        Driver   = IS_WINDOWS and \"SQLite3 ODBC Driver\" or \"SQLite3\";\r\n        Database = \":memory:\";\r\n      }\r\n    }\r\n  end",
+    "type": "function"
+  }, {
+    "id": 46,
+    "text": "function()\r\n    return require \"dba.luasql\".load('sqlite3'), {\":memory:\"}\r\n  end",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "function()\r\n    local dba = require \"dba\"\r\n    local luasql = require \"odbc.luasql\"\r\n    dba = dba.load(luasql.odbc)\r\n    return dba, {\"SQLite3memory\"}\r\n  end",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "function(ID, Name) \r\n    n = n + 1\r\n    assert_equal(n, to_n(ID))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "function(row) \r\n    n = n + 1\r\n    assert_equal(n, to_n(row[1]))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 50,
+    "text": "function(row) \r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 51,
+    "text": "function(row) \r\n    n = n + 1\r\n    assert_equal(n, to_n(row.ID))\r\n    assert_equal(n, to_n(row[1]))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 52,
+    "text": "function(ID, Name) \r\n    n = n + 1\r\n    return nil, 1, nil, 2\r\n  end",
+    "type": "function"
+  }, {
+    "id": 53,
+    "text": "function(ID)\r\n    n = n + 1\r\n    assert_equal(par.ID + 1, to_n(ID))\r\n    return true\r\n  end",
+    "type": "function"
+  }, {
+    "id": 54,
+    "text": "function(ID)\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 55,
+    "text": "function(ID)\r\n      n = n + 1 assert_equal(n, to_n(ID))\r\n    end",
+    "type": "function"
+  }, {
+    "id": 56,
+    "text": "function(ID)\r\n    n = n + 1 assert_equal(n, to_n(ID))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 57,
+    "text": "function() cnn:destroy() end",
+    "type": "function"
+  }, {
+    "id": 58,
+    "text": "function() qry:destroy() end",
+    "type": "function"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 60,
+    "text": "run",
+    "type": "global function"
+  }, {
+    "id": 61,
+    "text": "load",
+    "type": "global function"
+  }, {
+    "id": 62,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 63,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 64,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 65,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 66,
+    "text": "run_test",
+    "type": "global function"
+  }, {
+    "id": 67,
+    "text": "setfenv",
+    "type": "global function"
+  }, {
+    "id": 68,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 70,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 71,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 72,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 73,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 74,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 75,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 76,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 78,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 79,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 81,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 83,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 85,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 86,
+    "text": "",
+    "type": "unop"
+  } ]
+}

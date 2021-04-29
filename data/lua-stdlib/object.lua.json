@@ -1,0 +1,221 @@
+{
+  "_filename": "object.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-stdlib/src/object.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 11,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 11,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "assigns",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "object",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function (self, ...)\r\n    local object = table.clone (self)\r\n    if type (self._init) == \"table\" then\r\n      table.merge (object, table.clone_rename (self._init, ...))\r\n    else\r\n      object = self._init (object, ...)\r\n    end\r\n    return setmetatable (object, object)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local object = table.clone (self)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "if type (self._init) == \"table\" then\r\n      table.merge (object, table.clone_rename (self._init, ...))\r\n    else\r\n      object = self._init (object, ...)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "table.merge (object, table.clone_rename (self._init, ...))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "object = self._init (object, ...)",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function (...)\r\n    -- First (...) gets first element of list\r\n    return (...)._clone (...)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 12,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "_init",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "clone_rename",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "merge",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "clone",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

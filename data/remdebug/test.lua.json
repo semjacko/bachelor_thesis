@@ -1,0 +1,185 @@
+{
+  "_filename": "test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/remdebug/tests/test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 3
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 4,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 11,
+    "label": "initializes",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "assigns",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "assigns",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "assigns",
+    "to": 16
+  }, {
+    "from": 14,
+    "label": "assigns",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  }, {
+    "from": 12,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "engine",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "test",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function start()\r\n  pcall(require, \"remdebug.config\")\r\n  local server = socket.connect(controller_host, controller_port)\r\n  if server then\r\n    _TRACEBACK = function (message) \r\n      local err = debug.traceback(message)\r\n      server:send(\"401 Error in Execution \" .. string.len(err) .. \"\\n\")\r\n      server:send(err)\r\n      server:close()\r\n      return err\r\n    end\r\n    debug.sethook(debug_hook, \"lcr\")\r\n    return coroutine.resume(coro_debugger, server)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function bar()\r\n  print(\"In bar 1\")\r\n  print(\"In bar 2\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "print(\"In bar 1\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "print(\"In bar 2\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 9,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "table assign node"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "global variable"
+  } ]
+}

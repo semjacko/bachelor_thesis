@@ -1,0 +1,253 @@
+{
+  "_filename": "md5.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/md5/src/md5.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 23,
+    "label": "initializes",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "requires",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "represents",
+    "to": 27
+  }, {
+    "from": 26,
+    "label": "provides",
+    "to": 27
+  }, {
+    "from": 28,
+    "label": "requires",
+    "to": 1
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "md5",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function core.sumhexa (k)\r\n  k = core.sum(k)\r\n  return (string.gsub(k, \".\", function (c)\r\n           return string.format(\"%02x\", string.byte(c))\r\n         end))\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "k = core.sum(k)",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function (c)\r\n           return string.format(\"%02x\", string.byte(c))\r\n         end",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 9,
+    "text": "crypt",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "decrypt",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "exor",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "sumhexa",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "sum",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "string",
+    "type": "module"
+  }, {
+    "id": 15,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "getenv",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "byte",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "loadlib",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "find",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

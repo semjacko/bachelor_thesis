@@ -1,0 +1,117 @@
+{
+  "_filename": "my_hook.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/luacov/tests/hook/my_hook.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "initializes",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "provides",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "provides",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "requires",
+    "to": 2
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "runner",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "my_hook",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function(_, line) runner.debug_hook(_, line, 3) end",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "runner.debug_hook(_, line, 3)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "debug_hook",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

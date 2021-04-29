@@ -1,0 +1,389 @@
+{
+  "_filename": "Template_test.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lub/test/Template_test.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 2
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 20,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 34
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 35
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 33
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 30,
+    "label": "calls",
+    "to": 37
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 36
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 15,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 20,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 31
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 3
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 10
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 15
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 20
+  }, {
+    "from": 30,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 38,
+    "label": "initializes",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "assigns",
+    "to": 41
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 39,
+    "label": "initializes",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "requires",
+    "to": 32
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "lub",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "Template_test",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function should.autoload()\r\n  assertType('table', lub.Template)\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "assertType('table', lub.Template)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function should.transformToLua()\r\n  local code = lub.Template [[\r\n{% for h in self:headers() do %}\r\n#include \"{{h.path}}\"\r\n{% end %}\r\n]]\r\n  assertMatch('_out_.%[=%[.#include \".', code.lua)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "local code = lub.Template [[\r\n{% for h in self:headers() do %}\r\n#include \"{{h.path}}\"\r\n{% end %}\r\n]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "assertMatch('_out_.%[=%[.#include \".', code.lua)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "function should.executeTemplate()\r\n  local code = lub.Template [[\r\n{% for _,l in ipairs(list) do %}\r\n#include \"{{l}}\"\r\n{% end %}\r\n]]\r\n  local res = code:run {list = {'foo/bar.h','baz.h','dingo.h'}}\r\n  assertEqual([[\r\n#include \"foo/bar.h\"\r\n#include \"baz.h\"\r\n#include \"dingo.h\"\r\n]], res)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "local code = lub.Template [[\r\n{% for _,l in ipairs(list) do %}\r\n#include \"{{l}}\"\r\n{% end %}\r\n]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 12,
+    "text": "local res = code:run {list = {'foo/bar.h','baz.h','dingo.h'}}",
+    "type": "statement:localassign"
+  }, {
+    "id": 13,
+    "text": "assertEqual([[\r\n#include \"foo/bar.h\"\r\n#include \"baz.h\"\r\n#include \"dingo.h\"\r\n]], res)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 15,
+    "text": "function should.properlyHandleEnlines()\r\n  local code = lub.Template [[\r\nHello my name is {{foo}}\r\nand I live here.\r\n]]\r\n  local res = code:run {foo = 'FOO'}\r\n  assertEqual([[\r\nHello my name is FOO\r\nand I live here.\r\n]], res)\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "local code = lub.Template [[\r\nHello my name is {{foo}}\r\nand I live here.\r\n]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 17,
+    "text": "local res = code:run {foo = 'FOO'}",
+    "type": "statement:localassign"
+  }, {
+    "id": 18,
+    "text": "assertEqual([[\r\nHello my name is FOO\r\nand I live here.\r\n]], res)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 20,
+    "text": "function should.properyHandleSingleBraces()\r\n  local code = lub.Template [[\r\nstatic int {{name}}(lua_State *L) {\r\n  {{body}}\r\n}\r\n]]\r\n  local res = code:run {name = 'hello', body = 'return 0;'}\r\n  assertEqual([[\r\nstatic int hello(lua_State *L) {\r\n  return 0;\r\n}\r\n]], res)\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "local code = lub.Template [[\r\nstatic int {{name}}(lua_State *L) {\r\n  {{body}}\r\n}\r\n]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 22,
+    "text": "local res = code:run {name = 'hello', body = 'return 0;'}",
+    "type": "statement:localassign"
+  }, {
+    "id": 23,
+    "text": "assertEqual([[\r\nstatic int hello(lua_State *L) {\r\n  return 0;\r\n}\r\n]], res)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function should.indent()\r\n  local code = lub.Template [[\r\nstatic int {{name}}(lua_State *L) {\r\n  {| body |}\r\n}\r\n]]\r\n  local res = code:run {name = 'hello', body = '// blah blah\\nreturn 0;'}\r\n  assertEqual([[\r\nstatic int hello(lua_State *L) {\r\n  // blah blah\r\n  return 0;\r\n}\r\n]], res)\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "local code = lub.Template [[\r\nstatic int {{name}}(lua_State *L) {\r\n  {| body |}\r\n}\r\n]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "local res = code:run {name = 'hello', body = '// blah blah\\nreturn 0;'}",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "assertEqual([[\r\nstatic int hello(lua_State *L) {\r\n  // blah blah\r\n  return 0;\r\n}\r\n]], res)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 31,
+    "text": "Template",
+    "type": "global function"
+  }, {
+    "id": 32,
+    "text": "lut",
+    "type": "module"
+  }, {
+    "id": 33,
+    "text": "Test",
+    "type": "global function"
+  }, {
+    "id": 34,
+    "text": "assertEqual",
+    "type": "global function"
+  }, {
+    "id": 35,
+    "text": "assertType",
+    "type": "global function"
+  }, {
+    "id": 36,
+    "text": "assertMatch",
+    "type": "global function"
+  }, {
+    "id": 37,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 38,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 39,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 40,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 42,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

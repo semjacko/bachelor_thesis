@@ -1,0 +1,221 @@
+{
+  "_filename": "uuid.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lua-apr/test/uuid.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "assigns",
+    "to": 18
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 15,
+    "label": "initializes",
+    "to": 20
+  }, {
+    "from": 20,
+    "label": "assigns",
+    "to": 21
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "uuid",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function()\r\n  for i = 1, 32000 do\r\n    uuid = assert(apr.uuid_get())\r\n    assert(not set[uuid], 'duplicate UUID!')\r\n    set[uuid] = true\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "for i = 1, 32000 do\r\n    uuid = assert(apr.uuid_get())\r\n    assert(not set[uuid], 'duplicate UUID!')\r\n    set[uuid] = true\r\n  end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 4,
+    "text": "uuid = assert(apr.uuid_get())",
+    "type": "statement:assign"
+  }, {
+    "id": 5,
+    "text": "assert(not set[uuid], 'duplicate UUID!')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 6,
+    "text": "set[uuid] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 9,
+    "text": "uuid_get",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "uuid_format",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "uuid_parse",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "pcall",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "tableconstructor"
+  } ]
+}

@@ -1,0 +1,1181 @@
+{
+  "_filename": "console.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/lzmq/test/lunit/console.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 51,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 50,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 55,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 59
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 62
+  }, {
+    "from": 61,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 58,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 74,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 68,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 83
+  }, {
+    "from": 81,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 99
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 58,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 68,
+    "label": "calls",
+    "to": 111
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 112
+  }, {
+    "from": 68,
+    "label": "calls",
+    "to": 110
+  }, {
+    "from": 68,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 96,
+    "label": "calls",
+    "to": 55
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 85,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 89,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 113
+  }, {
+    "from": 55,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 58,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 58,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 58,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 78,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 81,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 81,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 85,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 85,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 89,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 89,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 93,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 81,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 101
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 50
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 55
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 58
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 68
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 78
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 81
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 85
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 89
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 93
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 96
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 115
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 116
+  }, {
+    "from": 115,
+    "label": "initializes",
+    "to": 117
+  }, {
+    "from": 117,
+    "label": "assigns",
+    "to": 118
+  }, {
+    "from": 115,
+    "label": "initializes",
+    "to": 119
+  }, {
+    "from": 119,
+    "label": "assigns",
+    "to": 120
+  }, {
+    "from": 115,
+    "label": "initializes",
+    "to": 121
+  }, {
+    "from": 121,
+    "label": "assigns",
+    "to": 122
+  }, {
+    "from": 116,
+    "label": "initializes",
+    "to": 123
+  }, {
+    "from": 123,
+    "label": "requires",
+    "to": 109
+  }, {
+    "from": 116,
+    "label": "initializes",
+    "to": 124
+  }, {
+    "from": 124,
+    "label": "requires",
+    "to": 106
+  }, {
+    "from": 116,
+    "label": "initializes",
+    "to": 125
+  }, {
+    "from": 125,
+    "label": "requires",
+    "to": 102
+  }, {
+    "from": 116,
+    "label": "initializes",
+    "to": 126
+  }, {
+    "from": 126,
+    "label": "requires",
+    "to": 104
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 127
+  }, {
+    "from": 114,
+    "label": "represents",
+    "to": 128
+  }, {
+    "from": 127,
+    "label": "provides",
+    "to": 128
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 2
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 8
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 11
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 12
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 14
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 16
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 19
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 22
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 23
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 26
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 29
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 30
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 31
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 32
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 33
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 34
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 35
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 36
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 37
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 38
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 39
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 40
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 41
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 42
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 43
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 44
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 45
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 46
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 47
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 48
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 49
+  }, {
+    "from": 114,
+    "label": "contains",
+    "to": 68
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 68
+  }, {
+    "from": 114,
+    "label": "contains",
+    "to": 78
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 78
+  }, {
+    "from": 114,
+    "label": "contains",
+    "to": 81
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 81
+  }, {
+    "from": 114,
+    "label": "contains",
+    "to": 85
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 85
+  }, {
+    "from": 114,
+    "label": "contains",
+    "to": 89
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 89
+  }, {
+    "from": 114,
+    "label": "contains",
+    "to": 93
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 93
+  }, {
+    "from": 114,
+    "label": "contains",
+    "to": 96
+  }, {
+    "from": 117,
+    "label": "contains",
+    "to": 96
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "console",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function _M.zmq_version()\r\n  local major, minor, patch = ffi.new(aint_t, 0), ffi.new(aint_t, 0), ffi.new(aint_t, 0)\r\n  libzmq3.zmq_version(major, minor, patch)\r\n  return major[0], minor[0], patch[0]\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "function _M.zmq_errno()\r\n  return libzmq3.zmq_errno()\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function _M.zmq_strerror(errnum)\r\n  local str = libzmq3.zmq_strerror (errnum);\r\n  return ffi.string(str)\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function _M.zmq_poll(items, nitems, timeout)\r\n  return libzmq3.zmq_poll(items, nitems, timeout)\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function _M.zmq_device(dtype, frontend, backend)\r\n  return libzmq3.zmq_device(dtype, frontend, backend)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function _M.zmq_proxy(frontend, backend, capture)\r\n  return libzmq3.zmq_proxy(frontend, backend, capture)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "function _M.zmq_proxy_steerable(frontend, backend, capture, control)\r\n  return libzmq3.zmq_proxy_steerable(frontend, backend, capture, control)\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "function _M.zmq_ctx_new()\r\n  local ctx = libzmq3.zmq_ctx_new()\r\n  ffi.gc(ctx, _M.zmq_ctx_term)\r\n  return ctx\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "function _M.zmq_ctx_shutdown(ctx)\r\n  return libzmq3.zmq_ctx_shutdown(ctx)\r\nend",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "function _M.zmq_ctx_term(ctx)\r\n  return libzmq3.zmq_ctx_term(ffi.gc(ctx, nil))\r\nend",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function _M.zmq_ctx_term(ctx)\r\n  libzmq3.zmq_ctx_destroy(ffi.gc(ctx, nil))\r\nend",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "function _M.zmq_ctx_get(ctx, option)\r\n  return libzmq3.zmq_ctx_get(ctx, option)\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "function _M.zmq_ctx_set(ctx, option, value)\r\n  return libzmq3.zmq_ctx_set(ctx, option, value)\r\nend",
+    "type": "function"
+  }, {
+    "id": 15,
+    "text": "function _M.zmq_socket(ctx, stype)\r\n  local skt = libzmq3.zmq_socket(ctx, stype)\r\n  if NULL == skt then return nil end\r\n  ffi.gc(skt, _M.zmq_close)\r\n  return skt\r\nend",
+    "type": "function"
+  }, {
+    "id": 16,
+    "text": "function _M.zmq_close(skt)\r\n  return libzmq3.zmq_close(ffi.gc(skt,nil))\r\nend",
+    "type": "function"
+  }, {
+    "id": 17,
+    "text": "function _M.zmq_skt_setopt_str(skt, option, optval)\r\n  return libzmq3.zmq_setsockopt(skt, option, optval, #optval)\r\nend",
+    "type": "function"
+  }, {
+    "id": 18,
+    "text": "function _M.zmq_skt_getopt_str(skt, option)\r\n  local len  = 255\r\n  local val  = ffi.new(vla_char_t, len)\r\n  local size = ffi.new(asize_t, len)\r\n  if -1 ~= libzmq3.zmq_getsockopt(skt, option, val, size) then\r\n    if size[0] > 0 then\r\n      return ffi.string(val, size[0] - 1)\r\n    end\r\n    return \"\"\r\n  end\r\n  return\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "function _M.zmq_connect(skt, addr)\r\n  return libzmq3.zmq_connect(skt, addr)\r\nend",
+    "type": "function"
+  }, {
+    "id": 20,
+    "text": "function _M.zmq_bind(skt, addr)\r\n  return libzmq3.zmq_bind(skt, addr)\r\nend",
+    "type": "function"
+  }, {
+    "id": 21,
+    "text": "function _M.zmq_unbind(skt, addr)\r\n  return libzmq3.zmq_unbind(skt, addr)\r\nend",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "function _M.zmq_disconnect(skt, addr)\r\n  return libzmq3.zmq_disconnect(skt, addr)\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "function _M.zmq_send(skt, data, flags)\r\n  return libzmq3.zmq_send(skt, data, #data, flags or 0)\r\nend",
+    "type": "function"
+  }, {
+    "id": 24,
+    "text": "function _M.zmq_recv(skt, len, flags)\r\n  local buf = ffi.new(vla_char_t, len)\r\n  local flen = libzmq3.zmq_recv(skt, buf, len, flags or 0)\r\n  if flen < 0 then return end\r\n  if len > flen then len = flen end\r\n  return ffi.string(buf, len), flen\r\nend",
+    "type": "function"
+  }, {
+    "id": 25,
+    "text": "function _M.zmq_sendmsg(skt, msg, flags) \r\n  return libzmq3.zmq_sendmsg(skt, msg, flags)\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "function _M.zmq_recvmsg(skt, msg, flags)\r\n  return libzmq3.zmq_recvmsg(skt, msg, flags)\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "function _M.zmq_socket_monitor(skt, addr, events)\r\n  return libzmq3.zmq_socket_monitor(skt, addr, events)\r\nend",
+    "type": "function"
+  }, {
+    "id": 28,
+    "text": "function _M.zmq_msg_init(msg)\r\n  msg = msg or ffi.new(zmq_msg_t)\r\n  if 0 == libzmq3.zmq_msg_init(msg) then\r\n    return msg\r\n  end\r\n  return\r\nend",
+    "type": "function"
+  }, {
+    "id": 29,
+    "text": "function _M.zmq_msg_init_size(msg, len)\r\n  if not len then msg, len  = nil, msg end\r\n  local msg = msg or ffi.new(zmq_msg_t)\r\n  if 0 == libzmq3.zmq_msg_init_size(msg, len) then\r\n    return msg\r\n  end\r\n  return\r\nend",
+    "type": "function"
+  }, {
+    "id": 30,
+    "text": "function _M.zmq_msg_data(msg, pos)\r\n  local ptr = libzmq3.zmq_msg_data(msg)\r\n  pos = pos or 0\r\n  if pos == 0 then return ptr end\r\n  ptr = ffi.cast(pchar_t, ptr) + pos\r\n  return ffi.cast(pvoid_t, ptr)\r\nend",
+    "type": "function"
+  }, {
+    "id": 31,
+    "text": "function _M.zmq_msg_size(msg)\r\n  return libzmq3.zmq_msg_size(msg)\r\nend",
+    "type": "function"
+  }, {
+    "id": 32,
+    "text": "function _M.zmq_msg_close(msg)\r\n  libzmq3.zmq_msg_close(msg)\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "function _M.zmq_msg_set_data(msg, str)\r\n  ffi.copy(_M.zmq_msg_data(msg), str)\r\nend",
+    "type": "function"
+  }, {
+    "id": 34,
+    "text": "function _M.zmq_msg_get_data(msg)\r\n  return ffi.string(_M.zmq_msg_data(msg), _M.zmq_msg_size(msg))\r\nend",
+    "type": "function"
+  }, {
+    "id": 35,
+    "text": "function _M.zmq_msg_init_string(str)\r\n  local msg = _M.zmq_msg_init_size(#str)\r\n  _M.zmq_msg_set_data(msg, str)\r\n  return msg\r\nend",
+    "type": "function"
+  }, {
+    "id": 36,
+    "text": "function _M.zmq_msg_recv(msg, skt, flags)\r\n  return libzmq3.zmq_msg_recv(msg, skt, flags or 0)\r\nend",
+    "type": "function"
+  }, {
+    "id": 37,
+    "text": "function _M.zmq_msg_send(msg, skt, flags)\r\n  return libzmq3.zmq_msg_send(msg, skt, flags or 0)\r\nend",
+    "type": "function"
+  }, {
+    "id": 38,
+    "text": "function _M.zmq_msg_more(msg)\r\n  return libzmq3.zmq_msg_more(msg)\r\nend",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "function _M.zmq_msg_get(msg, option)\r\n  return libzmq3.zmq_msg_get(msg, option)\r\nend",
+    "type": "function"
+  }, {
+    "id": 40,
+    "text": "function _M.zmq_msg_set(msg, option, optval)\r\n  return libzmq3.zmq_msg_set(msg, option, optval)\r\nend",
+    "type": "function"
+  }, {
+    "id": 41,
+    "text": "function _M.zmq_msg_gets(msg, option)\r\n  local value = libzmq3.zmq_msg_gets(msg, option)\r\n  if value == NULL then return end\r\n  return ffi.string(value)\r\nend",
+    "type": "function"
+  }, {
+    "id": 42,
+    "text": "function _M.zmq_z85_encode(data)\r\n  local len = math.floor(#data * 1.25 + 1.0001)\r\n  local buf = alloc_z85_buff(len)\r\n  local ret = libzmq3.zmq_z85_encode(buf, data, #data)\r\n  if ret == NULL then error(\"size of the block must be divisible by 4\") end\r\n  return ffi.string(buf, len - 1)\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "function _M.zmq_z85_decode(data)\r\n  local len = math.floor(#data * 0.8 + 0.0001)\r\n  local buf = alloc_z85_buff(len)\r\n  local ret = libzmq3.zmq_z85_decode(buf, data)\r\n  if ret == NULL then error(\"size of the block must be divisible by 5\") end\r\n  return ffi.string(buf, len)\r\nend",
+    "type": "function"
+  }, {
+    "id": 44,
+    "text": "function _M.zmq_curve_keypair(as_binary)\r\n  local public_key = ffi.new(vla_char_t, 41)\r\n  local secret_key = ffi.new(vla_char_t, 41)\r\n  local ret = libzmq3.zmq_curve_keypair(public_key, secret_key)\r\n  if ret == -1 then return -1 end\r\n  if not as_binary then\r\n    return ffi.string(public_key, 40), ffi.string(secret_key, 40)\r\n  end\r\n  local public_key_bin = ffi.new(vla_char_t, 32)\r\n  local secret_key_bin = ffi.new(vla_char_t, 32)\r\n\r\n  libzmq3.zmq_z85_decode(public_key_bin, public_key)\r\n  libzmq3.zmq_z85_decode(secret_key_bin, secret_key)\r\n\r\n  return ffi.string(public_key_bin, 32), ffi.string(secret_key_bin, 32)\r\nend",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "function _M.zmq_recv_event(skt, flags)\r\n    local msg = _M.zmq_msg_init(msg)\r\n    if not msg then return end\r\n\r\n    local ret = _M.zmq_msg_recv(msg, skt, flags)\r\n    if ret == -1 then\r\n      _M.zmq_msg_close(msg)\r\n      return\r\n    end\r\n\r\n    assert(_M.zmq_msg_size(msg) >= event_size)\r\n    assert(_M.zmq_msg_more(msg) == 0)\r\n\r\n    ffi.copy(event, _M.zmq_msg_data(msg), event_size)\r\n    local addr\r\n    if event.data.connected.addr ~= NULL then\r\n      addr = ffi.string(event.data.connected.addr)\r\n    end\r\n\r\n    _M.zmq_msg_close(msg)\r\n    return event.event, event.data.connected.fd, addr\r\n  end",
+    "type": "function"
+  }, {
+    "id": 46,
+    "text": "function _M.zmq_recv_event(skt, flags)\r\n    local msg = _M.zmq_msg_init(msg)\r\n    if not msg then return end\r\n\r\n    local ret = _M.zmq_msg_recv(msg, skt, flags)\r\n    if ret == -1 then\r\n      _M.zmq_msg_close(msg)\r\n      return\r\n    end\r\n\r\n    -- assert(_M.zmq_msg_more(msg) ~= 0)\r\n\r\n    local buf  = ffi.cast(pchar_t, _M.zmq_msg_data(msg))\r\n    assert(_M.zmq_msg_size(msg) == (int16_size + int32_size))\r\n\r\n    ffi.copy(event, buf, int16_size)\r\n    ffi.copy(value, buf + int16_size, int32_size)\r\n\r\n    ret = _M.zmq_msg_recv(msg, skt, _M.FLAGS.ZMQ_DONTWAIT)\r\n    if ret == -1 then\r\n      _M.zmq_msg_close(msg)\r\n      return\r\n    end\r\n\r\n    local addr = _M.zmq_msg_get_data(msg)\r\n    _M.zmq_msg_close(msg)\r\n\r\n    -- assert(_M.zmq_msg_more(msg) == 0)\r\n\r\n    return event[0], value[0], addr\r\n  end",
+    "type": "function"
+  }, {
+    "id": 47,
+    "text": "function _M.zmq_stopwatch_start()\r\n    return libzmq3.zmq_stopwatch_start()\r\n  end",
+    "type": "function"
+  }, {
+    "id": 48,
+    "text": "function _M.zmq_stopwatch_stop(watch)\r\n    return tonumber(libzmq3.zmq_stopwatch_stop(watch))\r\n  end",
+    "type": "function"
+  }, {
+    "id": 49,
+    "text": "function _M.zmq_mnemoerror(errno)\r\n  return ERRORS_MNEMO[errno] or \"UNKNOWN\"\r\nend",
+    "type": "function"
+  }, {
+    "id": 50,
+    "text": "local function rfill(str, wdt, ch)\r\n  if wdt > #str then str = str .. (ch or ' '):rep(wdt - #str) end\r\n  return str\r\nend",
+    "type": "function"
+  }, {
+    "id": 51,
+    "text": "if wdt > #str then str = str .. (ch or ' '):rep(wdt - #str) end",
+    "type": "statement:if"
+  }, {
+    "id": 52,
+    "text": "str = str .. (ch or ' '):rep(wdt - #str)",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 55,
+    "text": "local function printformat(format, ...)\r\n  io.write( string.format(format, ...) )\r\nend",
+    "type": "function"
+  }, {
+    "id": 56,
+    "text": "io.write( string.format(format, ...) )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 58,
+    "text": "local function writestatus(char)\r\n  if columns_printed == 0 then\r\n    io.write(\"    \")\r\n  end\r\n  if columns_printed == 60 then\r\n    io.write(\"\\n    \")\r\n    columns_printed = 0\r\n  end\r\n  io.write(char)\r\n  io.flush()\r\n  columns_printed = columns_printed + 1\r\nend",
+    "type": "function"
+  }, {
+    "id": 59,
+    "text": "if columns_printed == 0 then\r\n    io.write(\"    \")\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 60,
+    "text": "io.write(\"    \")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 61,
+    "text": "if columns_printed == 60 then\r\n    io.write(\"\\n    \")\r\n    columns_printed = 0\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 62,
+    "text": "io.write(\"\\n    \")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 63,
+    "text": "columns_printed = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 64,
+    "text": "io.write(char)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 65,
+    "text": "io.flush()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 66,
+    "text": "columns_printed = columns_printed + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 68,
+    "text": "function _M.begin()\r\n  local total_tc = 0\r\n  local total_tests = 0\r\n\r\n  msgs = {} -- e\r\n\r\n  for tcname in lunit.testcases() do\r\n    total_tc = total_tc + 1\r\n    for testname, test in lunit.tests(tcname) do\r\n      total_tests = total_tests + 1\r\n    end\r\n  end\r\n\r\n  printformat(\"Loaded testsuite with %d tests in %d testcases.\\n\\n\", total_tests, total_tc)\r\nend",
+    "type": "function"
+  }, {
+    "id": 69,
+    "text": "local total_tc = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 70,
+    "text": "local total_tests = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 71,
+    "text": "msgs = {}",
+    "type": "statement:assign"
+  }, {
+    "id": 72,
+    "text": "for tcname in lunit.testcases() do\r\n    total_tc = total_tc + 1\r\n    for testname, test in lunit.tests(tcname) do\r\n      total_tests = total_tests + 1\r\n    end\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 73,
+    "text": "total_tc = total_tc + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "for testname, test in lunit.tests(tcname) do\r\n      total_tests = total_tests + 1\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 75,
+    "text": "total_tests = total_tests + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 76,
+    "text": "printformat(\"Loaded testsuite with %d tests in %d testcases.\\n\\n\", total_tests, total_tc)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 77,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 78,
+    "text": "function _M.run(testcasename, testname)\r\n  io.write(rfill(testcasename .. '.' .. testname, 70)) io.flush()\r\nend",
+    "type": "function"
+  }, {
+    "id": 79,
+    "text": "io.write(rfill(testcasename .. '.' .. testname, 70))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 80,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 81,
+    "text": "function _M.err(fullname, message, traceback)\r\n  io.write(\" - error!\\n\")\r\n  io.write(\"Error! (\"..fullname..\"):\\n\"..message..\"\\n\\t\"..table.concat(traceback, \"\\n\\t\"), \"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 82,
+    "text": "io.write(\" - error!\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 83,
+    "text": "io.write(\"Error! (\"..fullname..\"):\\n\"..message..\"\\n\\t\"..table.concat(traceback, \"\\n\\t\"), \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 84,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 85,
+    "text": "function _M.fail(fullname, where, message, usermessage)\r\n  io.write(\" - fail!\\n\")\r\n  io.write(string.format(\"Failure (%s): %s\\n%s: %s\", fullname, usermessage or \"\", where, message), \"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 86,
+    "text": "io.write(\" - fail!\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 87,
+    "text": "io.write(string.format(\"Failure (%s): %s\\n%s: %s\", fullname, usermessage or \"\", where, message), \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 88,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 89,
+    "text": "function _M.skip(fullname, where, message, usermessage)\r\n  io.write(\" - skip!\\n\")\r\n  io.write(string.format(\"Skip (%s): %s\\n%s: %s\", fullname, usermessage or \"\", where, message), \"\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 90,
+    "text": "io.write(\" - skip!\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 91,
+    "text": "io.write(string.format(\"Skip (%s): %s\\n%s: %s\", fullname, usermessage or \"\", where, message), \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 92,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 93,
+    "text": "function _M.pass(testcasename, testname)\r\n  io.write(\" - pass!\\n\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 94,
+    "text": "io.write(\" - pass!\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 95,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 96,
+    "text": "function _M.done()\r\n  printformat(\"\\n\\n%d Assertions checked.\\n\", lunit.stats.assertions )\r\n  print()\r\n\r\n  printformat(\"Testsuite finished (%d passed, %d failed, %d errors, %d skipped).\\n\",\r\n      lunit.stats.passed, lunit.stats.failed, lunit.stats.errors, lunit.stats.skipped )\r\nend",
+    "type": "function"
+  }, {
+    "id": 97,
+    "text": "printformat(\"\\n\\n%d Assertions checked.\\n\", lunit.stats.assertions )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 98,
+    "text": "print()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 99,
+    "text": "printformat(\"Testsuite finished (%d passed, %d failed, %d errors, %d skipped).\\n\",\r\n      lunit.stats.passed, lunit.stats.failed, lunit.stats.errors, lunit.stats.skipped )",
+    "type": "statement:functioncall"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 102,
+    "text": "io",
+    "type": "module"
+  }, {
+    "id": 103,
+    "text": "flush",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "table",
+    "type": "module"
+  }, {
+    "id": 105,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 106,
+    "text": "string",
+    "type": "module"
+  }, {
+    "id": 107,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 108,
+    "text": "write",
+    "type": "global function"
+  }, {
+    "id": 109,
+    "text": "lunit",
+    "type": "module"
+  }, {
+    "id": 110,
+    "text": "tests",
+    "type": "global function"
+  }, {
+    "id": 111,
+    "text": "testcases",
+    "type": "global function"
+  }, {
+    "id": 112,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 113,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "number"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 128,
+    "text": "",
+    "type": "interface"
+  } ]
+}

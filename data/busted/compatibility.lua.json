@@ -1,0 +1,621 @@
+{
+  "_filename": "compatibility.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/busted/busted/compatibility.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 14,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 16,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 31,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 37,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 37,
+    "label": "declares",
+    "to": 11
+  }, {
+    "from": 37,
+    "label": "declares",
+    "to": 12
+  }, {
+    "from": 37,
+    "label": "declares",
+    "to": 21
+  }, {
+    "from": 50,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 51,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 52
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 53
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 54
+  }, {
+    "from": 44,
+    "label": "represents",
+    "to": 55
+  }, {
+    "from": 54,
+    "label": "provides",
+    "to": 55
+  }, {
+    "from": 47,
+    "label": "represents",
+    "to": 56
+  }, {
+    "from": 54,
+    "label": "provides",
+    "to": 56
+  }, {
+    "from": 41,
+    "label": "represents",
+    "to": 57
+  }, {
+    "from": 54,
+    "label": "provides",
+    "to": 57
+  }, {
+    "from": 54,
+    "label": "provides",
+    "to": 58
+  }, {
+    "from": 54,
+    "label": "provides",
+    "to": 59
+  }, {
+    "from": 49,
+    "label": "represents",
+    "to": 60
+  }, {
+    "from": 54,
+    "label": "provides",
+    "to": 60
+  }, {
+    "from": 61,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 62,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 63,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 64,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 65,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 66,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 67,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 68,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 69,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 17,
+    "label": "hasArgument",
+    "to": 11
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "compatibility",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function(f)\r\n    f = (type(f) == 'function' and f or debug.getinfo(f + 1, 'f').func)\r\n    local name, value\r\n    local up = 0\r\n\r\n    repeat\r\n      up = up + 1\r\n      name, value = debug.getupvalue(f, up)\r\n    until name == '_ENV' or name == nil\r\n\r\n    return name and value or _G\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "f = (type(f) == 'function' and f or debug.getinfo(f + 1, 'f').func)",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "local name, value",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "local up = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "repeat\r\n      up = up + 1\r\n      name, value = debug.getupvalue(f, up)\r\n    until name == '_ENV' or name == nil",
+    "type": "statement:repeat"
+  }, {
+    "id": 7,
+    "text": "up = up + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "name, value = debug.getupvalue(f, up)",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 11,
+    "text": "function() return name end",
+    "type": "function"
+  }, {
+    "id": 12,
+    "text": "function(f, t)\r\n    f = (type(f) == 'function' and f or debug.getinfo(f + 1, 'f').func)\r\n    local name\r\n    local up = 0\r\n\r\n    repeat\r\n      up = up + 1\r\n      name = debug.getupvalue(f, up)\r\n    until name == '_ENV' or name == nil\r\n\r\n    if name then\r\n      debug.upvaluejoin(f, up, function() return name end, 1)\r\n      debug.setupvalue(f, up, t)\r\n    end\r\n\r\n    if f ~= 0 then return f end\r\n  end",
+    "type": "function"
+  }, {
+    "id": 13,
+    "text": "local name",
+    "type": "statement:localassign"
+  }, {
+    "id": 14,
+    "text": "repeat\r\n      up = up + 1\r\n      name = debug.getupvalue(f, up)\r\n    until name == '_ENV' or name == nil",
+    "type": "statement:repeat"
+  }, {
+    "id": 15,
+    "text": "name = debug.getupvalue(f, up)",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "if name then\r\n      debug.upvaluejoin(f, up, function() return name end, 1)\r\n      debug.setupvalue(f, up, t)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 17,
+    "text": "debug.upvaluejoin(f, up, function() return name end, 1)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 18,
+    "text": "debug.setupvalue(f, up, t)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 19,
+    "text": "if f ~= 0 then return f end",
+    "type": "statement:if"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 21,
+    "text": "function(code, force)\r\n    if not force and code ~= 0 and _VERSION:match('^Lua 5%.[12]$') then\r\n      error()\r\n    elseif code ~= 0 then\r\n      code = 1\r\n    end\r\n    if _VERSION == 'Lua 5.1' and\r\n      (type(jit) ~= 'table' or not jit.version or jit.version_num < 20000) then\r\n      -- From Lua 5.1 manual:\r\n      -- > The userdata itself is freed only in the next\r\n      -- > garbage-collection cycle.\r\n      -- Call collectgarbage() while collectgarbage('count')\r\n      -- changes + 3 times, at least 3 times,\r\n      -- at max 100 times (to prevent infinite loop).\r\n      local times_const = 0\r\n      for i = 1, 100 do\r\n        local count_before = collectgarbage(\"count\")\r\n        collectgarbage()\r\n        local count_after = collectgarbage(\"count\")\r\n        if count_after == count_before then\r\n          times_const = times_const + 1\r\n          if times_const > 3 then\r\n            break\r\n          end\r\n        else\r\n          times_const = 0\r\n        end\r\n      end\r\n    end\r\n    os.exit(code, true)\r\n  end",
+    "type": "function"
+  }, {
+    "id": 22,
+    "text": "if not force and code ~= 0 and _VERSION:match('^Lua 5%.[12]$') then\r\n      error()\r\n    elseif code ~= 0 then\r\n      code = 1\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 23,
+    "text": "error()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "code = 1",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "if _VERSION == 'Lua 5.1' and\r\n      (type(jit) ~= 'table' or not jit.version or jit.version_num < 20000) then\r\n      -- From Lua 5.1 manual:\r\n      -- > The userdata itself is freed only in the next\r\n      -- > garbage-collection cycle.\r\n      -- Call collectgarbage() while collectgarbage('count')\r\n      -- changes + 3 times, at least 3 times,\r\n      -- at max 100 times (to prevent infinite loop).\r\n      local times_const = 0\r\n      for i = 1, 100 do\r\n        local count_before = collectgarbage(\"count\")\r\n        collectgarbage()\r\n        local count_after = collectgarbage(\"count\")\r\n        if count_after == count_before then\r\n          times_const = times_const + 1\r\n          if times_const > 3 then\r\n            break\r\n          end\r\n        else\r\n          times_const = 0\r\n        end\r\n      end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "local times_const = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "for i = 1, 100 do\r\n        local count_before = collectgarbage(\"count\")\r\n        collectgarbage()\r\n        local count_after = collectgarbage(\"count\")\r\n        if count_after == count_before then\r\n          times_const = times_const + 1\r\n          if times_const > 3 then\r\n            break\r\n          end\r\n        else\r\n          times_const = 0\r\n        end\r\n      end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 28,
+    "text": "local count_before = collectgarbage(\"count\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 29,
+    "text": "collectgarbage()",
+    "type": "statement:functioncall"
+  }, {
+    "id": 30,
+    "text": "local count_after = collectgarbage(\"count\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 31,
+    "text": "if count_after == count_before then\r\n          times_const = times_const + 1\r\n          if times_const > 3 then\r\n            break\r\n          end\r\n        else\r\n          times_const = 0\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 32,
+    "text": "times_const = times_const + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 33,
+    "text": "if times_const > 3 then\r\n            break\r\n          end",
+    "type": "statement:if"
+  }, {
+    "id": 34,
+    "text": "times_const = 0",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "os.exit(code, true)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 38,
+    "text": "getupvalue",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "getinfo",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "loadstring",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "collectgarbage",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "upvaluejoin",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "getfenv",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "setupvalue",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "setfenv",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 59,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 60,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 62,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 63,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 64,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 65,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 66,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 67,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 68,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 69,
+    "text": "",
+    "type": "require local variable"
+  } ]
+}

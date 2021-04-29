@@ -1,0 +1,333 @@
+{
+  "_filename": "mkrockspecs.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lrexlib-tre/mkrockspecs.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 23
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 25
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 24
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 27
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 28
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "assigns",
+    "to": 30
+  }, {
+    "from": 27,
+    "label": "initializes",
+    "to": 31
+  }, {
+    "from": 31,
+    "label": "assigns",
+    "to": 32
+  }, {
+    "from": 28,
+    "label": "initializes",
+    "to": 33
+  }, {
+    "from": 33,
+    "label": "requires",
+    "to": 34
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "mkrockspecs",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function format (x, indent)\r\n  indent = indent or \"\"\r\n  if type (x) == \"table\" then\r\n    local s = \"{\\n\"\r\n    for i, v in pairs (x) do\r\n      if type (i) ~= \"number\" then\r\n        s = s..indent..i..\" = \"..format (v, indent..\"  \")..\",\\n\"\r\n      end\r\n    end\r\n    for i, v in ipairs (x) do\r\n      s = s..indent..format (v, indent..\"  \")..\",\\n\"\r\n    end\r\n    return s..indent:sub(1, -3)..\"}\"\r\n  elseif type (x) == \"string\" then\r\n    return string.format (\"%q\", x)\r\n  else\r\n    return tostring (x)\r\n  end\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "indent = indent or \"\"",
+    "type": "statement:assign"
+  }, {
+    "id": 4,
+    "text": "if type (x) == \"table\" then\r\n    local s = \"{\\n\"\r\n    for i, v in pairs (x) do\r\n      if type (i) ~= \"number\" then\r\n        s = s..indent..i..\" = \"..format (v, indent..\"  \")..\",\\n\"\r\n      end\r\n    end\r\n    for i, v in ipairs (x) do\r\n      s = s..indent..format (v, indent..\"  \")..\",\\n\"\r\n    end\r\n    return s..indent:sub(1, -3)..\"}\"\r\n  elseif type (x) == \"string\" then\r\n    return string.format (\"%q\", x)\r\n  else\r\n    return tostring (x)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 5,
+    "text": "local s = \"{\\n\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 6,
+    "text": "for i, v in pairs (x) do\r\n      if type (i) ~= \"number\" then\r\n        s = s..indent..i..\" = \"..format (v, indent..\"  \")..\",\\n\"\r\n      end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 7,
+    "text": "if type (i) ~= \"number\" then\r\n        s = s..indent..i..\" = \"..format (v, indent..\"  \")..\",\\n\"\r\n      end",
+    "type": "statement:if"
+  }, {
+    "id": 8,
+    "text": "s = s..indent..i..\" = \"..format (v, indent..\"  \")..\",\\n\"",
+    "type": "statement:assign"
+  }, {
+    "id": 9,
+    "text": "for i, v in ipairs (x) do\r\n      s = s..indent..format (v, indent..\"  \")..\",\\n\"\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 10,
+    "text": "s = s..indent..format (v, indent..\"  \")..\",\\n\"",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 14,
+    "text": "exit",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "open",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "loadfile",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "merge",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "select",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "format",
+    "type": "global function"
+  }, {
+    "id": 24,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 25,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 26,
+    "text": "execute",
+    "type": "global function"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 32,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 33,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 34,
+    "text": "std",
+    "type": "module"
+  } ]
+}

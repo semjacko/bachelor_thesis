@@ -1,0 +1,181 @@
+{
+  "_filename": "error.nobj.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-zmq/src/error.nobj.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 4,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 10
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 9
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 5,
+    "label": "declares",
+    "to": 4
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 15
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 16
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "error",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function(rec) return \"(-1 == ${\" .. rec.name .. \"})\" end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "function(rec) return \"(-1 == ${\" .. rec.name .. \"})\" end",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 6,
+    "text": "meta_object",
+    "type": "global function"
+  }, {
+    "id": 7,
+    "text": "var_out",
+    "type": "global function"
+  }, {
+    "id": 8,
+    "text": "method",
+    "type": "global function"
+  }, {
+    "id": 9,
+    "text": "ffi_cdef",
+    "type": "global function"
+  }, {
+    "id": 10,
+    "text": "ffi_source",
+    "type": "global function"
+  }, {
+    "id": 11,
+    "text": "c_source",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "error_code",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "export_definitions",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "var_in",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 16,
+    "text": "",
+    "type": "require container"
+  } ]
+}

@@ -1,0 +1,269 @@
+{
+  "_filename": "testclone.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": true,
+  "_path": "modules/penlight/examples/testclone.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 22
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 19
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 20
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 21
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 24
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 25
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 27
+  }, {
+    "from": 24,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "assigns",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "initializes",
+    "to": 23
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "testclone",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function(f1,f2)\r\n  local t1 = path.getmtime(f1)\r\n  local t2 = path.getmtime(f2)\r\n  --print(f1,t1,f2,t2)\r\n  if t1 > t2 then\r\n\tdir.copyfile(f1,f2)\r\n\tprint(f1,f2,t1,t2)\r\n  end\r\n  return true\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "local t1 = path.getmtime(f1)",
+    "type": "statement:localassign"
+  }, {
+    "id": 4,
+    "text": "local t2 = path.getmtime(f2)",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if t1 > t2 then\r\n\tdir.copyfile(f1,f2)\r\n\tprint(f1,f2,t1,t2)\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "dir.copyfile(f1,f2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "print(f1,f2,t1,t2)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 8,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 11,
+    "text": "getmtime",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "isdir",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "copyfile",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "time",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "isfile",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "touch",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "assert",
+    "type": "global function"
+  }, {
+    "id": 20,
+    "text": "rmtree",
+    "type": "global function"
+  }, {
+    "id": 21,
+    "text": "clonetree",
+    "type": "global function"
+  }, {
+    "id": 22,
+    "text": "exists",
+    "type": "global function"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

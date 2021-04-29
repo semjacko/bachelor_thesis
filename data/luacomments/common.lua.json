@@ -1,0 +1,125 @@
+{
+  "_filename": "common.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luacomments/src/comments/common.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 5
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "calls",
+    "to": 2
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 7,
+    "label": "initializes",
+    "to": 8
+  }, {
+    "from": 8,
+    "label": "requires",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "provides",
+    "to": 11
+  }, {
+    "from": 10,
+    "label": "provides",
+    "to": 12
+  }, {
+    "from": 10,
+    "label": "provides",
+    "to": 13
+  }, {
+    "from": 10,
+    "label": "provides",
+    "to": 14
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "common",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function getaliases()\r\n  local aliases={}\r\n  local luadoc={}\r\n\r\n  local paramalias=\"\"\r\n  local fieldalias=\"\"\r\n  local authoralias=\"\"\r\n  local copyrightalias=\"\"\r\n  local releasealias=\"\"\r\n  local returnalias=\"\"\r\n  local seealias=\"\"\r\n  local usagealias=\"\"\r\n  local descriptionalias=\"\"\r\n  local classalias=\"\"\r\n  local namealias=\"\"\r\n\r\n  for k,v in pairs(common.param.user) do\r\n     paramalias = paramalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  paramalias = paramalias .. ')->\"param\":})'    \r\n   \r\n  for k,v in pairs(common.field.user) do\r\n     fieldalias = fieldalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  fieldalias = fieldalias .. ')->\"field\":})'\r\n\r\n  for k,v in pairs(common.author.user) do\r\n     authoralias = authoralias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  authoralias = authoralias .. ')->\"author\":})'\r\n\r\n  for k,v in pairs(common.copyright.user) do\r\n     copyrightalias = copyrightalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  copyrightalias = copyrightalias .. ')->\"copyright\":})'\r\n\r\n  for k,v in pairs(common.release.user) do\r\n     releasealias = releasealias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  releasealias = releasealias .. ')->\"release\":})'\r\n\r\n  for k,v in pairs(common.Return.user) do\r\n     returnalias = returnalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  returnalias = returnalias .. ')->\"return\":})'\r\n\r\n  for k,v in pairs(common.see.user) do\r\n     seealias = seealias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  seealias = seealias .. ')->\"see\":})'\r\n\r\n  for k,v in pairs(common.usage.user) do\r\n     usagealias = usagealias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  usagealias = usagealias .. ')->\"usage\":})'\r\n\r\n  for k,v in pairs(common.description.user) do\r\n     descriptionalias = descriptionalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  descriptionalias = descriptionalias .. ')->\"descr\":})'\r\n\r\n  for k,v in pairs(common.class.user) do\r\n     classalias = classalias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  classalias = classalias .. ')->\"class\":})'\r\n\r\n  for k,v in pairs(common.name.user) do\r\n     namealias = namealias .. [[/(\"]] .. v .. [[\"s+)]]\r\n  end\r\n  namealias = namealias .. ')->\"name\":})'\r\n\r\n--^ `LUADOC` ********************\r\n\r\n\r\n  local luadocparamalias=[[({:type:((\"]] .. common.param.luadoc .. [[\"s+)]]   \r\n  local luadocfieldalias=[[({:type:((\"]] .. common.field.luadoc .. [[\"s+)]]\r\n  local luadocauthoralias=[[({:type:((\"]] .. common.author.luadoc .. [[\"s+)]]\r\n  local luadoccopyrightalias=[[({:type:((\"]] .. common.copyright.luadoc .. [[\"s+)]]\r\n  local luadocreleasealias=[[({:type:((\"]] .. common.release.luadoc .. [[\"s+)]]\r\n  local luadocreturnalias=[[({:type:((\"]] .. common.Return.luadoc .. [[\"s+)]]\r\n  local luadocseealias=[[({:type:((\"]] .. common.see.luadoc .. [[\"s+)]]\r\n  local luadocusagealias=[[({:type:((\"]] .. common.usage.luadoc .. [[\"s+)]]\r\n  local luadocdescriptionalias = [[({:type:((\"]] .. common.description.luadoc .. [[\"s+)]]\r\n  local luadocclassalias=[[({:type:((\"]] .. common.class.luadoc .. [[\"s+)]]\r\n  local luadocnamealias=[[({:type:((\"]] .. common.name.luadoc .. [[\"s+)]]\r\n  \r\n  \r\n  luadoc.param=  luadocparamalias .. paramalias\r\n  luadoc.field=  luadocfieldalias .. fieldalias\r\n  luadoc.author=luadocauthoralias .. authoralias\r\n\r\n  luadoc.copyright=luadoccopyrightalias .. copyrightalias \r\n  luadoc.release=luadocreleasealias .. releasealias\r\n  luadoc.Return=luadocreturnalias .. returnalias\r\n  luadoc.see=luadocseealias .. seealias\r\n  luadoc.usage=luadocusagealias .. usagealias\r\n  luadoc.description=luadocdescriptionalias ..descriptionalias\r\n  luadoc.class=luadocclassalias .. classalias\r\n  luadoc.name=luadocnamealias .. namealias\r\n\r\n\r\n\r\n  aliases.luadoc= luadoc\r\n\r\n--v LUADOC ***********************************\r\n\r\nreturn aliases\r\n\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 4,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 5,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 9,
+    "text": "aliases)",
+    "type": "module"
+  }, {
+    "id": 10,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 11,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "interface"
+  }, {
+    "id": 14,
+    "text": "",
+    "type": "interface"
+  } ]
+}

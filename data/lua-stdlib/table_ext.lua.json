@@ -1,0 +1,581 @@
+{
+  "_filename": "table_ext.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-stdlib/src/table_ext.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 6,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 15,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 19,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 23,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 22,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 27,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 39,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 38,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 44,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 6,
+    "label": "calls",
+    "to": 50
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 42,
+    "label": "calls",
+    "to": 52
+  }, {
+    "from": 46,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 26
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 49
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 53
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 22,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 26,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 32,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 38,
+    "label": "calls",
+    "to": 51
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 48
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 46
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 6
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 13
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 22
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 26
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 32
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 38
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 42
+  }, {
+    "from": 46,
+    "label": "declares",
+    "to": 44
+  }, {
+    "from": 54,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 54,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 54,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 54,
+    "label": "requires",
+    "to": 1
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 55
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 56
+  }, {
+    "from": 55,
+    "label": "initializes",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "assigns",
+    "to": 58
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "table_ext",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function sort (t, c)\r\n  _sort (t, c)\r\n  return t\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "_sort (t, c)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 5,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 6,
+    "text": "function empty (t)\r\n  return not next (t)\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 8,
+    "text": "function size (t)\r\n  local n = 0\r\n  for _ in pairs (t) do\r\n    n = n + 1\r\n  end\r\n  return n\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local n = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "for _ in pairs (t) do\r\n    n = n + 1\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 11,
+    "text": "n = n + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "function keys (t)\r\n  local u = {}\r\n  for i, v in pairs (t) do\r\n    insert (u, i)\r\n  end\r\n  return u\r\nend",
+    "type": "function"
+  }, {
+    "id": 14,
+    "text": "local u = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "for i, v in pairs (t) do\r\n    insert (u, i)\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 16,
+    "text": "insert (u, i)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "function values (t)\r\n  local u = {}\r\n  for i, v in pairs (t) do\r\n    insert (u, v)\r\n  end\r\n  return u\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "for i, v in pairs (t) do\r\n    insert (u, v)\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 20,
+    "text": "insert (u, v)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 22,
+    "text": "function invert (t)\r\n  local u = {}\r\n  for i, v in pairs (t) do\r\n    u[v] = i\r\n  end\r\n  return u\r\nend",
+    "type": "function"
+  }, {
+    "id": 23,
+    "text": "for i, v in pairs (t) do\r\n    u[v] = i\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 24,
+    "text": "u[v] = i",
+    "type": "statement:assign"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 26,
+    "text": "function clone (t, nometa)\r\n  local u = {}\r\n  if not nometa then\r\n    setmetatable (u, getmetatable (t))\r\n  end\r\n  for i, v in pairs (t) do\r\n    u[i] = v\r\n  end\r\n  return u\r\nend",
+    "type": "function"
+  }, {
+    "id": 27,
+    "text": "if not nometa then\r\n    setmetatable (u, getmetatable (t))\r\n  end",
+    "type": "statement:if"
+  }, {
+    "id": 28,
+    "text": "setmetatable (u, getmetatable (t))",
+    "type": "statement:functioncall"
+  }, {
+    "id": 29,
+    "text": "for i, v in pairs (t) do\r\n    u[i] = v\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 30,
+    "text": "u[i] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 32,
+    "text": "function clone_rename (map, t)\r\n  local r = clone (t)\r\n  for i, v in pairs (map) do\r\n    r[v] = t[i]\r\n    r[i] = nil\r\n  end\r\n  return r\r\nend",
+    "type": "function"
+  }, {
+    "id": 33,
+    "text": "local r = clone (t)",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "for i, v in pairs (map) do\r\n    r[v] = t[i]\r\n    r[i] = nil\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 35,
+    "text": "r[v] = t[i]",
+    "type": "statement:assign"
+  }, {
+    "id": 36,
+    "text": "r[i] = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 38,
+    "text": "function merge (t, u)\r\n  for i, v in pairs (u) do\r\n    t[i] = v\r\n  end\r\n  return t\r\nend",
+    "type": "function"
+  }, {
+    "id": 39,
+    "text": "for i, v in pairs (u) do\r\n    t[i] = v\r\n  end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 40,
+    "text": "t[i] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 41,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 42,
+    "text": "function new (x, t)\r\n  return setmetatable (t or {},\r\n                       {__index = function (t, i)\r\n                                    return x\r\n                                  end})\r\nend",
+    "type": "function"
+  }, {
+    "id": 43,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 44,
+    "text": "function (t, i)\r\n                                    return x\r\n                                  end",
+    "type": "function"
+  }, {
+    "id": 45,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 46,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 47,
+    "text": "module",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "insert",
+    "type": "global function"
+  }, {
+    "id": 49,
+    "text": "_sort",
+    "type": "global function"
+  }, {
+    "id": 50,
+    "text": "next",
+    "type": "global function"
+  }, {
+    "id": 51,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 52,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 53,
+    "text": "getmetatable",
+    "type": "global function"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 56,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 57,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

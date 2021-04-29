@@ -1,0 +1,489 @@
+{
+  "_filename": "template_class.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/toluapp/src/bin/lua/template_class.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 5
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 12,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 17,
+    "label": "has",
+    "to": 18
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 3,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 42
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 40
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 45
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 47
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 43
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 38
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 41
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 46
+  }, {
+    "from": 2,
+    "label": "calls",
+    "to": 44
+  }, {
+    "from": 25,
+    "label": "calls",
+    "to": 39
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 37
+  }, {
+    "from": 37,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 37,
+    "label": "declares",
+    "to": 25
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 48
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 49
+  }, {
+    "from": 48,
+    "label": "initializes",
+    "to": 50
+  }, {
+    "from": 50,
+    "label": "assigns",
+    "to": 51
+  }, {
+    "from": 48,
+    "label": "initializes",
+    "to": 52
+  }, {
+    "from": 52,
+    "label": "assigns",
+    "to": 53
+  }, {
+    "from": 48,
+    "label": "initializes",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "assigns",
+    "to": 55
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "template_class",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function classTemplateClass:throw(types, local_scope)\r\n\r\n\t--if table.getn(types) ~= table.getn(self.args) then\r\n\t--\terror(\"#invalid parameter count\")\r\n\t--end\r\n\r\n\t-- replace\r\n\tfor i =1 , types.n do\r\n\r\n\t\tlocal Il = split_c_tokens(types[i], \" \")\r\n\t\tif table.getn(Il) ~= table.getn(self.args) then\r\n\t\t\terror(\"#invalid parameter count for \"..types[i])\r\n\t\tend\r\n\t\tlocal bI = self.body\r\n\t\tlocal pI = {}\r\n\t\tfor j = 1,self.args.n do\r\n\t\t\t--Tl[j] = findtype(Tl[j]) or Tl[j]\r\n\t\t\tbI = string.gsub(bI, \"([^_%w])\"..self.args[j]..\"([^_%w])\", \"%1\"..Il[j]..\"%2\")\r\n\t\t\tif self.parents then\r\n\t\t\t\tfor i=1,table.getn(self.parents) do\r\n\t\t\t\t\tpI[i] = string.gsub(self.parents[i], \"([^_%w]?)\"..self.args[j]..\"([^_%w]?)\", \"%1\"..Il[j]..\"%2\")\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\t--local append = \"<\"..string.gsub(types[i], \"%s+\", \",\")..\">\"\r\n\t\tlocal append = \"<\"..concat(Il, 1, table.getn(Il), \",\")..\">\"\r\n\t\tappend = string.gsub(append, \"%s*,%s*\", \",\")\r\n\t\tappend = string.gsub(append, \">>\", \"> >\")\r\n\t\tfor i=1,table.getn(pI) do\r\n\t\t\t--pI[i] = string.gsub(pI[i], \">>\", \"> >\")\r\n\t\t\tpI[i] = resolve_template_types(pI[i])\r\n\t\tend\r\n\t\tbI = string.gsub(bI, \">>\", \"> >\")\r\n\t\tlocal n = self.name\r\n\t\tif local_scope then\r\n\t\t\tn = self.local_name\r\n\t\tend\r\n\r\n\t\tClass(n..append, pI, bI)\r\n\tend\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "for i =1 , types.n do\r\n\r\n\t\tlocal Il = split_c_tokens(types[i], \" \")\r\n\t\tif table.getn(Il) ~= table.getn(self.args) then\r\n\t\t\terror(\"#invalid parameter count for \"..types[i])\r\n\t\tend\r\n\t\tlocal bI = self.body\r\n\t\tlocal pI = {}\r\n\t\tfor j = 1,self.args.n do\r\n\t\t\t--Tl[j] = findtype(Tl[j]) or Tl[j]\r\n\t\t\tbI = string.gsub(bI, \"([^_%w])\"..self.args[j]..\"([^_%w])\", \"%1\"..Il[j]..\"%2\")\r\n\t\t\tif self.parents then\r\n\t\t\t\tfor i=1,table.getn(self.parents) do\r\n\t\t\t\t\tpI[i] = string.gsub(self.parents[i], \"([^_%w]?)\"..self.args[j]..\"([^_%w]?)\", \"%1\"..Il[j]..\"%2\")\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\t--local append = \"<\"..string.gsub(types[i], \"%s+\", \",\")..\">\"\r\n\t\tlocal append = \"<\"..concat(Il, 1, table.getn(Il), \",\")..\">\"\r\n\t\tappend = string.gsub(append, \"%s*,%s*\", \",\")\r\n\t\tappend = string.gsub(append, \">>\", \"> >\")\r\n\t\tfor i=1,table.getn(pI) do\r\n\t\t\t--pI[i] = string.gsub(pI[i], \">>\", \"> >\")\r\n\t\t\tpI[i] = resolve_template_types(pI[i])\r\n\t\tend\r\n\t\tbI = string.gsub(bI, \">>\", \"> >\")\r\n\t\tlocal n = self.name\r\n\t\tif local_scope then\r\n\t\t\tn = self.local_name\r\n\t\tend\r\n\r\n\t\tClass(n..append, pI, bI)\r\n\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 4,
+    "text": "local Il = split_c_tokens(types[i], \" \")",
+    "type": "statement:localassign"
+  }, {
+    "id": 5,
+    "text": "if table.getn(Il) ~= table.getn(self.args) then\r\n\t\t\terror(\"#invalid parameter count for \"..types[i])\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 6,
+    "text": "error(\"#invalid parameter count for \"..types[i])",
+    "type": "statement:functioncall"
+  }, {
+    "id": 7,
+    "text": "local bI = self.body",
+    "type": "statement:localassign"
+  }, {
+    "id": 8,
+    "text": "local pI = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 9,
+    "text": "for j = 1,self.args.n do\r\n\t\t\t--Tl[j] = findtype(Tl[j]) or Tl[j]\r\n\t\t\tbI = string.gsub(bI, \"([^_%w])\"..self.args[j]..\"([^_%w])\", \"%1\"..Il[j]..\"%2\")\r\n\t\t\tif self.parents then\r\n\t\t\t\tfor i=1,table.getn(self.parents) do\r\n\t\t\t\t\tpI[i] = string.gsub(self.parents[i], \"([^_%w]?)\"..self.args[j]..\"([^_%w]?)\", \"%1\"..Il[j]..\"%2\")\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 10,
+    "text": "bI = string.gsub(bI, \"([^_%w])\"..self.args[j]..\"([^_%w])\", \"%1\"..Il[j]..\"%2\")",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "if self.parents then\r\n\t\t\t\tfor i=1,table.getn(self.parents) do\r\n\t\t\t\t\tpI[i] = string.gsub(self.parents[i], \"([^_%w]?)\"..self.args[j]..\"([^_%w]?)\", \"%1\"..Il[j]..\"%2\")\r\n\t\t\t\tend\r\n\t\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 12,
+    "text": "for i=1,table.getn(self.parents) do\r\n\t\t\t\t\tpI[i] = string.gsub(self.parents[i], \"([^_%w]?)\"..self.args[j]..\"([^_%w]?)\", \"%1\"..Il[j]..\"%2\")\r\n\t\t\t\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 13,
+    "text": "pI[i] = string.gsub(self.parents[i], \"([^_%w]?)\"..self.args[j]..\"([^_%w]?)\", \"%1\"..Il[j]..\"%2\")",
+    "type": "statement:assign"
+  }, {
+    "id": 14,
+    "text": "local append = \"<\"..concat(Il, 1, table.getn(Il), \",\")..\">\"",
+    "type": "statement:localassign"
+  }, {
+    "id": 15,
+    "text": "append = string.gsub(append, \"%s*,%s*\", \",\")",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "append = string.gsub(append, \">>\", \"> >\")",
+    "type": "statement:assign"
+  }, {
+    "id": 17,
+    "text": "for i=1,table.getn(pI) do\r\n\t\t\t--pI[i] = string.gsub(pI[i], \">>\", \"> >\")\r\n\t\t\tpI[i] = resolve_template_types(pI[i])\r\n\t\tend",
+    "type": "statement:numericfor"
+  }, {
+    "id": 18,
+    "text": "pI[i] = resolve_template_types(pI[i])",
+    "type": "statement:assign"
+  }, {
+    "id": 19,
+    "text": "bI = string.gsub(bI, \">>\", \"> >\")",
+    "type": "statement:assign"
+  }, {
+    "id": 20,
+    "text": "local n = self.name",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "if local_scope then\r\n\t\t\tn = self.local_name\r\n\t\tend",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "n = self.local_name",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "Class(n..append, pI, bI)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 25,
+    "text": "function TemplateClass(name, parents, body, parameters)\r\n\r\n\tlocal o = {\r\n\t\r\n\t\tparents = parents,\r\n\t\tbody = body,\r\n\t\targs = parameters,\r\n\t}\r\n\t\r\n\tlocal oname = string.gsub(name, \"@.*$\", \"\")\r\n\toname = getnamespace(classContainer.curr)..oname\r\n\to.name = oname\r\n\r\n\to.local_name = name\r\n\t\r\n\tsetmetatable(o, classTemplateClass)\r\n\r\n\tif _global_templates[oname] then\r\n\t\twarning(\"Duplicate declaration of template \"..oname)\r\n\telse\r\n\t\t_global_templates[oname] = o\r\n\tend\r\n\r\n\treturn o\r\nend",
+    "type": "function"
+  }, {
+    "id": 26,
+    "text": "local o = {\r\n\t\r\n\t\tparents = parents,\r\n\t\tbody = body,\r\n\t\targs = parameters,\r\n\t}",
+    "type": "statement:localassign"
+  }, {
+    "id": 27,
+    "text": "local oname = string.gsub(name, \"@.*$\", \"\")",
+    "type": "statement:localassign"
+  }, {
+    "id": 28,
+    "text": "oname = getnamespace(classContainer.curr)..oname",
+    "type": "statement:assign"
+  }, {
+    "id": 29,
+    "text": "o.name = oname",
+    "type": "statement:assign"
+  }, {
+    "id": 30,
+    "text": "o.local_name = name",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "setmetatable(o, classTemplateClass)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 32,
+    "text": "if _global_templates[oname] then\r\n\t\twarning(\"Duplicate declaration of template \"..oname)\r\n\telse\r\n\t\t_global_templates[oname] = o\r\n\tend",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "warning(\"Duplicate declaration of template \"..oname)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 34,
+    "text": "_global_templates[oname] = o",
+    "type": "statement:assign"
+  }, {
+    "id": 35,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 36,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 37,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 38,
+    "text": "Class",
+    "type": "global function"
+  }, {
+    "id": 39,
+    "text": "getnamespace",
+    "type": "global function"
+  }, {
+    "id": 40,
+    "text": "warning",
+    "type": "global function"
+  }, {
+    "id": 41,
+    "text": "resolve_template_types",
+    "type": "global function"
+  }, {
+    "id": 42,
+    "text": "split_c_tokens",
+    "type": "global function"
+  }, {
+    "id": 43,
+    "text": "getn",
+    "type": "global function"
+  }, {
+    "id": 44,
+    "text": "concat",
+    "type": "global function"
+  }, {
+    "id": 45,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 46,
+    "text": "gsub",
+    "type": "global function"
+  }, {
+    "id": 47,
+    "text": "setmetatable",
+    "type": "global function"
+  }, {
+    "id": 48,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 49,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 50,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 51,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 52,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 53,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 54,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 55,
+    "text": "",
+    "type": "n/a"
+  } ]
+}

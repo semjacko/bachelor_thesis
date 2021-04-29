@@ -1,0 +1,181 @@
+{
+  "_filename": "cl_errors.lua",
+  "_isShebang": false,
+  "_isSpec": true,
+  "_isTest": false,
+  "_path": "modules/busted/spec/cl_errors.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 10,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 11,
+    "label": "has",
+    "to": 7
+  }, {
+    "from": 9,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 13,
+    "label": "declares",
+    "to": 9
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 17
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 18
+  }, {
+    "from": 10,
+    "label": "hasArgument",
+    "to": 2
+  }, {
+    "from": 11,
+    "label": "hasArgument",
+    "to": 5
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "cl_errors",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function()\r\n    error('force an error')\r\n  end",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "error('force an error')",
+    "type": "statement:functioncall"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function()\r\n    local foo\r\n    foo.bar = nil\r\n  end",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "local foo",
+    "type": "statement:localassign"
+  }, {
+    "id": 7,
+    "text": "foo.bar = nil",
+    "type": "statement:assign"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "function()\r\n\r\n  it('is a test that throws an error #testerr', function()\r\n    error('force an error')\r\n  end)\r\n\r\n  it('is a test with a Lua error #luaerr', function()\r\n    local foo\r\n    foo.bar = nil\r\n  end)\r\nend",
+    "type": "function"
+  }, {
+    "id": 10,
+    "text": "it('is a test that throws an error #testerr', function()\r\n    error('force an error')\r\n  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 11,
+    "text": "it('is a test with a Lua error #luaerr', function()\r\n    local foo\r\n    foo.bar = nil\r\n  end)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 12,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 13,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 14,
+    "text": "it",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "describe",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "error",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 18,
+    "text": "",
+    "type": "require container"
+  } ]
+}

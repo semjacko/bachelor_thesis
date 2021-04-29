@@ -1,0 +1,1229 @@
+{
+  "_filename": "XML.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/lua-spore/src/Spore/Middleware/Format/XML.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 9
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 10
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 11
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 12
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 13
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 14
+  }, {
+    "from": 13,
+    "label": "has",
+    "to": 15
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 8,
+    "label": "has",
+    "to": 17
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 19
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 20
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 21
+  }, {
+    "from": 21,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 23
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 24
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 25
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "has",
+    "to": 27
+  }, {
+    "from": 25,
+    "label": "has",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "has",
+    "to": 29
+  }, {
+    "from": 29,
+    "label": "has",
+    "to": 30
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 31
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 32
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 33
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 34
+  }, {
+    "from": 34,
+    "label": "has",
+    "to": 35
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 36
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 36,
+    "label": "has",
+    "to": 38
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 39
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 40
+  }, {
+    "from": 40,
+    "label": "has",
+    "to": 41
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 42
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 43
+  }, {
+    "from": 43,
+    "label": "has",
+    "to": 44
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 46
+  }, {
+    "from": 42,
+    "label": "has",
+    "to": 47
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 48
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 49
+  }, {
+    "from": 49,
+    "label": "has",
+    "to": 50
+  }, {
+    "from": 48,
+    "label": "has",
+    "to": 51
+  }, {
+    "from": 47,
+    "label": "has",
+    "to": 52
+  }, {
+    "from": 35,
+    "label": "has",
+    "to": 53
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 54
+  }, {
+    "from": 54,
+    "label": "has",
+    "to": 22
+  }, {
+    "from": 32,
+    "label": "has",
+    "to": 55
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 56
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 57
+  }, {
+    "from": 57,
+    "label": "has",
+    "to": 37
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 18,
+    "label": "has",
+    "to": 58
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 60
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 59,
+    "label": "has",
+    "to": 61
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 63
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 64
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 65
+  }, {
+    "from": 65,
+    "label": "has",
+    "to": 66
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 67
+  }, {
+    "from": 66,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 69
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 70
+  }, {
+    "from": 69,
+    "label": "has",
+    "to": 71
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 72
+  }, {
+    "from": 72,
+    "label": "has",
+    "to": 73
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 74
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 75
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 76
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 45
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 77
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 78
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 79
+  }, {
+    "from": 78,
+    "label": "has",
+    "to": 80
+  }, {
+    "from": 71,
+    "label": "has",
+    "to": 68
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 81
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 62,
+    "label": "has",
+    "to": 82
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 84
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 85
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 86
+  }, {
+    "from": 85,
+    "label": "has",
+    "to": 87
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 88
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 83,
+    "label": "has",
+    "to": 98
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 89
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 90
+  }, {
+    "from": 89,
+    "label": "has",
+    "to": 91
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 92
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 93
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 94
+  }, {
+    "from": 93,
+    "label": "has",
+    "to": 95
+  }, {
+    "from": 91,
+    "label": "has",
+    "to": 96
+  }, {
+    "from": 96,
+    "label": "has",
+    "to": 97
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 16
+  }, {
+    "from": 99,
+    "label": "has",
+    "to": 100
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 105
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 107
+  }, {
+    "from": 83,
+    "label": "calls",
+    "to": 106
+  }, {
+    "from": 8,
+    "label": "calls",
+    "to": 104
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 83,
+    "label": "calls",
+    "to": 62
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 8
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 59,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 18,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 62,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 83,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 83,
+    "label": "calls",
+    "to": 108
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 101,
+    "label": "calls",
+    "to": 109
+  }, {
+    "from": 83,
+    "label": "calls",
+    "to": 103
+  }, {
+    "from": 83,
+    "label": "calls",
+    "to": 59
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 101
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 8
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 18
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 59
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 62
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 83
+  }, {
+    "from": 101,
+    "label": "declares",
+    "to": 99
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 111
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 112
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 113
+  }, {
+    "from": 113,
+    "label": "assigns",
+    "to": 114
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 115
+  }, {
+    "from": 115,
+    "label": "assigns",
+    "to": 116
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 117
+  }, {
+    "from": 117,
+    "label": "assigns",
+    "to": 118
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 119
+  }, {
+    "from": 119,
+    "label": "assigns",
+    "to": 120
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 121
+  }, {
+    "from": 121,
+    "label": "assigns",
+    "to": 122
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 123
+  }, {
+    "from": 111,
+    "label": "initializes",
+    "to": 124
+  }, {
+    "from": 124,
+    "label": "assigns",
+    "to": 125
+  }, {
+    "from": 112,
+    "label": "initializes",
+    "to": 126
+  }, {
+    "from": 126,
+    "label": "requires",
+    "to": 2
+  }, {
+    "from": 112,
+    "label": "initializes",
+    "to": 127
+  }, {
+    "from": 127,
+    "label": "requires",
+    "to": 128
+  }, {
+    "from": 1,
+    "label": "provides",
+    "to": 129
+  }, {
+    "from": 110,
+    "label": "represents",
+    "to": 130
+  }, {
+    "from": 129,
+    "label": "provides",
+    "to": 130
+  }, {
+    "from": 121,
+    "label": "contains",
+    "to": 3
+  }, {
+    "from": 121,
+    "label": "contains",
+    "to": 4
+  }, {
+    "from": 121,
+    "label": "contains",
+    "to": 5
+  }, {
+    "from": 121,
+    "label": "contains",
+    "to": 6
+  }, {
+    "from": 121,
+    "label": "contains",
+    "to": 7
+  }, {
+    "from": 121,
+    "label": "contains",
+    "to": 102
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "XML",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "Spore",
+    "type": "module"
+  }, {
+    "id": 3,
+    "text": "function m.new_from_discovery (api, opts)\r\n    opts = opts or {}\r\n    checktype('new_from_discovery', 2, opts, 'table')\r\n    if type(api) == 'string' then\r\n        local content = slurp(api)\r\n        return new_from_lua(convert(decode(content)), opts)\r\n    end\r\n    if type(api) == 'table' then\r\n        local discovery = new_from_lua {\r\n            base_url = 'https://www.googleapis.com/discovery/v1/',\r\n            methods = {\r\n                get = {\r\n                    path = 'apis/:api/:version/rest',\r\n                    method = 'GET',\r\n                    required_params = { 'api', 'version' },\r\n                    expected_status = { 200 },\r\n                },\r\n            },\r\n        }\r\n        discovery:enable 'Format.JSON'\r\n        local r = discovery:get(api)\r\n        return new_from_lua(convert(r.body), opts)\r\n    end\r\n    error(\"bad argument #1 to new_from_discovery (string or table expected, got \"\r\n          .. type(api) .. \")\")\r\nend",
+    "type": "function"
+  }, {
+    "id": 4,
+    "text": "function m.generate_nonce ()\r\n    return format('%08x', time())\r\nend",
+    "type": "function"
+  }, {
+    "id": 5,
+    "text": "function m.generate_timestamp ()\r\n    return tostring(time())\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "function m.generate_nonce ()\r\n    return digest('sha1', tostring(random()) .. 'random' .. tostring(time()), 'keyyyy')\r\nend",
+    "type": "function"
+  }, {
+    "id": 7,
+    "text": "function m.reset ()\r\n    collectgarbage 'collect'\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "local function escape (val, attr)\r\n    local str = tostring(val)\r\n    str = str:gsub('&', '&amp;')\r\n    str = str:gsub('<', '&lt;')\r\n    str = str:gsub('>', '&gt;')\r\n    if attr then\r\n        str = str:gsub('\"', '&quot;')\r\n        str = str:gsub(\"'\", '&apos;')\r\n    end\r\n    return str\r\nend",
+    "type": "function"
+  }, {
+    "id": 9,
+    "text": "local str = tostring(val)",
+    "type": "statement:localassign"
+  }, {
+    "id": 10,
+    "text": "str = str:gsub('&', '&amp;')",
+    "type": "statement:assign"
+  }, {
+    "id": 11,
+    "text": "str = str:gsub('<', '&lt;')",
+    "type": "statement:assign"
+  }, {
+    "id": 12,
+    "text": "str = str:gsub('>', '&gt;')",
+    "type": "statement:assign"
+  }, {
+    "id": 13,
+    "text": "if attr then\r\n        str = str:gsub('\"', '&quot;')\r\n        str = str:gsub(\"'\", '&apos;')\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 14,
+    "text": "str = str:gsub('\"', '&quot;')",
+    "type": "statement:assign"
+  }, {
+    "id": 15,
+    "text": "str = str:gsub(\"'\", '&apos;')",
+    "type": "statement:assign"
+  }, {
+    "id": 16,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 17,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 18,
+    "text": "local function element (name, t, options, level)\r\n    local indent = options.indent\r\n    local r = ''\r\n    if indent then\r\n        r = r .. indent:rep(level)\r\n    end\r\n    r = r .. '<' .. name\r\n    local h = {}\r\n    if type(t) == 'table' then\r\n        for i in ipairs(t) do\r\n            h[i] = true\r\n        end\r\n        for k, v in pairs(t) do\r\n            if not h[k] and type(v) ~= 'table' then\r\n                r = r .. ' ' .. k .. '=\"' .. escape(v, true) .. '\"'\r\n            end\r\n        end\r\n    end\r\n    r = r .. '>'\r\n    if type(t) == 'table' then\r\n        local first = true\r\n        for k, v in pairs(t) do\r\n            if type(v) == 'table' then\r\n                if indent and first then\r\n                    r = r .. '\\n'\r\n                    first = false\r\n                end\r\n                local n = 0\r\n                for _ in pairs(v) do\r\n                    n = n + 1\r\n                end\r\n                if #v == n then\r\n                    for i = 1, #v do\r\n                        r = r .. element(k, v[i], options, level+1)\r\n                    end\r\n                else\r\n                    local key_attr = options.key_attr or {}\r\n                    local key = key_attr[k]\r\n                    if key then\r\n                        for kk, vv in pairs(v) do\r\n                            if key then\r\n                                vv[key] = kk\r\n                            end\r\n                            r = r .. element(k, vv, options, level+1)\r\n                        end\r\n                    else\r\n                        r = r .. element(k, v, options, level+1)\r\n                    end\r\n                end\r\n            elseif h[k] then\r\n                r = r .. escape(v)\r\n            end\r\n        end\r\n        if indent and not first then\r\n            r = r .. indent:rep(level)\r\n        end\r\n    else\r\n        r = r .. escape(t)\r\n    end\r\n    r = r .. '</' .. name .. '>'\r\n    if indent then\r\n        r = r .. '\\n'\r\n    end\r\n    return r\r\nend",
+    "type": "function"
+  }, {
+    "id": 19,
+    "text": "local indent = options.indent",
+    "type": "statement:localassign"
+  }, {
+    "id": 20,
+    "text": "local r = ''",
+    "type": "statement:localassign"
+  }, {
+    "id": 21,
+    "text": "if indent then\r\n        r = r .. indent:rep(level)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 22,
+    "text": "r = r .. indent:rep(level)",
+    "type": "statement:assign"
+  }, {
+    "id": 23,
+    "text": "r = r .. '<' .. name",
+    "type": "statement:assign"
+  }, {
+    "id": 24,
+    "text": "local h = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 25,
+    "text": "if type(t) == 'table' then\r\n        for i in ipairs(t) do\r\n            h[i] = true\r\n        end\r\n        for k, v in pairs(t) do\r\n            if not h[k] and type(v) ~= 'table' then\r\n                r = r .. ' ' .. k .. '=\"' .. escape(v, true) .. '\"'\r\n            end\r\n        end\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 26,
+    "text": "for i in ipairs(t) do\r\n            h[i] = true\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 27,
+    "text": "h[i] = true",
+    "type": "statement:assign"
+  }, {
+    "id": 28,
+    "text": "for k, v in pairs(t) do\r\n            if not h[k] and type(v) ~= 'table' then\r\n                r = r .. ' ' .. k .. '=\"' .. escape(v, true) .. '\"'\r\n            end\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 29,
+    "text": "if not h[k] and type(v) ~= 'table' then\r\n                r = r .. ' ' .. k .. '=\"' .. escape(v, true) .. '\"'\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 30,
+    "text": "r = r .. ' ' .. k .. '=\"' .. escape(v, true) .. '\"'",
+    "type": "statement:assign"
+  }, {
+    "id": 31,
+    "text": "r = r .. '>'",
+    "type": "statement:assign"
+  }, {
+    "id": 32,
+    "text": "if type(t) == 'table' then\r\n        local first = true\r\n        for k, v in pairs(t) do\r\n            if type(v) == 'table' then\r\n                if indent and first then\r\n                    r = r .. '\\n'\r\n                    first = false\r\n                end\r\n                local n = 0\r\n                for _ in pairs(v) do\r\n                    n = n + 1\r\n                end\r\n                if #v == n then\r\n                    for i = 1, #v do\r\n                        r = r .. element(k, v[i], options, level+1)\r\n                    end\r\n                else\r\n                    local key_attr = options.key_attr or {}\r\n                    local key = key_attr[k]\r\n                    if key then\r\n                        for kk, vv in pairs(v) do\r\n                            if key then\r\n                                vv[key] = kk\r\n                            end\r\n                            r = r .. element(k, vv, options, level+1)\r\n                        end\r\n                    else\r\n                        r = r .. element(k, v, options, level+1)\r\n                    end\r\n                end\r\n            elseif h[k] then\r\n                r = r .. escape(v)\r\n            end\r\n        end\r\n        if indent and not first then\r\n            r = r .. indent:rep(level)\r\n        end\r\n    else\r\n        r = r .. escape(t)\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 33,
+    "text": "local first = true",
+    "type": "statement:localassign"
+  }, {
+    "id": 34,
+    "text": "for k, v in pairs(t) do\r\n            if type(v) == 'table' then\r\n                if indent and first then\r\n                    r = r .. '\\n'\r\n                    first = false\r\n                end\r\n                local n = 0\r\n                for _ in pairs(v) do\r\n                    n = n + 1\r\n                end\r\n                if #v == n then\r\n                    for i = 1, #v do\r\n                        r = r .. element(k, v[i], options, level+1)\r\n                    end\r\n                else\r\n                    local key_attr = options.key_attr or {}\r\n                    local key = key_attr[k]\r\n                    if key then\r\n                        for kk, vv in pairs(v) do\r\n                            if key then\r\n                                vv[key] = kk\r\n                            end\r\n                            r = r .. element(k, vv, options, level+1)\r\n                        end\r\n                    else\r\n                        r = r .. element(k, v, options, level+1)\r\n                    end\r\n                end\r\n            elseif h[k] then\r\n                r = r .. escape(v)\r\n            end\r\n        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 35,
+    "text": "if type(v) == 'table' then\r\n                if indent and first then\r\n                    r = r .. '\\n'\r\n                    first = false\r\n                end\r\n                local n = 0\r\n                for _ in pairs(v) do\r\n                    n = n + 1\r\n                end\r\n                if #v == n then\r\n                    for i = 1, #v do\r\n                        r = r .. element(k, v[i], options, level+1)\r\n                    end\r\n                else\r\n                    local key_attr = options.key_attr or {}\r\n                    local key = key_attr[k]\r\n                    if key then\r\n                        for kk, vv in pairs(v) do\r\n                            if key then\r\n                                vv[key] = kk\r\n                            end\r\n                            r = r .. element(k, vv, options, level+1)\r\n                        end\r\n                    else\r\n                        r = r .. element(k, v, options, level+1)\r\n                    end\r\n                end\r\n            elseif h[k] then\r\n                r = r .. escape(v)\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 36,
+    "text": "if indent and first then\r\n                    r = r .. '\\n'\r\n                    first = false\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 37,
+    "text": "r = r .. '\\n'",
+    "type": "statement:assign"
+  }, {
+    "id": 38,
+    "text": "first = false",
+    "type": "statement:assign"
+  }, {
+    "id": 39,
+    "text": "local n = 0",
+    "type": "statement:localassign"
+  }, {
+    "id": 40,
+    "text": "for _ in pairs(v) do\r\n                    n = n + 1\r\n                end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 41,
+    "text": "n = n + 1",
+    "type": "statement:assign"
+  }, {
+    "id": 42,
+    "text": "if #v == n then\r\n                    for i = 1, #v do\r\n                        r = r .. element(k, v[i], options, level+1)\r\n                    end\r\n                else\r\n                    local key_attr = options.key_attr or {}\r\n                    local key = key_attr[k]\r\n                    if key then\r\n                        for kk, vv in pairs(v) do\r\n                            if key then\r\n                                vv[key] = kk\r\n                            end\r\n                            r = r .. element(k, vv, options, level+1)\r\n                        end\r\n                    else\r\n                        r = r .. element(k, v, options, level+1)\r\n                    end\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 43,
+    "text": "for i = 1, #v do\r\n                        r = r .. element(k, v[i], options, level+1)\r\n                    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 44,
+    "text": "r = r .. element(k, v[i], options, level+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 45,
+    "text": "local key_attr = options.key_attr or {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 46,
+    "text": "local key = key_attr[k]",
+    "type": "statement:localassign"
+  }, {
+    "id": 47,
+    "text": "if key then\r\n                        for kk, vv in pairs(v) do\r\n                            if key then\r\n                                vv[key] = kk\r\n                            end\r\n                            r = r .. element(k, vv, options, level+1)\r\n                        end\r\n                    else\r\n                        r = r .. element(k, v, options, level+1)\r\n                    end",
+    "type": "statement:if"
+  }, {
+    "id": 48,
+    "text": "for kk, vv in pairs(v) do\r\n                            if key then\r\n                                vv[key] = kk\r\n                            end\r\n                            r = r .. element(k, vv, options, level+1)\r\n                        end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 49,
+    "text": "if key then\r\n                                vv[key] = kk\r\n                            end",
+    "type": "statement:if"
+  }, {
+    "id": 50,
+    "text": "vv[key] = kk",
+    "type": "statement:assign"
+  }, {
+    "id": 51,
+    "text": "r = r .. element(k, vv, options, level+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 52,
+    "text": "r = r .. element(k, v, options, level+1)",
+    "type": "statement:assign"
+  }, {
+    "id": 53,
+    "text": "r = r .. escape(v)",
+    "type": "statement:assign"
+  }, {
+    "id": 54,
+    "text": "if indent and not first then\r\n            r = r .. indent:rep(level)\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 55,
+    "text": "r = r .. escape(t)",
+    "type": "statement:assign"
+  }, {
+    "id": 56,
+    "text": "r = r .. '</' .. name .. '>'",
+    "type": "statement:assign"
+  }, {
+    "id": 57,
+    "text": "if indent then\r\n        r = r .. '\\n'\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 58,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 59,
+    "text": "local function to_xml (t, options)\r\n    for k, v in pairs(t) do\r\n        return element(k, v, options or {}, 0)\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 60,
+    "text": "for k, v in pairs(t) do\r\n        return element(k, v, options or {}, 0)\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 61,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 62,
+    "text": "local function collapse (doc, options)\r\n    local string_leaf = true\r\n    local t = {}\r\n    for k, v in pairs(doc.attr) do\r\n        if type(k) == 'string' then\r\n            t[k] = v\r\n            string_leaf = false\r\n        end\r\n    end\r\n    for i = 1, #doc do\r\n        local v = doc[i]\r\n        if type(v) == 'string' then\r\n            if not v:match '^%s+' then\r\n                t[#t+1] = v\r\n            end\r\n        else\r\n            local name = v.tag\r\n            t[name] = t[name] or {}\r\n            local tt = t[name]\r\n            local key_attr = options.key_attr or {}\r\n            local key = v.attr[key_attr[name]]\r\n            if key then\r\n                tt[key] = collapse(v, options)\r\n            else\r\n                tt[#tt+1] = collapse(v, options)\r\n            end\r\n            string_leaf = false\r\n        end\r\n    end\r\n    if string_leaf and #t <= 1 then\r\n        return t[1]\r\n    else\r\n        return t\r\n    end\r\nend",
+    "type": "function"
+  }, {
+    "id": 63,
+    "text": "local string_leaf = true",
+    "type": "statement:localassign"
+  }, {
+    "id": 64,
+    "text": "local t = {}",
+    "type": "statement:localassign"
+  }, {
+    "id": 65,
+    "text": "for k, v in pairs(doc.attr) do\r\n        if type(k) == 'string' then\r\n            t[k] = v\r\n            string_leaf = false\r\n        end\r\n    end",
+    "type": "statement:genericfor"
+  }, {
+    "id": 66,
+    "text": "if type(k) == 'string' then\r\n            t[k] = v\r\n            string_leaf = false\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 67,
+    "text": "t[k] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 68,
+    "text": "string_leaf = false",
+    "type": "statement:assign"
+  }, {
+    "id": 69,
+    "text": "for i = 1, #doc do\r\n        local v = doc[i]\r\n        if type(v) == 'string' then\r\n            if not v:match '^%s+' then\r\n                t[#t+1] = v\r\n            end\r\n        else\r\n            local name = v.tag\r\n            t[name] = t[name] or {}\r\n            local tt = t[name]\r\n            local key_attr = options.key_attr or {}\r\n            local key = v.attr[key_attr[name]]\r\n            if key then\r\n                tt[key] = collapse(v, options)\r\n            else\r\n                tt[#tt+1] = collapse(v, options)\r\n            end\r\n            string_leaf = false\r\n        end\r\n    end",
+    "type": "statement:numericfor"
+  }, {
+    "id": 70,
+    "text": "local v = doc[i]",
+    "type": "statement:localassign"
+  }, {
+    "id": 71,
+    "text": "if type(v) == 'string' then\r\n            if not v:match '^%s+' then\r\n                t[#t+1] = v\r\n            end\r\n        else\r\n            local name = v.tag\r\n            t[name] = t[name] or {}\r\n            local tt = t[name]\r\n            local key_attr = options.key_attr or {}\r\n            local key = v.attr[key_attr[name]]\r\n            if key then\r\n                tt[key] = collapse(v, options)\r\n            else\r\n                tt[#tt+1] = collapse(v, options)\r\n            end\r\n            string_leaf = false\r\n        end",
+    "type": "statement:if"
+  }, {
+    "id": 72,
+    "text": "if not v:match '^%s+' then\r\n                t[#t+1] = v\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 73,
+    "text": "t[#t+1] = v",
+    "type": "statement:assign"
+  }, {
+    "id": 74,
+    "text": "local name = v.tag",
+    "type": "statement:localassign"
+  }, {
+    "id": 75,
+    "text": "t[name] = t[name] or {}",
+    "type": "statement:assign"
+  }, {
+    "id": 76,
+    "text": "local tt = t[name]",
+    "type": "statement:localassign"
+  }, {
+    "id": 77,
+    "text": "local key = v.attr[key_attr[name]]",
+    "type": "statement:localassign"
+  }, {
+    "id": 78,
+    "text": "if key then\r\n                tt[key] = collapse(v, options)\r\n            else\r\n                tt[#tt+1] = collapse(v, options)\r\n            end",
+    "type": "statement:if"
+  }, {
+    "id": 79,
+    "text": "tt[key] = collapse(v, options)",
+    "type": "statement:assign"
+  }, {
+    "id": 80,
+    "text": "tt[#tt+1] = collapse(v, options)",
+    "type": "statement:assign"
+  }, {
+    "id": 81,
+    "text": "if string_leaf and #t <= 1 then\r\n        return t[1]\r\n    else\r\n        return t\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 82,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 83,
+    "text": "function m:call (req)\r\n    local spore = req.env.spore\r\n    if spore.payload and type(spore.payload) == 'table' then\r\n        spore.payload = to_xml(spore.payload, self)\r\n        req.headers['content-type'] = 'text/xml'\r\n    end\r\n    req.headers['accept'] = 'text/xml'\r\n    return  function (res)\r\n                if type(res.body) == 'string' and res.body:match'%S' then\r\n                    local r, msg = xml.parse(res.body)\r\n                    if r then\r\n                        res.body = { [r.tag] = collapse(r, self) }\r\n                    else\r\n                        if spore.errors then\r\n                            spore.errors:write(msg, \"\\n\")\r\n                            spore.errors:write(res.body, \"\\n\")\r\n                        end\r\n                        if res.status == 200 then\r\n                            raises(res, msg)\r\n                        end\r\n                    end\r\n                end\r\n                return res\r\n            end\r\nend",
+    "type": "function"
+  }, {
+    "id": 84,
+    "text": "local spore = req.env.spore",
+    "type": "statement:localassign"
+  }, {
+    "id": 85,
+    "text": "if spore.payload and type(spore.payload) == 'table' then\r\n        spore.payload = to_xml(spore.payload, self)\r\n        req.headers['content-type'] = 'text/xml'\r\n    end",
+    "type": "statement:if"
+  }, {
+    "id": 86,
+    "text": "spore.payload = to_xml(spore.payload, self)",
+    "type": "statement:assign"
+  }, {
+    "id": 87,
+    "text": "req.headers['content-type'] = 'text/xml'",
+    "type": "statement:assign"
+  }, {
+    "id": 88,
+    "text": "req.headers['accept'] = 'text/xml'",
+    "type": "statement:assign"
+  }, {
+    "id": 89,
+    "text": "if type(res.body) == 'string' and res.body:match'%S' then\r\n                    local r, msg = xml.parse(res.body)\r\n                    if r then\r\n                        res.body = { [r.tag] = collapse(r, self) }\r\n                    else\r\n                        if spore.errors then\r\n                            spore.errors:write(msg, \"\\n\")\r\n                            spore.errors:write(res.body, \"\\n\")\r\n                        end\r\n                        if res.status == 200 then\r\n                            raises(res, msg)\r\n                        end\r\n                    end\r\n                end",
+    "type": "statement:if"
+  }, {
+    "id": 90,
+    "text": "local r, msg = xml.parse(res.body)",
+    "type": "statement:localassign"
+  }, {
+    "id": 91,
+    "text": "if r then\r\n                        res.body = { [r.tag] = collapse(r, self) }\r\n                    else\r\n                        if spore.errors then\r\n                            spore.errors:write(msg, \"\\n\")\r\n                            spore.errors:write(res.body, \"\\n\")\r\n                        end\r\n                        if res.status == 200 then\r\n                            raises(res, msg)\r\n                        end\r\n                    end",
+    "type": "statement:if"
+  }, {
+    "id": 92,
+    "text": "res.body = { [r.tag] = collapse(r, self) }",
+    "type": "statement:assign"
+  }, {
+    "id": 93,
+    "text": "if spore.errors then\r\n                            spore.errors:write(msg, \"\\n\")\r\n                            spore.errors:write(res.body, \"\\n\")\r\n                        end",
+    "type": "statement:if"
+  }, {
+    "id": 94,
+    "text": "spore.errors:write(msg, \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 95,
+    "text": "spore.errors:write(res.body, \"\\n\")",
+    "type": "statement:functioncall"
+  }, {
+    "id": 96,
+    "text": "if res.status == 200 then\r\n                            raises(res, msg)\r\n                        end",
+    "type": "statement:if"
+  }, {
+    "id": 97,
+    "text": "raises(res, msg)",
+    "type": "statement:functioncall"
+  }, {
+    "id": 98,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 99,
+    "text": "function (res)\r\n                if type(res.body) == 'string' and res.body:match'%S' then\r\n                    local r, msg = xml.parse(res.body)\r\n                    if r then\r\n                        res.body = { [r.tag] = collapse(r, self) }\r\n                    else\r\n                        if spore.errors then\r\n                            spore.errors:write(msg, \"\\n\")\r\n                            spore.errors:write(res.body, \"\\n\")\r\n                        end\r\n                        if res.status == 200 then\r\n                            raises(res, msg)\r\n                        end\r\n                    end\r\n                end\r\n                return res\r\n            end",
+    "type": "function"
+  }, {
+    "id": 100,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 101,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 102,
+    "text": "function m.new (env)\r\n    local obj = {\r\n        env = env,\r\n        redirect = m.redirect,\r\n        headers = {\r\n            ['user-agent'] = env.HTTP_USER_AGENT,\r\n        },\r\n    }\r\n    return setmetatable(obj, {\r\n        __index = m,\r\n    })\r\nend",
+    "type": "function"
+  }, {
+    "id": 103,
+    "text": "parse",
+    "type": "global function"
+  }, {
+    "id": 104,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 105,
+    "text": "ipairs",
+    "type": "global function"
+  }, {
+    "id": 106,
+    "text": "raises",
+    "type": "global function"
+  }, {
+    "id": 107,
+    "text": "pairs",
+    "type": "global function"
+  }, {
+    "id": 108,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 109,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 110,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 111,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 112,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 113,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 114,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 115,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 116,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 117,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 118,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 119,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 120,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 121,
+    "text": "",
+    "type": "local variable"
+  }, {
+    "id": 122,
+    "text": "",
+    "type": "tableconstructor"
+  }, {
+    "id": 123,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 124,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 125,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 126,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 127,
+    "text": "",
+    "type": "require local variable"
+  }, {
+    "id": 128,
+    "text": "lom",
+    "type": "module"
+  }, {
+    "id": 129,
+    "text": "",
+    "type": "interface container"
+  }, {
+    "id": 130,
+    "text": "",
+    "type": "interface"
+  } ]
+}

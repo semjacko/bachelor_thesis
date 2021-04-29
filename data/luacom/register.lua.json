@@ -1,0 +1,281 @@
+{
+  "_filename": "register.lua",
+  "_isShebang": false,
+  "_isSpec": false,
+  "_isTest": false,
+  "_path": "modules/luacom/demo/odl/register.lua",
+  "edges": [ {
+    "from": 0,
+    "label": "implements",
+    "to": 1
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 2,
+    "label": "has",
+    "to": 4
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 5,
+    "label": "has",
+    "to": 6
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 3
+  }, {
+    "from": 7,
+    "label": "has",
+    "to": 8
+  }, {
+    "from": 5,
+    "label": "calls",
+    "to": 12
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 17
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 18
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 13
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 15
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 14
+  }, {
+    "from": 7,
+    "label": "calls",
+    "to": 16
+  }, {
+    "from": 9,
+    "label": "calls",
+    "to": 11
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 9
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 2
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 5
+  }, {
+    "from": 9,
+    "label": "declares",
+    "to": 7
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 20
+  }, {
+    "from": 1,
+    "label": "contains",
+    "to": 21
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 22
+  }, {
+    "from": 22,
+    "label": "assigns",
+    "to": 23
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 24
+  }, {
+    "from": 24,
+    "label": "assigns",
+    "to": 25
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 26
+  }, {
+    "from": 26,
+    "label": "assigns",
+    "to": 27
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 28
+  }, {
+    "from": 28,
+    "label": "assigns",
+    "to": 29
+  }, {
+    "from": 20,
+    "label": "initializes",
+    "to": 30
+  }, {
+    "from": 30,
+    "label": "assigns",
+    "to": 31
+  }, {
+    "from": 21,
+    "label": "initializes",
+    "to": 19
+  }, {
+    "from": 28,
+    "label": "contains",
+    "to": 10
+  } ],
+  "nodes": [ {
+    "id": 0,
+    "text": "",
+    "type": "file"
+  }, {
+    "id": 1,
+    "text": "register",
+    "type": "module"
+  }, {
+    "id": 2,
+    "text": "function obj:Sum(i1, i2)\r\n  return i1 + i2\r\nend",
+    "type": "function"
+  }, {
+    "id": 3,
+    "text": "return",
+    "type": "statement:keyword"
+  }, {
+    "id": 4,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 5,
+    "text": "function obj:I2A(i1)\r\n  return tostring(i1)\r\nend",
+    "type": "function"
+  }, {
+    "id": 6,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 7,
+    "text": "function obj:IntDivide(i1, i2)\r\n  return math.floor(i1/i2),math.mod(i1, i2)\r\nend",
+    "type": "function"
+  }, {
+    "id": 8,
+    "text": "",
+    "type": "blank lines"
+  }, {
+    "id": 9,
+    "text": "",
+    "type": "function container"
+  }, {
+    "id": 10,
+    "text": "function() return 2 end",
+    "type": "function"
+  }, {
+    "id": 11,
+    "text": "ImplInterfaceFromTypelib",
+    "type": "global function"
+  }, {
+    "id": 12,
+    "text": "tostring",
+    "type": "global function"
+  }, {
+    "id": 13,
+    "text": "NewLibrary",
+    "type": "global function"
+  }, {
+    "id": 14,
+    "text": "print",
+    "type": "global function"
+  }, {
+    "id": 15,
+    "text": "type",
+    "type": "global function"
+  }, {
+    "id": 16,
+    "text": "floor",
+    "type": "global function"
+  }, {
+    "id": 17,
+    "text": "mod",
+    "type": "global function"
+  }, {
+    "id": 18,
+    "text": "require",
+    "type": "global function"
+  }, {
+    "id": 19,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 20,
+    "text": "",
+    "type": "variable container"
+  }, {
+    "id": 21,
+    "text": "",
+    "type": "require container"
+  }, {
+    "id": 22,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 23,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 24,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 25,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 26,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 27,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 28,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 29,
+    "text": "",
+    "type": "n/a"
+  }, {
+    "id": 30,
+    "text": "",
+    "type": "global variable"
+  }, {
+    "id": 31,
+    "text": "",
+    "type": "n/a"
+  } ]
+}
