@@ -1,17 +1,5 @@
 #!/bin/bash
 
-curl -o all_packages.txt http://luarocks.org/manifest
-
-PACKAGES=$(grep -E "^   [[:alnum:]]|^   \\['" all_packages.txt | \
-           tr -d '[' | \
-           tr -d ']' | \
-           tr -d "\'" | \
-           cut -d "=" -f1 | \
-           tr -d ' ')
-
-for PACKAGE in $PACKAGES ; do
-    luarocks install --tree "modules/$PACKAGE" $PACKAGE --deps-mode=none
-    if [ $? -ne 0 ] ; then
-        rm -rf "modules/$PACKAGE"
-    fi
-done
+git clone git://github.com/LuaDist/Repository.git
+cd Repository
+git submodule update --init --recursive

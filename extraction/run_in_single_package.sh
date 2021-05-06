@@ -1,3 +1,3 @@
 #!/bin/bash
 
-lua lrdb_debug.lua "modules/$1" >/dev/null
+lua graph_extraction.lua "modules/$1" >/dev/null
