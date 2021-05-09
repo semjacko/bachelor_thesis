@@ -1,7 +1,7 @@
 {
   "_filename": "base_spec.lua",
   "_isShebang": false,
-  "_isSpec": false,
+  "_isSpec": true,
   "_isTest": true,
   "_path": "modules/basexx/test/base_spec.lua",
   "edges": [ {

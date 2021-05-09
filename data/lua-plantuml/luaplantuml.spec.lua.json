@@ -1,7 +1,7 @@
 {
   "_filename": "luaplantuml.spec.lua",
   "_isShebang": false,
-  "_isSpec": false,
+  "_isSpec": true,
   "_isTest": true,
   "_path": "modules/lua-plantuml/tests/luaplantuml.spec.lua",
   "edges": [ {
