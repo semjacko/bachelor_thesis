@@ -11,7 +11,6 @@ utils = require "luadb.utils"
 
 
 -- vrati velky graf nad celym priecinkom ale len s dolezitymi uzlami a hranami
--- rooty zacinaju v uzle typu "file" cize graf moze byt rozdeleny na viacero nespojenych grafov podla .lua suborov
 local function myExtract(graph)
 
 	local newGraph = {edges={}, nodes={}}
