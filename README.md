@@ -12,6 +12,7 @@ Cieľom tejto bakalárskej práce bolo klasifikovať zdrojové kódy (programova
 
 ## Extrakcia grafov zo zdrojových kódov.
 Pri tomto kroku som nadviazal na doterajšie práce a použil extraktor z existujúceho projektu https://team05-19.studenti.fiit.stuba.sk/docs/projekt/develop/dokumentacia_k_produktu/dokumentacia_k_zdrojovemu_kodu/.
-Tento extraktor vytvorí veľký graf nad celým repozitárom, preto bolo nutné tento graf ďalej spracovať. Moje zdrojové kódy k tomuto kroku sa nachádzajú zložke `extraction`
+Tento extraktor vytvorí veľký graf nad celým repozitárom, preto bolo nutné tento graf ďalej spracovať. Moje zdrojové kódy k tomuto kroku sa nachádzajú v zložke `extraction`
 
 ## Vytovrenie klasifikátora
+Extrahované grafy som načítal v prostredí Jupyter Notebook a následne som ich ďalej spracúval a "čistil". Po získaní finálneho datasetu z grafov som vytvoril a natrénoval model neurónovej siete. Zdrojové kódy k týmto krokom sa nachádzajú v zložke `classification`
