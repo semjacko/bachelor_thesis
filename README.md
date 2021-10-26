@@ -11,7 +11,7 @@ Cieľom tejto bakalárskej práce bolo klasifikovať zdrojové kódy (programova
 
 
 ## Extrakcia grafov zo zdrojových kódov.
-Pri tomto kroku som nadviazal na doterajšie práce a použil extraktor z existujúceho projektu https://team05-19.studenti.fiit.stuba.sk/docs/projekt/develop/dokumentacia_k_produktu/dokumentacia_k_zdrojovemu_kodu/.
+Pri tomto kroku som nadviazal na doterajšie práce a použil extraktor z existujúceho projektu http://labss2.fiit.stuba.sk/TeamProject/2020/team03/.
 Tento extraktor vytvorí veľký graf nad celým repozitárom, preto bolo nutné tento graf ďalej spracovať. Moje zdrojové kódy k tomuto kroku sa nachádzajú v zložke `extraction`
 
 ## Vytovrenie klasifikátora
