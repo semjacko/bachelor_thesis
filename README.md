@@ -1,5 +1,5 @@
 ## Bakalárska práca
-# Využitie strojového učenie pri získavaní dát zo softvérových repozitárov
+# Využitie strojového učenie pri získavaní znalostí zo softvérových repozitárov
 
 Cieľom tejto bakalárskej práce bolo klasifikovať zdrojové kódy (programovacieho jazyka lua) do určitých tried.
 
